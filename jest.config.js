@@ -1,13 +1,7 @@
 module.exports = {
-  testEnvironment: "node",
+  preset: "jest-expo",
   setupFilesAfterEnv: [],
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
-  transform: {
-    "^.+\\.(ts|tsx)$": ["babel-jest", { root: __dirname }]
-  },
-  testMatch: ["**/?(*.)+(spec|test).ts?(x)"],
-  collectCoverageFrom: [
-    "src/**/*.{ts,tsx}",
-    "!src/**/*.d.ts"
+  transformIgnorePatterns: [
+    "node_modules/(?!((jest-)?react-native|@react-native(-community)?|expo(nent)?|expo-modules-core|@expo(nent)?/.*|@react-navigation/.*)/)"
   ]
 };
