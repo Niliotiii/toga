@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useCallback, useRef } from "react";
+import React, { createContext, useContext, useState, useCallback, useRef, useEffect } from "react";
 import { Dificuldade, Questao } from "../types";
 import { QUESTOES_DB } from "../data/questoes";
 import { TEMAS, DIFICULDADES } from "../data/temas";
@@ -55,6 +55,15 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<GameState>(initialState);
   const stateRef = useRef(state);
   stateRef.current = state;
+  // Mirrors "used eliminar for the current question" synchronously, so two
+  // back-to-back calls to usarEliminar() within the same JS tick (no render
+  // in between) can't both pass the outer guard off a stale stateRef
+  // snapshot. Reset alongside eliminadasQuestaoAtual in iniciarRodada/avancar.
+  const usedEliminarThisQuestionRef = useRef(false);
+
+  useEffect(() => {
+    getCronometroPref().then((v) => setState((s) => ({ ...s, cronometroAtivo: v })));
+  }, []);
 
   const setTema = useCallback((t: string) => setState((s) => ({ ...s, tema: t })), []);
   const setDificuldade = useCallback((d: Dificuldade) => setState((s) => ({ ...s, dificuldade: d })), []);
@@ -72,6 +81,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const iniciarRodada = useCallback(() => {
+    usedEliminarThisQuestionRef.current = false;
     setState((s) => ({
       ...s,
       rodada: buildRodada(QUESTOES_DB, s.tema, s.dificuldade, ROUND_SIZE),
@@ -126,9 +136,19 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   const usarEliminar = useCallback((): number[] => {
     const s = stateRef.current;
     const q = s.rodada[s.indice];
-    if (s.respondida || s.powerups.eliminar <= 0 || s.eliminadasQuestaoAtual || !q) {
+    if (
+      s.respondida ||
+      s.powerups.eliminar <= 0 ||
+      s.eliminadasQuestaoAtual ||
+      usedEliminarThisQuestionRef.current ||
+      !q
+    ) {
       return [];
     }
+    // Flip synchronously so a second call in the same tick (before any
+    // render/effect flushes stateRef) is rejected by the guard above.
+    usedEliminarThisQuestionRef.current = true;
+
     const errados: number[] = [];
     q.alternativas.forEach((_, idx) => {
       if (idx !== q.resposta_correta) errados.push(idx);
@@ -157,6 +177,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const avancar = useCallback(() => {
+    usedEliminarThisQuestionRef.current = false;
     setState((s) => {
       const proximoIndice = s.indice + 1;
       if (proximoIndice >= s.rodada.length) return { ...s, indice: proximoIndice };

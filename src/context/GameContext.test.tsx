@@ -1,6 +1,8 @@
 import React from "react";
 import { renderHook, act } from "@testing-library/react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { GameProvider, useGame } from "./GameContext";
+import { CRONOMETRO_KEY } from "../services/storage";
 
 function wrapper({ children }: { children: React.ReactNode }) {
   return <GameProvider>{children}</GameProvider>;
@@ -89,6 +91,28 @@ test("usarEliminar removes two wrong alternatives and can only be used once per 
   expect(removed.length).toBe(0); // already used this question
 });
 
+test("usarEliminar rejects a synchronous double-invocation with no render in between", async () => {
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(() => {
+    result.current.setTema("Direito Penal");
+    result.current.setDificuldade("facil");
+  });
+  await act(() => result.current.iniciarRodada());
+
+  let first: number[] = [];
+  let second: number[] = [];
+  await act(() => {
+    // Both calls happen synchronously within the same act/tick, before any
+    // render flushes stateRef with the updated eliminadasQuestaoAtual value.
+    first = result.current.usarEliminar();
+    second = result.current.usarEliminar();
+  });
+
+  expect(first.length).toBe(2);
+  expect(second.length).toBe(0);
+  expect(result.current.state.powerups.eliminar).toBe(0);
+});
+
 test("avancar moves to the next question and does not overflow past rodada length", async () => {
   const { result } = await renderHook(() => useGame(), { wrapper });
   await act(() => {
@@ -102,4 +126,13 @@ test("avancar moves to the next question and does not overflow past rodada lengt
     await act(() => result.current.avancar());
   }
   expect(result.current.state.indice).toBe(total);
+});
+
+test("cronometroAtivo is hydrated from AsyncStorage on provider mount", async () => {
+  await AsyncStorage.setItem(CRONOMETRO_KEY, "1");
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(async () => {
+    await Promise.resolve();
+  });
+  expect(result.current.state.cronometroAtivo).toBe(true);
 });
