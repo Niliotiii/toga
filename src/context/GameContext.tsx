@@ -60,15 +60,24 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   // in between) can't both pass the outer guard off a stale stateRef
   // snapshot. Reset alongside eliminadasQuestaoAtual in iniciarRodada/avancar.
   const usedEliminarThisQuestionRef = useRef(false);
+  // Tracks whether the user has manually toggled cronometro since mount.
+  // The storage-hydration effect below resolves asynchronously and must
+  // never clobber a toggle the user already performed while it was still
+  // in flight, so it checks this ref before applying its result.
+  const userToggledCronometroRef = useRef(false);
 
   useEffect(() => {
-    getCronometroPref().then((v) => setState((s) => ({ ...s, cronometroAtivo: v })));
+    getCronometroPref().then((v) => {
+      if (userToggledCronometroRef.current) return;
+      setState((s) => ({ ...s, cronometroAtivo: v }));
+    });
   }, []);
 
   const setTema = useCallback((t: string) => setState((s) => ({ ...s, tema: t })), []);
   const setDificuldade = useCallback((d: Dificuldade) => setState((s) => ({ ...s, dificuldade: d })), []);
 
   const toggleCronometro = useCallback(async () => {
+    userToggledCronometroRef.current = true;
     const novo = !stateRef.current.cronometroAtivo;
     // Flip in-memory state synchronously first so the UI (and any screen
     // that mounts right after this call, e.g. GameScreen after a quick

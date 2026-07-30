@@ -8,6 +8,14 @@ function wrapper({ children }: { children: React.ReactNode }) {
   return <GameProvider>{children}</GameProvider>;
 }
 
+// The AsyncStorage jest mock is module-scoped and never cleared between
+// tests on its own, so leftover keys (e.g. CRONOMETRO_KEY) from one test
+// can silently leak into the next and mask real bugs. Clear it before
+// every test so each one starts from a known-empty storage.
+beforeEach(async () => {
+  await AsyncStorage.clear();
+});
+
 test("iniciarRodada builds a rodada of up to 5 questions and resets round state", async () => {
   const { result } = await renderHook(() => useGame(), { wrapper });
   await act(() => {

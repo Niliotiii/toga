@@ -16,6 +16,14 @@ function Setup({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }
 
+// The AsyncStorage jest mock is module-scoped and never cleared between
+// tests on its own, so leftover keys (e.g. CRONOMETRO_KEY) from one test
+// can silently leak into the next and mask real bugs. Clear it before
+// every test so each one starts from a known-empty storage.
+beforeEach(async () => {
+  await AsyncStorage.clear();
+});
+
 async function renderGame() {
   const navigation = { navigate: jest.fn() };
   const result = await render(
@@ -125,15 +133,29 @@ test("when cronometro is active, letting the timer run out auto-answers and show
   }
 });
 
-// Regression test for a race where toggleCronometro's AsyncStorage write
-// (setCronometroPref) hadn't resolved yet by the time the player tapped
-// "Iniciar rodada". Previously, toggleCronometro only flipped cronometroAtivo
-// in state *after* awaiting the write, so GameScreen could mount and run its
-// timer-setup effect while state.cronometroAtivo was still stale `false` -
-// no interval got scheduled, yet once the write resolved and cronometroAtivo
-// became true, the timer bar/JSX would render with no interval underneath.
-test("toggling cronometro on and starting a round before the storage write resolves still starts the timer", async () => {
+// Regression test for two related races:
+//
+// 1. toggleCronometro's AsyncStorage write (setCronometroPref) hadn't
+//    resolved yet by the time the player tapped "Iniciar rodada". Previously,
+//    toggleCronometro only flipped cronometroAtivo in state *after* awaiting
+//    the write, so GameScreen could mount and run its timer-setup effect
+//    while state.cronometroAtivo was still stale `false` - no interval got
+//    scheduled.
+// 2. GameProvider's storage-hydration effect (which reads CRONOMETRO_KEY on
+//    mount and unconditionally overwrites cronometroAtivo once it resolves)
+//    could resolve *after* the user already toggled the switch, silently
+//    stomping the user's true back down to whatever was previously in
+//    storage (false, in a clean/first-run scenario).
+//
+// To prove both are fixed, storage is explicitly seeded to "0" (so hydration
+// would resolve to false if allowed to win), the toggle fires before
+// hydration's promise resolves, and the timer is asserted active both
+// immediately and again after giving hydration's promise a further chance to
+// resolve - proving it doesn't later stomp the toggle.
+test("toggling cronometro on and starting a round before the storage write/hydration resolve still starts and keeps the timer running", async () => {
   jest.useFakeTimers();
+  await AsyncStorage.setItem(CRONOMETRO_KEY, "0");
+
   let resolveWrite: () => void = () => {};
   const writeSpy = jest.spyOn(AsyncStorage, "setItem").mockImplementation(
     () => new Promise((resolve) => {
@@ -152,7 +174,8 @@ test("toggling cronometro on and starting a round before the storage write resol
         setDificuldade("facil");
         // Mirrors a user flipping the Contrarrelógio switch and immediately
         // tapping "Iniciar rodada", without waiting for the AsyncStorage
-        // write behind toggleCronometro to resolve.
+        // write behind toggleCronometro (or the storage-hydration read) to
+        // resolve.
         void toggleCronometro();
         iniciarRodada();
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -174,6 +197,16 @@ test("toggling cronometro on and starting a round before the storage write resol
 
     // The AsyncStorage write is still pending here (we haven't resolved it),
     // yet the timer must already be active for the first question.
+    expect(screen.getByTestId("timer-row")).toBeTruthy();
+
+    // Give hydration's getCronometroPref().then(...) every chance to resolve
+    // and (if the race were still open) stomp cronometroAtivo back to the
+    // seeded `false`. The timer must still be active afterward.
+    await act(async () => {
+      await Promise.resolve();
+      await Promise.resolve();
+      await Promise.resolve();
+    });
     expect(screen.getByTestId("timer-row")).toBeTruthy();
 
     // Advancing fake timers past the 20s question timer should auto-submit,
