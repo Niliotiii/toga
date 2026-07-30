@@ -8,11 +8,13 @@ import { QUESTOES_DB } from "../data/questoes";
 import { filterPool } from "../lib/gameLogic";
 import { colors, spacing, radius } from "../theme/tokens";
 import { Chip } from "../components/Chip";
+import { MetaDiariaCard } from "../components/MetaDiariaCard";
+import { CronometroSwitch } from "../components/CronometroSwitch";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
 export function HomeScreen({ navigation }: Props) {
-  const { state, setTema, setDificuldade, iniciarRodada } = useGame();
+  const { state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
 
   const poolCount = useMemo(
     () => filterPool(QUESTOES_DB, state.tema, state.dificuldade).length,
@@ -22,6 +24,15 @@ export function HomeScreen({ navigation }: Props) {
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
       <Text style={styles.title}>Bora revisar direito hoje?</Text>
+
+      <MetaDiariaCard />
+
+      <View style={styles.modeRow}>
+        <CronometroSwitch active={state.cronometroAtivo} onToggle={toggleCronometro} />
+        <Pressable style={styles.sortearButton} onPress={sortearAleatorio} accessibilityLabel="Sortear tema e dificuldade">
+          <Text style={styles.sortearButtonText}>🎲</Text>
+        </Pressable>
+      </View>
 
       <Text style={styles.sectionLabel}>Tema</Text>
       <View style={styles.chipGrid}>
@@ -74,6 +85,9 @@ const styles = StyleSheet.create({
   content: { padding: spacing.xl, paddingBottom: spacing.xxl },
   title: { fontSize: 23, fontWeight: "600", color: colors.fg, marginTop: spacing.md },
   sectionLabel: { fontSize: 12, fontWeight: "600", color: colors.muted, textTransform: "uppercase", marginTop: spacing.xl, marginBottom: spacing.sm },
+  modeRow: { flexDirection: "row", alignItems: "stretch", gap: spacing.sm, marginTop: spacing.lg },
+  sortearButton: { width: 44, minHeight: 44, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface, alignItems: "center", justifyContent: "center" },
+  sortearButtonText: { fontSize: 20 },
   chipGrid: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   chipRow: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   poolInfo: { fontSize: 13, color: colors.muted, marginTop: spacing.lg },
