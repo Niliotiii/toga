@@ -1,9 +1,172 @@
-import { Text, View } from "react-native";
+import { useEffect, useRef, useState } from "react";
+import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import type { NativeStackScreenProps } from "@react-navigation/native-stack";
+import type { RootStackParamList } from "../navigation/RootNavigator";
+import { useGame } from "../context/GameContext";
+import { AlternativaButton } from "../components/AlternativaButton";
+import { PowerupButton } from "../components/PowerupButton";
+import { Mascot, MascotTipo } from "../components/Mascot";
+import { colors, spacing, radius } from "../theme/tokens";
 
-export function GameScreen() {
+const TEMPO_QUESTAO = 20;
+const FRASES: Record<string, string[]> = {
+  acerto: ["Boa!", "Isso aí!", "Mandou bem!", "Show de bola!"],
+  erro: ["Quase!", "Próxima você pega!", "Segue o jogo."],
+  tempo: ["O tempo voou!", "Foi por pouco!"],
+  powerup: ["Power-up liberado!"]
+};
+
+type Props = NativeStackScreenProps<RootStackParamList, "Game">;
+
+export function GameScreen({ navigation }: Props) {
+  const { state, responder, usarPular, usarEliminar, avancar } = useGame();
+  const [eliminadas, setEliminadas] = useState<number[]>([]);
+  const [mascotTipo, setMascotTipo] = useState<MascotTipo>(null);
+  const [mascotMsg, setMascotMsg] = useState("");
+  const [tempoRestante, setTempoRestante] = useState(TEMPO_QUESTAO);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const q = state.rodada[state.indice];
+
+  const mostrarMascote = (tipo: Exclude<MascotTipo, null>) => {
+    const frases = FRASES[tipo];
+    setMascotMsg(frases[Math.floor(Math.random() * frases.length)]);
+    setMascotTipo(tipo);
+  };
+
+  const pararCronometro = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+      intervalRef.current = null;
+    }
+  };
+
+  useEffect(() => {
+    setEliminadas([]);
+    setMascotTipo(null);
+    setMascotMsg("");
+    setTempoRestante(TEMPO_QUESTAO);
+    pararCronometro();
+    if (state.cronometroAtivo && !state.respondida && q) {
+      intervalRef.current = setInterval(() => {
+        setTempoRestante((t) => {
+          if (t <= 0.1) {
+            pararCronometro();
+            responder(-1);
+            return 0;
+          }
+          return t - 0.1;
+        });
+      }, 100);
+    }
+    return pararCronometro;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state.indice]);
+
+  useEffect(() => {
+    if (state.respondida) pararCronometro();
+  }, [state.respondida]);
+
+  if (!q) {
+    return <View style={styles.screen} />;
+  }
+
+  const handleResponder = (indice: number) => {
+    responder(indice);
+    // decide mascot reaction based on whether the choice matches resposta_correta
+    if (indice === q.resposta_correta) mostrarMascote("acerto");
+    else mostrarMascote(indice === -1 ? "tempo" : "erro");
+  };
+
+  const handleEliminar = () => {
+    const removidos = usarEliminar();
+    if (removidos.length) setEliminadas(removidos);
+  };
+
+  const isUltima = state.indice + 1 >= state.rodada.length;
+
   return (
-    <View>
-      <Text>Game</Text>
+    <View style={styles.screen}>
+      <View style={styles.header}>
+        <Text style={styles.progress}>Questão {state.indice + 1} de {state.rodada.length}</Text>
+        <Text style={[styles.combo, state.combo >= 2 && styles.comboHot]}>Combo {state.combo}</Text>
+      </View>
+
+      <ScrollView style={styles.body} contentContainerStyle={{ paddingBottom: spacing.xl }}>
+        <View style={styles.powerupsRow}>
+          <PowerupButton
+            label="Eliminar 2"
+            count={state.powerups.eliminar}
+            disabled={state.respondida || state.powerups.eliminar <= 0 || state.eliminadasQuestaoAtual}
+            onPress={handleEliminar}
+          />
+          <PowerupButton
+            label="Pular"
+            count={state.powerups.pular}
+            disabled={state.respondida || state.powerups.pular <= 0}
+            onPress={usarPular}
+          />
+        </View>
+
+        <Text style={styles.fonte}>{q.fonte}</Text>
+        <Text style={styles.enunciado}>{q.enunciado}</Text>
+
+        <View style={styles.altList}>
+          {q.alternativas.map((alt, i) => {
+            let altState: "default" | "correct" | "wrong" | "eliminated" = "default";
+            if (state.respondida) {
+              if (i === q.resposta_correta) altState = "correct";
+            }
+            if (eliminadas.includes(i)) altState = "eliminated";
+            return (
+              <AlternativaButton
+                key={i}
+                letra={String.fromCharCode(65 + i)}
+                texto={alt}
+                state={altState}
+                disabled={state.respondida || eliminadas.includes(i)}
+                onPress={() => handleResponder(i)}
+                testID="alternativa-button"
+              />
+            );
+          })}
+        </View>
+      </ScrollView>
+
+      <View style={styles.footer}>
+        {mascotTipo && <Mascot tipo={mascotTipo} mensagem={mascotMsg} />}
+        {state.respondida && (
+          <Pressable
+            style={styles.btnProxima}
+            onPress={() => {
+              if (isUltima) {
+                avancar();
+                navigation.navigate("Result");
+              } else {
+                avancar();
+              }
+            }}
+          >
+            <Text style={styles.btnProximaText}>{isUltima ? "Ver resultado" : "Próxima questão"}</Text>
+          </Pressable>
+        )}
+      </View>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  screen: { flex: 1, backgroundColor: colors.bg },
+  header: { padding: spacing.xl, paddingBottom: spacing.md, flexDirection: "row", justifyContent: "space-between" },
+  progress: { fontSize: 13, fontWeight: "600", color: colors.muted },
+  combo: { fontSize: 13, fontWeight: "700", color: colors.muted },
+  comboHot: { color: colors.accent },
+  body: { flex: 1, paddingHorizontal: spacing.xl },
+  powerupsRow: { flexDirection: "row", gap: spacing.sm, marginBottom: spacing.lg },
+  fonte: { fontSize: 12, color: colors.muted, fontStyle: "italic" },
+  enunciado: { fontSize: 19, lineHeight: 28, fontWeight: "500", color: colors.fg, marginTop: spacing.sm },
+  altList: { gap: spacing.sm, marginTop: spacing.xl },
+  footer: { padding: spacing.xl, gap: spacing.sm },
+  btnProxima: { backgroundColor: colors.fg, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
+  btnProximaText: { color: colors.bg, fontSize: 15.5, fontWeight: "600" }
+});
