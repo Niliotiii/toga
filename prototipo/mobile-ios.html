@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<title>Toga — Protótipo iOS</title>
+<style>
+  :root {
+    --bg:      oklch(99% 0.002 240);
+    --surface: oklch(100% 0 0);
+    --fg:      oklch(18% 0.012 250);
+    --muted:   oklch(54% 0.012 250);
+    --border:  oklch(92% 0.005 250);
+    --accent:  oklch(58% 0.18 255);
+    --success: oklch(58% 0.15 150);
+    --danger:  oklch(58% 0.19 25);
+    --warn:    oklch(75% 0.15 85);
+    --accent-text: oklch(48% 0.17 255);
+
+    --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+    --font-body:    -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: oklch(95% 0.004 250);
+    font-family: var(--font-body);
+    color: var(--fg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+  }
+
+  .stage-label {
+    position: fixed;
+    top: 18px; left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  /* ---------- iPhone frame ---------- */
+  .phone-shell {
+    width: 390px;
+    height: 844px;
+    background: #0b0b0d;
+    border-radius: 58px;
+    padding: 14px;
+    box-shadow: 0 30px 60px -20px oklch(20% 0.01 250 / 0.4), 0 0 0 1px oklch(0% 0 0 / 0.05);
+    position: relative;
+  }
+  .phone-screen {
+    width: 100%;
+    height: 100%;
+    background: var(--bg);
+    border-radius: 44px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .dynamic-island {
+    position: absolute;
+    top: 12px; left: 50%;
+    transform: translateX(-50%);
+    width: 120px; height: 34px;
+    background: #000;
+    border-radius: 20px;
+    z-index: 30;
+  }
+  .status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 28px 4px;
+    font-size: 15px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    flex: 0 0 auto;
+  }
+  .status-bar .time { letter-spacing: -0.01em; }
+  .status-icons { display: flex; gap: 6px; align-items: center; }
+  .status-icons svg { display: block; }
+
+  .app-viewport {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+  }
+  .screen { display: none; height: 100%; flex-direction: column; }
+  .screen.is-active { display: flex; }
+
+  /* ---------- Typography ---------- */
+  h1, h2, h3 { font-family: var(--font-display); margin: 0; letter-spacing: -0.02em; }
+  p { margin: 0; }
+
+  /* ---------- Home ---------- */
+  .home-scroll { padding: 8px 24px 32px; overflow-y: auto; flex: 1; }
+  .brand-row { display: flex; align-items: center; gap: 10px; margin: 14px 0 4px; }
+  .brand-mark {
+    width: 34px; height: 34px; border-radius: 10px;
+    overflow: hidden; display: block;
+  }
+  .brand-mark img { width: 100%; height: 100%; display: block; }
+  .brand-name { font-size: 15px; font-weight: 600; color: var(--muted); letter-spacing: 0.01em; }
+  .home-title { font-size: 23px; font-weight: 600; margin-top: 18px; line-height: 1.15; white-space: nowrap; }
+  .home-sub { font-size: 15px; color: var(--muted); margin-top: 8px; line-height: 1.5; max-width: 30ch; }
+
+  .section-label {
+    font-size: 12px; font-weight: 600; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin: 28px 0 10px;
+  }
+
+  .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip-row--tema { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .chip {
+    display: flex; align-items: center; gap: 6px;
+    font-family: var(--font-body);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--fg);
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .chip.is-selected { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .chip--tema {
+    align-items: flex-start;
+    border-radius: 14px;
+    text-align: left;
+    line-height: 1.3;
+    white-space: normal;
+  }
+  .chip--tema .chip-icon { flex: 0 0 auto; margin-top: 1px; }
+  .chip--tema.is-selected { background: var(--tema-tint, var(--fg)); color: var(--tema-color, var(--bg)); border-color: var(--tema-color, var(--fg)); }
+  .chip--dif.is-selected.chip--facil { background: var(--success); border-color: var(--success); }
+  .chip--dif.is-selected.chip--media { background: oklch(65% 0.15 70); border-color: oklch(65% 0.15 70); }
+  .chip--dif.is-selected.chip--dificil { background: var(--danger); border-color: var(--danger); }
+
+  .pool-info { margin-top: 16px; font-size: 13px; color: var(--muted); }
+
+  /* ---------- Meta diária ---------- */
+  .meta-diaria { margin-top: 22px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
+  .meta-diaria-top { display: flex; align-items: center; justify-content: space-between; }
+  .meta-diaria-label { font-size: 13px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .meta-check { width: 16px; height: 16px; color: var(--success); opacity: 0; transition: opacity 0.15s ease; }
+  .meta-diaria.is-complete .meta-check { opacity: 1; }
+  .meta-diaria.is-complete .meta-diaria-label { color: var(--success); }
+  .meta-diaria-track { height: 6px; border-radius: 4px; background: var(--border); margin-top: 10px; overflow: hidden; }
+  .meta-diaria-track > i { display: block; height: 100%; background: var(--accent); border-radius: 4px; transition: width 0.3s ease; }
+  .meta-diaria.is-complete .meta-diaria-track > i { background: var(--success); }
+
+  /* ---------- Modo contrarrelógio (switch) ---------- */
+  .modo-jogo-row { display: flex; align-items: stretch; gap: 8px; }
+  .switch-row {
+    flex: 1 1 auto; display: flex; align-items: center; justify-content: space-between;
+    padding: 13px 14px; border: 1px solid var(--border); border-radius: 14px;
+    background: var(--surface); font-family: var(--font-body); cursor: pointer; min-height: 44px;
+  }
+  .switch-row-text { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; }
+  .switch-row-title { font-size: 14.5px; font-weight: 600; color: var(--fg); }
+  .switch-row-sub { font-size: 12px; color: var(--muted); }
+  .switch-track { width: 44px; height: 26px; border-radius: 999px; background: var(--border); position: relative; flex: 0 0 auto; transition: background 0.18s ease; }
+  .switch-thumb { position: absolute; top: 2px; left: 2px; width: 22px; height: 22px; border-radius: 50%; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.25); transition: transform 0.18s ease; }
+  .switch-row.is-on .switch-track { background: var(--accent); }
+  .switch-row.is-on .switch-thumb { transform: translateX(18px); }
+
+  /* ---------- Sorteio aleatório ---------- */
+  .random-btn {
+    flex: 0 0 auto;
+    width: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--surface);
+    color: var(--accent-text);
+    cursor: pointer;
+    min-height: 44px;
+  }
+  .random-btn:active { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .random-btn svg { width: 19px; height: 19px; flex: 0 0 auto; }
+  .random-btn svg.is-spinning { animation: dice-spin 0.35s ease; }
+  @keyframes dice-spin { from { transform: rotate(0deg); } to { transform: rotate(200deg); } }
+  @media (prefers-reduced-motion: reduce) {
+    .random-btn svg.is-spinning { animation: none; }
+  }
+  .chip.just-picked { animation: chip-pop 0.3s ease; }
+  @keyframes chip-pop { 0% { transform: scale(1); } 40% { transform: scale(1.05); } 100% { transform: scale(1); } }
+  @media (prefers-reduced-motion: reduce) {
+    .chip.just-picked { animation: none; }
+  }
+
+  .cta-primary {
+    margin-top: 28px;
+    width: 100%;
+    padding: 17px;
+    border-radius: 16px;
+    border: none;
+    background: var(--accent);
+    color: white;
+    font-family: var(--font-display);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+    min-height: 44px;
+  }
+  .cta-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+  .cta-secondary {
+    margin-top: 12px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--fg);
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    min-height: 44px;
+  }
+
+  /* ---------- Game ---------- */
+  .game-header { padding: 6px 24px 14px; flex: 0 0 auto; }
+  .game-header-top { display: flex; align-items: center; justify-content: space-between; }
+  .game-progress-row { display: flex; align-items: center; gap: 7px; }
+  .game-tema-dot { width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; }
+  #game-progress { font-size: 13px; font-weight: 600; color: var(--muted); }
+  .combo-badge {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 13px; font-weight: 700; color: var(--muted);
+    padding: 5px 10px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border);
+  }
+  .combo-badge svg { width: 14px; height: 14px; }
+  .combo-badge.is-hot { color: var(--accent); border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
+  .progress-track { height: 4px; border-radius: 4px; background: var(--border); margin-top: 12px; overflow: hidden; }
+  .progress-track > i { display: block; height: 100%; background: var(--accent); border-radius: 4px; transition: width 0.25s ease; }
+
+  /* ---------- Cronômetro ---------- */
+  .timer-wrap { display: none; align-items: center; gap: 8px; margin-top: 10px; }
+  .timer-wrap.is-active { display: flex; }
+  .timer-track { flex: 1 1 auto; height: 4px; border-radius: 4px; background: var(--border); overflow: hidden; }
+  .timer-track > i { display: block; height: 100%; width: 100%; background: var(--accent); border-radius: 4px; transition: width 0.1s linear; }
+  .timer-track > i.is-urgent { background: var(--danger); }
+  .timer-num { font-size: 12px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 18px; text-align: right; }
+
+  .game-body { flex: 1 1 auto; overflow-y: auto; padding: 4px 24px 24px; }
+
+  /* ---------- Power-ups ---------- */
+  .powerups-row { display: flex; gap: 8px; margin-bottom: 16px; }
+  .powerup-btn {
+    display: flex; align-items: center; gap: 6px;
+    border: 1px solid var(--border); background: var(--surface); border-radius: 999px;
+    padding: 8px 12px; font-family: var(--font-body); font-size: 12.5px; font-weight: 600; color: var(--fg);
+    cursor: pointer; min-height: 36px;
+  }
+  .powerup-btn svg { width: 15px; height: 15px; color: var(--accent); flex: 0 0 auto; }
+  .powerup-count {
+    background: var(--bg); border-radius: 999px; padding: 1px 6px; font-size: 11px;
+    font-variant-numeric: tabular-nums; color: var(--muted);
+  }
+  .powerup-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  #game-fonte { font-size: 12px; color: var(--muted); font-style: italic; }
+  #game-enunciado { font-size: 19px; line-height: 1.5; margin-top: 10px; font-weight: 500; }
+
+  .alt-list { display: flex; flex-direction: column; gap: 10px; margin-top: 22px; }
+  .alt {
+    display: flex; align-items: flex-start; gap: 12px;
+    text-align: left;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    border-radius: 14px;
+    padding: 13px 14px;
+    font-family: var(--font-body);
+    font-size: 14.5px;
+    line-height: 1.45;
+    color: var(--fg);
+    cursor: pointer;
+    min-height: 44px;
+  }
+  .alt-letra {
+    flex: 0 0 auto;
+    width: 24px; height: 24px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; color: var(--muted);
+  }
+  .alt:disabled { cursor: default; }
+  .alt.is-correct { border-color: var(--success); background: color-mix(in srgb, var(--success) 12%, var(--surface)); }
+  .alt.is-correct .alt-letra { background: var(--success); border-color: var(--success); color: white; }
+  .alt.is-wrong { border-color: var(--danger); background: color-mix(in srgb, var(--danger) 12%, var(--surface)); }
+  .alt.is-wrong .alt-letra { background: var(--danger); border-color: var(--danger); color: white; }
+  .alt.is-eliminada { opacity: 0.35; }
+
+  .game-footer { flex: 0 0 auto; padding: 12px 24px 24px; display: flex; flex-direction: column; gap: 10px; }
+
+  /* ---------- Mascote ---------- */
+  .mascot { display: flex; align-items: center; gap: 10px; opacity: 0; transform: translateY(4px); transition: opacity 0.2s ease, transform 0.2s ease; pointer-events: none; }
+  .mascot.is-visible { opacity: 1; transform: translateY(0); }
+  .mascot-avatar { width: 34px; height: 34px; border-radius: 50%; overflow: hidden; border: 1px solid var(--border); background: var(--surface); flex: 0 0 auto; }
+  .mascot-avatar img { width: 100%; height: 100%; display: block; }
+  .mascot-avatar.is-happy { animation: mascot-bounce 0.5s ease; }
+  .mascot-avatar.is-sad { animation: mascot-shake 0.4s ease; }
+  @keyframes mascot-bounce { 0% { transform: scale(1) rotate(0); } 35% { transform: scale(1.18) rotate(-6deg); } 65% { transform: scale(0.95) rotate(4deg); } 100% { transform: scale(1) rotate(0); } }
+  @keyframes mascot-shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-4px); } 40% { transform: translateX(4px); } 60% { transform: translateX(-3px); } 80% { transform: translateX(3px); } }
+  .mascot-bubble { font-size: 12.5px; font-weight: 600; color: var(--fg); }
+  .mascot-bubble:empty { display: none; }
+  @media (prefers-reduced-motion: reduce) {
+    .mascot-avatar.is-happy, .mascot-avatar.is-sad { animation: none; }
+  }
+
+  #btn-proxima {
+    width: 100%; padding: 16px; border-radius: 16px; border: none;
+    background: var(--fg); color: var(--bg);
+    font-family: var(--font-display); font-weight: 600; font-size: 15.5px;
+    cursor: pointer; min-height: 44px;
+    opacity: 0; transform: translateY(6px); pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  #btn-proxima.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+  /* ---------- Result ---------- */
+  .result-scroll { flex: 1; overflow-y: auto; padding: 32px 28px 32px; text-align: center; position: relative; }
+  .result-mascot {
+    width: 76px; height: 76px; border-radius: 50%; margin: 0 auto 14px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--surface); border: 1px solid var(--border);
+  }
+  .result-mascot img { width: 46px; height: 46px; }
+  .result-mascot.tier-perfect, .result-mascot.tier-great { background: color-mix(in srgb, var(--success) 16%, var(--surface)); border-color: var(--success); }
+  .result-mascot.tier-good { background: color-mix(in srgb, var(--accent) 14%, var(--surface)); border-color: var(--accent); }
+  .result-mascot.tier-meh { background: color-mix(in srgb, var(--warn) 22%, var(--surface)); border-color: var(--warn); }
+  .result-headline { font-family: var(--font-display); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 4px; }
+  .result-recorde {
+    display: none; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+    padding: 4px 10px; border-radius: 999px; margin: 6px auto 0;
+  }
+  .result-recorde.is-visible { display: inline-block; }
+  .result-stars { display: flex; gap: 8px; justify-content: center; color: var(--border); margin-top: 18px; }
+  .result-stars .star.is-filled { color: oklch(78% 0.15 85); }
+  #result-score { font-family: var(--font-display); font-size: 52px; font-weight: 600; margin-top: 18px; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  #result-pct { font-size: 16px; color: var(--accent); font-weight: 700; margin-top: 4px; }
+  #result-tema { font-size: 13px; color: var(--muted); margin-top: 10px; display: flex; align-items: center; justify-content: center; gap: 6px; }
+
+  .tema-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; flex: 0 0 auto; }
+
+  .result-actions { margin-top: 32px; }
+
+  #result-confetti { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: 5; opacity: 0; }
+  #result-confetti.is-active { opacity: 1; }
+  #result-confetti i {
+    position: absolute; top: -10px; width: 7px; height: 12px; border-radius: 2px;
+    animation: confetti-fall 1.6s ease-in forwards;
+  }
+  @keyframes confetti-fall {
+    to { transform: translateY(760px) rotate(240deg); opacity: 0; }
+  }
+
+  /* ---------- History ---------- */
+  .history-header { display: flex; align-items: center; gap: 12px; padding: 10px 20px 4px; flex: 0 0 auto; }
+  .icon-btn {
+    width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border);
+    background: var(--surface); display: flex; align-items: center; justify-content: center;
+    cursor: pointer; flex: 0 0 auto;
+  }
+  .history-title { font-size: 18px; font-weight: 600; }
+  .history-scroll { flex: 1; overflow-y: auto; padding: 12px 20px 28px; display: flex; flex-direction: column; gap: 10px; }
+
+  .hist-card { border: 1px solid var(--border); border-radius: 14px; padding: 14px; background: var(--surface); }
+  .hist-card-top { display: flex; align-items: center; justify-content: space-between; }
+  .hist-tema { display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; }
+  .hist-dif { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px; letter-spacing: 0.03em; }
+  .hist-dif--facil { background: color-mix(in srgb, var(--success) 15%, white); color: var(--success); }
+  .hist-dif--media { background: oklch(94% 0.06 70); color: oklch(45% 0.13 70); }
+  .hist-dif--dificil { background: color-mix(in srgb, var(--danger) 15%, white); color: var(--danger); }
+  .hist-card-bottom { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .hist-bar { height: 4px; border-radius: 4px; background: var(--border); margin-top: 10px; overflow: hidden; }
+  .hist-bar > i { display: block; height: 100%; background: var(--accent); }
+
+  .history-empty { display: none; text-align: center; padding: 60px 20px; color: var(--muted); font-size: 14px; }
+  .history-empty.is-active { display: block; }
+</style>
+</head>
+<body>
+  <span class="stage-label">Protótipo · iOS</span>
+
+  <div class="phone-shell" data-od-id="iphone-frame">
+    <div class="phone-screen">
+      <div class="dynamic-island"></div>
+      <div class="status-bar">
+        <span class="time">9:41</span>
+        <div class="status-icons">
+          <svg width="18" height="12" viewBox="0 0 18 12" fill="none"><rect x="0" y="7" width="3" height="5" rx="0.5" fill="currentColor"/><rect x="5" y="4.5" width="3" height="7.5" rx="0.5" fill="currentColor"/><rect x="10" y="2" width="3" height="10" rx="0.5" fill="currentColor"/><rect x="15" y="0" width="3" height="12" rx="0.5" fill="currentColor" opacity="0.35"/></svg>
+          <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="2.5" stroke="currentColor"/><rect x="2" y="2" width="15" height="8" rx="1.3" fill="currentColor"/><rect x="22.5" y="4" width="1.5" height="4" rx="0.5" fill="currentColor"/></svg>
+        </div>
+      </div>
+
+      <div class="app-viewport">
+
+        <!-- HOME -->
+        <section id="screen-home" class="screen" data-od-id="screen-home">
+          <div class="home-scroll">
+            <div class="brand-row">
+              <div class="brand-mark"><img src="assets/icon.svg" width="34" height="34" alt=""></div>
+              <span class="brand-name">Toga</span>
+            </div>
+            <h1 class="home-title">Bora revisar direito hoje?</h1>
+
+            <div class="meta-diaria" id="meta-diaria" data-od-id="meta-diaria">
+              <div class="meta-diaria-top">
+                <span class="meta-diaria-label" id="meta-label">0 / 15 hoje</span>
+                <svg class="meta-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div class="meta-diaria-track"><i id="meta-fill" style="width:0%"></i></div>
+            </div>
+
+            <div class="section-label">Tema</div>
+            <div class="chip-row chip-row--tema" id="tema-options" data-od-id="tema-options"></div>
+
+            <div class="section-label">Dificuldade</div>
+            <div class="chip-row" id="dificuldade-options" data-od-id="dificuldade-options"></div>
+
+            <div class="section-label">Modo de jogo</div>
+            <div class="modo-jogo-row">
+              <button type="button" class="switch-row" id="toggle-cronometro" data-od-id="toggle-cronometro" role="switch" aria-checked="false">
+                <span class="switch-row-text">
+                  <span class="switch-row-title">Contrarrelógio</span>
+                  <span class="switch-row-sub">20s por questão</span>
+                </span>
+                <span class="switch-track"><span class="switch-thumb"></span></span>
+              </button>
+
+              <button type="button" class="random-btn" id="btn-aleatorio" data-od-id="btn-aleatorio" aria-label="Sortear tema e dificuldade">
+                <svg id="dice-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="3" width="18" height="18" rx="4"/>
+                  <circle cx="8" cy="8" r="1.3" fill="currentColor" stroke="none"/>
+                  <circle cx="16" cy="8" r="1.3" fill="currentColor" stroke="none"/>
+                  <circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/>
+                  <circle cx="8" cy="16" r="1.3" fill="currentColor" stroke="none"/>
+                  <circle cx="16" cy="16" r="1.3" fill="currentColor" stroke="none"/>
+                </svg>
+              </button>
+            </div>
+
+            <p class="pool-info" id="pool-count"></p>
+
+            <button class="cta-primary" id="btn-iniciar" data-od-id="btn-iniciar-rodada">Iniciar rodada</button>
+            <button class="cta-secondary" id="btn-ver-historico" data-od-id="btn-ver-historico">Ver histórico</button>
+          </div>
+        </section>
+
+        <!-- GAME -->
+        <section id="screen-game" class="screen" data-od-id="screen-game">
+          <div class="game-header">
+            <div class="game-header-top">
+              <span class="game-progress-row">
+                <span class="game-tema-dot" id="game-tema-dot"></span>
+                <span id="game-progress">Questão 1 de 5</span>
+              </span>
+              <span class="combo-badge" id="game-combo" data-od-id="combo-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2c1 3-2 4-2 7a4 4 0 0 0 8 0c0-1-0.5-2-1-3 1 0 3 2 3 6a8 8 0 1 1-16 0c0-5 3-7 4-9 0.5 1 1 2 2 2 0 0 1-2 2-3z"/></svg>
+                Combo 0
+              </span>
+            </div>
+            <div class="progress-track"><i id="game-progress-fill" style="width:0%"></i></div>
+            <div class="timer-wrap" id="timer-wrap" data-od-id="timer">
+              <div class="timer-track"><i id="timer-fill" style="width:100%"></i></div>
+              <span class="timer-num" id="timer-num">20</span>
+            </div>
+          </div>
+          <div class="game-body">
+            <div class="powerups-row" data-od-id="powerups-row">
+              <button type="button" class="powerup-btn" id="btn-powerup-eliminar" data-od-id="btn-powerup-eliminar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M4 20L20 4"/></svg>
+                Eliminar 2 <span class="powerup-count" id="powerup-eliminar-count">1</span>
+              </button>
+              <button type="button" class="powerup-btn" id="btn-powerup-pular" data-od-id="btn-powerup-pular">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4l10 8-10 8V4z"/><line x1="18" y1="5" x2="18" y2="19"/></svg>
+                Pular <span class="powerup-count" id="powerup-pular-count">1</span>
+              </button>
+            </div>
+            <p id="game-fonte">Fonte</p>
+            <p id="game-enunciado">Enunciado da questão aparece aqui.</p>
+            <div class="alt-list" id="game-alternativas" data-od-id="lista-alternativas"></div>
+          </div>
+          <div class="game-footer">
+            <div class="mascot" id="mascot" data-od-id="mascot">
+              <div class="mascot-avatar" id="mascot-avatar"><img src="assets/icon.svg" width="34" height="34" alt=""></div>
+              <span class="mascot-bubble" id="mascot-bubble"></span>
+            </div>
+            <button id="btn-proxima" data-od-id="btn-proxima-questao">Próxima questão</button>
+          </div>
+        </section>
+
+        <!-- RESULT -->
+        <section id="screen-result" class="screen" data-od-id="screen-result">
+          <div class="result-scroll">
+            <div id="result-confetti" data-od-id="confetti"></div>
+            <div class="result-mascot" id="result-mascot" data-od-id="result-mascot">
+              <img src="assets/icon.svg" width="46" height="46" alt="">
+            </div>
+            <h2 class="result-headline" id="result-headline">Mandou bem!</h2>
+            <span class="result-recorde" id="result-recorde">Novo recorde pessoal</span>
+            <div class="result-stars" id="result-stars"></div>
+            <div id="result-score">0 / 5</div>
+            <div id="result-pct">0%</div>
+            <div id="result-tema">Tema · Dificuldade</div>
+            <div class="result-actions">
+              <button class="cta-primary" id="btn-jogar-novamente" data-od-id="btn-jogar-novamente">Jogar novamente</button>
+              <button class="cta-secondary" id="btn-voltar-inicio" data-od-id="btn-voltar-inicio">Voltar ao início</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- HISTORY -->
+        <section id="screen-history" class="screen" data-od-id="screen-history">
+          <div class="history-header">
+            <button class="icon-btn" id="btn-historico-voltar" data-od-id="btn-historico-voltar" aria-label="Voltar">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg>
+            </button>
+            <span class="history-title">Histórico de rodadas</span>
+          </div>
+          <div class="history-scroll">
+            <div id="history-list" data-od-id="historico-lista"></div>
+            <p class="history-empty" id="history-empty">Você ainda não jogou nenhuma rodada. Volte ao início e comece a treinar.</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="data/questoes.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
