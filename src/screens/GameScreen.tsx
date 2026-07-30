@@ -24,6 +24,7 @@ export function GameScreen({ navigation }: Props) {
   const [mascotTipo, setMascotTipo] = useState<MascotTipo>(null);
   const [mascotMsg, setMascotMsg] = useState("");
   const [tempoRestante, setTempoRestante] = useState(TEMPO_QUESTAO);
+  const [selecionada, setSelecionada] = useState<number | null>(null);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const q = state.rodada[state.indice];
@@ -41,22 +42,31 @@ export function GameScreen({ navigation }: Props) {
     }
   };
 
+  const handleResponder = (indice: number) => {
+    if (!q) return;
+    setSelecionada(indice);
+    responder(indice);
+    // decide mascot reaction based on whether the choice matches resposta_correta
+    if (indice === q.resposta_correta) mostrarMascote("acerto");
+    else mostrarMascote(indice === -1 ? "tempo" : "erro");
+  };
+
   useEffect(() => {
     setEliminadas([]);
     setMascotTipo(null);
     setMascotMsg("");
     setTempoRestante(TEMPO_QUESTAO);
+    setSelecionada(null);
     pararCronometro();
     if (state.cronometroAtivo && !state.respondida && q) {
+      let ticksRestantes = Math.round(TEMPO_QUESTAO * 10);
       intervalRef.current = setInterval(() => {
-        setTempoRestante((t) => {
-          if (t <= 0.1) {
-            pararCronometro();
-            responder(-1);
-            return 0;
-          }
-          return t - 0.1;
-        });
+        ticksRestantes -= 1;
+        setTempoRestante(Math.max(0, ticksRestantes / 10));
+        if (ticksRestantes <= 0) {
+          pararCronometro();
+          handleResponder(-1);
+        }
       }, 100);
     }
     return pararCronometro;
@@ -71,13 +81,6 @@ export function GameScreen({ navigation }: Props) {
     return <View style={styles.screen} />;
   }
 
-  const handleResponder = (indice: number) => {
-    responder(indice);
-    // decide mascot reaction based on whether the choice matches resposta_correta
-    if (indice === q.resposta_correta) mostrarMascote("acerto");
-    else mostrarMascote(indice === -1 ? "tempo" : "erro");
-  };
-
   const handleEliminar = () => {
     const removidos = usarEliminar();
     if (removidos.length) setEliminadas(removidos);
@@ -91,6 +94,25 @@ export function GameScreen({ navigation }: Props) {
         <Text style={styles.progress}>Questão {state.indice + 1} de {state.rodada.length}</Text>
         <Text style={[styles.combo, state.combo >= 2 && styles.comboHot]}>Combo {state.combo}</Text>
       </View>
+
+      {state.cronometroAtivo && !state.respondida && (
+        <View style={styles.timerRow} testID="timer-row">
+          <View style={styles.timerTrack}>
+            <View
+              style={[
+                styles.timerFill,
+                {
+                  width: `${Math.max(0, Math.min(100, (tempoRestante / TEMPO_QUESTAO) * 100))}%`,
+                  backgroundColor: tempoRestante <= 5 ? colors.danger : colors.accent
+                }
+              ]}
+            />
+          </View>
+          <Text style={[styles.timerText, tempoRestante <= 5 && styles.timerTextUrgent]}>
+            {Math.ceil(tempoRestante)}s
+          </Text>
+        </View>
+      )}
 
       <ScrollView style={styles.body} contentContainerStyle={{ paddingBottom: spacing.xl }}>
         <View style={styles.powerupsRow}>
@@ -116,6 +138,7 @@ export function GameScreen({ navigation }: Props) {
             let altState: "default" | "correct" | "wrong" | "eliminated" = "default";
             if (state.respondida) {
               if (i === q.resposta_correta) altState = "correct";
+              else if (i === selecionada) altState = "wrong";
             }
             if (eliminadas.includes(i)) altState = "eliminated";
             return (
@@ -161,6 +184,11 @@ const styles = StyleSheet.create({
   progress: { fontSize: 13, fontWeight: "600", color: colors.muted },
   combo: { fontSize: 13, fontWeight: "700", color: colors.muted },
   comboHot: { color: colors.accent },
+  timerRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm, paddingHorizontal: spacing.xl, marginBottom: spacing.sm },
+  timerTrack: { flex: 1, height: 6, borderRadius: radius.pill, backgroundColor: colors.border, overflow: "hidden" },
+  timerFill: { height: "100%", borderRadius: radius.pill },
+  timerText: { fontSize: 12, fontWeight: "700", color: colors.muted, minWidth: 30, textAlign: "right" },
+  timerTextUrgent: { color: colors.danger },
   body: { flex: 1, paddingHorizontal: spacing.xl },
   powerupsRow: { flexDirection: "row", gap: spacing.sm, marginBottom: spacing.lg },
   fonte: { fontSize: 12, color: colors.muted, fontStyle: "italic" },
