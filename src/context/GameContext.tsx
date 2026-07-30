@@ -70,8 +70,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   const toggleCronometro = useCallback(async () => {
     const novo = !stateRef.current.cronometroAtivo;
-    await setCronometroPref(novo);
+    // Flip in-memory state synchronously first so the UI (and any screen
+    // that mounts right after this call, e.g. GameScreen after a quick
+    // "Iniciar rodada" tap) never observes a stale cronometroAtivo while
+    // the AsyncStorage write below is still in flight.
     setState((s) => ({ ...s, cronometroAtivo: novo }));
+    await setCronometroPref(novo);
   }, []);
 
   const sortearAleatorio = useCallback(() => {

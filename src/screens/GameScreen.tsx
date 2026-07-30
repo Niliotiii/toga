@@ -70,8 +70,13 @@ export function GameScreen({ navigation }: Props) {
       }, 100);
     }
     return pararCronometro;
+    // Keyed on cronometroAtivo too (not just indice): if it flips while a
+    // question is already showing (e.g. state was briefly stale right after
+    // toggling on Home and starting a round before the toggle's AsyncStorage
+    // write settled), the timer must start/stop instead of the effect
+    // silently no-op'ing until the next question.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [state.indice]);
+  }, [state.indice, state.cronometroAtivo]);
 
   useEffect(() => {
     if (state.respondida) pararCronometro();

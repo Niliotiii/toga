@@ -124,3 +124,74 @@ test("when cronometro is active, letting the timer run out auto-answers and show
     jest.useRealTimers();
   }
 });
+
+// Regression test for a race where toggleCronometro's AsyncStorage write
+// (setCronometroPref) hadn't resolved yet by the time the player tapped
+// "Iniciar rodada". Previously, toggleCronometro only flipped cronometroAtivo
+// in state *after* awaiting the write, so GameScreen could mount and run its
+// timer-setup effect while state.cronometroAtivo was still stale `false` -
+// no interval got scheduled, yet once the write resolved and cronometroAtivo
+// became true, the timer bar/JSX would render with no interval underneath.
+test("toggling cronometro on and starting a round before the storage write resolves still starts the timer", async () => {
+  jest.useFakeTimers();
+  let resolveWrite: () => void = () => {};
+  const writeSpy = jest.spyOn(AsyncStorage, "setItem").mockImplementation(
+    () => new Promise((resolve) => {
+      resolveWrite = () => resolve(undefined);
+    })
+  );
+
+  try {
+    function ToggleThenStart({ children }: { children: React.ReactNode }) {
+      const { setTema, setDificuldade, toggleCronometro, iniciarRodada } = useGame();
+      const startedRef = React.useRef(false);
+      React.useEffect(() => {
+        if (startedRef.current) return;
+        startedRef.current = true;
+        setTema("Direito Penal");
+        setDificuldade("facil");
+        // Mirrors a user flipping the Contrarrelógio switch and immediately
+        // tapping "Iniciar rodada", without waiting for the AsyncStorage
+        // write behind toggleCronometro to resolve.
+        void toggleCronometro();
+        iniciarRodada();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+      }, []);
+      return <>{children}</>;
+    }
+
+    const navigation = { navigate: jest.fn() };
+    await render(
+      <GameProvider>
+        <ToggleThenStart>
+          <GameScreen navigation={navigation as any} route={{} as any} />
+        </ToggleThenStart>
+      </GameProvider>
+    );
+    await act(async () => {
+      await Promise.resolve();
+    });
+
+    // The AsyncStorage write is still pending here (we haven't resolved it),
+    // yet the timer must already be active for the first question.
+    expect(screen.getByTestId("timer-row")).toBeTruthy();
+
+    // Advancing fake timers past the 20s question timer should auto-submit,
+    // proving a real interval is running underneath - not just that the
+    // timer UI happens to be visible.
+    await act(async () => {
+      jest.advanceTimersByTime(21000);
+    });
+
+    expect(screen.getByText(/Próxima questão|Ver resultado/)).toBeTruthy();
+    expect(screen.getByText(/^(O tempo voou!|Foi por pouco!)$/)).toBeTruthy();
+
+    resolveWrite();
+    await act(async () => {
+      await Promise.resolve();
+    });
+  } finally {
+    writeSpy.mockRestore();
+    jest.useRealTimers();
+  }
+});
