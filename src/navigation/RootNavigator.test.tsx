@@ -12,5 +12,5 @@ test("renders the Home screen by default", async () => {
       </NavigationContainer>
     </GameProvider>
   );
-  expect(screen.getByText("Home")).toBeTruthy();
+  expect(screen.getByText(/Bora revisar direito hoje/i)).toBeTruthy();
 });
