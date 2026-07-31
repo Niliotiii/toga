@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import { View, Text, Image, ScrollView, Pressable, StyleSheet } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
@@ -22,6 +22,11 @@ export function ResultScreen({ navigation }: Props) {
   const pct = total ? Math.round((state.acertos / total) * 100) : 0;
   const estrelas = calcEstrelas(pct);
   const tier = tierFor(pct);
+  const mascotBorderColor =
+    tier.tag === "perfect" || tier.tag === "great" ? colors.success
+    : tier.tag === "good" ? colors.accent
+    : tier.tag === "meh" ? colors.warn
+    : colors.border;
 
   useEffect(() => {
     if (saved.current) return;
@@ -49,6 +54,9 @@ export function ResultScreen({ navigation }: Props) {
       ]}
     >
       <Confetti active={pct > 70} />
+      <View style={[styles.mascotAvatar, { borderColor: mascotBorderColor }]}>
+        <Image source={require("../../assets/icon.png")} style={styles.mascotImage} />
+      </View>
       <Text style={styles.headline}>{tier.headline}</Text>
       {recorde && <Text style={styles.recorde}>Novo recorde pessoal</Text>}
       <StarRating estrelas={estrelas} />
@@ -77,6 +85,18 @@ export function ResultScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   content: { padding: spacing.xl, alignItems: "center", paddingTop: spacing.xxl },
+  mascotAvatar: {
+    width: 76,
+    height: 76,
+    borderRadius: 38,
+    borderWidth: 1,
+    backgroundColor: colors.surface,
+    alignItems: "center",
+    justifyContent: "center",
+    overflow: "hidden",
+    marginBottom: spacing.md
+  },
+  mascotImage: { width: 46, height: 46, borderRadius: 23 },
   headline: { fontSize: 24, fontWeight: "600", color: colors.fg },
   recorde: { marginTop: spacing.sm, fontSize: 12, fontWeight: "700", color: colors.accent, backgroundColor: `${colors.accent}22`, paddingHorizontal: spacing.sm, paddingVertical: 4, borderRadius: radius.pill, overflow: "hidden" },
   score: { fontSize: 52, fontWeight: "600", color: colors.fg, marginTop: spacing.lg },

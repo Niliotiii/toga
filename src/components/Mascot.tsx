@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet } from "react-native";
 import { colors, spacing } from "../theme/tokens";
 
 export type MascotTipo = "acerto" | "erro" | "tempo" | "powerup" | null;
@@ -8,27 +8,18 @@ interface Props {
   mensagem: string;
 }
 
+function borderColorFor(tipo: MascotTipo): string {
+  if (tipo === "acerto" || tipo === "powerup") return colors.success;
+  if (tipo === "erro" || tipo === "tempo") return colors.danger;
+  return colors.border;
+}
+
 export function Mascot({ tipo, mensagem }: Props) {
-  const getAvatarStyle = () => {
-    const baseStyle = {
-      width: 34,
-      height: 34,
-      borderRadius: 17,
-      borderWidth: 1,
-      backgroundColor: colors.surface
-    };
-
-    if (tipo === "acerto" || tipo === "powerup") {
-      return { ...baseStyle, borderColor: colors.success };
-    } else if (tipo === "erro" || tipo === "tempo") {
-      return { ...baseStyle, borderColor: colors.danger };
-    }
-    return { ...baseStyle, borderColor: colors.border };
-  };
-
   return (
     <View style={styles.wrap}>
-      <View testID="mascot-avatar" style={getAvatarStyle()} />
+      <View testID="mascot-avatar" style={{ ...styles.avatar, borderColor: borderColorFor(tipo) }}>
+        <Image source={require("../../assets/icon.png")} style={styles.avatarImage} />
+      </View>
       <Text testID="mascot-bubble" style={styles.bubble}>{mensagem}</Text>
     </View>
   );
@@ -36,5 +27,16 @@ export function Mascot({ tipo, mensagem }: Props) {
 
 const styles = StyleSheet.create({
   wrap: { flexDirection: "row", alignItems: "center", gap: spacing.sm, minHeight: 34 },
+  avatar: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    borderWidth: 1,
+    backgroundColor: colors.surface,
+    alignItems: "center",
+    justifyContent: "center",
+    overflow: "hidden"
+  },
+  avatarImage: { width: 26, height: 26, borderRadius: 13 },
   bubble: { fontSize: 12.5, fontWeight: "600", color: colors.fg }
 });
