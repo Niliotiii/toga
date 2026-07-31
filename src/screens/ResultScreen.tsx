@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { View, Text, Image, ScrollView, Pressable, StyleSheet } from "react-native";
+import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
@@ -8,6 +8,7 @@ import { tierFor, calcEstrelas, isNovoRecorde } from "../lib/gameLogic";
 import { addHistoricoEntry, getHistorico } from "../services/storage";
 import { StarRating } from "../components/StarRating";
 import { Confetti } from "../components/Confetti";
+import { MascotFace } from "../components/MascotFace";
 import { colors, spacing, radius } from "../theme/tokens";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Result">;
@@ -55,7 +56,7 @@ export function ResultScreen({ navigation }: Props) {
     >
       <Confetti active={pct > 70} />
       <View style={[styles.mascotAvatar, { borderColor: mascotBorderColor }]}>
-        <Image source={require("../../assets/icon.png")} style={styles.mascotImage} />
+        <MascotFace size={34} color={colors.fg} />
       </View>
       <Text style={styles.headline}>{tier.headline}</Text>
       {recorde && <Text style={styles.recorde}>Novo recorde pessoal</Text>}
@@ -98,7 +99,6 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     marginBottom: spacing.md
   },
-  mascotImage: { width: 46, height: 46, borderRadius: 23 },
   headline: { fontSize: 24, fontWeight: "600", color: colors.fg },
   recorde: { marginTop: spacing.sm, fontSize: 12, fontWeight: "700", color: colors.accent, backgroundColor: `${colors.accent}22`, paddingHorizontal: spacing.sm, paddingVertical: 4, borderRadius: radius.pill, overflow: "hidden" },
   score: { fontSize: 52, fontWeight: "600", color: colors.fg, marginTop: spacing.lg },
