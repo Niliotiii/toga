@@ -1,8 +1,13 @@
 import React from "react";
 import { render, screen, fireEvent, act } from "@testing-library/react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { HomeScreen } from "./HomeScreen";
 import { GameProvider } from "../context/GameContext";
 import { NavigationContainer } from "@react-navigation/native";
+
+beforeEach(async () => {
+  await AsyncStorage.clear();
+});
 
 async function renderHome() {
   const result = await render(
