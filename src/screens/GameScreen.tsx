@@ -43,6 +43,7 @@ export function GameScreen({ navigation }: Props) {
   const [tempoRestante, setTempoRestante] = useState(TEMPO_QUESTAO);
   const [selecionada, setSelecionada] = useState<number | null>(null);
   const [scissorsActive, setScissorsActive] = useState(false);
+  const [scissorsFlipped, setScissorsFlipped] = useState(false);
   const [pularAnimating, setPularAnimating] = useState(false);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const rowLayouts = useRef<Record<number, { y: number; height: number }>>({});
@@ -141,6 +142,10 @@ export function GameScreen({ navigation }: Props) {
       const startX = enterFromRight ? offscreen : -offscreen;
       const exitX = enterFromRight ? -offscreen : offscreen;
 
+      // The icon's blades point left by default (as drawn for left-to-right
+      // travel); mirror it when entering from the right so it visually
+      // "bites" in its direction of travel instead of cutting backwards.
+      setScissorsFlipped(enterFromRight);
       scissorsY.setValue(centerYFor(idx, ICON_SIZE));
       scissorsX.setValue(startX);
       scissorsSnip.setValue(0);
@@ -250,7 +255,12 @@ export function GameScreen({ navigation }: Props) {
                 styles.scissorsOverlay,
                 {
                   opacity: scissorsOpacity,
-                  transform: [{ translateY: scissorsY }, { translateX: scissorsX }, { rotate: scissorsRotate }]
+                  transform: [
+                    { translateY: scissorsY },
+                    { translateX: scissorsX },
+                    { rotate: scissorsRotate },
+                    { scaleX: scissorsFlipped ? -1 : 1 }
+                  ]
                 }
               ]}
             >
