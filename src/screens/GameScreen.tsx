@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
@@ -20,6 +21,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "Game">;
 
 export function GameScreen({ navigation }: Props) {
   const { state, responder, usarPular, usarEliminar, avancar } = useGame();
+  const insets = useSafeAreaInsets();
   const [eliminadas, setEliminadas] = useState<number[]>([]);
   const [mascotTipo, setMascotTipo] = useState<MascotTipo>(null);
   const [mascotMsg, setMascotMsg] = useState("");
@@ -95,7 +97,7 @@ export function GameScreen({ navigation }: Props) {
 
   return (
     <View style={styles.screen}>
-      <View style={styles.header}>
+      <View style={[styles.header, { paddingTop: spacing.xl + insets.top }]}>
         <Text style={styles.progress}>Questão {state.indice + 1} de {state.rodada.length}</Text>
         <Text style={[styles.combo, state.combo >= 2 && styles.comboHot]}>Combo {state.combo}</Text>
       </View>
@@ -161,7 +163,7 @@ export function GameScreen({ navigation }: Props) {
         </View>
       </ScrollView>
 
-      <View style={styles.footer}>
+      <View style={[styles.footer, { paddingBottom: spacing.xl + insets.bottom }]}>
         {mascotTipo && <Mascot tipo={mascotTipo} mensagem={mascotMsg} />}
         {state.respondida && (
           <Pressable

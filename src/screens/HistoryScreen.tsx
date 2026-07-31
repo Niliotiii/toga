@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { View, Text, FlatList, Pressable, StyleSheet } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
@@ -12,6 +13,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "History">;
 
 export function HistoryScreen({ navigation }: Props) {
   const [historico, setHistorico] = useState<HistoricoEntry[]>([]);
+  const insets = useSafeAreaInsets();
 
   useFocusEffect(
     useCallback(() => {
@@ -21,7 +23,7 @@ export function HistoryScreen({ navigation }: Props) {
 
   return (
     <View style={styles.screen}>
-      <View style={styles.header}>
+      <View style={[styles.header, { paddingTop: spacing.lg + insets.top }]}>
         <Pressable onPress={() => navigation.goBack()} style={styles.backBtn}>
           <Text>{"<"}</Text>
         </Pressable>
@@ -33,7 +35,7 @@ export function HistoryScreen({ navigation }: Props) {
         <FlatList
           data={historico}
           keyExtractor={(item) => item.id_rodada}
-          contentContainerStyle={styles.list}
+          contentContainerStyle={[styles.list, { paddingBottom: spacing.xxl + insets.bottom }]}
           renderItem={({ item }) => <HistoryCard entry={item} />}
           ItemSeparatorComponent={() => <View style={{ height: spacing.sm }} />}
         />

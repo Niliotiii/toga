@@ -1,9 +1,11 @@
 import React from "react";
 import { render, screen, waitFor } from "@testing-library/react-native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import { ResultScreen } from "./ResultScreen";
 import { GameProvider, useGame } from "../context/GameContext";
 import { getHistorico } from "../services/storage";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { TEST_SAFE_AREA_METRICS } from "../test-utils/safeAreaMetrics";
 
 beforeEach(async () => { await AsyncStorage.clear(); });
 
@@ -22,11 +24,13 @@ function Setup({ children }: { children: React.ReactNode }) {
 
 function renderResult() {
   return render(
-    <GameProvider>
-      <Setup>
-        <ResultScreen navigation={{ navigate: jest.fn() } as any} route={{} as any} />
-      </Setup>
-    </GameProvider>
+    <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+      <GameProvider>
+        <Setup>
+          <ResultScreen navigation={{ navigate: jest.fn() } as any} route={{} as any} />
+        </Setup>
+      </GameProvider>
+    </SafeAreaProvider>
   );
 }
 

@@ -1,9 +1,11 @@
 import React from "react";
 import { render, screen, fireEvent, act } from "@testing-library/react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import { HomeScreen } from "./HomeScreen";
 import { GameProvider } from "../context/GameContext";
 import { NavigationContainer } from "@react-navigation/native";
+import { TEST_SAFE_AREA_METRICS } from "../test-utils/safeAreaMetrics";
 
 beforeEach(async () => {
   await AsyncStorage.clear();
@@ -11,11 +13,13 @@ beforeEach(async () => {
 
 async function renderHome() {
   const result = await render(
-    <GameProvider>
-      <NavigationContainer>
-        <HomeScreen navigation={{ navigate: jest.fn() } as any} route={{} as any} />
-      </NavigationContainer>
-    </GameProvider>
+    <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+      <GameProvider>
+        <NavigationContainer>
+          <HomeScreen navigation={{ navigate: jest.fn() } as any} route={{} as any} />
+        </NavigationContainer>
+      </GameProvider>
+    </SafeAreaProvider>
   );
   // Flush the GameProvider's AsyncStorage-hydration effect so it can't leak
   // a pending state update into the next test.

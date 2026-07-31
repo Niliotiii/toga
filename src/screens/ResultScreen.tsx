@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
@@ -13,6 +14,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "Result">;
 
 export function ResultScreen({ navigation }: Props) {
   const { state, iniciarRodada } = useGame();
+  const insets = useSafeAreaInsets();
   const saved = useRef(false);
   const [recorde, setRecorde] = useState(false);
 
@@ -39,7 +41,13 @@ export function ResultScreen({ navigation }: Props) {
   }, []);
 
   return (
-    <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
+    <ScrollView
+      style={styles.screen}
+      contentContainerStyle={[
+        styles.content,
+        { paddingTop: spacing.xxl + insets.top, paddingBottom: spacing.xl + insets.bottom }
+      ]}
+    >
       <Confetti active={pct > 70} />
       <Text style={styles.headline}>{tier.headline}</Text>
       {recorde && <Text style={styles.recorde}>Novo recorde pessoal</Text>}
