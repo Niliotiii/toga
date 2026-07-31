@@ -1,6 +1,5 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet } from "react-native";
 import { colors, spacing } from "../theme/tokens";
-import { MascotFace } from "./MascotFace";
 
 export type MascotTipo = "acerto" | "erro" | "tempo" | "powerup" | null;
 
@@ -19,7 +18,7 @@ export function Mascot({ tipo, mensagem }: Props) {
   return (
     <View style={styles.wrap}>
       <View testID="mascot-avatar" style={{ ...styles.avatar, borderColor: borderColorFor(tipo) }}>
-        <MascotFace size={20} color={colors.fg} />
+        <Image source={require("../../assets/icon.png")} style={styles.avatarImage} />
       </View>
       <Text testID="mascot-bubble" style={styles.bubble}>{mensagem}</Text>
     </View>
@@ -38,5 +37,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     overflow: "hidden"
   },
+  avatarImage: { width: 26, height: 26, borderRadius: 13 },
   bubble: { fontSize: 12.5, fontWeight: "600", color: colors.fg }
 });
