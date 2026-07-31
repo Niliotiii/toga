@@ -1,5 +1,6 @@
-import { View, Text, Image, StyleSheet } from "react-native";
-import { colors, spacing } from "../theme/tokens";
+import { useEffect, useRef } from "react";
+import { View, Text, Image, Animated, StyleSheet } from "react-native";
+import { colors, spacing, motion } from "../theme/tokens";
 
 export type MascotTipo = "acerto" | "erro" | "tempo" | "powerup" | null;
 
@@ -15,11 +16,33 @@ function borderColorFor(tipo: MascotTipo): string {
 }
 
 export function Mascot({ tipo, mensagem }: Props) {
+  const pop = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    if (!tipo) return;
+    pop.setValue(0);
+    Animated.timing(pop, { toValue: 1, duration: motion.medium, useNativeDriver: true }).start();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tipo, mensagem]);
+
+  const isHappy = tipo === "acerto" || tipo === "powerup";
+  const isSad = tipo === "erro" || tipo === "tempo";
+
+  // Happy reactions bounce/scale up; sad reactions shake side to side —
+  // mirrors the prototype's mascot-bounce/mascot-shake keyframes.
+  const scale = isHappy ? pop.interpolate({ inputRange: [0, 0.35, 0.65, 1], outputRange: [1, 1.18, 0.95, 1] }) : 1;
+  const translateX = isSad
+    ? pop.interpolate({ inputRange: [0, 0.2, 0.4, 0.6, 0.8, 1], outputRange: [0, -4, 4, -3, 3, 0] })
+    : 0;
+
   return (
     <View style={styles.wrap}>
-      <View testID="mascot-avatar" style={{ ...styles.avatar, borderColor: borderColorFor(tipo) }}>
+      <Animated.View
+        testID="mascot-avatar"
+        style={{ ...styles.avatar, borderColor: borderColorFor(tipo), transform: [{ scale }, { translateX }] }}
+      >
         <Image source={require("../../assets/icon.png")} style={styles.avatarImage} />
-      </View>
+      </Animated.View>
       <Text testID="mascot-bubble" style={styles.bubble}>{mensagem}</Text>
     </View>
   );
@@ -37,6 +60,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     overflow: "hidden"
   },
-  avatarImage: { width: 26, height: 26, borderRadius: 13 },
+  avatarImage: { width: 34, height: 34, borderRadius: 17 },
   bubble: { fontSize: 12.5, fontWeight: "600", color: colors.fg }
 });

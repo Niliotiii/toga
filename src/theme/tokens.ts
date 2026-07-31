@@ -6,10 +6,17 @@ export const colors = {
   border: "#E3E4E8",
   accent: "#3B5BDB",
   accentText: "#2F4BB0",
-  success: "#2F9E5C",
+  // Darkened from the prototype's oklch values so white text on a solid
+  // fill (selected chips, alternativa letter badges) and colored text on
+  // this color's own light tint (history badges) both clear WCAG AA
+  // (4.5:1) for normal-weight text — the original oklch conversions
+  // landed at ~3.3-3.4:1 against white.
+  success: "#1A6E3D",
   danger: "#D1453B",
   warn: "#D9A441",
-  mediaDificuldade: "#C97C1F",
+  gold: "#E8B93F",
+  mediaDificuldade: "#8A4D08",
+  mediaDificuldadeBg: "#F5E1BF",
   temas: {
     "Direito Penal": "#A53E00",
     "Constitucional": "#724AAB",

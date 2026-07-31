@@ -1,5 +1,6 @@
 import { Pressable, Text, View, StyleSheet } from "react-native";
 import { colors, radius, spacing } from "../theme/tokens";
+import { CheckIcon, CloseIcon } from "./icons";
 
 type AltState = "default" | "correct" | "wrong" | "eliminated";
 
@@ -21,12 +22,15 @@ export function AlternativaButton({ letra, texto, state, disabled, onPress, test
       testID={testID}
       onPress={onPress}
       disabled={disabled}
+      accessibilityState={{ disabled, selected: state === "correct" || state === "wrong" }}
       style={[styles.alt, { borderColor: border }, state === "eliminated" && styles.eliminated]}
     >
       <View style={[styles.letra, { backgroundColor: letterBg, borderColor: border }]}>
         <Text style={[styles.letraText, { color: letterColor }]}>{letra}</Text>
       </View>
       <Text style={styles.texto}>{texto}</Text>
+      {state === "correct" && <CheckIcon size={20} color={colors.success} />}
+      {state === "wrong" && <CloseIcon size={20} color={colors.danger} />}
     </Pressable>
   );
 }

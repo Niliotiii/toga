@@ -48,7 +48,7 @@ export function HistoryScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   header: { flexDirection: "row", alignItems: "center", gap: spacing.md, padding: spacing.lg },
-  backBtn: { width: 36, height: 36, borderRadius: 18, borderWidth: 1, borderColor: colors.border, alignItems: "center", justifyContent: "center" },
+  backBtn: { width: 44, height: 44, borderRadius: 22, borderWidth: 1, borderColor: colors.border, alignItems: "center", justifyContent: "center" },
   title: { fontSize: 18, fontWeight: "600", color: colors.fg },
   list: { paddingHorizontal: spacing.lg, paddingBottom: spacing.xxl },
   empty: { textAlign: "center", padding: spacing.xxl, color: colors.muted, fontSize: 14 }

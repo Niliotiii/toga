@@ -8,7 +8,8 @@ import { tierFor, calcEstrelas, isNovoRecorde } from "../lib/gameLogic";
 import { addHistoricoEntry, getHistorico } from "../services/storage";
 import { StarRating } from "../components/StarRating";
 import { Confetti } from "../components/Confetti";
-import { colors, spacing, radius } from "../theme/tokens";
+import { DIF_LABEL } from "../data/temas";
+import { colors, spacing, radius, type } from "../theme/tokens";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Result">;
 
@@ -62,7 +63,10 @@ export function ResultScreen({ navigation }: Props) {
       <StarRating estrelas={estrelas} />
       <Text style={styles.score}>{state.acertos} / {total}</Text>
       <Text style={styles.pct}>{pct}%</Text>
-      <Text style={styles.tema}>{state.tema}</Text>
+      <View style={styles.temaRow}>
+        <View style={[styles.temaDot, { backgroundColor: colors.temas[state.tema] ?? colors.muted }]} />
+        <Text style={styles.tema}>{state.tema} · {DIF_LABEL[state.dificuldade]}</Text>
+      </View>
 
       <View style={styles.spacer} />
 
@@ -98,12 +102,14 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     marginBottom: spacing.md
   },
-  mascotImage: { width: 46, height: 46, borderRadius: 23 },
+  mascotImage: { width: 76, height: 76, borderRadius: 38 },
   headline: { fontSize: 24, fontWeight: "600", color: colors.fg },
   recorde: { marginTop: spacing.sm, fontSize: 12, fontWeight: "700", color: colors.accent, backgroundColor: `${colors.accent}22`, paddingHorizontal: spacing.sm, paddingVertical: 4, borderRadius: radius.pill, overflow: "hidden" },
   score: { fontSize: 52, fontWeight: "600", color: colors.fg, marginTop: spacing.lg },
   pct: { fontSize: 16, color: colors.accent, fontWeight: "700", marginTop: spacing.xs },
-  tema: { fontSize: 13, color: colors.muted, marginTop: spacing.sm },
+  temaRow: { flexDirection: "row", alignItems: "center", gap: spacing.xs, marginTop: spacing.sm },
+  temaDot: { width: 8, height: 8, borderRadius: 4 },
+  tema: { ...type.small },
   spacer: { flex: 1, minHeight: spacing.xxl, width: "100%" },
   actions: { width: "100%" },
   ctaPrimary: { backgroundColor: colors.accent, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
