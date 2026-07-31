@@ -1,9 +1,11 @@
 import React from "react";
 import { render, screen, fireEvent, act } from "@testing-library/react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import { GameScreen } from "./GameScreen";
 import { GameProvider, useGame } from "../context/GameContext";
 import { CRONOMETRO_KEY } from "../services/storage";
+import { TEST_SAFE_AREA_METRICS } from "../test-utils/safeAreaMetrics";
 
 function Setup({ children }: { children: React.ReactNode }) {
   const { setTema, setDificuldade, iniciarRodada } = useGame();
@@ -27,11 +29,13 @@ beforeEach(async () => {
 async function renderGame() {
   const navigation = { navigate: jest.fn() };
   const result = await render(
-    <GameProvider>
-      <Setup>
-        <GameScreen navigation={navigation as any} route={{} as any} />
-      </Setup>
-    </GameProvider>
+    <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+      <GameProvider>
+        <Setup>
+          <GameScreen navigation={navigation as any} route={{} as any} />
+        </Setup>
+      </GameProvider>
+    </SafeAreaProvider>
   );
   await act(async () => {
     await Promise.resolve();
@@ -108,11 +112,13 @@ test("when cronometro is active, letting the timer run out auto-answers and show
     await AsyncStorage.setItem(CRONOMETRO_KEY, "1");
     const navigation = { navigate: jest.fn() };
     await render(
-      <GameProvider>
-        <SetupWithTimerHydrated>
-          <GameScreen navigation={navigation as any} route={{} as any} />
-        </SetupWithTimerHydrated>
-      </GameProvider>
+      <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+        <GameProvider>
+          <SetupWithTimerHydrated>
+            <GameScreen navigation={navigation as any} route={{} as any} />
+          </SetupWithTimerHydrated>
+        </GameProvider>
+      </SafeAreaProvider>
     );
     await act(async () => {
       await Promise.resolve();
@@ -185,11 +191,13 @@ test("toggling cronometro on and starting a round before the storage write/hydra
 
     const navigation = { navigate: jest.fn() };
     await render(
-      <GameProvider>
-        <ToggleThenStart>
-          <GameScreen navigation={navigation as any} route={{} as any} />
-        </ToggleThenStart>
-      </GameProvider>
+      <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+        <GameProvider>
+          <ToggleThenStart>
+            <GameScreen navigation={navigation as any} route={{} as any} />
+          </ToggleThenStart>
+        </GameProvider>
+      </SafeAreaProvider>
     );
     await act(async () => {
       await Promise.resolve();

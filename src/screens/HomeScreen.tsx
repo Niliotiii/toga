@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
@@ -15,6 +16,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
 export function HomeScreen({ navigation }: Props) {
   const { state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
+  const insets = useSafeAreaInsets();
 
   const poolCount = useMemo(
     () => filterPool(QUESTOES_DB, state.tema, state.dificuldade).length,
@@ -22,7 +24,13 @@ export function HomeScreen({ navigation }: Props) {
   );
 
   return (
-    <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
+    <ScrollView
+      style={styles.screen}
+      contentContainerStyle={[
+        styles.content,
+        { paddingTop: spacing.xl + insets.top, paddingBottom: spacing.xxl + insets.bottom }
+      ]}
+    >
       <Text style={styles.title}>Bora revisar direito hoje?</Text>
 
       <MetaDiariaCard />

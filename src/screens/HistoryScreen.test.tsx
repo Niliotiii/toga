@@ -2,18 +2,22 @@ import React from "react";
 import { View, Text, Pressable } from "react-native";
 import { render, screen, waitFor, fireEvent, act } from "@testing-library/react-native";
 import { NavigationContainer } from "@react-navigation/native";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { HistoryScreen } from "./HistoryScreen";
 import { HIST_KEY } from "../services/storage";
 import { createKeepMountedNavigator } from "../test-utils/keepMountedNavigator";
+import { TEST_SAFE_AREA_METRICS } from "../test-utils/safeAreaMetrics";
 
 beforeEach(async () => { await AsyncStorage.clear(); });
 
 function renderHistory() {
   return render(
-    <NavigationContainer>
-      <HistoryScreen navigation={{ goBack: jest.fn() } as any} route={{} as any} />
-    </NavigationContainer>
+    <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+      <NavigationContainer>
+        <HistoryScreen navigation={{ goBack: jest.fn() } as any} route={{} as any} />
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
 
@@ -84,12 +88,14 @@ function OutraTela({ navigation }: any) {
 
 function TestNavigator() {
   return (
-    <NavigationContainer>
-      <TestNav.Navigator initialRouteName="History">
-        <TestNav.Screen name="History" component={HistoryWithNav} />
-        <TestNav.Screen name="Outra" component={OutraTela} />
-      </TestNav.Navigator>
-    </NavigationContainer>
+    <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
+      <NavigationContainer>
+        <TestNav.Navigator initialRouteName="History">
+          <TestNav.Screen name="History" component={HistoryWithNav} />
+          <TestNav.Screen name="Outra" component={OutraTela} />
+        </TestNav.Navigator>
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
 
