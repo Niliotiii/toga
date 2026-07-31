@@ -1,6 +1,7 @@
-import { useMemo } from "react";
-import { View, Text, ScrollView, Pressable, StyleSheet } from "react-native";
+import { useMemo, useRef } from "react";
+import { View, Text, ScrollView, Pressable, StyleSheet, Animated } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
@@ -17,11 +18,20 @@ type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 export function HomeScreen({ navigation }: Props) {
   const { state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
   const insets = useSafeAreaInsets();
+  const diceSpin = useRef(new Animated.Value(0)).current;
 
   const poolCount = useMemo(
     () => filterPool(QUESTOES_DB, state.tema, state.dificuldade).length,
     [state.tema, state.dificuldade]
   );
+
+  const handleSortear = () => {
+    diceSpin.setValue(0);
+    Animated.timing(diceSpin, { toValue: 1, duration: 400, useNativeDriver: true }).start();
+    sortearAleatorio();
+  };
+
+  const diceRotate = diceSpin.interpolate({ inputRange: [0, 1], outputRange: ["0deg", "360deg"] });
 
   return (
     <ScrollView
@@ -37,8 +47,10 @@ export function HomeScreen({ navigation }: Props) {
 
       <View style={styles.modeRow}>
         <CronometroSwitch active={state.cronometroAtivo} onToggle={toggleCronometro} />
-        <Pressable style={styles.sortearButton} onPress={sortearAleatorio} accessibilityLabel="Sortear tema e dificuldade">
-          <Text style={styles.sortearButtonText}>🎲</Text>
+        <Pressable style={styles.sortearButton} onPress={handleSortear} accessibilityLabel="Sortear tema e dificuldade">
+          <Animated.View style={{ transform: [{ rotate: diceRotate }] }}>
+            <MaterialCommunityIcons name="dice-multiple-outline" size={22} color={colors.accentText} />
+          </Animated.View>
         </Pressable>
       </View>
 
@@ -97,7 +109,6 @@ const styles = StyleSheet.create({
   sectionLabel: { fontSize: 12, fontWeight: "600", color: colors.muted, textTransform: "uppercase", marginTop: spacing.xl, marginBottom: spacing.sm },
   modeRow: { flexDirection: "row", alignItems: "stretch", gap: spacing.sm, marginTop: spacing.lg },
   sortearButton: { width: 44, minHeight: 44, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface, alignItems: "center", justifyContent: "center" },
-  sortearButtonText: { fontSize: 20 },
   chipGrid: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   chipRow: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   poolInfo: { fontSize: 13, color: colors.muted, marginTop: spacing.lg },

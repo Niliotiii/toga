@@ -7,6 +7,7 @@ import type { RootStackParamList } from "../navigation/RootNavigator";
 import { getHistorico } from "../services/storage";
 import { HistoricoEntry } from "../types";
 import { HistoryCard } from "../components/HistoryCard";
+import { ChevronLeftIcon } from "../components/icons";
 import { colors, spacing } from "../theme/tokens";
 
 type Props = NativeStackScreenProps<RootStackParamList, "History">;
@@ -24,8 +25,8 @@ export function HistoryScreen({ navigation }: Props) {
   return (
     <View style={styles.screen}>
       <View style={[styles.header, { paddingTop: spacing.lg + insets.top }]}>
-        <Pressable onPress={() => navigation.goBack()} style={styles.backBtn}>
-          <Text>{"<"}</Text>
+        <Pressable onPress={() => navigation.goBack()} style={styles.backBtn} accessibilityLabel="Voltar">
+          <ChevronLeftIcon size={20} color={colors.fg} />
         </Pressable>
         <Text style={styles.title}>Histórico de rodadas</Text>
       </View>

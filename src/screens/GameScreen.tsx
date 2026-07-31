@@ -6,6 +6,7 @@ import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
 import { AlternativaButton } from "../components/AlternativaButton";
 import { PowerupButton } from "../components/PowerupButton";
+import { ScissorsIcon, SkipIcon } from "../components/icons";
 import { Mascot, MascotTipo } from "../components/Mascot";
 import { colors, spacing, radius } from "../theme/tokens";
 
@@ -152,7 +153,7 @@ export function GameScreen({ navigation }: Props) {
         <View style={styles.powerupsRow}>
           <PowerupButton
             testID="powerup-eliminar"
-            icon="✂️"
+            icon={<ScissorsIcon size={24} color={colors.fg} />}
             label="Eliminar 2"
             count={state.powerups.eliminar}
             disabled={state.respondida || state.powerups.eliminar <= 0 || state.eliminadasQuestaoAtual}
@@ -160,7 +161,7 @@ export function GameScreen({ navigation }: Props) {
           />
           <PowerupButton
             testID="powerup-pular"
-            icon="⏭️"
+            icon={<SkipIcon size={24} color={colors.fg} />}
             label="Pular"
             count={state.powerups.pular}
             disabled={state.respondida || state.powerups.pular <= 0}
