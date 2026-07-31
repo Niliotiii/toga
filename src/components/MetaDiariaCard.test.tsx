@@ -42,7 +42,7 @@ test("shows the stored progress for today", async () => {
 
 type TestParamList = { Home: undefined; Outra: undefined };
 
-const TestNav = createKeepMountedNavigator<TestParamList>();
+const TestNav = createKeepMountedNavigator();
 
 function HomeWithCard({ navigation }: any) {
   return (

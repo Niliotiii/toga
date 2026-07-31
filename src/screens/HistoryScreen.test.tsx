@@ -58,7 +58,7 @@ test("lists saved rounds most recent first", async () => {
 
 type TestParamList = { History: undefined; Outra: undefined };
 
-const TestNav = createKeepMountedNavigator<TestParamList>();
+const TestNav = createKeepMountedNavigator();
 
 function HistoryWithNav({ navigation }: any) {
   return (
