@@ -50,7 +50,7 @@ export function ResultScreen({ navigation }: Props) {
       style={styles.screen}
       contentContainerStyle={[
         styles.content,
-        { paddingTop: spacing.xxl + insets.top, paddingBottom: spacing.xl + insets.bottom }
+        { flexGrow: 1, paddingTop: spacing.xxl + insets.top, paddingBottom: spacing.xl + insets.bottom }
       ]}
     >
       <Confetti active={pct > 70} />
@@ -63,6 +63,8 @@ export function ResultScreen({ navigation }: Props) {
       <Text style={styles.score}>{state.acertos} / {total}</Text>
       <Text style={styles.pct}>{pct}%</Text>
       <Text style={styles.tema}>{state.tema}</Text>
+
+      <View style={styles.spacer} />
 
       <View style={styles.actions}>
         <Pressable
@@ -102,7 +104,8 @@ const styles = StyleSheet.create({
   score: { fontSize: 52, fontWeight: "600", color: colors.fg, marginTop: spacing.lg },
   pct: { fontSize: 16, color: colors.accent, fontWeight: "700", marginTop: spacing.xs },
   tema: { fontSize: 13, color: colors.muted, marginTop: spacing.sm },
-  actions: { marginTop: spacing.xxl, width: "100%" },
+  spacer: { flex: 1, minHeight: spacing.xxl, width: "100%" },
+  actions: { width: "100%" },
   ctaPrimary: { backgroundColor: colors.accent, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
   ctaPrimaryText: { color: "#fff", fontSize: 17, fontWeight: "600" },
   ctaSecondary: { marginTop: spacing.md, borderWidth: 1, borderColor: colors.border, borderRadius: radius.lg, paddingVertical: spacing.md + 3, alignItems: "center", minHeight: 44 },
