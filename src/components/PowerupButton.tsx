@@ -1,8 +1,9 @@
+import React from "react";
 import { Pressable, Text, View, StyleSheet } from "react-native";
 import { colors, radius } from "../theme/tokens";
 
 interface Props {
-  icon: string;
+  icon: React.ReactNode;
   label: string;
   count: number;
   disabled: boolean;
@@ -20,7 +21,7 @@ export function PowerupButton({ icon, label, count, disabled, onPress, testID }:
       accessibilityLabel={`${label}, ${count} disponíveis`}
       style={[styles.card, disabled && styles.cardDisabled]}
     >
-      <Text style={styles.icon}>{icon}</Text>
+      {icon}
       <View style={styles.countBadge}>
         <Text style={styles.countText}>{count}</Text>
       </View>
@@ -45,7 +46,6 @@ const styles = StyleSheet.create({
     elevation: 2
   },
   cardDisabled: { opacity: 0.35 },
-  icon: { fontSize: 24 },
   countBadge: {
     position: "absolute",
     top: -6,
