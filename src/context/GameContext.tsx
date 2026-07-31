@@ -109,11 +109,20 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const responder = useCallback((indiceEscolhido: number) => {
+    // acertou is computed up front from stateRef (mirroring the usarEliminar
+    // pattern below) so registrarRespostaMeta() -- an AsyncStorage side
+    // effect -- can be called once from the outer body of responder instead
+    // of from inside the setState updater. Updaters are not a safe place for
+    // side effects: React may invoke them more than once per commit (e.g.
+    // under StrictMode's double-invocation in dev), which would double-count
+    // the daily meta counter.
+    const s0 = stateRef.current;
+    if (s0.respondida) return;
+    const q = s0.rodada[s0.indice];
+    const acertou = indiceEscolhido === q.resposta_correta;
+
     setState((s) => {
       if (s.respondida) return s;
-      const q = s.rodada[s.indice];
-      const acertou = indiceEscolhido === q.resposta_correta;
-      registrarRespostaMeta();
       const combo = acertou ? s.combo + 1 : 0;
       let powerups = s.powerups;
       if (acertou && combo > 0 && combo % 3 === 0 && s.powerups.eliminar < POWERUP_MAX) {
@@ -128,6 +137,8 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
         powerups
       };
     });
+
+    registrarRespostaMeta();
   }, []);
 
   const usarPular = useCallback(() => {
