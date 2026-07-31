@@ -2,10 +2,10 @@ import React from "react";
 import { View, Text, Pressable } from "react-native";
 import { render, screen, waitFor, fireEvent, act } from "@testing-library/react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { NavigationContainer, useNavigationBuilder, createNavigatorFactory } from "@react-navigation/native";
-import { TabRouter } from "@react-navigation/routers";
+import { NavigationContainer } from "@react-navigation/native";
 import { MetaDiariaCard } from "./MetaDiariaCard";
 import { META_KEY } from "../services/storage";
+import { createKeepMountedNavigator } from "../test-utils/keepMountedNavigator";
 
 beforeEach(async () => { await AsyncStorage.clear(); });
 
@@ -34,31 +34,14 @@ test("shows the stored progress for today", async () => {
 // commenting out `navigation.addListener("focus", load)` still made a
 // stack-based version of this test pass, because remounting re-triggered the
 // unrelated mount effect). To make the test actually exercise the focus
-// listener and nothing else, we build a minimal custom "keep-mounted"
-// tab-style navigator (per React Navigation's custom-navigator API) that
-// renders every screen simultaneously (toggling only `display`), so no
-// screen ever unmounts across navigation. Only the "focus" event -- driven by
-// the real navigation state/listener system -- can make the card refresh.
+// listener and nothing else, we use a shared "keep-mounted" tab-style test
+// navigator (see ../test-utils/keepMountedNavigator) that renders every
+// screen simultaneously (toggling only `display`), so no screen ever
+// unmounts across navigation. Only the "focus" event -- driven by the real
+// navigation state/listener system -- can make the card refresh.
 
 type TestParamList = { Home: undefined; Outra: undefined };
 
-function KeepMountedNavigator({ children, initialRouteName }: any) {
-  const { state, navigation, descriptors, NavigationContent } = useNavigationBuilder(TabRouter, {
-    children,
-    initialRouteName
-  });
-
-  return (
-    <NavigationContent>
-      {state.routes.map((route: any, i: number) => (
-        <View key={route.key} style={{ display: i === state.index ? "flex" : "none" }}>
-          {descriptors[route.key].render()}
-        </View>
-      ))}
-    </NavigationContent>
-  );
-}
-const createKeepMountedNavigator = createNavigatorFactory(KeepMountedNavigator);
 const TestNav = createKeepMountedNavigator<TestParamList>();
 
 function HomeWithCard({ navigation }: any) {
