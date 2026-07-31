@@ -6,10 +6,11 @@ import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
 import { AlternativaButton } from "../components/AlternativaButton";
 import { PowerupButton } from "../components/PowerupButton";
-import { ScissorsIcon, SkipIcon } from "../components/icons";
+import { ScissorsIcon, SkipIcon, FlameIcon } from "../components/icons";
 import { Mascot, MascotTipo } from "../components/Mascot";
 import { ParachuteMascot } from "../components/ParachuteMascot";
-import { colors, spacing, radius } from "../theme/tokens";
+import { colors, spacing, radius, type, motion } from "../theme/tokens";
+import { useReducedMotion } from "../hooks/useReducedMotion";
 
 const TEMPO_QUESTAO = 20;
 const FRASES: Record<string, string[]> = {
@@ -37,6 +38,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "Game">;
 export function GameScreen({ navigation }: Props) {
   const { state, responder, usarPular, usarEliminar, avancar } = useGame();
   const insets = useSafeAreaInsets();
+  const reducedMotion = useReducedMotion();
   const [eliminadas, setEliminadas] = useState<number[]>([]);
   const [mascotTipo, setMascotTipo] = useState<MascotTipo>(null);
   const [mascotMsg, setMascotMsg] = useState("");
@@ -129,6 +131,11 @@ export function GameScreen({ navigation }: Props) {
     const removidos = usarEliminar();
     if (!removidos.length) return;
 
+    if (reducedMotion) {
+      setEliminadas((prev) => [...prev, ...removidos]);
+      return;
+    }
+
     // First eliminated option: scissors enter from the right and sweep left.
     // Second eliminated option: scissors enter from the left and sweep right.
     const ordenados = [...removidos].sort((a, b) => b - a);
@@ -159,7 +166,7 @@ export function GameScreen({ navigation }: Props) {
 
       // Continue across the screen and off the other side.
       await animateTo(scissorsX, exitX, 220);
-      await animateTo(scissorsOpacity, 0, 100);
+      await animateTo(scissorsOpacity, 0, motion.fast);
     }
 
     setScissorsActive(false);
@@ -167,6 +174,12 @@ export function GameScreen({ navigation }: Props) {
 
   const handlePular = async () => {
     if (state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive) return;
+
+    if (reducedMotion) {
+      usarPular();
+      return;
+    }
+
     const targetY = centerYFor(q.resposta_correta, 40);
 
     setPularAnimating(true);
@@ -187,7 +200,7 @@ export function GameScreen({ navigation }: Props) {
     wiggleLoop.stop();
     await animateTo(paraquedasWiggle, 0, 100);
     await wait(250);
-    await animateTo(paraquedasOpacity, 0, 220);
+    await animateTo(paraquedasOpacity, 0, motion.medium);
     setPularAnimating(false);
   };
 
@@ -199,8 +212,19 @@ export function GameScreen({ navigation }: Props) {
   return (
     <View style={styles.screen}>
       <View style={[styles.header, { paddingTop: spacing.xl + insets.top }]}>
-        <Text style={styles.progress}>Questão {state.indice + 1} de {state.rodada.length}</Text>
-        <Text style={[styles.combo, state.combo >= 2 && styles.comboHot]}>Combo {state.combo}</Text>
+        <View style={styles.headerTop}>
+          <View style={styles.progressRow}>
+            <View style={[styles.temaDot, { backgroundColor: colors.temas[state.tema] ?? colors.muted }]} />
+            <Text style={styles.progress}>Questão {state.indice + 1} de {state.rodada.length}</Text>
+          </View>
+          <View style={[styles.comboBadge, state.combo >= 2 && styles.comboBadgeHot]}>
+            <FlameIcon size={14} color={state.combo >= 2 ? colors.accent : colors.muted} />
+            <Text style={[styles.combo, state.combo >= 2 && styles.comboHot]}>Combo {state.combo}</Text>
+          </View>
+        </View>
+        <View style={styles.progressTrack}>
+          <View style={[styles.progressFill, { width: `${(state.indice / state.rodada.length) * 100}%` }]} />
+        </View>
       </View>
 
       {state.cronometroAtivo && !state.respondida && (
@@ -333,10 +357,27 @@ export function GameScreen({ navigation }: Props) {
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
-  header: { padding: spacing.xl, paddingBottom: spacing.md, flexDirection: "row", justifyContent: "space-between" },
-  progress: { fontSize: 13, fontWeight: "600", color: colors.muted },
+  header: { padding: spacing.xl, paddingBottom: spacing.md },
+  headerTop: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+  progressRow: { flexDirection: "row", alignItems: "center", gap: spacing.xs + 3 },
+  temaDot: { width: 8, height: 8, borderRadius: 4 },
+  progress: { ...type.small, fontWeight: "600" },
+  comboBadge: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 5,
+    paddingVertical: 5,
+    paddingHorizontal: spacing.sm + 2,
+    borderRadius: radius.pill,
+    backgroundColor: colors.surface,
+    borderWidth: 1,
+    borderColor: colors.border
+  },
+  comboBadgeHot: { borderColor: colors.accent, backgroundColor: `${colors.accent}1A` },
   combo: { fontSize: 13, fontWeight: "700", color: colors.muted },
   comboHot: { color: colors.accent },
+  progressTrack: { height: 4, borderRadius: radius.pill, backgroundColor: colors.border, marginTop: spacing.md, overflow: "hidden" },
+  progressFill: { height: "100%", borderRadius: radius.pill, backgroundColor: colors.accent },
   timerRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm, paddingHorizontal: spacing.xl, marginBottom: spacing.sm },
   timerTrack: { flex: 1, height: 6, borderRadius: radius.pill, backgroundColor: colors.border, overflow: "hidden" },
   timerFill: { height: "100%", borderRadius: radius.pill },
@@ -345,7 +386,7 @@ const styles = StyleSheet.create({
   body: { flex: 1, paddingHorizontal: spacing.xl },
   powerupsRow: { flexDirection: "row", justifyContent: "center", gap: spacing.lg, marginBottom: spacing.sm },
   fonte: { fontSize: 12, color: colors.muted, fontStyle: "italic" },
-  enunciado: { fontSize: 19, lineHeight: 28, fontWeight: "500", color: colors.fg, marginTop: spacing.sm },
+  enunciado: { ...type.enunciado, color: colors.fg, marginTop: spacing.sm },
   altList: { gap: spacing.sm, marginTop: spacing.xl, position: "relative" },
   scissorsOverlay: { position: "absolute", left: "50%", marginLeft: -ICON_SIZE / 2, top: 0 },
   paraquedasOverlay: { position: "absolute", left: "50%", marginLeft: -28, top: 0 },

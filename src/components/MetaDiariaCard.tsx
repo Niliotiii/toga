@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback, useContext } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { NavigationContext } from "@react-navigation/native";
 import { getMetaDiaria, META_ALVO } from "../services/storage";
-import { colors, radius, spacing } from "../theme/tokens";
+import { colors, radius, spacing, type } from "../theme/tokens";
 
 export function MetaDiariaCard() {
   const [respondidas, setRespondidas] = useState(0);
@@ -43,9 +43,9 @@ const styles = StyleSheet.create({
   card: { marginTop: spacing.lg, padding: spacing.md, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface },
   cardComplete: { borderColor: colors.success },
   top: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  label: { fontSize: 13, fontWeight: "600", color: colors.muted },
+  label: { ...type.small, fontWeight: "600" },
   labelComplete: { color: colors.success },
-  track: { height: 6, borderRadius: 4, backgroundColor: colors.border, marginTop: spacing.sm, overflow: "hidden" },
-  fill: { height: "100%", backgroundColor: colors.accent, borderRadius: 4 },
+  track: { height: 6, borderRadius: radius.pill, backgroundColor: colors.border, marginTop: spacing.sm, overflow: "hidden" },
+  fill: { height: "100%", backgroundColor: colors.accent, borderRadius: radius.pill },
   fillComplete: { backgroundColor: colors.success }
 });

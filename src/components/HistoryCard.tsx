@@ -7,7 +7,7 @@ interface Props {
   entry: HistoricoEntry;
 }
 
-const DIF_BG: Record<string, string> = { facil: `${colors.success}22`, media: "#F5E1BF", dificil: `${colors.danger}22` };
+const DIF_BG: Record<string, string> = { facil: `${colors.success}22`, media: colors.mediaDificuldadeBg, dificil: `${colors.danger}22` };
 const DIF_FG: Record<string, string> = { facil: colors.success, media: colors.mediaDificuldade, dificil: colors.danger };
 
 export function HistoryCard({ entry }: Props) {
@@ -47,6 +47,6 @@ const styles = StyleSheet.create({
   difText: { fontSize: 11, fontWeight: "700" },
   bottom: { flexDirection: "row", justifyContent: "space-between", marginTop: spacing.sm },
   meta: { fontSize: 12.5, color: colors.muted },
-  bar: { height: 4, borderRadius: 4, backgroundColor: colors.border, marginTop: spacing.sm, overflow: "hidden" },
+  bar: { height: 4, borderRadius: radius.pill, backgroundColor: colors.border, marginTop: spacing.sm, overflow: "hidden" },
   barFill: { height: "100%", backgroundColor: colors.accent }
 });

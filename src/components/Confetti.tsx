@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { View, Animated, StyleSheet, Dimensions } from "react-native";
 import { colors } from "../theme/tokens";
+import { useReducedMotion } from "../hooks/useReducedMotion";
 
 interface Props {
   active: boolean;
@@ -10,18 +11,21 @@ const PIECES = 18;
 const { width } = Dimensions.get("window");
 
 export function Confetti({ active }: Props) {
+  const reducedMotion = useReducedMotion();
   const anims = useRef(Array.from({ length: PIECES }, () => new Animated.Value(0))).current;
 
   useEffect(() => {
-    if (!active) return;
+    if (!active || reducedMotion) return;
     const animations = anims.map((v) =>
       Animated.timing(v, { toValue: 1, duration: 1200 + Math.random() * 400, useNativeDriver: true })
     );
     Animated.stagger(30, animations).start();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [active]);
+  }, [active, reducedMotion]);
 
-  if (!active) return null;
+  // Confetti is purely decorative celebration — with reduced motion
+  // requested, skip it entirely rather than showing a static version.
+  if (!active || reducedMotion) return null;
 
   return (
     <View style={styles.wrap} pointerEvents="none" testID="confetti">

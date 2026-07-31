@@ -1,5 +1,5 @@
 import { useMemo, useRef } from "react";
-import { View, Text, ScrollView, Pressable, StyleSheet, Animated } from "react-native";
+import { View, Text, Image, ScrollView, Pressable, StyleSheet, Animated } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
@@ -8,16 +8,18 @@ import { useGame } from "../context/GameContext";
 import { TEMAS, DIFICULDADES } from "../data/temas";
 import { QUESTOES_DB } from "../data/questoes";
 import { filterPool } from "../lib/gameLogic";
-import { colors, spacing, radius } from "../theme/tokens";
+import { colors, spacing, radius, type } from "../theme/tokens";
 import { Chip } from "../components/Chip";
 import { MetaDiariaCard } from "../components/MetaDiariaCard";
 import { CronometroSwitch } from "../components/CronometroSwitch";
+import { useReducedMotion } from "../hooks/useReducedMotion";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
 export function HomeScreen({ navigation }: Props) {
   const { state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
   const insets = useSafeAreaInsets();
+  const reducedMotion = useReducedMotion();
   const diceSpin = useRef(new Animated.Value(0)).current;
 
   const poolCount = useMemo(
@@ -26,6 +28,10 @@ export function HomeScreen({ navigation }: Props) {
   );
 
   const handleSortear = () => {
+    if (reducedMotion) {
+      sortearAleatorio();
+      return;
+    }
     diceSpin.setValue(0);
     Animated.timing(diceSpin, { toValue: 1, duration: 400, useNativeDriver: true }).start();
     sortearAleatorio();
@@ -41,6 +47,10 @@ export function HomeScreen({ navigation }: Props) {
         { flexGrow: 1, paddingTop: spacing.xl + insets.top, paddingBottom: spacing.xxl + insets.bottom }
       ]}
     >
+      <View style={styles.brandRow}>
+        <Image source={require("../../assets/icon.png")} style={styles.brandMark} />
+        <Text style={styles.brandName}>Toga</Text>
+      </View>
       <Text style={styles.title}>Bora revisar direito hoje?</Text>
 
       <MetaDiariaCard />
@@ -105,13 +115,16 @@ export function HomeScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   content: { padding: spacing.xl, paddingBottom: spacing.xxl },
-  title: { fontSize: 23, fontWeight: "600", color: colors.fg, marginTop: spacing.md },
+  brandRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm },
+  brandMark: { width: 34, height: 34, borderRadius: radius.sm + 2 },
+  brandName: { fontSize: 15, fontWeight: "600", color: colors.muted },
+  title: { ...type.title, color: colors.fg, marginTop: spacing.lg },
   sectionLabel: { fontSize: 12, fontWeight: "600", color: colors.muted, textTransform: "uppercase", marginTop: spacing.xl, marginBottom: spacing.sm },
   modeRow: { flexDirection: "row", alignItems: "stretch", gap: spacing.sm, marginTop: spacing.lg },
   sortearButton: { width: 44, minHeight: 44, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface, alignItems: "center", justifyContent: "center" },
   chipGrid: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   chipRow: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
-  poolInfo: { fontSize: 13, color: colors.muted, marginTop: spacing.lg },
+  poolInfo: { ...type.small, marginTop: spacing.lg },
   spacer: { flex: 1, minHeight: spacing.xl },
   ctaPrimary: { backgroundColor: colors.accent, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
   ctaDisabled: { opacity: 0.4 },
