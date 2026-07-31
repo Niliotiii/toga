@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { View, Text, ScrollView, Pressable, Animated, StyleSheet } from "react-native";
+import { View, Text, ScrollView, Pressable, Animated, Dimensions, StyleSheet } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
@@ -29,6 +29,9 @@ function wait(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+const SCREEN_WIDTH = Dimensions.get("window").width;
+const ICON_SIZE = 28;
+
 type Props = NativeStackScreenProps<RootStackParamList, "Game">;
 
 export function GameScreen({ navigation }: Props) {
@@ -44,6 +47,7 @@ export function GameScreen({ navigation }: Props) {
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const rowLayouts = useRef<Record<number, { y: number; height: number }>>({});
   const scissorsY = useRef(new Animated.Value(0)).current;
+  const scissorsX = useRef(new Animated.Value(0)).current;
   const scissorsOpacity = useRef(new Animated.Value(0)).current;
   const scissorsSnip = useRef(new Animated.Value(0)).current;
   const paraquedasY = useRef(new Animated.Value(-80)).current;
@@ -119,30 +123,40 @@ export function GameScreen({ navigation }: Props) {
     return <View style={styles.screen} />;
   }
 
-  const ICON_SIZE = 28;
-
   const handleEliminar = async () => {
     if (scissorsActive || pularAnimating) return;
     const removidos = usarEliminar();
     if (!removidos.length) return;
 
-    // Cut from the bottom-most eliminated row upward, matching "a tesoura subindo".
+    // First eliminated option: scissors enter from the right and sweep left.
+    // Second eliminated option: scissors enter from the left and sweep right.
     const ordenados = [...removidos].sort((a, b) => b - a);
+    const offscreen = SCREEN_WIDTH / 2 + ICON_SIZE;
 
     setScissorsActive(true);
-    scissorsSnip.setValue(0);
-    scissorsY.setValue(centerYFor(ordenados[0], ICON_SIZE) + 36);
-    scissorsOpacity.setValue(0);
-    await animateTo(scissorsOpacity, 1, 120);
 
-    for (const idx of ordenados) {
-      await animateTo(scissorsY, centerYFor(idx, ICON_SIZE), 260);
+    for (let step = 0; step < ordenados.length; step++) {
+      const idx = ordenados[step];
+      const enterFromRight = step === 0;
+      const startX = enterFromRight ? offscreen : -offscreen;
+      const exitX = enterFromRight ? -offscreen : offscreen;
+
+      scissorsY.setValue(centerYFor(idx, ICON_SIZE));
+      scissorsX.setValue(startX);
+      scissorsSnip.setValue(0);
+      scissorsOpacity.setValue(1);
+
+      // Enter and cross over the option.
+      await animateTo(scissorsX, 0, 220);
       await animateTo(scissorsSnip, 1, 90);
       await animateTo(scissorsSnip, 0, 110);
       setEliminadas((prev) => [...prev, idx]);
+
+      // Continue across the screen and off the other side.
+      await animateTo(scissorsX, exitX, 220);
+      await animateTo(scissorsOpacity, 0, 100);
     }
 
-    await animateTo(scissorsOpacity, 0, 150);
     setScissorsActive(false);
   };
 
@@ -236,7 +250,7 @@ export function GameScreen({ navigation }: Props) {
                 styles.scissorsOverlay,
                 {
                   opacity: scissorsOpacity,
-                  transform: [{ translateY: scissorsY }, { rotate: scissorsRotate }]
+                  transform: [{ translateY: scissorsY }, { translateX: scissorsX }, { rotate: scissorsRotate }]
                 }
               ]}
             >
@@ -323,7 +337,7 @@ const styles = StyleSheet.create({
   fonte: { fontSize: 12, color: colors.muted, fontStyle: "italic" },
   enunciado: { fontSize: 19, lineHeight: 28, fontWeight: "500", color: colors.fg, marginTop: spacing.sm },
   altList: { gap: spacing.sm, marginTop: spacing.xl, position: "relative" },
-  scissorsOverlay: { position: "absolute", right: spacing.md, top: 0 },
+  scissorsOverlay: { position: "absolute", left: "50%", marginLeft: -ICON_SIZE / 2, top: 0 },
   paraquedasOverlay: { position: "absolute", left: "50%", marginLeft: -28, top: 0 },
   footer: { padding: spacing.xl, gap: spacing.sm },
   btnProxima: { backgroundColor: colors.fg, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
