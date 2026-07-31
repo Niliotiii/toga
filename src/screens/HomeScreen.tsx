@@ -28,7 +28,7 @@ export function HomeScreen({ navigation }: Props) {
       style={styles.screen}
       contentContainerStyle={[
         styles.content,
-        { paddingTop: spacing.xl + insets.top, paddingBottom: spacing.xxl + insets.bottom }
+        { flexGrow: 1, paddingTop: spacing.xl + insets.top, paddingBottom: spacing.xxl + insets.bottom }
       ]}
     >
       <Text style={styles.title}>Bora revisar direito hoje?</Text>
@@ -70,6 +70,8 @@ export function HomeScreen({ navigation }: Props) {
 
       <Text style={styles.poolInfo}>{poolCount} questões disponíveis nesse filtro</Text>
 
+      <View style={styles.spacer} />
+
       <Pressable
         style={[styles.ctaPrimary, poolCount === 0 && styles.ctaDisabled]}
         disabled={poolCount === 0}
@@ -99,7 +101,8 @@ const styles = StyleSheet.create({
   chipGrid: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   chipRow: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
   poolInfo: { fontSize: 13, color: colors.muted, marginTop: spacing.lg },
-  ctaPrimary: { marginTop: spacing.xl, backgroundColor: colors.accent, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
+  spacer: { flex: 1, minHeight: spacing.xl },
+  ctaPrimary: { backgroundColor: colors.accent, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
   ctaDisabled: { opacity: 0.4 },
   ctaPrimaryText: { color: "#fff", fontSize: 17, fontWeight: "600" },
   ctaSecondary: { marginTop: spacing.md, borderWidth: 1, borderColor: colors.border, borderRadius: radius.lg, paddingVertical: spacing.md + 3, alignItems: "center", minHeight: 44 },

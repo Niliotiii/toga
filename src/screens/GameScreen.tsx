@@ -122,21 +122,6 @@ export function GameScreen({ navigation }: Props) {
       )}
 
       <ScrollView style={styles.body} contentContainerStyle={{ paddingBottom: spacing.xl }}>
-        <View style={styles.powerupsRow}>
-          <PowerupButton
-            label="Eliminar 2"
-            count={state.powerups.eliminar}
-            disabled={state.respondida || state.powerups.eliminar <= 0 || state.eliminadasQuestaoAtual}
-            onPress={handleEliminar}
-          />
-          <PowerupButton
-            label="Pular"
-            count={state.powerups.pular}
-            disabled={state.respondida || state.powerups.pular <= 0}
-            onPress={usarPular}
-          />
-        </View>
-
         <Text style={styles.fonte}>{q.fonte}</Text>
         <Text style={styles.enunciado}>{q.enunciado}</Text>
 
@@ -164,6 +149,24 @@ export function GameScreen({ navigation }: Props) {
       </ScrollView>
 
       <View style={[styles.footer, { paddingBottom: spacing.xl + insets.bottom }]}>
+        <View style={styles.powerupsRow}>
+          <PowerupButton
+            testID="powerup-eliminar"
+            icon="✂️"
+            label="Eliminar 2"
+            count={state.powerups.eliminar}
+            disabled={state.respondida || state.powerups.eliminar <= 0 || state.eliminadasQuestaoAtual}
+            onPress={handleEliminar}
+          />
+          <PowerupButton
+            testID="powerup-pular"
+            icon="⏭️"
+            label="Pular"
+            count={state.powerups.pular}
+            disabled={state.respondida || state.powerups.pular <= 0}
+            onPress={usarPular}
+          />
+        </View>
         {mascotTipo && <Mascot tipo={mascotTipo} mensagem={mascotMsg} />}
         {state.respondida && (
           <Pressable
@@ -197,7 +200,7 @@ const styles = StyleSheet.create({
   timerText: { fontSize: 12, fontWeight: "700", color: colors.muted, minWidth: 30, textAlign: "right" },
   timerTextUrgent: { color: colors.danger },
   body: { flex: 1, paddingHorizontal: spacing.xl },
-  powerupsRow: { flexDirection: "row", gap: spacing.sm, marginBottom: spacing.lg },
+  powerupsRow: { flexDirection: "row", justifyContent: "center", gap: spacing.lg, marginBottom: spacing.sm },
   fonte: { fontSize: 12, color: colors.muted, fontStyle: "italic" },
   enunciado: { fontSize: 19, lineHeight: 28, fontWeight: "500", color: colors.fg, marginTop: spacing.sm },
   altList: { gap: spacing.sm, marginTop: spacing.xl },
