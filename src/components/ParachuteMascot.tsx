@@ -1,6 +1,5 @@
-import { View, StyleSheet } from "react-native";
+import { View, Image, StyleSheet } from "react-native";
 import { colors } from "../theme/tokens";
-import { MascotFace } from "./MascotFace";
 
 interface Props {
   size?: number;
@@ -9,6 +8,7 @@ interface Props {
 export function ParachuteMascot({ size = 40 }: Props) {
   const canopyWidth = size * 1.5;
   const canopyHeight = size * 0.75;
+  const avatarInner = size * 0.7;
 
   return (
     <View style={styles.wrap}>
@@ -23,7 +23,10 @@ export function ParachuteMascot({ size = 40 }: Props) {
         <View style={styles.string} />
       </View>
       <View style={[styles.avatar, { width: size, height: size, borderRadius: size / 2 }]}>
-        <MascotFace size={size * 0.55} color={colors.fg} />
+        <Image
+          source={require("../../assets/icon.png")}
+          style={{ width: avatarInner, height: avatarInner, borderRadius: avatarInner / 2 }}
+        />
       </View>
     </View>
   );
