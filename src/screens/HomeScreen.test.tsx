@@ -12,11 +12,12 @@ beforeEach(async () => {
 });
 
 async function renderHome() {
+  const navigation = { navigate: jest.fn() };
   const result = await render(
     <SafeAreaProvider initialMetrics={TEST_SAFE_AREA_METRICS}>
       <GameProvider>
         <NavigationContainer>
-          <HomeScreen navigation={{ navigate: jest.fn() } as any} route={{} as any} />
+          <HomeScreen navigation={navigation as any} route={{} as any} />
         </NavigationContainer>
       </GameProvider>
     </SafeAreaProvider>
@@ -26,7 +27,7 @@ async function renderHome() {
   await act(async () => {
     await Promise.resolve();
   });
-  return result;
+  return { navigation, ...result };
 }
 
 test("renders the title and all tema/dificuldade options", async () => {
@@ -57,4 +58,12 @@ test("start button is disabled when the selected combo has zero questions", asyn
   await renderHome();
   const startButton = screen.getByText("Iniciar rodada");
   expect(startButton).toBeTruthy();
+});
+
+test("pressing the info button navigates to About", async () => {
+  const { navigation } = await renderHome();
+  await act(async () => {
+    fireEvent.press(screen.getByLabelText("Sobre o Toga"));
+  });
+  expect(navigation.navigate).toHaveBeenCalledWith("About");
 });

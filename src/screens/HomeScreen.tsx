@@ -13,6 +13,7 @@ import { Chip } from "../components/Chip";
 import { MetaDiariaCard } from "../components/MetaDiariaCard";
 import { CronometroSwitch } from "../components/CronometroSwitch";
 import { useReducedMotion } from "../hooks/useReducedMotion";
+import { InfoIcon } from "../components/icons";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
@@ -51,7 +52,18 @@ export function HomeScreen({ navigation }: Props) {
         <Image source={require("../../assets/icon.png")} style={styles.brandMark} />
         <Text style={styles.brandName}>Toga</Text>
       </View>
-      <Text style={styles.title}>Bora revisar direito hoje?</Text>
+      <View style={styles.titleRow}>
+        <Text style={styles.title}>Bora revisar direito hoje?</Text>
+        <Pressable
+          style={styles.aboutButton}
+          onPress={() => navigation.navigate("About")}
+          accessibilityRole="button"
+          accessibilityLabel="Sobre o Toga"
+          hitSlop={8}
+        >
+          <InfoIcon size={20} color={colors.muted} />
+        </Pressable>
+      </View>
 
       <MetaDiariaCard />
 
@@ -118,7 +130,9 @@ const styles = StyleSheet.create({
   brandRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm },
   brandMark: { width: 34, height: 34, borderRadius: radius.sm + 2 },
   brandName: { fontSize: 15, fontWeight: "600", color: colors.muted },
-  title: { ...type.title, color: colors.fg, marginTop: spacing.lg },
+  titleRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginTop: spacing.lg },
+  title: { ...type.title, color: colors.fg, flexShrink: 1 },
+  aboutButton: { width: 32, height: 32, alignItems: "center", justifyContent: "center", marginLeft: spacing.sm },
   sectionLabel: { fontSize: 12, fontWeight: "600", color: colors.muted, textTransform: "uppercase", marginTop: spacing.xl, marginBottom: spacing.sm },
   modeRow: { flexDirection: "row", alignItems: "stretch", gap: spacing.sm, marginTop: spacing.lg },
   sortearButton: { width: 44, minHeight: 44, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface, alignItems: "center", justifyContent: "center" },
