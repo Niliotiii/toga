@@ -21,12 +21,12 @@ export function AboutScreen({ navigation }: Props) {
 
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: spacing.xxl + insets.bottom }]}>
         <Text style={styles.paragraph}>
-          O Toga é um microapp gratuito e 100% offline para treinar a resolução de questões de
+          O Toga é um microapp para treinar a resolução de questões de
           concursos e exames na área do Direito.
         </Text>
         <Text style={styles.paragraph}>
           As questões são baseadas em provas públicas de bancas examinadoras (CESPE/CEBRASPE, FGV,
-          VUNESP, FCC, entre outras). O app serve para você validar e exercitar seu conhecimento —
+          VUNESP, FCC, entre outras). O app serve para você validar e exercitar seu conhecimento, 
           não para substituir o estudo da lei, da doutrina ou da jurisprudência.
         </Text>
         <Text style={styles.disclaimerLabel}>Aviso importante</Text>
