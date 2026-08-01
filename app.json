@@ -8,7 +8,13 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.danilosaiter.toga"
+      "bundleIdentifier": "com.danilosaiter.toga",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "package": "com.danilosaiter.toga",
@@ -16,7 +22,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FAFAFB"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -24,6 +33,15 @@
     "plugins": [
       "expo-asset",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dcf99906-a8b1-463a-9cbd-707e2e7f491c"
+      }
+    },
+    "owner": "saiter-team",
+    "updates": {
+      "url": "https://u.expo.dev/dcf99906-a8b1-463a-9cbd-707e2e7f491c"
+    }
   }
 }
