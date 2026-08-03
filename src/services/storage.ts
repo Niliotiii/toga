@@ -4,6 +4,7 @@ import { HistoricoEntry, MetaDiaria, Dificuldade } from "../types";
 export const HIST_KEY = "@app_direito_historico";
 export const META_KEY = "@app_direito_meta_diaria";
 export const CRONOMETRO_KEY = "@app_direito_cronometro";
+export const INSTALL_PROMPT_DISMISSED_KEY = "@app_direito_install_prompt_dismissed";
 export const META_ALVO = 15;
 
 export async function getHistorico(): Promise<HistoricoEntry[]> {
@@ -49,4 +50,12 @@ export async function getCronometroPref(): Promise<boolean> {
 
 export async function setCronometroPref(v: boolean): Promise<void> {
   await AsyncStorage.setItem(CRONOMETRO_KEY, v ? "1" : "0");
+}
+
+export async function getInstallPromptDismissed(): Promise<boolean> {
+  return (await AsyncStorage.getItem(INSTALL_PROMPT_DISMISSED_KEY)) === "1";
+}
+
+export async function setInstallPromptDismissed(): Promise<void> {
+  await AsyncStorage.setItem(INSTALL_PROMPT_DISMISSED_KEY, "1");
 }
