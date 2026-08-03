@@ -3641,5 +3641,89 @@ export const QUESTOES_DB: Questao[] = [
       "A penalidade administrativa deve se basear pelo princípio do tempus regit actum, salvo se houver previsão expressa de retroatividade da lei mais benéfica.",
       "A retroatividade das normas do direito administrativo sancionador restringe-se à aplicação das penalidades previstas na Lei de Improbidade Administrativa, de natureza penal, que possuem determinação expressa em tal sentido.",
       "Não é possível que se determine a retroatividade de normas no âmbito do direito administrativo sancionador, ainda que elas sejam benéficas para o apenado."
+    ], resposta_correta: 2 },
+
+  { id: "q441", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "GABRIELA ajuizou ação indenizatória em face do MUNICÍPIO DE VITÓRIA, que tramitou na 1ª Vara de Fazenda Pública da Comarca da Capital. O Juízo de primeiro grau proferiu sentença condenando a parte ré ao pagamento de R$5.000,00 a título de indenização por danos materiais. Transitada em julgado a referida decisão, foi iniciado o cumprimento de sentença, tendo GABRIELA requerido o pagamento da quantia referente à condenação, na forma do artigo 534 do CPC. Devidamente intimado, na forma do artigo 535, o Município quedou-se inerte. Em seguida, o Juízo proferiu decisão determinando o pagamento da quantia, no prazo de dois meses, contado da entrega da requisição, mediante depósito na agência de banco oficial mais próxima da residência da exequente, e, ainda, condenou o Município ao pagamento de honorários advocatícios em valor equivalente a 10% da integralidade do valor devido, uma vez que, por se tratar de obrigação de pequeno valor, os honorários sucumbenciais são devidos, independentemente da impugnação pelo exequente. Diante do exposto, e considerando o recente entendimento do STJ sobre o tema, marque a alternativa correta.",
+    alternativas: [
+      "Agiu corretamente o Juízo ao determinar o pagamento de honorários sucumbenciais pelo Município, uma vez haver interpretação restritiva ao artigo 85, §7º, do CPC, que determina que 'não serão devidos honorários no cumprimento de sentença contra a Fazenda Pública que ensejar expedição de precatório, desde que não tenha sido impugnada.'",
+      "Agiu corretamente o Juízo ao determinar o pagamento de honorários sucumbenciais pelo Município, uma vez que o artigo 85, §7º, do CPC determina que 'serão devidos honorários no cumprimento de sentença contra a Fazenda Pública que ensejar expedição de precatório, desde que não tenha sido impugnada.'",
+      "Agiu corretamente o Juízo ao determinar o pagamento de honorários sucumbenciais pelo Município, uma vez que foi fixada tese repetitiva pelo STJ no sentido de que 'os honorários advocatícios de sucumbência são devidos nas execuções contra a Fazenda sujeitas a regime de requisição de pequeno valor - RPV, ainda que não seja apresentada impugnação.'",
+      "Agiu equivocadamente o Juízo ao determinar o pagamento de honorários sucumbenciais pelo Município, uma vez que se trata de crédito submetido ao regime de Precatório.",
+      "Agiu equivocadamente o Juízo ao determinar o pagamento de honorários sucumbenciais pelo Município, uma vez que não houve impugnação à pretensão executória, mesmo se tratando de crédito submetido a pagamento por RPV."
+    ], resposta_correta: 4 },
+
+  { id: "q442", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "JOSÉ ajuizou ação indenizatória em face do Município de Vitória, que tramitou em um dos juizados da fazenda pública da comarca da capital. O Juízo julgou improcedente o pedido. Irresignada, a parte autora interpôs recurso inominado, que foi provido pela Turma Recursal Fazendária com base em entendimento que contraria enunciado sumular de jurisprudência do STJ. Na qualidade de Procurador do Município de Vitória, assinale a opção que indique qual instrumento jurídico será cabível contra o acórdão proferido pela Turma Recursal.",
+    alternativas: ["Reclamação endereçada ao Tribunal de Justiça do Estado do Espírito Santo.", "Não há instrumento cabível para impugnar o acórdão da Turma Recursal.", "Recurso Especial endereçado ao Superior Tribunal de Justiça.", "Recurso Extraordinário endereçado ao Supremo Tribunal Federal.", "Pedido de Uniformização de jurisprudência ao Superior Tribunal de Justiça."], resposta_correta: 4 },
+
+  { id: "q443", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "O Município de Vitória interpôs Recurso Especial em face de acórdão proferido pela Câmara de Direito Público do e. Tribunal de Justiça Estadual. O referido recurso foi admitido e, após a remessa dos autos, o C. Superior Tribunal de Justiça entendeu que o recurso versava sobre questão constitucional. Neste caso, o i. Ministro relator do recurso especial deverá",
+    alternativas: [
+      "Conceder prazo de 15 (quinze) dias para o Município demonstrar a existência de repercussão geral e se manifestar sobre a questão constitucional.",
+      "Remeter o recurso especial imediatamente ao Supremo Tribunal Federal para julgamento como recurso extraordinário, o qual, em juízo de admissibilidade, poderá devolvê-lo ao Superior Tribunal de Justiça.",
+      "Inadmitir o Recurso Especial.",
+      "Intimar o Município para realizar a adequação do recurso especial para o recurso extraordinário à luz do princípio da instrumentalidade das formas.",
+      "Negar provimento ao Recurso Especial."
+    ], resposta_correta: 0 },
+
+  { id: "q444", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "O Município B do Estado A ajuizou execução fiscal em face da empresa XYZ, buscando o pagamento do crédito de R$500,00, sem que tenha adotado qualquer medida extrajudicial ou administrativa prévia para cobrar a dívida. Considerando que o valor executado era inferior a um salário-mínimo, o juiz do caso extinguiu a execução por ausência de interesse de agir com base em lei que previa tal possibilidade. À luz do mais recente entendimento do STF sobre o tema, marque a alternativa correta.",
+    alternativas: [
+      "Negar ao Município a possibilidade de executar seus créditos de pequeno valor sob o fundamento da falta de interesse econômico viola o direito de acesso à justiça.",
+      "O ajuizamento da execução fiscal dependerá da prévia tentativa de conciliação ou a adoção de solução administrativa, e do protesto do título, salvo por motivo de eficiência administrativa, sendo legítima a extinção de execução fiscal de baixo valor pela ausência de interesse de agir, à luz do princípio constitucional da eficiência administrativa, respeitada a competência constitucional de cada ente federado.",
+      "O Poder Judiciário só poderá extinguir ação de execução fiscal que trata de valor inferior a um salário-mínimo, quando houver o fundamento de falta de interesse de agir, quando houver lei estadual autorizativa.",
+      "O trâmite de ações de execução fiscal impede os entes federados de pedirem a suspensão do processo para a tentativa de conciliação ou de solução administrativa.",
+      "O ajuizamento da execução fiscal não dependerá da prévia tentativa de conciliação ou adoção de solução administrativa, e do protesto do título."
+    ], resposta_correta: 1 },
+
+  { id: "q445", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "Maria ajuizou ação de obrigação de fazer em face do Município X. Observando que se tratava de demanda contendo controvérsia sobre questão de direito, que havia diversos processos ajuizados no mesmo mês sobre o tema, e que julgamentos distintos ocasionariam risco de ofensa à isonomia e à segurança jurídica, o Município X peticionou ao Presidente do tribunal, requerendo a instauração de incidente de resolução de demandas repetitivas. O incidente foi admitido pelo órgão competente do Tribunal, oportunidade em que foi determinada a suspensão dos processos pendentes que tramitavam no Estado, o que incluía o processo de Maria. À luz do que dispõe o Código de Processo Civil acerca do Incidente de Resolução de Demandas Repetitivas, assinale a alternativa incorreta.",
+    alternativas: [
+      "Se, após a instauração do incidente, o Município X abandonar o processo, tal fato não impedirá o exame do mérito, devendo o Ministério Público intervir no feito, assumindo a sua titularidade.",
+      "Uma vez firmada a tese jurídica, caso ela não seja observada no bojo do processo movido por Maria em face do Município X, caberá reclamação.",
+      "O Município X poderá pedir ao Tribunal que julgou o incidente a revisão da tese jurídica que foi firmada.",
+      "Durante a suspensão, se Maria necessitar de alguma tutela de urgência em seu processo, deverá dirigir-se ao juízo em que tramita o seu processo suspenso.",
+      "Julgado o incidente, a tese jurídica será aplicada, inclusive, aos processos coletivos que versem sobre idêntica questão de direito e que tramitem na área de jurisdição do tribunal."
+    ], resposta_correta: 2 },
+
+  { id: "q446", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "A empresa X ajuizou demanda pelo procedimento comum contra o Município de Vitória visando satisfazer um crédito de R$75.000,00, decorrente de contrato de locação de impressoras. Embora tenha sido devidamente citado, o Município de Vitória não apresentou contestação. Ato contínuo, a empresa X requereu a decretação dos efeitos da revelia. À luz do disposto no Código de Processo Civil e na jurisprudência do STJ, assinale a alternativa correta.",
+    alternativas: [
+      "O Juízo da Fazenda Pública Municipal de Vitória deve deferir o pedido uma vez que os efeitos materiais da revelia são aplicáveis em quaisquer litígios envolvendo a Fazenda Pública.",
+      "O Juízo da Fazenda Pública Municipal de Vitória não deve deferir o pedido uma vez que os efeitos processuais e materiais da revelia são inaplicáveis em quaisquer litígios envolvendo a Fazenda Pública.",
+      "O Juízo da Fazenda Pública Municipal de Vitória não deve deferir o pedido uma vez que os efeitos materiais da revelia não são aplicáveis em quaisquer litígios envolvendo a Fazenda Pública.",
+      "O Juízo da Fazenda Pública Municipal de Vitória não deve deferir o pedido uma vez que os efeitos processuais da revelia não são aplicáveis em litígios da Administração Pública.",
+      "O Juízo da Fazenda Pública Municipal de Vitória deve deferir o pedido uma vez que os efeitos materiais da revelia podem ser aplicáveis em litígios que envolvam obrigações de direito privado, em que se discute interesse público secundário."
+    ], resposta_correta: 4 },
+
+  { id: "q447", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "O Município de Guarapari tomou ciência de que um banco internacional ajuizou execução de título extrajudicial contra a principal empresa de turismo da cidade para satisfazer crédito milionário. Tendo em vista que a procedência da ação monitória poderia implicar na bancarrota da empresa de turismo, o Município de Guarapari decidiu intervir, com fundamento no parágrafo único da Lei 9.469/67, nos embargos à execução apresentados pela empresa de turismo, oportunidade na qual somente demonstrou seu interesse econômico na demanda. No entanto, o MM. Juízo da 2ª Vara Cível de Guarapari indeferiu o pedido sob o fundamento de que (i) o Município de Guarapari não comprovou o interesse jurídico na demanda e que (ii) a intervenção pretendida não poderia ocorrer em embargos à execução. À luz do disposto no Código de Processo Civil e na jurisprudência, assinale a alternativa correta.",
+    alternativas: [
+      "O Juízo da 2ª Vara Cível de Guarapari errou ao indeferir o pedido da empresa de turismo uma vez que a intervenção anômala pode ocorrer em qualquer demanda desde que o ente público comprove seu interesse econômico.",
+      "O Juízo da 2ª Vara Cível de Guarapari acertou ao indeferir o pedido da empresa de turismo uma vez que a intervenção anômala somente pode ocorrer em embargos à execução caso o ente público comprove seu interesse jurídico.",
+      "O Juízo da 2ª Vara Cível de Guarapari errou ao indeferir o pedido da empresa de turismo uma vez que a intervenção anômala pode ocorrer em embargos à execução desde que o ente público comprove seu interesse econômico.",
+      "O Juízo da 2ª Vara Cível de Guarapari acertou ao indeferir o pedido da empresa de turismo uma vez que a intervenção anômala somente pode ocorrer na execução de título extrajudicial quando o ente público comprovar seu interesse econômico.",
+      "O Juízo da 2ª Vara Cível de Guarapari acertou ao indeferir o pedido da empresa de turismo uma vez que a intervenção anômala somente pode ocorrer em demanda apresentada no juizado especial cível e desde que o ente público comprove seu interesse econômico."
+    ], resposta_correta: 2 },
+
+  { id: "q448", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "Antônio ajuizou ação contra o Município de Vitória para obter indenização por sua indevida demissão do serviço público. Antes mesmo da citação, Antônio apresenta petição requerendo a extinção da demanda sem resolução de mérito por desistência na forma do art. 485, VIII, do CPC. Ato contínuo, o Município de Vitória ingressa espontaneamente no feito para condicionar a desistência da demanda à renúncia do autor sobre sua pretensão indenizatória. O MM. Juízo da 1ª Vara Cível de Vitória defere o pedido de desistência, com a consequente extinção da demanda. À luz do disposto na legislação pertinente, assinale a alternativa correta.",
+    alternativas: [
+      "O Juízo acertou em extinguir a demanda uma vez que, da apresentação de contestação, o autor pode desistir da ação sem consentimento do réu.",
+      "O Juízo errou em extinguir a demanda uma vez que, em qualquer momento do processo, a desistência da ação depende do consentimento do réu.",
+      "O Juízo errou em extinguir a demanda uma vez que, antes da apresentação de contestação, a desistência da ação depende da renúncia do autor ao direito que funda a demanda.",
+      "O Juízo errou em extinguir a demanda uma vez que, em qualquer momento do processo, a desistência da ação depende do consentimento do réu e da renúncia do autor ao direito que funda a demanda.",
+      "O Juízo acertou em extinguir a demanda uma vez que o autor pode desistir da ação sem consentimento do réu até a prolação da sentença."
+    ], resposta_correta: 0 },
+
+  { id: "q449", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Prefeitura de Vitória/ES, Procurador Municipal — 2024",
+    enunciado: "O Código de Processo Civil estabelece como intervenção de terceiro o incidente de desconsideração da personalidade jurídica. Acerca do tema, assinale a alternativa correta.",
+    alternativas: [
+      "O incidente de desconsideração de personalidade jurídica é cabível em todas as fases do processo de conhecimento, inclusive no cumprimento de sentença, exceto na execução fundada em título executivo extrajudicial.",
+      "A instauração do incidente de desconsideração da personalidade jurídica, em qualquer hipótese, suspenderá o processo.",
+      "Instaurado o incidente, o sócio ou a pessoa jurídica será citado para manifestar-se e requerer as provas cabíveis no prazo de 15 (quinze) dias.",
+      "A decisão que resolve e põe fim ao incidente de desconsideração da personalidade jurídica desafia recurso de apelação.",
+      "O pedido de desconsideração da personalidade jurídica não pode ser realizado na petição inicial, sendo necessária a demonstração, no curso do processo, do preenchimento dos pressupostos legais específicos para desconsideração da personalidade jurídica."
     ], resposta_correta: 2 }
 ];

@@ -21,7 +21,7 @@ export function AboutScreen({ navigation }: Props) {
 
       <ScrollView contentContainerStyle={[styles.content, { paddingBottom: spacing.xxl + insets.bottom }]}>
         <Text style={styles.paragraph}>
-          O Toga é um microapp para treinar a resolução de questões de
+          O Toga é um app para treinar a resolução de questões de
           concursos e exames na área do Direito.
         </Text>
         <Text style={styles.paragraph}>
