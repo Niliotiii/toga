@@ -4652,5 +4652,680 @@ export const QUESTOES_DB: Questao[] = [
       "com três agravantes (exercício do comando individual do grupo criminoso, participação de adolescentes e destinação de parte do produto da infração penal ao exterior), sem causas de aumento de pena.",
       "duas agravantes (participação de adolescentes e destinação de parte do produto da infração penal ao exterior) e com uma causa de aumento de pena (exercício do comando individual do grupo criminoso).",
       "com duas causas de aumento de pena (exercício do comando individual do grupo criminoso e participação de adolescentes), sem agravantes."
-    ], resposta_correta: 0 }
+    ], resposta_correta: 0 },
+  { id: "q553", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O partido político Alfa ingressou com mandado de injunção coletivo visando a assegurar aos seus correligionários a fruição de um direito social de viés prestacional, de natureza constitucional, consagrado em norma de eficácia limitada e princípio programático, que carecia de integração pela legislação infraconstitucional. Após o trânsito em julgado do acórdão que estabeleceu as condições para o exercício do direito, Maria, correligionária do partido político Beta, entendeu que também poderia se beneficiar pelo mesmo entendimento. Na situação descrita, é correto afirmar que:",
+    alternativas: [
+      "os efeitos do acórdão podem vir a ser estendidos a Maria, se for identificado que a sua situação é análoga àquela que embasou o julgamento favorável aos correligionários de Alfa;",
+      "a coisa julgada promove a imutabilidade do acórdão subjetivamente limitado; logo, Maria pode apenas invocá-lo como precedente, mas não ser alcançada pelos mesmos efeitos;",
+      "a extensão dos efeitos do acórdão a Maria pressupõe que tenha ocorrido litispendência em relação a mandado de injunção individual que tenha impetrado, acarretando a sua suspensão;",
+      "o caráter coletivo do mandado de injunção evidencia que os efeitos do acórdão são extensivos a todos os beneficiários em potencial do direito cujas condições para fruição foram estabelecidas;",
+      "o mandado de injunção coletivo tem seus efeitos adstritos aos integrantes do Partido Político Alfa ou à finalidade partidária; logo, Maria somente poderia ser beneficiada pelos efeitos do acórdão caso se filiasse a Alfa."
+    ], resposta_correta: 0 },
+  { id: "q554", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em razão de grande mobilização da sociedade civil organizada, foram iniciados estudos, no âmbito da Assembleia Legislativa do Estado Beta, com o objetivo de ser apresentada proposição legislativa visando à ampliação da atuação das estruturas estatais de poder na difusão de produções musicais e de produções literárias tradicionalmente produzidas no território do referido ente federativo. A principal sugestão consistia na criação de um fundo especial, de natureza contábil, que contaria com recursos orçamentários e cujas receitas permaneceriam vinculadas à realização dos referidos fins. No bojo das discussões realizadas, conclui-se corretamente, no que se refere à conformidade constitucional da vinculação pretendida:",
+    alternativas: [
+      "é expressamente vedada pela ordem constitucional;",
+      "somente é admitida para o pagamento de despesas com pessoal e encargos sociais, que serão desvinculados dos limites constitucionais;",
+      "está sujeita ao poder de decisão de cada ente federativo, que deve definir o percentual da receita tributária direcionado ao fundo e os programas a serem financiados;",
+      "é obrigatória e pressupõe que a gestão seja realizada por órgão colegiado, de cunho deliberativo, que assegure a participação paritária da sociedade civil organizada;",
+      "configura faculdade do Estado Beta, devendo ser observados limitadores constitucionais quanto ao percentual máximo da receita a ser vinculada e aos gastos que são vedados."
+    ], resposta_correta: 4 },
+  { id: "q555", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Determinado juízo recebeu concluso processo instaurado a partir de ação civil pública na qual se argumentava com a existência de grave deficiência no serviço de ensino noturno regular prestado por determinado ente federativo, sendo detectada a falta de vagas para absorver a demanda e uma elevada carência no quantitativo de docentes, o que vinha impedindo a observância de um padrão mínimo de eficiência. Por tal razão, argumentava-se com a necessidade de serem redimensionadas as estruturas orgânicas existentes e rediscutida a política pública afeta à respectiva temática, principiando pela formação da agenda, avançando pelas escolhas realizadas e culminando com a redefinição das pautas de avaliação. Ao analisar o processo, o magistrado concluiu corretamente que:",
+    alternativas: [
+      "a identificação da carência do serviço pode ser realizada pelo Poder Judiciário, mas os meios a serem adotados e as finalidades a serem alcançadas devem estar previstos em lei, não sendo sindicáveis;",
+      "os objetivos almejados são incompatíveis com a separação dos poderes, partindo de uma infalibilidade do Poder Judiciário, que se mostra incompatível com a sua falta de especialização nessa atividade;",
+      "a adoção de medidas pontuais pode ser determinada, de modo a contornar os problemas detectados, mas sem apontar fins e objetivos a serem alcançados pela Administração;",
+      "o direito social objeto do processo, consagrado em norma constitucional de eficácia limitada e princípio programático, é incompatível com a forma de sindicabilidade almejada, já que a política pública é balizada por parâmetros legais;",
+      "a atuação do Poder Judiciário na política pública indicada é possível em razão da deficiência grave do serviço, devendo, em regra, exigir que a própria Administração indique planos ou meios para se alcançar os resultados almejados."
+    ], resposta_correta: 4 },
+  { id: "q556", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em razão de amplo processo de convencimento realizado por diversos setores do ambiente sociopolítico do Município Alfa, um grupo de vereadores apresentou proposição legislativa que estabelecia distância mínima para a instalação de postos de combustíveis no território desse ente federativo. A proposição foi aprovada pelo Poder Legislativo, sendo derrubado o veto aposto pelo prefeito municipal, daí resultando a publicação da Lei Municipal nº X. Na situação descrita, a Lei Municipal nº X:",
+    alternativas: [
+      "afronta princípios constitucionais;",
+      "afronta o disposto em súmula vinculante, mas não é cabível reclamação;",
+      "incursiona em matéria de interesse local e é justificável por razões de segurança;",
+      "usurpa competência própria do Poder Executivo, que pode, ou não, conceder licenças para a instalação dos postos;",
+      "versa sobre direito econômico, de competência legislativa concorrente entre a União, os estados e o Distrito Federal."
+    ], resposta_correta: 2 },
+  { id: "q557", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O Estado Alfa editou a Lei nº X, estabelecendo tipologia e sanções administrativas na hipótese de danos causados a determinadas espécies da flora silvestre, particularmente abundantes nas florestas localizadas em seu território e que apresentavam risco de desaparecimento. Na ocasião, a medida foi muito elogiada por ambientalistas e duramente criticada por certos setores da economia, que afirmavam que a Lei nº X era inconstitucional, pois Alfa não tinha competência para editá-la. Em pronunciamento oficial, o governador do Estado Alfa defendeu que a Lei nº X era constitucional, na medida em que a União ainda não havia legislado sobre a matéria, acrescentando, ainda, que a Constituição Estadual também nada tinha tratado da temática, tanto no plano formal como no material, o que ampliava a liberdade de conformação do legislador ordinário. À luz desse quadro, um partido político decidiu deflagrar o controle concentrado de constitucionalidade perante o Tribunal competente, argumentando com o vício de competência de Alfa, que teria afrontado a Constituição da República. Na situação descrita, é correto afirmar que a Lei nº X:",
+    alternativas: [
+      "pode ser submetida ao controle concentrado de constitucionalidade perante o Supremo Tribunal Federal ou o Tribunal de Justiça de Alfa, apresentando vício de ordem formal;",
+      "somente pode ser submetida ao controle concentrado de constitucionalidade perante o Supremo Tribunal Federal, apresentando vício de ordem formal, pois as competências privativas da União são indelegáveis;",
+      "pode ser submetida ao controle concentrado de constitucionalidade perante o Supremo Tribunal Federal ou o Tribunal de Justiça de Alfa, mas não apresenta vício de ordem formal, pois há previsão de competência estadual;",
+      "somente pode ser submetida ao controle concentrado de constitucionalidade perante o Supremo Tribunal Federal, estando ausente o vício formal caso a União, por meio de lei complementar, tenha autorizado os estados a legislar sobre a matéria;",
+      "pode ser submetida ao controle concentrado de constitucionalidade perante o Supremo Tribunal Federal ou o Tribunal de Justiça de Alfa, não apresentando vício de ordem formal caso a União, por meio de lei complementar, tenha autorizado os estados a legislar sobre a matéria."
+    ], resposta_correta: 2 },
+  { id: "q558", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A 1ª Câmara Cível do Tribunal de Justiça do Estado Alfa, em litígio envolvendo uma pessoa natural e o Município Beta, constatou a existência de debate entre as partes em relação à conformidade, ou não, com a Constituição da República, da Lei Municipal nº X/1987. Outra constatação era a de que o tema, ao primeiro exame, autorizava a edição de súmula vinculante pelo Supremo Tribunal Federal. À luz da sistemática vigente, é correto afirmar que:",
+    alternativas: [
+      "a reserva de plenário somente deve ser observada no controle concentrado de constitucionalidade, não na situação descrita;",
+      "apenas os legitimados à deflagração do controle concentrado de constitucionalidade podem requerer a edição de súmula vinculante;",
+      "o Município Beta pode propor incidentalmente a edição da súmula vinculante, o que não acarretará a suspensão do processo submetido à 1ª Câmara Cível;",
+      "o Tribunal de Justiça do Estado Alfa e o Município Beta podem propor a edição da súmula vinculante, o que acarretará a suspensão do processo submetido à 1ª Câmara Cível;",
+      "a 1ª Câmara Cível, caso entenda que a Lei Municipal nº X/1987 é dissonante da Constituição da República, deve instaurar o incidente próprio e aguardar o pronunciamento do Tribunal Pleno."
+    ], resposta_correta: 2 },
+  { id: "q559", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Durante o trâmite de um projeto de lei ordinária iniciado na Câmara dos Deputados, o Senado Federal, ao atuar como Casa revisora, introduziu emenda substancial que alterava o conteúdo original da proposição. O projeto, entretanto, não retornou à Câmara e foi encaminhado diretamente à sanção presidencial, resultando em lei promulgada. À luz da jurisprudência do Supremo Tribunal Federal e da Constituição de 1988, é correto afirmar que:",
+    alternativas: [
+      "o vício é formal e sanável, e a nulidade da lei depende da comprovação de prejuízo concreto ao processo legislativo;",
+      "a sanção presidencial supre o vício formal, pois exprime concordância do chefe do Executivo com o texto final, tornando irrelevante o retorno à Casa iniciadora;",
+      "o vício é formal e insanável, mas pode ser convalidado se houver aprovação unânime nas duas Casas Legislativas, hipótese em que o STF reconhece a superação do prejuízo procedimental;",
+      "em situações que envolvam concretização de direitos fundamentais, o STF entende ser possível relativizar a exigência de retorno à Casa iniciadora, aplicando o princípio da máxima efetividade constitucional;",
+      "o vício é formal e insanável, por violação ao devido processo legislativo (CF, Art. 65), não sendo possível a convalidação nem mesmo por sanção presidencial, embora seja admitida modulação dos efeitos da decisão que pronunciar a nulidade."
+    ], resposta_correta: 4 },
+  { id: "q560", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Diante de grave desastre ambiental de abrangência regional, o estado e os municípios afetados firmaram convênio para execução conjunta das medidas de reparação. Segundo a Constituição Federal, tal cooperação é:",
+    alternativas: [
+      "possível apenas se houver autorização legislativa federal prévia;",
+      "compatível com a competência comum para proteção ambiental;",
+      "inconstitucional, pois a execução ambiental é competência privativa da União;",
+      "vedada, pois compromete a autonomia municipal;",
+      "possível, mas somente mediante lei complementar estadual."
+    ], resposta_correta: 1 },
+  { id: "q561", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Um juiz de primeira instância, ao julgar uma ação individual, entendeu que determinado decreto estadual é incompatível com a Constituição Federal. Para solucionar o caso, ele deixou de aplicar o decreto, sem submeter a questão ao órgão especial do Tribunal. Nessa hipótese, é correto afirmar que:",
+    alternativas: [
+      "o juiz deveria provocar o Ministério Público antes de afastar a aplicação do decreto;",
+      "a cláusula de reserva de plenário é exigível apenas quando se trata de lei federal ou estadual, não de decreto;",
+      "o juiz agiu corretamente, pois a cláusula de reserva de plenário aplica-se apenas aos tribunais;",
+      "o juiz deveria suscitar o incidente de inconstitucionalidade, pois a cláusula de reserva de plenário alcança também os juízos monocráticos;",
+      "o juiz violou a reserva de plenário, pois deveria remeter a questão ao Supremo Tribunal Federal."
+    ], resposta_correta: 2 },
+  { id: "q562", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Após analisar, para fins de registro, a legalidade do ato de aposentadoria de servidor público que esteve vinculado a um ente federativo nas três últimas décadas, em razão da ocupação de cargo em comissão, ressaltando que o referido ente possui regime próprio de previdência social, o Tribunal de Contas constatou que não foi preenchido o requisito do tempo de contribuição, embora o benefício previdenciário já estivesse sendo recebido. Por tal razão, negou o registro. À luz da sistemática vigente, é correto afirmar que o Tribunal de Contas:",
+    alternativas: [
+      "era incompetente para a análise realizada;",
+      "proferiu decisão válida, desde que tenha sido observado o prazo de cinco anos, a contar do ato de aposentadoria;",
+      "proferiu decisão válida, desde que tenha sido observado o prazo de cinco anos, após o ingresso dos autos no âmbito do tribunal;",
+      "proferiu decisão válida, independentemente do momento em que tenha sido proferida, considerando se tratar de análise inicial do ato de aposentadoria;",
+      "proferiu decisão válida, desde que tenha assegurado o contraditório e a ampla defesa caso o benefício estivesse sendo recebido há mais de cinco anos."
+    ], resposta_correta: 4 },
+  { id: "q563", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "No Município Beta, há um casarão do século XVIII, de propriedade da pessoa jurídica X, que foi declarado pelo ente federativo como de interesse público, devido à sua relevância arquitetônica, histórica e cultural. A pessoa jurídica há muito negligenciava os cuidados com o imóvel, que se deteriorou. O Ministério Público ajuizou ação civil pública, postulando que a pessoa jurídica e o Município Beta sejam condenados a reparar o dano ambiental e cultural causado no imóvel e a pagar indenização por danos morais coletivos. Antes da prolação da sentença, o imóvel foi desapropriado pelo Município Beta. Considerando a jurisprudência do Superior Tribunal de Justiça e a legislação em vigor, é correto afirmar que, no caso hipotético formulado:",
+    alternativas: [
+      "o expropriado, mesmo após a desapropriação, deve ser condenado a reparar o dano ambiental por ele praticado anteriormente;",
+      "as obrigações ambientais possuem natureza propter rem, sendo possível exigi-las do proprietário atual, vedada a cobrança de reparação ao dano a qualquer dos anteriores;",
+      "a condenação do expropriado a pagar pela reparação do imóvel desapropriado não implica violação do postulado non bis in idem, prevalecendo a regra da reparação ambiental;",
+      "o expropriado não tem o dever de pagar pela reparação do dano ao bem desapropriado, podendo responder, no entanto, por eventual dano moral coletivo;",
+      "o reconhecimento da legitimidade passiva do expropriado ao dever de reparar dano moral coletivo não pode ser realizado, pois o imóvel foi desapropriado com transferência originária da propriedade."
+    ], resposta_correta: 3 },
+  { id: "q564", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "No Município Alfa, no ano de 2024, foi promulgada lei local que alterou a denominação de cargos, equiparando o cargo de motorista da Câmara Municipal ao cargo de agente legislativo. Os servidores que ocupavam os cargos de motorista eram concursados, tendo-lhes sido exigida, quando da nomeação, escolaridade de ensino fundamental. Ao cargo de agente legislativo, cuja função é auxiliar os vereadores na elaboração de projetos de lei, foi descrita a necessidade de escolaridade de ensino superior completo. Foi ajuizada demanda judicial, postulando-se, entre outros pedidos, a suspensão de sua aplicabilidade, em sede de tutela de urgência. Considerando a jurisprudência do Supremo Tribunal Federal e a legislação em vigor, é correto afirmar que:",
+    alternativas: [
+      "a Lei Municipal promulgada não padece de qualquer vício, descabida a tutela de urgência, uma vez que a simples alteração de nomenclatura de cargos públicos, o que é permitido pelo ordenamento jurídico em vigor;",
+      "o provimento derivado do serviço público, no caso concreto, é possível, permitindo que o servidor ocupe cargo diverso da carreira de origem, desde que através da lei de iniciativa do presidente da Câmara Municipal;",
+      "a equiparação de cargos a servidores com atribuições distintas, no caso concreto, não padece de vício, uma vez que, na carreira original, os servidores já eram concursados, não se violando, portanto, a regra do concurso público;",
+      "a lei local descrita no enunciado viabilizou indevido provimento derivado, equiparando cargos diversos sem observância do princípio do concurso público, possibilitando a ocupação de cargo estranho à carreira de origem;",
+      "a transformação de carreira de nível fundamental em outra de nível superior, com atribuições distintas, constitui forma de provimento derivado permitida pelo Art. 37, II, da Constituição Federal de 1988."
+    ], resposta_correta: 3 },
+  { id: "q565", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Na Lei das Parcerias Público-Privadas (Lei nº 11.079/2004), o legislador considerou importante viabilizar a infraestrutura e a prestação de serviços públicos que, por si só, não gerariam interesse comercial se estruturados conforme a Lei de Concessões (Lei nº 8.987/1995), uma vez que, no modelo de concessão comum clássico, a remuneração do concessionário pelo uso do serviço se dá, geralmente, por meio do pagamento de tarifas. Considerando a legislação em vigor, é correto afirmar que:",
+    alternativas: [
+      "o poder público, na parceria público-privada, estabelece relacionamento de parceria com o parceiro privado na tomada de relevantes decisões, não participando da composição da remuneração do parceiro privado;",
+      "a parceria público-privada se dá mediante ajuste firmado entre a Administração Pública e a iniciativa privada, que assume o risco exclusivo, visando à implantação de empreendimento destinado ao uso da coletividade;",
+      "a parceria público-privada é um contrato administrativo de concessão, podendo ser celebrada na modalidade administrativa na qual a Administração Pública é a usuária dos serviços contratados;",
+      "os estados e municípios não podem formatar parcerias fora dos quadrantes da Lei nº 11.079/2004, devendo, obrigatoriamente, aplicar suas regras ao implementarem;",
+      "a Lei nº 11.079/2004 prevê diversas modalidades de garantias, sendo vedada a vinculação de receitas, uma vez que, em tempos de crise, é essencial que estas estejam liberadas para o uso em favor da sociedade."
+    ], resposta_correta: 2 },
+  { id: "q566", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Mévio prestou concurso público para o qual foram previstas, em edital, diversas etapas, inclusive prova oral. Paulatinamente, Mévio foi sendo aprovado, chegando até a prova oral. Na ocasião, foi formulada pergunta pela banca examinadora que tratou de tema diferente do que foi sorteado. Mévio foi aprovado. A despeito de sua aprovação, Mévio interpôs recurso administrativo, aduzindo que foi indevido seu questionamento, em prova oral, por ter sido abordado tema diverso do sorteado. O recurso foi provido, determinando-se a realização de nova prova oral. Na ocasião, Mévio foi novamente aprovado, recebendo, entretanto, nota inferior àquela obtida quando da realização da primeira prova oral. Insatisfeito, Mévio impetrou mandado de segurança postulando a atribuição de nota máxima à sua prova oral, aduzindo que o erro da banca examinadora não poderia lhe causar prejuízo. Considerando a legislação em vigor e a jurisprudência atualizada do Superior Tribunal de Justiça, é correto afirmar que:",
+    alternativas: [
+      "assiste razão a Mévio, em parte, devendo ser dado provimento parcial ao mandado de segurança impetrado, para lhe atribuir a primeira nota, uma vez que o erro da banca examinadora não pode causar prejuízo ao candidato;",
+      "não é possível atribuir a Mévio a nota anteriormente obtida na primeira prova oral, uma vez que, conforme recurso administrativo provido, houve anulação, e atos nulos não produzem efeitos jurídicos;",
+      "assiste razão a Mévio, devendo ser dado provimento total ao mandado de segurança impetrado, para lhe atribuir a nota dez, uma vez que o erro da banca examinadora não pode causar prejuízo ao candidato;",
+      "não afasta o reconhecimento de direito líquido e certo à manutenção da nota anteriormente atribuída a ausência de ilegalidade na decisão administrativa de anular a prova e submeter o candidato a novo exame;",
+      "não valeria tal regra por ofensa ao princípio da moralidade ainda que houvesse cláusula expressa no edital determinando que o candidato receberá nota máxima ou manterá a nota anterior em casos de erro da banca examinadora."
+    ], resposta_correta: 1 },
+  { id: "q567", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A pessoa jurídica Mévio S/A, através de sua subsidiária Mévio e Tício Ltda., venceu licitação, no ano de 2020, para prestação de serviços ao Município X. Após o recebimento de representação noticiando fatos ilícitos, o Ministério Público iniciou investigação na qual constatou que funcionários da empresária Mévio e Tício Ltda. teriam agido em conjunto com servidores públicos para desvio de valores, causando prejuízo ao erário. No ano de 2024, foi ajuizada ação civil pública, em desfavor da empresária Mévio S/A e da subsidiária Mévio e Tício Ltda. com base na Lei Anticorrupção (Lei nº 12.846/2013). Com base na lei em vigor e na jurisprudência do Superior Tribunal de Justiça, é correto afirmar que:",
+    alternativas: [
+      "a empresária Mévio S/A não pode ser responsabilizada por atos de funcionários de sua subsidiária Mévio e Tício Ltda., devendo sua ilegitimidade passiva ser reconhecida;",
+      "a Lei nº 12.846/2013 cria condição para que seja atribuída responsabilidade solidária, declarando que a responsabilidade perdurará, mesmo se ocorrerem alterações contratuais;",
+      "a Lei nº 12.846/2013 prevê a responsabilidade solidária das sociedades controladoras, controladas, coligadas ou consorciadas, restringindo-se ao pagamento de multa e à reparação integral do dano;",
+      "a Lei nº 12.846/2013 não prevê expressamente a responsabilidade solidária das sociedades controladoras, controladas, coligadas ou consorciadas, sendo, entretanto, esse o posicionamento do Superior Tribunal de Justiça;",
+      "a Lei nº 12.846/2013 prevê a responsabilidade solidária das sociedades controladoras, controladas, coligadas ou consorciadas, restringindo-se ao pagamento da reparação integral do dano."
+    ], resposta_correta: 2 },
+  { id: "q568", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O Estado Alfa passa por uma séria crise financeira e resolve extinguir, mediante decreto do governador, cargos efetivos de sua estrutura administrativa e exonerar servidores comissionados que desempenhavam eficientemente atividades de direção nas respectivas secretarias estaduais. Em relação aos cargos efetivos, estes eram ocupados por servidores, aprovados em concurso público, estáveis com três anos de efetivo exercício. Em relação às medidas de contenção de gastos adotadas pelo referido estado, é correto afirmar que:",
+    alternativas: [
+      "os servidores comissionados não poderiam ser exonerados, pois desempenhavam suas atividades de forma eficiente;",
+      "o decreto seria válido caso os servidores efetivos tivessem menos de três anos de efetivo exercício no referido cargo;",
+      "a extinção de cargos ocupados pelos referidos servidores efetivos e estáveis, detentores de garantia de continuidade no serviço público, não é juridicamente possível;",
+      "a extinção de cargos de provimento efetivo e ocupados por servidores estáveis, mediante decreto do chefe do Executivo estadual, é juridicamente viável em razão da crise financeira destacada;",
+      "a extinção dos cargos de provimento efetivo é juridicamente possível, desde que mediante lei, devendo o servidor estável ficar em disponibilidade até o aproveitamento em outro cargo."
+    ], resposta_correta: 4 },
+  { id: "q569", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O Município Gama pretende contratar uma solução tecnológica inovadora para o serviço público de coleta e tratamento de resíduos sólidos, mas depende de contribuições técnicas de fornecedores internacionais. Assim, a administração local optou pelo diálogo competitivo. Em relação a essa medida, é correto afirmar que:",
+    alternativas: [
+      "a utilização de tal medida viola as regras de impessoalidade e isonomia imprescindíveis ao certame licitatório;",
+      "o diálogo competitivo é modalidade contratual exclusiva da União Federal, atraindo a fiscalização e o controle do Tribunal de Contas da União (TCU);",
+      "a referida modalidade licitatória permite o diálogo prévio com licitantes para definir soluções inovadoras e complexas antes da abertura da fase competitiva;",
+      "tal diálogo seria desnecessário, uma vez que as consultas e audiências públicas são obrigatórias e devem ocorrer antes da contratação pretendida pelo município;",
+      "é instrumento adequado para viabilizar a contratação direta mediante inexigibilidade, desde que o valor envolvido não ultrapasse o limite estipulado na Lei nº 14.133/2021."
+    ], resposta_correta: 2 },
+  { id: "q570", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em razão de requerimentos administrativos relacionados à transferência de outorgas conferidas a permissionários ou autorizatários falecidos, especificamente sobre a transferência da titularidade do direito de ponto de táxi a herdeiros, o Município ABC solicitou parecer sobre a matéria à Procuradoria municipal. Nesse sentido, o entendimento adequado a ser desenvolvido no referido parecer jurídico é o de que:",
+    alternativas: [
+      "a referida transferência de outorga é juridicamente admitida, desde que pelo tempo remanescente do prazo de outorga;",
+      "o município, nesse caso, poderá revogar a permissão e conferir nova permissão ao herdeiro, com desconto no valor da outorga;",
+      "a matéria é de incompetência municipal em razão da livre iniciativa e da liberdade de concorrência que devem reger as relações particulares;",
+      "a transferência pleiteada é juridicamente viável, uma vez que a delegação de serviço público (permissão) não exige a realização de licitação prévia;",
+      "a hipótese é de permissão de uso de bem público (vias urbanas), cujo caráter é personalíssimo, o que impede a possibilidade de qualquer alteração na pessoa do permissionário."
+    ], resposta_correta: 4 },
+  { id: "q571", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O Estado Delta tombou, por meio de decreto, o prédio do teatro onde ocorreu a apresentação da primeira ópera no Brasil. Maria, proprietária do imóvel, pretendia vendê-lo para custear um tratamento de saúde. Diante do tombamento realizado, Maria continuou com a gestão do espaço cultural utilizado para importantes espetáculos. No entanto, Maria está suportando despesas excessivas, em razão de exigências do estado, para reparação e preservação do imóvel. Em relação ao referido caso, é correto afirmar que:",
+    alternativas: [
+      "como se trata de uma espécie de limitação administrativa, que apenas restringe o uso do bem, não há indenização pela limitação imposta;",
+      "uma vez que Maria pretendia vender o imóvel, houve desapropriação indireta e a proprietária faz jus à indenização correspondente ao valor de mercado do bem tombado;",
+      "o tombamento é ato administrativo bilateral e deveria ter havido concordância expressa do proprietário para produzir efeitos, sob pena de violação à liberdade de propriedade, não cabendo a intervenção mediante decreto;",
+      "eventual indenização a Maria, decorrente de obras de reparação custosas exigidas pelo estado, não deve ocorrer, uma vez que a propriedade é remunerada anualmente pelo valor da outorga;",
+      "é imprescindível a anuência da Assembleia Legislativa do Estado Delta, e o ato expropriatório de intervenção em propriedade privada deve ser editado, mediante lei, em prol da livre iniciativa."
+    ], resposta_correta: 0 },
+  { id: "q572", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Ingrid prestou declaração falsa às autoridades tributárias, ensejando uma redução efetiva do ICMS devido à Fazenda Estadual na competência de janeiro de 2008. Realizada a fiscalização tributária, a diferença de tributo devido foi lançada definitivamente em fevereiro de 2011, quando foi apresentada a representação fiscal para fins penais. Ingrid foi denunciada, e a denúncia foi recebida em março de 2016. A sentença, prolatada em setembro de 2019, foi mantida por acórdão datado de janeiro de 2022, condenando Ingrid a uma pena de dois anos de reclusão, rejeitando-se os recursos interpostos por acusação e defesa. Apenas Ingrid interpôs tempestivo recurso especial, rejeitado em 2024. Sabendo-se que Ingrid é reincidente e que a pena cominada ao delito imputado é de dois a cinco anos, é correto afirmar, a respeito da prescrição, que:",
+    alternativas: [
+      "tendo em vista a data do fato e a ultratividade da lei penal benéfica, ocorreu a prescrição da pretensão punitiva pela pena concretamente aplicada, entre a data da denúncia e o recebimento da denúncia;",
+      "de acordo com o entendimento do Supremo Tribunal Federal, conta-se a prescrição da pretensão executória desde o trânsito em julgado para a acusação, o que ainda não ocorreu;",
+      "ocorreu a prescrição da pretensão punitiva pela pena abstratamente cominada ao delito entre a data do fato e o recebimento da denúncia;",
+      "o desprovimento do recurso especial faz retroagir a data do trânsito em julgado ao escoamento do prazo recursal após o julgamento da apelação;",
+      "a publicação do acórdão que meramente confirma a sentença condenatória é causa interruptiva da prescrição, cujo prazo não se altera pela reincidência da condenada."
+    ], resposta_correta: 4 },
+  { id: "q573", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em uma festa voltada para maiores de 18 anos, Tarso conheceu Flávio. Após algumas conversas, decidiram praticar um delito de roubo, sendo certo que Flávio trazia consigo uma pistola de uso restrito. Assim, Tarso realizou a abordagem e deu ordens às vítimas, enquanto Flávio empunhava a arma de fogo. Dessa forma, ambos subtraíram o veículo que pertencia ao casal Carol e Antônio, casados em comunhão de bens. No mesmo contexto, subtraíram a bolsa e demais pertences pessoais de Carol. Logo após a subtração, ambos foram abordados por uma equipe policial, tendo sido constatado que Flávio era menor de idade (fato que não era do conhecimento de Tarso) e que portava a referida arma, que foi apreendida e periciada, tendo sido constatada a sua potencialidade lesiva. Diante dos fatos, em relação à ação de Tarso, é correto afirmar que houve:",
+    alternativas: [
+      "dois roubos em continuidade delitiva, sem a incidência da causa de aumento de pena relativa à pluralidade de agentes, diante da menoridade de Flávio;",
+      "dois roubos em concurso formal, com a incidência das causas de aumento de pena relativas à pluralidade de agentes e ao emprego de arma de fogo, sem a incidência do delito de corrupção de menores, ante o erro de tipo;",
+      "dois roubos em concurso formal, sem a incidência da causa de aumento de pena relativa ao emprego de arma de fogo, pois esta foi empregada exclusivamente por Flávio, na modalidade tentada, diante da abordagem policial;",
+      "um único roubo em concurso formal com o delito de corrupção de menores, o que afasta a causa de aumento de pena relativa ao concurso de agentes, por se tratar de bis in idem, incidindo, apenas, a causa de aumento de pena relativa ao emprego de arma de fogo;",
+      "um único roubo circunstanciado pelo concurso de agentes e pelo emprego de arma de fogo, em concurso material com o delito de posse de arma de fogo de uso proibido."
+    ], resposta_correta: 1 },
+  { id: "q574", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A fixação da pena privativa de liberdade deve ser realizada pelo método trifásico, cabendo, na segunda fase, a aplicação de atenuantes e agravantes. Sobre o tema, é correto afirmar que:",
+    alternativas: [
+      "a jurisprudência pacífica dos Tribunais Superiores determina a aplicação da atenuante da confissão espontânea à confissão qualificada;",
+      "seguindo o critério de preponderância estabelecido pelo Código Penal, a reincidência específica prepondera sobre a confissão espontânea, ao passo que a reincidência genérica admite a integral compensação;",
+      "a confissão deve atenuar a pena, ainda que retratada, se houver servido à apuração dos fatos;",
+      "a incidência da atenuante da confissão espontânea pode conduzir a pena a patamar abaixo do mínimo legal;",
+      "a confissão atenua a pena desde que utilizada, pelo julgador, para fundamentar a condenação."
+    ], resposta_correta: 2 },
+  { id: "q575", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "André se ofereceu para prestar os cuidados à filha de Mariana, Yasmin, de 9 anos de idade, para que a mãe pudesse trabalhar. Ato contínuo, André passou a praticar e filmar atos sexuais com a menor, produzindo conteúdo pedopornográfico que era vendido na rede mundial de computadores. A investigação policial logrou encontrar, no computador de André, vasto material pedopornográfico armazenado. A prova pericial comprovou a efetiva prática de atos sexuais com a menor Yasmin, o que determinou a propositura da ação penal. Sobre a conduta de André, é correto afirmar que:",
+    alternativas: [
+      "pelo princípio da especialidade, André deve responder pelo delito de exploração sexual de criança, crime previsto no Código Penal, em concurso material com o delito de venda de material pedopornográfico, que absorve o delito de armazenamento;",
+      "André deve responder pelo delito de venda de material pedopornográfico, previsto no ECA, absorvendo o delito de armazenamento;",
+      "há concurso formal perfeito entre os delitos de estupro de vulnerável, venda de material pedopornográfico e armazenamento de material pedopornográfico;",
+      "há concurso material entre os delitos de estupro de vulnerável, venda de material pedopornográfico e armazenamento de material pedopornográfico;",
+      "a prescrição da pretensão punitiva relacionada aos fatos somente terá início a partir da data em que Yasmin atingir a maioridade."
+    ], resposta_correta: 3 },
+  { id: "q576", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Sobre a criminalização de condutas e a correlação com a teoria do bem jurídico, bem como com os demais princípios aplicáveis, é correto afirmar que:",
+    alternativas: [
+      "o princípio da proteção penal do bem jurídico está materialmente implícito na Constituição da República, a partir da garantia da inafastabilidade da jurisdição;",
+      "o crime de redução à condição análoga a de escravo pressupõe uma restrição da liberdade ou alguma forma coativa de ação, pois, se houver consentimento do trabalhador com as condições degradantes, pelo princípio volenti non fit iniuria, afasta-se a ilicitude do fato;",
+      "o paternalismo é rechaçado pelo direito penal brasileiro, firme na concepção de um direito penal fragmentário e consentâneo com liberdades individuais, impedindo-se o Estado de intervir na vontade de pessoas maiores e capazes;",
+      "apenas é legítima a punição da instigação e do auxílio quando houver uma conduta típica praticada pelo executor da ação; sem isso, não se consideram ofendidos bens jurídicos relevantes;",
+      "o Supremo Tribunal Federal, ao declarar a inconstitucionalidade da contravenção penal de vadiagem, se fundamentou na violação do princípio constitucional da culpabilidade, pois esse delito se baseia em uma ideia de direito penal do autor."
+    ], resposta_correta: 0 },
+  { id: "q577", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Caio flagrou a sua namorada, Tícia, aos beijos com Mévio. Furibundo, Caio passou a efetuar disparos de arma de fogo contra ambos, encurralando as vítimas com sua movimentação avenida, com a intenção de matá-los. Ao ser alvo dos disparos, Mévio pôs-se a correr, para fugir da agressão de Caio, atravessou a avenida sem cautela, vindo a ser atropelado, o que causou sua morte. Após efetuar cerca de quatro disparos na direção das vítimas, sem atingi-las, Caio olhou atentamente para Tícia, declarando seu amor, e cessou voluntariamente os disparos. Tícia, entretanto, sofreu uma parada cardiorrespiratória e faleceu, imediatamente. A respeito dos fatos, é correto afirmar que Caio:",
+    alternativas: [
+      "responde pela morte de Tícia, de forma consumada, de acordo com a teoria da causalidade adequada;",
+      "responde pela morte de Mévio, de forma consumada, de acordo com a teoria da imputação objetiva;",
+      "responde pela morte de Tícia, de forma tentada, ante a ocorrência de desistência voluntária;",
+      "responde pela morte de Mévio, de forma tentada, de acordo com a teoria da imputação objetiva;",
+      "não responde por nenhuma morte, nem de forma consumada nem de forma tentada, de acordo com a teoria da causalidade adequada."
+    ], resposta_correta: 1 },
+  { id: "q578", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "No ano de 2022, Peter Sand, cidadão estrangeiro, cometeu, no exterior, o crime de uso de documento falsificado (certificado de vacinação contra a covid-19), que constava como emitido pela República Federativa do Brasil. As autoridades brasileiras requereram sua extradição em 2023, mas o país estrangeiro negou o pleito e não o submeteu a julgamento, embora sua legislação também tipifique criminalmente tal conduta. Ainda assim, Peter resolveu ingressar voluntariamente no território brasileiro em 2025. Considerando tal situação hipotética, é correto afirmar que:",
+    alternativas: [
+      "Peter poderá ser punido segundo a lei penal brasileira, com base no princípio da extraterritorialidade incondicionada;",
+      "a lei penal brasileira não pode ser aplicada, pois o crime não ofendeu bens jurídicos titulados exclusivamente por cidadão brasileiro;",
+      "Peter não poderá ser punido no Brasil, pois a aplicabilidade da lei penal brasileira limita-se a condutas cometidas no território nacional;",
+      "a lei penal brasileira será aplicável se o crime também for punível no país estrangeiro, independentemente de outros fatores;",
+      "Peter só poderá ser punido com a lei penal estrangeira, já que ele é cidadão estrangeiro e o crime foi cometido fora do Brasil."
+    ], resposta_correta: 0 },
+  { id: "q579", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Durante uma luta oficial de artes marciais, devidamente regulamentada por federação esportiva e autorizada pelas autoridades competentes, o atleta Pedro aplicou um golpe permitido pelas regras do torneio, que resultou em fratura exposta no braço do atleta Felipe. O golpe foi executado de maneira técnica, mas a gravidade do ferimento causado demandou a internação hospitalar de Felipe por dois meses. Envergonhado com a derrota, Felipe decidiu registrar ocorrência policial por lesão corporal grave. Diante de tal situação hipotética, é correto afirmar que Pedro:",
+    alternativas: [
+      "não poderá ser punido, pois agiu em legítima defesa ao se proteger durante a luta;",
+      "agiu em estado de necessidade, pois a única alternativa para evitar ser nocauteado era aplicar o golpe que causou a lesão;",
+      "responderá penalmente, pois o resultado lesivo extrapolou o limite do que seria razoável em uma competição esportiva;",
+      "responderá por lesão corporal grave, pois o consentimento do ofendido não tem validade em práticas esportivas que envolvem riscos à integridade física;",
+      "não praticou crime, pois sua conduta está amparada pela causa excludente da ilicitude baseada no consentimento do ofendido e no risco permitido."
+    ], resposta_correta: 4 },
+  { id: "q580", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Ricardilson, primário e sem registro de maus antecedentes, foi condenado, por sentença penal transitada em julgado, a seis anos de reclusão pela prática de crime de peculato (Art. 312 do Código Penal), praticado no exercício das funções que como auxiliar administrativo do Ministério da Justiça. A sentença não mencionou expressamente a perda do cargo público. Ricardilson iniciou o cumprimento da pena em regime semiaberto e pretende, após o cumprimento de parte da pena, retornar ao cargo que ocupava antes da condenação. Diante de tal situação hipotética, é correto afirmar, segundo a legislação penal vigente, que:",
+    alternativas: [
+      "Ricardilson poderá retomar seu posto após o cumprimento da pena, já que a sentença não impôs expressamente a perda do cargo público;",
+      "Ricardilson perdeu automaticamente o cargo público, pois o crime foi cometido com abuso de função pública, e tal efeito incide independentemente de menção na sentença;",
+      "a perda do cargo público ocupado por Ricardilson só pode ser decretada após regular processo administrativo-disciplinar conduzido pelo Poder Executivo;",
+      "a perda do cargo público ocupado por Ricardilson depende da ocorrência de reincidência específica, sendo inaplicável ao caso do réu primário;",
+      "Ricardilson poderá manter o cargo público, pois não praticou crime hediondo, e por isso não incide o efeito secundário da condenação."
+    ], resposta_correta: 0 },
+  { id: "q581", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A autoridade policial instaurou inquérito para apurar crime de furto mediante fraude praticado em face da vítima Marluce. A autoridade policial relatou o inquérito indiciando Ricardo e remeteu os autos ao Ministério Público, o qual, porém, promoveu o arquivamento fundamentadamente por entender que não havia indícios mínimos razoáveis da autoria do crime, notificando no prazo legal a autoridade policial, o juízo, o indiciado e a vítima. Diante desse cenário, é correto afirmar que poderá:",
+    alternativas: [
+      "a autoridade policial, em caso de discordância, submeter a matéria à instância revisora do Ministério Público;",
+      "a vítima, em caso de discordância, submeter a matéria à instância revisora do Ministério Público;",
+      "o indiciado, em caso de discordância, submeter a matéria à instância revisora do Ministério Público;",
+      "o juiz, em caso de discordância, mandar desarquivar os autos de inquérito policial;",
+      "a vítima ajuizar ação privada subsidiária da pública em face do indiciado."
+    ], resposta_correta: 1 },
+  { id: "q582", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Parmênides, vítima do crime de estelionato, diante da inércia do Ministério Público em se manifestar no prazo legal após encerrada a investigação, ajuizou ação penal subsidiária em face de Diógenes, imputando a este o referido crime patrimonial. Parmênides, no entanto, durante o curso da ação penal, não compareceu à audiência designada para instrução e, apesar de intimado, deixou de dar andamento ao feito por dois meses seguidos. Diante desse contexto, é correto afirmar que deverá:",
+    alternativas: [
+      "o juiz nomear a Defensoria Pública para prosseguir no feito;",
+      "o juiz extinguir o feito em razão da ocorrência de perempção;",
+      "o Ministério Público retomar a ação como parte principal;",
+      "o juiz extinguir o feito em razão da ocorrência da renúncia ao direito de representação;",
+      "o juiz extinguir o feito em razão da ocorrência do perdão tácito do querelante."
+    ], resposta_correta: 2 },
+  { id: "q583", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A autoridade policial relatou inquérito indiciando Lúcio pelo crime de latrocínio consumado, com a morte da vítima Patrício. O crime foi cometido por Lúcio em concurso de ações e desígnios com Márcio, que tinha apenas 17 anos de idade na data do fato. Restando inequívoca a hipótese de continência, é correto afirmar, relativamente à competência para julgamento dos referidos personagens, que Lúcio será julgado:",
+    alternativas: [
+      "conjuntamente com Márcio no juízo do Tribunal do Júri;",
+      "no juízo criminal comum e Márcio, no juízo infracional;",
+      "conjuntamente com Márcio no juízo criminal comum;",
+      "no juízo do Tribunal do Júri e Márcio, no juízo infracional;",
+      "no Tribunal do Júri e Márcio, no juízo criminal comum."
+    ], resposta_correta: 1 },
+  { id: "q584", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Gustavo foi indiciado pelo crime de lavagem de dinheiro, sendo apurada no mesmo feito a prática dos crimes antecedentes de corrupção e de extorsão. Contudo, relativamente ao patrimônio de Gustavo, bens que constituíssem produto ou proveito dos referidos crimes não foram encontrados no país, apenas no exterior. Além disso, não se teve como apurar, até o fim do processo, a diferença entre o valor do patrimônio de Gustavo e aquele que seria compatível com o seu rendimento lícito. Nesse contexto, no tocante às medidas cautelares, na fase pré-processual, e ao perdimento do produto ou proveito dos referidos crimes, a ser decretado em possível sentença condenatória, é correto afirmar que poderá:",
+    alternativas: [
+      "o Ministério Público requerer o sequestro dos bens de Gustavo pelo equivalente ao produto ou proveito dos referidos crimes;",
+      "o juiz, quando da sentença condenatória, decretar de ofício a perda alargada dos bens de Gustavo;",
+      "o Ministério Público requerer, em alegações finais, a decretação da perda alargada dos bens de Gustavo;",
+      "o Ministério Público requerer, com o oferecimento da denúncia, o arresto alargado dos bens de Gustavo;",
+      "o juiz, quando da sentença condenatória, decretar o arresto alargado dos bens de Gustavo, relativamente ao produto ou proveito dos referidos crimes."
+    ], resposta_correta: 0 },
+  { id: "q585", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em ação penal relativa ao crime de estupro contra pessoa vulnerável, em que figura como réu João, o Ministério Público opinou, em sede de alegações finais, no sentido da absolvição do acusado, por entender que havia dúvida quanto à materialidade do crime, pois não constava dos autos o laudo de exame sexológico que fora realizado na ofendida. Diante desse cenário, é correto afirmar que o juiz:",
+    alternativas: [
+      "deverá absolver o acusado, pois o Ministério Público titular da ação penal não requereu a procedência da pretensão punitiva;",
+      "não poderá requisitar a vinda do laudo faltante aos autos, em razão da preclusão probatória em relação ao Ministério Público;",
+      "não poderá requisitar a vinda do laudo faltante aos autos, pois isso importaria em parcialidade em desfavor do acusado;",
+      "não poderá requisitar a vinda do laudo faltante aos autos e deverá absolver o acusado, diante da dúvida, devendo prevalecer o princípio in dubio pro reo;",
+      "poderá requisitar de ofício a vinda do laudo faltante aos autos, para dirimir dúvida sobre ponto relevante, e condenar o acusado."
+    ], resposta_correta: 4 },
+  { id: "q586", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em inquérito policial destinado a elucidar crime de homicídio, foi decretada a interceptação telefônica judicialmente. Contudo, a prorrogação da referida interceptação não contou com a devida decisão judicial, sendo que, durante essa prorrogação, registrou-se diálogo que possibilitou a descoberta de onde se encontrava a arma do crime. Com base nessa informação, o Ministério Público requereu que fosse decretada medida de busca e apreensão na residência do investigado Pablo, o que foi deferido judicialmente. Com base nas interceptações telefônicas e na medida de busca e apreensão, o Ministério Público ofereceu denúncia em face de Pablo. Nesse particular, quanto à medida de busca e apreensão, cujo resultado fundamentou o exercício da ação penal, ela deverá ser:",
+    alternativas: [
+      "inadmitida, por se tratar de prova ilícita por derivação e, em razão disso, ser desentranhada dos autos;",
+      "admitida, em razão da ilicitude por derivação ter sido purgada pela decisão judicial que decretou a busca e apreensão;",
+      "inadmitida, em razão de se constituir em prova emprestada e, por conseguinte, ilegítima, não necessitando ser desentranhada;",
+      "admitida, pois a ilicitude por derivação foi purgada pelo estado de necessidade relativo à produção da prova para a descoberta da verdade real;",
+      "admitida, pois se trata de fonte independente, à qual inevitavelmente se chegaria, seguindo-se os trâmites típicos de praxe próprios da investigação criminal."
+    ], resposta_correta: 0 },
+  { id: "q587", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "José foi indiciado em inquérito policial em razão da prática do crime de lesão corporal contra a sua esposa Patrícia, prevalecendo-se ele de relações domésticas e de coabitação para o cometimento do delito. Em sede policial, José confessou o fato de maneira circunstanciada, sendo verificado que ele não possuía antecedentes criminais. Contudo, foi decretada pelo juízo medida protetiva de urgência de afastamento do lar, à qual José não estava dando o devido cumprimento. Diante desse cenário, é correto afirmar que poderá:",
+    alternativas: [
+      "o Ministério Público oferecer a José proposta de transação penal que não consista em prestação pecuniária;",
+      "o juiz, recebendo a denúncia, aplicar a suspensão condicional do processo, submetendo José a período de prova;",
+      "o Ministério Público oferecer a José acordo de não persecução penal consistente em prestação de serviços à comunidade;",
+      "o juiz decretar, a pedido do Ministério Público, a prisão preventiva de José, para garantir a execução da medida protetiva de urgência que não vinha sendo cumprida;",
+      "o Ministério Público requerer a prisão temporária de José, para garantir a execução da medida protetiva de urgência que vinha sendo cumprida."
+    ], resposta_correta: 3 },
+  { id: "q588", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Renato, Rogério, Roberto, Robson e Raimundo foram indiciados em inquérito policial em razão da prática de crime de integrar e constituir organização criminosa para a prática dos delitos de corrupção e de lavagem de dinheiro. O Ministério Público, com vistas a angariar elementos probatórios para o exercício da ação penal, requereu ao juízo a infiltração de agentes de polícia na organização, os quais conseguiram identificar a estrutura hierárquica e a divisão de tarefas no seio da organização. Cessada a infiltração, um dos integrantes da organização, Robson, que não era o líder, resolveu colaborar, sendo o primeiro a prestar efetiva colaboração, revelando infrações de cuja existência não tinha conhecimento o Ministério Público. Passou-se, então, à entabulação do acordo de colaboração entre Robson e o Ministério Público. Posteriormente, Rogério, o líder da organização, assim como Raimundo, também prestaram colaboração premiada, ambos revelaram apenas os demais coautores e partícipes da organização. Diante desse cenário, é correto afirmar que:",
+    alternativas: [
+      "o resultado da infiltração de agentes inviabiliza a pactuação do acordo de colaboração premiada de Rogério e Raimundo com o Ministério Público;",
+      "o Ministério Público poderá, na proposta de acordo, pactuar o não oferecimento de denúncia em relação a Rogério e a Raimundo, em razão de suas colaborações;",
+      "Rogério e Raimundo poderão retratar-se da proposta, caso em que as provas autoincriminatórias por eles produzidas poderão ser utilizadas exclusivamente em seu desfavor;",
+      "o Ministério Público poderá, na proposta de acordo, pactuar o não oferecimento de denúncia em relação a Robson, em razão de sua colaboração;",
+      "o juiz poderá homologar cláusula do acordo que pactue a renúncia ao direito de Rogério e de Raimundo impugnar a decisão homologatória."
+    ], resposta_correta: 3 },
+  { id: "q589", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Carlos foi condenado por crime contra as relações de consumo a uma pena pecuniária de 360 dias-multa, tendo a sentença transitado em julgado. Visando à desconstituição da condenação, que reputou injusta, David, pai de Carlos, impetrou habeas corpus em favor deste. Já Carlos, por sua vez, ajuizou concomitantemente ação de revisão criminal, visando igualmente a desconstituir a condenação; contudo, ele havia ocultado provas a seu favor cuja ausência levou a sua condenação. Diante desse cenário, é correto afirmar que:",
+    alternativas: [
+      "o habeas corpus não será cabível, porque não há risco à liberdade de locomoção de Carlos;",
+      "o habeas corpus e a revisão criminal não serão cabíveis porque a injustiça da condenação resultou do ato imputável a Carlos;",
+      "a revisão criminal não será cabível, mas Carlos fará jus a indenização em razão da injustiça da condenação;",
+      "o habeas corpus e a revisão criminal são cabíveis, devendo ser julgados conjuntamente por força da conexão;",
+      "o habeas corpus é cabível, mas deve contar com a anuência do paciente à impetração por terceiro."
+    ], resposta_correta: 0 },
+  { id: "q590", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "No fim de sua vida, já com dois filhos formados e netos, Ludmilla conheceu Antônio, por quem se apaixonou. Logo se casaram e passaram a viver no casarão da família em Dourados/MS, único patrimônio de Ludmilla. Dois anos depois, Ludmilla falece e reconhece a Antônio direito de habitação sobre o imóvel. Em 2019, Antônio se casa com Júlia, que se muda para o imóvel. Mas, em 2022, ele sofre um acidente de carro e também falece. Aí então, lavrada escritura da partilha desse único bem deixado por Antônio, o herdeiro ingressa com extinção de condomínio e arbitramento de aluguéis em face de Júlia, que passara a habitar o imóvel exclusivamente. Nesse caso, o juiz deve:",
+    alternativas: [
+      "reconhecer a impossibilidade de se arbitrarem aluguéis em face de Júlia, porque ela é beneficiada pelo direito de habitação, mas poderá proceder à extinção do condomínio e à alienação do imóvel;",
+      "reconhecer a impossibilidade de se arbitrarem aluguéis em face de Júlia, ou se proceder à extinção do condomínio em face de Júlia, porque ela é beneficiada pelo direito de habitação;",
+      "reconhecer a impossibilidade de se proceder à extinção do condomínio em face de Júlia, porque ela é beneficiada pelo direito de habitação, mas poderá arbitrar aluguéis;",
+      "julgar procedentes os pedidos, porque o direito de habitação não impede nem a extinção do condomínio, nem o arbitramento de aluguéis em face de Júlia;",
+      "julgar procedentes os pedidos, porque Júlia não faz jus ao direito de habitação."
+    ], resposta_correta: 4 },
+  { id: "q591", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "À luz da doutrina civilista, notadamente de Claus-Wilhelm Canaris, e da jurisprudência do Superior Tribunal de Justiça (REsp nº 1.309.972 – SP, Min. Rel. Luis Felipe Salomão, Quarta Turma), em relação à terceira via ou terceira pista da responsabilidade civil (dritte Spur), é correto afirmar que:",
+    alternativas: [
+      "embora seja autônoma a responsabilidade aquiliana, é regida por suas regras e princípios, notadamente quanto a juros de mora e prazo prescricional aplicáveis;",
+      "embora seja autônoma a responsabilidade contratual, é regida por suas regras e princípios, notadamente quanto a juros de mora e prazo prescricional aplicáveis;",
+      "tem a mesma ratio da responsabilidade pré-contratual;",
+      "tem aplicação concomitante aos casos regidos pelas tradicionais da responsabilidade civil para justificar a indenização por novos danos e até pela perda de uma chance;",
+      "tem aplicação subsidiária para os casos não abrangidos pelas vias tradicionais de responsabilidade e tem fundamento na vedação ao enriquecimento sem causa."
+    ], resposta_correta: 2 },
+  { id: "q592", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Gerônimo coagiu Marta, sua ex-esposa, a assinar partilha amigável do acervo matrimonial. Nesse caso, se Marta desejar ajuizar ação anulatória, deverá fazê-lo, à luz da jurisprudência do Superior Tribunal de Justiça, em, no máximo:",
+    alternativas: [
+      "dois anos, nos termos do Art. 179 do Código Civil, porque a lei não estabelece prazo para pleitear-se a anulação de planilhas de dissolução de sociedade conjugal homologadas judicialmente;",
+      "quatro anos a contar da data em que cessou a coação, nos termos do Art. 178, I, do Código Civil, se a partilha for extrajudicial, caso em que constituiria negócio jurídico ordinário; ou um ano a contar da data da assinatura, nos termos do Art. 2.027 do Código Civil, que, embora esteja inserido no livro das Sucessões, é aplicável à extinção do direito de anular a partilha da dissolução da sociedade conjugal;",
+      "quatro anos a contar da data da assinatura, nos termos do Art. 178, I, do Código Civil, se a partilha for extrajudicial; ou um ano a contar da data da assinatura, nos termos do Art. 2.027 do Código Civil, que, embora esteja inserido no livro das Sucessões, é aplicável à extinção do direito de anular a partilha da dissolução da sociedade conjugal;",
+      "quatro anos a contar da data em que cessou a coação, nos termos do Art. 178, I, do Código Civil, seja a partilha judicial ou extrajudicial;",
+      "um ano a contar da data em que cessou a coação, seja a partilha judicial ou extrajudicial, nos termos do Art. 2.027 do Código Civil, que, embora esteja inserido no livro das Sucessões, é aplicável à extinção do direito de anular a partilha da dissolução da sociedade conjugal."
+    ], resposta_correta: 3 },
+  { id: "q593", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Juraci faleceu deixando a seus herdeiros apenas um imóvel. Ocorre que, no âmbito de uma execução fiscal de Imposto sobre Serviços (ISS), o Município de Campo Grande/MS pediu a penhora de bens antes de findo o inventário. Intimados, os sucessores alegaram se tratar de bem de família. Nesse caso, sabendo que o imposto é devido por força da atividade empresarial levada a efeito nos fundos do imóvel, o juiz deverá reconhecer, exclusivamente à luz da Lei nº 8.009/1990, que:",
+    alternativas: [
+      "não se aplica a proteção do bem de família, por se tratar de execução fiscal de impostos devidos por atividade empresarial desempenhada no próprio imóvel;",
+      "não se aplica a proteção do bem de família ao imóvel que ainda não foi partilhado e, portanto, ainda integra a universalidade de bens do espólio, ou seja, não existe bem de família do espólio;",
+      "não se aplica a proteção do bem de família no caso concreto, mesmo após a partilha, considerando que os herdeiros receberão o imóvel como direito sucessório, sujeito, portanto, a regra de responsabilidade limitada às forças da herança;",
+      "se aplica a proteção do bem de família, desde que o único imóvel já servisse à moradia, pelo menos, um dos herdeiros ao tempo da abertura da sucessão;",
+      "se aplica a proteção do bem de família, desde que o imóvel sirva, ao tempo da ordem de penhora, à moradia, pelo menos, um dos herdeiros ou de seus familiares."
+    ], resposta_correta: 4 },
+  { id: "q594", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "João alugava um imóvel de José, com cláusula expressa de renúncia à indenização ou à retenção por quaisquer benfeitorias. Depois de quase uma década no imóvel, decidiu construir no quintal uma área com piscina, sauna, churrasqueira e um pequeno chalé para hóspedes. Isso foi aprovado pelo proprietário, que não desejou participar das despesas nem concedeu qualquer vantagem a João. Depois de um ano de obras, já fruindo do espaço para receber amigos, João resolveu instalar uma hidromassagem no quarto de hóspedes e um moderno toldo protetivo sobre a piscina para diminuir a sujeira. Tudo concluído, José, então, pediu o imóvel de volta. Nesse caso, é correto afirmar que João:",
+    alternativas: [
+      "não terá direito a qualquer indenização;",
+      "terá direito de indenização sobre todas as obras;",
+      "só terá direito de indenização sobre a construção da área com piscina, sauna, churrasqueira e chalé de hóspedes, mas não sobre os acréscimos posteriores (hidromassagem e toldo para piscina);",
+      "só terá direito de indenização sobre a construção da área (e seu toldo), sauna, churrasqueira e chalé de hóspedes, mas não sobre a hidromassagem;",
+      "poderá impedir a retomada do imóvel pelo tempo necessário para se compensar pelos investimentos feitos."
+    ], resposta_correta: 1 },
+  { id: "q595", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Eis o enunciado nº 22 da I Jornada de Direito Civil: 'A função social do contrato, prevista no Art. 421 do novo Código Civil, constitui cláusula geral que reforça o princípio de conservação do contrato, assegurando trocas úteis e justas'. A densificar o princípio, a regra disposta no Art. 51, §2º, do Código de Defesa do Consumidor traz que: 'Art. 51. São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que: (...) §2º A nulidade de uma cláusula contratual abusiva não invalida o contrato, exceto quando, apesar dos esforços de integração, decorrer ônus excessivo a qualquer das partes'. Contudo, mesmo em diálogo de fontes, nos termos do Código Civil, o princípio enunciado – de conservação – não se aplica a contratos:",
+    alternativas: [
+      "solenes;",
+      "aleatórios;",
+      "simulados;",
+      "de transação;",
+      "com incapazes."
+    ], resposta_correta: 3 },
+  { id: "q596", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O juiz de direito em exercício em vara com competência falencial precisa avaliar e leiloar uma das fazendas da massa. Constatada a insuperável dificuldade de acesso para as medições necessárias, e assegurando-se já haver vencido o prazo para regularização registral do imóvel, o juiz, à luz da Lei nº 6.015/1973, poderá:",
+    alternativas: [
+      "obter a localização, os limites e as confrontações a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica (ART), contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, em qualquer caso de imóvel rural;",
+      "obter a localização, os limites e as confrontações a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica (ART), contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, desde que se trate de imóvel rural desmembrado, parcelado ou remembrado;",
+      "obter a localização, os limites e as confrontações a partir de memorial descritivo assinado por profissional habilitado e com a devida Anotação de Responsabilidade Técnica (ART), contendo as coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, desde que se trate de imóvel oriundo de parcelamento do solo urbano implantado, ainda que não inscrito ou registrado, e cuja abertura ou atualização da matrícula tenha sido requerida pelo município da área onde ele está localizado;",
+      "consultar as dimensões contidas no Certificado de Cadastro de Imóvel Rural (CCIR), documento emitido pelo INCRA que comprova o cadastramento do imóvel rural perante a autarquia, sendo certo que seu georreferenciamento, por ser objeto de atualização constante a cargo da autarquia, prevalece sobre eventuais discrepâncias no memorial descritivo formulado por profissional de confiança do interessado;",
+      "consultar as dimensões contidas no Certificado de Cadastro de Imóvel Rural (CCIR), documento emitido pelo INCRA que comprova o cadastramento do imóvel rural perante a autarquia, sendo certo que seu georreferenciamento, por ser objeto de atualização constante a cargo da autarquia, prevalece sobre eventuais discrepâncias no memorial descritivo formulado por profissional de confiança do interessado, desde que não estejam registradas coordenadas dos vértices definidores dos limites dos imóveis rurais, georreferenciadas ao Sistema Geodésico Brasileiro e com precisão posicional a ser fixada pelo INCRA, e desde que se trate de imóvel rural desmembrado, parcelado ou remembrado."
+    ], resposta_correta: 0 },
+  { id: "q597", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Considere os casos a seguir. I. Casados pelo regime de comunhão parcial de bens, Hieráclito e Betina receberam a doação de uma casa no âmbito de um programa governamental de acesso à moradia. O imóvel, no entanto, foi registrado exclusivamente em nome de Betina. II. Jorge, então casado com Laís, morre e deixa um imóvel – que era particular seu – alugado. III. Romeu é casado com Juliana. O casamento deles é regido pela separação obrigatória de bens, que foi ratificada em cartório em 2025. Pouco depois, Romeu recebe R$ 100.000.000,00 ao jogar em uma loteria. Haverá direito à meação:",
+    alternativas: [
+      "em todos os casos;",
+      "apenas sobre o imóvel citado no caso I e sobre os frutos civis vincendos do imóvel particular do cônjuge falecido no caso II;",
+      "apenas sobre o prêmio de loteria no caso III;",
+      "apenas sobre o imóvel citado no caso I e sobre o prêmio de loteria no caso III;",
+      "apenas sobre os frutos civis vincendos do imóvel particular do cônjuge falecido no caso II e sobre o prêmio de loteria no caso III."
+    ], resposta_correta: 3 },
+  { id: "q598", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Considere as três situações hipotéticas a seguir. I. Rafael locou um de seus apartamentos para Letícia, que começou a atrasar o pagamento dos aluguéis. Na fluência do prazo prescricional, Rafael e Letícia se casaram civilmente. II. Joana hospedou-se no Hotel Boa Viagem Ltda. e deixou o hotel sem pagar pelas diárias. Durante o curso do prazo prescricional, o hotel promoveu o protesto cambial do cheque que Joana havia emitido para garantir a locação, que estava sem fundos. III. Miguel, tio de Pedro, prometeu que pagaria mil reais a Pedro se ele passasse no vestibular, exame que ainda não aconteceu e está marcado para janeiro do próximo ano. Diante das situações hipotéticas apresentadas, com relação ao prazo prescricional, houve, respectivamente:",
+    alternativas: [
+      "impedimento, interrupção, suspensão;",
+      "interrupção, impedimento, suspensão;",
+      "suspensão, interrupção, suspensão;",
+      "suspensão, interrupção, impedimento;",
+      "interrupção, suspensão, interrupção."
+    ], resposta_correta: 3 },
+  { id: "q599", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Álvaro vendeu ao Haras Esperança o cavalo Ventania. Pelo contrato, ele deveria entregar o animal no dia 10, mas, por uma falha de organização, somente conseguiu agendar o transporte do animal para o dia 20. Ocorre que, no dia 15, enquanto pastava ainda na fazenda de Álvaro, Ventania foi atingida por um raio e veio a óbito. Nesse caso, quanto à impossibilidade de entregar o cavalo, Álvaro:",
+    alternativas: [
+      "não é responsável, já que a morte do cavalo decorreu de força maior decorrente do raio, o que afasta o nexo de causalidade;",
+      "não é responsável, pois a responsabilidade é subjetiva e pressupõe prova de que Álvaro teve culpa na morte do animal;",
+      "não é responsável, pois o dano, referente à morte do animal por um raio, sobreviria ainda que a prestação tivesse sido oportunamente cumprida;",
+      "é responsável, pois o fortuito, consistente na morte do cavalo por um raio, ocorreu enquanto o devedor estava em mora, isto é, após o dia 10;",
+      "é responsável, pois se trata de fortuito interno, já que o incidente no pasto é risco intrínseco à atividade de Álvaro, como vendedor de cavalos."
+    ], resposta_correta: 3 },
+  { id: "q600", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em 13 de março, a XYZ Ltda. enviou, por correio, para a ABC S/A um envelope com uma série de documentos sobre a nova máquina que estavam desenvolvendo e uma proposta comercial com preço para a venda da máquina. No dia 16 daquele mês, a proposta foi entregue na sede da ABC, e os seus diretores, depois de examinar a documentação, decidiram aceitá-la naquela mesma data. A aceitação foi enviada, também pelo correio, no dia seguinte (17), com os documentos necessários, e chegou à sede da XYZ no dia 20. A sede estava fechada por conta da greve, de modo que os diretores da XYZ só tomaram ciência da aceitação no dia 25, quando as atividades foram retomadas. Ocorre que, no dia 18, entrou em vigor nova legislação que passou a exigir formalidade especial para a celebração desse tipo de contrato, sem a qual ele deve ser reputado nulo, e essa formalidade não havia sido cumprida no caso. Diante disso, é correto afirmar que o contrato:",
+    alternativas: [
+      "formou-se validamente, pois a aceitação retroage e o contrato se reputa celebrado no dia 13; portanto, já configurava ato jurídico perfeito quando a lei nova entrou em vigor;",
+      "formou-se validamente, pois ele se reputa celebrado no dia 16; portanto, já configurava ato jurídico perfeito quando a lei nova entrou em vigor;",
+      "formou-se validamente, pois ele se reputa celebrado no dia 17; portanto, já configurava ato jurídico perfeito quando a lei nova entrou em vigor;",
+      "não se formou validamente, pois ele se reputa celebrado no dia 20; portanto, deveria ter atendido à exigência formal, tendo em vista que a lei nova já estava em vigor;",
+      "não se formou validamente, pois ele se reputa celebrado no dia 25; portanto, deveria ter atendido à exigência formal, tendo em vista que a lei nova já estava em vigor."
+    ], resposta_correta: 2 },
+  { id: "q601", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Zulmira era a sobrinha favorita de Anacleto; por isso, quando ela completou 30 anos, ele doou a ela um imóvel, tal qual fizera com seus três filhos. Ocorre que, anos depois, Zulmira, após uma desavença acalorada com o tio, esfaqueou-o, com a intenção de matá-lo. Ele foi levado ao hospital, onde resistiu por alguns dias, mas acabou vindo a óbito em razão do ferimento. Os filhos de Anacleto, agora, pretendem a revogação da doação do imóvel feita a Zulmira, para que o bem retorne ao espólio. Sobre essa pretensão, é correto afirmar que:",
+    alternativas: [
+      "o prazo para se revogar a doação por ingratidão é prazo geral prescricional decenal;",
+      "os herdeiros estariam impedidos de revogar a doação se Anacleto tivesse perdoado Zulmira antes de falecer;",
+      "o direito à revogação por ingratidão é personalíssimo, de modo que somente o doador poderia exercer a pretensão;",
+      "se for revogada a doação, Zulmira será obrigada a restituir também os frutos que colheu do imóvel desde que o recebeu;",
+      "os herdeiros não podem pretender a revogação, e apenas poderiam prosseguir no processo se Anacleto o tivesse iniciado antes de falecer."
+    ], resposta_correta: 1 },
+  { id: "q602", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Nestor, proprietário da unidade 1102 do condomínio edilício Hermes, vem causando significativos atritos com seus vizinhos em razão das festas que promove em seu apartamento. A música alta e a entrada e saída de convidados madrugada adentro prejudica a segurança e o repouso noturno dos condôminos. Apesar das reclamações, Nestor não muda seu comportamento. Diante disso, após garantidos a Nestor o contraditório e a ampla defesa, pode a assembleia dos condôminos:",
+    alternativas: [
+      "advertir Nestor, fazendo constar em ata o ocorrido, pois não é possível cominar outra sanção sem essa advertência prévia pela assembleia;",
+      "determinar que Nestor pague multa não superior a duas vezes o valor da sua contribuição mensal, contanto que isso esteja previsto na convenção condominial;",
+      "determinar que Nestor pague nova multa, agora de até três vezes o valor da sua contribuição mensal, se houver reiteração do comportamento após o pagamento da primeira multa;",
+      "determinar que Nestor pague nova multa, agora de até cinco vezes o valor da sua contribuição mensal, se a reiteração do comportamento após o pagamento de duas multas gerar incompatibilidade de convivência;",
+      "ressalvar que as multas não prejudicam eventual obrigação de Nestor de pagar perdas e danos pelos prejuízos decorrentes do comportamento antissocial, não havendo, contudo, previsão legal expressa para a sua exclusão do condomínio."
+    ], resposta_correta: 4 },
+  { id: "q603", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Leandro tem 13 anos de idade e acabou de sofrer a morte de ambos os pais em um acidente de carro. Nessa situação, proposta a ação de tutela, pode escusar-se da tutela, caso seja designado para o seu exercício:",
+    alternativas: [
+      "o maior de 50 anos;",
+      "o militar;",
+      "o que já exerce a tutela ou a curatela;",
+      "a pessoa viúva;",
+      "aquele que tem sob a sua autoridade mais de dois filhos."
+    ], resposta_correta: 2 },
+  { id: "q604", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Adilson tinha uma relação extremamente conturbada com seus dois filhos, Bruno e Caio. Quando Adilson faleceu, Bruno foi excluído da sucessão em razão de tentativa de homicídio do pai. Caio, por sua vez, renunciou à herança. Ocorre que Adilson deixou também dois netos: Danilo, filho de Bruno, e Eduardo, filho de Caio. Ambos os netos manifestaram interesse em receber a herança de Adilson. Considerando que Adilson não deixou outros herdeiros, sua herança deve ir:",
+    alternativas: [
+      "toda para Danilo;",
+      "toda para Eduardo;",
+      "toda para o Estado;",
+      "toda para o Município;",
+      "metade para Danilo e metade para Eduardo."
+    ], resposta_correta: 0 },
+  { id: "q605", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Paulo celebrou com Tito contrato de comodato de um veículo, em que se estabeleceu como foro de eleição o Município Alfa. Durante a vigência do contrato, Paulo tomou conhecimento de que o veículo objeto do comodato estava abandonado no Município Beta em local ermo e sujeito às intempéries. Testemunhas disseram a Paulo que Tito teria participado de evento conhecido como 'racha' e capotado o veículo, ao passo que Tito se defendeu afirmando que o veículo, sem sua desídia, teria apresentado falha total. Com base nesse cenário, Paulo pretendeu realizar a produção antecipada de prova para avaliar a real origem dos danos no veículo, cujos vestígios podem se perder com o decurso do tempo. Assim, a competência para a análise do pedido será do:",
+    alternativas: [
+      "domicílio do autor;",
+      "foro de eleição contratual;",
+      "local onde se encontra o veículo;",
+      "local onde deve ser proposta a ação principal;",
+      "local em que houve a celebração do contrato."
+    ], resposta_correta: 2 },
+  { id: "q606", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Maria ajuizou ação indenizatória em face da loja de vestuário Roupa Legal, aduzindo que a ré teria realizado registro de negativação por inadimplemento do cartão de crédito contratado. Maria pontua que jamais teria deixado de pagar as faturas do cartão e, mesmo diante da solução administrativa do problema, pretende a condenação da loja ré em indenizá-la pelo abalo emocional sofrido. No curso da demanda, foi conferida a gratuidade de justiça à autora. Finda a fase de conhecimento, sobreveio sentença que julgou improcedentes os pedidos iniciais, sob o fundamento de existência de diversas anotações anteriores no registro de inadimplência da autora. Acerca dos honorários advocatícios de sucumbência aos quais Maria está sujeita, levando em consideração o entendimento dos Tribunais Superiores, o parâmetro de fixação deverá ser:",
+    alternativas: [
+      "a equidade, uma vez que o abalo emocional demonstrado possui valor inestimável;",
+      "o proveito econômico auferido pelo réu, consubstanciado naquilo que deixou de pagar;",
+      "o valor da causa, sendo certo que a ausência de condenação impede a fixação em critério diverso;",
+      "a condenação, pois a improcedência dos pedidos implica a demonstração de regularidade da cobrança;",
+      "a gratuidade de justiça, pois sua concessão no processo impede que haja fixação de honorários advocatícios."
+    ], resposta_correta: 2 },
+  { id: "q607", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Jorge e Rafael são vizinhos e possuem imóveis contíguos. Ambos nutrem há anos desafeto mútuo, decorrente da controvérsia acerca dos limites de cada imóvel. Por essa razão, Jorge ajuizou ação demarcatória em face de Rafael, como forma de resolver o conflito. Entretanto, no curso da ação, o autor alienou o imóvel em favor de Pedro, sem que houvesse o regular consentimento do ingresso desse na relação processual. Nesse cenário, considerando que Jorge continuou a atuar no processo e Pedro pretendeu seu ingresso, eles atuarão, respectivamente, como:",
+    alternativas: [
+      "sucessor processual e assistente simples;",
+      "substituto processual e assistente simples;",
+      "sucessor processual e sucedido processual;",
+      "substituto processual e assistente litisconsorcial;",
+      "sucessor processual e assistente litisconsorcial."
+    ], resposta_correta: 0 },
+  { id: "q608", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Esther, advogada devidamente constituída nos autos do processo de declaração de inexistência de relação jurídica ajuizada em face de instituição financeira, se dirigia a seu escritório para realizar o protocolo de recurso contra decisão que indeferiu a tutela de urgência requerida na inicial. No trajeto, Esther esqueceu, no interior do táxi que a conduzia, a bolsa em que estava seu certificado de assinatura digital. Temendo perder o prazo para interposição do recurso, Esther solicitou a Paula, advogada que não atuava na referida ação, que realizasse o protocolo do recurso, o que foi prontamente atendido pela colega. Entretanto, no mesmo dia, o taxista devolveu a bolsa à Esther, que, sem saber que Paula já havia atendido a solicitação, realizou novo protocolo do recurso cabível. Diante da narrativa apresentada e à luz da jurisprudência aplicável, os recursos serão considerados:",
+    alternativas: [
+      "válido o primeiro e inválido o segundo, pela preclusão consumativa;",
+      "inexistente o primeiro e válido o segundo, pelo protocolo tempestivo;",
+      "válido o primeiro e inválido o segundo, pela preclusão lógica;",
+      "inexistente o primeiro e inválido o segundo, pela preclusão consumativa;",
+      "válido o primeiro e válido o segundo, pelo protocolo tempestivo, devendo ambos ser conhecidos."
+    ], resposta_correta: 1 },
+  { id: "q609", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Carla, representante legal do infante João, ajuizou ação em face do Estado W, sob o argumento de que houve falha na realização do 'teste do pezinho', no qual não foi identificada doença genética que o acomete. Argumenta a representante legal que o sangue coletado foi deixado sem o acondicionamento necessário, o que implicou o falso negativo e, por isso, não foi identificada precocemente a doença genética. O Estado W afirmou que o hospital possui câmara refrigerada monitorada para guardar as amostras até a realização dos testes. Diante dessa controvérsia, considerando as regras de distribuição do ônus probatório e a jurisprudência sobre o tema, a decisão saneadora deverá aplicar:",
+    alternativas: [
+      "as normas do Código de Defesa do Consumidor, de modo a inverter o ônus da prova em favor do autor;",
+      "a distribuição dinâmica da prova, como regra, por se tratar de hipótese em que está demonstrada a hipossuficiência técnica do autor em produzir a prova apontada;",
+      "a distribuição estática da prova, como regra, impondo ao autor o dever de demonstrar a falha apontada, sendo certo que não é possível impor ao réu a prova de fato negativo;",
+      "a distribuição dinâmica da prova, de modo a impor ao estado demonstrar a regularidade da colheita e da realização do teste, sendo certo que possui melhor capacidade para produzir a prova;",
+      "a distribuição estática da prova, de modo que o autor deverá produzir provas dos fatos constitutivos de seu direito, e o réu deverá demonstrar a existência de fato negativo, impeditivo ou modificativo do direito do autor."
+    ], resposta_correta: 3 },
+  { id: "q610", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "André, após ter conhecimento de que seu tio Marcos pretendia sair do país na posse de quadros que acredita fazer parte do espólio deixado por seus falecidos pais, ajuizou ação na qual demonstrou o perigo de dano ao resultado útil do processo e, por intermédio de advogado devidamente habilitado, realizou pedido de tutela antecipada em caráter antecedente, na qual pretendia o sequestro dos objetos, até posterior definição da propriedade dos bens. A partir dessa premissa e diante das normas que regem as tutelas provisórias, é correto afirmar que o requerimento de André possui natureza:",
+    alternativas: [
+      "satisfativa, razão pela qual a via apresentada mostra-se adequada à finalidade pretendida;",
+      "cautelar, mas não pode ser concedida pela ausência de demonstração da probabilidade do direito invocado;",
+      "cautelar, cuja fungibilidade permite sua concessão por meio do instrumento de tutela antecipada apresentado;",
+      "satisfativa, mas pode ser concedida por meio da fungibilidade com o requerimento de natureza cautelar apresentado;",
+      "cautelar, com vistas a assegurar resultado prático em outro processo, sendo incabível, portanto, a concessão do requerimento pela via apresentada."
+    ], resposta_correta: 2 },
+  { id: "q611", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Marcos ajuizou ação rescisória com o intuito de desconstituir decisão judicial transitada em julgado, sob o fundamento de que a mencionada decisão violou manifestamente norma jurídica. Liminarmente, o autor requereu a concessão de tutela provisória de urgência para que se determine a suspensão da eficácia executiva da decisão rescindenda. Em resposta, o juiz indeferiu o pedido autoral, sob o fundamento de que a propositura da ação rescisória não impede o cumprimento da decisão rescindenda. À luz do que estabelece o Código de Processo Civil sobre o tema, é correto afirmar que a fundamentação do magistrado está:",
+    alternativas: [
+      "incorreta, uma vez que, apesar de a propositura da ação rescisória não impedir o cumprimento da decisão rescindenda, o Código de Processo Civil ressalva a possibilidade de se requerer a suspensão da eficácia da referida decisão por meio da concessão da tutela provisória, se presentes os seus requisitos autorizadores;",
+      "incorreta, uma vez que a suspensão da eficácia executiva da decisão rescindenda é efeito automático da propositura da ação rescisória, sendo inócuo o pedido liminar formulado pela parte autora;",
+      "correta, uma vez que a propositura da ação rescisória não impede o cumprimento da decisão rescindenda, sendo vedado, pelo Código de Processo Civil, o pedido de suspensão da ação principal em caráter liminar;",
+      "correta, uma vez que a ação rescisória somente poderá ser proposta quando a decisão rescindenda não mais puder ser executada, ou seja, quando prolatada sentença de extinção da execução e quando determinada a baixa e o arquivamento dos autos em que ela fora proferida;",
+      "incorreta, uma vez que o juiz deveria ter indeferido o pedido autoral sob o fundamento de que não é cabível pedido de tutela provisória de urgência em sede de ação rescisória, sendo vedada, pelo Código de Processo Civil, a suspensão da eficácia executiva da ação rescisória."
+    ], resposta_correta: 0 },
+  { id: "q612", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em ação popular ajuizada pelo Ministério Público, após proferir sentença de improcedência, o juiz que julgou o feito remeteu os autos à segunda instância, fundamentando a referida remessa no fato de que a sentença estaria sujeita ao duplo grau de jurisdição e que não produziria efeitos senão depois de confirmada pelo tribunal. Considerando o caso narrado, é correto afirmar que o magistrado agiu:",
+    alternativas: [
+      "corretamente, uma vez que a sentença que julgar o mérito de uma ação popular estará sujeita à remessa necessária;",
+      "corretamente, uma vez que a sentença que rejeitar o pedido de uma ação popular estará sujeita à remessa necessária;",
+      "equivocadamente, uma vez que somente a sentença que julgar procedente o pedido de uma ação popular estará sujeita à remessa necessária;",
+      "equivocadamente, uma vez que não há remessa necessária nas sentenças de que trata a lei de ação popular;",
+      "equivocadamente, uma vez que somente a sentença que concluir pela carência da ação popular estará sujeita à remessa necessária."
+    ], resposta_correta: 1 },
+  { id: "q613", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Maurício interpôs ação declaratória c/c pedido de obrigação de fazer em face do Banco XYZ S/A, pugnando pelo reconhecimento da nulidade do contrato de empréstimo consignado que afirma não ter contratado. A pretensão autoral foi julgada improcedente pelo juízo da Vara Cível em que tramita a referida demanda, sob o fundamento de que a causa de pedir e o pedido autorais violam entendimento fixado em sede de incidente de resolução de demandas repetitivas julgado anteriormente pelo Tribunal de Justiça estadual. Irresignado, Maurício interpôs recurso de apelação contra a referida sentença, apontando argumentos que infirmam a sentença de improcedência da pretensão voltada ao reconhecimento da nulidade do contrato de empréstimo consignado. Após realizar o juízo de admissibilidade, o desembargador relator da Câmara para a qual foi distribuído o recurso decidiu desprovê-lo, monocraticamente, discorrendo vaga e genericamente sobre a fundamentação por referência e limitando-se a transcrever a sentença sem rebater os elementos fáticos (indicativos de fraude) suscitados pela parte apelante. Em seguida, Maurício interpôs recurso de agravo interno contra a referida decisão, o qual foi desprovido pela Câmara, que se restringiu a repisar a regularidade da utilização da fundamentação por referência sem relacionar o caso dos autos aos argumentos apresentados pela parte autora desde a réplica. Ato contínuo, foram opostos embargos de declaração pelo apelante, que foram desprovidos com a mesma fundamentação do agravo interno. Em seguida, foi interposto recurso especial pelo autor arguindo nulidade do ato decisório, em razão da reprodução de trechos de decisão anterior como razões de decidir. Considerando o caso exposto, a técnica de fundamentação utilizada pela Câmara julgadora e a mais recente jurisprudência sobre o tema, é correto afirmar que:",
+    alternativas: [
+      "houve negativa de prestação jurisdicional, capaz de ensejar a nulidade do acórdão estadual, uma vez que a técnica da fundamentação por referência (per relationem) é permitida desde que o julgador, ao reproduzir trechos de decisão anterior como razões de decidir, enfrente, ainda que de forma sucinta, as novas questões relevantes para o julgamento do processo, dispensada a análise pormenorizada de cada uma das alegações ou provas;",
+      "não houve negativa de prestação jurisdicional capaz de ensejar a nulidade do acórdão estadual, uma vez que a reprodução dos fundamentos da decisão agravada como razões de decidir para negar provimento ao agravo interno é admitida quando a parte deixa de apresentar argumento novo e relevante a ser apreciado pelo colegiado;",
+      "houve negativa de prestação jurisdicional capaz de ensejar a nulidade do acórdão estadual, uma vez que a técnica da fundamentação por referência ou por remissão (per relationem) é vedada em nosso ordenamento jurídico, sendo defeso ao julgador reproduzir trechos de decisão anterior, como razões de decidir, sob pena de violar o dever de fundamentação das decisões judiciais previsto no Código de Processo Civil;",
+      "não houve negativa de prestação jurisdicional capaz de ensejar a nulidade do acórdão estadual, uma vez que fora utilizada adequadamente a técnica da fundamentação por referência (per relationem), que é permitida em nosso ordenamento jurídico, em homenagem ao dever de fundamentação das decisões judiciais previsto no Código de Processo Civil;",
+      "não houve negativa de prestação jurisdicional ensejadora da nulidade do acórdão estadual, uma vez que a técnica de fundamentação por referência (per relationem) é permitida desde que o julgador, ao reproduzir trechos de decisão anterior, com razões de decidir, enfrente, ainda que de forma sucinta, as novas questões relevantes para o julgamento do processo, dispensada a análise pormenorizada de cada uma das alegações ou provas."
+    ], resposta_correta: 0 },
+  { id: "q614", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O sindicato dos professores da rede estadual ajuizou ação coletiva contra o Estado de Mato Grosso do Sul pugnando pelo pagamento de determinada gratificação aos docentes. Após a instrução do feito, o pedido foi julgado procedente, tendo a sentença fixado honorários advocatícios de sucumbência no valor de R$ 2.000.000,00 em favor do advogado do sindicato. Após o trânsito em julgado dessa decisão, o referido causídico decidiu executar seus honorários de forma fracionada, dividindo os R$ 2.000.000,00 pelo número de professores substituídos pelo sindicato (cerca de 10 mil servidores). Desse modo, o advogado ajuizou 10 mil execuções individuais, cada uma no valor de R$ 200,00, para que pudesse receber através de Requisições de Pequeno Valor (RPVs) e não precisasse aguardar o regime de precatórios. O juiz da Vara da Fazenda Pública não concordou com o pleito do causídico e passou a julgar extinta, sem resolução do mérito, cada uma dessas execuções individuais, sob o argumento de que os honorários advocatícios constituem crédito único e indivisível, não podendo ser fracionados. Irresignado, o advogado exequente interpôs apelação contra cada uma dessas execuções. O juiz, ao receber a apelação, afirmou que a sentença estava em conformidade com entendimento consolidado pelo STF em repercussão geral e, sob o argumento de evitar movimentação desnecessária do Judiciário, negou seguimento ao recurso, determinando o arquivamento dos autos. Inconformado, o advogado ingressou com reclamação contra a referida decisão, arguindo que houve usurpação da competência do Tribunal de Justiça pelo juiz. Diante da narrativa apresentada e à luz da jurisprudência aplicável, é correto afirmar que, na hipótese:",
+    alternativas: [
+      "não é cabível reclamação, tendo em vista o seu caráter excepcional, não se tratando de nenhuma hipótese de cabimento prevista no rol taxativo do Art. 988 do Código de Processo Civil;",
+      "é cabível reclamação, e ela deve ser julgada procedente, tendo em vista a usurpação da competência do Tribunal pelo juiz ao proferir decisão negando seguimento ao recurso de apelação;",
+      "não é cabível reclamação, tendo em vista o cabimento de agravo de instrumento contra a decisão proferida em fase de cumprimento de sentença;",
+      "não é cabível reclamação, tendo em vista o cabimento de mandado de segurança contra a decisão, diante do abuso de poder por parte do juiz em exarar decisão manifestamente ilegal;",
+      "é cabível reclamação, mas ela deve ser julgada improcedente, tendo em vista que a decisão do juiz foi proferida em consonância com a jurisprudência do STF que definiu que os honorários advocatícios constituem crédito único e indivisível, vedado o fracionamento da execução de honorários fixados em ação coletiva contra a Fazenda Pública."
+    ], resposta_correta: 4 },
+  { id: "q615", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Maria ajuizou ação indenizatória em face de José. Ao analisar a petição inicial, o juízo da Vara Cível para a qual foi distribuída a referida ação observou que Maria não apresentou quaisquer fundamentos jurídicos em sua exordial, tampouco formulou pedido em face de José. Diante de tal constatação, o juiz extinguiu o feito sem resolução do mérito, indeferindo a petição inicial, sob o fundamento de que ela apresenta defeitos e irregularidades capazes de impedir o julgamento de mérito. Irresignada, Maria ajuizou apelação contra a referida sentença. Após certificado o correto recolhimento do preparo recursal e a intempestividade do referido recurso, os autos foram conclusos ao juiz, que, à luz do que estabelece o Código de Processo Civil sobre o tema, deverá:",
+    alternativas: [
+      "exercer o juízo de retratação, no prazo de cinco dias, reconhecendo a necessidade de primeiramente intimar a parte autora para, em 15 dias, emendar ou completar a inicial, indicando com precisão o que deve ser corrigido ou completado;",
+      "inadmitir o recurso interposto, diante de sua manifesta intempestividade, determinando, posteriormente, a baixa e o arquivamento dos autos;",
+      "determinar a remessa dos autos à segunda instância para que seja realizado o juízo de admissibilidade do recurso interposto, ocasião em que se inadmitirá o recurso de apelação diante de sua manifesta intempestividade;",
+      "inadmitir o recurso interposto, uma vez que o recurso cabível contra a decisão de indeferimento da petição inicial seria o agravo de instrumento e não a apelação;",
+      "determinar a remessa dos autos à segunda instância para que seja realizado o juízo de admissibilidade do recurso interposto, ocasião em que se inadmitirá o recurso de apelação, uma vez que o recurso cabível contra a decisão de indeferimento da petição inicial seria o agravo de instrumento."
+    ], resposta_correta: 2 },
+  { id: "q616", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A parte ré de uma ação de obrigação de fazer que tramita no Juizado Especial Cível, e ora se encontra em fase de cumprimento de sentença, opôs embargos à execução aduzindo a existência de ausência de intimação para o cumprimento da obrigação de fazer estabelecida no título judicial formado nos autos e transitado em julgado. O juízo do Juizado Especial Cível julgou improcedentes os referidos embargos, ao argumento de que a parte ré teve plena ciência da sentença em que se estabeleceu a obrigação de fazer à qual fora condenada. Irresignada, a parte ré/executada interpôs recurso inominado contra a referida sentença, pugnando pela sua reforma. A Turma Recursal acolheu o referido recurso e reformou a sentença para julgar procedentes os embargos à execução, uma vez que a parte executada não foi intimada pessoalmente para o cumprimento da obrigação de fazer, contrariando o teor da súmula 410, do STJ, que dispõe que 'a prévia intimação pessoal do devedor constitui condição necessária para a cobrança de multa pelo descumprimento de obrigação de fazer ou não fazer'. Inconformada, a parte autora ingressou com reclamação em face da referida decisão direcionada ao Tribunal de Justiça ao qual se encontra vinculada, pugnando pelo reconhecimento de que a súmula 410 do STJ se encontra superada em nosso ordenamento jurídico, já que é contrária a dispositivos do Código de Processo Civil. Considerando-se o caso concreto narrado, e à luz da jurisprudência sobre o tema, é correto afirmar que o argumento da parte autora:",
+    alternativas: [
+      "deverá prosperar, uma vez que o STJ já decidiu pela superação da súmula 410 do STJ, em julgamento realizado sob a sistemática dos recursos repetitivos, por meio do qual se afirmou que a prévia intimação pessoal do devedor não deve constituir condição necessária para a cobrança da multa pelo descumprimento de obrigação de fazer ou não fazer;",
+      "não deverá prosperar, uma vez que, apesar de o STJ ter afetado a questão acerca da superação da súmula 410 sob a sistemática dos recursos repetitivos, o referido enunciado sumular ainda se encontra em vigor, não sendo a reclamação o meio correto para se discutir eventual superação de súmula ainda não confirmada pelo STJ ou eventual violação ao Código de Processo Civil em razão da aplicação da referida súmula na prática;",
+      "deverá prosperar, uma vez que há incompatibilidade da súmula 410 do STJ com o que preleciona o Código de Processo Civil sobre o tema, revelando-se cabível o pedido de reforma da decisão proferida pela Turma Recursal estadual por meio de reclamação, diante da impossibilidade de manejo de recurso especial;",
+      "não deverá prosperar, uma vez que a matéria por ela discutida deveria ter sido ventilada por meio de recurso extraordinário, direcionado ao Supremo Tribunal Federal;",
+      "não deverá prosperar, uma vez que a Lei nº 9.099/1995 não permite o manejo de reclamação contra decisão exarada por Turma Recursal."
+    ], resposta_correta: 1 },
+  { id: "q617", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A empresa ABC ajuizou execução de título extrajudicial em face da empresa XYZ, arguindo que a empresa executada adquiriu da empresa exequente produtos descritos em notas fiscais, que foram devidamente entregues, conforme canhotos de recebimento acostados aos autos. Afirmou a exequente que as partes acordaram que os pagamentos seriam realizados por intermédio de duplicatas mercantis, cujos valores se encontram discriminados nos títulos vencidos. Ressaltou que, mesmo após os protestos dos títulos, a empresa XYZ não adimpliu com o valor devido. Foi, então, determinada a citação da executada para que procedesse ao pagamento da dívida acrescida das custas antecipadas pelo exequente e de honorários de 5% sobre o valor de seu débito, no prazo de três dias, sob pena de penhora de bens de seu patrimônio. Em seguida, foram opostos embargos à execução pela empresa XYZ, aos quais não foi deferido efeito suspensivo. Diante de tal fato, e das diversas tentativas infrutíferas de localização de bens em nome da executada passíveis de penhora, nos autos originários, o juízo determinou a intimação da empresa ABC, para, no prazo de cinco dias, dar andamento à execução, indicando bens da empresa XYZ passíveis de constrição, sob pena de extinção. Contudo, a empresa exequente peticionou informando que estava enfrentando dificuldades em localizar bens passíveis de penhora. Diante do caso concreto, e à luz do que determina o Código de Processo Civil sobre o tema, é correto afirmar que, ao proferir sentença, o juiz agiu:",
+    alternativas: [
+      "equivocadamente, uma vez que não observou, ainda que a execução esteja paralisada por ausência de bens executados a serem penhorados, tal fato não é causa de extinção da execução, mas de suspensão da execução pelo prazo de um ano, durante o qual se suspenderá a prescrição;",
+      "equivocadamente, uma vez que, para se determinar a extinção da execução em razão da ausência de bens passíveis de penhora, é necessário que se aguarde o julgamento dos embargos à execução;",
+      "adequadamente, uma vez que a ausência de bens passíveis de penhora pelo executado é causa de extinção da execução com base no princípio da eficiência e da efetividade processual, os quais impõem a tramitação de demandas que efetivamente possam trazer benefício ao exequente;",
+      "adequadamente, uma vez que a busca de bens passíveis de penhora é de responsabilidade do exequente, não cabendo ao Poder Judiciário adotar medidas de auxílio ao credor em busca de satisfazer o seu crédito;",
+      "adequadamente, uma vez que a ausência de bens passíveis de penhora pelo executado é causa de extinção da execução com base na aplicação da análise econômica do direito, que impõe o trâmite de demandas no Poder Judiciário cujo custo financeiro de tramitação seja inferior ao benefício que será auferido pelo exequente."
+    ], resposta_correta: 0 },
+  { id: "q618", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em ação de responsabilidade civil ajuizada por consumidor em face de sociedade empresária fornecedora de produto adulterado integrante de grupo econômico com outras sociedades empresárias, houve pedido de desconsideração da personalidade jurídica através do ajuizamento do incidente próprio. Considerando-se esse cenário e as disposições materiais e processuais da desconsideração da personalidade jurídica, é correto afirmar que:",
+    alternativas: [
+      "no Código de Defesa do Consumidor, a mera existência de grupo econômico sem a presença do abuso da personalidade jurídica não autoriza a desconsideração da personalidade da pessoa jurídica;",
+      "a mera expansão ou a alteração da finalidade original da atividade econômica específica da pessoa jurídica constitui desvio de finalidade, havendo responsabilidade solidária e sem benefício de ordem das sociedades controladas;",
+      "as sociedades controladas e consorciadas integrantes de grupos econômicos de fato somente serão responsabilizadas para efeito de decretação da desconsideração da personalidade jurídica em caso de culpa concorrente com o fornecedor;",
+      "a violação do estatuto ou do contrato social, em detrimento do consumidor, não autoriza a desconsideração da personalidade jurídica, salvo se ficar comprovado que o ato foi provocado por má administração;",
+      "a instauração do incidente de desconsideração da personalidade jurídica é dispensável se a medida for requerida na petição inicial da ação de responsabilidade civil, hipótese em que será citado o sócio da pessoa jurídica fornecedora e não haverá suspensão do processo."
+    ], resposta_correta: 4 },
+  { id: "q619", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Em relação à concessão de tutela específica em ação fundada em descumprimento de obrigação de não fazer, ajuizada por consumidor em face de prestadora de serviços públicos de eletricidade, analise as afirmativas a seguir. I. A conversão da obrigação de não fazer em perdas e danos implica a impossibilidade de ser imputada multa à prestadora de serviço pelo mesmo fato. II. A conversão da obrigação de não fazer em perdas e danos é permitida se for impossível a tutela específica ou a obtenção do resultado prático correspondente. III. Sendo relevante o fundamento da demanda e havendo justificado receio de ineficácia do provimento final, é lícito ao juiz conceder a tutela específica somente após justificação prévia e com citação do réu. Está correto o que se afirma em:",
+    alternativas: [
+      "II, apenas;",
+      "III, apenas;",
+      "I e II, apenas;",
+      "I e III, apenas;",
+      "I, II e III."
+    ], resposta_correta: 0 },
+  { id: "q620", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O Código de Defesa do Consumidor estabelece prazos decadenciais de 30 ou 90 dias para o consumidor exercer o direito de reclamar pelos vícios aparentes ou de fácil constatação referentes ao fornecimento de produtos ou serviços. A única situação que obstará a decadência é a seguinte:",
+    alternativas: [
+      "reclamação formalizada pelo consumidor perante os órgãos ou entidades com atribuições de defesa do consumidor, pelo prazo de 90 dias;",
+      "paralisação das atividades do fornecedor que impeça ao consumidor a formalização de qualquer reclamação pelos vícios aparentes ou de fácil constatação;",
+      "instauração de inquérito civil para apurar a responsabilidade por danos morais e patrimoniais de fornecedores de produtos e serviços causados ao consumidor, até seu encerramento;",
+      "reclamação comprovadamente formalizada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida a ele, de forma inequívoca, em até dez dias;",
+      "reclamação comprovadamente formalizada pelo consumidor perante o fornecedor de produtos e serviços ou aos órgãos ou entidades com atribuições de defesa do consumidor, em até sete dias, a partir da entrega do produto ou do término da execução dos serviços."
+    ], resposta_correta: 0 },
+  { id: "q621", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "O Estatuto da Pessoa Idosa (Lei nº 10.741/2003) assegura à pessoa idosa que esteja no domínio de suas faculdades mentais o direito de optar pelo tratamento de saúde que lhe for reputado mais favorável. Todavia, caso a pessoa idosa careça de condições de assim proceder, a opção NÃO poderá ser feita:",
+    alternativas: [
+      "pelo curador, quando a pessoa idosa for interditada;",
+      "pelos familiares, quando a pessoa idosa não tiver curador ou este não puder ser contactado em tempo hábil;",
+      "pelo médico, quando ocorrer iminente risco de vida à pessoa idosa e não houver tempo hábil para consulta ao curador ou familiar;",
+      "pelo próprio médico, quando não houver familiar conhecido, caso em que deverá comunicar o fato ao Ministério Público;",
+      "pelo médico, quando houver divergência da opção do melhor tratamento entre os familiares, caso em que deverá comunicar ao Ministério Público em até dois dias."
+    ], resposta_correta: 4 },
+  { id: "q622", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Vicentina, consumidora, ajuizou ação de indenização por danos morais em face do empresário individual João, fornecedor. A causa do pedido é a solicitação de inscrição do nome de Vicentina em cadastro de restrição ao crédito feita pelo fornecedor com ausência de comunicação prévia, assim como não consta aviso de recebimento (AR) na carta de comunicação sobre a negativação. A defesa do empresário argumentou que o ato praticado por ele constitui exercício regular de direito, pois Vicentina já possuía inscrição não cancelada em outros cadastros de devedores inadimplentes. Em relação ao AR na carta de comunicação a Vicentina sobre a negativação de seu nome em bancos de dados e cadastros, o réu reconheceu a sua ausência, sendo fato incontroverso. Considerando-se os fatos narrados e o posicionamento do Superior Tribunal de Justiça sobre os temas versados (indenização por danos morais e necessidade de comprovação mediante AR), é correto afirmar que o pedido autoral deve ser julgado:",
+    alternativas: [
+      "improcedente, e devem ser rechaçados os argumentos apresentados, haja vista ser dispensável qualquer comunicação antecedente ou póstuma ao consumidor de anotação de seu nome em bancos de dados e cadastros de inadimplentes, com ou sem inscrição prévia; por conseguinte, é desnecessário o envio de carta de comunicação com AR;",
+      "procedente, não pela anotação irregular do nome da consumidora no cadastro de proteção ao crédito, já que ela era inadimplente contumaz, mas sim pela ausência de comprovação por AR na carta de comunicação sobre a negativação de seu nome em bancos de dados e cadastros;",
+      "improcedente, e devem ser rechaçados os argumentos apresentados, pois da anotação irregular em cadastro de proteção ao crédito não cabe indenização por dano moral, diante da preexistência de outras inscrições; é dispensável o AR na carta de comunicação ao consumidor sobre a negativação de seu nome em bancos de dados e cadastros;",
+      "procedente, e devem ser acatados os argumentos apresentados, pois a anotação irregular em cadastro de proteção ao crédito enseja indenização por dano moral; é indispensável o AR na carta de comunicação sobre a negativação de seu nome em bancos de dados e cadastros;",
+      "procedente pela anotação irregular do nome da consumidora no cadastro de proteção ao crédito, sendo irrelevante a existência de anotações anteriores, porém deve ser rechaçado o argumento da necessidade de comprovação por AR na carta de comunicação sobre a negativação de seu nome em bancos de dados e cadastros."
+    ], resposta_correta: 2 },
+  { id: "q623", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A sociedade empresária Águas Minerais de Rochedo Ltda. requereu a homologação de plano de recuperação extrajudicial. Publicado o edital para manifestação dos credores, o credor Naviraí & Cia Ltda. objetou a homologação alegando a ilegalidade de uma das cláusulas. A juíza rejeitou a objeção e homologou o plano por entender que a cláusula impugnada não é ilegal. Considerando-se que a decisão da magistrada está correta, infere-se que a referida cláusula dispunha sobre:",
+    alternativas: [
+      "a previsão de alteração do controle societário da devedora em até 60 dias do pedido de homologação, com produção de efeitos imediatos, ainda que anteriores à homologação do plano;",
+      "o pagamento de créditos em moeda estrangeira mediante conversão para moeda nacional pelo câmbio do dia da homologação do plano ou pelo câmbio da data do pagamento, à escolha do devedor;",
+      "a antecipação do pagamento em 1 mês para os credores não sujeitos ao plano, cujo crédito seja até R$ 5.000,00, se concedermos abatimento no fornecimento de insumos;",
+      "a substituição da variação cambial pelo IPCA como índice de correção dos créditos em moeda estrangeira, cuja aprovação ocorrerá se o plano for assinado por credores titulares de mais da metade dos créditos quirografários a ele submetidos;",
+      "a supressão das garantias pignoratícias prestadas pela devedora por garantias fidejussórias, cuja aprovação ocorrerá se o plano for assinado por credores titulares de mais da metade dos créditos com garantia real a ele submetidos."
+    ], resposta_correta: 3 },
+  { id: "q624", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Acerca da escrituração do empresário e da sociedade empresária, é correto afirmar que:",
+    alternativas: [
+      "o exame de livros empresariais, em ação judicial principal ou cautelar, deve ser amplo, não se limitando às transações entre os litigantes;",
+      "o juiz pode ordenar, a requerimento da parte, a exibição integral dos livros empresariais na sucessão empresarial por cessão de quotas ou por morte de sócio;",
+      "nas ações entre empresários, os livros empresariais provam contra seu autor, sendo lícito a qualquer das partes, todavia, demonstrar, por prova exclusivamente documental, que os lançamentos não correspondem à verdade dos fatos;",
+      "o pequeno empresário, definido pela Lei Complementar nº 123/2006 como o empresário individual caracterizado como microempresa que aufira receita bruta anual até o limite de R$ 60.000,00 e seja optante pelo Simples Nacional, está dispensado de seguir um sistema de contabilidade, mecanizado ou não, com base na escrituração uniforme de seus livros;",
+      "a qualquer pessoa, desde que se destinem à defesa de direitos e esclarecimento de situações de interesse pessoal ou dos acionistas ou do mercado de valores mobiliários, serão dadas as certidões dos assentamentos constantes dos livros Registro de Ações Nominativas, Transferência de Ações Nominativas, Registro de Partes Beneficiárias Nominativas e Transferência de Partes Beneficiárias Nominativas."
+    ], resposta_correta: 1 },
+  { id: "q625", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Acerca da intervenção extrajudicial incidente sobre as instituições financeiras, é correto afirmar que:",
+    alternativas: [
+      "todas as instituições financeiras, tanto de natureza privada quanto pública, assim como as cooperativas de crédito, estão sujeitas à intervenção efetuada e decretada pelo Banco Central do Brasil;",
+      "um dos efeitos da intervenção é a inexigibilidade dos depósitos efetivados nos 60 dias anteriores à data de sua decretação, período do termo legal fixado no Ato do Presidente do Banco Central que decretar o regime;",
+      "a intervenção será executada por interventor nomeado pelo Banco Central do Brasil, com plenos poderes de gestão, e o período de sua duração não excederá a 1 ano, o qual, por decisão do Banco Central do Brasil, poderá ser prorrogado uma única vez por mais 1 ano;",
+      "a intervenção será decretada ex officio pelo Banco Central do Brasil ou, em caso de urgência, por solicitação do acionista controlador da instituição com indicação das causas do pedido, devendo, nesse caso, o pedido ser referendado pela assembleia geral de sócios ou acionistas;",
+      "os ex-administradores da entidade sob intervenção deverão entregar ao interventor, no prazo de cinco dias contado da data da posse deste, declaração assinada em conjunto por todos eles, da qual conste a relação de membros do Conselho Fiscal em exercício nos últimos 12 meses anteriores à decretação da medida."
+    ], resposta_correta: 4 },
+  { id: "q626", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "A massa falida da sociedade Água Clara Educação a Distância Ltda., representada pelo administrador judicial Antônio, ajuizou ação de responsabilidade civil em face de Angélica e Inocência, irmãs e sócias majoritárias não administradoras da sociedade falida, imputando-lhes responsabilidade pela crise financeira que culminou com a decretação de falência da sociedade e pelo prejuízo contábil verificado que, de tão vultoso, inviabilizaria qualquer recuperação judicial. A contestação apresentada invoca (i) a ilegitimidade passiva das rés por se tratar de sócias de responsabilidade limitada não administradoras e estar o capital da sociedade integralizado; e (ii) a falta de comprovação da insuficiência do ativo da massa para cobrir o passivo, já que a realização do ativo ainda não concluiu. Logo, não está implementada uma das condições procedibilidade para a propositura da ação de responsabilidade. Em relação ao mérito, as rés invocaram, como questão prejudicial, a prescrição da pretensão indenizatória, tendo em vista o decurso de mais de dois anos da data da decretação da falência, fato incontroverso. Consideradas as questões apresentadas, o juiz deve:",
+    alternativas: [
+      "acatar as alegações de prescrição da pretensão indenizatória diante do decurso de mais de dois anos da data da decretação da quebra e de necessidade de conclusão da realização do ativo, rejeitando a alegação de ilegitimidade passiva das rés;",
+      "rejeitar apenas a alegação de necessidade de encerramento da liquidação para a demonstração da insuficiência do ativo para solver o passivo e acatar as alegações de prescrição da pretensão indenizatória e de ilegitimidade passiva das rés;",
+      "acatar apenas a alegação de ilegitimidade passiva das rés, pois a imputação de responsabilidade ilimitada ao sócio pela falência constitui extensão de seus efeitos, conduta expressamente vedada por lei ao juiz, rejeitando as demais alegações;",
+      "rejeitar todas as alegações porque (i) os sócios de responsabilidade limitada podem responder civilmente pelos prejuízos causados à sociedade em razão da decretação de falência, tendo legitimidade passiva; (ii) é dispensável o encerramento da realização do ativo para a propositura da ação; e (iii) o prazo prescricional flui a partir do trânsito em julgado da sentença de encerramento da falência;",
+      "acatar todas as alegações porque (i) a imputação de responsabilidade ilimitada ao sócio pela falência constitui extensão de seus efeitos, conduta expressamente vedada por lei ao juiz; (ii) é imprescindível a prova da insuficiência do ativo para a solvência do passivo, devendo ser concluída a liquidação da massa para, eventualmente, ser manejada a ação; e (iii) já está prescrita a pretensão indenizatória diante do decurso de mais de dois anos da decretação da quebra."
+    ], resposta_correta: 3 },
+  { id: "q627", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Juiz Substituto — 2026",
+    enunciado: "Andradina Comércio de Cítricos S/A sacou duplicata de compra e venda contra Miranda, empresária individual, em razão da venda de 258 caixas de laranja do tipo bahia. O valor da duplicata é de R$ 14.662,00. A duplicata, vencida no dia 26 de julho de 2025, foi endossada para Caracol S/A no dia 10 de agosto de 2025. O endossatário propôs ação de execução em face da sacada e da sociedade empresária sacadora, instruindo a petição com o comprovante de entrega de mercadoria remetido pela sacadora e a certidão de protesto por falta de pagamento, informando a data da lavratura e registro do protesto em 03 de setembro de 2025. Consideradas as questões narradas, o juiz deve:",
+    alternativas: [
+      "rejeitar a alegação da executada, diante da responsabilidade solidária do endossante pelo pagamento e da executividade da duplicata sem aceite;",
+      "acatar a alegação da executada em razão da falta de aceite do título, fato que inviabiliza sua executividade tanto em face do sacado quanto em face do endossante;",
+      "rejeitar a alegação da executada em razão da facultatividade do protesto do título para assegurar o direito de regresso em face dos coobrigados;",
+      "acatar a alegação da executada em razão do decurso de mais de 30 dias da data do vencimento para a apresentação do título a protesto, considerando a data da certidão do protesto;",
+      "acatar a alegação da executada em razão do endosso póstumo, isto é, após o decurso do prazo legal de 1 dia útil para apresentação do título a protesto, considerando a data da certidão do protesto."
+    ], resposta_correta: 3 }
 ];
