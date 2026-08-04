@@ -4301,5 +4301,356 @@ export const QUESTOES_DB: Questao[] = [
       "o requerimento de João somente pode ser acolhido caso seja demonstrada a fluência do prazo prescricional para a execução da multa.",
       "a reprimenda aplicada a João consubstancia um todo monolítico, formado pelas duas sanções, logo, o inadimplemento da multa sempre irá obstar a extinção da punibilidade.",
       "a multa consubstancia sanção criminal, cabendo ao Ministério Público a primazia de sua execução, sendo que, em certas situações, o seu inadimplemento não obstará a extinção da punibilidade."
-    ], resposta_correta: 4 }
+    ], resposta_correta: 4 },
+  { id: "q514", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A Constituição do Estado do Paraná estabeleceu que o número de vereadores é proporcional à população do Município, obedecidos os seguintes limites: a) até quinze mil habitantes, nove vereadores; b) de quinze mil e um a trinta mil habitantes, onze vereadores; c) de trinta mil e um a cinquenta mil habitantes, treze vereadores; d) de cinquenta mil e um a setenta mil habitantes, quinze vereadores; e) de setenta mil e um a noventa mil habitantes, dezessete vereadores; f) de noventa mil e um a cento e vinte mil habitantes, dezenove vereadores; g) de cento e vinte mil e um a um milhão de habitantes, vinte e um vereadores; h) de um milhão e um a um milhão e quinhentos mil habitantes, trinta e cinco vereadores; i) de um milhão e quinhentos mil e um a dois milhões de habitantes, trinta e sete vereadores; j) de dois milhões e um a dois milhões e quinhentos mil habitantes, trinta e nove vereadores; l) de dois milhões e quinhentos mil e um a cinco milhões de habitantes, quarenta e um vereadores; m) mínimo de quarenta e dois e máximo de cinquenta e cinco nos municípios de mais de cinco milhões de habitantes. Diante do exposto, de acordo com a Constituição do Estado do Paraná e o entendimento do Supremo Tribunal Federal, é correto afirmar que o referido dispositivo é",
+    alternativas: [
+      "constitucional, pois é reprodução da norma prevista na Constituição Federal de 1988.",
+      "inconstitucional, pois caberá ao Município estabelecer o número de vereadores, independentemente do número de habitantes.",
+      "inconstitucional, pois os limites máximos previstos estão diversos da Constituição Federal de 1988.",
+      "constitucional, pois apesar de diferir da Constituição Federal de 1988, a Constituição Estadual tem autonomia para estabelecer os limites máximos de vereadores em seus municípios.",
+      "constitucional, pois apesar de ser similar à norma prevista na Constituição Federal, a Constituição Estado poderia ter reduzido o limite máximo de vereadores para os seus Municípios."
+    ], resposta_correta: 2 },
+  { id: "q515", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A Constituição do Estado do Paraná prevê que os Municípios que, através de norma estadual, receberem restrições ao seu desenvolvimento socioeconômico, limitações ambientais ou urbanísticas, em virtude de possuírem mananciais de água potável que abastecem outros Municípios, ou por serem depositários finais de resíduos sólidos metropolitanos, absorvendo aterros sanitários, terão direito à compensação financeira mensal. Diante do exposto e de acordo com a Constituição do Estado do Paraná, assinale a afirmativa correta.",
+    alternativas: [
+      "Os recursos da compensação deverão ser aplicados pelos Municípios somente em programas de preservação do meio ambiente.",
+      "A referida compensação depende de lei complementar e não terá eficácia imediata.",
+      "Os recursos de que trata esta norma deverão ser transferidos diretamente aos Municípios pelas concessionárias de serviços públicos cuja atividade se beneficie das restrições, na proporção de 20% (vinte por cento) do valor do metro cúbico de água extraída do manancial ou bacia hidrográfica e de 10% (dez por cento) do valor da tonelada de lixo depositada.",
+      "Somente terão direito a compensação financeira, na hipótese de mananciais, os Municípios com restrições legais de uso, superiores a 40% (quarenta por cento) em seus territórios.",
+      "Quando o aproveitamento do potencial de abastecimento atingir mais de um Município, a distribuição dos percentuais será proporcional, levando-se em consideração, dentre outros parâmetros, o tamanho das áreas de captação, o volume captado, o impacto ambiental, social, econômico e o interesse público regional."
+    ], resposta_correta: 4 },
+  { id: "q516", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A Constituição do Estado do Paraná prevê que se aplicam aos servidores ocupantes de cargos públicos o disposto no Art. 7º, IV, VII, VIII, IX, XII, XIII, XV, XVI, XVII, XVIII, XIX, XX, XXII e XXX, da Constituição Federal, podendo a lei estabelecer requisitos diferenciados de admissão quando a natureza do cargo o exigir. Diante do exposto, de acordo com Constituição do Estado do Paraná e o entendimento do Supremo Tribunal Federal, assinale a afirmativa correta.",
+    alternativas: [
+      "A previsão de que o Estado manterá escola de governo para a formação e o aperfeiçoamento dos servidores públicos, constituindo-se a participação nos cursos um dos requisitos para a promoção na carreira, facultado, para isso, a celebração de convênios ou contratos entre os entes federados ofende a Constituição da República.",
+      "O membro de Poder, o detentor de mandato eletivo e os Secretários Estaduais e Municipais serão remunerados por subsídio fixado em parcela única, permitido o acréscimo de gratificação, desde que prevista em lei.",
+      "A exigência da Constituição de Lei complementar para estabelecer a organização, as atribuições e o estatuto das carreiras exclusivas do Estado, viola os termos da Constituição da República.",
+      "Leis estadual e municipal não poderão disciplinar a aplicação de recursos orçamentários provenientes de economia com despesas correntes em cada órgão, autarquia e fundações, para aplicação no desenvolvimento de programas de qualidade e produtividade, treinamento e desenvolvimento, modernização, reaparelhamento e racionalização do serviço público.",
+      "A previsão de que a remuneração, sob a forma de subsídio, passa a ser fixada com a diferença de 5% de uma para outra classe, aos servidores públicos integrantes da Carreira Jurídica Especial de Advogado dos Poderes Executivo, Legislativo e Judiciário do Estado do Paraná está de acordo com os termos da Constituição da República."
+    ], resposta_correta: 2 },
+  { id: "q517", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A Constituição do Estado do Paraná prevê que a Assembleia Legislativa do Paraná reunir-se-á em sessão preparatória, a partir de 1º de fevereiro, no primeiro ano de legislatura, para a posse de seus membros e eleição da mesa para mandato de dois anos. Pela leitura do trecho acima, de acordo com Constituição do Estado do paraná e o entendimento do Supremo Tribunal Federal, assinale a afirmativa correta.",
+    alternativas: [
+      "A Constituição do Estado do paraná autoriza a reeleição ilimitada ao cargo da mesa diretora.",
+      "A Constituição do Estado do paraná veda expressamente a recondução/reeleição para o mesmo cargo na eleição imediatamente subsequente.",
+      "De acordo com o princípio da simetria, a referida norma é repetição obrigatória da Constituição Federal de 1988.",
+      "A referida norma não é de repetição obrigatória, sendo distinta do que prevê expressamente a Constituição Federal de 1988, que autoriza expressamente a reeleição ao mesmo cargo da mesa diretora.",
+      "Apesar da Constituição do Estado do paraná não prever, deve ser conferida interpretação conforme a Constituição Federal de 1988 a este dispositivo para que se permita apenas uma reeleição ou recondução sucessiva ao mesmo cargo da Mesa Diretora."
+    ], resposta_correta: 4 },
+  { id: "q518", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A Assembleia Legislativa do Estado do Alfa promulgou a Emenda Constitucional nº X, que acrescentou novo artigo à Carta estadual. Tal dispositivo garantiu aos empregados públicos concursados a possibilidade de ingressarem no quadro de pessoal da Administração Pública estadual em caso de extinção, incorporação ou transferência da empresa pública ou sociedade de economia mista, quer para a iniciativa privada, quer para a União. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, é correto afirmar que a referida norma é",
+    alternativas: [
+      "constitucional, pois os empregados públicos realizaram concurso prévio para ingresso no serviço público, entretanto, a remuneração do novo cargo não poderá ultrapassar o teto constitucional.",
+      "inconstitucional, pois viola os princípios do concurso público, da isonomia de acesso a cargos públicos, da moralidade administrativa e da impessoalidade.",
+      "constitucional, pois permite transposição, absorção ou aproveitamento de emprego público no quadro estatutário da Administração Pública estadual em observância aos princípios da eficiência e da razoabilidade.",
+      "inconstitucional, pois os empregados públicos não estão vinculados ao teto constitucional e o seu correspondente aproveitamento no quadro estatutário da Administração Pública estadual poderá ensejar a violação ao princípio da irredutibilidade de vencimentos.",
+      "constitucional, pois está em consonância com os princípios da isonomia, da moralidade administrativa e da impessoalidade."
+    ], resposta_correta: 1 },
+  { id: "q519", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O Estado Beta, visando adotar política pública de proteção aos adolescentes em cumprimento de medida socioeducativa, editou norma estadual que concede porte de arma de fogo a agentes de segurança socioeducativos. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, é correto afirmar que a referida lei é",
+    alternativas: [
+      "constitucional, em razão da competência conferida ao Estado para legislar sobre segurança pública.",
+      "constitucional, pois promove a diretriz de que as medidas socioeducativas possuem caráter punitivo, educativo e preventivo, em observância às disposições de proteção aos direitos da criança e do adolescente.",
+      "inconstitucional, por violação à competência privativa da União para legislar sobre direito penal e material bélico e para autorizar e fiscalizar a produção e o comércio de material bélico.",
+      "constitucional, por observância à competência do Estado para legislar sobre matéria de proteção à infância e à juventude, bem como para aplicar as medidas socioeducativas aos adolescentes.",
+      "inconstitucional, por ausência de competência do Estado para editar normas de proteção à infância e à juventude."
+    ], resposta_correta: 2 },
+  { id: "q520", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O ex-Prefeito do Município Gama, localizado no Estado Beta, ajuizou ação declaratória de nulidade de ato administrativo, objetivando a anulação de acórdão proferido pelo Tribunal de Contas do Estado Beta, o qual condenou o ex-agente político ao pagamento de valores a título de débito e de multa, por irregularidades na execução de convênio firmado entre entes estadual e municipal. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, assinale a opção em que está correto o julgamento da ação.",
+    alternativas: [
+      "Procedente, pois a função dos tribunais de contas limita-se a emitir um parecer, sugerindo o resultado do julgamento que deverá ser proferido pelo Poder Legislativo competente, diante da impossibilidade de julgar quaisquer contas do Chefe do Poder Executivo, seja por gestão ou execução do convênio.",
+      "Improcedente, diante da possibilidade da Corte de Contas aplicar ao Prefeito as sanções administrativas previstas em lei, quando o legislativo se silenciar sobre o parecer do Tribunal de Contas (julgamento ficto).",
+      "Procedente, diante da impossibilidade da Corte de Contas aplicar ao Prefeito as sanções administrativas previstas em lei, quando o legislativo se silenciar sobre o parecer do Tribunal de Contas (julgamento ficto).",
+      "Procedente, em razão da violação ao devido processo legal, pois o juiz natural das contas do prefeito sempre será a Câmara Municipal, ofendendo, portanto, a democracia, a soberania popular, a independência e a autonomia do órgão legislativo local.",
+      "Improcedente, pois o Tribunal de Contas tem a competência para realizar a imputação administrativa de débito e multa a ex-prefeito, decorrente de irregularidades na execução de convênio firmado entre entes federativos."
+    ], resposta_correta: 4 },
+  { id: "q521", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Apesar da igualdade ser um direito fundamental, mulheres e homens possuem tratamentos distintos em relação aos seus direitos, como por exemplo, a diferença entre o período garantido de licença-maternidade e de licença-paternidade. Nesse contexto, deve-se ponderar a evolução dos papéis atualmente desempenhados por homens e mulheres na família e na sociedade. Dessa forma, impõe-se um esforço coletivo dos agentes políticos e públicos com o objetivo de promover a eficácia das normas constitucionais. Diante do exposto e de acordo com o ordenamento jurídico vigente e com a jurisprudência do Supremo Tribunal Federal, assinale a afirmativa correta.",
+    alternativas: [
+      "A ausência de regulamentação da norma constitucional referente à licença-paternidade provoca uma omissão inconstitucional, uma vez que a efetivação do referido direito reflete a necessidade de proteção da família e da infância.",
+      "Há inconstitucionalidade da norma que prevê o prazo de 5 dias para a licença-paternidade, uma vez que o princípio da igualdade garante aos homens período igual ao da licença-maternidade.",
+      "A norma que define o prazo da licença paternidade está prevista no Ato das Disposições Constitucionais Transitórias e garante, em homenagem ao princípio da isonomia, que pessoas diferentes tenham tratamentos distintos, não havendo necessidade de edição de nova regulamentação sobre o tema.",
+      "Em razão da ausência de regulamentação legal acerca do prazo razoável da licença paternidade deverá ser aplicado imediatamente o prazo da licença-maternidade a todos os cuidadores da criança nos seus primeiros meses de vida.",
+      "A norma que trata da licença-paternidade é direito social previsto em norma infraconstitucional, portanto, a ausência de regulamentação do referido direito provocou uma omissão ilegal e não inconstitucional."
+    ], resposta_correta: 0 },
+  { id: "q522", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O Estado beta editou a norma X que institui taxa para o exercício do poder de polícia relacionada à exploração e ao aproveitamento de recursos minerários em seu território. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, é correto afirmar que a referida lei é",
+    alternativas: [
+      "inconstitucional, por violação à competência privativa da União para instituição de taxa de poder de polícia relacionada a exploração de recursos minerários.",
+      "inconstitucional, pois, em razão da preponderância do interesse local, a competência para instituir a referida taxa de polícia é dos Municípios.",
+      "constitucional, uma vez que o Estado possui competência para instituição de taxa em razão do exercício regular do poder de polícia, não havendo necessidade de haver proporcionalidade entre o valor cobrado e o custo da atividade estatal realizada.",
+      "constitucional, uma vez que o Estado possui competência para instituição de taxa pelo exercício regular do poder de polícia, desde que haja proporcionalidade entre o valor cobrado e o custo da atividade estatal.",
+      "inconstitucional, pois apesar da matéria ser de competência concorrente entre União, Estados e Distrito Federal, caberá à União editar regras gerais sobre a exploração e o aproveitamento de recursos minerários."
+    ], resposta_correta: 3 },
+  { id: "q523", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Determinado Conselho profissional editou norma que exige a quitação das anuidades para a obtenção, a suspensão e a reativação de inscrição, inscrição secundária, bem como a renovação e a segunda via da carteira profissional. Nesse contexto, João, profissional vinculado ao referido Conselho ajuizou ação requerendo o afastamento da adoção de sanções políticas aplicadas a ele como meios indiretos de coerção para a cobrança da contribuição. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, é correto afirmar que João deve ter o seu pleito",
+    alternativas: [
+      "indeferido, uma vez que a natureza autárquica do Conselho Federal e dos Conselhos Regionais Profissionais faz com que haja obrigatoriedade de prestarem contas ao Tribunal de Contas da União e autoriza a aplicação de sanções políticas.",
+      "indeferido, uma vez que a norma referida está em consonância com os princípios da livre iniciativa e da proporcionalidade, já que as referidas autarquias têm condão de garantir o regular exercício da profissão.",
+      "deferido, pois as contribuições de interesse das categorias profissionais não têm a natureza do tributo e por esse motivo não podem ser aplicadas sanções que forem o pagamento da dívida.",
+      "indeferido, uma vez que no caso de conflito de normas constitucionais sempre haverá a prevalência daquele que atingir o maior número de pessoas.",
+      "deferido, pois condicionar o exercício de atividade profissional à quitação de débitos tributários constitui manifesta ofensa ao direito fundamental ao livre exercício de profissão e aos princípios da razoabilidade e da proporcionalidade."
+    ], resposta_correta: 4 },
+  { id: "q524", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "José, brasileiro nato, casou-se com Ana, nascida no País X e, em virtude do trabalho de sua esposa, mudou-se para o referido país, onde reside há mais de 20 anos. Após todos esses anos vivendo em outro país, resolveu requerer a nacionalidade do País X. Diante do exposto, caso José se naturalize no País X, é correto afirmar que",
+    alternativas: [
+      "uma vez a obtenção voluntária de nova nacionalidade, seja ela originária, reconhecida por lei estrangeira, ou secundária, adquirida por meio de naturalização, qualquer que seja a razão, enseja a perda da nacionalidade originária brasileira.",
+      "não perderá a nacionalidade brasileira, salvo se José fizer expresso pedido de perda da nacionalidade (renúncia).",
+      "ficará com a nacionalidade brasileira suspensa até que volte a residir no Brasil.",
+      "perderá nacionalidade brasileira, salvo se essa nova nacionalidade advier de imposição da norma estrangeira como condição para permanência em seu território ou para o exercício de direitos civis.",
+      "não perderá a nacionalidade brasileira, se voltar a residir no Brasil e optar, dentro do prazo de um ano, pela nacionalidade brasileira."
+    ], resposta_correta: 1 },
+  { id: "q525", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Mévio, Prefeito do município Gama, que irá se candidatar à reeleição, decidiu ofertar, para as eleições de 2024, nas zonas urbanas e nos dias das eleições, transporte coletivo urbano municipal de forma gratuita e em frequência compatível com aquela praticada em dias úteis, ao argumento de que a locomoção às seções eleitorais tem custo substancialmente maior do que o valor da multa pela abstenção. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, é correto afirmar que Mévio agiu",
+    alternativas: [
+      "corretamente, mas somente se o Legislativo editar a lei que regulamente a matéria, a partir das eleições de 2024, o transporte coletivo urbano nos dias de votação deverá ser ofertado da forma determinada pelo Prefeito.",
+      "incorretamente, pois a competência para regular o transporte público em dia de eleição é do Estado e não do município.",
+      "incorretamente, pois a política pública implementada pelo chefe do poder executivo municipal viola o princípio da livre iniciativa e o equilíbrio do contrato de concessão do transporte público.",
+      "incorretamente, pois a medida adotada pelo Prefeito tem a finalidade de resgatar mais votos poderá servir como instrumento de interferência no resultado eleitoral, usando a máquina pública para conseguir se reeleger.",
+      "corretamente, pois o poder público tem o dever de adotar medidas que assegurem o exercício do direito ao voto e a medida adotada promove a igualdade de participação, acesso ao voto por parte significativa dos eleitores e o combate a ilegalidades."
+    ], resposta_correta: 4 },
+  { id: "q526", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A Constituição do Estado Alfa estabeleceu hipótese de intervenção estadual nos Municípios pelo não pagamento da dívida fundada, nos casos os quais o inadimplemento não esteja vinculado a gestão anterior. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, é correto afirmar que essa hipótese de intervenção é",
+    alternativas: [
+      "constitucional, pois o Estado tem autonomia para definir, em sua Constituição, as hipóteses de intervenção nos municípios.",
+      "inconstitucional, pois o dispositivo da Constituição estadual acrescentou hipótese de intervenção estadual nos Municípios não prevista na Constituição da República.",
+      "constitucional, pois a referida norma prevista na Constituição estadual é a repetição da norma prevista na Constituição Federal.",
+      "inconstitucional, pois o referido dispositivo restringiu a hipótese de intervenção estadual nos Municípios prevista na Constituição da República e tais preceitos são de observância obrigatória por parte dos Estados-membros.",
+      "constitucional, pois o referido dispositivo da Constituição estadual apenas restringiu a hipótese de intervenção estadual nos Municípios prevista na Constituição da República."
+    ], resposta_correta: 3 },
+  { id: "q527", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Lei Orgânica distrital atribuiu à Câmara Legislativa o julgamento do Governador por crime de responsabilidade. Sobre o tema é correto afirmar que a referida lei é",
+    alternativas: [
+      "inconstitucional, pois a concentração do juízo de admissibilidade da acusação e do julgamento dos crimes de responsabilidade do Governador na Câmara Legislativa do Distrito Federal ofende a lógica do juízo institucional bifásico, prevista na Constituição.",
+      "constitucional, pois o julgamento pelo crime de responsabilidade do Governador deve ser definido pela Constituição do respectivo Estado ou Lei Orgânica Distrital.",
+      "inconstitucional, pois a competência para julgar crimes de responsabilidade do respectivo Estado está prevista na Lei Nacional nº 1.079/50.",
+      "constitucional, pois em razão do princípio da simetria é reprodução obrigatória da norma prevista na Constituição da República em relação ao Presidente.",
+      "constitucional, pois a Constituição Federal de 1988 assim determina em relação aos crimes de responsabilidade praticados por Governadores e Prefeitos."
+    ], resposta_correta: 0 },
+  { id: "q528", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O Chefe do Poder Executivo editou medida provisória para abertura de crédito extraordinário, visando atender a despesas imprevisíveis decorrentes de catástrofe ambiental caracterizadora de calamidade pública. Diante do exposto e de acordo com o entendimento predominante no Supremo Tribunal Federal, assinale a afirmativa correta sobre a natureza do referido ato normativo.",
+    alternativas: [
+      "inconstitucional, pois é vedado ao Poder Executivo editar medida provisória que disponha planos plurianuais, diretrizes orçamentárias, orçamento e créditos adicionais e suplementares.",
+      "constitucional, pois é permitido ao Poder Executivo editar medida provisória que disponha planos plurianuais, diretrizes orçamentárias, orçamento e créditos adicionais e suplementares.",
+      "inconstitucional, pois é vedado ao Poder Executivo editar medida provisória que disponha sobre matéria reservada à lei complementar.",
+      "constitucional, pois no caso de relevância e urgência, o Presidente da República poderá adotar medidas provisórias, com força de lei, e submetê-las de imediato ao Congresso Nacional.",
+      "constitucional, pois além dos requisitos de relevância e urgência, a Constituição autoriza que a abertura do crédito extraordinário seja feita por Medida Provisória apenas para atender as despesas imprevisíveis e urgentes, como no caso de calamidade pública."
+    ], resposta_correta: 4 },
+  { id: "q529", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O Estado Alfa deixou de editar lei que define as condições e os percentuais mínimos do preenchimento dos cargos em comissão para servidores de carreira. Diante do exposto e da jurisprudência do Supremo Tribunal Federal, assinale a afirmativa correta acerca da ausência de disciplina da referida matéria.",
+    alternativas: [
+      "é omissão inconstitucional do Estado Alfa, pois a matéria já foi disciplinada pela União em relação aos seus servidores e, em razão do princípio da simetria, é norma de reprodução obrigatória que deveria ter sido inserida na Constituição do Estado Alfa.",
+      "não é omissão inconstitucional do Estado Alfa, pois a norma que exige a regulamentação do percentual não está na Constituição, mas está prevista em lei complementar específica.",
+      "é omissão inconstitucional do Estado Alfa, pois a matéria relativa a regime jurídico-administrativo de servidor público é de competência de cada ente da federação.",
+      "não é omissão inconstitucional do Estado Alfa, pois em razão do princípio federativo compete à União editar lei nacional que disponha sobre os casos, condições e percentuais mínimos de cargos em comissão.",
+      "não é omissão inconstitucional do Estado Alfa, pois a constituição não impõe obrigatoriedade de fixação do percentual, deixando a critério de cada ente da federação disciplinar ou não a matéria."
+    ], resposta_correta: 2 },
+  { id: "q530", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Considerando a orientação firmada pelo Supremo Tribunal Federal acerca da utilização da colaboração premiada, nos termos da Lei nº 12.850/2013, no âmbito civil, em ação civil pública por ato de improbidade administrativa movida pelo Ministério Público, na seara do microssistema legal de proteção ao patrimônio público e de combate à corrupção, é correto afirmar que deve ser observada a seguinte diretriz:",
+    alternativas: [
+      "é vedada a utilização da colaboração premiada em ação de improbidade administrativa movida pelo Ministério Público, restringindo-se os seus efeitos à esfera penal em que foi formalizada.",
+      "as declarações do agente constantes da referida colaboração premiada são suficientes para iniciar a ação de improbidade pelos mesmos fatos, ainda que desacompanhadas de outros elementos de prova.",
+      "é válida a determinação de ressarcimento ao erário, ainda que parcial, no bojo da aludida colaboração premiada, a impedir o ajuizamento da ação de improbidade acerca dos mesmos fatos.",
+      "o Ministério Público não poderá negociar em torno do modo e das condições para o ressarcimento ao erário no bojo da colaboração premiada, em razão de se tratar de matéria a ser definida exclusivamente em sede de ação de improbidade.",
+      "para que a colaboração premiada seja utilizada no âmbito da improbidade administrativa é necessário que o acordo seja celebrado com a interveniência da pessoa jurídica interessada, bem como devidamente homologado pela autoridade judicial."
+    ], resposta_correta: 4 },
+  { id: "q531", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "No exercício de suas atribuições no âmbito da Assembleia Legislativa do Estado do Paraná, Gabriela verificou que determinado ato administrativo concluiu o seu ciclo de formação, sendo certo que, apesar de possuir vício insanável, este ato estava produzindo efeitos no ordenamento jurídico. Considerando os planos da perfeição, validade e eficácia, é correto afirmar que o aludido ato administrativo é",
+    alternativas: [
+      "imperfeito, inválido e ineficaz.",
+      "perfeito, inválido e eficaz.",
+      "imperfeito, válido e eficaz.",
+      "perfeito, válido e eficaz.",
+      "imperfeito, válido e ineficaz."
+    ], resposta_correta: 1 },
+  { id: "q532", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Após a realização da devida fase preparatória da licitação, mediante o preenchimento dos requisitos estabelecidos na Lei nº 14.133/2021, foram encaminhadas para o respectivo órgão de assessoria jurídicas as seguintes situações: I. alienação de bens imóveis adquiridos por dação em pagamento; II. contratação de serviços comuns de engenharia, que tem por objeto ações, objetivamente padronizáveis em termos de desempenho e qualidade, de manutenção, de adequação e de adaptação de bens imóveis, com preservação das características originais dos bens; III. locação de imóvel cujas características de instalações e de localização tornem necessária sua escolha. Considerando as modalidades de licitação ou, eventualmente, a viabilidade de contratação direta em cada uma das situações, assinale a opção que elenca a adequada correlação.",
+    alternativas: [
+      "I. licitação dispensável – II. concorrência – III. pregão.",
+      "I. leilão – II. licitação dispensável – III. concorrência.",
+      "I. pregão – II. concorrência – III. licitação dispensável.",
+      "I. licitação inexigível – II. pregão – III. licitação dispensável.",
+      "I. leilão – II. pregão – III. licitação inexigível."
+    ], resposta_correta: 4 },
+  { id: "q533", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O Município Delta, após o devido processo legislativo, fez editar uma Lei que criou 300 (trezentos) cargos em comissão, sem pormenorizar, contudo, as respectivas atribuições, em decorrência do objetivo de que os respectivos agentes desempenhassem atividades burocráticas, de apoio técnico e administrativo. Tal norma especificou, ainda, o percentual dos cargos a serem preenchidos por servidores ocupantes de cargos efetivos e determinou que o regime próprio de previdência será aplicável mesmo para aqueles que ocupem exclusivamente cargo em comissão, sendo certo que o número de cargos criado corresponde a mais da metade dos efetivos existentes no âmbito do aludido ente federativo. Diante dessa situação hipotética, à luz da jurisprudência do Supremo Tribunal Federal acerca do tema, é correto afirmar que",
+    alternativas: [
+      "é constitucional a criação de tais cargos sem pormenorizar as respectivas atribuições.",
+      "é inconstitucional a determinação de que um percentual dos cargos em comissão será ocupado por servidores de cargos efetivos.",
+      "é constitucional a utilização de tais cargos em comissão para desempenhar atividades burocráticas, de apoio técnico e administrativo.",
+      "é inconstitucional a criação de cargos em comissão na proporção em que realizada, diante da violação ao princípio da proporcionalidade.",
+      "é constitucional a submissão dos agentes ocupante de cargo exclusivamente em comissão ao regime próprio de previdência dos servidores."
+    ], resposta_correta: 3 },
+  { id: "q534", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Após as devidas apurações na esfera administrativa, verificou-se que a sociedade Divergente foi constituída como uma sociedade de fachada (paper company), para fins de dificultar a investigação e fiscalização dos agentes competentes, com o objetivo de promover a sonegação fiscal de grupo empresarial, a caracterizar ato lesivo à Administração Pública Estadual. Diante dessa situação hipotética, considerando o disposto na Lei nº 12.846/2013, é correto afirmar que",
+    alternativas: [
+      "não é possível a responsabilização administrativa da sociedade Divergente sem a caracterização do elemento subjetivo.",
+      "do processo administrativo de responsabilização poderá resultar a penalidade de dissolução compulsória da sociedade Divergente.",
+      "a responsabilização judicial da sociedade Divergente depende de prévia apuração dos fatos em processo administrativo de responsabilização.",
+      "a responsabilização individual de seus dirigentes ou administradores, na medida de sua culpabilidade, não é excluída pela responsabilização da sociedade Divergente.",
+      "a personalidade jurídica da sociedade Divergente poderá ser desconsiderada, mas os efeitos das sanções não poderão ser estendidos a seus administradores e sócios com poderes de administração."
+    ], resposta_correta: 3 },
+  { id: "q535", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Existem competências atribuídas para as Casas Legislativas, a partir das atribuições delineadas para o Congresso Nacional na CRFB/88, que guardam estreita relação com a atividade de fiscalização e controle da atividade administrativa exercida pelo Poder Executivo, que deve ser levada a efeito pelo Poder Legislativo. Entre as referidas competências, é correto destacar",
+    alternativas: [
+      "a revogação de atos administrativos discricionários do Poder Executivo.",
+      "a homologação da sustação de contratos administrativos, que deve ser realizada diretamente pelo respectivo Tribunal de Contas.",
+      "a sustação de qualquer ato normativo editado pelo Poder Executivo.",
+      "o julgamento anual das contas do Chefe do Poder Executivo, mediante parecer do respectivo Tribunal de Contas.",
+      "a suspensão das licitações em curso realizadas pelo Poder Executivo, para a apuração de eventuais irregularidades."
+    ], resposta_correta: 3 },
+  { id: "q536", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Ao perquirir os bens públicos que são de propriedade dos Estados da Federação, Maristela verificou que, entre eles, é correto indicar",
+    alternativas: [
+      "os potenciais de energia hidráulica.",
+      "os terrenos de marinha e seus acrescidos.",
+      "as terras devolutas não compreendidas entre as da União.",
+      "as cavidades naturais subterrâneas e os sítios arqueológicos e pré-históricos.",
+      "as praias marítimas; as ilhas oceânicas e as costeiras, excluídas, destas, as que contenham a sede de Municípios."
+    ], resposta_correta: 2 },
+  { id: "q537", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Recentemente, o Supremo Tribunal Federal reconheceu a inconstitucionalidade de uma lei estadual que conferiu um bônus de 10% na nota dos candidatos a concurso público que residiam na localidade, entre outros fundamentos, pelo fato de que tal norma viola princípio expresso no Art. 37, caput, da CRFB/88, sendo correto afirmar que se trata de",
+    alternativas: [
+      "princípio da impessoalidade.",
+      "princípio da legalidade.",
+      "princípio da publicidade.",
+      "princípio da segurança jurídica.",
+      "princípio da indisponibilidade do interesse público."
+    ], resposta_correta: 0 },
+  { id: "q538", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Felisberto, na qualidade de Secretário de esportes do Estado Ômega, dolosamente, praticou uma conduta de permitir a realização de despesas não autorizadas em lei ou regulamento, caracterizadora de ato de improbidade que causou efetiva e comprovada lesão ao erário, na forma do Art. 9º, IX, da Lei nº 8.429/92, com a redação conferida pela Lei nº 14.230/2021. A ação veiculando a respectiva pretensão punitiva foi ajuizada pelo ente federativo lesado em janeiro de 2024, enquanto ele ainda ocupava o aludido cargo ininterruptamente, sendo certo que houve pedido de indisponibilidade de bens no respectivo processo. Diante dessa situação hipotética, à luz da jurisprudência do Supremo Tribunal Federal é correto afirmar que",
+    alternativas: [
+      "o ente federativo lesado não possui legitimidade para o ajuizamento mencionada ação de improbidade, diante das alterações promovidas pelo novel diploma legal.",
+      "o Secretário, enquanto agente político, deve responder por crime de responsabilidade, de modo que não está sujeito às penalidades da lei de improbidade, sob pena de bis in idem.",
+      "a decretação da indisponibilidade de bens pleiteada sob a vigência da nova lei deve demonstrar a existência de perigo de dano irreparável ou de risco ao resultado útil do processo.",
+      "por serem mais benéficos para o Secretário, os marcos temporais da prescrição estabelecidos pela alteração legislativa devem retroagir para beneficiá-lo.",
+      "a determinação de aplicação dos princípios de direito administrativo sancionador prevista no novel diploma legal conferiu natureza penal aos ilícitos previstos na norma em questão."
+    ], resposta_correta: 2 },
+  { id: "q539", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Em decorrência de suas peculiaridades, algumas modalidades de intervenção do Estado na propriedade são dotadas de autoexecutoriedade, em especial aquela em que a premência na adoção de determinada conduta é imposta em razão de perigo iminente, em razão do que eventual indenização será ulterior, se houver dano, hipótese em que, inclusive, poderá ocorrer a supressão da propriedade, no caso de perecimento do bem. Nesse contexto, assinale a opção que indica a modalidade de intervenção do Estado na propriedade que apresenta tais características.",
+    alternativas: [
+      "A desapropriação por necessidade pública.",
+      "A requisição administrativa.",
+      "O tombamento.",
+      "A limitação administrativa.",
+      "A servidão administrativa."
+    ], resposta_correta: 1 },
+  { id: "q540", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "No exercício de suas atribuições administrativas como Procurador da Assembleia Legislativa do Paraná, Victor verificou a necessidade de invalidar determinado ato administrativo que detém vício insanável, de modo que, para promover a adequada justificação da respectiva decisão, passou a perquirir as normas atinentes à motivação constantes do Decreto-Lei nº 4.657/42 (LINDB), introduzidas pela Lei nº 13.655/2018 e do respectivo Decreto regulamentador (Decreto nº 9.830/2019), vindo a concluir corretamente que",
+    alternativas: [
+      "nas hipóteses de vício insanável, a gravidade do vício, excepciona a necessidade de motivação.",
+      "verificado o vício insanável, não há necessidade de indicar de modo expresso as consequências jurídicas e administrativas da invalidade.",
+      "a constatação do vício insanável impõe a invalidação, não sendo possível restringir os efeitos da declaração no âmbito da motivação.",
+      "como o vício insanável corresponde à violação ao ordenamento jurídico, a motivação da decisão de invalidação deve apontar apenas os fundamentos jurídicos, independentemente de ser cabível a contextualização dos fatos.",
+      "é cabível a modulação dos efeitos na motivação da decisão de invalidação, que buscará a mitigação dos ônus ou das perdas dos administrados ou da Administração Pública que sejam anormais ou excessivos em função das peculiaridades do caso."
+    ], resposta_correta: 4 },
+  { id: "q541", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Diante da necessidade de analisar algumas situações submetidas à sua apreciação enquanto Procurador da Assembleia Legislativa do Paraná, Ronaldo decidiu aprofundar os seus estudos em relação à organização administrativa e às peculiaridades atinentes ao terceiro setor, à luz da jurisprudência do Supremo Tribunal Federal, vindo a concluir corretamente que",
+    alternativas: [
+      "considerando a possibilidade de receberem verbas públicas, inclusive a destinação de verbas tributárias, a criação de quaisquer entidades do terceiro setor deve ser realizada mediante a respectiva autorização legislativa.",
+      "nas hipóteses em que o erário tenha concorrido para o custeio das respectivas atividades, é possível a responsabilização de seus representantes por ato de improbidade administrativa, ainda que tais entidades não integrem a Administração Indireta.",
+      "o repasse de verbas públicas para tais entidades depende da realização de licitação, nos termos da Lei nº 14.133/2021 (Lei de Licitações), mormente para fins de formalização do termo de fomento e de parceria.",
+      "dentre as entidades do terceiro setor, os serviços sociais autônomos são, para todos os efeitos, equiparados às autarquias, sendo consideradas, por conseguinte, entidades integrantes da Administração Indireta.",
+      "no dispêndio de verbas provenientes do erário pelas entidades do terceiro setor, não há necessidade de se respeitar os princípios da moralidade e da impessoalidade, considerando que tais valores foram incorporados ao seu patrimônio."
+    ], resposta_correta: 1 },
+  { id: "q542", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "A sociedade empresária Kitchara, especializada na produção de itens para casa, celebrou com a varejista Casa Bela, contrato pelo qual a Kitchara disponibilizou um conjunto de itens de sua nova coleção para a Casa Bela. Foi acertado que após três meses, a Casa Bela poderia vender os itens para terceiros pelo preço que entendesse aplicável e que findo o prazo, deveria pagar a Kitchara o valor estabelecido no contrato entre elas celebrado ou devolver as mercadorias em perfeito estado. Na vigência do contrato, após a entrega dos itens pela Kitchara à Casa Bela, o depósito de propriedade da Casa Bela, no qual os bens haviam sido guardados, é destruído por um incêndio provocado por um curto-circuito na via pública, e que alcançou o depósito. Diante do fato, da Casa Bela notifica Kitchara, informando o ocorrido, bem como que não poderia efetuar o pagamento e nem devolver as mercadorias. Diante da situação hipotética, assinale a análise coerente com o Código Civil.",
+    alternativas: [
+      "Kitchara nada poderá exigir de Casa Bela, pois as mercadorias se perderam sem culpa da devedora, resolvendo a obrigação de ambas as partes.",
+      "Pelo contrato celebrado entre as partes, estimatório, os riscos da perda ou deterioração da coisa, são consignatário, razão pela qual a Casa Bela deverá pagar a integralidade do valor previsto no contrato.",
+      "No caso, aplica-se a regra res perit domino, razão pela qual, inexistindo culpa da Casa Bela, a Kitchara suportará a perda das mercadorias, mas terá direito a receber os valores proporcionais aos itens que já haviam sido comercializados.",
+      "Pelo contrato de agência celebrado, Casa Bela só seria obrigada a pagar o valor integral das mercadorias se restasse demonstrada a sua culpa pela perda da coisa.",
+      "No contrato celebrado entre as partes, a propriedade das mercadorias foi transferida para a Casa Bela que suportará a perda dos itens e deverá o pagar integral para Kitchara."
+    ], resposta_correta: 1 },
+  { id: "q543", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O Restaurante Le Candle Ltda., famoso na cidade de Canasvieiras, é de propriedade de dois sócios unidos somente pelo empreendimento comum: Sérgio e André. Liderado por um chef francês, os clientes chegavam a esperar dias para ter a chance de jantar nesse renomado espaço. Mas tudo começou a dar errado quando o sócio majoritário, Sérgio, começou a ter várias condutas que, ao final, impossibilitaram o pagamento dos credores. Entre elas, Sérgio: I. empregou o dinheiro reservado para o pagamento de impostos do restaurante para pagar a festa de quinze anos de sua filha, Natália; II. pagou repetidamente as contas de luz e água de sua residência com valores retirados da conta corrente da pessoa jurídica; III. utilizou os recursos financeiros do restaurante para patrocinar uma viagem ao Caribe para si e para André, sócio minoritário do Le Candle, sem que houvesse qualquer tipo de contraprestação à pessoa jurídica. Examinadas as medidas tomadas por Sérgio, configura ato que pode gerar eventual decisão judicial de desconsideração da personalidade jurídica requerida a atingir o patrimônio pessoal de ambos os sócios o que está descrito em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I, II e III."
+    ], resposta_correta: 2 },
+  { id: "q544", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Sociedade Divino Ltda. celebrou contrato com André e Bernardo, sócios de Gala Restaurante Ltda., pelo qual se comprometeu a, dali a um ano, adquirir todas as cotas sociais daquele restaurante, desde que nenhum restaurante do mesmo gênero alimentício fosse inaugurado no complexo empresarial onde o Gala funciona neste período. Dali a dois meses, contudo, os sócios da Sociedade Divino do negócio celebrado, não desejando mais adquiri o Gala Restaurante, por terem encontrado oportunidades muito mais lucrativas. Por isso, pouco antes do final do prazo, os sócios da Sociedade Divino abriram um pequeno restaurante do mesmo gênero alimentício, no próprio complexo empresarial onde funciona o Gala, inviabilizando, assim, a compra do Gala. Diante disso, é possível afirmar que a condição presente no caso deve ser considerada",
+    alternativas: [
+      "anulável.",
+      "inexistente.",
+      "nula.",
+      "verificada.",
+      "pendente."
+    ], resposta_correta: 3 },
+  { id: "q545", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Em julho de 2021, René Kant celebrou contrato de mútuo com o Banco Königsberg S.A. no valor de dez mil reais, que deveria ser pago em 60 (sessenta) prestações de R$ 350,00 (trezentos e cinquenta reais). A cláusula terceira do contrato prevê que na hipótese de 03 (três) meses de inadimplência, o MUTUANTE fica autorizado a promover a cobrança judicial da totalidade dos valores concedidos a título de mútuo, como também a incluir o nome do MUTUÁRIO nos órgãos de proteção ao crédito. Em setembro de 2023, o Banco Königsberg S.A. transferiu onerosamente o crédito do contrato com René para o Fundo de Investimento de Direitos Creditórios Metafísica, sendo silente a respeito da responsabilidade do cedente em caso de inadimplemento da obrigação cedida. Por força do desemprego, no ano de 2024, o mutuário tornou-se inadimplente de três parcelas consecutivas do empréstimo, levando o Fundo a incluir o nome de René nos órgãos de proteção ao crédito. Diante da situação hipotética, com base no tema transmissão das obrigações, assinale a afirmativa correta.",
+    alternativas: [
+      "A cessão do crédito do Banco Königsberg para o Fundo de Investimento é válida e eficaz, desde que haja consentimento expresso de René.",
+      "A jurisprudência consolidada do Superior Tribunal de Justiça compreende que a ausência de notificação do devedor torna inexequível e ineficaz a cessão de crédito.",
+      "Salvo se tiver procedido de má-fé, o Banco Königsberg S.A. não fica responsável perante o Fundo de Investimento pela existência do crédito ao tempo em que lhe cedeu.",
+      "Na situação hipotética narrada, o Banco Königsberg S.A. não responde perante o Fundo de Investimento pela insolvência de René Kant.",
+      "De acordo com o entendimento consolidado do Superior Tribunal de Justiça, para que o cessionário pratique os atos necessários à preservação do crédito é necessária a ciência do devedor."
+    ], resposta_correta: 3 },
+  { id: "q546", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Rodrigo doou a seu neto Carlos um de seus imóveis, mas, como estratégia de planejamento patrimonial, por ser Carlos casado, estipulou cláusulas de reversão, uma em benefício próprio, e outra em benefício de sua neta, Vitória. Ocorre que Rodrigo faleceu poucos dias antes de Carlos. Nesse caso, é correto afirmar que",
+    alternativas: [
+      "é válida a cláusula estipulada em favor de Vitória na doação de Rodrigo a Carlos, razão pela qual o imóvel doado passa a Vitória.",
+      "a viúva de Carlos tem prazo decadencial para pleitear a anulação da cláusula de reversão em favor de Vitória na doação de Rodrigo a Carlos.",
+      "é válida a cláusula de reversão em favor de Rodrigo estipulada na doação dele a Carlos, mas nula a cláusula estipulada em favor de Vitória.",
+      "são nulas ambas as cláusulas de reversão estipuladas na doação de Rodrigo a Carlos.",
+      "a viúva de Carlos tem prazo prescricional para pleitear a anulação da cláusula de reversão em favor de Vitória na doação de Rodrigo a Carlos."
+    ], resposta_correta: 2 },
+  { id: "q547", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Anne Silva moveu ação em face de Ubirajara Pereira, requerendo indenização por danos morais no montante de R$150.000,00, em decorrência do homicídio praticado pelo réu contra seu pai, Getúlio Silva. Conforme sentença criminal transitada em julgado, juntada aos autos, Ubirajara Pereira, aos dias 15/01/2021, desferiu 2 tiros com arma de fogo contra o pai da Autora, causando-lhe a morte. Em contestação, Ubirajara Pereira alega que atuou em legítima defesa de sua honra, razão pela qual não tem o dever de indenizar. Informa que Getúlio Silva, abusando de sua confiança, se aproximou de sua esposa e com ela manteve uma relação amorosa, tendo sido essa a razão dos tiros. Considerando a situação hipotética narrada, a legislação vigente e o entendimento do STJ, analise as afirmativas a seguir. I. A responsabilidade civil é independente da criminal, razão pela qual, o juízo cível não está vinculado à sentença criminal, podendo decidir pela inexistência do dever de indenizar no caso hipotético narrado. II. Entre os juízos cível e criminal há independência relativa, de sorte que, no caso hipotético narrado, há incontornável dever de indenizar. III. A alegação de legítima defesa da honra, razão justificadora para a diminuição ou exclusão do dever de indenizar. IV. No caso hipotético, a conduta da vítima configura causa concorrente, ainda que não preponderante, para o dano, influindo no quantum indenizatório. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e IV, apenas.",
+      "III e IV, apenas."
+    ], resposta_correta: 1 },
+  { id: "q548", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Juliana doou, a Thiago, um livro de Direito Civil, e, a Lucas, um livro de Direito Penal. Ocorre que, por coincidência, na véspera da data combinada para a entrega, Juliana esqueceu o livro de Direito Civil em um carro de aplicativo, e vendeu o livro de Direito Penal para Luísa, entregando-o de imediato. Nesse caso, é correto afirmar que",
+    alternativas: [
+      "podem tanto Thiago quanto Lucas cobrar de Juliana o equivalente de cada um dos livros, mais perdas e danos.",
+      "apenas Lucas pode cobrar de Juliana o equivalente do livro Direito Penal, mais perdas e danos.",
+      "apenas Thiago pode cobrar de Juliana o equivalente do livro de Direito Civil, mais perdas e danos.",
+      "nem Thiago nem Lucas podem cobrar de Juliana o quer que seja em razão do inadimplemento das obrigações.",
+      "podem tanto Thiago quanto Lucas cobrar de Juliana o equivalente de cada um dos livros; porém, apenas Lucas pode cobrar perdas e danos."
+    ], resposta_correta: 1 },
+  { id: "q549", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Leandro celebrou contrato com Márcia, para que ela, representando-o, vendesse seu apartamento localizado em Taubaté, repassando-lhe o dinheiro e prestando-lhe contas após a venda. Para a venda, Leandro fixou um preço mínimo, que deveria ser pago em no máximo dez prestações. Durante a divulgação do imóvel em várias plataformas de compra e venda, diversas pessoas procuraram Márcia interessadas em adquirir o imóvel pelo preço anunciado. Dentre elas, algumas chegaram até a oferecer valor superior ao qual Leandro exigia pelo imóvel. A despeito disso, Márcia aproveitou a chance para ela própria comprar o imóvel, que sempre a interessou. Nesse caso, a compra e venda é",
+    alternativas: [
+      "válida, pois Márcia adquiriu o imóvel pelo preço autorizado.",
+      "anulável, porque não havia autorização da lei ou de Leandro para a compra do imóvel por Márcia.",
+      "nula, porque o negócio foi concluído pelo representante em conflito de interesses com o representado.",
+      "válida, pois ao outorgar o mandato à Márcia, por si só, Leandro tacitamente a autorizou a adquiri-lo.",
+      "inexistente, pois a aquisição do imóvel por Márcia não era e não tinha como ser do conhecimento de Leandro quando foi celebrada."
+    ], resposta_correta: 1 },
+  { id: "q550", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "O juízo da 1ª Vara Criminal da Comarca Alfa iniciou o julgamento, em sessão plenária, de um homicídio triplamente qualificado que marcou sobremaneira a diminuta municipalidade. Durante os debates entre a acusação e a defesa, Tício percebeu que a família da ofendida estava muito receosa com o deslinde da relação processual. Em assim sendo, o indivíduo se aproximou da genitora da vítima e, ao se apresentar, afirmou ser muito próximo do jurado João, integrante do Conselho de Sentença. Em seguida, Tício solicitou a entrega de R$ 1.000,00, a pretexto de influir no seu voto por ocasião da quesitação, afirmando que ele e João dividiriam este valor. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Tício responderá pelo crime de",
+    alternativas: [
+      "exploração de prestígio com a incidência de uma causa de aumento de pena, pois o agente alegou que o dinheiro também se destinava ao jurado.",
+      "tráfico de influência com a incidência de uma causa de aumento de pena, pois o agente alegou que o dinheiro também se destinava ao jurado.",
+      "tráfico de influência qualificado, pois o agente alegou que o dinheiro também se destinava ao jurado.",
+      "advocacia administrativa, sem qualificadoras ou causas de aumento de pena.",
+      "exploração de prestígio, sem qualificadoras ou causas de aumento de pena."
+    ], resposta_correta: 0 },
+  { id: "q551", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Tício, agente público no âmbito do Estado Alfa, descobre que o seu genitor faleceu, deixando um testamento particular sobre a parte dos bens que poderia legalmente dispor. Ao tomar ciência sobre o conteúdo da disposição de última vontade, o indivíduo se frustra sobremaneira, pois não foi citado, em momento algum, pelo seu ascendente. Nesse contexto, Tício, em um dia de folga, resolve, por conta própria, falsificar, no todo, o testamento particular. Nada obstante, dois meses depois, os fatos foram descobertos, dando ensejo à deflagração de um inquérito policial para apurar o delito perpetrado. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Tício responderá pelo crime de",
+    alternativas: [
+      "falsificação de documento particular, com a incidência da causa de aumento de pena, por tratar-se de agente público.",
+      "falsificação de documento público, com a incidência de causa de aumento de pena, por tratar-se de agente público.",
+      "falsificação de documento particular, sem a incidência da causa de aumento de pena.",
+      "falsificação de documento público, sem a incidência de causa de aumento de pena.",
+      "falsidade ideológica, sem a incidência de causa de aumento de pena."
+    ], resposta_correta: 3 },
+  { id: "q552", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Assembleia Legislativa do Estado do Paraná (ALEP), Procurador — 2024",
+    enunciado: "Após dois anos de investigação ininterrupta, a Polícia Civil do Estado Alfa logrou localizar, no interior do Estado do Paraná, Tício, líder individual de uma grande organização criminosa. Ao representar pela decretação da prisão preventiva do investigado, o Delegado de Polícia alegou e demonstrou que a organização criminosa é especializada no roubo de mercadorias em todos os portos da região Sul do Brasil, empregando, na atividade ilícita, adolescentes escolhidos pela liderança. A autoridade policial afirmou e comprovou, ainda, que a investigação é árdua, pois parte do produto da infração penal destina-se ao exterior. Nesse cenário, considerando as disposições da Lei nº 12.850/2013, é correto afirmar que Tício responderá pelo crime de organização criminosa com",
+    alternativas: [
+      "uma agravante (exercício do comando individual do grupo criminoso) e com duas causas de aumento de pena (participação de adolescentes e destinação de parte do produto da infração penal ao exterior).",
+      "com três causas de aumento de pena (exercício do comando individual do grupo criminoso, participação de adolescentes e destinação de parte do produto da infração penal ao exterior), sem agravantes.",
+      "com três agravantes (exercício do comando individual do grupo criminoso, participação de adolescentes e destinação de parte do produto da infração penal ao exterior), sem causas de aumento de pena.",
+      "duas agravantes (participação de adolescentes e destinação de parte do produto da infração penal ao exterior) e com uma causa de aumento de pena (exercício do comando individual do grupo criminoso).",
+      "com duas causas de aumento de pena (exercício do comando individual do grupo criminoso e participação de adolescentes), sem agravantes."
+    ], resposta_correta: 0 }
 ];
