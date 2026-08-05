@@ -3,7 +3,7 @@ import { TEMAS, DIFICULDADES } from "./temas";
 
 describe("QUESTOES_DB", () => {
   test("every question has a valid tema, dificuldade, and in-range resposta_correta", () => {
-    expect(QUESTOES_DB.length).toBe(603);
+    expect(QUESTOES_DB.length).toBe(749);
     QUESTOES_DB.forEach((q) => {
       expect(TEMAS).toContain(q.tema);
       expect(DIFICULDADES.map((d) => d.value)).toContain(q.dificuldade);

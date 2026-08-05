@@ -5327,5 +5327,1323 @@ export const QUESTOES_DB: Questao[] = [
       "rejeitar a alegação da executada em razão da facultatividade do protesto do título para assegurar o direito de regresso em face dos coobrigados;",
       "acatar a alegação da executada em razão do decurso de mais de 30 dias da data do vencimento para a apresentação do título a protesto, considerando a data da certidão do protesto;",
       "acatar a alegação da executada em razão do endosso póstumo, isto é, após o decurso do prazo legal de 1 dia útil para apresentação do título a protesto, considerando a data da certidão do protesto."
+    ], resposta_correta: 3 },
+  { id: "q628", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A Polícia Civil do Estado Ômega, com o auxílio da Polícia Militar do Estado Ômega, realizou uma grande operação em uma determinada área dominada por uma facção criminosa, com o objetivo de cumprir diversos mandados de prisão e de busca e apreensão. Durante a operação, houve troca de tiros intensa entre as forças policiais e os membros da facção criminosa. João, que morava na área onde houve a operação e que lá estava no momento da troca de tiros, foi atingido por uma bala perdida, vindo a falecer. Todavia, João não era membro da facção criminosa. Assim, os familiares de João, inconformados, ajuizaram uma ação judicial em face do Estado Ômega, a fim de que fossem indenizados pela perda de seu familiar querido. Diante dessa situação, considerando as normas constitucionais aplicáveis ao caso e a jurisprudência do Supremo Tribunal Federal sobre a matéria, assinale a opção correta.",
+    alternativas: [
+      "No caso, é de natureza subjetiva a responsabilidade civil do Estado, de modo que os familiares de João devem comprovar o dolo ou a culpa dos agentes de segurança que atuaram na referida operação.",
+      "Caso seja feita uma perícia sobre a origem do disparo que matou João e o resultado dessa perícia seja inconclusivo, fica afastada a responsabilidade civil do Estado Ômega.",
+      "Não se aplica ao caso em questão a Teoria do Risco Administrativo.",
+      "No curso do processo judicial, o Estado Ômega não terá o ônus de demonstrar a presença de excludentes de responsabilidade civil.",
+      "A perícia inconclusiva sobre a origem de disparo fatal durante operações policiais e militares não é suficiente, por si só, para afastar a responsabilidade civil do Estado, por constituir elemento indiciário."
+    ], resposta_correta: 4 },
+  { id: "q629", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "André, delegado de polícia, recebe uma denúncia anônima informando que um determinado indivíduo estaria comercializando entorpecentes na Rua XY. André decide se dirigir à Rua XY para verificar a denúncia. Chegando lá, André se depara com Juan portando, para fins de tráfico, 540 (quinhentos e quarenta) gramas de cocaína. Assim, André dá voz de prisão a Juan e o prende em flagrante delito. Ao revistar Juan, André encontra um aparelho celular junto com os entorpecentes. Diante desses fatos, considerando a jurisprudência do Supremo Tribunal Federal sobre direitos e garantias fundamentais, assinale a opção correta.",
+    alternativas: [
+      "No caso, André deverá aguardar uma decisão judicial para que possa proceder à apreensão do celular de Juan, uma vez que a apreensão de aparelho celular está sujeita à cláusula de reserva de jurisdição.",
+      "No caso, André apenas pode acessar os dados contidos no aparelho celular de Juan mediante consentimento expresso e livre de Juan.",
+      "No caso, André apenas pode acessar os dados contidos no aparelho celular de Juan mediante consentimento expresso e livre de Juan, ou mediante prévia decisão judicial que justifique, com base em elementos concretos, a proporcionalidade da medida e delimite sua abrangência à luz de direitos fundamentais à intimidade, à privacidade, à proteção dos dados pessoais e à autodeterminação informacional, inclusive nos meios digitais.",
+      "Enquanto não obtida decisão judicial autorizando acesso aos dados do celular de Juan, André não pode adotar providências necessárias para a preservação dos dados e metadados contidos no aparelho celular apreendido.",
+      "No caso, considerando que se trata de prisão em flagrante pela prática do crime de tráfico de drogas, delito equiparado a hediondo, André pode acessar os dados do aparelho celular de Juan independentemente de prévia autorização judicial ou do consentimento expresso e livre de Juan."
+    ], resposta_correta: 2 },
+  { id: "q630", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Os dirigentes de associações de delegados de polícia civil do Estado Alfa, Ômega e Beta se reuniram para discutir os possíveis impactos da Proposta de Emenda à Constituição nº XXX. A PEC nº XXX faz diversas alterações no modelo de segurança pública concebido pela Constituição Federal de 1988, prevendo novas atribuições e funções para os órgãos de segurança pública já existentes, e também criando novos órgãos de segurança pública. Os dirigentes das associações temem que a referida PEC enfraqueça as polícias civis, retirando delas diversas atribuições relevantes. Assim, desejam saber quais são os limites e possibilidades do controle de constitucionalidade das emendas à Constituição, para que possam tomar as medidas cabíveis caso a PEC seja promulgada pelo Congresso Nacional. Considerando essa temática e os fatos narrados, assinale a opção correta.",
+    alternativas: [
+      "O modelo de Supremacia da Constituição adotado no ordenamento jurídico brasileiro impede que emendas à constituição sejam objeto de controle de constitucionalidade pelo Poder Judiciário.",
+      "Segundo jurisprudência consolidada do Supremo Tribunal Federal, qualquer cidadão brasileiro tem legitimidade para impetrar mandado de segurança buscando impedir a tramitação de proposta de emenda à constituição que viole cláusulas pétreas.",
+      "Considerando que as emendas à Constituição são manifestações do poder constituinte originário, não existem limitações materiais às emendas à Constituição, mas apenas limitações formais e circunstanciais.",
+      "As emendas à constituição são manifestações do Poder Constituinte Derivado, o qual deve observar as limitações postas pelo Poder Constituinte Originário. Nesse sentido, por exemplo, não pode ser objeto de deliberação a proposta de emenda tendente a abolir: (i) a forma federativa de Estado; (ii) o voto direto, secreto, universal e periódico; (iii) a separação dos Poderes; (iv) os direitos e garantias individuais.",
+      "As emendas à constituição, como qualquer outra proposição legislativa, necessitam da sanção do Presidente da República. Assim, ainda que a PEC seja aprovada pelas duas casas do Congresso Nacional, o Presidente da República tem o poder de vetá-la."
+    ], resposta_correta: 3 },
+  { id: "q631", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "De acordo com o artigo 129 da Constituição Federal, estão entre as funções institucionais do Ministério Público: a) promover, privativamente, a ação penal pública, na forma da lei; b) exercer o controle externo da atividade policial, na forma da lei complementar; c) requisitar diligências investigatórias e a instauração de inquérito policial, indicados os fundamentos jurídicos de suas manifestações processuais. Todavia, atualmente, o Ministério Público também exerce diretamente poder investigatório, instaurando e presidindo seus próprios procedimentos investigatórios criminais. Acerca dessa temática, considerando a jurisprudência do Supremo Tribunal Federal sobre o poder investigatório do Ministério Público, assinale a opção correta.",
+    alternativas: [
+      "O artigo 18 do Código de Processo Penal ('Depois de ordenado o arquivamento do inquérito pela autoridade judiciária, por falta de base para a denúncia, a autoridade policial poderá proceder a novas pesquisas, se de outras provas tiver notícia') não se aplica aos procedimentos investigatórios instaurados pelo Ministério Público.",
+      "Os procedimentos investigatórios criminais do Ministério Público não devem observar os mesmos prazos e regramentos previstos para conclusão de inquéritos policiais.",
+      "As investigações realizadas pelo Ministério Público não estão sujeitas ao controle judicial, em razão da independência funcional assegurada aos membros do Ministério Público.",
+      "A instauração de procedimento investigatório pelo Ministério Público deverá ser motivada sempre que houver suspeita de envolvimento de agentes dos órgãos de segurança pública na prática de infrações penais ou sempre que mortes ou ferimentos graves ocorram em virtude da utilização de armas de fogo por esses mesmos agentes. Havendo representação ao Ministério Público, a não instauração do procedimento investigatório deverá ser sempre motivada.",
+      "Nos procedimentos investigatórios criminais do Ministério Público, não se exige a comunicação imediata ao juiz competente sobre a instauração e o encerramento do procedimento investigatório, uma vez que o próprio Ministério Público faz o controle de legalidade sobre o início e encerramento da investigação."
+    ], resposta_correta: 3 },
+  { id: "q632", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "José, Prefeito do Município XYZ, está preocupado com o aumento da criminalidade no município. Ele tem percebido que a Polícia Militar e a Polícia Civil não têm sido capazes de assegurar plenamente a segurança pública da população do Município XYZ, pois contam com efetivo bem reduzido. Assim, pretende instituir no Município XYZ uma Guarda Municipal, mediante a aprovação de uma lei municipal na Câmara de Vereadores do Município XYZ. Todavia, para melhor compreender as atribuições da Guarda Municipal, consulta seus assessores jurídicos, para que o esclareçam acerca do papel exercido pela Guarda Municipal e da constitucionalidade da referida lei municipal caso aprovada. Diante desses fatos, considerando a jurisprudência do Supremo Tribunal Federal sobre a matéria e os dispositivos constitucionais aplicáveis ao caso, assinale a opção correta.",
+    alternativas: [
+      "A Guarda Municipal não se submete ao controle externo da atividade policial exercido pelo Ministério Público.",
+      "As Guardas Municipais não podem realizar o policiamento ostensivo, uma vez que este é atribuição exclusiva da Polícia Militar.",
+      "Em hipóteses específicas, quando haja clara vinculação com interesses municipais, as guardas municipais podem exercer a atividade de polícia judiciária.",
+      "As Guardas Municipais são órgãos de segurança pública, podendo ser criadas pelo município. Todavia, a lei que instituir a Guarda Municipal deve observar as normas gerais estabelecidas pelo Congresso Nacional.",
+      "As guardas municipais não podem ser consideradas órgãos de segurança pública, e sim órgãos de natureza \"sui generis\", uma vez que reúnem atribuições variadas, as quais vão além da atividade de segurança pública."
+    ], resposta_correta: 3 },
+  { id: "q633", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "'[...] A separação entre as funções de acusar, defender e julgar é o signo essencial do sistema acusatório de processo penal (Art. 129, I, CRFB), tornando a atuação do Judiciário na fase pré-processual somente admissível com o propósito de proteger as garantias fundamentais dos investigados' (Supremo Tribunal Federal, ADI 4414, Relator Min. Luiz Fux, Tribunal Pleno, julgado em 31/05/2012). A Lei nº 13.964 de 2019 instituiu a figura do juiz das garantias no processo penal brasileiro. De acordo com o art. 3º-B do Código de Processo Penal, 'o juiz das garantias é o responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais cuja franquia tenha sido reservada à autorização prévia do Poder Judiciário'. Assim, a instituição do juiz das garantias reforça e promove diversos direitos e garantias fundamentais na investigação penal e no processo penal. Nesse sentido, considerando a jurisprudência do Supremo Tribunal Federal sobre o juiz das garantias, assinale a opção correta.",
+    alternativas: [
+      "A competência do juiz das garantias cessa com o recebimento da denúncia.",
+      "A Lei nº 13.964/2019 estabeleceu uma presunção legal absoluta de parcialidade do juiz que tenha proferido decisões na fase do inquérito. Tal presunção absoluta é constitucional, pois promove o princípio da imparcialidade do magistrado. Assim, é constitucional a norma que torna impedido de julgar o juiz que tenha proferido decisões na fase do inquérito policial.",
+      "O juiz da ação penal, se tomar conhecimento dos autos da investigação, perde sua imparcialidade para o julgamento do mérito. Portanto, os autos que compõem as matérias de competência do juiz das garantias não podem ser remetidos ao juiz da instrução e julgamento.",
+      "Com a nova sistemática do juiz das garantias, fica excluída qualquer possibilidade de controle judicial sobre o ato de arquivamento da investigação. Segundo o Supremo Tribunal Federal, a eliminação do controle judicial não constitui violação ao princípio da inafastabilidade da jurisdição, e sim promoção do princípio acusatório no processo penal.",
+      "A competência do juiz das garantias cessa com o oferecimento da denúncia, e os autos que compõem as matérias de competência do juiz das garantias serão remetidos ao juiz da instrução e julgamento."
+    ], resposta_correta: 4 },
+  { id: "q634", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A intervenção federal, o estado de defesa e o estado de sítio possuem algo em comum. Estes três institutos previstos na Constituição Federal são reservados para situações excepcionais, taxativamente previstas na Constituição. Com efeito, considerando que estes três institutos implicam certas restrições e limitações a direitos e garantias fundamentais, eles devem ser utilizados apenas nos casos expressamente previstos na Constituição e devem observar rigorosamente as regras procedimentais previstas na Constituição. Acerca dessa temática, considerando as normas constitucionais aplicáveis, assinale a opção correta.",
+    alternativas: [
+      "A União poderá intervir nos Estados ou no Distrito Federal para garantir o livre exercício de qualquer dos Poderes nas unidades da Federação. Nesta hipótese de intervenção, se a coação for exercida contra o Poder Judiciário, a decretação da intervenção dependerá de requisição do Supremo Tribunal Federal.",
+      "É vedada a prorrogação do tempo de duração do estado de defesa.",
+      "O decreto que instituir o estado de defesa não poderá estabelecer restrições aos direitos de: a) reunião, ainda que exercida no seio das associações; b) sigilo de correspondência; c) sigilo de comunicação telegráfica e telefônica.",
+      "A União não pode intervir nos Estados ou no Distrito Federal para repelir invasão estrangeira ou de uma unidade da Federação em outra. Neste caso, a União deve agir diretamente por meio das Forças Armadas, sem necessidade de instauração da intervenção federal.",
+      "Não é admitida a decretação de estado de sítio em caso de comoção grave de repercussão nacional ou de ocorrência de fatos que comprovem a ineficácia de medida tomada durante o estado de defesa."
+    ], resposta_correta: 0 },
+  { id: "q635", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "José é delegado de polícia civil no Estado Alfa. Na delegacia em que José atua, há um inquérito policial em tramitação que tem como indiciados Luís e Maria, ambos servidores públicos do Estado Alfa. O referido inquérito apura a prática dos crimes de peculato e de emprego irregular de verbas ou rendas públicas. José teve conhecimento de que também há um procedimento em curso no Tribunal de Contas do Estado Alfa contra Luís e Maria, que investiga a prática de irregularidades por estes servidores públicos, as quais teriam causado prejuízo ao erário público. Todavia, José tem dúvidas acerca das funções exercidas pelos tribunais de contas no ordenamento jurídico brasileiro. Assim, consulta João, seu amigo constitucionalista, para melhor compreender as funções dos tribunais de contas. Acerca dessa temática, considerando os dispositivos constitucionais aplicáveis ao caso, assinale a opção correta.",
+    alternativas: [
+      "Compete ao Tribunal de Contas da União julgar anualmente as contas prestadas pelo Presidente da República e apreciar os relatórios sobre a execução dos planos de governo.",
+      "Qualquer cidadão, partido político, associação ou sindicato é parte legítima para, na forma da lei, denunciar irregularidades ou ilegalidades perante os tribunais de contas.",
+      "As decisões dos Tribunais de Contas de que resulte imputação de débito ou multa terão eficácia de título executivo judicial.",
+      "Os Poderes Legislativo, Executivo e Judiciário manterão, de forma integrada, sistema de controle interno. Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, não são obrigados a dar ciência ao respectivo tribunal de contas, uma vez que podem realizar suas próprias investigações internas.",
+      "Caso determinado agente público sofra sanções administrativas do Tribunal de Contas, ele não pode ser punido pelos mesmos fatos na esfera criminal, sob pena de violação ao princípio do \"non bis in idem\"."
+    ], resposta_correta: 1 },
+  { id: "q636", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A Supremacia da Constituição e o Bloco de Constitucionalidade são temas que suscitam diversos debates no âmbito do direito constitucional. Acerca dessa temática, assinale a opção correta.",
+    alternativas: [
+      "O Supremo Tribunal Federal não admite que o princípio da proporcionalidade seja usado como parâmetro do controle de constitucionalidade de normas, pois o Supremo adota um conceito restritivo de bloco de constitucionalidade, o qual não inclui princípios constitucionais implícitos.",
+      "Em determinados e específicos casos, quando se verificar clara incongruência no texto constitucional, é possível declarar a inconstitucionalidade de normas constitucionais originárias.",
+      "O Supremo Tribunal Federal adota um conceito extensivo de bloco de constitucionalidade, o qual abarca tratados internacionais de direitos humanos que não foram aprovados pelo rito das emendas constitucionais. Portanto, segundo entendimento consolidado do Supremo Tribunal Federal, é possível declarar inconstitucionalidade de leis utilizando como parâmetro de constitucionalidade os referidos tratados.",
+      "As normas previstas no Ato das Disposições Constitucionais Transitórias (ADCT) não podem ser consideradas normas constitucionais e, portanto, não podem servir de parâmetro de controle de constitucionalidade.",
+      "Não é possível a declaração de inconstitucionalidade de lei com base tão somente em violação ao Preâmbulo da Constituição Federal de 1988."
+    ], resposta_correta: 4 },
+  { id: "q637", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A Arguição de Descumprimento de Preceito Fundamental (ADPF) é relevante ação do sistema de controle de constitucionalidade brasileiro, possuindo seus contornos próprios. Considerando essa temática, analise as assertivas a seguir. I. A ADPF é instrumento eficaz de controle da inconstitucionalidade por omissão. Destarte, a ADPF pode ter por objeto as omissões do poder público, quer totais ou parciais, normativas ou não normativas, nas mesmas circunstâncias em que ela é cabível contra atos em geral do poder público, desde que essas omissões se afigurem lesivas a preceito fundamental que o consagra. II. Ao declarar a inconstitucionalidade de lei ou ato normativo, no processo de arguição de descumprimento de preceito fundamental (ADPF), e tendo em vista razões de segurança jurídica ou de excepcional interesse social, poderá o Supremo Tribunal Federal, por maioria de dois terços de seus membros, restringir os efeitos daquela declaração ou decidir que ela só tenha eficácia a partir de seu trânsito em julgado ou de outro momento que venha a ser fixado. III. Podem propor a ADPF os mesmos legitimados para a Ação Direta de Inconstitucionalidade (ADI). Além disso, ainda que em face de uma lei ou de um ato normativo seja possível o ajuizamento de ADI perante o Supremo Tribunal Federal, o legitimado ativo pode optar pelo ajuizamento da ADPF em vez da ADI, uma vez que ambas as ações são igualmente eficazes para sanar qualquer lesão a preceito fundamental. Está correto o que se afirma em",
+    alternativas: [
+      "II apenas.",
+      "I e III, apenas.",
+      "I e II, apenas.",
+      "I apenas.",
+      "II e III, apenas."
+    ], resposta_correta: 2 },
+  { id: "q638", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Com o objetivo de aprimorar a segurança pública no Estado do Piauí, o Poder Executivo pretende publicar edital de licitação visando à aquisição de milhares de bens comuns, avaliados em mais de um milhão de reais, os quais, posteriormente, serão distribuídos junto às Delegacias de Polícia Civil do referido ente federativo. Nesse cenário, considerando as disposições da Lei nº 14.133/2021, é correto afirmar que",
+    alternativas: [
+      "caberá ao Poder Público definir, à luz de critérios de conveniência e oportunidade, a modalidade licitatória, desde que o critério de julgamento seja o de menor preço ou maior retorno econômico.",
+      "o Poder Público adotará a concorrência como modalidade licitatória, sendo certo que o critério de julgamento poderá ser o de menor preço ou o de maior desconto.",
+      "o Poder Público adotará o pregão como modalidade licitatória, sendo certo que o critério de julgamento poderá ser o de menor preço ou o de maior desconto.",
+      "caberá ao Poder Público definir, à luz de critérios de conveniência e oportunidade, a modalidade licitatória, desde que o critério de julgamento seja o pregão.",
+      "o Poder Público adotará o menor preço ou o maior retorno econômico como modalidade licitatória, adotando-se o pregão como critério de julgamento."
+    ], resposta_correta: 2 },
+  { id: "q639", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "José, servidor público do Poder Executivo do Município Alfa, agindo com dolo, nomeou Caroline, sua esposa, para o exercício de cargo em comissão, vinculado diretamente a ele. Registre-se que o referido cargo não tem natureza política e que Caroline não tem qualquer conhecimento teórico ou prático para exercer a função para a qual foi designada. Após denúncias anônimas, os fatos chegaram ao conhecimento do Ministério Público e da Polícia Civil. De acordo com a narrativa e considerando as disposições da Lei nº 8.429/1992, analise as afirmativas a seguir. I. A conduta de José caracteriza ato doloso de improbidade administrativa que causa prejuízo ao erário. II. Proferida sentença condenatória, José estará sujeito às sanções, alternativas ou cumulativas, de suspensão dos direitos políticos por até doze anos, pagamento de multa civil de até vinte e quatro vezes o valor da remuneração percebida pelo agente e proibição de contratar com o poder público pelo prazo não superior a oito anos; III. Em caso de condenação de José, as sanções eventualmente a ele aplicadas somente poderão ser executadas após o trânsito em julgado da sentença condenatória. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 4 },
+  { id: "q640", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Durante o cumprimento de mandado de busca e apreensão, em observância às formalidades constitucionais e legais, João, Delegado de Polícia, encontrou uma arma de fogo escondida no quarto de Caio, alvo da diligência policial. Ao perceber que seria capturado em flagrante, Caio tentou se evadir na condução de uma motocicleta. Em assim sendo, em razão da situação de iminente perigo público, João se apossou de determinado veículo automotor particular, logrando alcançar o investigado. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que João, na qualidade de Delegado de Polícia, agiu de forma",
+    alternativas: [
+      "adequada, pois a requisição administrativa, modalidade de intervenção branda do Estado na propriedade, independe de prévia comunicação ou autorização do juízo competente, sendo certo que haverá indenização ulterior, independentemente da ocorrência de dano.",
+      "adequada, pois a requisição administrativa, modalidade de intervenção drástica do Estado na propriedade, independe de prévia comunicação ou autorização do juízo competente, sendo certo que haverá indenização ulterior, se houver dano.",
+      "adequada, pois a requisição administrativa, modalidade de intervenção branda do Estado na propriedade, independe de prévia comunicação ou autorização do juízo competente, sendo certo que haverá indenização ulterior, se houver dano.",
+      "inadequada, pois a requisição administrativa, modalidade de intervenção drástica do Estado na propriedade, pressupõe prévia comunicação do juízo competente.",
+      "inadequada, pois a requisição administrativa, modalidade de intervenção branda do Estado na propriedade, pressupõe prévia autorização do juízo competente."
+    ], resposta_correta: 2 },
+  { id: "q641", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Nos termos da legislação de regência, a Polícia Civil do Estado do Piauí, dirigida por delegado de polícia de carreira, é uma instituição permanente do Poder Executivo e auxiliar da função jurisdicional do Estado. Nesse cenário, considerando as disposições da Lei Complementar Estadual nº 37/2004, alterada pela Lei Complementar Estadual nº 318/2025, estão listadas a seguir atribuições dos Delegados de Polícia de carreira, à exceção de uma. Assinale-a.",
+    alternativas: [
+      "Lavrar termos circunstanciados, instaurar e presidir inquéritos policiais e outros procedimentos administrativos e fazer o indiciamento de forma fundamentada, dentro de sua circunscrição.",
+      "Praticar atos administrativos de natureza policial e dirigir a Delegacia de Polícia, determinando as diligências investigatórias, na forma que se dispuser em regulamento.",
+      "Promover diligências, requisitar informações, solicitar exames periciais e outros documentos necessários à instrução do inquérito policial ou de outros procedimentos.",
+      "Cumprir e fazer cumprir, no âmbito de sua competência, as funções institucionais da polícia judiciária.",
+      "Assegurar o sigilo necessário à elucidação do fato e às investigações a seu cargo."
+    ], resposta_correta: 0 },
+  { id: "q642", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Após ler uma reportagem no sentido de que o imóvel de propriedade do Estado em que está situada e em funcionamento a Academia de Polícia seria vendido para a construção de um empreendimento imobiliário, Henriqueta entendeu ser necessário verificar as peculiaridades atinentes à classificação e regime jurídico dos bens públicos. Diante dessa situação hipotética, Henriqueta concluiu corretamente que o imóvel em questão corresponde a um",
+    alternativas: [
+      "bem público de uso especial, inalienável enquanto mantida a sua afetação.",
+      "bem público de uso comum do povo, alienável independentemente de sua afetação.",
+      "bem público dominical, alienável por estar desafetado.",
+      "bem público impróprio, alienável mesmo que esteja afetado.",
+      "bem privado da Administração Pública, inalienável na medida em que está afetado."
+    ], resposta_correta: 0 },
+  { id: "q643", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "No exercício de suas atribuições como servidor público do Estado do Piauí, Conrado teve que esclarecer questões atinentes à matriz de riscos na esfera dos contratos administrativos. Assinale a opção que indica a informação correta a ser prestada por Conrado, à luz do disposto na Lei nº 14.133/2021.",
+    alternativas: [
+      "Nos contratos administrativos a cláusula atinente à matriz de riscos não pode ser considerada obrigatória ou essencial em nenhuma hipótese, considerando que a sua inclusão na avença depende do exercício da discricionariedade por parte da Administração contratante.",
+      "Nos contratos submetidos ao regime da contratação integrada ou semi-integrada os riscos decorrentes de fatos supervenientes à contratação associados à escolha da solução de projeto básico pelo contratado deverão ser alocados como de responsabilidade da Administração contratante na respectiva matriz de riscos.",
+      "Nos contratos em que prevista a matriz de riscos, é pertinente a identificação dos riscos contratuais previstos e presumíveis, alocando-os entre contratante e contratado, mediante indicação daqueles a serem assumidos pelo setor público ou pelo setor privado, sendo vedado o compartilhamento dos riscos.",
+      "Nos contratos de grande vulto é cabível a utilização do seguro-garantia com cláusula de retomada, para fins de alocação dos respectivos riscos entre contratante e contratado, de modo que é vedada a inclusão da cláusula da matriz de riscos.",
+      "No âmbito da matriz de riscos, não cabe a renúncia das partes ao pedido de restabelecimento do equilíbrio econômico e financeiro em decorrência do aumento ou da redução, por legislação superveniente, dos tributos diretamente pagos pelo contratado em decorrência do contrato."
+    ], resposta_correta: 4 },
+  { id: "q644", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Yana estava se preparando para uma conferência sobre segurança pública, de modo que decidiu pesquisar a orientação do Supremo Tribunal Federal sobre a responsabilidade civil do Estado em tal seara. Nesse contexto, assinale a opção que indica o correto entendimento do Pretório Excelso acerca do tema.",
+    alternativas: [
+      "O Estado deve ser civilmente responsabilizado, com base na teoria do risco integral, pelo falecimento de detento que comete suicídio dentro de um estabelecimento prisional.",
+      "O Estado deve ser civilmente responsabilizado, com base na teoria do risco administrativo, por latrocínio perpetrado há um mês, na medida em que violou o seu dever de mantê-lo encarcerado.",
+      "O Estado deve ser civilmente responsabilizado, com base na teoria do risco integral, em razão de morte acidental de transeunte decorrente de disparo de arma de fogo no contexto de uma operação policial.",
+      "O Estado deve ser civilmente responsabilizado, com base na teoria do risco administrativo, por homicídio cometido por policial, no período de folga, que mata desafeto por questões pessoais utilizando arma da corporação.",
+      "O Estado deve ser civilmente responsabilizado, com base na teoria do risco integral, pelo óbito de indivíduo que entra clandestinamente em paiol de munições e aciona acidentalmente uma granada."
+    ], resposta_correta: 0 },
+  { id: "q645", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Diante da necessidade de aprofundar os seus conhecimentos com relação ao ato administrativo, Eliseu passou a analisar a delimitação das noções de perfeição, validade e eficácia, no âmbito do Direito Administrativo, vindo a concluir corretamente que",
+    alternativas: [
+      "o ato administrativo perfeito é necessariamente válido e eficaz.",
+      "todo ato administrativo válido é inexoravelmente eficaz.",
+      "o ato administrativo pode ser eficaz, ainda que não esteja perfeito.",
+      "para que o ato administrativo seja válido, basta que ele esteja perfeito.",
+      "para que o ato administrativo seja eficaz é imprescindível que ele esteja perfeito e seja válido."
+    ], resposta_correta: 4 },
+  { id: "q646", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "No âmbito da organização dos serviços relacionados à segurança pública, certo Estado da Federação fez editar uma lei que delimitou e conferiu autonomia para a polícia científica, criando uma estrutura diferenciada para os respectivos órgãos administrativos, especificando quando eles não estão submetidos hierarquicamente à polícia civil. Considerando os aspectos atinentes à desconcentração e descentralização, assinale a opção correta.",
+    alternativas: [
+      "A autonomia conferida aos aludidos órgãos administrativos implica na criação de pessoas jurídicas independentes integrantes da Administração Indireta, por meio da desconcentração.",
+      "A subordinação hierárquica à polícia civil era imprescindível para que tais órgãos fossem considerados entidades da Administração Direta.",
+      "Os aludidos órgãos administrativos são fruto da desconcentração da atividade no âmbito da Administração Direta, não possuindo personalidade jurídica própria.",
+      "A descentralização pressupõe a criação de pessoas jurídicas de direito privado, de modo que os referidos órgãos são pessoas jurídicas de direito público que integram a Administração Direta.",
+      "A criação e delimitação de tais órgãos administrativos resulta da descentralização no âmbito da estruturação administrativa, de modo que tais órgãos passaram a integrar a Administração Indireta."
+    ], resposta_correta: 2 },
+  { id: "q647", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Dionísio, delegado de polícia do Estado do Piauí, costuma ser diligente no exercício de suas atribuições, mas, infelizmente, recentemente, pela primeira vez, cometeu infração funcional, de modo que está preocupado com a penalidade que a ele pode ser aplicada em decorrência de processo administrativo disciplinar. Assinale a opção correta acerca da conduta de Dionísio elencada dentre as infrações sujeitas à pena de demissão, à luz do disposto na Lei Complementar nº 37/2004.",
+    alternativas: [
+      "Comparecer a qualquer ato de serviço em visível estado de embriaguez ou ingerir bebidas durante o serviço.",
+      "Fazer uso indevido da insígnia, cédula funcional ou a arma que lhe haja sido confiada para o serviço.",
+      "Ordenar ou executar medida privativa da liberdade individual, sem as formalidades legais ou com abuso de poder.",
+      "Impedir ou tornar impraticável, por qualquer meio, na fase do inquérito policial e durante o interrogatório do indiciado, a presença de advogado.",
+      "Divulgar, através da imprensa escrita, falada ou televisionada, fatos ocorridos na repartição sem qualquer motivo ou propiciar-lhe divulgação."
+    ], resposta_correta: 3 },
+  { id: "q648", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Após a observância do contraditório e da ampla defesa, Lucas foi condenado, definitivamente, pela prática dos crimes de peculato e de associação criminosa, em concurso material, iniciando o cumprimento das penas em regime fechado. De acordo com as disposições do Código Penal, analise as afirmativas a seguir. I. Lucas ficará sujeito a trabalho no período diurno e a isolamento durante o repouso noturno. II. O trabalho será em comum dentro do estabelecimento, na conformidade das aptidões ou ocupações anteriores do condenado, desde que compatíveis com a execução da pena. III. O trabalho externo de Lucas será admissível, mediante ato fundamentado do diretor do estabelecimento prisional, em serviços ou obras públicas. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I, II e III."
+    ], resposta_correta: 3 },
+  { id: "q649", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A Polícia Civil do Estado do Piauí tomou conhecimento, em outubro de 2025, de que a organização criminosa Alfa tinha planos para executar João, magistrado, Lucas, oficial de Justiça, Matheus, delegado de polícia, e Guilherme, deputado estadual, todos em razão das funções públicas exercidas. Nesse cenário, considerando as disposições do Código Penal, é qualificado o homicídio praticado, em razão das funções, em detrimento de",
+    alternativas: [
+      "delegado de polícia e de parlamentar estadual, não abarcando membro do Poder Judiciário, tampouco oficial de justiça.",
+      "membro do Poder Judiciário e de delegado de polícia, não abarcando oficial de justiça, tampouco parlamentar estadual.",
+      "membro do Poder Judiciário, de oficial de justiça e de delegado de polícia, não abarcando parlamentar estadual.",
+      "oficial de justiça, de delegado de polícia e de parlamentar estadual, não abarcando membro do Poder Judiciário.",
+      "membro do Poder Judiciário, de oficial de justiça, de delegado de polícia e de parlamentar estadual."
+    ], resposta_correta: 4 },
+  { id: "q650", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Matheus, agindo com dolo, constrangeu Joana, sua estagiária que contava com 17 anos de idade, com o intuito de dela obter vantagem sexual, prevalecendo-se o agente da sua condição de superior hierárquico inerente ao exercício de seu cargo. Registre-se que Joana, irresignada com a situação posta, entrou em contato com as autoridades públicas, ensejando a prisão em flagrante de Matheus. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Matheus responderá pelo crime de",
+    alternativas: [
+      "importunação sexual, na modalidade qualificada, com a incidência de uma causa de aumento de pena.",
+      "assédio sexual, na modalidade qualificada, com a incidência de uma causa de aumento de pena.",
+      "assédio sexual, na modalidade simples, com a incidência de uma causa de aumento de pena.",
+      "importunação sexual, na modalidade qualificada, sem causas de aumento de pena.",
+      "assédio sexual, na modalidade simples, sem causas de aumento de pena."
+    ], resposta_correta: 1 },
+  { id: "q651", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Caio, agindo com dolo, introduziu em circulação, junto ao supermercado Alfa, dez notas de R$ 100,00 (cem reais), grosseiramente falsificadas. Registre-se, contudo, não ter sido o agente o responsável pela fabricação das referidas cédulas. Nesse cenário, considerando as disposições do Código Penal e o entendimento dominante do Superior Tribunal de Justiça, é correto afirmar que Caio",
+    alternativas: [
+      "não responderá por qualquer delito, por não ter sido o responsável pela fabricação das notas de cem reais grosseiramente falsificadas.",
+      "não responderá por qualquer delito, por se tratar de notas de cem reais grosseiramente falsificadas.",
+      "responderá pelo crime de uso de documento falso.",
+      "responderá pelo crime de moeda falsa.",
+      "responderá pelo crime de estelionato."
+    ], resposta_correta: 4 },
+  { id: "q652", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Maria, agindo com dolo, deu causa à abertura de inquérito policial em detrimento de João, seu marido, imputando-lhe a prática da contravenção penal de vias de fato no contexto da Lei Maria da Penha, muito embora soubesse ser o agente inocente. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Maria",
+    alternativas: [
+      "não responderá por qualquer delito, ante a atipicidade material da conduta perpetrada, já que imputou ao seu marido a prática de contravenção penal, e não de crime.",
+      "responderá pelo crime de comunicação falsa de contravenção penal, na modalidade qualificada, sem a incidência de causas de aumento ou de diminuição de pena.",
+      "responderá pelo crime de denunciação caluniosa, na modalidade simples, com a incidência de uma causa de diminuição de pena.",
+      "responderá pelo crime de denunciação caluniosa, na modalidade qualificada, com a incidência de uma causa de diminuição de pena.",
+      "não responderá por qualquer delito, já que imputou ao seu marido a prática de contravenção penal, e não de crime."
+    ], resposta_correta: 3 },
+  { id: "q653", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Lucas é uma das lideranças da facção criminosa Alfa, especializada no transporte interestadual de materiais entorpecentes. Após complexa investigação realizada pela Polícia Civil do Estado do Piauí, Lucas foi indiciado pela prática dos crimes de tráfico de drogas e associação para o tráfico. Em juízo, observado o devido processo legal, o acusado foi condenado pelas infrações penais supracitadas, ao cumprimento de pena privativa de liberdade em regime fechado, além do pagamento de multa. De acordo com a narrativa e considerando as disposições da Lei nº 11.343/2006, analise as afirmativas a seguir. I. O juiz, na fixação das penas, considerará, com preponderância sobre as circunstâncias judiciais previstas no Código Penal, a natureza e a quantidade da substância ou do produto, a personalidade e os antecedentes do agente; II. Na fixação da multa, o juiz determinará o número de dias-multa, atribuindo a cada um, segundo as condições econômicas do acusado, valor não inferior à metade nem superior a cinco vezes o maior salário-mínimo; III. As multas, que em caso de concurso de crimes serão impostas sempre cumulativamente, podem ser aumentadas até o décuplo se, em virtude da situação econômica do acusado, considerá-las o juiz ineficazes, ainda que aplicadas no máximo. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 4 },
+  { id: "q654", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Caio, delegado de polícia, indiciou Matheus pela prática, em novembro de 2025, dos seguintes crimes: i) lesão corporal qualificada, perpetrada contra o policial civil José durante o exercício das funções, resultando em debilidade permanente de membro; ii) organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas; iii) comércio ilegal de arma de fogo. Nesse cenário, considerando as disposições da Lei nº 8.072/1990, é correto afirmar que Matheus incorreu na prática dos seguintes crimes hediondos:",
+    alternativas: [
+      "lesão corporal qualificada, perpetrada contra o policial civil José durante o exercício das funções, resultando em debilidade permanente de membro, organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas e comércio ilegal de arma de fogo.",
+      "lesão corporal qualificada, perpetrada contra o policial civil José durante o exercício das funções, resultando em debilidade permanente de membro; e organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas.",
+      "lesão corporal qualificada, perpetrada contra o policial civil José durante o exercício das funções, resultando em debilidade permanente de membro e comércio ilegal de arma de fogo.",
+      "organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas e comércio ilegal de arma de fogo.",
+      "organização criminosa, voltada à prática de roubos circunstanciados pela restrição da liberdade das vítimas."
+    ], resposta_correta: 1 },
+  { id: "q655", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Durante investigação conduzida pela Corregedoria de Polícia, constatou-se que um servidor público estadual, ocupante de cargo efetivo na Secretaria de Saúde do Estado do Piauí, exigia de pacientes da rede pública, para realizar agendamentos de exames e consultas que eram de sua atribuição, o pagamento de quantias em dinheiro. O servidor não fazia ameaças diretas, mas deixava claro que, sem o pagamento, os pacientes não seriam atendidos, repetindo a seguinte frase: ou paga, ou nada! Diante de tal situação hipotética, assinale a opção correta.",
+    alternativas: [
+      "O servidor cometeu o crime de corrupção passiva, porque apenas paga a vantagem indevida quem quisesse.",
+      "O servidor cometeu o crime de prevaricação, pois deixou de praticar ato de ofício por interesse pessoal.",
+      "O servidor cometeu o crime de concussão, uma vez que exigiu vantagem indevida, ainda que sem violência ou ameaça.",
+      "A conduta do servidor é atípica, pois os pacientes tinham a opção de não pagar, tratando-se de vantagem espontânea.",
+      "O servidor cometeu o crime de peculato-desvio, pois desviou recursos para benefício próprio."
+    ], resposta_correta: 2 },
+  { id: "q656", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Em uma operação policial, um homem foi preso em flagrante após subtrair uma barra de chocolate avaliada em R$ 5,00 de um supermercado na cidade de Pedro II. O acusado não utilizou violência ou grave ameaça e o produto foi recuperado imediatamente. Trata-se de réu primário e sem antecedentes criminais. O Delegado de Polícia lavrou o auto de prisão em flagrante e representou pela conversão em prisão preventiva. Diante de tal situação hipotética, assinale a opção correta.",
+    alternativas: [
+      "A conduta deve ser punida com base no princípio da legalidade, pois o furto é tipificado legalmente, sem previsão de causa excludente em razão do valor do bem.",
+      "A irrelevância do valor econômico do bem pode afastar a culpabilidade por erro de tipo permissivo, mas não afasta a tipicidade penal.",
+      "O princípio da intervenção estatal justifica a punição, pois a repressão penal é necessária mesmo para delitos de menor potencial ofensivo.",
+      "A conduta é atípica por força do princípio da insignificância, ante as parcas ofensividade e reprovabilidade, a ausência de periculosidade social e a ínfima lesão causada.",
+      "O princípio da fragmentariedade, derivado do poder-dever de punir que cabe ao Estado, impede o reconhecimento de furto, pois todo ilícito penal é também um ilícito civil."
+    ], resposta_correta: 3 },
+  { id: "q657", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Júlio, brasileiro, embarca em um avião privado de matrícula brasileira, que faz o percurso entre Montevidéu (Uruguai) e Teresina (Piauí). Durante o voo, enquanto a aeronave sobrevoava o Oceano Atlântico (águas internacionais), Júlio, com intenção de matar, ministrou um veneno de ação lenta em uma bebida oferecida ao seu desafeto, o estrangeiro Juan. A vítima começou a passar mal logo após a ingestão, mas a morte somente foi confirmada e atestada após o pouso no Aeroporto Senador Petrônio Portella, em Teresina, capital do Piauí. Diante de tal situação hipotética, assinale a opção correta.",
+    alternativas: [
+      "A lei penal brasileira será aplicável por força do princípio da ubiquidade, correspondendo o local do crime ao lugar onde se produziu o resultado.",
+      "A lei penal brasileira não é aplicável, pois incide o princípio da extraterritorialidade condicionada, o que exigiria requisição do Ministro da Justiça.",
+      "A lei penal brasileira é aplicável, por força do princípio da extraterritorialidade incondicionada, pois se trata de crime praticado contra a vida de estrangeiro e o agente é brasileiro.",
+      "A lei penal brasileira não é aplicável, pois o princípio que rege o local do crime é o da atividade, sendo aplicável a lei penal do país da bandeira da aeronave.",
+      "A lei penal brasileira é aplicável a aeronaves privadas que pousam no Brasil, sendo consideradas extensão do território nacional."
+    ], resposta_correta: 0 },
+  { id: "q658", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Durante uma festa na cidade de Aroeiras do Itaim, João e Carlos combinaram furtar um aparelho de telefone celular que estava sobre uma mesa em um bar. João ficou responsável por distrair o dono do aparelho, enquanto Carlos pegaria o telefone. Durante a execução do furto, Carlos foi surpreendido pelo dono, que reagiu e imobilizou Carlos, impedindo que ele continuasse a distração. Carlos conseguiu fugir com o celular. Diante de tal situação hipotética, assinale a opção correta.",
+    alternativas: [
+      "Carlos responderá sozinho pelo furto, pois João não conseguiu executar sua parte, o que descaracteriza o concurso de pessoas.",
+      "João responderá como partícipe do furto, pois auxiliou na execução do crime, ainda que não tenha obtido vantagem direta.",
+      "Ambos responderão por furto, mas João apenas pelo crime tentado, já que não conseguiu consumar o delito.",
+      "João não poderá ser responsabilizado criminalmente, pois não houve consumo do furto em relação à sua conduta.",
+      "Carlos responderá por furto consumado e João por tentativa de furto privilegiado."
+    ], resposta_correta: 1 },
+  { id: "q659", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Caio, policial civil, ingressou com queixa-crime em juízo, por ter sido vítima de determinado crime contra a honra, persequível mediante ação penal de iniciativa privada. Registre-se, contudo, que o juízo competente constatou a ocorrência de situação que dá azo à perempção da ação penal. Nesse cenário, considerando as disposições do Código de Processo Penal, considerar-se-á perempta a ação penal nas situações descritas a seguir, à exceção de uma. Assinale-a.",
+    alternativas: [
+      "Quando, falecendo o querelante, ou sobrevindo sua incapacidade, não comparecer em juízo, para prosseguir no processo, dentro do prazo de trinta dias, qualquer das pessoas a quem couber fazê-lo.",
+      "Quando o querelante deixar de comparecer, sem motivo justificado, a qualquer ato do processo a que deva estar presente.",
+      "Quando, iniciada a ação penal, o querelante deixar de promover o andamento do processo durante trinta dias seguidos.",
+      "Quando o querelante deixar de formular o pedido de condenação nas alegações finais.",
+      "Quando, sendo o querelante pessoa jurídica, esta se extinguir sem deixar sucessor."
+    ], resposta_correta: 0 },
+  { id: "q660", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Após designar a data da sessão plenária de feminicídio que chocou a comunidade local, Guilherme, juiz presidente do Tribunal do Júri da Comarca Alfa, tomou ciência de que o Ministério Público pretende distribuir pedido de desaforamento do julgamento para outra comarca, em razão de dúvidas sobre a segurança pessoal do acusado. Nesse cenário, considerando as disposições do Código de Processo Penal, avalie as afirmativas a seguir e assinale (V) para verdadeira e (F) para falsa. ( ) O pedido de desaforamento será distribuído imediatamente e terá preferência de julgamento por parte do juiz-presidente, exceção de eventuais habeas corpus pendentes de apreciação. ( ) Sendo relevantes os motivos alegados, o juiz-presidente poderá determinar, fundamentadamente, a suspensão do julgamento pelo júri. ( ) O juiz-presidente determinará a oitiva da autoridade policial e demais autoridades locais responsáveis pela segurança pública, sobre a possibilidade de garantir a segurança do acusado. As afirmativas são, respectivamente,",
+    alternativas: [
+      "F – V – F.",
+      "V – F – V.",
+      "F – F – F.",
+      "V – V – V.",
+      "V – F – F."
+    ], resposta_correta: 3 },
+  { id: "q661", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Nos termos do Código de Processo Penal, determinará a competência jurisdicional o lugar da infração, o domicílio ou residência do réu, a natureza da infração, a distribuição, a conexão, a prevenção e a prerrogativa de função. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto afirmar que a competência será determinada pela continência",
+    alternativas: [
+      "se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, ou por várias pessoas em concurso, embora diverso o tempo e o lugar.",
+      "se, no mesmo caso, as infrações houverem sido praticadas para facilitar ou ocultar as outras, ou para conseguir impunidade ou vantagem em relação a qualquer delas.",
+      "se, ocorrendo duas ou mais infrações, houverem sido praticadas, ao mesmo tempo, por várias pessoas reunidas, umas contra as outras.",
+      "quando a prova de uma infração ou de qualquer de suas circunstâncias elementares influir na prova de outra infração.",
+      "quando duas ou mais pessoas forem acusadas pela mesma infração."
+    ], resposta_correta: 4 },
+  { id: "q662", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Após complexa investigação, Matheus, delegado de polícia, indiciou Caio, empresário, Lucas, professor que já exerceu a função de jurado, e Mário, Guarda-Civil do Estado Beta, pela prática de uma série de crimes contra o patrimônio. Registre-se que os três indivíduos são diplomados em Direito pela Universidade Federal Alfa. Em juízo, após a observância do contraditório e da ampla defesa, o juízo competente condenou, definitivamente, Caio, Lucas e Mário a pena final de doze anos de reclusão, em regime inicial fechado. Registre-se, muito embora os apenados tenham respondido ao processo em liberdade, dar-se-á início à execução penal. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto afirmar que",
+    alternativas: [
+      "Caio e Lucas terão direito à prisão especial, mas não Mário.",
+      "Lucas e Mário terão direito à prisão especial, mas não Caio.",
+      "Lucas terá direito à prisão especial, mas não Caio e Mário.",
+      "Caio, Lucas e Mário não terão direito à prisão especial.",
+      "Caio, Lucas e Mário terão direito à prisão especial."
+    ], resposta_correta: 3 },
+  { id: "q663", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Lucas, adolescente em conflito com a lei, e Caio, maior e capaz, foram, respectivamente, apreendido e capturado em flagrante pela Polícia Militar, por terem praticado condutas ilícitas na esfera infracional e penal. Nesse cenário, considerando as disposições da Lei nº 8.069/1990, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Havendo repartição policial especializada para atendimento de adolescente e em se tratando de ato infracional praticado em coautoria com maior, prevalecerá a atribuição da repartição especializada, que, após as providências necessárias e conforme o caso, encaminhará o adulto a repartição policial própria. ( ) Comparecendo qualquer dos pais ou responsável, o adolescente será prontamente liberado pela autoridade policial, sob termo de compromisso e responsabilidade de sua apresentação ao representante do Ministério Público, no mesmo dia ou, sendo impossível, no primeiro dia útil imediato, exceto quando, pela gravidade do ato infracional e sua repercussão social, deva o adolescente permanecer sob internação para garantia de sua segurança pessoal ou manutenção da ordem pública. ( ) Em caso de não liberação, a autoridade policial encaminhará, desde logo, o adolescente à autoridade judiciária, juntamente com cópia do auto de apreensão ou boletim de ocorrência. Contudo, sendo impossível a apresentação imediata, a autoridade policial encaminhará o adolescente à entidade de atendimento, que fará a apresentação à autoridade judiciária no prazo de vinte e quatro horas. As afirmativas são, respectivamente,",
+    alternativas: [
+      "V – F – F.",
+      "F – V – F.",
+      "V – V – F.",
+      "V – V – V.",
+      "V – V – F."
+    ], resposta_correta: 3 },
+  { id: "q664", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Após a conclusão de determinado inquérito policial, Matheus, delegado de polícia, indiciou Caio pela prática do crime de roubo circunstanciado. O Ministério Público, em seguida, ofereceu denúncia em face do agente, a qual foi recebida pelo juízo competente. Determinada a citação do acusado, o oficial de justiça verificou que ele se oculta para não ser citado. Nesse cenário, considerando as disposições do Código de Processo Penal, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Verificando que o réu Caio se oculta para não ser citado, o oficial de justiça certificará a ocorrência e procederá à citação por edital. ( ) Completada a citação por edital de Caio, que vinha se ocultando para não ser citado, ser-lhe-á nomeado defensor dativo. ( ) O processo terá completada a sua formação quando realizada a citação do acusado. As afirmativas são, respectivamente,",
+    alternativas: [
+      "F – V – F.",
+      "V – V – V.",
+      "F – V – V.",
+      "F – F – V.",
+      "V – F – V."
+    ], resposta_correta: 2 },
+  { id: "q665", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "João, Delegado de Polícia, preside complexa investigação. Com efeito, a autoridade policial pretende representar, em juízo, pela captação ambiental de sinais eletromagnéticos, de forma a auxiliar a elucidação das empreitadas criminosas. De acordo com a narrativa e considerando as disposições da Lei nº 9.296/1996, analise as afirmativas a seguir. I. Para que a captação ambiental de sinais eletromagnéticos seja cabível, é necessário que a autoridade policial demonstre que a prova não pode ser feita por outros meios disponíveis e igualmente eficazes e que existem elementos probatórios razoáveis de autoria e participação em infrações criminais puníveis com reclusão; II. A captação ambiental não poderá exceder o prazo de quinze dias, renovável por decisão judicial por iguais períodos, se comprovada a indispensabilidade do meio de prova e quando presente atividade criminal permanente, habitual ou continuada; III. A instalação do dispositivo de captação ambiental deverá ser realizada por meio de operação policial disfarçada, no período diurno, exceto na casa, quando poderá ocorrer no período noturno. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 4 },
+  { id: "q666", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Lucas, testemunha de determinado crime perpetrado pela organização criminosa XYZ, está em frequente contato com a autoridade policial. Temeroso com eventuais retaliações, caso preste depoimento em sede distrital e em juízo, Lucas buscou esclarecimentos, junto ao Delegado de Polícia, sobre o programa de proteção de testemunhas. Nesse cenário, considerando as disposições da Lei nº 9.807/1999, os programas compreendem, dentre outras, as medidas a seguir, aplicáveis em benefício da pessoa protegida, à exceção de uma. Assinale-a.",
+    alternativas: [
+      "Suspensão temporária das atividades funcionais, sem prejuízo dos respectivos vencimentos ou vantagens, quando servidor público ou militar.",
+      "Escolta e segurança nos deslocamentos da residência, inclusive para fins de trabalho ou para a prestação de depoimentos.",
+      "Transferência de residência ou acomodação provisória em local compatível com a proteção.",
+      "Segurança na residência, incluindo o controle de telecomunicações.",
+      "Apoio e assistência financeira, social, médica, psicológica e odontológica."
+    ], resposta_correta: 3 },
+  { id: "q667", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Após tomar posse no cargo de Delegado de Polícia, Lucas participou, na qualidade de ouvinte, de palestra versando sobre as investigações criminais conduzidas pela Polícia Civil. Nesse cenário, considerando as disposições da Lei nº 12.830/2013, avalie as afirmativas a seguir e assinale (V) para verdadeira e (F) para falsa. ( ) O inquérito policial ou outro procedimento previsto em lei em curso poderá ser avocado por superior hierárquico, com base na hierarquia e disciplina que rege a Polícia Civil, dispensando-se fundamentação exaustiva. ( ) O indiciamento, exclusivo dos policiais civis, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias. ( ) O cargo de delegado de polícia é privativo de bacharel em Direito, devendo-lhe ser dispensado o mesmo tratamento protocolar que recebem os magistrados, os membros da Defensoria Pública e do Ministério Público e os advogados. As afirmativas são, respectivamente,",
+    alternativas: [
+      "F – V – F.",
+      "V – V – V.",
+      "F – F – V.",
+      "F – F – F.",
+      "V – V – F."
+    ], resposta_correta: 2 },
+  { id: "q668", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Caio, membro da organização criminosa Alfa, está em tratativas avançadas para firmar acordo de colaboração premiada com as autoridades competentes. Em assim sendo, o colaborador foi informado de que o pedido de homologação do acordo será sigilosamente distribuído, contendo apenas informações que não possam identificá-lo e o seu objeto. De acordo com a narrativa e considerando as disposições da Lei nº 12.850/2013, analise as afirmativas a seguir. I. As informações pormenorizadas da colaboração serão dirigidas diretamente ao juiz que recair a distribuição, que decidirá no prazo de quarenta e oito horas; II. O acesso aos autos será restrito ao juiz, ao Ministério Público e ao delegado de polícia, como forma de garantir o êxito das investigações, assegurando-se ao defensor, no interesse do representado, amplo acesso aos elementos de prova que digam respeito ao exercício do direito de defesa, devidamente precedido de autorização judicial, ressalvados os referentes às diligências em andamento; III. O acordo de colaboração premiada e os depoimentos do colaborador serão mantidos em sigilo até o oferecimento da denúncia, sendo vedado ao magistrado decidir por sua publicidade. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I, II e III."
+    ], resposta_correta: 1 },
+  { id: "q669", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Caio, delegado de polícia, representou pela decretação da prisão temporária de Lucas. Para tanto, argumentou-se que a segregação cautelar seria imprescindível para as investigações do inquérito policial e demonstrou-se a existência de fundadas razões de autoria do indiciado em um determinado crime. Nesse cenário, considerando as disposições da Lei nº 7.960/1989, é correto afirmar que Lucas praticou o crime de",
+    alternativas: [
+      "porte ilegal de arma de fogo de uso permitido, sendo certo que o mandado de prisão conterá necessariamente o período de duração da prisão temporária, bem como o dia em que o preso deverá ser libertado.",
+      "cárcere privado, sendo certo que o mandado de prisão conterá necessariamente o período de duração da prisão temporária, bem como o dia em que o preso deverá ser libertado.",
+      "corrupção passiva, sendo certo que o mandado de prisão conterá necessariamente o período de duração da prisão temporária, bem como o dia em que o preso deverá ser libertado.",
+      "corrupção passiva, sendo certo que o mandado de prisão poderá conter o período de duração da prisão temporária, bem como o dia em que o preso deverá ser libertado.",
+      "cárcere privado, sendo certo que o mandado de prisão poderá conter o período de duração da prisão temporária, bem como o dia em que o preso deverá ser libertado."
+    ], resposta_correta: 1 },
+  { id: "q670", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A Lei Maria da Penha criou mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher, nos termos da Constituição Federal, da Convenção sobre a Eliminação de Todas as Formas de Violência contra a Mulher, da Convenção Interamericana para Prevenir, Punir e Erradicar a Violência contra a Mulher e de outros tratados internacionais ratificados pela República Federativa do Brasil. Nesse cenário, considerando as disposições da Lei nº 11.340/2006, a política pública que visa coibir a violência doméstica e familiar contra a mulher far-se-á por meio de um conjunto articulado de ações da União, dos Estados, do Distrito Federal e dos Municípios e de ações não-governamentais, tendo as seguintes diretrizes, à exceção de uma. Assinale-a.",
+    alternativas: [
+      "A promoção de estudos e pesquisas, estatísticas e outras informações relevantes, com a perspectiva de gênero e de raça ou etnia, concernentes às causas, às consequências e à frequência da violência doméstica e familiar contra a mulher, para a sistematização de dados, a serem unificados nacionalmente, e a avaliação periódica dos resultados das medidas adotadas.",
+      "A celebração de convênios, protocolos, ajustes, termos ou outros instrumentos de promoção de parceria entre órgãos governamentais ou entre estes e entidades não governamentais, tendo por objetivo a implementação de programas de erradicação da violência doméstica e familiar contra a mulher.",
+      "O destaque, facultativo no currículo escolar do ensino fundamental e obrigatório no currículo escolar do ensino médio, para os conteúdos relativos aos direitos humanos, à equidade de gênero e de raça ou etnia e ao problema da violência doméstica e familiar contra a mulher.",
+      "A integração operacional do Poder Judiciário, do Ministério Público e da Defensoria Pública com áreas de segurança pública, assistência social, saúde, educação, trabalho e habitação.",
+      "A implementação de atendimento policial especializado para as mulheres, em particular nas Delegacias de Atendimento à Mulher."
+    ], resposta_correta: 2 },
+  { id: "q671", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Guilherme, Juiz de Direito, Presidente do Tribunal do Júri da Comarca Alfa, designou sessão plenária para o dia 03.02.2026, no âmbito da qual Caio, Lucas e João serão submetidos a julgamento pela prática de cinco homicídios qualificados tentados, praticados em detrimento de cinco policiais civis que incursionaram em uma determinada comunidade. Registre-se que cada um dos três acusados possui advogados distintos. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto afirmar que, durante os debates, o tempo destinado à acusação e à defesa será de",
+    alternativas: [
+      "duas horas e meia para cada, além de duas horas para a réplica e mais duas horas para a tréplica. Registre-se que, como há mais de um defensor, eles combinarão entre si a distribuição do tempo, que, na falta de acordo, será dividido pelo juiz presidente.",
+      "duas horas e meia para cada, além de uma hora para a réplica e mais uma hora para a tréplica. Registre-se que, como há mais de um defensor, eles combinarão entre si a distribuição do tempo, que, na falta de acordo, será dividido pelo juiz presidente.",
+      "uma hora e meia para cada, além de uma hora para a réplica e mais uma hora para a tréplica. Registre-se que, como há mais de um defensor, eles combinarão entre si a distribuição do tempo, que, na falta de acordo, será dividido pelo juiz presidente.",
+      "duas horas e meia para cada, além de duas horas para a réplica e mais duas horas para a tréplica. Registre-se que, como há mais de um defensor, caberá ao juiz-presidente proceder à divisão do tempo entre eles.",
+      "uma hora e meia para cada, além de uma hora para a réplica e mais uma hora para a tréplica. Registre-se que, como há mais de um defensor, caberá ao juiz-presidente proceder à divisão do tempo entre eles."
+    ], resposta_correta: 0 },
+  { id: "q672", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A respeito do início e da extinção da personalidade civil das pessoas naturais e jurídicas, à luz do Código Civil e da doutrina majoritária, assinale a opção correta.",
+    alternativas: [
+      "A personalidade civil da pessoa natural tem início com a concepção, momento a partir do qual o nascituro adquire plena capacidade civil, podendo exercer direitos patrimoniais e pessoais.",
+      "A existência legal da pessoa jurídica começa com a assinatura do ato constitutivo pelos sócios fundadores, independentemente de seu registro, desde que haja início efetivo da atividade econômica.",
+      "A extinção da pessoa jurídica somente se aperfeiçoa com o encerramento total de suas atividades, sendo o cancelamento do registro público ato meramente declaratório, que não possui efeitos jurídicos relevantes.",
+      "A personalidade civil da pessoa natural extingue-se com a morte, mas os efeitos patrimoniais e existenciais de sua personalidade podem, em hipóteses expressas em lei, projetar-se após o óbito, como ocorre com os direitos de personalidade e com a proteção à memória e imagem do falecido.",
+      "A dissolução da pessoa jurídica, ainda que regularmente registrada no órgão competente, não extingue sua personalidade enquanto houver obrigações pendentes, sendo possível a prática de atos jurídicos em nome da sociedade dissolvida para fins de cumprimento de responsabilidades residuais, inclusive tributárias."
+    ], resposta_correta: 3 },
+  { id: "q673", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A empresa Piquiri Participações Holding S.A. é controladora de quatro sociedades empresárias: Alexandria Transportadora Ltda.; Tech Beautiful Future Ltda.; Blue Energia S.A. e Exportadora Urubu Ltda. O grupo atua de forma altamente integrada: todas as empresas mantêm mesma sede física, utilizam contabilidade unificada e movimentam recursos por meio de conta bancária corporativa única, embora possuam CNPJs distintos. Blue Energia S.A. foi condenada judicialmente, já transitada em julgado, ao pagamento de R$ 10.000.000,00 à fornecedora KF Transmissores Ltda., encontrando-se inadimplente e com patrimônio líquido negativo. A credora requer a desconsideração da personalidade jurídica para alcançar o patrimônio da holding controladora e das demais sociedades coligadas, alegando confusão patrimonial sistêmica, além de distribuição interna de dividendos sem critérios objetivos entre as controladas. Não há indícios de ocultação dolosa de bens em nome de sócios ou terceiros. Considerando o Código Civil, assinale a opção correta.",
+    alternativas: [
+      "A desconsideração é vedada, pois o Código Civil proíbe a medida sempre que se pretender atingir a controladora ou sociedades coligadas, ainda que exista confusão patrimonial.",
+      "A desconsideração pode ser aplicada automaticamente a todas as integrantes do grupo, pois a existência do grupo econômico com a inadimplência das obrigações é suficiente para responsabilização solidária.",
+      "A desconsideração pode alcançar a controladora e as demais sociedades do grupo, desde que haja prova efetiva de abuso da personalidade, com demonstração autônoma do abuso em relação a cada pessoa jurídica.",
+      "A mera comprovação da sede comum autoriza a desconsideração, independentemente de prova de abuso da personalidade jurídica ou confusão patrimonial específica.",
+      "A desconsideração é cabível, mas exige a comprovação de ato doloso praticado por todas as administradoras, sócios e empresas que se pretenda atingir, não bastando a confusão patrimonial constatada."
+    ], resposta_correta: 2 },
+  { id: "q674", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Benjamim, renomado cirurgião, foi denunciado criminalmente por lesão corporal culposa em razão de suposto erro médico ocorrido durante cirurgia de alto risco. Paralelamente, a paciente Charlote ajuizou ação de indenização por danos morais e materiais contra o médico e contra o Hospital Algo Mais S.A., alegando falha no procedimento e no dever de vigilância da equipe hospitalar. No processo criminal, a prova pericial foi considerada inconclusiva quanto ao nexo causal entre a conduta do médico e a complicação pós-operatória. Diante da dúvida probatória, o juízo penal absolveu o réu, com fundamento no princípio in dubio pro reo, decisão que transitou em julgado. Na ação civil, o hospital sustentou a extinção do processo, sob o argumento de que a absolvição criminal impede a análise da responsabilidade civil de todos os demandados, em razão da coisa julgada penal. Considerando o Código Civil, a jurisprudência dos tribunais superiores e a natureza das instâncias, assinale a opção correta acerca dos reflexos civis do desfecho criminal em relação ao hospital demandado.",
+    alternativas: [
+      "A sentença penal absolutória impede o prosseguimento da ação civil, o que se estende ao hospital por acessoriedade da responsabilidade médica.",
+      "A absolvição criminal por insuficiência de provas quanto ao nexo causal não impede a ação civil em face do hospital, pois a responsabilidade civil da instituição hospitalar pode fundar-se em falha própria do serviço, apurável em juízo com padrão probatório distinto do penal.",
+      "A independência entre as instâncias impede qualquer vinculação entre os juízos, razão pela qual a sentença penal jamais poderia sequer ser considerada no juízo cível.",
+      "A absolvição criminal impede a indenização civil apenas em relação ao médico, não ao hospital, pois a responsabilidade da instituição é sempre objetiva e independe de qualquer nexo causal.",
+      "A coisa julgada criminal impede o reexame do fato na esfera cível sempre que houver identidade de partes, o que obsta o prosseguimento da ação também em relação ao hospital."
+    ], resposta_correta: 1 },
+  { id: "q675", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A empresa Lira Ltda. devia R$ 20.000,00 à Escola Beta por contrato escrito, sem cláusula proibitiva de cessão. A Escola cedeu o crédito ao FIDC Ônix por instrumento particular, sem observar as formalidades exigidas por lei. A empresa Lira não foi notificada da cessão e pagou R$ 5.000,00 à Escola Beta. Dias depois, o FIDC ajuizou ação de cobrança e a Lira foi citada. A Lira pretende (i) reconhecer efeito liberatório do pagamento parcial à Escola Beta; (ii) opor desconto previamente ajustado com a Escola Beta; e (iii) alegar que a cessão é inválida por falta de forma. À luz do CC/2002 e da jurisprudência aplicável, assinale a opção correta.",
+    alternativas: [
+      "A cessão é inválida entre as partes por inobservância das formalidades de que trata o art. 288, razão pela qual o FIDC não pode cobrar o crédito.",
+      "O pagamento de R$ 5.000,00 ao cedente é ineficaz porque a cessão produz efeitos perante o devedor independentemente de notificação.",
+      "O pagamento parcial ao cedente, feito antes do conhecimento da cessão, é liberatório nessa quantia; e o devedor pode opor ao cessionário as exceções que tinha contra o cedente quando tomou ciência da cessão.",
+      "A ausência de cláusula proibitiva torna a cessão inoponível ao devedor até averbação em cartório competente; sem essa averbação, o FIDC não pode sequer propor a ação.",
+      "Como a cessão não observou as formalidades do art. 654, §1º, ela é ineficaz perante todos, inclusive o devedor, que pode exigir sua anulação."
+    ], resposta_correta: 2 },
+  { id: "q676", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "Carla e Daniel foram casados por cinco anos e se divorciaram em 2020. Em 2023, Carla iniciou relacionamento com Eduardo, pai de Daniel, e o casal requereu habilitação para casamento no cartório. O oficial suscitou dúvida registral, apontando eventual impedimento matrimonial. No mesmo período, Júlia, irmã de Daniel, manteve laços de afeto e cuidado com Miguel, filho de sua sobrinho. Meses depois, Pedro, enteado de Carla em sua antiga união estável anterior a Daniel, teve judicialmente reconhecida a filiação socioafetiva com o padrasto João. Com base na legislação civil, assinale a opção correta.",
+    alternativas: [
+      "Não há impedimento para o casamento entre Carla e Eduardo, porque a afinidade desaparece com o divórcio entre Carla e Daniel.",
+      "Há impedimento para o casamento entre Carla e Eduardo, mas ele é anulável, pois depende de provocação e prazo decadencial.",
+      "É nulo o casamento entre Carla e Eduardo, pois a afinidade em linha reta não se extingue com a dissolução do casamento anterior, configurando impedimento entre afins em linha reta.",
+      "A afinidade entre Carla e Júlia (irmã de Daniel) também não se extingue com o divórcio, subsistindo para todos os efeitos.",
+      "O reconhecimento judicial da filiação socioafetiva de João com Pedro não gera parentesco civil, porque o art. 1.593 só admite parentesco por consanguinidade ou adoção."
+    ], resposta_correta: 2 },
+  { id: "q677", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Polícia Civil do Estado do Piauí (PCPI), Delegado de Polícia Civil — 2025",
+    enunciado: "A varejista TechPlus veiculou, em redes sociais e em seu site, anúncio suficientemente preciso de um notebook 16 GB RAM, por R$ 3.000, com garantia estendida grátis. Ao finalizar a compra, o consumidor recebeu equipamento com 8 GB e sem a garantia adicional. Ao reclamar, foi orientado a ligar para o call center, quando foi informado de que a postagem em rede social era 'publicidade meramente ilustrativa', não havendo possibilidade de substituição do produto. À luz do Código de Defesa do Consumidor, assinale a opção correta acerca da natureza jurídica do vício apresentado e da consequência contratual da divergência entre o anunciado e o entregue.",
+    alternativas: [
+      "A postagem em rede social não integra a oferta, pois é mera publicidade; assim, a TechPlus pode cumprir apenas o anúncio do site, sem se vincular às especificações e à garantia divulgadas nas redes sociais.",
+      "O caso é de vício do produto solucionável exclusivamente por assistência técnica, não cabendo exigir substituição ou garantia estendida, já que não houve negativa de venda nem propaganda enganosa.",
+      "A vinculação publicitária restringe-se ao preço anunciado; características técnicas e garantia estendida são meros atrativos que não obrigam o fornecedor ao cumprimento forçado.",
+      "A oferta suficientemente precisa, veiculada em qualquer meio de comunicação, obriga o fornecedor e integra o contrato celebrado; diante do descumprimento, o consumidor pode exigir o cumprimento forçado da obrigação, nos termos do que foi anunciado.",
+      "A ausência de garantia estendida não gera consequência contratual relevante; benefícios gratuitos ficam ao arbítrio do fornecedor e não são alcançados pelas regras de oferta do CDC."
+    ], resposta_correta: 3 }
+  ,
+  { id: "q678", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "A Constituição da República dispôs sobre a existência de um direito fundamental de segunda dimensão, em norma de eficácia contida e aplicabilidade imediata, que foi objeto da Lei Estadual nº Y (LEY), que não permitiu a sua fruição por Joana. Em momento posterior, foi promulgada a Emenda Constitucional nº W (ECW), que inseriu na ordem constitucional norma de eficácia limitada e princípio programático incompatível com a LEY. Na situação descrita, é correto afirmar que:",
+    alternativas: [
+      "a LEY não foi recepcionada, logo, Joana pode fruir o direito.",
+      "a norma introduzida pela ECW carece de regulamentação que integre a sua eficácia, logo Joana não pode fruir o direito.",
+      "a norma constitucional originária ficou sem regulamentação com a não recepção da LEY, logo Joana não pode fruir o direito.",
+      "a norma introduzida pela ECW não afetou a sistemática constitucional aplicável à situação de Joana, que permanece inalterada.",
+      "a LEY continua em vigor até ser revogada por outra lei, logo a situação de Joana continua regida pelo conjunto normativo também integrado pela norma constitucional originária."
+    ], resposta_correta: 0 },
+  { id: "q679", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Ao apresentar o seu voto, em um processo administrativo em tramitação no âmbito do Tribunal de Contas do Estado Alfa, o Conselheiro relator sustentou que a interpretação de determinado preceito constitucional, que deveria influir na identificação da juridicidade dos atos praticados pelo gestor, deveria ser influenciada pelas vicissitudes do ambiente sociopolítico, de modo que não deve ser reconhecida uma correspondência biunívoca entre significante interpretado e significado normativo. No curso da atividade intelectiva conduzida pelo intérprete, no momento da resolução das conflitualidades intrínsecas de cunho linguístico, a preterição de alguns significados harmônicos com o significante interpretado, optando-se por outro juridicamente harmônico, mostra-se legítima e compatível com a sociedade aberta dos intérpretes da Constituição. Considerando a situação descrita, é correto afirmar que a linha argumentativa apresentada pelo intérprete é:",
+    alternativas: [
+      "incompatível com a tópica pura.",
+      "compatível com o realismo jurídico.",
+      "compatível com as construções originalistas.",
+      "incompatível com o pensamento problemático.",
+      "incompatível com a declaração parcial de inconstitucionalidade sem redução de texto."
+    ], resposta_correta: 0 },
+  { id: "q680", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "O Tribunal de Contas de determinado ente federativo encaminhou projeto de lei ao Poder Legislativo dispondo sobre o exercício de poder cautelar por parte desse Tribunal. A primeira medida prevista no projeto consiste na possibilidade de ser decretada constrição patrimonial por prazo não superior a um ano. A segunda medida prevista no projeto autoriza a desconsideração da personalidade jurídica, de modo que as cautelares possam alcançar os administradores das pessoas jurídicas que tenham celebrado ajustes considerados ilícitos e lesivos ao erário. Por fim, a terceira medida prevê a possibilidade de as cautelares serem adotadas inaudita altera pars, de modo a assegurar a sua efetividade, sem prejuízo da ulterior e plena observância das garantias constitucionais. Ao analisar o projeto, a Comissão de Constituição e Justiça da Casa Legislativa concluiu corretamente, na perspectiva da conformidade constitucional, que:",
+    alternativas: [
+      "as três medidas são constitucionais.",
+      "apenas a primeira medida é constitucional.",
+      "apenas a segunda medida é constitucional.",
+      "apenas a primeira e a terceira medidas são constitucionais.",
+      "apenas a primeira e a segunda medidas são constitucionais."
+    ], resposta_correta: 0 },
+  { id: "q681", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Determinada Comissão Parlamentar de Inquérito (CPI) em atuação no âmbito da Assembleia Legislativa do Estado Alfa foi instalada com o objetivo de identificar as razões do não pagamento de dívida fundada, no exercício financeiro anterior, sem motivo de força maior, e os desvios de recursos públicos que estariam associados a esses acontecimentos. Em sua reunião inicial, a CPI deliberou, de forma fundamentada, pela adoção das seguintes medidas: I. convocação do Procurador-Geral de Justiça, para que esclareça as medidas adotadas em relação ao objeto de apuração; II. quebra do sigilo bancário de agentes públicos e privados diretamente envolvidos nos fatos descritos; e III. interceptação telefônica dos agentes públicos diretamente envolvidos nos fatos descritos. Essas medidas resultaram em grande resistência dos agentes aos quais eram direcionadas, que alegavam sua inconstitucionalidade. Considerando os balizamentos estabelecidos na Constituição da República, é correto afirmar, em relação às três medidas adotadas, que:",
+    alternativas: [
+      "todas são constitucionais.",
+      "apenas a medida I é constitucional.",
+      "apenas a medida II é constitucional.",
+      "apenas as medidas I e III são constitucionais.",
+      "apenas as medidas II e III são constitucionais."
+    ], resposta_correta: 2 },
+  { id: "q682", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Após preencher os requisitos estabelecidos pela ordem jurídica vigente, Maria, ocupante apenas de cargo de provimento em comissão no âmbito do Município Delta, teve deferida a sua aposentadoria voluntária pela estrutura de poder competente. Passados alguns anos e preocupada com a possibilidade de o Tribunal de Contas detectar alguma irregularidade no ato de aposentadoria, com risco para a continuidade da percepção dos seus proventos, Maria consultou um especialista na matéria. Foi corretamente esclarecido a Maria que o Tribunal de Contas:",
+    alternativas: [
+      "não tem competência para apreciar o ato de aposentadoria para fins de registro.",
+      "deve apreciar o ato de aposentadoria no prazo de cinco anos, a contar da sua aposentadoria, caso contrário, o ato se tornará imutável.",
+      "deve apreciar o ato de aposentadoria no prazo de cinco anos, a contar do ingresso do processo administrativo no Tribunal, caso contrário, o ato se tornará imutável.",
+      "deve apreciar o ato de aposentadoria no prazo de cinco anos, a contar da sua expedição, caso contrário, devem ser observadas as garantias do contraditório e da ampla defesa para que o registro seja negado.",
+      "deve apreciar o ato de aposentadoria no prazo de cinco anos, a contar do ingresso do processo administrativo no Tribunal, caso contrário, devem ser observadas as garantias do contraditório e da ampla defesa para que o registro seja negado."
+    ], resposta_correta: 0 },
+  { id: "q683", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Ao cumprir o feixe de atribuições previstas no ordenamento jurídico, o Tribunal de Contas do Estado de Pernambuco, por meio de auditores de controle externo, procedeu à fiscalização da atuação da Secretaria de Saúde do Município Alfa e da autarquia Mais Saúde, no âmbito do Município Beta. Nesse cenário, considerando os entendimentos doutrinário e jurisprudencial dominantes, é correto afirmar que a:",
+    alternativas: [
+      "Secretaria de Saúde do Município Alfa é manifestação da descentralização administrativa. Lado outro, a autarquia Mais Saúde não é proveniente da desconcentração, tampouco da descentralização administrativa.",
+      "Secretaria de Saúde do Município Alfa é manifestação da desconcentração administrativa. Lado outro, a autarquia Mais Saúde é proveniente da descentralização administrativa.",
+      "Secretaria de Saúde do Município Alfa é manifestação da descentralização administrativa. Lado outro, a autarquia Mais Saúde é proveniente da desconcentração administrativa.",
+      "Secretaria de Saúde do Município Alfa e a autarquia Mais Saúde são manifestações da desconcentração administrativa.",
+      "Secretaria de Saúde do Município Alfa e a autarquia Mais Saúde são manifestações da descentralização administrativa."
+    ], resposta_correta: 1 },
+  { id: "q684", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "O Município Alfa pretende publicar edital de licitação visando à aquisição de insumos de saúde para abastecer a rede local de hospitais, implementando os direitos fundamentais insculpidos no texto constitucional. De acordo com a narrativa, e considerando as disposições da Lei nº 14.133/2021, analise as afirmativas a seguir. I. O desatendimento de exigências meramente formais que não comprometam a aferição da qualificação do licitante ou a compreensão do conteúdo de sua proposta não importará seu afastamento da licitação ou a invalidação do processo. II. A prova de autenticidade de cópia de documento público ou particular poderá ser feita perante agente da Administração, mediante apresentação do original ou da declaração de autenticidade firmada pelo advogado, sob sua responsabilidade pessoal. III. Os atos serão preferencialmente digitais, de forma a permitir que sejam produzidos, comunicados, armazenados e validados por meio eletrônico. É correto afirmar que, no processo licitatório, observar-se-á o que se afirma em:",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 4 },
+  { id: "q685", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Durante a construção de um novo hospital público, Caio, servidor no Município Alfa, Estado de Pernambuco, liberou, dolosamente, verba pública sem a estrita observância das normas pertinentes, dando causa a lesividade relevante ao bem jurídico tutelado. Registre-se que os fatos chegaram ao conhecimento do Tribunal de Contas estadual. De acordo com a narrativa, e considerando as disposições da Lei nº 8.429/1992, analise as afirmativas a seguir. I. Caio responderá pela prática de ato de improbidade administrativa que causa prejuízo ao erário. II. Em caso de condenação, Caio terá a suspensão dos direitos políticos por até catorze anos, pagará multa civil equivalente ao valor do dano e estará sujeito à proibição de contratar com o poder público ou de receber benefícios ou incentivos fiscais ou creditícios, direta ou indiretamente, ainda que por intermédio de pessoa jurídica da qual seja sócio majoritário, pelo prazo não superior a catorze anos. III. A ação para a aplicação das sanções previstas na Lei de Improbidade Administrativa em detrimento de Caio prescreve em quatro anos, contados a partir da ocorrência do fato. Está correto o que se afirma em:",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 0 },
+  { id: "q686", tema: "Direito Administrativo", dificuldade: "facil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "José, Secretário do Município Alfa, no Estado de Pernambuco, tinha audiência marcada com auditores externos do Tribunal de Contas estadual. Ao conduzir o seu veículo automotor até o local da reunião, José, em excesso de velocidade, acabou por ser multado por um radar devidamente sinalizado e em funcionamento. Nesse cenário, considerando o entendimento doutrinário dominante e a jurisprudência consolidada do Supremo Tribunal Federal, a multa de trânsito é uma manifestação do poder de(o):",
+    alternativas: [
+      "disciplinar, sendo certo que o seu exercício não pode ser delegado a pessoas jurídicas de direito privado integrantes da Administração Indireta.",
+      "hierárquico, sendo certo que o seu exercício pode ser delegado a pessoas jurídicas de direito privado integrantes da Administração Indireta.",
+      "disciplinar, sendo certo que o seu exercício pode ser delegado a pessoas jurídicas de direito privado integrantes da Administração Indireta.",
+      "polícia, sendo certo que o seu exercício não pode ser delegado a pessoas jurídicas de direito privado integrantes da Administração Indireta.",
+      "polícia, sendo certo que o seu exercício pode ser delegado a pessoas jurídicas de direito privado integrantes da Administração Indireta."
+    ], resposta_correta: 4 },
+  { id: "q687", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "O Estado de Pernambuco publicou edital de licitação visando à celebração de contrato administrativo de concessão de serviço público. Interessada em participar do referido processo licitatório, a sociedade empresária Emprega Mais, por meio dos seus representantes legais, buscou maiores informações sobre os regramentos aplicáveis à futura avença. Nesse cenário, considerando as disposições da Lei nº 8.987/1995, avalie as afirmativas a seguir e assinale (V) para verdadeira e (F) para falsa. ( ) Incumbe à concessionária a execução do serviço concedido, cabendo-lhe responder por todos os prejuízos causados ao poder concedente, aos usuários ou a terceiros, sem que a fiscalização exercida pelo órgão competente exclua ou atenue essa responsabilidade. ( ) É admitida a subconcessão, nos termos previstos no contrato de concessão, desde que expressamente autorizada pelo poder concedente. ( ) A outorga de subconcessão será facultativamente precedida de concorrência. As afirmativas são, respectivamente,",
+    alternativas: [
+      "V– V – V.",
+      "V – V – F.",
+      "F – V – F.",
+      "V – F – V.",
+      "F – F – V."
+    ], resposta_correta: 1 },
+  { id: "q688", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Em 10 de março de 2018, Ana, Beatriz e Carla assinaram um contrato de empréstimo com a instituição financeira Zeta S/A no valor de R$ 300.000,00, comprometendo-se a pagar o montante em conjunto e solidariamente. O contrato foi garantido por fiança prestada por Daniel, irmão de Ana, que se obrigou como fiador e principal pagador, sem qualquer cláusula de renúncia ao benefício de ordem. O contrato previa vencimento único para 10 de março de 2019. O pagamento não foi realizado. Em 8 de março de 2021, a instituição credora ingressou com ação judicial apenas contra Carla, uma das devedoras solidárias. Diante desse cenário, considerando as regras de prescrição previstas no Código Civil e a interpretação jurisprudencial do Superior Tribunal de Justiça, assinale a opção correta.",
+    alternativas: [
+      "A interrupção da prescrição ocorrida na ação contra Carla não envolve Beatriz nem prejudica Daniel, pois, como não foram citados na ação, o prazo prescricional continuou a correr em relação a ambos.",
+      "A interrupção da prescrição contra Carla envolve Beatriz, por se tratar de obrigação solidária, mas não prejudica Daniel, pois a interrupção da prescrição só atinge o fiador se citado diretamente na demanda.",
+      "A interrupção da prescrição contra Carla não envolve Beatriz, por se tratar de pessoa distinta e não ter havido citação contra ela, mas prejudica Daniel, pois a interrupção contra um devedor solidário atinge o fiador.",
+      "A interrupção da prescrição contra Carla envolve Beatriz, por força da solidariedade, e prejudica Daniel, fiador, independentemente de citação direta desses sujeitos.",
+      "A interrupção da prescrição contra Carla só poderia envolver Beatriz e prejudicar Daniel se ambos tivessem sido citados na mesma ação judicial, pois, na ausência de litisconsórcio, cada coobrigado responde isoladamente."
+    ], resposta_correta: 3 },
+  { id: "q689", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Túlio, ciclista amador, pedalava em via pública de zona rural aberta ao tráfego, quando foi surpreendido por um cavalo solto que cruzou a estrada inesperadamente, provocando sua queda. Túlio sofreu fraturas no braço e na clavícula, ficando afastado do trabalho por 60 dias. Após investigação, verificou-se que o cavalo pertencia a um pequeno produtor rural da região, Sr. Olavo, cujo terreno é contíguo à estrada. A cerca de propriedade apresentava trechos danificados, permitindo a fuga dos animais. O Sr. Olavo alegou em sua defesa que desconhecia o defeito na cerca e que o animal nunca havia fugido antes, acrescentando que o acidente só ocorreu porque Túlio trafegava em alta velocidade e não conseguiu frear a tempo. Diante da situação hipotética e com base na legislação aplicável, assinale a afirmativa correta.",
+    alternativas: [
+      "A responsabilidade do dono do animal depende da prova de culpa, e, no caso, a ausência de dolo ou negligência por parte do Sr. Olavo rompe o nexo de causalidade e afasta o dever de indenizar.",
+      "A responsabilidade objetiva do Sr. Olavo está afastada porque o animal agiu por impulso instintivo e o acidente se deu em via pública, rompendo o nexo causal entre sua conduta e o dano sofrido.",
+      "A responsabilidade do Sr. Olavo decorre do risco inerente à guarda do animal, e ele somente será exonerado do dever de indenizar se provar que o acidente ocorreu por culpa exclusiva da vítima ou força maior.",
+      "A conduta do ciclista em trafegar em alta velocidade configura culpa concorrente, o que, de acordo com a legislação civil, elimina o dever de indenizar por ausência de nexo de causalidade.",
+      "Como não houve conduta omissiva direta do Sr. Olavo e o dano foi causado por ato autônomo do animal, o risco da atividade é afastado, não se configurando responsabilidade objetiva."
+    ], resposta_correta: 2 },
+  { id: "q690", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Roberta, comerciante individual, contraiu Covid-19 em 2022 e apresentou complicações graves. Durante a internação, os médicos alertaram a família de que ela necessitava com urgência de um medicamento de alto custo que não estava disponível no SUS. Diante da situação crítica, Roberta, sob forte abalo emocional, firmou contrato particular com Leandro, seu vizinho, no qual se comprometeu a transferir a ele um imóvel avaliado em R$ 600.000,00 em troca do pagamento imediato de R$ 100.000,00 pelo medicamento. A transação foi formalizada por escritura pública no cartório, ainda durante o período de internação. Após a recuperação e retorno às suas atividades, Roberta, com o auxílio de advogado, ajuizou ação para anular o negócio jurídico, alegando que agiu em estado de perigo, e que Leandro se aproveitou da situação extrema para obter vantagem manifestamente excessiva. A ação foi proposta quase cinco anos após a celebração do contrato, e Leandro alegou em contestação que o prazo para anular o negócio havia se encerrado. Com base na legislação aplicável, assinale a afirmativa correta.",
+    alternativas: [
+      "A ação de anulação do negócio jurídico é imprescritível, pois o vício decorre do estado de necessidade, o que justifica a sua revisão a qualquer tempo.",
+      "O contrato é nulo de pleno direito, pois o estado de perigo afeta a validade do negócio jurídico, tornando-o inexistente.",
+      "A validade do contrato não pode ser questionada, pois Roberta agiu com autonomia e consciência, e a situação de risco não interfere na formação válida da vontade negocial.",
+      "O contrato é anulável, mas o prazo decadencial para ajuizar a ação é de dois anos, e a ação foi proposta dentro desse prazo.",
+      "A ação de anulação do contrato deve ser julgada improcedente, pois, mesmo havendo estado de perigo, o prazo decadencial de quatro anos para propositura da ação foi ultrapassado."
+    ], resposta_correta: 4 },
+  { id: "q691", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Tatiana, Rodrigo e Soraia, estudiosos do Direito Processual, debatiam a respeito da coisa julgada. Tatiana, inicialmente, aduziu que a coisa julgada material consiste na autoridade que torna imutável e indiscutível a decisão de mérito, não estando mais sujeita a recurso. Em seguida, Rodrigo afirmou que os motivos, ainda que importantes para determinar o alcance da parte dispositiva da sentença, não fazem coisa julgada. Por fim, Soraia indicou que a sentença faz coisa julgada às partes entre as quais é dada e prejudica terceiros. Sobre os posicionamentos a respeito da coisa julgada apresentados no debate acima, é correto afirmar que:",
+    alternativas: [
+      "todos estão corretos em suas afirmações.",
+      "somente Tatiana e Rodrigo estão corretos em suas afirmações.",
+      "somente Tatiana e Soraia estão corretas em suas afirmações.",
+      "somente Rodrigo e Soraia estão corretos em suas afirmações.",
+      "somente Rodrigo está correto em sua afirmação."
+    ], resposta_correta: 1 },
+  { id: "q692", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Os atos administrativos constituem a exteriorização da vontade da Administração Pública. Em tal contexto, o controle judicial dos atos administrativos é vetor de checagem da legalidade da atuação da Administração. Tomando a jurisprudência do Superior Tribunal de Justiça e do Supremo Tribunal Federal como premissas, sobre o controle judicial dos atos administrativos, é correto afirmar que:",
+    alternativas: [
+      "cabe ao Poder Judiciário, em regra, se imiscuir nos critérios de correção de provas e de atribuição de notas em concurso público.",
+      "é vedado à Justiça reapreciar os aspectos vinculados do ato administrativo que excluiu candidato em concurso público.",
+      "a motivação do ato administrativo deve ser anterior ou concomitante à sua prática, não podendo ser construída em virtude da ação judicial.",
+      "o controle jurisdicional do processo administrativo disciplinar é amplo, podendo adentrar no mérito administrativo.",
+      "é ônus da Administração Pública provar a legitimidade e a veracidade do ato administrativo em juízo, por se tratar de fato constitutivo de seu direito."
+    ], resposta_correta: 2 },
+  { id: "q693", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Auditor de Controle Externo — Contas Públicas — 2025",
+    enunciado: "Rafael ajuizou ação em face de Antônio, na qual pleiteou a condenação do réu ao pagamento de indenização a título de danos materiais, sustentando que seu imóvel sofreu avarias em razão do desabamento de propriedade irregularmente construída por Antônio. Na decisão de saneamento e organização do processo, o juízo, de ofício, determinou a inversão do ônus da prova para impor ao réu o ônus de demonstrar a regularidade da construção, entendendo que Antônio teria melhor condição de se desincumbir do referido ônus. Tomando o caso acima como premissa, é correto afirmar que:",
+    alternativas: [
+      "o Magistrado agiu incorretamente, pois o ônus da prova do fato constitutivo do direito é taxativamente do autor, sendo vedada a inversão do referido ônus.",
+      "o Magistrado, com efeito, atuou de forma equivocada, pois a inversão do ônus da prova somente é cabível nas ações envolvendo relações de consumo.",
+      "a redistribuição do ônus da prova é cabível na hipótese narrada, pois há maior facilidade de obtenção da prova do contrário por parte do réu.",
+      "não há nulidade no caso, sendo possível ao Juiz inverter o ônus da prova até a sentença.",
+      "em que pese a possibilidade de inversão do ônus da prova, essa dependeria necessariamente de requerimento das partes, vedada a iniciativa de ofício do magistrado."
+    ], resposta_correta: 2 }
+  ,
+  { id: "q694", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Em determinado exercício financeiro, o Tribunal de Contas do Estado Alfa (TCEA), no pleno exercício de suas competências constitucionais e legais, apreciou as contas de gestão e as contas de governo apresentadas, respectivamente, pelo Prefeito do Município X e pelo Prefeito do Município Y. Em ambas as situações, o TCEA constatou graves divergências com a ordem jurídica, consistentes em enriquecimento ilícito dos agentes e dano ao patrimônio público, ambos de ordem dolosa, que configuraram tanto ilícitos penais quanto atos de improbidade administrativa. Na situação descrita, é correto afirmar que o entendimento do TCEA",
+    alternativas: [
+      "não acarreta a inelegibilidade de nenhum dos agentes públicos.",
+      "acarreta a inelegibilidade de ambos os agentes públicos, salvo se vier a ser suspenso pelo Poder Judiciário.",
+      "acarreta a inelegibilidade de ambos os agentes públicos, o que independe de ratificação pelo Poder Legislativo.",
+      "somente acarreta a inelegibilidade do Prefeito do Município X, o que independe de integração de eficácia pelo Poder Legislativo.",
+      "somente acarreta a inelegibilidade do Prefeito do Município Y, salvo se houver decisão de dois terços dos membros do Poder Legislativo, descontituindo-o."
+    ], resposta_correta: 2 },
+  { id: "q695", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A associação do Estado Alfa ajuizou ação civil pública em face do Município Sigma, em demanda que apresenta grande benefício para a coletividade, não sendo identificada a atuação do Ministério Público no curso da relação processual em primeira instância. A sentença proferida pelo juízo monocrático foi favorável a Alfa, tendo se embasado na Lei estadual nº X/1985 (LEX). Interposto o recurso de apelação perante órgão fracionário do Tribunal de Justiça do Estado de Mato Grosso, o Procurador de Justiça foi intimado e, atuando como parte interveniente, argumentou a desconformidade constitucional da LEX. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "o órgão fracionário deve submeter a discussão sobre a constitucionalidade da LEX ao Tribunal Pleno.",
+      "o Procurador de Justiça não tem legitimidade para atuar em detrimento do provimento jurisdicional favorável a Alfa.",
+      "o órgão fracionário deve apreciar a conformidade, ou não, da LEX com a Constituição da República ou a Constituição Estadual, podendo deixar de aplicá-la em caso de desconformidade.",
+      "o órgão fracionário deve submeter a discussão sobre a constitucionalidade da LEX ao Tribunal Pleno, de modo que a decisão possa produzir efeitos erga omnes, caso haja requerimento de um dos sujeitos do processo.",
+      "o órgão fracionário deve apreciar a conformidade, ou não, da LEX com a Constituição da República ou a Constituição Estadual, caso haja, respectivamente, decisão anterior do Supremo Tribunal Federal ou do Tribunal de Justiça sobre a matéria."
+    ], resposta_correta: 2 },
+  { id: "q696", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Iniciou-se um movimento popular, no âmbito do Estado Alfa, que defende a criação de uma região metropolitana integrada pelos Municípios X, Y e Z, com o objetivo de estabelecer uma gestão comum do serviço público de saneamento básico, considerando os planos de organização, planejamento e execução dessa atividade. Considerando os balizamentos estabelecidos pela Constituição da República, é correto afirmar que",
+    alternativas: [
+      "devem ser aprovadas leis de X, Y e Z, integrando-os à região metropolitana.",
+      "deve ser celebrado convênio de cooperação, definindo os limites e os objetivos da região metropolitana.",
+      "instituída a região metropolitana, a gestão do referido serviço público passa a ser compartilhada entre X, Y e Z, sem a participação de Alfa.",
+      "deve ser editado o diploma normativo adequado por Alfa, instituindo a região metropolitana, sendo que a participação de X, Y e Z independe de sua aquiescência.",
+      "deve ser editada norma quadro por Alfa, definindo o modelo de gestão do serviço no âmbito da região metropolitana, que será complementada por normas específicas de X, Y e Z, com indicação das fontes de custeio."
+    ], resposta_correta: 0 },
+  { id: "q697", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Constituição do Estado Sigma, ente federativo situado na fronteira da República Federativa do Brasil com certo país, foi objeto de emenda constitucional enquanto forças armadas do referido país se mobilizavam em uma escalada das tensões, o que prenunciava um possível conflito armado. De acordo com a Emenda Constitucional aprovada pela Assembleia Legislativa do Estado Alfa (ALEEA), deve ser assegurada a participação popular, por meio de entidades representativas, nos estudos e na análise das proposições legislativas afetas ao desenvolvimento urbano. Irresignado com o teor dessa Emenda, deflagrou o legitimado o controle concentrado de constitucionalidade perante o Tribunal de Justiça de Alfa (TJEA). O TJEA observou corretamente que",
+    alternativas: [
+      "a ALEEA, por força da simetria, afrontou limite circunstancial de reforma constitucional.",
+      "a Emenda Constitucional se harmoniza com a sistemática constitucional e legal afeta ao planejamento urbano.",
+      "não lhe é dado realizar um controle concentrado de constitucionalidade, utilizando como paradigma de confronto norma da Constituição da República.",
+      "a Emenda Constitucional reflete o exercício de uma competência legislativa comum entre as pessoas jurídicas de direito público, considerando a concepção de federalismo cooperativo.",
+      "a Emenda Constitucional afrontou a separação dos poderes, pois a Constituição da República não contempla a possibilidade de o povo imiscuir-se na gestão pública após a escolha dos seus representantes."
+    ], resposta_correta: 2 },
+  { id: "q698", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Colégio de Procuradores de Justiça do Ministério Público do Estado Alfa aprovou sua proposta orçamentária anual, em harmonia com os balizamentos estabelecidos pela lei de diretrizes orçamentárias, que foi devidamente encaminhada pelo Procurador-Geral de Justiça ao Poder Executivo estadual. Por força do princípio da unidade orçamentária, o Poder Executivo promoveu a redução dessa proposta e das demais que recebeu, oriundas dos poderes e instituições constitucionalmente autônomas, para fins de harmonização, realizando o seu encaminhamento ao Poder Legislativo, tendo recebido emendas no âmbito da Comissão Permanente de Orçamento e Finanças da Assembleia Legislativa do Estado Alfa (CPOFALEA). Considerando os balizamentos oferecidos pela sistemática vigente, é correto afirmar que a narrativa",
+    alternativas: [
+      "não apresenta erro.",
+      "somente apresenta erro em relação à redução da proposta para fins de harmonização.",
+      "somente apresenta erro em relação ao encaminhamento da proposta ao Poder Executivo.",
+      "somente apresenta erro em relação à apresentação de emendas no âmbito da CPOFALEA.",
+      "não apresenta erro, desde que as emendas apresentadas no âmbito da CPOFALEA não excluam a possibilidade de que outras sejam apresentadas em plenário."
+    ], resposta_correta: 4 },
+  { id: "q699", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Uma organização não governamental dedicada à fiscalização das estruturas estatais de poder encaminhou representação ao Ministério Público do Estado Sigma, que tem por objeto a forma de cálculo e de cobrança do imposto sobre a propriedade predial e territorial urbana (IPTU) no exercício financeiro W. De acordo com a representação, a atualização monetária do valor venal do imóvel, com base em índice oficial e critérios fixados em lei municipal, foi promovida pelo Decreto X, enquanto o Decreto Y dispôs sobre a data de vencimento do imposto, sendo ambos editados no exercício financeiro W. O órgão de execução com atribuição observou corretamente que",
+    alternativas: [
+      "o Decreto X infringiu o princípio da legalidade, mas não o Decreto Y.",
+      "os Decretos X e Y infringiram os princípios da legalidade e da anterioridade tributária.",
+      "os Decretos X e Y não infringiram os princípios da legalidade e da anterioridade tributária.",
+      "os Decretos X e Y infringiram o princípio da legalidade, mas não o da anterioridade tributária.",
+      "os Decretos X e Y infringiram o princípio da anterioridade tributária, mas não o da legalidade."
+    ], resposta_correta: 2 },
+  { id: "q700", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado Alfa, após os trâmites internos, encaminhou proposição legislativa à Assembleia Legislativa do Estado Delta, alterando a Lei Orgânica da Instituição. O projeto apresentado dispunha sobre: I. a criação de 10 (dez) cargos de Promotor de Justiça; II. a alteração das atribuições da Promotoria de Justiça de Ordem Urbanística (PJOP); e III. as regras procedimentais a serem observadas nos processos administrativos disciplinares. No âmbito das discussões legislativas, foram apresentadas emendas parlamentares: criando mais 1 (um) cargo de Promotor de Justiça, além dos 10 (dez) previstos, que seria direcionado ao combate à violência doméstica, considerando o exponencial aumento dos casos de feminicídio; acrescendo novas atribuições à PJOP, de modo a ampliar sua atuação preventiva; e reduzindo alguns prazos a serem observados no âmbito dos processos administrativos disciplinares. Considerando a sistemática vigente, é correto afirmar, em relação à conformidade constitucional das emendas parlamentares apresentadas, que",
+    alternativas: [
+      "todas são constitucionais.",
+      "apenas a emenda que reduz os prazos é inconstitucional.",
+      "apenas a emenda que cria o cargo de Promotor de Justiça é inconstitucional.",
+      "apenas as emendas que acrescem atribuições à PJOP e alteram os prazos são inconstitucionais.",
+      "apenas as emendas que criam o cargo de Promotor de Justiça e acrescem atribuições à PJOP são inconstitucionais."
+    ], resposta_correta: 1 },
+  { id: "q701", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Eclodiu uma divergência entre os grupos políticos à frente do Poder Executivo e do Poder Legislativo do Estado Alfa, ao que se soma um descontentamento generalizado de diversos segmentos da sociedade civil em relação à governança interna de entes da Administração Pública indireta de Alfa, que se mostravam ineficientes e dispendiosos para o erário. Por tal razão, um grupo de Deputados Estaduais apresentaram proposta de emenda constitucional (PEC) dispondo que a Assembleia Legislativa deveria aprovar previamente a nomeação dos dirigentes máximos desses entes. Ao analisar a PEC, a Comissão de Constituição e Justiça da Assembleia de Alfa concluiu corretamente que a PEC",
+    alternativas: [
+      "é materialmente inconstitucional, por afrontar a separação dos Poderes.",
+      "preserva a simetria constitucional, não apresentando vício de inconstitucionalidade, quer formal, quer material.",
+      "é materialmente inconstitucional, na medida em que as nomeações deveriam ser avaliadas a posteriori, não a priori.",
+      "é formalmente inconstitucional, na medida em que a matéria deve ser tratada em lei complementar de iniciativa privativa do Governador do Estado Alfa.",
+      "é formalmente inconstitucional, na medida em que a matéria deve ser objeto de projeto de lei, em que é assegurada a participação do Poder Executivo no processo legislativo."
+    ], resposta_correta: 4 },
+  { id: "q702", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Estado Alfa editou a Lei estadual nº X (LEX), a partir de proposição legislativa de iniciativa parlamentar, dispondo sobre a obrigatoriedade de as sociedades empresárias públicas e privadas, que prestem serviços no território estadual, promoverem a postagem de boletos de cobrança com no mínimo 10 (dez) dias de antecedência em relação à data de vencimento, além de imprimirem, na parte externa da correspondência, a data de vencimento. Após a publicação desse diploma normativo, ainda no período de vacatio legis, uma associação de empresas de determinado segmento econômico deflagrou o controle concentrado de constitucionalidade perante o órgão jurisdicional competente. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "a LEX é formal e materialmente constitucional.",
+      "não há interesse de agir para a deflagração do controle concentrado.",
+      "apesar de formalmente constitucional, a LEX é materialmente inconstitucional por afrontar a livre iniciativa.",
+      "a LEX deve ser considerada formalmente constitucional caso a União tenha autorizado os estados e o Distrito Federal a legislar sobre a temática.",
+      "apesar de formalmente constitucional, a LEX deve ser objeto de interpretação conforme a Constituição, de modo que seja aplicada apenas às sociedades empresárias públicas."
+    ], resposta_correta: 1 },
+  { id: "q703", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado Alfa recebeu representação de uma organização não governamental informando que agentes públicos em atuação na Administração Pública direta e indireta do Município Sigma vinham descumprindo sistematicamente, nos dois últimos exercícios financeiros, o dever de prestar contas, considerando prazos e procedimentos estabelecidos em lei. Por tal razão, a organização solicitou a adoção das providências necessárias à decretação da intervenção estadual em Sigma. O órgão de execução com atribuição, ao analisar os termos da representação, concluiu corretamente que a situação descrita",
+    alternativas: [
+      "deve figurar na causa de pedir de ação direta interventiva, a ser ajuizada privativamente pelo Procurador-Geral de Justiça.",
+      "não permite a decretação da intervenção estadual, considerando que as normas afrontadas têm natureza legal, não constitucional.",
+      "configura hipótese de intervenção espontânea, não prescindindo da análise do decreto interventivo pela Assembleia Legislativa de Alfa.",
+      "pressupõe o acolhimento de representação, do Tribunal de Contas ou outro legitimado, pelo Tribunal de Justiça de Alfa, devendo constar do decreto de intervenção a nomeação do interventor.",
+      "caracteriza afronta a princípios constitucionais sensíveis, de observância obrigatória pelos entes subnacionais, sendo cogente a decretação da intervenção tão logo formulada a requisição judicial."
+    ], resposta_correta: 3 },
+  { id: "q704", tema: "Direito Administrativo", dificuldade: "facil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Após a observância das formalidades constitucionais e legais aplicáveis à espécie, foi proferida decisão no sentido do não vitaliciamento de João, membro do Ministério Público do Estado de Mato Grosso. Irresignado e apresentando forte discordância, João pretende recorrer da decisão tomada. Nesse cenário, considerando as disposições da Lei Complementar Estadual nº 416/2010, julgar recurso contra a decisão de não vitaliciamento de membro do Ministério Público é uma competência",
+    alternativas: [
+      "da Corregedoria-Geral do Ministério Público.",
+      "do Conselho Superior do Ministério Público.",
+      "da Secretaria-Geral do Ministério Público.",
+      "do Colégio de Procuradores de Justiça.",
+      "da Procuradoria-Geral de Justiça."
+    ], resposta_correta: 1 },
+  { id: "q705", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Caio, Promotor de Justiça no Município Alfa (MT), foi convidado a palestrar para os novos servidores públicos do Poder Executivo local. Em sua aula, o membro do Parquet tratou de dois importantes instrumentos da política urbana, quais sejam: i) contribuição de melhoria; e ii) limitações administrativas. Nesse cenário, considerando as disposições da Lei nº 10.257/2001, é correto afirmar que",
+    alternativas: [
+      "enquanto o direito de preempção é um instituto jurídico e político, a outorga onerosa do direito de construir e de alteração de uso é um instituto tributário e financeiro no contexto dos instrumentos da política urbana.",
+      "enquanto a outorga onerosa do direito de construir e de alteração de uso é um instituto tributário e financeiro, o direito de preempção é um instituto jurídico e político no contexto dos instrumentos da política urbana.",
+      "o direito de preempção e a outorga onerosa do direito de construir e de alteração de uso são institutos jurídicos e políticos no contexto dos instrumentos da política urbana.",
+      "o direito de preempção e a outorga onerosa do direito de construir e de alteração de uso são institutos tributários no contexto dos instrumentos da política urbana.",
+      "o direito de preempção e a outorga onerosa do direito de construir e de alteração de uso são institutos financeiros no contexto dos instrumentos da política urbana."
+    ], resposta_correta: 1 },
+  { id: "q706", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Davi, Promotor de Justiça na Comarca Alfa (MT), está analisando as medidas legais que podem ser adotadas visando à melhoria dos índices locais de saneamento básico. Nesse contexto, o representante do Parquet, ao se esmiuçar sobre o regramento legal, deparou-se com dois diferentes conceitos, quais sejam: i) conjunto de condutos, instalações e equipamentos destinados a coletar, transportar, condicionar e encaminhar exclusivamente esgoto sanitário; e ii) conjunto de condutos, instalações e equipamentos destinados a coletar, transportar, condicionar e encaminhar conjuntamente esgoto sanitário e águas pluviais. Nesse contexto, considerando as disposições da Lei nº 11.445/2007, alterada pela Lei nº 14.026/2020, se está diante, respectivamente, dos conceitos de",
+    alternativas: [
+      "sistema separador absoluto e sistema individual alternativo de saneamento.",
+      "sistema unitário e sistema individual alternativo de saneamento.",
+      "sistema separador absoluto e sistema condominial.",
+      "sistema separador absoluto e sistema unitário.",
+      "sistema unitário e sistema condominial."
+    ], resposta_correta: 3 },
+  { id: "q707", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado de Mato Grosso ingressou com Ação de Improbidade Administrativa em face de João, imputando-lhe a prática de conduta dolosa que atentou contra os princípios da Administração Pública. Posteriormente, o Ministério Público Federal ingressou com idêntica demanda em face do referido servidor público. Assim sendo, a defesa do acusado requereu, no segundo feito, a extinção do processo sem resolução de mérito. Nesse cenário, considerando as disposições da Lei nº 8.429/1992, é correto afirmar que dirimir conflitos de atribuições entre membros de Ministérios Públicos distintos é uma competência do",
+    alternativas: [
+      "da Procurador-Geral da República. Ademais, em caso de extinção de um dos processos sem resolução de mérito, dispensa-se o reexame obrigatório da sentença proferida.",
+      "do Conselho Nacional do Ministério Público. Ademais, em caso de extinção de um dos processos sem resolução de mérito, dispensa-se o reexame obrigatório da sentença proferida.",
+      "do Conselho Nacional do Ministério Público. Ademais, em caso de extinção de um dos processos sem resolução de mérito, é necessário o reexame obrigatório da sentença proferida.",
+      "do Procurador-Geral da República. Ademais, em caso de extinção de um dos processos sem resolução de mérito, é necessário o reexame obrigatório da sentença proferida.",
+      "do Superior Tribunal de Justiça. Ademais, em caso de extinção de um dos processos sem resolução de mérito, é necessário o reexame obrigatório da sentença proferida."
+    ], resposta_correta: 2 }
+  ,
+  { id: "q708", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Município Alfa celebrou contrato administrativo com a sociedade empresária Beta para exploração de um espaço situado em área urbana central, consistente em uma praça pública amplamente utilizada pela população local para lazer e circulação. O contrato previa a instalação de quiosques e a cobrança pelo uso de determinados espaços delimitados da praça. Após alguns anos, a empresa Beta passou a restringir o acesso de pessoas que não consumissem nos quiosques, além de cercar parte significativa da praça, impedindo o livre trânsito. Paralelamente, um particular, João, alegando posse prolongada e exclusiva de uma área lateral da praça não utilizada pelo poder público, ajuizou ação de usucapião. Diante desse cenário, é correto afirmar que a praça",
+    alternativas: [
+      "por ser bem dominical, pode ser alienada livremente pelo Município, sendo legítima a restrição de acesso imposta pela concessionária.",
+      "constitui bem de uso comum do povo, sendo vedada a limitação de acesso, salvo mediante lei, podendo, contudo, ser objeto de usucapião na parte não utilizada pelo Poder Público.",
+      "é bem de uso comum do povo, sendo possível a cobrança pelo uso e a imposição de restrições parciais, desde que justificadas e previstas em lei, sendo inviável, contudo, a usucapião.",
+      "é bem de uso especial, razão pela qual admite alienação e usucapião, desde que não esteja afetada a finalidade pública.",
+      "enquanto bem público, não pode ser objeto de uso retribuído nem sofrer qualquer limitação de acesso por particulares, ainda que autorizados pelo Poder Público."
+    ], resposta_correta: 2 },
+  { id: "q709", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Carlos foi registrado, ao nascer, por João, que sempre exerceu a função paterna de forma contínua, pública e duradoura, estabelecendo com o filho vínculo de afeto e cuidado. Anos depois, já na fase adulta, Carlos descobriu a identidade de seu pai biológico, Marcos, que jamais participou de sua criação, mas manifestou interesse em estabelecer vínculo jurídico de filiação. Diante disso, Carlos ajuizou ação para reconhecimento da paternidade biológica, sem pretender excluir o vínculo anteriormente estabelecido com João. Esse, por sua vez, alegou que o reconhecimento do pai biológico implicaria necessariamente a exclusão da paternidade socioafetiva já consolidada. Considerando a jurisprudência consolidada do STF e do STJ, bem como as normas do Código Civil, assinale a afirmativa correta.",
+    alternativas: [
+      "O reconhecimento da paternidade biológica implica a exclusão da paternidade socioafetiva anteriormente registrada, pois a filiação é una e indivisível.",
+      "É possível o reconhecimento simultâneo da paternidade biológica e da socioafetiva, com efeitos jurídicos próprios, inclusive sucessórios, caracterizando hipótese de multiparentalidade.",
+      "A paternidade socioafetiva prevalece sobre a biológica, impedindo o reconhecimento posterior dessa última, ainda que haja interesse do filho.",
+      "O reconhecimento da paternidade biológica é possível mediante a anulação prévia do registro civil existente, independentemente do vínculo afetivo com o pai registral.",
+      "A paternidade socioafetiva somente produz efeitos jurídicos se formalizada por escritura pública ou adoção, não sendo reconhecida com base na posse do estado de filho."
+    ], resposta_correta: 1 },
+  { id: "q710", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Com o falecimento de Roberto, abriu-se a sucessão, deixando quatro filhos: Ana, Bruno, Carlos e Daniela. Antes da partilha, Bruno celebrou escritura pública de cessão parcial de seus direitos hereditários, correspondentes a 50% de seu quinhão, em favor de Eduardo, terceiro estranho à sucessão, pelo valor de R$ 200.000,00. No instrumento de cessão, nada foi acordado sobre eventuais direitos futuros decorrentes de substituição ou direito de acrescer. Ocorre que, posteriormente, Daniela renunciou à herança, sem indicação de beneficiário, operando-se o direito de acrescer em favor dos demais coerdeiros. Ana e Carlos não foram previamente cientificados da cessão. Ao tomarem conhecimento do negócio, ambos manifestaram interesse em exercer o direito de preferência, depositando judicialmente o valor correspondente. Contudo, divergiram quanto à forma de divisão da quota cedida. Diante desse cenário, assinale a afirmativa correta.",
+    alternativas: [
+      "A cessão realizada por Bruno abrange automaticamente os direitos decorrentes do posterior direito de acrescer, ainda que não expressamente previstos, sendo válida e eficaz em sua integralidade.",
+      "A cessão parcial é inválida, pois o ordenamento jurídico apenas admite cessão integral da quota hereditária, sendo vedada a alienação de fração ideal.",
+      "Com a renúncia de Daniela, o direito de acrescer transfere, por força de lei, ao cessionário Eduardo a parte correspondente ao quinhão de Bruno, ampliando a cessão anteriormente realizada.",
+      "A cessão é eficaz, não podendo os coerdeiros exercer direito de preferência após a celebração do negócio, por se tratar de direito personalíssimo já consumado.",
+      "Ana e Carlos, ao exercerem o direito de preferência, deverão dividir entre si a quota cedida na proporção de seus quinhões hereditários originários."
+    ], resposta_correta: 4 },
+  { id: "q711", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Henrique, pessoa com deficiência intelectual leve, exerce regularmente atividades profissionais, mas possui dificuldades na compreensão de operações financeiras complexas. Por iniciativa própria, requereu judicialmente a tomada de decisão apoiada, sendo nomeados seus pais como apoiadores, com delimitação expressa de assistência para negócios jurídicos de valor superior a R$ 200.000,00. Posteriormente, Henrique celebrou, sem a participação dos apoiadores, contrato de cessão de quotas societárias de empresa da qual era sócio, pelo valor de R$ 500.000,00, em favor de Laura, investidora, que, após análise documental, constatou que Henrique figurava regularmente como sócio administrador, sem qualquer restrição aparente em registros públicos. Meses depois, diante do agravamento de seu quadro clínico, foi decretada curatela parcial de Henrique, restrita a atos patrimoniais negociais com a nomeação de seu pai, Carlos, como curador. Logo após o trânsito em julgado, Henrique, representado por seu curador, ajuizou ação anulatória do contrato, alegando ausência dos apoiadores e incapacidade para o ato. À luz do Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015), das regras de tomada de decisão apoiada e da proteção ao terceiro de boa-fé, assinale a afirmativa correta.",
+    alternativas: [
+      "O contrato é válido, pois a teoria da aparência protege o terceiro de boa-fé e, também, porque a adoção do processo de tomada de decisão apoiada não afeta a capacidade civil.",
+      "O contrato é anulável independentemente da boa-fé de Laura, pois a tomada de decisão apoiada impõe assistência obrigatória para validade do ato.",
+      "O contrato é nulo, pois a ausência dos apoiadores no ato de elevado valor implica incapacidade absoluta superveniente.",
+      "O contrato é anulável, pois a teoria da aparência não se aplica aos atos praticados por pessoa com deficiência, diante da proteção integral prevista em lei.",
+      "A posterior decretação de curatela parcial invalida o contrato, por envolver ato patrimonial relevante superior ao limite fixado judicialmente."
+    ], resposta_correta: 0 },
+  { id: "q712", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A sociedade empresária Alfa encaminhou proposta formal à empresa Beta para fornecimento contínuo de insumos industriais, estabelecendo prazo de 10 dias para resposta. O histórico contratual entre as partes demonstrava que, em negociações anteriores, Beta costumava aceitar propostas mediante simples silêncio, iniciando a execução contratual. Dessa vez, contudo, Beta permaneceu silente durante o prazo estipulado, mas internamente seu diretor declarou que não aceitaria a proposta. Alfa, confiando na prática reiterada entre as partes, iniciou a produção dos insumos e, posteriormente, exigiu o cumprimento do contrato. Em juízo, Beta alegou inexistência de vínculo contratual, sustentando que jamais manifestou vontade de contratar e que sua intenção interna era de recusa. Diante desse cenário, é correto afirmar que o contrato",
+    alternativas: [
+      "formou-se, pois o silêncio de Beta, à luz das circunstâncias e dos usos entre as partes, pode importar anuência.",
+      "não se formou, pois o silêncio jamais pode ser interpretado como manifestação de vontade no direito civil brasileiro.",
+      "não se formou, pois a reserva mental de Beta impede a produção de efeitos jurídicos da manifestação de vontade.",
+      "é inexistente, pois a manifestação de vontade exige sempre declaração expressa, não sendo admitida forma tácita.",
+      "é nulo, pois a ausência de manifestação expressa invalida qualquer negócio jurídico bilateral."
+    ], resposta_correta: 0 },
+  { id: "q713", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Lucas foi interditado judicialmente em razão de prodigalidade, tendo sido nomeada como sua curadora sua esposa, Mariana, com quem é casado sob o regime da comunhão universal de bens. Lucas possui um filho menor, Pedro, oriundo de relação anterior, que se encontra sob sua guarda e responsabilidade. Durante a curatela, Mariana passou a administrar os interesses patrimoniais de Lucas e de Pedro. Paralelamente, Lucas, sem a assistência de Mariana, celebrou contrato de empréstimo de elevado valor com instituição financeira. Posteriormente, surgiram questionamentos acerca da validade do contrato celebrado por Lucas e da extensão dos poderes de Mariana que, inclusive, recusou-se a prestar contas ao juízo, alegando que, por ser cônjuge do curatelado, estaria dispensada dessa obrigação. Considerando exclusivamente o regime jurídico da curatela do pródigo e as normas do Código Civil aplicáveis, assinale a afirmativa correta.",
+    alternativas: [
+      "O contrato de empréstimo celebrado por Lucas sem a assistência da curadora é válido, pois a curatela do pródigo restringe apenas atos de alienação, não abrangendo contratos de crédito de valor elevado.",
+      "Mariana está dispensada de prestar contas ao juízo por ser cônjuge do curatelado e meeira nos bens do regime de comunhão universal, não havendo interesse jurídico de terceiros a tutelar.",
+      "A curatela instituída em favor de Lucas não pode ser estendida à administração dos interesses de Pedro, pois este está sujeito exclusivamente ao poder familiar, instituto juridicamente distinto da curatela.",
+      "O contrato de empréstimo celebrado por Lucas sem a assistência da curadora é anulável, pois o pródigo é relativamente incapaz para atos que não sejam de mera administração, sendo a assistência do curador requisito de validade do negócio.",
+      "A curatela de Lucas pode ser estendida judicialmente à administração dos interesses de Pedro, independentemente de decisão judicial específica, sendo Mariana obrigada a prestar contas ao juízo independentemente de sua condição de cônjuge."
+    ], resposta_correta: 3 },
+  { id: "q714", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Considere as afirmações a seguir acerca da recuperação judicial, extrajudicial e da falência do empresário e da sociedade empresária. I. A anulação de ações conexas ao processo falimentar, por ausência de intervenção do Ministério Público, independe de efetivo prejuízo à parte. II. Os efeitos do plano de recuperação extrajudicial restringem-se aos créditos nele contemplados, não podendo ser impostas ao credor não listado a novação da dívida, nem a extinção ou a suspensão da execução. III. O deferimento do processamento da recuperação judicial autoriza a suspensão das anotações negativas do devedor em cadastros de inadimplentes ou em cartórios de protesto. IV. A execução de crédito concursal não pode prosseguir contra o empresário individual em recuperação judicial, nem contra seu cônjuge avalista casado sob o regime de comunhão universal de bens. Está correto o que se afirma apenas em",
+    alternativas: [
+      "I e II.",
+      "IV.",
+      "II, III e IV.",
+      "I e III.",
+      "II e IV."
+    ], resposta_correta: 4 },
+  { id: "q715", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A empresa Beta Distribuidora S.A., que exerce regularmente atividade empresarial há seis anos, teve seu plano de recuperação judicial submetido à assembleia geral de credores e rejeitado pelas classes dos credores quirografários e dos credores com garantia real. Diante da impossibilidade de aplicação do cram down, verificada pelo juízo, os credores presentes deliberaram, na mesma oportunidade, pela concessão de prazo para elaboração de plano alternativo de recuperação elaborado pelos credores, nos termos do art. 56, §4º, da Lei nº 11.101/2005. Considerando o regime jurídico do plano alternativo de credores, introduzido pela Lei nº 14.112/2020, assinale a afirmativa correta.",
+    alternativas: [
+      "A deliberação pela concessão do prazo para elaboração do plano alternativo de credores exige aprovação por classe de credores, seguindo as mesmas regras de quórum aplicáveis à votação do plano originário do devedor, por se tratar de matéria igualmente relevante para os interesses dos credores.",
+      "Apresentado o plano alternativo pelos credores, ele será imediatamente submetido à votação em assembleia geral, independentemente de qualquer manifestação prévia de apoio dos credores, cabendo ao administrador judicial apenas verificar se o plano foi entregue dentro do prazo concedido.",
+      "Para que o plano alternativo seja colocado em votação, é necessário, entre outras condições legais previstas cumulativamente no art. 56, §6º da Lei nº 11.101/2005, que haja apoio por escrito de credores que representem, alternativamente, mais de 25% dos créditos totais sujeitos à recuperação judicial, ou mais de 35% dos créditos dos credores presentes na assembleia geral em que o plano do devedor foi rejeitado; preenchidas essas e as demais condições legais, o plano alternativo será submetido à aprovação pelo mesmo quórum aplicável ao plano originário do devedor.",
+      "O plano alternativo elaborado pelos credores, por representar manifestação autônoma dos próprios titulares dos créditos, dispensa a realização de nova assembleia geral de credores para sua aprovação, podendo ser homologado diretamente pelo juízo desde que subscrito por credores representativos de mais da metade do total dos créditos sujeitos à recuperação judicial.",
+      "A deliberação pela concessão do prazo para elaboração do plano alternativo, prevista no art. 56, §4º, da Lei nº 11.101/2005, somente pode ocorrer em assembleia geral especialmente convocada para essa finalidade, sendo vedada sua apreciação na mesma reunião em que se verificou a rejeição do plano originário do devedor."
+    ], resposta_correta: 2 },
+  { id: "q716", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Com base nas disposições do Código Civil brasileiro a respeito da guarda dos filhos e do poder familiar, assinale a afirmativa correta.",
+    alternativas: [
+      "Na ausência de acordo entre os genitores, a imposição judicial da guarda compartilhada pressupõe a inexistência de litígio manifesto entre eles, pois a conflituosidade do relacionamento parental inviabiliza, na prática, o exercício coordenado das responsabilidades inerentes a essa modalidade de guarda.",
+      "A suspensão do poder familiar, por constituir medida de ordem pública voltada à proteção do menor, pode ser requerida por qualquer interessado ou decretada de ofício pelo magistrado, sempre que verificada situação de abuso de autoridade parental ou de descumprimento dos deveres inerentes ao poder familiar.",
+      "A suspensão do exercício do poder familiar será igualmente aplicada ao pai ou à mãe condenados, por sentença irrecorrível em virtude de crime doloso sujeito à pena de reclusão praticado contra filho, filha ou outro descendente, ou contra outrem igualmente titular do mesmo poder familiar.",
+      "A perda do poder familiar será decretada em relação ao pai ou à mãe que incidir reiteradamente nas faltas previstas no art. 1.637 do Código Civil, sendo desnecessária, para esse fim, a existência de prévia decisão judicial de suspensão que se tenha mostrado insuficiente para cessar a conduta lesiva.",
+      "O exercício do direito de convivência com o filho e do direito de fiscalizar sua manutenção e educação pelo genitor não guardião dependerá do adimplemento da obrigação de alimentar fixada em seu desfavor, podendo o juiz suspendê-los diante de inadimplência injustificada e reiterada."
+    ], resposta_correta: 3 },
+  { id: "q717", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Com base nas disposições do Código Civil brasileiro em relação à exclusão da sucessão por indignidade e à deserdação, assinale a afirmativa correta.",
+    alternativas: [
+      "A deserdação, à semelhança da exclusão por indignidade, pode atingir tanto herdeiros necessários quanto legatários; em ambas as hipóteses, a sanção exige expressa declaração de causa em testamento, sob pena de ineficácia.",
+      "Nas hipóteses previstas no art. 1.814 do Código Civil, o Ministério Público tem legitimidade para demandar a exclusão do herdeiro ou legatário por indignidade; sendo-lhe igualmente assegurada, em razão da natureza pública do interesse tutelado, legitimidade para requerer a decretação de deserdação, desde que haja expressa previsão testamentária da causa.",
+      "Não havendo reabilitação expressa pelo ofendido, o indigno contemplado em testamento poderá suceder na disposição testamentária, desde que o testador, ao testar, desconheça a causa da indignidade; se o testador já a conhecia quando testou, prevalecerá a vedação absoluta à sucessão do indigno.",
+      "Somente com expressa declaração de causa pode o testador deserdar o herdeiro necessário, incumbindo ao herdeiro instituído, ou àquele a quem aproveite a deserdação, o ônus de provar a veracidade da causa alegada pelo testador, cujo direito extingue-se em quatro anos, contados da abertura do testamento.",
+      "O excluído da sucessão por indignidade não terá direito ao usufruto nem à administração dos bens que a seus sucessores couberem na herança; conserva, contudo, o direito à sucessão eventual desses mesmos bens, caso venha a sobreviver a seus próprios sucessores sem que esses tenham deles disposto em vida."
+    ], resposta_correta: 3 },
+  { id: "q718", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado de Mato Grosso instaurou inquérito civil para apurar omissão do Município de Cuiabá no fornecimento de medicamentos de uso contínuo a pacientes do SUS. Após a coleta de depoimentos e laudos técnicos, bem como frustrada tentativa de celebração de termo de ajustamento de conduta (TAC), o Promotor de Justiça ajuizou ação civil pública, pleiteando tutela de urgência para imediata disponibilização dos medicamentos e provimento final de natureza estrutural, com obrigações de fazer e astreintes. Em contestação, o Município suscitou, preliminarmente: (i) ilegitimidade ativa do Ministério Público, por tratar-se de direitos individuais homogêneos de origem acidental, insuscetíveis de tutela pelo Parquet como órgão agente; (ii) nulidade da instrução extrajudicial, ante a ausência de homologação do inquérito civil pelo Conselho Superior antes do ajuizamento; e (iii) carência de ação pela ausência de prévio TAC como condição de procedibilidade. Considerando o regime jurídico do Ministério Público, a disciplina da ação civil pública e a jurisprudência dos Tribunais Superiores, analise as afirmativas a seguir. I. O Ministério Público tem legitimidade ativa para a defesa coletiva do direito à saúde, ainda que os titulares sejam individualizáveis, em razão da relevância social do interesse e hipossuficiência dos beneficiários, nos termos do art. 129, II e III, da CF/88. II. O inquérito civil é procedimento administrativo unilateral do Ministério Público, sendo sua instauração condição indispensável ao ajuizamento da ação civil pública, cuja ausência acarreta nulidade da demanda coletiva. III. A prova produzida em inquérito civil tem valor probatório no processo coletivo, dispensa ratificação judicial e submete-se à livre apreciação motivada do juiz, em conjunto com os demais elementos dos autos. IV. A tentativa prévia de celebração de TAC não constitui condição de procedibilidade da ação civil pública, sendo seu insucesso mero elemento contextual, apto a reforçar a urgência do provimento jurisdicional. Está correto apenas o que se afirma em",
+    alternativas: [
+      "I e II.",
+      "II e III.",
+      "I, III e IV.",
+      "I, II e IV.",
+      "II, III e IV."
+    ], resposta_correta: 2 },
+  { id: "q719", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público estadual instaurou inquérito civil público para apurar desvio de verbas federais repassadas a Município mato-grossense para custeio de serviços socioassistenciais, constatando uso em despesas alheias à finalidade do convênio, com dano ao erário e à população vulnerável. Convocado para tentativa de celebração de termo de ajustamento de conduta (TAC), o Prefeito suscitou: (1) incompetência do MP estadual, por envolver verbas federais; (2) impedimento do Promotor de Justiça, por ter recebido a notícia de fato de vereador da oposição; e (3) impossibilidade de ajuizamento imediato da ação civil pública após a frustração do TAC, devendo o MP aguardar trinta dias para nova tentativa de acordo. Considerando o regime jurídico do inquérito civil, do TAC e da atuação do MP estadual em matéria de tutela coletiva, assinale a opção correta.",
+    alternativas: [
+      "A alegação (1) é procedente: a apuração de irregularidades em convênios com recursos federais é atribuição exclusiva do MPF, devendo o MP estadual declinar e remeter os autos, sob pena de nulidade do inquérito civil e da eventual ação civil pública.",
+      "A alegação (2) é procedente: o recebimento da notícia de fato de fonte politicamente interessada compromete a imparcialidade do Promotor, configurando impedimento análogo ao do juiz no CPC, aplicável subsidiariamente ao inquérito civil.",
+      "A alegação (3) é improcedente: a frustração do TAC não impõe ao MP qualquer prazo de espera antes do ajuizamento da ação civil pública, nem constitui condição de procedibilidade da demanda coletiva.",
+      "As três alegações são improcedentes; contudo, o Promotor deveria ter encaminhado cópia dos autos ao MPF para ciência, em razão do interesse da União no convênio federal, sob pena de cerceamento de atuação do MPF.",
+      "A alegação (1) é parcialmente procedente: o MP estadual tem atribuição concorrente com o MPF, mas deve comunicar o MPF e aguardar manifestação expressa de interesse antes de prosseguir com o inquérito."
+    ], resposta_correta: 2 },
+  { id: "q720", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado de Mato Grosso ajuizou ação civil pública em face do Estado e de dois Municípios mato-grossenses, imputando-lhes responsabilidade solidária pela omissão na prestação de serviços de saúde mental a egressos de internação psiquiátrica, em violação à Lei nº 10.216/2001 e às diretrizes da RAPS. O pedido incluía obrigações de fazer e indenização por danos morais coletivos a ser revertida ao Fundo de Defesa dos Direitos Difusos (FDD). No curso do processo, surgiram os seguintes incidentes: Incidente 1: A Defensoria Pública requereu admissão como amicus curiae, alegando pertinência temática com os direitos de pessoas vulneráveis. O Estado se opôs, sustentando parcialidade da instituição. Incidente 2: O Ministério Público juntou capturas de tela (print screen) de mensagens de aplicativo de celular de servidor público estadual, sem autorização judicial. Os réus alegaram ilicitude da prova, por violação ao sigilo das comunicações e à privacidade do servidor. Incidente 3: Após o trânsito em julgado de sentença condenatória ao pagamento de danos morais coletivos, o Estado alegou que a execução deve observar obrigatoriamente o regime de precatórios (art. 100, CF/88), sendo vedado qualquer bloqueio ou sequestro de verbas públicas para satisfação do crédito. Considerando o CPC/2015, a jurisprudência dos Tribunais Superiores e a disciplina constitucional aplicável, assinale a afirmativa correta.",
+    alternativas: [
+      "O requerimento da Defensoria Pública como amicus curiae deve ser indeferido, pois o amigo da corte pressupõe ausência de interesse institucional direto no objeto da demanda; a Defensoria, ao atuar em defesa de pessoas vulneráveis, ostenta interesse que a aproxima da condição de parte, incompatível com a neutralidade exigida.",
+      "As mensagens obtidas por captura de tela de aplicativo de celular de servidor público constituem prova lícita quando relacionadas ao exercício da função pública, pois o agente público não detém expectativa legítima de privacidade em relação a atos praticados no cargo, sendo desnecessária autorização judicial para sua utilização como prova.",
+      "O regime de precatórios do art. 100 da CF/88 aplica-se às condenações da Fazenda Pública ao pagamento de quantia certa, inclusive em ação civil pública por danos morais coletivos, sendo vedado o bloqueio judicial de verbas públicas para satisfação do crédito, ainda que se dê descumpra a ordem de inclusão do precatório no orçamento.",
+      "A oposição do Estado ao ingresso da Defensoria Pública como amicus curiae não tem respaldo jurídico, pois a admissão é ato discricionário do relator ou do juiz, que avaliará a representatividade e a pertinência temática, sendo irrelevante eventual convergência de interesses entre o amicus e uma das partes para fins de admissibilidade.",
+      "O cumprimento de sentença em face do Estado deve observar o regime de precatórios, mas, na hipótese de descumprimento da ordem constitucional de inclusão do débito no orçamento, admite-se excepcionalmente o sequestro de verbas públicas, restrito às hipóteses do art. 100, §6º, da CF/88."
+    ], resposta_correta: 3 },
+  { id: "q721", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Tribunal de Justiça do Estado de Mato Grosso (TJMT) instaurou Incidente de Resolução de Demandas Repetitivas (IRDR), nos termos do art. 976 e seguintes do CPC/2015, para uniformizar a questão jurídica relativa à recusa de cobertura de procedimento cirúrgico por operadora de plano de saúde, determinando a suspensão de todos os processos individuais em curso no Estado que versassem sobre a mesma controvérsia. O Ministério Público foi intimado a intervir na qualidade de custos legis. Durante a tramitação do incidente, ocorreram os seguintes fatos: Fato 1: Autores de ações suspensas requereram habilitação no IRDR para sustentação oral na sessão de julgamento, alegando que a tese a ser fixada impactaria diretamente seus direitos. O relator indeferiu os requerimentos, por entender que o IRDR é procedimento objetivo de formação de precedente, no qual somente as partes do processo-piloto e o Ministério Público têm direito a sustentação oral. Fato 2: Após o julgamento do IRDR e a fixação da tese pelo TJMT, a operadora vencida interpôs recurso especial perante o STJ, que, ao apreciá-lo, adotou tese divergente da estabelecida pelo tribunal estadual. Ao retomar o julgamento de processo individual anteriormente suspenso, juiz de primeiro grau aplicou a tese fixada pelo STJ, por entender que o precedente do tribunal superior prevalece hierarquicamente. Fato 3: Em processo individual suspenso, as partes celebraram negócio jurídico processual atípico (art. 190, CPC/2015), estabelecendo que o litígio seria resolvido exclusivamente por arbitragem, com renúncia expressa à jurisdição estatal. O juiz da causa homologou o acordo e extinguiu o processo sem resolução do mérito. Considerando o regime jurídico do IRDR, dos negócios jurídicos processuais e dos precedentes obrigatórios no CPC/2015, assinale a afirmativa correta.",
+    alternativas: [
+      "O relator agiu corretamente ao indeferir os requerimentos de sustentação oral, pois IRDR é procedimento objetivo assemelhado ao controle concentrado de constitucionalidade, no qual somente as partes do processo-piloto e o Ministério Público têm esse direito, sendo inicável a habilitação de partes de processos suspensos.",
+      "A decisão do juiz de aplicar a tese do STJ em detrimento da tese do TJMT está incorreta: a tese fixada em IRDR pelo tribunal de segundo grau vincula obrigatoriamente todos os juízes a ele vinculados, e somente o STF poderia afastá-la, por meio de recurso extraordinário, dado o caráter constitucional do direito à saúde subjacente à controvérsia.",
+      "O negócio jurídico processual celebrado pelas partes, submetendo o litígio à arbitragem com renúncia à jurisdição estatal, é válido e eficaz; a homologação com extinção do processo sem resolução do mérito é a consequência processual adequada, pois o art. 190 do CPC/2015 autoriza as partes a convencionar sobre seus ônus e deveres processuais, incluindo a escolha do método de resolução do conflito, desde que o direito admita autocomposição.",
+      "A suspensão dos processos individuais determinada pelo relator do IRDR é limitada à comarca onde tramita o processo-piloto, sendo inválida sua extensão a outros juízos do Estado sem prévia deliberação do órgão colegiado competente do tribunal.",
+      "A atuação do Ministério Público no IRDR como custos legis é facultativa: o Parquet pode declinar de manifestar-se quando entender que a questão não envolve interesse público ou social relevante, hipótese em que o julgamento prosseguirá normalmente."
+    ], resposta_correta: 2 },
+  { id: "q722", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado de Mato Grosso tomou conhecimento de que idoso com 82 anos, portador de transtorno neurocognitivo grave, encontrava-se em situação de abandono, sem representante legal e sem assistência familiar. O Promotor de Justiça ajuizou tutela de urgência antecedente (art. 303, CPC/2015), requerendo: (i) nomeação provisória de curador especial; (ii) acolhimento institucional imediato; e (iii) bloqueio preventivo de valores do próprio idoso para custear sua assistência pelo prazo de seis meses. O juízo deferiu os itens (i) e (ii), mas indeferiu o item (iii), por entender que o bloqueio do patrimônio do próprio idoso seria desproporcional e contrário ao seu interesse. O Ministério Público interpôs agravo de instrumento em face da decisão que indeferiu o item (iii). Posteriormente, o Procurador-Geral de Justiça, por ato motivado, designou Promotor especializado na defesa da pessoa idosa para atuar conjuntamente com o titular no futuro processo de curatela. O curador especial impugnou a designação, alegando violação ao princípio do promotor natural. Considerando o regime jurídico das tutelas provisórias, da curatela e do princípio do promotor natural na jurisprudência dos Tribunais Superiores, assinale a afirmativa correta.",
+    alternativas: [
+      "O agravo de instrumento é inadmissível, pois a decisão que indefere parcialmente pedido de tutela de urgência antecedente não se enquadra no rol taxativo do art. 1.015 do CPC/2015; o MP deveria aguardar a sentença final e interpor apelação para suscitar a questão do bloqueio.",
+      "O requerimento de nomeação provisória de curador especial em sede de tutela de urgência antecedente é juridicamente inadequado, pois a curatela é procedimento de jurisdição voluntária, incompatível com a natureza contenciosa pressuposta pelo art. 303 do CPC/2015.",
+      "A designação pelo Procurador-Geral de Justiça viola o princípio do promotor natural, pois qualquer designação que afete o processo em andamento, ainda que em regime de atuação conjunta, exige prévia manifestação do membro titular e não pode ser imposta por ato administrativo unilateral.",
+      "A designação pelo Procurador-Geral de Justiça é válida e não viola o princípio do promotor natural, pois esse princípio veda designações casuísticas destinadas a substituir o titular por conveniência do resultado, mas não impede designações motivadas para atuação conjunta de membro especializado, desde que preservada a independência funcional do Promotor originariamente com atribuição no feito.",
+      "O juízo cível da comarca é incompetente para apreciar o pedido de tutela de urgência antecedente, pois o processo de curatela deve ser instaurado no domicílio dos representantes legais do interditando, o que deslocaria a competência para São Paulo/SP."
+    ], resposta_correta: 3 },
+  { id: "q723", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Instituto Cidadania Ativa, associação privada sem fins lucrativos, ajuizou ação civil pública em face da Construtora Horizonte Ltda. por danos ambientais. O pedido foi julgado procedente, sendo a ré condenada ao pagamento de honorários de sucumbência. A Construtora recorreu exclusivamente com relação à condenação ao pagamento da verba sucumbencial, sustentando que não foi reconhecida a má-fé necessária à imposição de tal ônus, fato incontroverso nos autos. Com base na Lei nº 7.347/1985 e na jurisprudência do Superior Tribunal de Justiça sobre o tema, o recurso interposto pela Construtora deve ser",
+    alternativas: [
+      "desprovido, pois o princípio da simetria do art. 18 da Lei nº 7.347/1985 aplica-se apenas quando o autor da ação civil pública é o Ministério Público ou ente público, não se estendendo a associações ou fundações privadas, sendo cabível a condenação da Construtora em honorários de sucumbência, independentemente da comprovação de má-fé.",
+      "provido, pois o art. 18 da Lei nº 7.347/1985 veda a condenação em honorários em ação civil pública, salvo comprovada má-fé, sendo aplicável o princípio da simetria, independentemente de quem figure no polo ativo.",
+      "provido, pois o princípio da simetria do art. 18 da Lei nº 7.347/1985 é aplicável quando as associações ou fundações privadas forem autoras de ações civis públicas, sendo descabida a condenação da Construtora em honorários de sucumbência quando ausente a má-fé, o que não ocorreria se o autor fosse o Ministério Público ou ente público.",
+      "desprovido, pois a condenação da parte ré ao pagamento de honorários de sucumbência em ação civil pública ajuizada por associações ou fundações privadas independe da comprovação de má-fé e, se essa for reconhecida, a condenação em honorários deverá ser em dobro e ao décuplo das custas, nos termos do art. 18 da Lei nº 7.347/1985.",
+      "provido, pois as associações privadas sem fins lucrativos equiparam-se ao Ministério Público para fins de aplicação do art. 18 da Lei nº 7.347/1985, sendo cabível a condenação da parte ré em ação civil pública em honorários de sucumbência, independentemente de comprovação de má-fé."
+    ], resposta_correta: 0 },
+  { id: "q724", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado do Mato Grosso instaurou inquérito civil para apurar suposto ato de improbidade administrativa praticado por Marcos, ex-diretor de autarquia estadual, que teria desviado recursos públicos no valor de R$ 800.000,00 e obtido vantagem indevida de R$ 150.000,00 proveniente de empresa privada contratada irregularmente. Durante as investigações e antes do ajuizamento de qualquer medida judicial, Marcos, acompanhado de seu advogado, manifestou interesse em celebrar acordo de não persecução civil com o Ministério Público. Considerando o disposto no art. 17-B da Lei de Improbidade Administrativa (Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021), o acordo de não persecução civil",
+    alternativas: [
+      "poderá ser celebrado exclusivamente antes do ajuizamento ou durante o trâmite da ação de improbidade administrativa, sendo vedada sua celebração na fase de execução da sentença condenatória, dada a natureza condenatória do instituto, nos termos do § 4º do art. 17-B da Lei nº 8.429/1992.",
+      "depende, cumulativamente, da oitiva da autarquia estadual lesada, da aprovação pelo órgão do Ministério Público competente, e de homologação judicial, independentemente de o acordo ocorrer antes ou depois do ajuizamento da ação de improbidade administrativa, nos termos do § 1º do art. 17-B da Lei nº 8.429/1992.",
+      "exige que Marcos, além do ressarcimento integral do dano, aceite cumulativamente a aplicação integral das sanções previstas no art. 12 da Lei nº 8.429/1992 cabíveis ao ato de improbidade investigado, consistente, no caso, em enriquecimento ilícito previsto no art. 9º da referida lei.",
+      "poderá ser negociado diretamente entre o Ministério Público e o investigado, sendo dispensável a participação do defensor constituído, desde que Marcos declare expressamente, por escrito, que renuncia à assistência técnica naquele ato, conforme facultado pelo § 5º do artigo 17-B da Lei nº 8.429/1992.",
+      "depende que decorram, ao menos, os seguintes resultados: o integral ressarcimento do dano, a reversão à pessoa jurídica lesada da vantagem indevida obtida, bem como o pagamento de multa civil correspondente ao valor do dano causado, nos termos do caput do art. 17-B da Lei nº 8.429/1992."
+    ], resposta_correta: 1 },
+  { id: "q725", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público ajuizou ação de alimentos em favor de Lucas, criança de 8 anos em situação de vulnerabilidade, em face de Renato, apontado pela genitora como suposto pai biológico. Durante a instrução, contudo, exame de DNA revelou que o verdadeiro genitor é Cláudio. Após o saneamento do feito, o Ministério Público requereu a substituição de Renato por Cláudio no polo passivo, mantendo inalterados o pedido (prestação de alimentos) e a mesma causa de pedir (obrigação alimentar decorrente da paternidade). Cláudio resistiu ao ingresso, alegando estabilização objetiva e subjetiva da lide, com fundamento no art. 329 do Código de Processo Civil (CPC). Com base na legislação processual civil e na atual jurisprudência do Superior Tribunal de Justiça sobre a matéria, é correto afirmar que a alteração do polo passivo no caso apresentado",
+    alternativas: [
+      "é inadmissível, pois o art. 329 do CPC consagra estabilização subjetiva após o saneamento, vedando qualquer modificação das partes, devendo o processo ser extinto, sem exame do mérito, por ilegitimidade passiva de Renato, ressalvada a possibilidade de ajuizamento de nova demanda em face de Cláudio.",
+      "é admissível, desde que haja concordância de Renato, pois a substituição do polo passivo após saneamento do processo somente é admitida com a concordância expressa da parte adversa, nos termos do art. 329 do CPC.",
+      "é inadmissível, devendo o processo ser extinto não apenas por ilegitimidade passiva de Renato, mas também por ilegitimidade ativa do MP, pois trata-se de ação individual na defesa de pessoas vulneráveis, atribuição precípua da Defensoria Pública.",
+      "é admissível, pois a modificação do polo passivo após o saneamento e sem anuência do réu original não é vedada pelo art. 329 do CPC, desde que não haja alteração do pedido ou da causa de pedir, condição atendida no presente caso.",
+      "é admissível, porém Cláudio e Renato devem permanecer juntos no polo passivo em litisconsórcio passivo facultativo, devendo eventual reconhecimento da ilegitimidade passiva de Renato ser decidida em sentença de mérito, após regular instrução processual."
+    ], resposta_correta: 3 },
+  { id: "q726", tema: "Direito Civil", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "João e Maria celebraram acordo extrajudicial, por meio de mediação privada, acerca da guarda compartilhada do filho menor e da fixação de alimentos, tendo o mediador certificado a validade formal do procedimento. Pretendendo conferir eficácia ao ajuste, as partes apresentaram o termo ao juízo competente para homologação. Considerando o disposto na Lei de Mediação (Lei nº 13.140/2015), assinale a afirmativa correta.",
+    alternativas: [
+      "Por envolver direitos indisponíveis em sua totalidade, o acordo sobre guarda e alimentos não pode ser objeto de mediação extrajudicialmente, sendo nulo o procedimento realizado extrajudicialmente, circunstância que deverá ser reconhecida judicialmente no processo de homologação.",
+      "O juiz poderá homologar o acordo diretamente, desde que o mediador seja advogado regularmente inscrito na OAB e certifique que as partes foram devidamente assistidas por procuradores regularmente habilitados durante o procedimento, sendo dispensável a intervenção do Ministério Público.",
+      "A homologação judicial é dispensável quando o acordo versar exclusivamente sobre alimentos, pois a transação alimentar firmada entre capazes em mediação extrajudicial possui eficácia de título executivo extrajudicial, independente de chancela do Poder Judiciário.",
+      "Por envolverem direitos indisponíveis, ainda que transigíveis, a mediação extrajudicial sobre guarda e alimentos somente é válida se o Ministério Público tiver participado como interveniente durante todo o procedimento extrajudicial, sendo também obrigatória a sua oitiva por ocasião da homologação judicial do acordo.",
+      "Direitos indisponíveis que admitam transação, como alimentos e guarda, podem ser objeto de mediação, porém o consenso das partes deve ser homologado judicialmente, sendo obrigatória a oitiva do Ministério Público."
+    ], resposta_correta: 4 },
+  { id: "q727", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Encerrada a instrução processual, após a observância do contraditório e da ampla defesa, o Ministério Público do Estado de Mato Grosso requereu, em alegações finais, a condenação de João nas penas de crime contra a dignidade sexual, praticado em detrimento de sua enteada, então com treze anos de idade, com o objetivo de controlar o seu comportamento social. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João praticou o crime de",
+    alternativas: [
+      "estupro de vulnerável, na modalidade simples, com uma agravante, a ser valorada na segunda fase da dosimetria da pena, e uma causa de aumento de pena, a ser sopesada na terceira etapa do processo dosimétrico.",
+      "estupro, na modalidade qualificada, com uma agravante, a ser valorada na segunda fase da dosimetria da pena, e uma causa de aumento de pena, a ser sopesada na terceira etapa do processo dosimétrico.",
+      "estupro de vulnerável, na modalidade simples, com causas de aumento de pena, a serem valoradas na terceira fase da dosimetria da pena.",
+      "estupro de vulnerável, na modalidade qualificada, com duas causas de aumento de pena, a serem valoradas na terceira fase da dosimetria da pena.",
+      "estupro, na modalidade qualificada, com duas causas de aumento de pena, a serem valoradas na terceira fase da dosimetria da pena."
+    ], resposta_correta: 2 },
+  { id: "q728", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado de Mato Grosso denunciou Marcos pela prática de crime de homicídio doloso, já que o agente, em novembro de 2025, mediante o emprego de arma de fogo de uso restrito e nas dependências de instituição de ensino, efetuou cinco disparos em Matheus, o qual veio imediatamente a óbito. Apurou-se que o delito ocorreu por motivo fútil e mediante recurso que dificultou a defesa da ofendida. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que se está diante de homicídio",
+    alternativas: [
+      "com a incidência de duas qualificadoras e com a aplicação de duas causas de aumento de pena.",
+      "com a incidência de três qualificadoras e com a aplicação de uma causa de aumento de pena.",
+      "sem qualificadoras, com a incidência de duas causas de aumento de pena.",
+      "sem qualificadoras, com a incidência de quatro causas de aumento de pena.",
+      "com a incidência de quatro qualificadoras, sem causas de aumento de pena."
+    ], resposta_correta: 4 },
+  { id: "q729", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Ao fornecer a sua senha, agindo com dolo, Lucas, servidor público, facilitou o acesso de Caio, pessoa não autorizada, a banco de dados da Administração Pública. Por outro lado, mediante conduta negligente, João, em contexto fático diverso, acabou por revelar fato que tinha ciência em razão do cargo ocupado, e que deveria permanecer segredo. Registre-se, por fim, que a Administração Pública, nos dois cenários, não suportou qualquer dano. Nesse contexto, considerando as disposições do Código Penal, é correto afirmar que",
+    alternativas: [
+      "João responderá pelo crime de violação de sigilo funcional, na modalidade qualificada; por sua vez, Lucas não responderá por qualquer delito.",
+      "Lucas responderá pelo crime de violação de sigilo funcional, na modalidade simples; por sua vez, João não responderá por qualquer delito.",
+      "João responderá pelo crime de violação de sigilo funcional, na modalidade simples; por sua vez, Lucas não responderá por qualquer delito.",
+      "João e Lucas responderão pelo crime de violação de sigilo funcional.",
+      "João e Lucas não responderão por qualquer delito."
+    ], resposta_correta: 1 },
+  { id: "q730", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Observadas as formalidades legais, o conteúdo das comunicações monitoradas entre advogado e cliente será submetido à análise exclusiva do juízo competente para o controle da legalidade da investigação, distinto do juízo responsável pela instrução e pelo julgamento da ação penal. Nesse cenário, considerando as disposições da Lei nº 9.210/1984, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) O juízo de controle decidirá sobre a licitude, a pertinência e a necessidade da prova e sobre a sua eventual inutilização, antes de qualquer remessa ao juízo da instrução. ( ) As gravações ou os registros que não interessarem à prova deverão ser inutilizados por decisão fundamentada do juízo de controle, a requerimento do Ministério Público ou da parte interessada, exigida a presença do acusado ou de seu defensor. ( ) O conteúdo das comunicações indeferidas ou declaradas ilícitas não poderá ser acessado, direta ou indiretamente, pelo juízo da instrução criminal. As afirmativas são, respectivamente,",
+    alternativas: [
+      "F – V – F.",
+      "V – F – V.",
+      "F – F – V.",
+      "V – V – V.",
+      "F – F – F."
+    ], resposta_correta: 1 },
+  { id: "q731", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Em março de 2026, Lucas, nascido em 12 de fevereiro de 2006, constrangeu, mediante violência, Maria, maior e capaz, a ter com ele conjunção carnal. Registre-se que, em razão desses eventos, a ofendida sofreu lesão corporal de natureza grave. Após o oferecimento da denúncia, essa foi recebida pelo juízo competente em 25 de março de 2026. Nesse cenário, considerando as disposições do Código Penal e pressupondo a inexistência de causas interruptivas ou suspensivas, é correto afirmar que a prescrição da pretensão punitiva estatal, pela pena em abstrato, ocorrerá no ano de",
+    alternativas: [
+      "2046.",
+      "2042.",
+      "2038.",
+      "2036.",
+      "2034."
+    ], resposta_correta: 1 },
+  { id: "q732", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Encerrado o trabalho investigativo realizado conjuntamente pelo Ministério Público e pela Polícia Civil do Estado de Mato Grosso, em observância às formalidades legais, dez pessoas diferentes foram denunciadas pela prática do crime de organização criminosa. Nesse cenário, considerando as disposições da Lei nº 12.850/2013, assinale a opção que não apresenta causa de aumento de pena aplicável ao crime de organização criminosa.",
+    alternativas: [
+      "O concurso de funcionário público, valendo-se a organização criminosa dessa condição para a prática de infração penal.",
+      "O produto ou proveito da infração penal destina-se, no todo ou em parte, a outro Estado da Federação.",
+      "A organização criminosa mantém conexão com outras organizações criminosas independentes.",
+      "As circunstâncias do fato evidenciam a transnacionalidade da organização.",
+      "Há participação de criança ou adolescente."
+    ], resposta_correta: 1 },
+  { id: "q733", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Nos termos do Decreto nº 4.388/2002, que promulgou o Estatuto de Roma do Tribunal Penal Internacional, entende-se por \"crime contra a humanidade\" a prática de determinados atos, quando cometidos no quadro de um ataque generalizado ou sistemático contra qualquer população civil, havendo conhecimento desse ataque. Considerando as disposições do Decreto nº 4.388/2002 e o contexto acima delineado, podem materializar crimes contra a humanidade, entre outros, os atos consistentes em",
+    alternativas: [
+      "desaparecimento forçado de pessoas e tergiversação.",
+      "tortura e desaparecimento forçado de pessoas.",
+      "homicídio e tráfico internacional de drogas.",
+      "tortura e lavagem de capitais.",
+      "homicídio e concussão."
+    ], resposta_correta: 1 },
+  { id: "q734", tema: "Direito Penal", dificuldade: "facil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "João, militar, está sendo processado pela prática de determinado ilícito criminal. Preocupado com as possíveis consequências da condenação, o servidor público questionou sua defesa técnica acerca das sanções principais e das penas acessórias às quais poderá ser submetido. Nesse cenário, as opções a seguir apresentam, corretamente, penas acessórias previstas no Código Penal Militar, à exceção de uma. Assinale-a.",
+    alternativas: [
+      "Inabilitação para o exercício de função pública.",
+      "Perda da função pública, ainda que eletiva.",
+      "Exclusão das Forças Armadas.",
+      "Indignidade para o oficialato.",
+      "Perda dos direitos políticos."
+    ], resposta_correta: 4 },
+  { id: "q735", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Matheus, reincidente em crime hediondo com resultado morte, foi condenado definitivamente à pena de 9 anos de reclusão, em regime inicial fechado, pela prática de crime de extorsão qualificada, cometido no dia 31 de março de 2026. Nesse cenário, considerando as disposições da Lei nº 7.210/1984, é correto afirmar que Matheus, desde que preenchidos os demais requisitos legais, poderá progredir de regime após cumprir, no regime fechado,",
+    alternativas: [
+      "70% da pena, admitido o livramento condicional.",
+      "75% da pena, admitido o livramento condicional.",
+      "80% da pena, vedado o livramento condicional.",
+      "85% da pena, vedado o livramento condicional.",
+      "90% da pena, vedado o livramento condicional."
+    ], resposta_correta: 3 },
+  { id: "q736", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Em observância às formalidades legais, o Ministério Público do Estado de Mato Grosso ofereceu denúncia em face de João, imputando-lhe a prática do crime de difamação praticado contra funcionário público, em razão das funções por ele desenvolvidas. Posteriormente, o órgão ministerial ofereceu denúncia em detrimento de Matheus, sob o fundamento de que esse teria praticado o delito de injúria, consistente na utilização de elementos referentes à religião do ofendido. Registre-se, por fim, que há, na localidade, Juizado Especial Criminal e Vara Criminal, devidamente instalados e em funcionamento. Nesse cenário, considerando as disposições do Código Penal e da Lei nº 9.099/1995, é correto afirmar que a(s) ação(ões) penal(is) deflagrada(s) em detrimento",
+    alternativas: [
+      "de João tramitará junto ao Juizado Especial Criminal, por se estar diante da prática de infração penal de menor potencial ofensivo. Por outro lado, o processo contra Matheus não poderá transcorrer no âmbito do Juizado Especial Criminal, já que o crime perpetrado não é tido como menor potencial ofensivo.",
+      "de Matheus tramitará junto ao Juizado Especial Criminal, por se estar diante da prática de infração penal de menor potencial ofensivo. Por outro lado, o processo contra João não poderá transcorrer no âmbito do Juizado Especial Criminal, já que o crime perpetrado não é tido como menor potencial ofensivo.",
+      "de João e de Matheus não poderão tramitar no âmbito do Juizado Especial Criminal, já que os crimes perpetrados não são tidos como de menor potencial ofensivo, salvo em caso de decisão em sentido contrário por parte da autoridade judiciária competente, à luz da sua discricionariedade regrada.",
+      "de João e de Matheus não poderão tramitar no âmbito do Juizado Especial Criminal, já que os crimes perpetrados não são tidos como de menor potencial ofensivo.",
+      "de João e de Matheus tramitarão junto ao Juizado Especial Criminal, por se estar diante da prática de infrações penais de menor potencial ofensivo."
+    ], resposta_correta: 0 },
+  { id: "q737", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Após a observância do contraditório e da ampla defesa, o Ministério Público do Estado de Mato Grosso, em alegações finais, requereu a condenação de Caio pela prática de determinado crime contra a ordem tributária previsto no Art. 1º da Lei nº 8.137/1990. O Parquet requereu, ainda, que, em observância à legislação de regência, as sanções aplicáveis ao réu sejam agravadas de 1/3 até a metade, na dosimetria da pena, em razão de circunstância devidamente comprovada no curso da relação processual. Nesse cenário, considerando as disposições da Lei nº 8.137/1990, é correto afirmar que as penas serão agravadas em razão de o crime",
+    alternativas: [
+      "estar relacionado a bens e serviços alcançados pelas isenções tributárias previstas nas legislações ordinárias.",
+      "ser praticado em relação ao comércio de bens essenciais à saúde.",
+      "ser praticado em relação ao comércio de bens imóveis.",
+      "ocasionar prejuízo superior a vinte mil reais.",
+      "ocasionar dano à indústria local."
+    ], resposta_correta: 1 },
+  { id: "q738", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Tício foi denunciado pela prática de dois crimes de receptação qualificada (art. 180, § 1º, do Código Penal), cuja pena mínima é de 3 anos de reclusão, em continuidade delitiva (art. 71 do CP). O Ministério Público deixou de oferecer Acordo de Não Persecução Penal (ANPP), por entender configurada a conduta criminal reiterada e habitual. Para tanto, utilizou dois fundamentos: a continuidade delitiva e a existência de outros processos em andamento, inclusive com condenação anterior sem trânsito em julgado por outro delito na folha de antecedentes criminais do denunciado. Com base no caso hipotético, no Código de Processo Penal e entendimentos exarados pelos Tribunais Superiores, assinale a afirmativa correta.",
+    alternativas: [
+      "A recusa do Ministério Público está em conformidade com o entendimento do Superior Tribunal de Justiça, na medida em que tanto a continuidade delitiva (ainda que a pena mínima não ultrapassasse os 4 anos) quanto a existência de condenação anterior por outro delito sem trânsito em julgado impedem a celebração do ANPP, por configurarem conduta criminal habitual e reiterada.",
+      "A recusa do Ministério Público está em desconformidade com o entendimento do Superior Tribunal de Justiça, na medida em que, conquanto a continuidade delitiva, por si só, impeça a celebração do acordo por configurar conduta criminal habitual e reiterada, a existência de condenação anterior por outro delito sem trânsito em julgado não é razão para a recusa, em homenagem ao princípio da presunção de inocência.",
+      "A recusa do Ministério Público está em conformidade com o entendimento do Superior Tribunal de Justiça, na medida em que a aferição da elegibilidade ao acordo deve levar em consideração a pena mínima em abstrato com as frações máximas das majorantes e mínimas das atenuantes. Logo, a continuidade delitiva impede a celebração do acordo de não persecução penal porque a pena mínima resultante ultrapassa o limite de quatro anos.",
+      "É válida a recusa do Ministério Público ao oferecimento de acordo de não persecução penal, em razão da existência de inquéritos policiais e processos em andamento indicativos de conduta criminal habitual, reiterada ou profissional.",
+      "Caso o Ministério Público tivesse oferecido acordo de não persecução penal antes do oferecimento da denúncia, seria possível ao investigado se manifestar após o término da instrução criminal, de acordo com a estratégia defensiva que melhor lhe aprouvesse, já que a manifestação sobre a proposta não precisa ocorrer após o seu oferecimento."
+    ], resposta_correta: 3 },
+  { id: "q739", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Enzo, criança de 8 (oito) anos de idade, é vítima de abusos sexuais perpetrados por seu padrasto, que reside no mesmo imóvel. Sua genitora, ao descobrir os crimes, resolve deixar o lar conjugal e passa a morar sozinha, em um município vizinho, além de imediatamente se dirigir à Delegacia de Polícia para registrar a ocorrência. Com base na Lei nº 14.344/2022, que cria mecanismos para a prevenção e o enfrentamento da violência doméstica e familiar contra a criança e o adolescente, assinale a afirmativa correta.",
+    alternativas: [
+      "No atendimento de Enzo, a autoridade policial deverá, entre outras providências, encaminhá-lo ao Sistema Único de Saúde e ao Instituto Médico-Legal imediatamente, além de garantir proteção policial, fornecendo transporte exclusivamente para a vítima para serviço de acolhimento existente ou local seguro, em caso de risco à vida.",
+      "Considerando a situação de violência doméstica e familiar contra a criança e o adolescente, cabe ao Ministério Público, sem prejuízo de outras atribuições e quando houver necessidade, requisitar força policial e serviços públicos de saúde, de educação, de assistência social e de segurança, entre outros.",
+      "No caso concreto, o juiz poderá determinar, se necessário, medida protetiva de urgência para realização da matrícula de Enzo em instituição de educação mais próxima de seu domicílio ou do local de trabalho de sua responsável legal, ou sua transferência para instituição congênere, mediante existência de vaga.",
+      "Cabe ao Ministério Público, sem prejuízo de outras atribuições e quando houver necessidade, fiscalizar os estabelecimentos públicos de atendimento à criança e ao adolescente em situação de violência doméstica e familiar, e adotar, de acordo com a conveniência e oportunidade, as medidas administrativas ou judiciais cabíveis no tocante a quaisquer irregularidades constatadas.",
+      "As medidas protetivas de urgência poderão ser concedidas de imediato, independentemente de audiência das partes, desde que precedidas de manifestação do Ministério Público."
+    ], resposta_correta: 1 },
+  { id: "q740", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Lei nº 15.272/2025 alterou o Código de Processo Penal para dispor sobre as circunstâncias que recomendam a conversão da prisão em flagrante em preventiva, sobre a coleta de perfil genético do custodiado e sobre os critérios de periculosidade do agente. Considerando as disposições introduzidas pela referida lei, assinale a opção correta.",
+    alternativas: [
+      "Haver perigo de perturbação da tramitação e do decurso do inquérito ou da instrução criminal, bem como perigo para a coleta, a conservação ou a incolumidade da prova são fatores legalmente previstos para a aferição da periculosidade do agente, geradora de riscos à ordem pública.",
+      "O fato de ter havido fuga ou haver perigo de fuga do agente e a sua participação em organização criminosa são previstos como fatores que devem ser considerados na aferição da periculosidade do agente, geradora de riscos à ordem pública.",
+      "A coleta de material biológico para obtenção do perfil genético do custodiado deverá ser realizada necessariamente na própria audiência de custódia.",
+      "Entre as circunstâncias que recomendam a conversão do flagrante em preventiva, o Código de Processo Penal prevê o modus operandi, inclusive quanto ao uso reiterado de violência ou grave ameaça à pessoa ou quanto à premeditação do agente para a prática delituosa.",
+      "A participação do agente em organização criminosa e o fundado receio de reiteração delitiva, inclusive à vista da existência de outros inquéritos e ações penais em curso, são critérios legais para a aferição da periculosidade do agente, geradora de risco à ordem pública."
+    ], resposta_correta: 4 },
+  { id: "q741", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Lindolfo foi denunciado e pronunciado pela prática do crime de feminicídio tentado praticado contra Antônia, sua ex-esposa, que foi arrolada pelo Ministério Público para ser ouvida na instrução em plenário. No dia do julgamento perante o Tribunal do Júri, ocorreram as situações descritas a seguir. I. No momento da formação do Conselho de Sentença, após a leitura do nome de um jurado sorteado, o juiz presidente indagou ao membro do Ministério Público se desejava recusá-lo imotivadamente; e, após o aceite, consultou a defesa técnica sobre sua vontade de recusá-lo. II. Durante a instrução em plenário, mais especificamente durante a inquirição de Antônia, o advogado de Lindolfo indagou se a vítima possuía histórico de relacionamentos extraconjugais, mencionando seu \"comportamento liberal\" em festas anteriores, com o objetivo de descredibilizar seu testemunho. III. Durante os debates, a defesa se limitou a sustentar a negativa de autoria e a desclassificação da conduta para lesão corporal, não tendo constado em ata qualquer outra tese defensiva. Após os debates, o Conselho de Sentença respondeu afirmativamente aos quesitos de materialidade e autoria do feminicídio tentado; contudo, ao responderem ao quesito genérico de absolvição, os jurados absolveram Lindolfo. Com base no que dispõe o Código de Processo Penal (CPP) e o entendimento exarado pelos Tribunais Superiores, assinale a afirmativa correta.",
+    alternativas: [
+      "Na situação I, o Magistrado seguiu corretamente o procedimento previsto no art. 468 do CPP, pois, à medida que as cédulas são retiradas da urna, o Ministério Público e, depois dele, a defesa poderão exercer as recusas imotivadas.",
+      "Na situação II, não cabe intervenção do Ministério Público ou do Magistrado durante a inquirição de Antônia, pois a estratégia de descredibilização da vítima pela defesa encontra amparo no contraditório e na ampla defesa, sendo a vedação do art. 400-A do CPP inaplicável ao plenário do Júri em processos de violência contra a mulher.",
+      "Na situação III, a ausência de tese defensiva registrada em ata que justifique a absolvição por clemência, aliada à contradição entre as respostas dos jurados, autoriza a anulação do julgamento e a realização de novo júri.",
+      "Embora o Magistrado tenha agido corretamente na situação I, é vedada a invocação, por partes ou procuradores, de elementos referentes à vivência sexual pregressa da vítima em audiência de instrução e julgamento de crimes contra a dignidade sexual e de violência contra a mulher, sob pena de nulidade do ato, sendo dever do Magistrado impedir essa prática, sob pena de responsabilização civil, administrativa e penal (situação II).",
+      "Na situação I, houve inversão do procedimento previsto no art. 468 do CPP, uma vez que a indagação sobre as recusas imotivadas deve ser dirigida primeiro à defesa e, somente depois, ao Ministério Público. Na situação III, a absolvição de Lindolfo pelo Conselho de Sentença é irrecorrível pelo Ministério Público, pois o princípio constitucional da soberania dos veredictos impede qualquer controle jurisdicional sobre a decisão proferida no quesito genérico absolutório."
+    ], resposta_correta: 2 },
+  { id: "q742", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Considerando as disposições processuais previstas na legislação extravagante, em especial na Lei nº 9.503/1997 (Código de Trânsito Brasileiro), na Lei nº 9.296/1996 e na Lei nº 12.850/2013, bem como a jurisprudência dos Tribunais Superiores, assinale a afirmativa incorreta.",
+    alternativas: [
+      "O crime de lesão corporal culposa na direção de veículo automotor é, em regra, de ação penal pública condicionada à representação. Contudo, no caso de embriaguez, a Lei nº 9.503/1997 dispensa a necessidade de representação do ofendido, tornando a ação penal pública incondicionada.",
+      "A Lei nº 9.503/1997 não afasta expressamente a suspensão condicional do processo em relação aos crimes de trânsito de lesão corporal culposa, permanecendo cabível, em tese, mesmo nas hipóteses de embriaguez, corrida, disputa ou competição automobilística, de exibição ou demonstração de perícia em manobra de veículo automotor, não autorizada pela autoridade competente; ou velocidade superior a 50 km/h acima do limite, desde que preenchidos os requisitos legais.",
+      "Cabe ao juiz externar fundamentação, ainda que sucinta, baseada na situação concreta do momento em que proferida a decisão de prorrogação das medidas cautelares de interceptação telefônica, não sendo suficiente a mera referência à decisão inicial que deferiu a medida.",
+      "Nos termos da Lei nº 9.296/1996, a interceptação telefônica possui prazo máximo de 15 dias, admitindo-se uma única renovação por igual período, de modo que a captação das comunicações não pode ultrapassar o total de 30 dias.",
+      "Não havendo provas de simulação da relação advogado-cliente, prevalece a impossibilidade de o advogado firmar acordo de colaboração premiada para delatar fatos contra o cliente, sob pena de se fragilizar o direito de defesa."
+    ], resposta_correta: 3 },
+  { id: "q743", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Rosa foi vítima de extorsão praticada por organização criminosa e passa a sofrer ameaças em razão de seu papel como testemunha no processo penal instaurado. O Promotor de Justiça responsável pelo caso pretende adotar medidas para garantir a proteção de Rosa. A respeito do caso narrado, de acordo com a Resolução CNJ nº 427/2021 e com a Resolução CNMP nº 243/2021, assinale a opção correta.",
+    alternativas: [
+      "A preservação dos dados qualificativos e do endereço de Rosa nos autos somente poderá ser determinada mediante pedido das vítimas e testemunhas, por meio de representação da autoridade policial ou requerimento do Ministério Público, sendo vedada a atuação de ofício pelo Magistrado.",
+      "O Ministério Público deverá pleitear, de forma expressa, e a bojo dos autos, a fixação de valor mínimo para reparação dos danos materiais, morais e psicológicos, causados pela infração penal ou ato infracional, em prol das vítimas diretas, indiretas ou coletivas.",
+      "A proteção dos dados qualificativos e do endereço de Rosa nos autos é medida destinada exclusivamente às vítimas, sendo inaplicável às testemunhas do processo penal.",
+      "Nos termos da Resolução CNJ nº 427/2021, o acesso aos dados qualificativos e ao endereço protegido de Rosa são garantidos exclusivamente ao Ministério Público, sendo vedado a defesa do réu ou ente público.",
+      "Caso a presença do réu na audiência cause humilhação, temor ou sério constrangimento a Rosa, independentemente de qualquer impacto no seu depoimento, o juiz poderá adotar providências para evitar o contato direto entre eles, inclusive nos momentos que antecederem e imediatamente sucederem a audiência."
+    ], resposta_correta: 1 },
+  { id: "q744", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Considere as hipóteses a seguir. No dia 4 de determinado mês, uma quarta-feira, o juízo enviou, por meio eletrônico, no portal próprio do Tribunal, intimação dirigida ao Promotor de Justiça, devidamente cadastrado, com a finalidade de apresentar alegações finais. No dia 6 de setembro, terça-feira, véspera de feriado nacional, o juízo disponibilizou, no Diário da Justiça Eletrônico do Tribunal, intimação dirigida à Defesa do réu, exercida por advogado particular, com a finalidade de apresentar alegações finais. Não se realizou a intimação, pelo portal próprio do Tribunal, porque o advogado não era cadastrado. A respeito da comunicação eletrônica dos atos processuais, nos termos da Lei nº 11.419/2006 e da jurisprudência dos Tribunais Superiores, é correto afirmar que",
+    alternativas: [
+      "a intimação, da maneira como realizada na hipótese I, não dispensa a prerrogativa de intimação pessoal do Ministério Público.",
+      "na hipótese I, o destinatário será considerado intimado no dia em que efetivamente fizer a consulta ou passados 5 dias corridos da data do envio da intimação.",
+      "na hipótese I, a contagem do prazo legal para que o destinatário seja considerado tacitamente intimado começará no dia 4, quarta-feira.",
+      "na hipótese II, considera-se como data da publicação o dia 6 de setembro.",
+      "na hipótese II, a contagem do prazo processual terá início no dia 8 de setembro."
+    ], resposta_correta: 2 },
+  { id: "q745", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público denunciou Ricardo pela prática do crime de furto e descreveu na denúncia que o réu subtraiu para si um veículo de propriedade da vítima Sérgio. Encerrada a instrução, as provas indicaram que, na verdade, Sérgio e Ricardo haviam firmado um comodato verbal do veículo e esse apropriou-se do bem, deixando de devolvê-lo na data combinada, tipificado o delito de apropriação indébita. Diante dessa situação, no que diz respeito à correlação entre a acusação e a sentença, é correto afirmar que",
+    alternativas: [
+      "na hipótese, o Ministério Público deverá aditar a denúncia, porque surgiram elementos não contidos na denúncia.",
+      "a hipótese expressa a chamada emendatio libelli, haja vista que se alterou apenas a definição jurídica dada ao fato.",
+      "o aditamento da denúncia é desnecessário, porque os crimes de furto e de apropriação indébita possuem a mesma pena máxima em abstrato.",
+      "caso o Ministério Público não adite a denúncia, o princípio da correlação entre a acusação e a sentença impõe que o juiz obrigatoriamente absolva Ricardo.",
+      "caso o Ministério Público adite a denúncia e o juiz receba o aditamento, é necessário realizar nova citação de Ricardo."
+    ], resposta_correta: 3 },
+  { id: "q746", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Durante o patrulhamento em região de intenso tráfico de drogas, por volta das 2h da manhã, a Polícia Militar deparou-se com Mário e Celina, que estavam em uma motocicleta e estacionavam o veículo em frente à residência do casal. Ao notar a abordagem, Mário, conhecido dos policiais por conta de uma prisão anterior por tráfico de drogas, evadiu-se do local. Ao notarem o extremo nervosismo de Celina, os policiais realizaram a busca pessoal e encontraram, no bolso do casaco, R$ 1.350,00 em notas trocadas. No curso da diligência, um vizinho reservadamente diz a um dos policiais que o casal vende drogas na residência. Os policiais, então, entraram na residência e encontraram uma arma de fogo e drogas. Considerando a hipótese narrada, à luz do Código de Processo Penal e da jurisprudência do Supremo Tribunal Federal sobre busca e apreensão, é correto afirmar que",
+    alternativas: [
+      "exigem-se fundadas razões para a busca domiciliar, dispensando-as para a busca pessoal.",
+      "a busca e apreensão domiciliar, em caso de flagrante delito, é vedada durante o repouso noturno.",
+      "intuição policial, estereótipos e delação anônima configuram fundadas razões que autorizam a busca e apreensão.",
+      "a confirmação da prática de crimes no interior da residência valida, por si só, a entrada da Polícia no local.",
+      "o controle da presença dos requisitos para a diligência dar-se-á posteriormente."
+    ], resposta_correta: 2 },
+  { id: "q747", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Lei nº 12.850/2013, que visa ao combate às organizações criminosas, prevê diversos meios de obtenção da prova. A respeito deles, assinale a afirmativa correta.",
+    alternativas: [
+      "O acesso do Delegado de Polícia aos dados cadastrais, relativos à qualificação do investigado e mantidos por empresas telefônicas e instituições financeiras, independe de autorização judicial.",
+      "Nas colaborações premiadas, preserva-se o direito ao silêncio do colaborador.",
+      "O colaborador pode renunciar ao direito à presença de advogado ou defensor, nas tratativas do acordo de colaboração premiada.",
+      "A infiltração virtual de agentes depende de autorização judicial e não tem prazo determinado, podendo ser adotada enquanto conveniente à investigação.",
+      "O controle judicial da medida de ação controlada pode se dar a posteriori."
+    ], resposta_correta: 0 },
+  { id: "q748", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Considere as situações descritas a seguir. I. Desempregado, Márcio aproveita-se da vulnerabilidade de sua vizinha Regina, 30 anos, pessoa com deficiência, e aplica sucessivos golpes na vítima, obtendo para si vantagem ilícita consistente na quantia de R$ 70.000,00. II. Luciano, irritado com seu enteado Felipe, 10 anos, agride a criança com tapas e socos e a mantém presa em um quarto escuro, sem alimentação, por quatro dias. III. Inconformado com o fim do relacionamento, durante a discussão, Sérgio desfere dois tapas no rosto de sua ex-namorada Maria e diz que a matará se arrumar outro namorado. À luz do Código de Processo Penal e da legislação extravagante que visa à proteção das vítimas, assinale a opção que indica corretamente as medidas protetivas cabíveis em cada hipótese.",
+    alternativas: [
+      "Em todas as hipóteses, são cabíveis medidas protetivas de urgência que podem ser aplicadas de ofício pelo juiz.",
+      "Nas hipóteses I e II, não cabem medidas protetivas de urgência, mas tão somente a prisão e as medidas cautelares alternativas previstas no art. 319 do Código de Processo Penal.",
+      "Somente nas hipóteses II e III são cabíveis medidas protetivas de urgência.",
+      "Em todas as hipóteses, são cabíveis medidas protetivas de urgência, que devem ser aplicadas por tempo determinado e independentemente da existência de boletim de ocorrência, inquérito policial ou processo.",
+      "Na hipótese III, eventual absolvição de Sérgio não implicará a extinção da medida protetiva de urgência, se persistir a situação de risco para a vítima."
+    ], resposta_correta: 4 },
+  { id: "q749", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "A sociedade empresária Alfa Ltda. adquiriu de uma importadora brasileira um lote de aquecedores elétricos fabricados no exterior, os quais foram posteriormente revendidos ao consumidor final Paulo por meio de loja varejista Beta. Após a instalação regular do produto, realizada por técnico indicado no manual, o equipamento explodiu em razão de falha interna de fabricação, causando danos materiais e lesões corporais em Paulo e em seu vizinho João, que estava no local no momento do acidente. Durante a instrução probatória, restou comprovado que (i) o fabricante estrangeiro não possui representação no Brasil; (ii) o produto não continha identificação clara do fabricante; e (iii) não houve qualquer conduta culposa por parte de Paulo ou de João. Diante dessa situação, assinale a afirmativa correta.",
+    alternativas: [
+      "Apenas o comerciante Beta responde pelos danos, pois foi quem realizou a venda direta ao consumidor final.",
+      "A importadora responde objetivamente pelos danos, sendo excluída sua responsabilidade caso comprove ausência de culpa.",
+      "O comerciante Beta responde subsidiariamente apenas se comprovada sua culpa no armazenamento inadequado do produto.",
+      "A importadora responde objetivamente pelos danos causados, e o comerciante também poderá ser responsabilizado nas hipóteses legais, sendo João equiparado a consumidor.",
+      "João não possui legitimidade para pleitear indenização, pois não participou da relação de consumo."
+    ], resposta_correta: 3 },
+  { id: "q750", tema: "Direito Civil", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Ministério Público do Estado de Mato Grosso, verificando efetiva repetição de processos contendo controvérsia sobre a mesma questão unicamente de direito e existência de risco à isonomia e à segurança jurídica, formulou pedido de instauração de Incidente de Resolução de Demandas Repetitivas (IRDR) dirigido ao Presidente do Tribunal de Justiça do Estado de Mato Grosso. O incidente foi admitido, os processos pendentes foram suspensos e o Ministério Público participou ativamente da instrução. Antes do julgamento, porém, o Parquet manifestou desistência do incidente. Considerando as disposições do Código de Processo Civil acerca do IRDR, assinale a afirmativa correta.",
+    alternativas: [
+      "A desistência do Ministério Público determina a extinção do incidente sem resolução de mérito, impondo-se a imediata retomada dos processos suspensos, por ausência de ente capaz de assumir a titularidade do polo ativo da demanda em substituição ao Parquet, nos termos do artigo 976 §§ 1º e 2º do CPC.",
+      "Diante da desistência, o próprio Ministério Público deverá assumir a condução do feito na qualidade de custos legis, prosseguindo o incidente até o julgamento definitivo da tese, nos termos do art. 976 §§ 1º e 2º do CPC, em homenagem à superação do risco à isonomia e à segurança jurídica que o incidente visa preservar.",
+      "A desistência não impede o exame de mérito, porém a regra do §2º do art. 976 do CPC, segundo a qual o Ministério Público deve assumir a titularidade em caso de desistência ou abandono, não se aplica à hipótese, pois o dispositivo pressupõe, expressamente, que o Ministério Público não seja o requerente do incidente.",
+      "Independentemente de quem figure como requerente original, o §2º do art. 976 do CPC impõe ao Ministério Público que assuma obrigatoriamente a titularidade do incidente sempre que houver desistência, por ser o Parquet ou guardião da isonomia e da segurança jurídica que o instituto visa proteger.",
+      "A desistência formulada pelo Ministério Público somente produz efeitos após homologação pelo órgão colegiado competente, momento a partir do qual cessam os efeitos da suspensão dos processos determinada no ato de admissão do incidente."
+    ], resposta_correta: 2 },
+  { id: "q751", tema: "Direito Penal", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Juliano responde pelo feminicídio de sua ex-namorada Talita e, pronunciado, é levado a julgamento pelo Tribunal do Júri. Na sessão, ao longo dos debates, o Ministério Público pede a condenação na forma da pronúncia. A Defesa admite a autoria, mas diz que Juliano matou Talita, porque ela o traía com outros homens. Argumenta também que Talita começou a vida sexual aos 12 anos e que teve vários namorados ao longo da adolescência. Por fim, alega que Mara e Célia, amigas da vítima ouvidas como testemunhas da acusação, dedicam-se à prostituição. Realizada a votação dos quesitos, os jurados absolvem Juliano, respondendo afirmativamente ao chamado quesito genérico. A respeito dos aspectos processuais da hipótese descrita, e observada a jurisprudência do Supremo Tribunal Federal, assinale a opção correta.",
+    alternativas: [
+      "Não existe vedação legal a que a Defesa apresente argumentos que ofendam a dignidade das testemunhas Mara e Célia.",
+      "A tese da legítima defesa da honra é admitida, em observância à garantia da plenitude de defesa.",
+      "A absolvição amparada no quesito genérico é obstáculo a que o Ministério Público apele sob a alegação de que a decisão dos jurados é manifestamente contrária à prova dos autos.",
+      "A argumentação defensiva implica nulidade da sessão de julgamento.",
+      "A tese da legítima defesa da honra não é admitida, mas a Defesa pode invocar elementos referentes à vivência sexual pregressa da vítima."
+    ], resposta_correta: 2 },
+  { id: "q752", tema: "Direito Penal", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Promotor de Justiça Substituto — 2026",
+    enunciado: "Uma investigação da Polícia Civil mostrou que, por um período de quatro anos, José Paulo, funcionário público, apropriou-se de dinheiro público do qual tinha posse em razão do cargo. Descobriu-se que, com os proventos do crime, José Paulo adquiriu quatro imóveis, um deles localizado no Paraguai, e transferiu a propriedade de outro para o primo César. Além disso, revelou-se que José Paulo comprou joias e objetos de arte, cujo paradeiro não foi possível descobrir, no curso do inquérito. O Promotor de Justiça que receber os autos do inquérito, preocupado em assegurar o ressarcimento do prejuízo causado pelos crimes, deverá observar que",
+    alternativas: [
+      "a medida de sequestro é exclusiva para os bens imóveis.",
+      "o imóvel transferido a César não poderá ser alcançado pelo sequestro, e sua recuperação dependerá de ação civil proposta pelo interessado.",
+      "o Ministério Público poderá pedir o sequestro, antes oferecida a denúncia, cabível também a decretação de ofício pelo juiz.",
+      "o Código de Processo Penal exige, para a decretação do sequestro, prova da existência do crime e indício suficiente de autoria.",
+      "a localização de um dos imóveis no exterior e o desconhecimento do paradeiro das joias e dos objetos de arte são obstáculos a que se busquem medidas assecuratórias referentes a esses bens."
+    ], resposta_correta: 3 }
+  ,
+  { id: "q753", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Município Sigma editou a Lei nº X (LX) que dispôs, em seu Art. 2º, sobre os requisitos do cadastro a ser formado para a identificação do rol de beneficiários em potencial para determinado serviço de cunho assistencial, ofertado pela Secretaria Municipal de Assistência Social, destinado à integração social de grupos desfavorecidos. De acordo com o Art. 3º desse diploma normativo, caberia ao Chefe do Poder Executivo Municipal editar o respectivo regulamento, no prazo de 60 (sessenta) dias. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "a LX é inconstitucional apenas em seu Art. 3º.",
+      "Sigma não tem competência para legislar sobre a matéria.",
+      "a LX é inconstitucional em seu Art. 2º e, por arrastamento, o Art. 3º também é.",
+      "Sigma tem competência para legislar sobre a matéria e a LX não apresenta vício de inconstitucionalidade material.",
+      "Sigma tem competência para legislar sobre a matéria, e os Artigos 2º e 3º são constitucionais, caso a proposição legislativa tenha sido apresentada pelo Prefeito Municipal."
+    ], resposta_correta: 0 },
+  { id: "q754", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Joana, pessoa acometida por doença grave irreversível e incapaz para os atos da vida civil, obteve sentença favorável em ação ajuizada em face do Estado Alfa, sendo-lhe assegurada a percepção do vultoso valor. Em razão de sua condição de saúde, a espera pela tramitação administrativa do precatório, no âmbito da Presidência do Tribunal de Justiça do Estado Alfa, ainda que em regime de preferência, representava risco concreto à própria continuidade de sua vida. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "é cabível o sequestro do valor necessário à satisfação imediata do direito fundamental de Joana.",
+      "deve ser observada a sistemática da requisição de pequeno valor, considerando a situação pessoal de Joana.",
+      "está caracterizada a natureza alimentar do débito de Joana, o que assegura o direito de preferência e afasta a incidência da sistemática de precatórios.",
+      "deve ser observada a sistemática de precatórios, com a preferência constitucional decorrente da situação pessoal de Joana, não sendo cabível a medida de sequestro.",
+      "pode ser formalizado o requerimento de preferência, que seguirá rito abreviado, cabível a interposição de recurso extraordinário na hipótese de não atendimento."
+    ], resposta_correta: 3 },
+  { id: "q755", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Constituição do Estado Alfa foi reformada pela Emenda Constitucional Estadual nº X, passando a dispor que as emendas parlamentares ao projeto de lei orçamentária anual, nas situações e no percentual indicados, devidamente aprovadas pela Casa Legislativa, teriam caráter impositivo e, não meramente autorizatório para o Poder Executivo. Ainda foi previsto que as despesas inscritas em restos a pagar não poderiam ser computadas no percentual afeto às emendas parlamentares impositivas. À luz da sistemática da Constituição da República, é correto afirmar que a Emenda Constitucional Estadual nº X",
+    alternativas: [
+      "afronta a separação dos poderes ao incursionar na forma de execução orçamentária a ser promovida pelo Chefe do Poder Executivo Estadual.",
+      "não apresenta qualquer vício de inconstitucionalidade, pois o caráter impositivo ou autorizatório do orçamento está sujeito à liberdade de conformação do Poder Legislativo.",
+      "apesenta vício de inconstitucionalidade em relação à vedação ao cômputo das despesas inscritas em restos a pagar, desconsiderando o disposto em norma de reprodução obrigatória.",
+      "foi editada no exercício da competência concorrente de Alfa para legislar sobre direito financeiro, não apresentando vício de inconstitucionalidade caso tenha observado as normas gerais editadas pela União.",
+      "incursiona em matéria afeta ao processo legislativo ordinário, que deve contar com a participação do Chefe do Poder Executivo, tanto no exercício da iniciativa privativa como no poder de veto, sendo inconstitucional."
+    ], resposta_correta: 2 },
+  { id: "q756", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Um órgão de execução do Ministério Público recebeu representação de Joana, na qual era noticiada a alegada prática de ato ilícito por delegatário de serventia do registro público da circunscrição territorial X. Ao analisar a narrativa de Joana, o Promotor de Justiça concluiu, corretamente, que, além das medidas passíveis de serem adotadas em sua esfera de atribuições, deveriam ser encaminhadas peças de informação ao órgão competente do Poder Judiciário, com o objetivo de apurar eventual infração disciplinar e, se for o caso, aplicar correlata sanção cabível. Após analisar o Código de Organização Judiciária do Estado de Goiás, o Promotor de Justiça concluiu corretamente que",
+    alternativas: [
+      "a sanção disciplinar deve ser aplicada pelo Corregedor-Geral da Justiça, que atua nos planos judicial e extrajudicial.",
+      "a apuração e a aplicação da sanção são de competência do Corregedor do Foro Extrajudicial, sendo cabível a interposição de recurso para o Tribunal Pleno.",
+      "a apuração compete ao Diretor do Foro da respectiva Comarca, enquanto a aplicação da penalidade de perda da delegação é de competência do Tribunal Pleno.",
+      "a apuração é de competência do Diretor do Foro da respectiva Comarca, enquanto a aplicação da sanção é de competência do Corregedor do Foro Extrajudicial.",
+      "a apuração é de competência do Corregedor do Foro Extrajudicial, e a aplicação da penalidade de perda da delegação é de competência do Conselho Superior da Magistratura."
+    ], resposta_correta: 4 },
+  { id: "q757", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Município Alfa, nos últimos três exercícios financeiros, vinha deixando de pagar, sem motivo de força maior, a dívida pública com exigibilidade superior a doze meses, o que estava causando grandes dissabores entre os credores. Em razão desse fato, houve uma grande mobilização, junto ao Chefe do Poder Executivo Estadual, pleiteando a decretação de intervenção estadual em Alfa. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "o não pagamento da dívida flutuante, nas circunstâncias indicadas, autoriza a intervenção provocada.",
+      "o não pagamento da dívida consolidada, nas circunstâncias indicadas, autoriza a intervenção espontânea.",
+      "a violação a princípio constitucional sensível, como o descrito na narrativa, exige que o Tribunal de Justiça requisite a intervenção.",
+      "a decretação da intervenção pressupõe o provimento, pelo Tribunal de Justiça, de representação interventiva ajuizada pelo Ministério Público.",
+      "a decretação da intervenção é medida que excepciona o pacto federativo, sendo incompatível com o inadimplemento de obrigações pecuniárias."
+    ], resposta_correta: 1 },
+  { id: "q758", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Lei Orgânica do Município Alfa foi reformada, com a correlata supressão do capítulo que tratava do processo legislativo ordinário. A justificativa que acompanhou o respectivo projeto de reforma sustentou a desnecessidade dessa disciplina em âmbito local, considerando que a atuação normativa de Alfa estava necessariamente balizada pela simetria com a Constituição da República, ressaltando ainda que a congênere estadual também não incursionara na temática. Logo após a alteração, a Câmara Municipal de Alfa editou decreto legislativo criando cargos de provimento efetivo e cargos em comissão, no âmbito dessa Casa Legislativa. Diante da situação descrita, é correto afirmar que o decreto legislativo",
+    alternativas: [
+      "não apresenta vício de inconstitucionalidade.",
+      "é inconstitucional, mas somente pode ser apreciado pelo Supremo Tribunal Federal, em sede de controle difuso de constitucionalidade.",
+      "é inconstitucional, podendo ser apreciado apenas em sede de controle difuso de constitucionalidade, pelo Tribunal de Justiça e pelo Supremo Tribunal Federal.",
+      "é inconstitucional, podendo ser apreciado, em sede de controle concentrado de constitucionalidade, tanto pelo Tribunal de Justiça como pelo Supremo Tribunal Federal.",
+      "é inconstitucional, mas não pode ser apreciado pelo respectivo Tribunal de Justiça em sede de controle concentrado de constitucionalidade, o que decorre da ausência de disciplina da matéria na Constituição Estadual."
+    ], resposta_correta: 0 },
+  { id: "q759", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Tribunal de Contas do Estado Alfa (TCEA), ao apreciar as contas de gestão de determinado ordenador de despesas do Município Sigma, considerou-as parcialmente conformes à sistemática constitucional e legal. Em razão das irregularidades identificadas, aplicou sanção de multa e imputou débito na parte em que identificou a injuridicidade. Para decidir nesse sentido, o TCEA não acolheu os argumentos apresentados pelo Ministério Público de Contas (MPC), que alcançara conclusões diametralmente opostas, considerando lícito o que o Tribunal viu como ilícito; e ilícito o que fora considerado lícito. Ao tomar ciência do acórdão, o órgão com atribuição entendeu estar caracterizada manifesta ilegalidade, prejudicial ao interesse público e passível de ser demonstrada com as provas documentais existentes. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "o débito imputado ao gestor somente pode ser executado por Sigma.",
+      "o MPC pode impetrar mandado de segurança contra o acórdão do TCEA.",
+      "o acórdão do TCEA, ao transitar em julgado, é insuscetível de ser revisto pelo Poder Judiciário.",
+      "o acórdão deu origem a um título executivo extrajudicial, que deve ser executado pelo MPC enquanto permanecer eficaz.",
+      "o acórdão do TCEA, caso o gestor seja o Prefeito Municipal, será apreciado pela Câmara Municipal de Sigma, somente deixando de produzir efeitos pelo voto de dois terços dos seus membros."
+    ], resposta_correta: 0 },
+  { id: "q760", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Antônio, nascido no território brasileiro e filho de pais brasileiros, tinha o sonho de descortinar novos horizontes de vida. Para tanto, almejava desvincular-se da nacionalidade brasileira, viver em um país do Oriente Médio e adquirir uma nova nacionalidade, o que, ao seu ver, facilitaria a formação de uma família e a inserção no respectivo mercado de trabalho. À luz da Constituição Federal de 1988, e considerando o objetivo de dissolver o vínculo jurídico que une à República Federativa do Brasil, Antônio concluiu corretamente que",
+    alternativas: [
+      "não pode requerer a perda da nacionalidade brasileira em momento algum.",
+      "pode requerer a perda da nacionalidade brasileira no presente momento.",
+      "não pode requerer a perda da nacionalidade brasileira no presente momento.",
+      "pode apenas requerer a suspensão da nacionalidade brasileira no presente momento.",
+      "basta requerer voluntariamente e ter deferida a nacionalidade do novo País que perderá a nacionalidade brasileira."
+    ], resposta_correta: 2 },
+  { id: "q761", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Com o intuito de reduzir os gases poluentes do efeito estufa, a sociedade empresária Alfa vinha realizando atividades direcionadas ao desenvolvimento de fontes de energia de caráter renovável, de modo a produzir hidrogênio verde a partir de baixa emissão de carbono. Com isso, aumentou sua influência no respectivo mercado e deflagrou debates, no âmbito das estruturas de poder competentes, em relação à possibilidade, ou não, de beneficiar-se por um regime fiscal favorecido. Nos debates realizados, concluiu-se corretamente que, na perspectiva constitucional, o regime fiscal favorecido",
+    alternativas: [
+      "é assegurado apenas aos biocombustíveis, alcançando impostos sobre o consumo e certas contribuições sociais.",
+      "está previsto em norma constitucional de eficácia plena e aplicabilidade imediata, alcançando certos impostos sobre consumo.",
+      "pressupõe a edição de lei complementar, disciplinando-o, alcançando tanto tributos da União como dos estados e do Distrito Federal.",
+      "deve acarretar tributação inferior à incidente sobre os combustíveis fósseis, de modo a assegurar diferencial competitivo em relação a esses apenas quanto aos impostos sobre o consumo.",
+      "está previsto em norma constitucional de eficácia limitada e princípio programático, pressupondo a edição de lei nacional para integrar sua eficácia, que se estenderá aos impostos de todos os entes federativos subnacionais."
+    ], resposta_correta: 2 },
+  { id: "q762", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "João, que estava preso cautelarmente no curso da instrução processual penal, foi condenado em sentença transitada em julgado à pena privativa de liberdade, a ser inicialmente cumprida em regime semiaberto. Todavia, em razão do déficit de vagas no sistema prisional destinados ao referido regime, o juízo competente foi comunicado pela administração penitenciária que João foi temporariamente direcionado a um estabelecimento penal destinado ao cumprimento de pena em regime fechado. O juízo competente, ao receber a comunicação, observou corretamente que João deve",
+    alternativas: [
+      "permanecer no referido estabelecimento penal, computando o respectivo tempo para fins de progressão ao regime aberto.",
+      "ser posto em liberdade, até que surja vaga em estabelecimento penal adequado ao regime em que deve cumprir a pena.",
+      "ser posto em prisão domiciliar, até que surja vaga em estabelecimento penal adequado ao regime em que deve cumprir a pena.",
+      "ser posto em cela que abrigue, majoritariamente, condenados que cumpram pena em regime semiaberto, ainda que haja no local condenados em regime fechado.",
+      "ser beneficiado por medidas alternativas, como a saída antecipada e a liberdade eletronicamente monitorada, podendo ser deferida a prisão domiciliar até que essas medidas sejam estruturadas."
+    ], resposta_correta: 4 },
+  { id: "q763", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Maria, pessoa com deficiência e de nacionalidade brasileira, entendia que, em determinado período histórico, a República Federativa do Brasil não vinha adotando medidas imediatas, efetivas e apropriadas para combater os estereótipos socialmente construídos e atribuídos a pessoas em condição semelhante à sua, e diretamente a ela. Por tal razão, almejava que fossem adotadas as providências necessárias no âmbito da Convenção Internacional sobre Direitos das Pessoas com Deficiência (CIDPD) e de seu Protocolo Facultativo. Na situação descrita, é correto afirmar que os fatos descritos",
+    alternativas: [
+      "podem ser submetidos por Maria ao Comitê sobre os Direitos da Pessoa com Deficiência, sendo exigida a sua identificação.",
+      "podem ser submetidos por Maria à Comissão sobre os Direitos da Pessoa com Deficiência, sendo assegurado o anonimato.",
+      "não podem ser submetidos a órgão previsto na CIDPD, em razão da ausência de ratificação do seu Protocolo Facultativo pelo Estado brasileiro.",
+      "não podem ser submetidos a uma estrutura orgânica específica criada pela CIDPD, mas, sim, a órgãos de tutela dos sistemas global e interamericano de proteção aos direitos humanos.",
+      "podem ser submetidos ao Comitê de Direitos Humanos das Nações Unidas, diretamente por Maria ou por intermédio de organização não governamental, que irá solicitar esclarecimentos ao Estado brasileiro."
+    ], resposta_correta: 0 },
+  { id: "q764", tema: "Constitucional", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Os estados que formam uma das cinco regiões do País foram gravemente assolados por um ciclo contínuo de calamidades naturais de grandes proporções, que se estendeu por quase trinta dias e acarretou uma desarticulação das estruturas estatais de poder, graves danos materiais, o comprometimento da produção industrial e um elevado número de desabrigados. Preocupados com as consequências desses acontecimentos para a preservação da ordem pública e a paz social, representantes de diversas correntes políticas se reuniram com o propósito de discutir as restrições decorrentes desse estado de coisas e as medidas passíveis de serem adotadas, à luz da Constituição da República. Ao fim das discussões, concluíram corretamente que, enquanto perdurar a referida situação,",
+    alternativas: [
+      "a Constituição da República não pode ser emendada.",
+      "o estado de defesa pode ser decretado, mas não pode redundar em restrições a direitos fundamentais.",
+      "a autoridade competente pode optar pela decretação do estado de defesa ou do estado de sítio, apresentando níveis distintos de restrições aos direitos fundamentais.",
+      "a decretação do estado de calamidade pública somente pode redundar na restrição aos direitos fundamentais que se mostrem indispensáveis à preservação da ordem pública.",
+      "a adoção da medida cabível de defesa do estado e das instituições democráticas não pode ocorrer por prazo superior a trinta dias, prorrogável uma única vez, por igual período."
+    ], resposta_correta: 4 },
+  { id: "q765", tema: "Constitucional", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "O Estado Alfa editou a Lei nº X, que estabeleceu requisitos específicos a serem observados na atividade pesqueira realizada em rios e lagos, de modo a evitar o comprometimento de determinadas espécies, que, comprovadamente, reproduzem-se em certos meses do ano. A medida, muito comemorada por ambientalistas, foi duramente criticada pelos setores econômicos atingidos, que argumentavam sobre a sua provável inconstitucionalidade. Na situação descrita, é correto afirmar que a Lei nº X é",
+    alternativas: [
+      "constitucional, por refletir o exercício da competência legislativa residual.",
+      "inconstitucional, salvo se houver lei complementar federal autorizando a sua edição.",
+      "inconstitucional, pois invadiu seara afeta à competência legislativa privativa da União, que é indelegável.",
+      "constitucional, desde que não tenha afrontado lei nacional editada pela União, no exercício da competência que lhe é própria.",
+      "constitucional, desde que sua aplicação permaneça adstrita aos rios cuja extensão esteja integralmente situada no território do Estado Alfa."
+    ], resposta_correta: 3 },
+  { id: "q766", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Constituição Federal de 1988 assegura o direito de propriedade (art. 5º, XXII) e o reconhece como princípio da ordem econômica (art. 170, II). Entretanto, há situações em que o Estado interfere na propriedade privada, a fim de atender ao interesse da coletividade. Considerando a legislação vigente e o posicionamento do Supremo Tribunal Federal acerca das formas de intervenção estatal na propriedade privada, assinale a afirmativa correta.",
+    alternativas: [
+      "A requisição administrativa pode incidir sobre bem ou serviço de outro ente federativo, não sendo restrita a bens particulares.",
+      "Em caso de iminente perigo público, a autoridade competente poderá utilizar propriedade particular, assegurando ao proprietário indenização imediata.",
+      "O tombamento é um ato de intervenção estatal na propriedade que recai sobre bem específico, público ou privado, impondo restrições à sua utilização e transformação.",
+      "O tombamento não pode ser realizado por determinação contida em ato legislativo, ainda que por iniciativa do Poder Executivo, ficando restrito ao ato do Poder Executivo.",
+      "A hierarquia verticalizada dos entes federativos se estende ao tombamento, sendo vedado que Estado tombe bem pertencente à União."
+    ], resposta_correta: 2 },
+  { id: "q767", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Recentemente, fortes chuvas atingiram o Município Beta, acarretando graves enchentes e destruição de moradias. Muitas pessoas ficaram desabrigadas, houve diversos desaparecimentos ainda não solucionados e intensos problemas de saúde foram reportados. Diante desse cenário, surgem questionamentos acerca da eventual responsabilidade civil do Estado pelos danos decorrentes de sua atuação ou omissão na adoção de medidas preventivas e de resposta a desastres naturais. Considerando-se a legislação em vigor e o posicionamento do Supremo Tribunal Federal, é correto afirmar que",
+    alternativas: [
+      "a responsabilidade civil do Estado por atos omissivos se rege pela Teoria do Risco Administrativo, sendo subjetiva apenas quando se tratar de omissões genéricas do Poder Público.",
+      "a responsabilidade civil do Estado é objetiva quando exige a prova de culpa do agente para a vítima ser indenizada, sendo insuficiente a existência do dano.",
+      "o Estado não é responsável, nem em plano subsidiário, pelos danos causados por concessionárias e permissionárias, pois estas agem em nome próprio.",
+      "a responsabilidade civil do Estado por atos omissivos se rege pela Teoria do Risco Administrativo, sendo objetiva, tanto para omissões genéricas como específicas do Poder Público.",
+      "no caso apresentado, ainda que o Município tivesse ciência de recentes alagamentos na região nos períodos chuvosos, não há responsabilidade civil, por se tratar de caso fortuito."
+    ], resposta_correta: 0 },
+  { id: "q768", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Tício, cidadão residente do Município Alfa, representou junto ao Ministério Público local, afirmando que seu direito fundamental de acesso à informação fora violado. Segundo narra, protocolou pedido junto ao Poder Executivo municipal, solicitando informações sobre o número de cargos vagos na Administração, sem que tenha obtido resposta da Municipalidade no prazo legal. Após novo requerimento, foi informado pela Secretaria de Planejamento que os dados solicitados não se configuram de interesse público, fazendo parte da estruturação da Administração. O gestor da pasta aduziu, ainda, que as informações pleiteadas são estratégicas, determinando seu sigilo. Considerando o caso apresentado, à luz da legislação vigente e atualizada, assinale a afirmativa correta a respeito do direito fundamental de acesso à informação, dos limites do sigilo administrativo e da atuação do Ministério Público.",
+    alternativas: [
+      "No regime de transparência pública, vige o princípio da divulgação relativa, em que a publicidade depende da comprovação do interesse público na informação solicitada.",
+      "O direito de acesso à informação pública é sempre garantido, conforme o art. 5º, XXXIII, da Constituição Federal, adotando-se no ordenamento jurídico brasileiro o princípio da máxima informação.",
+      "O Ministério Público, ciente de que os dados postulados por Tício foram declarados sigilosos pela autoridade municipal, não pode requisitá-los, podendo apenas postular sua apresentação em juízo.",
+      "A representação protocolada junto ao Ministério Público deve ser indeferida, visto que o interesse de Tício demonstrou-se individual homogêneo, afastando atribuição do Parquet para atuar no caso.",
+      "As informações solicitadas por Tício, negadas pela Municipalidade, podem ser requisitadas pelo Ministério Público, após a instauração de procedimento próprio."
+    ], resposta_correta: 4 },
+  { id: "q769", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "A Lei de Licitações e Contratos Administrativos (Lei nº 14.133/2021) preceitua que: Art. 75. É dispensável a licitação VIII - nos casos de emergência ou de calamidade pública, quando caracterizada urgência de atendimento de situação que possa ocasionar prejuízo ou comprometer a continuidade dos serviços públicos ou a segurança de pessoas, obras, serviços, equipamentos e outros bens, públicos ou particulares, e somente para aquisição dos bens necessários ao atendimento da situação emergencial ou calamitosa e para as parcelas de obras e serviços que possam ser concluídas no prazo máximo de 1 (um) ano, contado da data de ocorrência da emergência ou da calamidade, vedadas a prorrogação dos respectivos contratos e a recontratação de empresa já contratada com base no disposto neste inciso. Considerando a legislação em vigor e a jurisprudência do Supremo Tribunal Federal, é correto afirmar que a vedação à recontratação de empresa contratada diretamente",
+    alternativas: [
+      "em razão de urgência ou calamidade pública viola os princípios previstos no artigo 37, caput, da Constituição Federal.",
+      "por dispensa de licitação, nos casos de emergência, incide na mesma situação emergencial que extrapole o prazo máximo legal de 1 (um) ano.",
+      "com base em situação de urgência ou calamidade pública impede sua participação em eventual licitação substitutiva à contratação realizada por dispensa de licitação.",
+      "em razão de urgência impede que a empresa seja contratada diretamente por fundamento diverso do previsto em lei, inclusive outra emergência.",
+      "com fundamento em situação de urgência ou de calamidade pública foi considerada parcialmente inconstitucional pelo Supremo Tribunal Federal, que julgou possível a prorrogação do contrato, por igual período, desde que fundamentada a decisão."
+    ], resposta_correta: 1 },
+  { id: "q770", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Mauro, servidor concursado, responde a processo administrativo disciplinar (PAD) que investiga suposta falta cometida no exercício de suas funções. O processo foi instaurado a partir de representação, mediante portaria, com a regular designação da comissão processante. Em relação ao caso apresentado, à luz da legislação em vigor e da jurisprudência atualizada sobre processo administrativo disciplinar, assinale a afirmativa correta.",
+    alternativas: [
+      "Em processo administrativo disciplinar, a nulidade de um ato processual pode ser declarada ainda que não haja efetiva demonstração de prejuízo à defesa.",
+      "O servidor processado no PAD precisa ser intimado após o relatório final feito pela comissão processante, sob pena de ofensa ao contraditório e da ampla defesa.",
+      "O controle jurisdicional do processo administrativo disciplinar deve sempre restringir-se ao exame da regularidade do procedimento e da legalidade do ato.",
+      "As provas anuladas no processo criminal devem ser excluídas do processo administrativo disciplinar, por força da contaminação de sua legalidade.",
+      "A autoridade administrativa pode se utilizar de fundamentação per relationem nos processos disciplinares."
+    ], resposta_correta: 4 },
+  { id: "q771", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Diante de crise climática e hídrica, marcada por seca severa na região Nordeste, o Presidente da República editou decreto autorizando o acionamento de novas usinas termelétricas no território nacional. A medida mostrou-se necessária e evitou novo apagão no país, mas não foi precedida dos estudos técnicos e econômicos necessários, o que resultou num impacto financeiro para a União Federal, obrigada a arcar com custos significativos decorrentes de tal operacionalização na área de energia. Considerando a situação descrita e o disposto na Lei de Introdução às Normas de Direito Brasileiro (LINDB), no que se refere à responsabilidade do agente público, assinale a afirmativa correta.",
+    alternativas: [
+      "O Presidente da República, por se tratar de espécie de agente público, não se submete ao regime de responsabilidade funcional previsto na LINDB.",
+      "Eventual sanção, administrativa ou civil, a ser aplicada ao referido gestor público, deve ser atenuada ou afastada diante do contexto fático exposto.",
+      "A LINDB não autoriza a flexibilização de sanções diante de alteração ou inovação normativa indevida, tal como ocorreu no caso descrito.",
+      "A responsabilidade é objetiva da União Federal, cabendo ação de regresso em face do Presidente da República no caso de dolo.",
+      "Embora tenha havido erro grosseiro, o referido agente público é imune de responsabilidade na esfera administrativa e civil, respondendo na esfera política perante o Congresso Nacional."
+    ], resposta_correta: 1 },
+  { id: "q772", tema: "Direito Administrativo", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "Em 12 novembro de 2025, durante a denominada \"Operação onda cívica\", realizada por policiais militares, ocorreram mortes de participantes de manifestações públicas realizadas na capital do Estado Beta. Considerando a situação descrita, assinale a afirmativa que apresenta corretamente a responsabilidade civil do referido Estado.",
+    alternativas: [
+      "A responsabilidade civil estatal, em situações de danos decorrentes de atuação policial em manifestações públicas, é objetiva e fundamentada na teoria do risco administrativo.",
+      "A responsabilização do ente público, por danos causados durante manifestações populares, depende da comprovação, pela vítima, de que não estava envolvida na manifestação ou na operação policial.",
+      "O uso da força pelo Estado, voltado à garantia da ordem e da segurança, é absoluto e legitimado pelo interesse público, afastando qualquer responsabilidade estatal.",
+      "A responsabilidade civil do Estado, no caso, depende da prévia apuração e identificação da responsabilidade criminal dos envolvidos.",
+      "A configuração da responsabilidade civil do Estado deve ser devidamente comprovada pelo Ministério Público competente."
+    ], resposta_correta: 0 },
+  { id: "q773", tema: "Direito Administrativo", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2026",
+    enunciado: "No ano de 2025, a criação de um novo aeroporto no Estado Y acarretou queda acentuada na demanda operacional de outro aeroporto, localizado no mesmo Estado, cuja exploração havia sido concedida à iniciativa privada em 2015. Em razão da queda das receitas, as obrigações contratuais e financeiras da concessão aeroportuária anterior foram impactadas, levando o concessionário a requerer a devolução da concessão, firmada havia 10 (dez) anos. Diante desse contexto, e considerando o instituto da relicitação, assinale a afirmativa que indica a medida juridicamente adequada.",
+    alternativas: [
+      "O Estado Y, na condição de poder concedente do ativo aeroportuário, e o concessionário retirante deverão extinguir judicialmente a concessão firmada em 2015.",
+      "No procedimento da relicitação, o concessionário retirante terá preferência ao lance das ofertas previstas no novo leilão aeroportuário.",
+      "Para evitar a descontinuidade do serviço aeroportuário, a União Federal, como poder concedente, deverá, mediante decreto, encampar a execução do serviço concedido.",
+      "O concessionário retirante terá direito à indenização pelo investimento em bens reversíveis, vinculados ao contrato de parceria, realizados e não amortizados ou depreciados, consideradas as deduções previstas legalmente.",
+      "As multas e demais somas de natureza não tributária decorrentes da concessão anterior, inclusive o valor relacionado à outorga originalmente ofertada, deverão ser assumidos pelo concessionário entrante."
     ], resposta_correta: 3 }
 ];
