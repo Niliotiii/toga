@@ -405,14 +405,6 @@ export function GameScreen({ navigation }: Props) {
             onPress={handleEliminar}
           />
           <PowerupButton
-            testID="powerup-pular"
-            icon={<SkipIcon size={24} color={colors.fg} />}
-            label="Pular"
-            count={state.powerups.pular}
-            disabled={state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive || bombaActive}
-            onPress={handlePular}
-          />
-          <PowerupButton
             testID="powerup-bomba"
             icon={<BombIcon size={24} color={colors.fg} />}
             label="Bomba"
@@ -426,6 +418,14 @@ export function GameScreen({ navigation }: Props) {
               bombaActive
             }
             onPress={handleBomba}
+          />
+          <PowerupButton
+            testID="powerup-pular"
+            icon={<SkipIcon size={24} color={colors.fg} />}
+            label="Pular"
+            count={state.powerups.pular}
+            disabled={state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive || bombaActive}
+            onPress={handlePular}
           />
         </View>
         {mascotTipo && <Mascot tipo={mascotTipo} mensagem={mascotMsg} />}
