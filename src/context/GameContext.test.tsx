@@ -28,7 +28,7 @@ test("iniciarRodada builds a rodada of up to 5 questions and resets round state"
   expect(result.current.state.indice).toBe(0);
   expect(result.current.state.acertos).toBe(0);
   expect(result.current.state.combo).toBe(0);
-  expect(result.current.state.powerups).toEqual({ pular: 1, eliminar: 1 });
+  expect(result.current.state.powerups).toEqual({ pular: 1, eliminar: 1, bomba: 1 });
 });
 
 test("responder with the correct index increments acertos and combo", async () => {
@@ -119,6 +119,86 @@ test("usarEliminar rejects a synchronous double-invocation with no render in bet
   expect(first.length).toBe(2);
   expect(second.length).toBe(0);
   expect(result.current.state.powerups.eliminar).toBe(0);
+});
+
+test("iniciarRodada includes bomba in the initial powerups", async () => {
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(() => {
+    result.current.setTema("Direito Penal");
+    result.current.setDificuldade("facil");
+  });
+  await act(() => result.current.iniciarRodada());
+  expect(result.current.state.powerups).toEqual({ pular: 1, eliminar: 1, bomba: 1 });
+});
+
+test("usarBomba removes three wrong alternatives and can only be used once per question", async () => {
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(() => {
+    result.current.setTema("Direito Penal");
+    result.current.setDificuldade("facil");
+  });
+  await act(() => result.current.iniciarRodada());
+  const correta = result.current.state.rodada[0].resposta_correta;
+
+  let removed: number[] = [];
+  await act(() => { removed = result.current.usarBomba(); });
+  expect(removed.length).toBe(3);
+  expect(removed.every((i) => i !== correta)).toBe(true);
+  expect(new Set(removed).size).toBe(3);
+  expect(result.current.state.bombadasQuestaoAtual).toBe(true);
+  expect(result.current.state.powerups.bomba).toBe(0);
+
+  await act(() => { removed = result.current.usarBomba(); });
+  expect(removed.length).toBe(0); // already used this question
+});
+
+test("usarBomba rejects a synchronous double-invocation with no render in between", async () => {
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(() => {
+    result.current.setTema("Direito Penal");
+    result.current.setDificuldade("facil");
+  });
+  await act(() => result.current.iniciarRodada());
+
+  let first: number[] = [];
+  let second: number[] = [];
+  await act(() => {
+    first = result.current.usarBomba();
+    second = result.current.usarBomba();
+  });
+
+  expect(first.length).toBe(3);
+  expect(second.length).toBe(0);
+  expect(result.current.state.powerups.bomba).toBe(0);
+});
+
+test("bomba is granted on combo multiples of 3, capped at POWERUP_MAX", async () => {
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(() => {
+    result.current.setTema("Direito Penal");
+    result.current.setDificuldade("facil");
+  });
+  await act(() => result.current.iniciarRodada());
+
+  for (let i = 0; i < 3; i++) {
+    const correta = result.current.state.rodada[result.current.state.indice].resposta_correta;
+    await act(() => result.current.responder(correta));
+    await act(() => result.current.avancar());
+  }
+  expect(result.current.state.powerups.bomba).toBe(2);
+});
+
+test("avancar resets bombadasQuestaoAtual for the next question", async () => {
+  const { result } = await renderHook(() => useGame(), { wrapper });
+  await act(() => {
+    result.current.setTema("Direito Penal");
+    result.current.setDificuldade("facil");
+  });
+  await act(() => result.current.iniciarRodada());
+  await act(() => { result.current.usarBomba(); });
+  expect(result.current.state.bombadasQuestaoAtual).toBe(true);
+  await act(() => result.current.avancar());
+  expect(result.current.state.bombadasQuestaoAtual).toBe(false);
 });
 
 test("avancar moves to the next question and does not overflow past rodada length", async () => {

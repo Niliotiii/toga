@@ -18,8 +18,9 @@ interface GameState {
   combo: number;
   comboMax: number;
   respondida: boolean;
-  powerups: { pular: number; eliminar: number };
+  powerups: { pular: number; eliminar: number; bomba: number };
   eliminadasQuestaoAtual: boolean;
+  bombadasQuestaoAtual: boolean;
 }
 
 const initialState: GameState = {
@@ -32,8 +33,9 @@ const initialState: GameState = {
   combo: 0,
   comboMax: 0,
   respondida: false,
-  powerups: { pular: 1, eliminar: 1 },
-  eliminadasQuestaoAtual: false
+  powerups: { pular: 1, eliminar: 1, bomba: 1 },
+  eliminadasQuestaoAtual: false,
+  bombadasQuestaoAtual: false
 };
 
 interface GameContextValue {
@@ -46,6 +48,7 @@ interface GameContextValue {
   responder(indiceEscolhido: number): void;
   usarPular(): void;
   usarEliminar(): number[];
+  usarBomba(): number[];
   avancar(): void;
 }
 
@@ -60,6 +63,9 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   // in between) can't both pass the outer guard off a stale stateRef
   // snapshot. Reset alongside eliminadasQuestaoAtual in iniciarRodada/avancar.
   const usedEliminarThisQuestionRef = useRef(false);
+  // Mirrors "used bomba for the current question" synchronously, mirroring
+  // usedEliminarThisQuestionRef above.
+  const usedBombaThisQuestionRef = useRef(false);
   // Tracks whether the user has manually toggled cronometro since mount.
   // The storage-hydration effect below resolves asynchronously and must
   // never clobber a toggle the user already performed while it was still
@@ -95,6 +101,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   const iniciarRodada = useCallback(() => {
     usedEliminarThisQuestionRef.current = false;
+    usedBombaThisQuestionRef.current = false;
     setState((s) => ({
       ...s,
       rodada: buildRodada(QUESTOES_DB, s.tema, s.dificuldade, ROUND_SIZE),
@@ -103,8 +110,9 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       combo: 0,
       comboMax: 0,
       respondida: false,
-      powerups: { pular: 1, eliminar: 1 },
-      eliminadasQuestaoAtual: false
+      powerups: { pular: 1, eliminar: 1, bomba: 1 },
+      eliminadasQuestaoAtual: false,
+      bombadasQuestaoAtual: false
     }));
   }, []);
 
@@ -125,8 +133,12 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       if (s.respondida) return s;
       const combo = acertou ? s.combo + 1 : 0;
       let powerups = s.powerups;
-      if (acertou && combo > 0 && combo % 3 === 0 && s.powerups.eliminar < POWERUP_MAX) {
-        powerups = { ...s.powerups, eliminar: s.powerups.eliminar + 1 };
+      if (acertou && combo > 0 && combo % 3 === 0) {
+        powerups = {
+          ...powerups,
+          eliminar: Math.min(POWERUP_MAX, powerups.eliminar + (powerups.eliminar < POWERUP_MAX ? 1 : 0)),
+          bomba: Math.min(POWERUP_MAX, powerups.bomba + (powerups.bomba < POWERUP_MAX ? 1 : 0))
+        };
       }
       return {
         ...s,
@@ -200,18 +212,61 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     return removidos;
   }, []);
 
+  // Mirrors usarEliminar exactly, removing 3 wrong alternatives instead of 2.
+  const usarBomba = useCallback((): number[] => {
+    const s = stateRef.current;
+    const q = s.rodada[s.indice];
+    if (
+      s.respondida ||
+      s.powerups.bomba <= 0 ||
+      s.bombadasQuestaoAtual ||
+      usedBombaThisQuestionRef.current ||
+      !q
+    ) {
+      return [];
+    }
+    usedBombaThisQuestionRef.current = true;
+
+    const errados: number[] = [];
+    q.alternativas.forEach((_, idx) => {
+      if (idx !== q.resposta_correta) errados.push(idx);
+    });
+    const removidos = shuffle(errados).slice(0, 3);
+
+    setState((curr) => {
+      const currQ = curr.rodada[curr.indice];
+      if (
+        curr.respondida ||
+        curr.powerups.bomba <= 0 ||
+        curr.bombadasQuestaoAtual ||
+        !currQ ||
+        currQ.id !== q.id
+      ) {
+        return curr;
+      }
+      return {
+        ...curr,
+        bombadasQuestaoAtual: true,
+        powerups: { ...curr.powerups, bomba: curr.powerups.bomba - 1 }
+      };
+    });
+
+    return removidos;
+  }, []);
+
   const avancar = useCallback(() => {
     usedEliminarThisQuestionRef.current = false;
+    usedBombaThisQuestionRef.current = false;
     setState((s) => {
       const proximoIndice = s.indice + 1;
       if (proximoIndice >= s.rodada.length) return { ...s, indice: proximoIndice };
-      return { ...s, indice: proximoIndice, respondida: false, eliminadasQuestaoAtual: false };
+      return { ...s, indice: proximoIndice, respondida: false, eliminadasQuestaoAtual: false, bombadasQuestaoAtual: false };
     });
   }, []);
 
   return (
     <GameContext.Provider
-      value={{ state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, avancar }}
+      value={{ state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, usarBomba, avancar }}
     >
       {children}
     </GameContext.Provider>
