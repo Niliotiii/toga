@@ -6,7 +6,7 @@ import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
 import { AlternativaButton } from "../components/AlternativaButton";
 import { PowerupButton } from "../components/PowerupButton";
-import { ScissorsIcon, SkipIcon, FlameIcon } from "../components/icons";
+import { ScissorsIcon, SkipIcon, FlameIcon, BombIcon } from "../components/icons";
 import { Mascot, MascotTipo } from "../components/Mascot";
 import { ParachuteMascot } from "../components/ParachuteMascot";
 import { colors, spacing, radius, type, motion } from "../theme/tokens";
@@ -36,7 +36,7 @@ const ICON_SIZE = 28;
 type Props = NativeStackScreenProps<RootStackParamList, "Game">;
 
 export function GameScreen({ navigation }: Props) {
-  const { state, responder, usarPular, usarEliminar, avancar } = useGame();
+  const { state, responder, usarPular, usarEliminar, usarBomba, avancar } = useGame();
   const insets = useSafeAreaInsets();
   const reducedMotion = useReducedMotion();
   const [eliminadas, setEliminadas] = useState<number[]>([]);
@@ -56,6 +56,13 @@ export function GameScreen({ navigation }: Props) {
   const paraquedasY = useRef(new Animated.Value(-80)).current;
   const paraquedasOpacity = useRef(new Animated.Value(0)).current;
   const paraquedasWiggle = useRef(new Animated.Value(0)).current;
+  const [bombaActive, setBombaActive] = useState(false);
+  const bombaY = useRef(new Animated.Value(0)).current;
+  const bombaScale = useRef(new Animated.Value(0)).current;
+  const bombaOpacity = useRef(new Animated.Value(0)).current;
+  const bombaShake = useRef(new Animated.Value(0)).current;
+  const explosaoScale = useRef(new Animated.Value(0)).current;
+  const explosaoOpacity = useRef(new Animated.Value(0)).current;
 
   const q = state.rodada[state.indice];
 
@@ -95,6 +102,7 @@ export function GameScreen({ navigation }: Props) {
     setSelecionada(null);
     setScissorsActive(false);
     setPularAnimating(false);
+    setBombaActive(false);
     scissorsOpacity.setValue(0);
     paraquedasOpacity.setValue(0);
     pararCronometro();
@@ -127,7 +135,7 @@ export function GameScreen({ navigation }: Props) {
   }
 
   const handleEliminar = async () => {
-    if (scissorsActive || pularAnimating) return;
+    if (scissorsActive || pularAnimating || bombaActive) return;
     const removidos = usarEliminar();
     if (!removidos.length) return;
 
@@ -173,7 +181,7 @@ export function GameScreen({ navigation }: Props) {
   };
 
   const handlePular = async () => {
-    if (state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive) return;
+    if (state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive || bombaActive) return;
 
     if (reducedMotion) {
       usarPular();
@@ -204,8 +212,52 @@ export function GameScreen({ navigation }: Props) {
     setPularAnimating(false);
   };
 
+  const handleBomba = async () => {
+    if (scissorsActive || pularAnimating || bombaActive) return;
+    const removidos = usarBomba();
+    if (!removidos.length) return;
+
+    if (reducedMotion) {
+      setEliminadas((prev) => [...prev, ...removidos]);
+      return;
+    }
+
+    setBombaActive(true);
+
+    for (const idx of removidos) {
+      bombaY.setValue(centerYFor(idx, ICON_SIZE));
+      bombaScale.setValue(0);
+      bombaOpacity.setValue(1);
+      bombaShake.setValue(0);
+      explosaoScale.setValue(0);
+      explosaoOpacity.setValue(0);
+
+      await animateTo(bombaScale, 1, 150);
+      await new Promise<void>((resolve) => {
+        Animated.sequence([
+          Animated.timing(bombaShake, { toValue: 1, duration: 60, useNativeDriver: true }),
+          Animated.timing(bombaShake, { toValue: -1, duration: 60, useNativeDriver: true }),
+          Animated.timing(bombaShake, { toValue: 1, duration: 60, useNativeDriver: true }),
+          Animated.timing(bombaShake, { toValue: 0, duration: 60, useNativeDriver: true })
+        ]).start(() => resolve());
+      });
+
+      setEliminadas((prev) => [...prev, idx]);
+      bombaOpacity.setValue(0);
+      explosaoScale.setValue(0.3);
+      explosaoOpacity.setValue(1);
+      await animateTo(explosaoScale, 1.6, 180);
+      await animateTo(explosaoOpacity, 0, 150);
+
+      await wait(150);
+    }
+
+    setBombaActive(false);
+  };
+
   const scissorsRotate = scissorsSnip.interpolate({ inputRange: [0, 1], outputRange: ["0deg", "-32deg"] });
   const paraquedasRotate = paraquedasWiggle.interpolate({ inputRange: [-1, 1], outputRange: ["-8deg", "8deg"] });
+  const bombaRotate = bombaShake.interpolate({ inputRange: [-1, 1], outputRange: ["-12deg", "12deg"] });
 
   const isUltima = state.indice + 1 >= state.rodada.length;
 
@@ -264,7 +316,7 @@ export function GameScreen({ navigation }: Props) {
                   letra={String.fromCharCode(65 + i)}
                   texto={alt}
                   state={altState}
-                  disabled={state.respondida || eliminadas.includes(i) || scissorsActive}
+                  disabled={state.respondida || eliminadas.includes(i) || scissorsActive || bombaActive}
                   onPress={() => handleResponder(i)}
                   testID="alternativa-button"
                 />
@@ -306,6 +358,32 @@ export function GameScreen({ navigation }: Props) {
               <ParachuteMascot size={40} />
             </Animated.View>
           )}
+
+          {bombaActive && (
+            <>
+              <Animated.View
+                pointerEvents="none"
+                style={[
+                  styles.bombaOverlay,
+                  {
+                    opacity: bombaOpacity,
+                    transform: [{ translateY: bombaY }, { rotate: bombaRotate }, { scale: bombaScale }]
+                  }
+                ]}
+              >
+                <BombIcon size={ICON_SIZE} color={colors.fg} />
+              </Animated.View>
+              <Animated.View
+                pointerEvents="none"
+                style={[
+                  styles.explosaoOverlay,
+                  { opacity: explosaoOpacity, transform: [{ translateY: bombaY }, { scale: explosaoScale }] }
+                ]}
+              >
+                <View style={styles.explosaoCircle} />
+              </Animated.View>
+            </>
+          )}
         </View>
       </ScrollView>
 
@@ -321,7 +399,8 @@ export function GameScreen({ navigation }: Props) {
               state.powerups.eliminar <= 0 ||
               state.eliminadasQuestaoAtual ||
               scissorsActive ||
-              pularAnimating
+              pularAnimating ||
+              bombaActive
             }
             onPress={handleEliminar}
           />
@@ -330,8 +409,23 @@ export function GameScreen({ navigation }: Props) {
             icon={<SkipIcon size={24} color={colors.fg} />}
             label="Pular"
             count={state.powerups.pular}
-            disabled={state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive}
+            disabled={state.respondida || state.powerups.pular <= 0 || pularAnimating || scissorsActive || bombaActive}
             onPress={handlePular}
+          />
+          <PowerupButton
+            testID="powerup-bomba"
+            icon={<BombIcon size={24} color={colors.fg} />}
+            label="Bomba"
+            count={state.powerups.bomba}
+            disabled={
+              state.respondida ||
+              state.powerups.bomba <= 0 ||
+              state.bombadasQuestaoAtual ||
+              scissorsActive ||
+              pularAnimating ||
+              bombaActive
+            }
+            onPress={handleBomba}
           />
         </View>
         {mascotTipo && <Mascot tipo={mascotTipo} mensagem={mascotMsg} />}
@@ -390,6 +484,9 @@ const styles = StyleSheet.create({
   altList: { gap: spacing.sm, marginTop: spacing.xl, position: "relative" },
   scissorsOverlay: { position: "absolute", left: "50%", marginLeft: -ICON_SIZE / 2, top: 0 },
   paraquedasOverlay: { position: "absolute", left: "50%", marginLeft: -28, top: 0 },
+  bombaOverlay: { position: "absolute", left: "50%", marginLeft: -ICON_SIZE / 2, top: 0 },
+  explosaoOverlay: { position: "absolute", left: "50%", marginLeft: -20, top: 0, alignItems: "center", justifyContent: "center" },
+  explosaoCircle: { width: 40, height: 40, borderRadius: 20, backgroundColor: colors.danger },
   footer: { padding: spacing.xl, gap: spacing.sm },
   btnProxima: { backgroundColor: colors.fg, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
   btnProximaText: { color: colors.bg, fontSize: 15.5, fontWeight: "600" }

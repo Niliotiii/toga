@@ -1,4 +1,4 @@
-import Svg, { Path } from "react-native-svg";
+import Svg, { Path, Circle } from "react-native-svg";
 
 interface IconProps {
   size?: number;
@@ -39,6 +39,18 @@ export function FlameIcon({ size = 24, color = "#000" }: IconProps) {
   return (
     <Svg width={size} height={size} viewBox={VIEWBOX} fill={color}>
       <Path d="M240-400q0 52 21 98.5t60 81.5q-1-5-1-9v-9q0-32 12-60t35-51l113-111 113 111q23 23 35 51t12 60v9q0 4-1 9 39-35 60-81.5t21-98.5q0-50-18.5-94.5T648-574q-20 13-42 19.5t-45 6.5q-62 0-107.5-41T401-690q-39 33-69 68.5t-50.5 72Q261-513 250.5-475T240-400Zm240 52-57 56q-11 11-17 25t-6 29q0 32 23.5 55t56.5 23q33 0 56.5-23t23.5-55q0-16-6-29.5T537-292l-57-56Zm0-492v132q0 34 23.5 57t57.5 23q18 0 33.5-7.5T622-658l18-22q74 42 117 117t43 163q0 134-93 227T480-80q-134 0-227-93t-93-227q0-129 86.5-245T480-840Z" />
+    </Svg>
+  );
+}
+
+// Hand-built (not a Material Symbols glyph, unlike the icons above) —
+// used for the Bomba power-up: a round body with a lit fuse.
+export function BombIcon({ size = 24, color = "#000" }: IconProps) {
+  return (
+    <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+      <Circle cx={12} cy={14} r={7} fill={color} />
+      <Path d="M12 8 L15.5 3.5" stroke={color} strokeWidth={2} strokeLinecap="round" />
+      <Circle cx={16} cy={2.5} r={1.6} fill={color} />
     </Svg>
   );
 }
