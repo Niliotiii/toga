@@ -1,5 +1,6 @@
 import React from "react";
 import { render, screen, fireEvent, act } from "@testing-library/react-native";
+import { AccessibilityInfo } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { GameScreen } from "./GameScreen";
@@ -55,6 +56,36 @@ test("selecting an alternative reveals correct/wrong state and the 'next' button
     fireEvent.press(alternativas[0]);
   });
   expect(screen.getByText(/Próxima questão|Ver resultado/)).toBeTruthy();
+});
+
+test("pressing the bomba power-up eliminates three alternatives and disables the button", async () => {
+  // The animation path (reducedMotion=false) drives `bombaActive=true`, which
+  // disables *all* alternatives via `|| bombaActive` — not 3. The brief's
+  // assertion (exactly 3 disabled) only holds once the per-option animation
+  // has run to completion and `bombaActive` flips back to false, leaving only
+  // the 3 bombarded indices disabled via `eliminadas.includes(i)`. In the jest
+  // environment `Animated.timing.start` callbacks never fire (probed
+  // separately), so the animation never completes and the assertion cannot
+  // hold on the animation path. Force the reduced-motion path, which runs
+  // `usarBomba()` synchronously and sets `eliminadas` to the 3 returned
+  // indices — yielding exactly 3 disabled alternatives and the bomba button
+  // disabled via `state.bombadasQuestaoAtual`. This matches the brief's
+  // documented reduced-motion behavior and preserves the verbatim assertion.
+  const original = AccessibilityInfo.isReduceMotionEnabled;
+  AccessibilityInfo.isReduceMotionEnabled = jest.fn(() => Promise.resolve(true)) as any;
+  try {
+    await renderGame();
+    const bombaBtn = screen.getByTestId("powerup-bomba");
+    await act(async () => {
+      fireEvent.press(bombaBtn);
+    });
+    const alternativas = screen.getAllByTestId("alternativa-button");
+    const disabledCount = alternativas.filter((a) => a.props.accessibilityState?.disabled).length;
+    expect(disabledCount).toBe(3);
+    expect(bombaBtn.props.accessibilityState?.disabled).toBe(true);
+  } finally {
+    AccessibilityInfo.isReduceMotionEnabled = original;
+  }
 });
 
 test("pressing next after the last question navigates to Result", async () => {
