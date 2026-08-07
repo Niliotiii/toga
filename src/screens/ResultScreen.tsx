@@ -8,7 +8,6 @@ import { tierFor, calcEstrelas, isNovoRecorde } from "../lib/gameLogic";
 import { addHistoricoEntry, getHistorico } from "../services/storage";
 import { StarRating } from "../components/StarRating";
 import { Confetti } from "../components/Confetti";
-import { DIF_LABEL } from "../data/temas";
 import { colors, spacing, radius, type } from "../theme/tokens";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Result">;
@@ -34,10 +33,9 @@ export function ResultScreen({ navigation }: Props) {
     saved.current = true;
     (async () => {
       const historicoAntes = await getHistorico();
-      setRecorde(isNovoRecorde(historicoAntes, state.tema, state.dificuldade, pct));
+      setRecorde(isNovoRecorde(historicoAntes, state.tema, pct));
       await addHistoricoEntry({
         tema: state.tema,
-        dificuldade: state.dificuldade,
         questoes_total: total,
         acertos: state.acertos,
         aproveitamento: pct
@@ -65,7 +63,7 @@ export function ResultScreen({ navigation }: Props) {
       <Text style={styles.pct}>{pct}%</Text>
       <View style={styles.temaRow}>
         <View style={[styles.temaDot, { backgroundColor: colors.temas[state.tema] ?? colors.muted }]} />
-        <Text style={styles.tema}>{state.tema} · {DIF_LABEL[state.dificuldade]}</Text>
+        <Text style={styles.tema}>{state.tema}</Text>
       </View>
 
       <View style={styles.spacer} />

@@ -28,8 +28,8 @@ test("shows the empty-state message when there is no history", async () => {
 
 test("lists saved rounds most recent first", async () => {
   await AsyncStorage.setItem(HIST_KEY, JSON.stringify([
-    { id_rodada: "1", data_hora: "2026-07-01T00:00:00.000Z", tema: "Direito Penal", dificuldade: "facil", questoes_total: 5, acertos: 3, aproveitamento: 60 },
-    { id_rodada: "2", data_hora: "2026-07-15T00:00:00.000Z", tema: "Constitucional", dificuldade: "media", questoes_total: 5, acertos: 4, aproveitamento: 80 }
+    { id_rodada: "1", data_hora: "2026-07-01T00:00:00.000Z", tema: "Direito Penal", questoes_total: 5, acertos: 3, aproveitamento: 60 },
+    { id_rodada: "2", data_hora: "2026-07-15T00:00:00.000Z", tema: "Constitucional", questoes_total: 5, acertos: 4, aproveitamento: 80 }
   ]));
   await renderHistory();
   await waitFor(() => expect(screen.getByText("Direito Penal")).toBeTruthy());
@@ -101,7 +101,7 @@ function TestNavigator() {
 
 test("refreshes the list on focus when navigating back to History", async () => {
   await AsyncStorage.setItem(HIST_KEY, JSON.stringify([
-    { id_rodada: "1", data_hora: "2026-07-01T00:00:00.000Z", tema: "Direito Penal", dificuldade: "facil", questoes_total: 5, acertos: 3, aproveitamento: 60 }
+    { id_rodada: "1", data_hora: "2026-07-01T00:00:00.000Z", tema: "Direito Penal", questoes_total: 5, acertos: 3, aproveitamento: 60 }
   ]));
 
   await render(<TestNavigator />);
@@ -116,8 +116,8 @@ test("refreshes the list on focus when navigating back to History", async () => 
   // While away, simulate a new round being played and saved elsewhere
   // (mutating storage directly, as addHistoricoEntry would).
   await AsyncStorage.setItem(HIST_KEY, JSON.stringify([
-    { id_rodada: "2", data_hora: "2026-07-30T00:00:00.000Z", tema: "Administrativo", dificuldade: "dificil", questoes_total: 5, acertos: 5, aproveitamento: 100 },
-    { id_rodada: "1", data_hora: "2026-07-01T00:00:00.000Z", tema: "Direito Penal", dificuldade: "facil", questoes_total: 5, acertos: 3, aproveitamento: 60 }
+    { id_rodada: "2", data_hora: "2026-07-30T00:00:00.000Z", tema: "Administrativo", questoes_total: 5, acertos: 5, aproveitamento: 100 },
+    { id_rodada: "1", data_hora: "2026-07-01T00:00:00.000Z", tema: "Direito Penal", questoes_total: 5, acertos: 3, aproveitamento: 60 }
   ]));
 
   // Navigate back to History; the focus listener should re-read storage.

@@ -10,13 +10,12 @@ import { TEST_SAFE_AREA_METRICS } from "../test-utils/safeAreaMetrics";
 beforeEach(async () => { await AsyncStorage.clear(); });
 
 function Setup({ children }: { children: React.ReactNode }) {
-  const { setTema, setDificuldade, iniciarRodada, responder, avancar, state } = useGame();
+  const { setTema, iniciarRodada, responder, avancar, state } = useGame();
   const started = React.useRef(false);
   React.useEffect(() => {
     if (started.current) return;
     started.current = true;
     setTema("Direito Penal");
-    setDificuldade("facil");
     iniciarRodada();
   }, []);
   return <>{children}</>;

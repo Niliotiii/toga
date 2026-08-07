@@ -1,5 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { HistoricoEntry, MetaDiaria, Dificuldade } from "../types";
+import { HistoricoEntry, MetaDiaria } from "../types";
 
 export const HIST_KEY = "@app_direito_historico";
 export const META_KEY = "@app_direito_meta_diaria";
@@ -13,7 +13,7 @@ export async function getHistorico(): Promise<HistoricoEntry[]> {
 }
 
 export async function addHistoricoEntry(
-  entry: { tema: string; dificuldade: Dificuldade; questoes_total: number; acertos: number; aproveitamento: number }
+  entry: { tema: string; questoes_total: number; acertos: number; aproveitamento: number }
 ): Promise<HistoricoEntry[]> {
   const hist = await getHistorico();
   const novo: HistoricoEntry = {

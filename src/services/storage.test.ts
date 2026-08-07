@@ -22,7 +22,6 @@ test("addHistoricoEntry prepends a new entry with generated id and timestamp", a
   expect(before.length).toBe(0);
   const after = await addHistoricoEntry({
     tema: "Direito Penal",
-    dificuldade: "facil",
     questoes_total: 5,
     acertos: 4,
     aproveitamento: 80
@@ -34,8 +33,8 @@ test("addHistoricoEntry prepends a new entry with generated id and timestamp", a
 });
 
 test("addHistoricoEntry orders most recent first", async () => {
-  await addHistoricoEntry({ tema: "A", dificuldade: "facil", questoes_total: 5, acertos: 1, aproveitamento: 20 });
-  await addHistoricoEntry({ tema: "B", dificuldade: "media", questoes_total: 5, acertos: 4, aproveitamento: 80 });
+  await addHistoricoEntry({ tema: "A", questoes_total: 5, acertos: 1, aproveitamento: 20 });
+  await addHistoricoEntry({ tema: "B", questoes_total: 5, acertos: 4, aproveitamento: 80 });
   const hist = await getHistorico();
   expect(hist[0].tema).toBe("B");
   expect(hist[1].tema).toBe("A");

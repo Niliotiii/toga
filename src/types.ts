@@ -14,7 +14,6 @@ export interface HistoricoEntry {
   id_rodada: string;
   data_hora: string; // ISO string
   tema: string;
-  dificuldade: Dificuldade;
   questoes_total: number;
   acertos: number;
   aproveitamento: number; // 0-100

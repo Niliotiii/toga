@@ -1,5 +1,3 @@
-import { Dificuldade } from "../types";
-
 export const TEMAS = [
   "Direito Penal",
   "Constitucional",
@@ -10,11 +8,3 @@ export const TEMAS = [
   "Direito Ambiental",
   "Direitos Humanos",
 ];
-
-export const DIFICULDADES: { value: Dificuldade; label: string }[] = [
-  { value: "facil", label: "Fácil" },
-  { value: "media", label: "Média" },
-  { value: "dificil", label: "Difícil" }
-];
-
-export const DIF_LABEL: Record<Dificuldade, string> = { facil: "Fácil", media: "Média", dificil: "Difícil" };
