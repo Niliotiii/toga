@@ -1,4 +1,4 @@
-import { Questao, Dificuldade, HistoricoEntry } from "../types";
+import { Questao, HistoricoEntry } from "../types";
 
 export function shuffle<T>(arr: T[]): T[] {
   const a = arr.slice();
@@ -9,28 +9,22 @@ export function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export function filterPool(db: Questao[], tema: string, dificuldade: Dificuldade): Questao[] {
-  return db.filter((q) => q.tema === tema && q.dificuldade === dificuldade);
+export function filterPool(db: Questao[], tema: string): Questao[] {
+  return db.filter((q) => q.tema === tema);
 }
 
-export function buildRodada(db: Questao[], tema: string, dificuldade: Dificuldade, size: number): Questao[] {
-  const pool = filterPool(db, tema, dificuldade);
+export function buildRodada(db: Questao[], tema: string, size: number): Questao[] {
+  const pool = filterPool(db, tema);
   return shuffle(pool).slice(0, Math.min(size, pool.length));
 }
 
-export function sortearTemaEDificuldade(
+export function sortearTema(
   db: Questao[],
-  temas: string[],
-  dificuldades: Dificuldade[]
-): { tema: string; dificuldade: Dificuldade } | null {
-  const combos: { tema: string; dificuldade: Dificuldade }[] = [];
-  temas.forEach((tema) => {
-    dificuldades.forEach((dificuldade) => {
-      if (filterPool(db, tema, dificuldade).length > 0) combos.push({ tema, dificuldade });
-    });
-  });
-  if (!combos.length) return null;
-  return combos[Math.floor(Math.random() * combos.length)];
+  temas: string[]
+): { tema: string } | null {
+  const disponiveis = temas.filter((tema) => filterPool(db, tema).length > 0);
+  if (!disponiveis.length) return null;
+  return { tema: disponiveis[Math.floor(Math.random() * disponiveis.length)] };
 }
 
 const TIERS = [
@@ -55,11 +49,10 @@ export function calcEstrelas(pct: number): 0 | 1 | 2 | 3 {
 export function isNovoRecorde(
   historico: HistoricoEntry[],
   tema: string,
-  dificuldade: Dificuldade,
   pct: number
 ): boolean {
   const melhorAnterior = historico
-    .filter((r) => r.tema === tema && r.dificuldade === dificuldade)
+    .filter((r) => r.tema === tema)
     .reduce((max, r) => Math.max(max, r.aproveitamento), -1);
   return melhorAnterior >= 0 && pct > melhorAnterior;
 }

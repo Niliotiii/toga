@@ -30,23 +30,17 @@ async function renderHome() {
   return { navigation, ...result };
 }
 
-test("renders the title and all tema/dificuldade options", async () => {
+test("renders the title and all tema options", async () => {
   await renderHome();
   expect(screen.getByText("Bora revisar direito hoje?")).toBeTruthy();
   expect(screen.getByText("Direito Penal")).toBeTruthy();
   expect(screen.getByText("Constitucional")).toBeTruthy();
-  expect(screen.getByText("Fácil")).toBeTruthy();
-  expect(screen.getByText("Média")).toBeTruthy();
-  expect(screen.getByText("Difícil")).toBeTruthy();
 });
 
 test("selecting a tema updates the pool count text", async () => {
   await renderHome();
   await act(async () => {
     fireEvent.press(screen.getByText("Constitucional"));
-  });
-  await act(async () => {
-    fireEvent.press(screen.getByText("Fácil"));
   });
   expect(screen.getByText(/questões disponíveis nesse filtro/)).toBeTruthy();
 });

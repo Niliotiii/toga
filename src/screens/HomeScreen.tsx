@@ -5,7 +5,7 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
-import { TEMAS, DIFICULDADES } from "../data/temas";
+import { TEMAS } from "../data/temas";
 import { QUESTOES_DB } from "../data/questoes";
 import { filterPool } from "../lib/gameLogic";
 import { colors, spacing, radius, type } from "../theme/tokens";
@@ -18,14 +18,14 @@ import { InfoIcon } from "../components/icons";
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
 export function HomeScreen({ navigation }: Props) {
-  const { state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
+  const { state, setTema, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
   const insets = useSafeAreaInsets();
   const reducedMotion = useReducedMotion();
   const diceSpin = useRef(new Animated.Value(0)).current;
 
   const poolCount = useMemo(
-    () => filterPool(QUESTOES_DB, state.tema, state.dificuldade).length,
-    [state.tema, state.dificuldade]
+    () => filterPool(QUESTOES_DB, state.tema).length,
+    [state.tema]
   );
 
   const handleSortear = () => {
@@ -69,7 +69,7 @@ export function HomeScreen({ navigation }: Props) {
 
       <View style={styles.modeRow}>
         <CronometroSwitch active={state.cronometroAtivo} onToggle={toggleCronometro} />
-        <Pressable style={styles.sortearButton} onPress={handleSortear} accessibilityLabel="Sortear tema e dificuldade">
+        <Pressable style={styles.sortearButton} onPress={handleSortear} accessibilityLabel="Sortear tema">
           <Animated.View style={{ transform: [{ rotate: diceRotate }] }}>
             <MaterialCommunityIcons name="dice-multiple-outline" size={22} color={colors.accentText} />
           </Animated.View>
@@ -85,19 +85,6 @@ export function HomeScreen({ navigation }: Props) {
             selected={state.tema === tema}
             color={colors.temas[tema]}
             onPress={() => setTema(tema)}
-          />
-        ))}
-      </View>
-
-      <Text style={styles.sectionLabel}>Dificuldade</Text>
-      <View style={styles.chipRow}>
-        {DIFICULDADES.map((d) => (
-          <Chip
-            key={d.value}
-            label={d.label}
-            selected={state.dificuldade === d.value}
-            color={d.value === "facil" ? colors.success : d.value === "media" ? colors.mediaDificuldade : colors.danger}
-            onPress={() => setDificuldade(d.value)}
           />
         ))}
       </View>

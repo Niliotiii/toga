@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useState, useCallback, useRef, useEffect } from "react";
-import { Dificuldade, Questao } from "../types";
+import { Questao } from "../types";
 import { QUESTOES_DB } from "../data/questoes";
-import { TEMAS, DIFICULDADES } from "../data/temas";
-import { buildRodada, sortearTemaEDificuldade, shuffle } from "../lib/gameLogic";
+import { TEMAS } from "../data/temas";
+import { buildRodada, sortearTema, shuffle } from "../lib/gameLogic";
 import { registrarRespostaMeta, getCronometroPref, setCronometroPref } from "../services/storage";
 
 const ROUND_SIZE = 5;
@@ -10,7 +10,6 @@ const POWERUP_MAX = 2;
 
 interface GameState {
   tema: string;
-  dificuldade: Dificuldade;
   cronometroAtivo: boolean;
   rodada: Questao[];
   indice: number;
@@ -25,7 +24,6 @@ interface GameState {
 
 const initialState: GameState = {
   tema: TEMAS[0],
-  dificuldade: "media",
   cronometroAtivo: false,
   rodada: [],
   indice: 0,
@@ -41,7 +39,6 @@ const initialState: GameState = {
 interface GameContextValue {
   state: GameState;
   setTema(t: string): void;
-  setDificuldade(d: Dificuldade): void;
   toggleCronometro(): Promise<void>;
   sortearAleatorio(): void;
   iniciarRodada(): void;
@@ -80,7 +77,6 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const setTema = useCallback((t: string) => setState((s) => ({ ...s, tema: t })), []);
-  const setDificuldade = useCallback((d: Dificuldade) => setState((s) => ({ ...s, dificuldade: d })), []);
 
   const toggleCronometro = useCallback(async () => {
     userToggledCronometroRef.current = true;
@@ -94,9 +90,9 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const sortearAleatorio = useCallback(() => {
-    const escolha = sortearTemaEDificuldade(QUESTOES_DB, TEMAS, DIFICULDADES.map((d) => d.value));
+    const escolha = sortearTema(QUESTOES_DB, TEMAS);
     if (!escolha) return;
-    setState((s) => ({ ...s, tema: escolha.tema, dificuldade: escolha.dificuldade }));
+    setState((s) => ({ ...s, tema: escolha.tema }));
   }, []);
 
   const iniciarRodada = useCallback(() => {
@@ -104,7 +100,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     usedBombaThisQuestionRef.current = false;
     setState((s) => ({
       ...s,
-      rodada: buildRodada(QUESTOES_DB, s.tema, s.dificuldade, ROUND_SIZE),
+      rodada: buildRodada(QUESTOES_DB, s.tema, ROUND_SIZE),
       indice: 0,
       acertos: 0,
       combo: 0,
@@ -266,7 +262,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <GameContext.Provider
-      value={{ state, setTema, setDificuldade, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, usarBomba, avancar }}
+      value={{ state, setTema, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, usarBomba, avancar }}
     >
       {children}
     </GameContext.Provider>

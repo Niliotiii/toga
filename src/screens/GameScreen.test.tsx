@@ -9,10 +9,9 @@ import { CRONOMETRO_KEY } from "../services/storage";
 import { TEST_SAFE_AREA_METRICS } from "../test-utils/safeAreaMetrics";
 
 function Setup({ children }: { children: React.ReactNode }) {
-  const { setTema, setDificuldade, iniciarRodada } = useGame();
+  const { setTema, iniciarRodada } = useGame();
   React.useEffect(() => {
     setTema("Direito Penal");
-    setDificuldade("facil");
     iniciarRodada();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -107,14 +106,14 @@ test("pressing next after the last question navigates to Result", async () => {
 
 // Unlike `Setup` above, this waits for `cronometroAtivo` to finish hydrating
 // from AsyncStorage *before* starting the round and mounting GameScreen. This
-// matches how the round actually starts in the app (tema/dificuldade/timer
+// matches how the round actually starts in the app (tema/timer
 // preference are all settled before the player reaches the game screen) and
 // avoids a race where GameScreen's timer-setup effect (keyed on
 // `state.indice`) fires once with `cronometroAtivo` still false/rodada still
 // empty and never re-fires once hydration completes, because `indice` never
 // changes value (it starts and stays at 0).
 function SetupWithTimerHydrated({ children }: { children: React.ReactNode }) {
-  const { state, setTema, setDificuldade, iniciarRodada } = useGame();
+  const { state, setTema, iniciarRodada } = useGame();
   const configuredRef = React.useRef(false);
   const startedRef = React.useRef(false);
 
@@ -122,7 +121,6 @@ function SetupWithTimerHydrated({ children }: { children: React.ReactNode }) {
     if (!configuredRef.current) {
       configuredRef.current = true;
       setTema("Direito Penal");
-      setDificuldade("facil");
     }
   }, []);
 
@@ -202,13 +200,12 @@ test("toggling cronometro on and starting a round before the storage write/hydra
 
   try {
     function ToggleThenStart({ children }: { children: React.ReactNode }) {
-      const { setTema, setDificuldade, toggleCronometro, iniciarRodada } = useGame();
+      const { setTema, toggleCronometro, iniciarRodada } = useGame();
       const startedRef = React.useRef(false);
       React.useEffect(() => {
         if (startedRef.current) return;
         startedRef.current = true;
         setTema("Direito Penal");
-        setDificuldade("facil");
         // Mirrors a user flipping the Contrarrelógio switch and immediately
         // tapping "Iniciar rodada", without waiting for the AsyncStorage
         // write behind toggleCronometro (or the storage-hydration read) to
