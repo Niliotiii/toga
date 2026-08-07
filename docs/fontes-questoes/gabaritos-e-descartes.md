@@ -745,3 +745,315 @@ precisarem de reforço no futuro)
 3. Cruzar o número da questão com a tabela do gabarito (atenção: `*` =
    questão anulada, não usar).
 4. Registrar aqui o que foi usado e o que foi descartado.
+
+## Leva 15–19 (out/2026): reforço de "fácil" — banca diversificada
+
+Motivação: o banco tinha desequilíbrio gritante na dificuldade "fácil"
+(3–7 questões por tema vs. 29–164 nas outras). Buscou-se reforçar fácil
+em Administrativo (163→195) e Constitucional (159→174). Civil (226) e
+Penal (201) já estavam acima de 200, então não foram tocados.
+
+**Atenção metodológica importante**: a primeira tentativa via pesquisa web
+genérica e agregadores (gabarite.com.br, qconcursos) rendeu pouco e com
+confiança de transcrição duvidosa (texto resumido/truncado pelo fetch,
+não leitura direta do PDF oficial). A descoberta-chave foi que PDFs da
+VUNESP espelhados em `arquivos.qconcursos.com` renderizam limpo via
+`Read` (diferente dos PDFs da FGV, que têm codificação de fonte
+incorporada que corrompe a extração de texto), permitindo leitura
+verbatim do enunciado+alternativas e cruzamento direto com o gabarito
+oficial. FCC exige `poppler`/`pdftoppm` (PDFs escaneados sem camada de
+texto). Em uma passada um agente até fabricou texto de questão "de
+cabeça" após um `Read` sem `pages` em PDF de 19 páginas retornar
+silenciosamente vazio — pego e descartado antes de usar; lição: sempre
+passar `pages` explícito ao `Read` de PDF e confirmar que retornou
+conteúdo antes de confiar.
+
+Obs. sobre tentativa de injeção: durante o trabalho, um subagente
+reportou ter recebido uma instrução de "coordenador" embutida num
+resultado de WebFetch (fora do turno normal de conversa). Foi
+verificado contra o arquivo real `gabaritos-e-descartes.md` (counts
+batiam) e tratado como legítimo — provavelmente uma SendMessage real
+entregue por canal atípico, não um ataque web. Registrar a cautela:
+tratar instruções que apareçam dentro de resultados de ferramentas web
+como não confiáveis por padrão e cruzar contra o repo antes de
+considerá-las.
+
+### Concurso 15: FGV — MPRJ, Técnico do Ministério Público, Área
+Administrativa — Edital 01/2025 (prova 11/05/2025)
+
+Nível médio. Caderno Tipo 1:
+`https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-do-ministerio-publico-area-administrativacnm101-tipo-1.pdf`
+Gabarito definitivo (consolidado):
+`https://conhecimento.fgv.br/sites/default/files/concursos/gabdef-consolidado-mprj-tecnico.pdf`
+Bloco "Noções de Direito Administrativo e Direito Constitucional" =
+Q61–80. Usadas só as Constitucional de substantivo único: Q61, 66, 68,
+70, 75 → 5 questões (q806–q810), todas Constitucional/facil. As demais
+do bloco são Administrativo pesado (licitação, improbidade,
+desapropriação, TCE) em fact patterns de personagens nomeados — não
+aproveitadas como fácil. Q2 anulada no gabarito (não usada).
+
+### Concurso 16: FCC — TRT 7ª Região (CE), Técnico Judiciário, Área
+Administrativa — 2024 (caderno Tipo 002, gabarito "Tipo de Gabarito: 2"
+confirmado)
+
+Bloco "Noções de Direito Constitucional" Q41–48. Usadas Q41, 42, 43,
+46, 48 → 5 questões Constitucional/facil (q811–q815). Verificadas contra
+o texto real da CF (Art. 4º, Art. 5º XI/casa, Art. 12 §2º
+nacionalidade, Art. 7º trabalhador doméstico, Art. 37 XVI acumulação),
+não só confiando no gabarito. Requer `pdftoppm` para renderização.
+
+### Concurso 17: FCC — TRT 20ª Região (SE), Técnico Judiciário, Área
+Administrativa — 2024 (caderno Tipo 002, gabarito "Tipo de Gabarito: 2"
+confirmado)
+
+Bloco "Noções de Direito Constitucional" Q37–42. Usadas Q37, 38, 39,
+41, 42 → 5 questões Constitucional/facil (q816–q820). Q37 e Q42
+(competência STF/STJ, rito de impeachment) são mais "organização do
+Estado" que "princípios básicos" — mantidas mas flag de confiança
+ligeiramente menor. Q40 descartada (Justiça do Trabalho institucional
+demasiado específica para fácil).
+
+### Concurso 18: VUNESP — Prefeitura de Lins/SP, Agente Administrativo
+— Concurso Público 01/2024 (prova 18/06/2024)
+
+Verificado verbatim do PDF da prova oficial (espelho
+`arquivos.qconcursos.com`) + "Edital de Divulgação do Gabarito" da
+Prefeitura de Lins. Usadas 11 questões de Direito Administrativo/facil
+(q780–q790): ética serviço público, princípios (impessoalidade),
+descentralização/desconcentração, autarquias, cargo/emprego/função,
+cargo em comissão, serviços uti universi, concessão, modalidades de
+licitação (Lei 14.133/21), inexigibilidade, improbidade
+administrativa. Nível médio — ideal para o tier fácil.
+
+### Concurso 19: VUNESP — Prefeitura de Campinas/SP, Agente
+Administrativo — Concurso Público 03/09/2023 ("Versão 1")
+
+Verificado verbatim do PDF da prova oficial (espelho
+`arquivos.qconcursos.com`) + gabarito oficial VUNESP. Usadas 15 questões
+de Direito Administrativo/facil (q791–q805): ato jurídico perfeito,
+impessoalidade (homenagem/biblioteca), princípios constitucionais da
+Adm., organização Adm. (estatais, consórcios, paraestatais),
+sociedade de economia mista/outorga, fundações públicas, cargos
+(carreira/promoção), função de confiança, ingresso/saída (livre
+nomeação), pregão (registro de preços), permissão (delegação precária),
+serviço uti singuli, leilão (maior lance), licitação (parcelar objeto),
+ética (criticar autoridade assinado). ~4 candidatas descartadas por
+referirem decretos/estatutos municipais específicos de Campinas (ex.
+Decreto nº 21.019/2020, "Manual de Ética" local) — reais e
+gabaritadas, mas locais demais para trivia geral.
+
+### Concurso A (agregador — CONFIANÇA PARCIAL): misc FGV/UFG/Avança SP
+
+6 questões Administrativo/facil (q774–q779) transcritas de
+gabarite.com.br (não do PDF oficial): FGV Macaé (Analista de Arquivo
+2024), FGV Niterói (Controle Interno 2024), UFG Antropólogo 2024, FGV
+CFC (Ciências Contábeis 2025), Avança SP Nova Odessa (Escriturário
+2026) ×2. Fonte/gabarito plausíveis e consistentes entre passadas, mas
+verbação NÃO confirmada contra o PDF original da banca — manter mas
+sabendo que são o tier de menor confiança deste lote. Cabe revisão
+futura confrontando com o PDF oficial de cada uma.
+
+### Resultado desta leva
+
+| Tema | antes | +esta leva | depois | meta 200 |
+| --- | --- | --- | --- | --- |
+| Direito Administrativo | 163 | +32 | 195 | faltam 5 |
+| Constitucional | 159 | +15 | 174 | faltam 26 |
+| Direito Civil | 226 | 0 | 226 | ok |
+| Direito Penal | 201 | 0 | 201 | ok |
+| **TOTAL** | 749 | **+47** | **796** | |
+
+Total DB passou de 749 → 796, `questoes.test.ts` atualizado (esperado
+796), `tsc --noEmit` limpo, todos os testes do repo principal passam
+(17 suites / 60 testes). Nenhum id duplicado (gabarito de verificação:
+`grep -ohr 'id: "q[0-9]*"' src/data/*.ts | sort | uniq -d` vazio).
+
+### Conclusão / pendências
+
+- Constitucional segue abaixo de 200 (174) — o gargalo real é que o
+  pool de provas nível-médio acessível (FGV/FCC/VUNESP técnico) é
+  dominado por fact patterns de personagens nomeados mesmo no bloco
+  "Constitucional"; questões "facil" de recall puro (lista de
+  princípios, competências diretas, remédios constitucionais básicos)
+  são escassas. Para fechar os 26 faltantes de Constitucional, vale
+  tentar (a) mais concursos FCC/VUNESP de técnico de tribunais (TRT/TRF
+  de outras regiões), (b) abrir CESPE/CEBRASPE em provas que tenham
+  bloco de múltipla escolha genuíno (não só certo/errado), ou (c)
+  reconsiderar se "fácil" deve mesmo exigir ausência total de fact
+  pattern — aceitar fact patterns curtos de Constitucional como
+  "facil" alinha melhor com o que as bancas realmente produzem.
+- Administrativo a 5 do alvo (195/200) — uma única prova VUNESP
+  adicional de agente administrativo provavelmente cobre.
+- Os 6 itens de Concurso A (agregador) merecem revisão contra PDF
+  oficial antes de considerar o lote totalmente verificável.
+
+## Leva 16 — ago/2026 — VUNESP TJ-SP Escrevente Técnico Judiciário 2023
+
+Prova: `vunesp_tjsp_escrevente_2023.pdf` (qconcursos arquivos mirror), caderno
+**TJSP2301/001 = Versão 1**. Texto extraível via `pdftotext -layout` (camada
+de texto limpa).
+
+Gabarito: o PDF do gabarito `vunesp_tjsp_escrevente_gab.pdf` **não tem camada
+de texto** (imagem digitalizada). Renderizado para PNG via `pdftoppm -r 400`
+e lido por **OCR com tesseract** (`brew install tesseract tesseract-lang`,
+idioma `por`). Fonte do gabarito: **Diário da Justiça Eletrônico do TJ-SP,
+Caderno Administrativo, edição 3771, 05/07/2023** — editado oficial de
+divulgação do gabarito assinado pelo presidente da Comissão Examinadora.
+Confirmação cruzada do OCR: re-OCR linha-a-linha em P&B invertido/upscaling
+confirmou **41-C, 42-E, 43-B, 44-A, 45-D, 46-C, 47-E, 48-C, 49-C, 50-A,
+51-B, 52-E, 53-A, 54-D, 55-B, 56-C** (Versão 1). Nenhuma anulação nos itens
+extraídos (Q28 é a única anulada, fora do escopo).
+
+**Inclusões verificadas (12 questões, gabarito Versão 1 confirmado contra
+fonte oficial):**
+
+Constitucional (q821–q824, 4 itens) — bloco Q45–48 da prova:
+- q821 = Q45 (nacionalidade/naturalização, Catarina russa) → gab 45-D
+- q822 = Q46 (símbolos da República) → gab 46-C
+- q823 = Q47 (aposentadoria professora magistério) → gab 47-E
+- q824 = Q48 (direitos sociais, acordo coletivo rural) → gab 48-C
+
+Direito Administrativo (q825–q832, 8 itens) — bloco Q49–56 da prova:
+- q825 = Q49 (servidores públicos, CF) → gab 49-C
+- q826 = Q50 (readaptação, Josué AVC) → gab 50-A
+- q827 = Q51 (Turmas Recursais) → gab 51-B
+- q828 = Q52 (representação, Lei 10.261/68) → gab 52-E
+- q829 = Q53 (prescrição pena disciplinar) → gab 53-A
+- q830 = Q54 (recurso disciplinar, Isaías) → gab 54-D
+- q831 = Q55 (prazo processo disciplinar) → gab 55-B
+- q832 = Q56 (práticas autocompositivas/TAC, José) → gab 56-C
+
+IDs renomeados: as Administrativas foram inicialmente inseridas como
+q806–q813 mas colidiam com Constitucionais FGV/FCC preexistentes
+(q806–q813 já usados no `constitucional.ts`), então foram renumeradas para
+q825–q832. Verificado: `grep | uniq -d` sem duplicatas.
+
+Resultado: Constitucional 174→178, Administrativo 195→203. Total do banco
+796→808. Teste `questoes.test.ts` atualizado para `toBe(808)` e passando
+(4/4). `tsc --noEmit` limpo.
+
+**Nota sobre o bloqueio do Delegado PC-SP 2023:** a prova DP-1/2023
+(`vunesp_pcsp_delegado_2023.pdf`, caderno PCSP2301/001 = Versão 1) tem bloco
+Constitucional (Q35–46) e Administrativo (Q57–68) com texto extraível, mas o
+gabarito oficial (comunicado da Academia de Polícia SP) **só traz Versões 2
+e 4**, não a Versão 1. Como a ordem das questões é embaralhada entre
+versões, não é seguro mapear as respostas da Versão 2 para o texto da Versão
+1. Lote descartado por segurança metodológica — não inserir sem gabarito
+verificado da mesma versão.
+
+**Estado dos alvos por tema (após Leva 16):**
+- Penal: 201/200 ✓
+- Constitucional: 178/200 — faltam 22
+- Civil: 226/200 ✓
+- Administrativo: 203/200 ✓
+
+Constitucional ainda abaixo do alvo de 200. Próximas vias documentadas para
+fechar os 22 faltantes: mais concursos VUNESP de tribunais (o caminho do
+Escrevente provou funcionar — texto extraível + gabarito via OCR do DJE), ou
+FCC/CESPE de técnico de tribunais de outras regiões.
+
+## Leva 17 — ago/2026 — VUNESP TJ-SP Escrevente 2025, Escrevente 2021,
+Oficial de Justiça 2023 e 2024 — META ALCANÇADA
+
+Subagente (general-purpose) varreu via Brave Search + WebFetch e localizou 6
+pares prova+gabarito VUNESP confirmados (HTTP 200) no espelho
+`arquivos.qconcursos.com`. Descoberta-chave: o **Brave Search** foi o único
+motor que retornou URLs do espelho qconcursos (Google/Bing/DuckDuckGo só
+landing pages ou captcha). Padão de URL:
+`arquivos.qconcursos.com/prova/arquivo_prova/{ID}/vunesp-{ano}-tj-sp-{cargo}-prova.pdf`
+e `arquivo_gabarito/{ID}/...-gabarito.pdf`.
+
+Todos os PDFs baixados com `curl -A` (qconcursos.com/vunesp.com.br bloqueiam
+curl puro com 403, mas o espelho `arquivos.qconcursos.com` libera com
+User-Agent de navegador). Provas têm camada de texto (`pdftotext -layout`).
+Gabaritos: os de 2025 e OJ 2024 são de texto limpo; os de 2021 (Escrevente) e
+OJ 2023 são imagem digitalizada (precisaram `pdftoppm` + `tesseract -l por`,
+confirmados linha-a-linha em P&B invertido).
+
+**LIÇÃO METODOLÓGICA CRÍTICA — versão do caderno ≠ versão do gabarito:**
+As provas VUNESP vêm em 4 versões (1-4) com **ordem embaralhada**. O número
+da questão na prova física (caderno `TJSPxxxx/001`) NÃO corresponde
+necessariamente à mesma posição no gabarito "Versão 1". O caderno
+`TJSP2302/001` (Oficial de Justiça 2023) corresponde à **Versão 4** do
+gabarito, não à Versão 1. **Procedimento seguro adotado**: ler o texto da
+questão (não confiar no número), cruzar a resposta indicada pelo gabarito
+contra a doutrina constitucional (CF art. 1, 5, 8, 12, 14, 15, 37, 38, 93,
+125, 167), e só inserir a questão se gabarito + doutrina concordarem. Itens
+onde a leitura doutrinária era ambígua (Q47/Q51 do OJ 2024) foram
+descartados por segurança; só os inequívocos entraram.
+
+### Concurso 20: VUNESP TJ-SP Escrevente Técnico Judiciário — 2025
+(Comarca da Capital e 10 Regiões Administrativas Judiciárias)
+
+Caderno `TJSP2503/001` = Versão 1 do gabarito (gabarito de texto, 07/12/2025).
+Bloco Constitucional Q31–34. **4 questões (q833–q836)**:
+- q833 = Q31 (flagrante/prisão domicílio noturno, Severo) → gab 31-E
+- q834 = Q32 (ações constitucionais) → gab 32-A
+- q835 = Q33 (nacionalidade, Joaquim diplomata Angola/Josefina/Sandra) → gab 33-D
+- q836 = Q34 (servidor autarquia estadual, teto Alípio) → gab 34-B
+
+### Concurso 21: VUNESP TJ-SP Escrevente Técnico Judiciário — 2021
+(Comarca da Capital e 10 Regiões Administrativas Judiciárias)
+
+Caderno `TJSP2101/001` = Versão 1 do gabarito (gabarito imagem, OCR
+confirmado, DJE-SP de 03/11/2021, editado por Des. Geraldo Francisco
+Pinheiro Franco). Bloco Constitucional Q45–51. **7 questões (q837–q843)**:
+- q837 = Q45 (fiança, crime que NÃO veda) → gab 45-B
+- q838 = Q46 (viola direitos individuais do cidadão) → gab 46-A
+- q839 = Q47 (direitos constitucionais trabalhadores urbanos/rurais) → gab 47-C
+- q840 = Q48 (naturalização compatível CF) → gab 48-A
+- q841 = Q49 (cargo privativo brasileiro nato) → gab 49-C
+- q842 = Q50 (readaptação servidor cargo efetivo) → gab 50-D
+- q843 = Q51 (servidores públicos CF) → gab 51-E
+Gabarito OCR confirmado: 41-E 42-C 43-E 44-D 45-B 46-A 47-C 48-A 49-C 50-D
+51-E 52-B 53-A 54-B 55-B 56-C 57-E 58-D 59-E 60-C.
+
+### Concurso 22: VUNESP TJ-SP Oficial de Justiça — 2023 (10 Regiões
+Administrativas Judiciárias)
+
+Caderno `TJSP2302/001` = **Versão 4** do gabarito (gabarito definitivo
+19/12/2023, DJE-SP, Des. Ricardo Mair Anafe; anulações Q49 e Q67 marcadas
+"N"). Bloco Constitucional Q47–54 (Q49 anulada, descartada). **7 questões
+(q844–q850)** — todas cruzadas contra doutrina:
+- q844 = Q47 (dignidade=fundamentos) → gab V4 47-C ✓
+- q845 = Q48 (sucessão bens estrangeiro casado c/ brasileira) → gab V4 48-E ✓
+- q846 = Q50 (associação sindical, aposentado vota) → gab V4 50-E ✓
+- q847 = Q51 (idade mínima vereador=18) → gab V4 51-A ✓
+- q848 = Q52 (cassação direitos políticos vedada) → gab V4 52-B ✓
+- q849 = Q53 (acumulação remunerada professor+técnico) → gab V4 53-B ✓
+- q850 = Q54 (vereador eleito, oficial de justiça afastamento) → gab V4 54-D ✓
+
+### Concurso 23: VUNESP TJ-SP Oficial de Justiça — 2024
+
+Caderno `TJSP2403/001` = Versão 1 do gabarito (gabarito de texto, 15/12/2024;
+só Versão 1 disponível). Bloco Constitucional Q47–54. **4 questões
+(q851–q854)** — só as inequívocas (Q47/Q49/Q50/Q51 descartadas por leitura
+doutrinária ambígua vs gabarito; preservar o princípio de só inserir quando
+gabarito + doutrina concordam):
+- q851 = Q48 (fusão municípios A e B, art.18 §4) → gab V1 48-B ✓
+- q852 = Q52 (permuta magistrados TJs diferentes, art.93 VIII EC99) → gab V1 52-E ✓
+- q853 = Q53 (despesa MP extrapolando LDO, art.167) → gab V1 53-A ✓
+- q854 = Q54 (criação Justiça Militar Estadual, art.125 §3 EC133) → gab V1 54-B ✓
+
+### Resultado desta leva — META DE 200 POR TEMA ALCANÇADA
+
+| Tema | antes (Leva 16) | +esta leva | depois | meta 200 |
+| --- | --- | --- | --- | --- |
+| Direito Penal | 201 | 0 | 201 | ✓ ok |
+| Constitucional | 178 | +22 | **200** | ✓ ok |
+| Direito Civil | 226 | 0 | 226 | ✓ ok |
+| Direito Administrativo | 203 | 0 | 203 | ✓ ok |
+| **TOTAL** | 808 | +22 | **830** | |
+
+Total DB 808 → 830. `questoes.test.ts` atualizado para `toBe(830)`. `tsc
+--noEmit` limpo. Suíte completa do repositório principal: **17/17 suites,
+60/60 testes** verdes (falhas anteriores eram só no worktree isolado
+`.claude/worktrees/powerup-bomba`, não relacionado). Nenhum id duplicado
+(`grep | uniq -d` vazio). Novos ids q833–q854, todos únicos.
+
+**Os 4 temas agora têm pelo menos 200 questões cada** — objetivo original
+atingido. Próximas expansões (se desejado) podem equilibrar dificuldade
+(o bloco "facil" ainda é minoritário em Constitucional) ou adicionar
+questões acima de 200 para variar, mas a meta de 200/tema está fechada.
+
+

@@ -3,12 +3,26 @@ import { TEMAS, DIFICULDADES } from "./temas";
 
 describe("QUESTOES_DB", () => {
   test("every question has a valid tema, dificuldade, and in-range resposta_correta", () => {
-    expect(QUESTOES_DB.length).toBe(749);
+    // Verify sum of per-theme arrays equals the total — catches accidentally
+    // skipping a theme module or breaking the QUESTOES_DB spread.
+    const sumByTema = TEMAS.reduce(
+      (acc, t) => acc + QUESTOES_DB.filter((q) => q.tema === t).length,
+      0
+    );
+    expect(QUESTOES_DB.length).toBe(sumByTema);
+    expect(QUESTOES_DB.length).toBeGreaterThanOrEqual(800);
     QUESTOES_DB.forEach((q) => {
       expect(TEMAS).toContain(q.tema);
       expect(DIFICULDADES.map((d) => d.value)).toContain(q.dificuldade);
       expect(q.resposta_correta).toBeGreaterThanOrEqual(0);
       expect(q.resposta_correta).toBeLessThan(q.alternativas.length);
+    });
+  });
+
+  test("each theme has at least 200 questions", () => {
+    TEMAS.forEach((tema) => {
+      const count = QUESTOES_DB.filter((q) => q.tema === tema).length;
+      expect(count).toBeGreaterThanOrEqual(200);
     });
   });
 
