@@ -1,6 +1,15 @@
 import { Dificuldade } from "../types";
 
-export const TEMAS = ["Direito Penal", "Constitucional", "Direito Civil", "Direito Administrativo"];
+export const TEMAS = [
+  "Direito Penal",
+  "Constitucional",
+  "Direito Civil",
+  "Direito Administrativo",
+  "Direito Tributário",
+  "Direito do Trabalho",
+  "Direito Ambiental",
+  "Direitos Humanos",
+];
 
 export const DIFICULDADES: { value: Dificuldade; label: string }[] = [
   { value: "facil", label: "Fácil" },

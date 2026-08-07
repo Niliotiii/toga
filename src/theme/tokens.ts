@@ -21,7 +21,11 @@ export const colors = {
     "Direito Penal": "#A53E00",
     "Constitucional": "#724AAB",
     "Direito Civil": "#007A5F",
-    "Direito Administrativo": "#33607E"
+    "Direito Administrativo": "#33607E",
+    "Direito Tributário": "#5A4A2B",
+    "Direito do Trabalho": "#8A2C5A",
+    "Direito Ambiental": "#2E6B4F",
+    "Direitos Humanos": "#3E5A8C"
   } as Record<string, string>
 };
 
