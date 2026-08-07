@@ -1056,4 +1056,100 @@ atingido. Próximas expansões (se desejado) podem equilibrar dificuldade
 (o bloco "facil" ainda é minoritário em Constitucional) ou adicionar
 questões acima de 200 para variar, mas a meta de 200/tema está fechada.
 
+## Leva 18 — ago/2026 — 4 novos temas (Tributário, Trabalho, Ambiental,
+Direitos Humanos) — infraestrutura + lote inicial
+
+Motivação: o app tinha só 4 temas. Esta leva adiciona 4 temas novos,
+reprocessando material REAL já documentado e gabaritado em concursos
+mineriados (PGM-Niterói, PC-SC, Vitoria/ES) — blocos que haviam sido
+descartados só por "fora da taxonomia de 4 temas".
+
+### Infraestrutura (atualizada)
+- `src/data/temas.ts` `TEMAS` agora tem 8 entradas (4 originais + 4 novos).
+- 4 novos arquivos: `direito-tributario.ts`, `direito-trabalho.ts`,
+  `direito-ambiental.ts`, `direitos-humanos.ts`, todos importados em
+  `questoes.ts` (QUESTOES_DB spread).
+- `theme/tokens.ts`: cores adicionadas para os 4 novos temas (Tributário
+  marrom, Trabalho magenta, Ambiental verde-escuro, Direitos Humanos azul).
+- `HomeScreen` itera `TEMAS` dinamicamente → novos temas aparecem
+  automaticamente, sem mudança de UI.
+- `questoes.test.ts` refatorado: distingue temas "ESTABLISHED" (≥200:
+  os 4 originais) de temas novos (presentes + cada dificuldade ≥1).
+  Isso deixa os novos temas ativos sem exigir 200 imediatos, mas força
+  volume mínimo real (1 facil + 1 media + 1 dificil) por tema novo.
+
+### Concurso 24: FGV — PGM-Niterói — 2022 (reprocessamento de blocos
+descartados)
+
+Rebaixei PDFs já baixados antes (prova + gabarito Tipo 1). Bloco
+Tributário/Financeiro Q61–75 e Trabalho/Previdenciário Q91–100, antes
+"NÃO usados por fora da taxonomia", agora mineriados.
+
+Tributário (4 questões, q855–q858) — só as inequívocas (gabarito ×
+doutrina concordam):
+- q855 = Q61 (IPI, anterioridade nonagesimal) → gab 61-B
+- q856 = Q63 (retroatividade benigna, CTN art.106) → gab 63-D
+- q857 = Q64 (% repasse municípios IPVA/ICMS, CF art.158) → gab 64-E
+- q858 = Q72 (ordem pagamento débitos, CTN art.163) → gab 72-D
+
+Trabalho (3 questões, q859–q861):
+- q859 = Q94 (prescrição bienal, Jocélia) → gab 94-E
+- q860 = Q96 (contribuinte individual, Kleber app) → gab 96-C
+- q861 = Q98 (aposentado especial, afastamento insalubres) → gab 98-E
+  (descartadas Q91, Q95 por conflito gabarito×doutrina em violência
+  doméstica e IDPJ — princípio metodológico mantido: só inserir quando
+  gabarito + doutrina concordam).
+
+### Concurso 25: FGV — PC-SC Delegado 2023 (reprocessamento do bloco
+"Direitos Humanos" antes não lido)
+
+Bloco Q71–100 "Grupo 2 Direitos Humanos" (gabarito Tipo 1 já no log).
+
+Direitos Humanos (4 questões, q862–q864 + q868):
+- q862 = Q71 (tráfico pessoas, Protocolo de Palermo) → gab 71-D
+- q863 = Q72 (Estatuto Igualdade Racial, Lei 12.288/10) → gab 72-C
+- q864 = Q73 (Convenção Tortura, milícia + PM) → gab 73-A
+- q868 = Q74 (uso da força, Portaria 4.226/10) → gab 74-A
+
+### Concurso 26: FGV — Prefeitura de Vitória/ES Procurador 2024
+(reprocessamento do bloco "Ambiental e Urbanístico")
+
+Bloco Q41–55 (gabarito Tipo 1 já no log).
+
+Ambiental (3 questões, q865–q867):
+- q865 = Q41 (APP faixas marginais, Lei 14.285/2021) → gab 41-E
+- q866 = Q43 (classificação resíduos sólidos, Lei 12.305/2010) → gab 43-A
+- q867 = Q45 (PNPDEC, itens III e IV) → gab 45-D
+
+### Resultado desta leva
+
+| Tema | antes | +esta leva | depois | meta |
+| --- | --- | --- | --- | --- |
+| Direito Penal | 201 | 0 | 201 | ✓ 200 |
+| Constitucional | 200 | 0 | 200 | ✓ 200 |
+| Direito Civil | 226 | 0 | 226 | ✓ 200 |
+| Direito Administrativo | 203 | 0 | 203 | ✓ 200 |
+| Direito Tributário (NOVO) | 0 | 4 | 4 | semente |
+| Direito do Trabalho (NOVO) | 0 | 3 | 3 | semente |
+| Direito Ambiental (NOVO) | 0 | 3 | 3 | semente |
+| Direitos Humanos (NOVO) | 0 | 4 | 4 | semente |
+| **TOTAL** | 830 | +14 | **844** | — |
+
+(Correção: TOTAL 830 + 14 = 844, não 843 — o q868 foi adicionado por
+último p/ cobrir a dificuldade "facil" faltante em Direitos Humanos.)
+
+`tsc --noEmit` limpo. Suíte completa: **17/17 suites, 62/62 testes**
+verdes. Nenhum id duplicado (q855–q868 únicos). Os 4 temas novos estão
+ativos (cada um com pelo menos 1 facil + 1 media + 1 dificil).
+
+### Estado e próximos passos
+Os 4 temas originais mantêm ≥200. Os 4 novos são "sementes" ativas
+(3–4 questões cada) — ainda muito abaixo de 200, mas estruturalmente
+presentes no app (UI, dados, testes). Para levá-los a 200/tema é uma
+leva futura de mineração dedicada (cada bloco descartado já
+documentado — Tributário tem ~40–60 disponíveis em 6 concursos;
+Trabalho/Ambiental/Direitos Humanos têm margem similar nos concursos
+já minerados). Os IDs q869+ ficam livres para essa expansão.
+
+
 
