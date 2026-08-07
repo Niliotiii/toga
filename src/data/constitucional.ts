@@ -1300,4 +1300,374 @@ export const QUESTOES_CONSTITUCIONAL: Questao[] = [
         "constitucional, desde que não tenha afrontado lei nacional editada pela União, no exercício da competência que lhe é própria.",
         "constitucional, desde que sua aplicação permaneça adstrita aos rios cuja extensão esteja integralmente situada no território do Estado Alfa."
       ], resposta_correta: 3 },
+  { id: "q806", tema: "Constitucional", dificuldade: "facil", fonte: "FGV — MPRJ (Técnico do Ministério Público, Área Administrativa) — 2025",
+      enunciado: "Em 2025, Lucas, após ser aprovado em um árduo concurso, tomou posse no cargo de técnico administrativo no âmbito do Ministério Público do Estado Alfa. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que Lucas fará jus à",
+      alternativas: [
+        "estabilidade após três anos de efetivo exercício, de forma que só poderá perder o cargo em virtude de sentença judicial transitada em julgado, mediante processo administrativo em que lhe seja assegurada ampla defesa ou mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa.",
+        "estabilidade após dois anos de efetivo exercício, de forma que só poderá perder o cargo em virtude de sentença judicial transitada em julgado, mediante processo administrativo em que lhe seja assegurada ampla defesa ou mediante procedimento de avaliação periódica de desempenho, na forma de lei ordinária, assegurada ampla defesa.",
+        "vitaliciedade após três anos de efetivo exercício, de forma que só poderá perder o cargo em virtude de sentença judicial transitada em julgado ou mediante processo administrativo em que lhe seja assegurada ampla defesa.",
+        "estabilidade após dois anos de efetivo exercício, de forma que só poderá perder o cargo em virtude de sentença judicial transitada em julgado ou mediante processo administrativo em que lhe seja assegurada ampla defesa.",
+        "vitaliciedade após dois anos de efetivo exercício, de forma que só poderá perder o cargo em virtude de sentença judicial transitada em julgado."
+      ], resposta_correta: 0 },
+  { id: "q807", tema: "Constitucional", dificuldade: "facil", fonte: "FGV — MPRJ (Técnico do Ministério Público, Área Administrativa) — 2025",
+      enunciado: "Após um processo revolucionário, em que o ditador que estava no comando do País Alfa foi deposto por forças populares, a frente revolucionária solicitou que um grupo de notáveis elaborasse o anteprojeto de Constituição. Esse texto foi submetido à apreciação da Assembleia Constituinte, com membros eleitos para esse fim, e deu origem à nova Constituição de Alfa, que assegurou a renovação periódica do poder e se mostrou plenamente compatível com a base de valores do ambiente sociopolítico, o que fez com que suas normas alcançassem níveis elevados de efetividade. A Constituição de Alfa é classificada como",
+      alternativas: [
+        "nominal.",
+        "cesarista.",
+        "normativa.",
+        "outorgada.",
+        "dogmática."
+      ], resposta_correta: 2 },
+  { id: "q808", tema: "Constitucional", dificuldade: "facil", fonte: "FGV — MPRJ (Técnico do Ministério Público, Área Administrativa) — 2025",
+      enunciado: "João, servidor público do Estado Alfa, foi eleito Prefeito do Município Beta. Embora tenha comemorado o fato de ter sido eleito, João tinha dúvidas em relação à sua situação funcional, considerando o cargo de provimento efetivo que ocupa. Após analisar a sistemática constitucional, João concluiu corretamente que",
+      alternativas: [
+        "pode optar pela remuneração do cargo efetivo, apesar de ser afastado.",
+        "ficará vinculado ao regime geral de previdência social durante o mandato.",
+        "deve se afastar do cargo efetivo, mas o tempo de serviço será contado para todos os efeitos legais.",
+        "continuará vinculado ao regime próprio de previdência social de Alfa até que Beta crie o seu próprio regime.",
+        "pode acumular a remuneração do cargo efetivo com a do cargo eletivo, desde que haja compatibilidade de horários para o exercício de ambos."
+      ], resposta_correta: 0 },
+  { id: "q809", tema: "Constitucional", dificuldade: "facil", fonte: "FGV — MPRJ (Técnico do Ministério Público, Área Administrativa) — 2025",
+      enunciado: "A assessoria jurídica de determinada estrutura orgânica da administração pública direta do Estado Sigma foi questionada em relação à possibilidade, ou não, de se interpretar o Art. X da Constituição da República e se delinear uma norma constitucional com conteúdo diverso daquele que vinha sendo obtido, nos últimos anos, com a interpretação do mesmo preceito. À luz do entendimento sedimentado na realidade brasileira, a assessoria jurídica respondeu corretamente que",
+      alternativas: [
+        "a alteração de conteúdo de uma norma constitucional somente pode ocorrer com a prévia alteração formal do texto constitucional.",
+        "o conteúdo de uma norma constitucional deve ficar atrelado aos objetivos do Poder Constituinte Originário, conforme registrado nos trabalhos legislativos.",
+        "somente o Supremo Tribunal Federal está autorizado a promover alterações informais na norma constitucional a partir da interpretação do texto constitucional.",
+        "a partir das nuances da realidade, subjacentes ao momento de aplicação da norma, o intérprete pode obter novos significados sem alteração do significante interpretado.",
+        "a norma constitucional apresenta uma relação de sobreposição com o texto constitucional, de modo que o teor deste último reflete o conteúdo daquela, não cabendo ao intérprete arvorar-se em poder reformador."
+      ], resposta_correta: 3 },
+  { id: "q810", tema: "Constitucional", dificuldade: "facil", fonte: "FGV — MPRJ (Técnico do Ministério Público, Área Administrativa) — 2025",
+      enunciado: "Lucas, servidor público no Estado do Rio de Janeiro, tem a pretensão de exercer um cargo político. De acordo com a narrativa e considerando as disposições da Constituição Federal, analise as afirmativas a seguir. I. Investido no mandato de Vereador, havendo compatibilidade de horários, perceberá as vantagens de seu cargo, emprego ou função, sem prejuízo da remuneração do cargo eletivo, e, não havendo compatibilidade, lhe será facultado optar pela sua remuneração. II. Investido no mandato de Prefeito, será afastado do cargo, emprego ou função, sendo-lhe facultado optar pela sua remuneração. III. Tratando-se de mandato eletivo federal, estadual ou distrital, ficará afastado de seu cargo, emprego ou função. Ao servidor público da administração direta, autárquica e fundacional, no exercício de mandato eletivo, aplica(m)-se a(s) disposição(ões) elencada(s) em",
+      alternativas: [
+        "I, apenas.",
+        "II, apenas.",
+        "III, apenas.",
+        "I e III, apenas.",
+        "I, II e III."
+      ], resposta_correta: 4 },
+  { id: "q811", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 7ª Região (CE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Considere os seguintes princípios: I. Intervenção. II. Vedação de concessão de asilo político. III. Solução pacífica de conflitos. IV. Prevalência dos direitos humanos. Em conformidade com a Constituição Federal, a República Federativa do Brasil rege-se nas suas relações internacionais, entre outros, pelos princípios constantes em",
+      alternativas: [
+        "I, II e III, apenas.",
+        "III e IV, apenas.",
+        "II, III e IV, apenas.",
+        "I, II, III e IV.",
+        "I e II, apenas."
+      ], resposta_correta: 1 },
+  { id: "q812", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 7ª Região (CE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Suzana, enfermeira, estava praticando sua caminhada noturna, quando, ao passar na frente de uma residência, viu uma moradora passar mal e desmaiar no jardim. Imediatamente, mesmo sem o consentimento da moradora, que se encontrava desmaiada, e verificando que não havia mais ninguém na casa após tocar diversas vezes a campainha e não ser atendida, Suzana pulou o portão e adentrou no imóvel para prestar-lhe socorro. Em conformidade com a Constituição Federal, Suzana",
+      alternativas: [
+        "poderia ter penetrado no imóvel, pois é permitido fazê-lo apenas para prestar socorro, quando a vítima estiver inconsciente e, durante o dia ou durante a noite, por determinação judicial.",
+        "não poderia ter penetrado no imóvel, pois apenas é permitido fazê-lo em caso de flagrante delito.",
+        "não poderia ter penetrado no imóvel sem o consentimento da moradora, pois a casa é asilo inviolável do indivíduo.",
+        "poderia ter penetrado no imóvel sem o consentimento da moradora, pois no caso da prestação de socorro é permitido fazê-lo.",
+        "não poderia ter penetrado no imóvel, pois apenas é permitido fazê-lo em caso de desastre."
+      ], resposta_correta: 3 },
+  { id: "q813", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 7ª Região (CE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Sandra nasceu em país estrangeiro quando os seus pais, brasileiros, desfrutavam das suas férias, não tendo sido registrada em repartição brasileira competente. Sandra nunca viveu no Brasil, porém tem planos para, no futuro, aqui residir e seguir, em território nacional, carreira diplomática. Em conformidade com a Constituição Federal, nessa situação, Sandra",
+      alternativas: [
+        "não poderá seguir a carreira diplomática em nenhuma circunstância, pois não foi registrada em repartição brasileira competente ao nascer.",
+        "poderá seguir a carreira diplomática, pois tanto brasileiros quanto estrangeiros podem segui-la.",
+        "poderá seguir a carreira diplomática, desde que venha a residir no Brasil e opte, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.",
+        "poderá seguir a carreira diplomática, pois o fato de ser filha de brasileiros a torna brasileira nata, independentemente do preenchimento de qualquer outro requisito.",
+        "poderá seguir a carreira diplomática apenas se naturalizar brasileira, pois a mesma é privativa de brasileiros, tanto natos quanto naturalizados."
+      ], resposta_correta: 2 },
+  { id: "q814", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 7ª Região (CE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Carla é trabalhadora doméstica. Em conformidade com a Constituição Federal, são assegurados a Carla, além de outros que visem à melhoria de sua condição social, os seguintes direitos:",
+      alternativas: [
+        "proteção do mercado de trabalho da mulher, mediante incentivos específicos, nos termos da lei; jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva; fundo de garantia do tempo de serviço.",
+        "adicional de remuneração para as atividades penosas, insalubres ou perigosas, na forma da lei; décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria; remuneração do trabalho noturno superior à do diurno.",
+        "jornada de seis horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva; remuneração do serviço extraordinário superior, no mínimo, em cinquenta por cento à do normal; repouso semanal remunerado, preferencialmente aos domingos.",
+        "proteção do mercado de trabalho da mulher, mediante incentivos específicos, nos termos da lei; gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal; adicional de remuneração para atividades penosas, insalubres ou perigosas.",
+        "décimo terceiro salário com base na remuneração integral ou no valor da aposentadoria; remuneração do serviço extraordinário superior, no mínimo, em cinquenta por cento à do normal; gozo de férias anuais remuneradas com, pelo menos, um terço a mais do que o salário normal."
+      ], resposta_correta: 4 },
+  { id: "q815", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 7ª Região (CE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Letícia e Karin exercem cargos públicos. Letícia é professora e Karin exerce cargo privativo de profissional da saúde, com profissão regulamentada. Ambas desejam exercer mais um cargo público remunerado. Considerando apenas as informações fornecidas e em conformidade com a Constituição Federal,",
+      alternativas: [
+        "desde que haja compatibilidade de horários, Letícia e Karin podem exercer quantos cargos públicos de professor desejarem, pois a lei não veda o acúmulo remunerado de cargos públicos quando todos eles forem relacionados exclusivamente à profissão de professor.",
+        "desde que haja compatibilidade de horários, Letícia pode exercer mais um cargo de professora, ou mais um cargo técnico ou mais um cargo científico, enquanto Karin não pode exercer outro cargo público, pois é vedado ao profissional da saúde a acumulação remunerada de cargos públicos.",
+        "Letícia e Karin são proibidas de exercer outro cargo público, pois é vedada a acumulação remunerada de cargos públicos.",
+        "desde que haja compatibilidade de horários, Letícia pode exercer mais um cargo de professora, ou mais um cargo técnico ou mais um cargo científico, enquanto Karin pode exercer outro cargo ou emprego privativo de profissional de saúde, com profissão regulamentada.",
+        "desde que haja compatibilidade de horários, Letícia pode exercer apenas mais um cargo científico, enquanto Karin não pode exercer outro cargo público, pois é vedado ao profissional da saúde a acumulação remunerada de cargos públicos."
+      ], resposta_correta: 3 },
+  { id: "q816", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 20ª Região (SE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, conceder-se-á",
+      alternativas: [
+        "habeas data, sendo que compete ao Superior Tribunal de Justiça processá-lo e julgá-lo, originariamente, quando interposto contra atos da Mesa do Senado Federal.",
+        "mandado de segurança, sendo que compete ao Supremo Tribunal Federal processá-lo e julgá-lo, originariamente, quando interposto contra atos de Ministro de Estado.",
+        "habeas data, sendo que compete ao Superior Tribunal de Justiça processá-lo e julgá-lo, originariamente, quando interposto contra atos do Tribunal de Contas da União.",
+        "habeas data, sendo que compete ao Supremo Tribunal Federal processá-lo e julgá-lo, originariamente, quando interposto contra atos da Mesa da Câmara dos Deputados.",
+        "mandado de segurança, sendo que compete ao Superior Tribunal de Justiça processá-lo e julgá-lo, originariamente, contra atos da Mesa da Câmara dos Deputados."
+      ], resposta_correta: 3 },
+  { id: "q817", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 20ª Região (SE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Com relação aos direitos sociais, de acordo com a Constituição Federal de 1988, é correto afirmar que",
+      alternativas: [
+        "são direitos dos trabalhadores urbanos, além de outros que visem à melhoria de sua condição social, o repouso semanal remunerado, sempre aos domingos, além da proibição de diferença de salários ou de exercício de funções por motivo de sexo, idade ou cor, sendo permitida a distinção entre trabalho manual, técnico e intelectual.",
+        "é assegurada a participação exclusiva dos trabalhadores nos colegiados dos órgãos públicos em que seus interesses profissionais ou previdenciários sejam objeto de discussão e deliberação.",
+        "são direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social, a irredutibilidade do salário, sendo vedada qualquer previsão de redução salarial em convenção ou acordo coletivo, por se tratar de um direito fundamental irrenunciável.",
+        "nas empresas de mais de cem empregados, é assegurada a eleição de dois representantes destes com a finalidade exclusiva de promover-lhes o entendimento direto com os empregadores.",
+        "é livre a associação profissional ou sindical, observado que a assembleia geral fixará a contribuição que, em se tratando de categoria profissional, será descontada em folha, para custeio do sistema confederativo da representação sindical respectiva, independentemente da contribuição prevista em lei."
+      ], resposta_correta: 4 },
+  { id: "q818", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 20ª Região (SE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Jarbas nasceu no exterior, enquanto seu pai, que é brasileiro nato, lá estava a serviço do Brasil. A mãe de Jarbas, que não é brasileira, residia nesse mesmo país, com a família, à época do nascimento de seu filho, em razão do trabalho de seu marido, pai de Jarbas. Com base apenas nas informações fornecidas, Jarbas",
+      alternativas: [
+        "é considerado brasileiro nato e, portanto, poderá exercer qualquer cargo privativo de brasileiro nato.",
+        "será considerado brasileiro apenas se adquirir a nacionalidade brasileira pela naturalização e, por se tornar brasileiro naturalizado, poderá exercer cargo da carreira diplomática no Brasil.",
+        "não é considerado brasileiro nato, pois sua mãe não é brasileira, não podendo, portanto, exercer nenhum cargo privativo de brasileiro nato.",
+        "não é considerado brasileiro nato, pois nasceu no exterior, não podendo, portanto, exercer nenhum cargo privativo de brasileiro nato.",
+        "é considerado brasileiro nato, mas não poderá exercer o cargo de Presidente da República, pois não nasceu no Brasil."
+      ], resposta_correta: 0 },
+  { id: "q819", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 20ª Região (SE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Gervaso é brasileiro, analfabeto, tem sessenta anos de idade e possui uma filha, Brenda, que tem vinte e cinco anos de idade e é jornalista. Com base apenas nas informações fornecidas, com relação aos direitos políticos, nessa situação, para Gervaso e o alistamento eleitoral e o voto são",
+      alternativas: [
+        "proibidos, mas poderá se candidatar a qualquer cargo eletivo e, para Brenda, o alistamento e o voto são obrigatórios, não podendo se candidatar ao cargo de Prefeita.",
+        "proibidos, não podendo se candidatar a nenhum cargo eletivo por ser inelegível e, para Brenda, o alistamento e o voto são obrigatórios, podendo se candidatar a qualquer cargo eletivo.",
+        "facultativos e, para Brenda, o alistamento e o voto são obrigatórios, sendo que ambos poderão se candidatar para qualquer cargo eletivo.",
+        "obrigatórios, mas não poderá se candidatar a nenhum cargo eletivo por ser inelegível e, para Brenda, o alistamento e o voto são obrigatórios, mas ela não poderá se candidatar ao cargo de Presidente da República.",
+        "facultativos, mas não poderá se candidatar a nenhum cargo eletivo por ser inelegível e, para Brenda, o alistamento e o voto são obrigatórios, mas ela não poderá se candidatar, dentre outros, ao cargo de Governadora de Estado."
+      ], resposta_correta: 4 },
+  { id: "q820", tema: "Constitucional", dificuldade: "facil", fonte: "FCC — TRT 20ª Região (SE) — Técnico Judiciário, Área Administrativa — 2024",
+      enunciado: "Na situação hipotética na qual o Presidente da República pratica ato que atente contra a Constituição Federal e, especialmente, contra o livre exercício do Poder Judiciário, uma vez admitida a acusação contra ele, por dois terços",
+      alternativas: [
+        "do Senado Federal, será ele submetido a julgamento perante o Senado Federal, ficando suspenso de suas funções se recebida a denúncia ou queixa-crime pelo Senado Federal e, se decorrido o prazo de cento e vinte dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo.",
+        "da Câmara dos Deputados, será ele submetido a julgamento perante o Supremo Tribunal Federal, ficando suspenso de suas funções após a instauração do processo pelo Supremo Tribunal Federal, cessando o seu afastamento apenas após a conclusão do processo, se não for considerado culpado.",
+        "da Câmara dos Deputados, será ele submetido a julgamento perante o Senado Federal, ficando suspenso de suas funções após a instauração do processo pelo Senado Federal e, se decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo.",
+        "do Senado Federal, será ele submetido a julgamento perante o Supremo Tribunal Federal, ficando suspenso de suas funções e, se decorrido o prazo de cento e oitenta dias, o julgamento não estiver concluído, cessará o afastamento do Presidente, sem prejuízo do regular prosseguimento do processo.",
+        "do Congresso Nacional, será ele submetido a julgamento perante o Supremo Tribunal Federal, ficando suspenso de suas funções somente após decisão transitada em julgado do Supremo Tribunal Federal."
+      ], resposta_correta: 2 },
+  { id: "q821", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que Catarina é russa e há dezesseis anos ininterruptos reside no Brasil, no estado de São Paulo. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Catarina",
+      alternativas: [
+        "precisa comprovar idoneidade moral e requerer expressamente a nacionalidade brasileira para ser considerada como naturalizada.",
+        "para ser considerada como naturalizada, poderá ter condenação penal, desde que não seja por tráfico de drogas.",
+        "para adquirir a nacionalidade brasileira deverá comprovar ter ensino superior.",
+        "se não tiver condenação penal e se requerer a nacionalidade brasileira, será considerada como naturalizada.",
+        "poderá ser naturalizada após comprovar que vive há vinte anos no Brasil e então poderá ocupar cargo da carreira diplomática."
+      ], resposta_correta: 3 },
+  { id: "q822", tema: "Constitucional", dificuldade: "facil", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Assinale a alternativa que contém todos os símbolos da República Federativa do Brasil.",
+      alternativas: [
+        "A Constituição Federal, a bandeira, os hinos e o Supremo Tribunal Federal.",
+        "O Congresso Nacional, a bandeira, os hinos e o Supremo Tribunal Federal.",
+        "A bandeira, o hino, as armas e o selo nacionais.",
+        "A bandeira, os hinos, a Constituição Federal e o Congresso Nacional.",
+        "As bandeiras, os hinos, a Capital Federal e a Constituição Federal."
+      ], resposta_correta: 2 },
+  { id: "q823", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que Letícia é ocupante do cargo de professora com efetivo exercício das funções de magistério no ensino médio no âmbito do Estado X, que adota o regime próprio de previdência e prevê os mesmos requisitos para aposentadoria que a União. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Letícia somente poderá se aposentar a partir dos",
+      alternativas: [
+        "62 anos, pois a reforma da previdência extinguiu o benefício da contagem diferenciada do tempo de contribuição.",
+        "65 anos, visto que com a reforma da previdência vedou-se a contagem de tempo de contribuição fictício.",
+        "60 anos, desde que cumpra os demais requisitos exigidos em lei complementar.",
+        "52 anos, na forma da lei complementar.",
+        "57 anos, desde que cumpra os demais requisitos exigidos em lei."
+      ], resposta_correta: 4 },
+  { id: "q824", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que João é trabalhador rural e obteve a informação de que a sua empresa empregadora apresentou ao sindicato da categoria profissional proposta de acordo coletivo para reduzir o salário dos funcionários, bem como regular alguns temas da relação de emprego. João, então, procura o sindicato para obter informações sobre a proposta de acordo e sobre os direitos sociais que a Constituição Federal lhe assegura. Com base nessa situação hipotética e no disposto na Constituição, é correto afirmar que",
+      alternativas: [
+        "o acordo não precisará dispor sobre o aviso prévio dos trabalhadores, pois a Constituição já assegura que este será proporcional ao tempo de serviço e não inferior a quinze dias.",
+        "a Constituição não estipula a proteção do emprego rural em face do processo de automação, devendo esse tema ser regulado no acordo coletivo.",
+        "a Constituição já assegura a assistência gratuita aos filhos e dependentes desde o nascimento até 5 (cinco) anos de idade em creches e pré-escolas.",
+        "a proposta de acordo coletivo não poderá ser aceita, pois a Constituição Federal veda a redução do salário.",
+        "a Constituição assegura que, caso seja concedido seguro contra acidente de trabalho e esse seja custeado pelo empregador, a conduta excluirá a responsabilidade deste por indenização em caso de culpa."
+      ], resposta_correta: 0 },
+  { id: "q833", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2025 — Versão 1 (gabarito oficial de 07/12/2025)",
+      enunciado: "O policial Severo foi chamado a atender um flagrante delito que o sujeito apelidado de Pernalonga estava cometendo dentro da casa deste. Chegando ao local do crime no final da tarde e evidenciada a prática de infração penal, Severo constatou que era hipótese de flagrante delito. Coincidentemente, o policial avistou em uma casa vizinha Carcará, criminoso foragido e que tinha mandado de prisão expedido por autoridade judicial. Diante da situação, face ao adiantado da hora, e, obviamente, não havendo consentimento dos moradores, pairou dúvidas acerca da possibilidade de adentrar nos domicílios de Pernalonga e Carcará para efetuar as prisões. Face a situação hipotética, é correto afirmar, de acordo com o disposto na Constituição de 1988, que",
+      alternativas: [
+        "Severo pode ingressar no período noturno apenas na casa de Carcará, pois há ordem judicial a ser cumprida – mandado de prisão.",
+        "Severo pode ingressar em ambas as casas para efetuar as prisões nos períodos diurno ou noturno.",
+        "ainda que persistisse a situação de flagrante durante o período noturno, Severo somente poderia adentrar na casa de Pernalonga durante o dia para efetuar a prisão.",
+        "a casa é asilo inviolável, não podendo Severo adentrar nas duas casas no período noturno, podendo entrar nas duas casas apenas no período diurno.",
+        "Severo não pode ingressar na casa de Carcará no período noturno, mas pode ingressar na casa de Pernalonga uma vez caraterizada no momento do ingresso a situação de flagrante delito."
+      ], resposta_correta: 4 },
+  { id: "q834", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2025 — Versão 1 (gabarito oficial de 07/12/2025)",
+      enunciado: "A respeito das ações constitucionais, assinale a alternativa correta.",
+      alternativas: [
+        "O autor da ação popular, inexistente situação de comprovada má-fé, bem como os impetrantes de habeas data não estão sujeitos ao pagamento de custas processuais.",
+        "Mandado de segurança coletivo pode ser proposto por entidade sindical ou partido político com representação na assembleia legislativa.",
+        "São gratuitas as ações de mandado de segurança e habeas corpus.",
+        "Ocorrendo ilegalidade ou abuso de poder por autoridade pública que viole a liberdade de locomoção, a ação cabível será o mandado de segurança.",
+        "Na ação popular, salvo comprovada má-fé, tanto o autor popular como o réu estarão isentos do pagamento de custas processuais e ônus sucumbenciais."
+      ], resposta_correta: 0 },
+  { id: "q835", tema: "Constitucional", dificuldade: "dificil", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2025 — Versão 1 (gabarito oficial de 07/12/2025)",
+      enunciado: "Joaquim, integrante da carreira diplomática portuguesa, prestando serviço em Angola, foi casado em primeiras núpcias com a atriz portuguesa Catarina, tendo nascido a filha Josefina. Posteriormente, Joaquim se separou e casou-se com Rúbia, tenista e brasileira naturalizada, tendo nascido da união a filha Sandra. Josefina e Sandra nasceram em Angola quando apenas o genitor estava a serviço de Portugal. Tendo interesse que as filhas sigam a carreira diplomática, mas pela República Federativa do Brasil, assinale a alternativa correta à luz das disposições da Constituição de 1988.",
+      alternativas: [
+        "Josefina pode se tornar brasileira naturalizada se comprovar idoneidade moral e vier a residir por um ano na República Federativa do Brasil, sendo permitido seguir a carreira diplomática brasileira.",
+        "Josefina e Sandra não podem ser consideradas brasileiras natas, não sendo, assim, permitido seguir a carreira diplomática brasileira.",
+        "Caso Sandra tenha sido registrada na repartição competente brasileira em Angola, será considerada brasileira naturalizada, podendo seguir a carreira diplomática.",
+        "Sandra poderá seguir a carreira diplomática brasileira, se vier a residir no Brasil e optar, em qualquer tempo, depois de atingida a maioridade, pela nacionalidade brasileira.",
+        "Josefina e Sandra podem seguir a carreira diplomática brasileira se adquirirem a nacionalidade brasileira e houver reciprocidade em favor dos brasileiros, exigida residência permanente no Brasil."
+      ], resposta_correta: 3 },
+  { id: "q836", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2025 — Versão 1 (gabarito oficial de 07/12/2025)",
+      enunciado: "O engenheiro Alípio foi admitido como servidor público concursado de autarquia estadual, tendo se efetivado. É correto afirmar, à luz do disposto na Constituição de 1988, que Alípio",
+      alternativas: [
+        "não estará sujeito a teto remuneratório mensal máximo por ser servidor público da administração indireta estadual.",
+        "estará sujeito ao limite remuneratório mensal máximo pago a título de subsídio ao Governador do Estado.",
+        "caso instituído pelo estado-membro, poderá aderir a plano de previdência complementar na modalidade benefício definido, observado o limite máximo previsto para o regime geral da previdência social.",
+        "estará sujeito ao teto remuneratório mensal máximo pago a título de subsídio aos Desembargadores do Tribunal de Justiça Estadual.",
+        "poderá ter seus proventos de aposentadoria do regime próprio de previdência superiores ao limite máximo fixado pelo Regime Geral de Previdência Social, observadas as normas constitucionais relativas ao regime de previdência complementar."
+      ], resposta_correta: 3 },
+  { id: "q837", tema: "Constitucional", dificuldade: "facil", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "Assinale a alternativa que contempla hipótese de crime para o qual a Constituição Federal não veda o arbitramento de fiança.",
+      alternativas: [
+        "Crime hediondo.",
+        "Crime doloso contra a vida.",
+        "Tráfico ilícito de entorpecentes e drogas afins.",
+        "Ação de grupos armados contra a ordem constitucional e o Estado Democrático.",
+        "Prática do racismo."
+      ], resposta_correta: 1 },
+  { id: "q838", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "Considerando o disposto na Constituição Federal, assinale a alternativa que aponta uma situação que, em tese, viola um dos direitos ou garantias individuais do cidadão brasileiro.",
+      alternativas: [
+        "Ordem emanada de juiz que determina à polícia que seja efetuada a escuta telefônica de réu em processo civil de reparação de danos.",
+        "Ordem de prisão civil por dívida do responsável pelo inadimplemento voluntário e inescusável de obrigação alimentícia.",
+        "Policial, sem mandado judicial, adentra em domicílio, durante à noite, sem consentimento do morador, para efetuar prisão em flagrante.",
+        "Mandado judicial de prisão cumprido por policiais civis às 9h00 dentro da residência do réu.",
+        "Suspensão das atividades de associação civil, de fins lícitos, por decisão judicial, em caráter liminar."
+      ], resposta_correta: 0 },
+  { id: "q839", tema: "Constitucional", dificuldade: "facil", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "É um dos direitos constitucionais dos trabalhadores urbanos e rurais:",
+      alternativas: [
+        "relação de emprego protegida contra despedida arbitrária com ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória.",
+        "participação nos lucros, ou resultados, vinculada à última remuneração do trabalhador.",
+        "assistência gratuita aos filhos e dependentes desde o nascimento até 5 (cinco) anos de idade em creches e pré-escolas.",
+        "jornada de oito horas para o trabalho realizado em turnos ininterruptos de revezamento, salvo negociação coletiva.",
+        "licença à gestante, sem prejuízo do emprego e do salário, com a duração de 180 (cento e oitenta) dias."
+      ], resposta_correta: 2 },
+  { id: "q840", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "Considerando as hipóteses possíveis de naturalização brasileira, assinale a alternativa que descreve uma situação de naturalização compatível com a Constituição Federal.",
+      alternativas: [
+        "Cidadão originário de país de língua portuguesa, idôneo moralmente, residente há um ano ininterrupto no Brasil, e, que, na forma da lei, adquirir a nacionalidade brasileira.",
+        "O nascido no estrangeiro, de pai brasileiro ou mãe brasileira, desde que qualquer deles esteja a serviço da República Federativa do Brasil.",
+        "O nascido na República Federativa do Brasil, com pais estrangeiros que não estejam a serviço de seu país.",
+        "O nascido no estrangeiro de pai brasileiro ou de mãe brasileira, registrado em repartição brasileira ou que venha a residir no Brasil e opte, a qualquer tempo, pela nacionalidade brasileira.",
+        "O estrangeiro de qualquer nacionalidade, residente na República Federativa do Brasil há mais de dez anos ininterruptos e sem condenação penal."
+      ], resposta_correta: 0 },
+  { id: "q841", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "É um cargo público privativo de brasileiro nato:",
+      alternativas: [
+        "de Procurador Geral da República.",
+        "de Ministro do Tribunal de Contas da União.",
+        "de Presidente da Câmara dos Deputados.",
+        "de Presidente do Superior Tribunal de Justiça.",
+        "de Senador da República."
+      ], resposta_correta: 2 },
+  { id: "q842", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "Nos moldes da Constituição Federal, o servidor público titular de cargo efetivo, que tenha sofrido limitação em sua capacidade física ou mental, poderá, atendidas as demais exigências, ser readaptado,",
+      alternativas: [
+        "para exercício de novo cargo compatível com a sua limitação, devendo receber pelo menos 70% (setenta por cento) da remuneração do cargo de origem.",
+        "para exercício do mesmo cargo, com os necessários ajustes à sua limitação, garantida a mesma remuneração do cargo.",
+        "para exercício de novo cargo compatível com a sua limitação, podendo o servidor optar entre a remuneração do cargo de origem e a do cargo de destino.",
+        "para exercício de novo cargo compatível com a sua limitação, mantida a remuneração do cargo de origem.",
+        "para exercício de novo cargo compatível com a sua limitação, devendo receber a remuneração do cargo de destino."
+      ], resposta_correta: 3 },
+  { id: "q843", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (Comarca da Capital e 10 Regiões Administrativas Judiciárias) — 2021 — Versão 1 (gabarito oficial de 03/11/2021, DJE-SP)",
+      enunciado: "No tocante às disposições constitucionais, que tratam do tema dos servidores públicos, é correto afirmar que",
+      alternativas: [
+        "o tempo de contribuição federal, estadual, distrital ou municipal e o tempo de serviço público correspondente serão contados para fins de disponibilidade e aposentadoria do servidor.",
+        "aplica-se ao agente público ocupante, exclusivamente, de cargo em comissão declarado em lei de livre nomeação e exoneração, de outro cargo temporário, inclusive mandato eletivo, o Regime Próprio de Previdência Social dos Servidores.",
+        "por motivos de segurança, é expressamente vedado aos Poderes Executivo, Legislativo e Judiciário divulgar ou publicar os valores do subsídio e da remuneração dos cargos e empregos públicos dos seus respectivos servidores.",
+        "o membro de Poder, o detentor de mandato eletivo, os Ministros de Estado e os Secretários Estaduais e Municipais serão remunerados exclusivamente por subsídio fixado em parcela única, que poderá ser acrescido de gratificação, adicional, abono, prêmio e verba de representação.",
+        "é vedada a incorporação de vantagens de caráter temporário ou vinculadas ao exercício de função de confiança ou de cargo em comissão à remuneração do cargo efetivo."
+      ], resposta_correta: 4 },
+  { id: "q844", tema: "Constitucional", dificuldade: "facil", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "Consta, de maneira expressa, na Constituição Federal que a dignidade da pessoa humana figura entre os",
+      alternativas: [
+        "direitos humanos.",
+        "direitos e deveres individuais e coletivos.",
+        "fundamentos da República Federativa do Brasil.",
+        "objetivos fundamentais da República Federativa do Brasil.",
+        "direitos e garantias fundamentais."
+      ], resposta_correta: 2 },
+  { id: "q845", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "Max, cidadão alemão, casou-se com a brasileira Antônia, da união nasceu um filho brasileiro, Carlos. De acordo com a Constituição Federal, a sucessão dos bens de propriedade de Max situados no Brasil será regulada pela lei",
+      alternativas: [
+        "do país de origem do “de cujus”, ou seja, pela lei alemã.",
+        "que rege as relações internacionais entre o Brasil e a Alemanha.",
+        "brasileira em benefício do cônjuge e do filho brasileiro, independentemente de qualquer disposição legal do país de origem do “de cujus”.",
+        "brasileira em benefício do filho brasileiro e de eventuais outros herdeiros do “de cujus”.",
+        "brasileira em benefício do cônjuge e do filho brasileiro, sempre que não lhes seja mais favorável a lei pessoal do “de cujus”."
+      ], resposta_correta: 4 },
+  { id: "q846", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "É livre a associação profissional ou sindical, observado o seguinte:",
+      alternativas: [
+        "a lei poderá exigir autorização do Estado para a fundação de sindicato.",
+        "lei específica fixará a contribuição que, em se tratando de categoria profissional, será descontada em folha, para custeio do sistema confederativo da representação sindical respectiva.",
+        "é facultativa a participação dos sindicatos nas negociações coletivas de trabalho.",
+        "é legal a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial.",
+        "o aposentado filiado tem direito a votar e ser votado nas organizações sindicais."
+      ], resposta_correta: 4 },
+  { id: "q847", tema: "Constitucional", dificuldade: "facil", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "A idade mínima exigida como condição de elegibilidade para o cargo de Vereador é de",
+      alternativas: [
+        "dezoito anos.",
+        "vinte e um anos.",
+        "trinta e cinco anos.",
+        "trinta anos.",
+        "vinte anos."
+      ], resposta_correta: 0 },
+  { id: "q848", tema: "Constitucional", dificuldade: "facil", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "A cassação de direitos políticos",
+      alternativas: [
+        "se dará no caso de cancelamento da naturalização por sentença transitada em julgado.",
+        "é vedada constitucionalmente.",
+        "se dará no caso de incapacidade civil absoluta.",
+        "se dará no caso de improbidade administrativa.",
+        "se dará no caso de condenação criminal transitada em julgado."
+      ], resposta_correta: 1 },
+  { id: "q849", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "A orientação constitucional quanto à acumulação remunerada de cargos públicos é a seguinte:",
+      alternativas: [
+        "a proibição de acumular não se estende a empregos e funções públicas.",
+        "quando houver compatibilidade de horários é possível a acumulação de um cargo de professor com outro técnico ou científico.",
+        "podem ser acumulados até três cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.",
+        "é totalmente vedada a acumulação remunerada de cargos públicos.",
+        "quando houver compatibilidade de horários é possível a acumulação de até três cargos de professor."
+      ], resposta_correta: 1 },
+  { id: "q850", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Oficial de Justiça (10 Regiões Administrativas Judiciárias) — 2023 — caderno TJSP2302/001 = Versão 4 do gabarito (gabarito definitivo de 19/12/2023, DJE-SP)",
+      enunciado: "Bonifácio, ocupante do cargo de Oficial de Justiça, pretende candidatar-se ao cargo de vereador. Uma vez eleito",
+      alternativas: [
+        "será afastado do cargo de Oficial de Justiça para o exercício do mandato eletivo, com prejuízo de contagem de seu tempo de serviço para todos os efeitos legais.",
+        "deverá necessariamente afastar-se de seu cargo de Oficial de Justiça, passando a ser remunerado pela vereança.",
+        "será necessariamente afastado do cargo de Oficial de Justiça, sendo-lhe facultado optar pela sua remuneração.",
+        "havendo compatibilidade de horários, perceberá as vantagens de seu cargo de Oficial de Justiça, sem prejuízo da remuneração do cargo eletivo.",
+        "havendo compatibilidade de horários, ser-lhe-á facultado optar pela sua remuneração."
+      ], resposta_correta: 3 },
+  { id: "q851", tema: "Constitucional", dificuldade: "dificil", fonte: "VUNESP — TJ-SP Oficial de Justiça — 2024 — Versão 1 (gabarito oficial de 15/12/2024)",
+      enunciado: "Os municípios A e B estão localizados no mesmo Estado, e, em decorrência de questões geográficas e culturais, seus habitantes compartilham diversos valores em comum. Em face disso, e pensando em solucionar o problema da escassez de recursos, os Chefes dos respectivos Poderes Executivos desejam realizar a fusão desses municípios. Com base na situação hipotética apresentada e no disposto na Constituição Federal, assinale a alternativa correta.",
+      alternativas: [
+        "Os municípios A e B não poderão realizar a fusão, mas apenas um poderá se incorporar ao outro, desde que mediante prévia autorização em lei estadual, dentro do período determinado por Lei Complementar Federal, e após ouvir a população interessada mediante plebiscito.",
+        "A fusão dos municípios A e B é possível, mas deverá ser feita por lei estadual, dentro do período determinado por Lei Complementar Federal, dependendo de consulta prévia, mediante plebiscito, às populações dos municípios envolvidos, após divulgação dos Estudos de Viabilidade Municipal.",
+        "Admite-se a fusão dos municípios A e B, desde que seja editada, pela Assembleia Legislativa, Lei Complementar indicando tal possibilidade e autorizando a realização do referendo.",
+        "Diferentemente do que ocorre com os Estados, os municípios não podem realizar a fusão, bem como incorporar-se ou subdividir-se, em face de expressa vedação legal que foi consequência de entendimento consolidado do Supremo Tribunal Federal.",
+        "Admite-se que os municípios A e B realizem a fusão, desde que, entre outros requisitos, seja publicada Lei Complementar Estadual autorizando e seja realizada pesquisa de interesse entre os cidadãos envolvidos, além de apresentado estudo de impacto financeiro."
+      ], resposta_correta: 1 },
+  { id: "q852", tema: "Constitucional", dificuldade: "dificil", fonte: "VUNESP — TJ-SP Oficial de Justiça — 2024 — Versão 1 (gabarito oficial de 15/12/2024)",
+      enunciado: "Ênio é magistrado no âmbito do Tribunal de Justiça do Estado de São Paulo, e Max é magistrado do Tribunal de Justiça do Rio de Janeiro. Eles são amigos desde a época em que estudavam para prestar o concurso da magistratura e ambos estão em comarcas de igual entrância. Diante da recente alteração na Constituição Federal, eles desejam apresentar pedido de permuta. Com base na situação hipotética apresentada e no disposto na Constituição Federal, assinale a alternativa correta.",
+      alternativas: [
+        "O pedido de permuta de Ênio e Max será deferido se eles estiverem por duas vezes consecutivas ou cinco alternadas em lista de merecimento para promoção, exceto se comprovado que eles injustificadamente retiveram autos além do prazo legal disposto no Código de Processo Civil.",
+        "Como aos Tribunais de Justiça é assegurada autonomia administrativa e financeira, cada Tribunal de Justiça deverá prever as próprias regras aplicáveis aos pedidos de permuta, observando-se, no mínimo, a exigência de que os magistrados estejam na mesma entrância há pelo menos cinco anos.",
+        "O pedido de Ênio e Max não poderá ser atendido, pois a Constituição Federal apenas permitiu a remoção a pedido de magistrados de comarca de igual entrância, dentro de um mesmo Tribunal de Justiça.",
+        "O pedido de Ênio e Max não poderá ser atendido, pois a Constituição Federal permitiu apenas a permuta entre os juízes de segundo grau.",
+        "Admite-se a permuta dos magistrados Ênio e Max, que atenderá, entre outros requisitos e no que couber, a aferição do merecimento conforme o desempenho e pelos critérios objetivos de produtividade e presteza no exercício da jurisdição e pela frequência e o aproveitamento em cursos oficiais ou reconhecidos de aperfeiçoamento."
+      ], resposta_correta: 4 },
+  { id: "q853", tema: "Constitucional", dificuldade: "dificil", fonte: "VUNESP — TJ-SP Oficial de Justiça — 2024 — Versão 1 (gabarito oficial de 15/12/2024)",
+      enunciado: "O Ministério Público do Estado X, durante a execução orçamentária do exercício de 2024, em virtude do exponencial aumento das audiências de custódia aos finais de semana, verificou que não haveria valores suficientes para o pagamento de diárias para os membros da carreira dentro dos limites estabelecidos na Lei de Diretrizes Orçamentárias. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que, se ocorresse o pagamento das diárias extrapolando os limites estabelecidos na Lei de Diretrizes Orçamentárias, a atitude do Ministério Público do Estado X estaria",
+      alternativas: [
+        "em desacordo com o previsto na Constituição, na medida em que as despesas deveriam ter sido previamente autorizadas, mediante a abertura de créditos suplementares ou especiais.",
+        "de acordo com o previsto na Constituição, na medida em que é caracterizada a situação de força maior decorrente do aumento das audiências de custódia.",
+        "em desacordo com o previsto na Constituição, pois a realização de despesas dependeria de autorização prévia diretamente dada pelo Chefe do Poder Executivo, por meio da publicação de resolução orçamentária.",
+        "de acordo com o previsto na Constituição, na medida em que são princípios institucionais do Ministério Público a independência funcional e a financeira.",
+        "de acordo com o previsto na Constituição, pois, além de estar caracterizada a situação de caso fortuito, são princípios institucionais do Ministério Público a independência orçamentária e a administrativa."
+      ], resposta_correta: 0 },
+  { id: "q854", tema: "Constitucional", dificuldade: "media", fonte: "VUNESP — TJ-SP Oficial de Justiça — 2024 — Versão 1 (gabarito oficial de 15/12/2024)",
+      enunciado: "De acordo com o expresso na Constituição Federal, atualmente, a criação da Justiça Militar Estadual",
+      alternativas: [
+        "é possível, desde que haja prévia resolução do Conselho Nacional de Justiça autorizando o respectivo Tribunal de Justiça.",
+        "depende da edição de lei estadual, mediante proposta do Tribunal de Justiça.",
+        "depende da edição de lei ordinária federal, de proposta privativa do Supremo Tribunal Federal.",
+        "depende da edição de lei complementar estadual, mediante proposta do Tribunal de Justiça, após prévia autorização do Conselho Nacional de Justiça.",
+        "está vedada, em razão da recente promulgação da Emenda Constitucional no 133."
+      ], resposta_correta: 1 },
 ];
+

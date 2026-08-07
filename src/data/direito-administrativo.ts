@@ -1342,4 +1342,352 @@ export const QUESTOES_DIREITO_ADMINISTRATIVO: Questao[] = [
         "O concessionário retirante terá direito à indenização pelo investimento em bens reversíveis, vinculados ao contrato de parceria, realizados e não amortizados ou depreciados, consideradas as deduções previstas legalmente.",
         "As multas e demais somas de natureza não tributária decorrentes da concessão anterior, inclusive o valor relacionado à outorga originalmente ofertada, deverão ser assumidos pelo concessionário entrante."
       ], resposta_correta: 3 },
+  { id: "q774", tema: "Direito Administrativo", dificuldade: "facil", fonte: "FGV — Prefeitura de Macaé/RJ — Analista de Arquivo — 2024",
+      enunciado: "Qual princípio envolve o desempenho do agente público e a organização da Administração Pública?",
+      alternativas: [
+        "Legalidade",
+        "Impessoalidade",
+        "Moralidade",
+        "Publicidade",
+        "Eficiência"
+      ], resposta_correta: 4 },
+  { id: "q775", tema: "Direito Administrativo", dificuldade: "facil", fonte: "FGV — Prefeitura de Niterói/RJ — Controle Interno — 2024",
+      enunciado: "Qual alternativa define o princípio da impessoalidade?",
+      alternativas: [
+        "Priorizar interesses pessoais",
+        "Atuar conforme interesses individuais",
+        "Considerar as vontades dos gestores",
+        "Beneficiar indivíduos específicos, se justificado",
+        "Agir em benefício do interesse público, sem favorecimentos"
+      ], resposta_correta: 4 },
+  { id: "q776", tema: "Direito Administrativo", dificuldade: "facil", fonte: "UFG — Universidade Federal de Goiás — Antropólogo — 2024",
+      enunciado: "Princípio que confere à Administração a capacidade de anular atos ilegais e revogar atos inconvenientes ou inoportunos:",
+      alternativas: [
+        "Tutela",
+        "Especialidade",
+        "Autoexecutoriedade",
+        "Autotutela"
+      ], resposta_correta: 3 },
+  { id: "q777", tema: "Direito Administrativo", dificuldade: "facil", fonte: "FGV — Conselho Federal de Contabilidade (CFC) — Bacharelado em Ciências Contábeis — 2025",
+      enunciado: "Considere os seguintes itens: I. Legalidade; II. Moralidade; III. Livre concorrência; IV. Publicidade. Quais desses itens são princípios da Administração Pública?",
+      alternativas: [
+        "I e II, apenas",
+        "II, III e IV, apenas",
+        "I, II e IV, apenas",
+        "I, II, III e IV"
+      ], resposta_correta: 2 },
+  { id: "q778", tema: "Direito Administrativo", dificuldade: "facil", fonte: "Avança SP — Prefeitura de Nova Odessa/SP — Escriturário — 2026",
+      enunciado: "Assinale a alternativa que apresenta dois elementos dos atos administrativos:",
+      alternativas: [
+        "Competência e Finalidade",
+        "Impessoalidade e Eficiência",
+        "Presunção de Legitimidade e Imperatividade",
+        "Poder Hierárquico e Poder Disciplinar",
+        "Moralidade e Razoabilidade"
+      ], resposta_correta: 0 },
+  { id: "q779", tema: "Direito Administrativo", dificuldade: "facil", fonte: "Avança SP — Prefeitura de Nova Odessa/SP — Escriturário — 2026",
+      enunciado: "Determinados atos administrativos podem ser executados direta e imediatamente pela própria Administração Pública, sem necessidade de prévia autorização judicial, inclusive com emprego de força, para assegurar seu cumprimento. Essa atribuição é denominada:",
+      alternativas: [
+        "Legalidade Administrativa",
+        "Descentralização Institucional",
+        "Hierarquia Funcional",
+        "Eficiência Operacional",
+        "Autoexecutoriedade"
+      ], resposta_correta: 4 },
+  { id: "q780", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Assinale a alternativa que apresenta uma assertiva correta com relação à ética no serviço público.",
+      alternativas: [
+        "O equilíbrio entre a legalidade e a moralidade na conduta do servidor público é que poderá estabelecer a finalidade do ato administrativo.",
+        "Os fatos e atos verificados na conduta diária da vida privada do servidor público não podem acrescer ou diminuir o seu bom conceito na vida funcional.",
+        "Os atos, comportamentos e atitudes do servidor público serão direcionados para a preservação da honra e da tradição dos serviços públicos.",
+        "O servidor público demonstra integridade do seu caráter ao escolher, diante de duas opções, a mais vantajosa para si e para o bem comum."
+      ], resposta_correta: 2 },
+  { id: "q781", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Um servidor público que se utiliza de recurso público para realizar propaganda pessoal fere os princípios da",
+      alternativas: [
+        "moralidade, da publicidade e da legalidade.",
+        "legalidade, da moralidade e da impessoalidade.",
+        "impessoalidade, da publicidade e da eficiência.",
+        "eficiência, da moralidade e da impessoalidade."
+      ], resposta_correta: 1 },
+  { id: "q782", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "A atividade administrativa pode ser prestada de forma centralizada, descentralizada, concentrada e desconcentrada. Com relação à descentralização, pode-se afirmar que a função administrativa é exercida",
+      alternativas: [
+        "no âmbito interno de cada entidade estatal, política ou administrativa, porém por mais de um órgão público, que divide competências.",
+        "nos âmbitos interno e externo de cada entidade estatal, por duas pessoas jurídicas distintas, porém com limitada divisão de competências.",
+        "diretamente pela própria entidade estatal, ou seja, União, Estados, Distrito Federal e Municípios, por meio de seus vários órgãos e agentes públicos.",
+        "pela entidade estatal, de forma indireta, por meio de entidades administrativas criadas para esse fim específico e que integrarão a administração pública indireta."
+      ], resposta_correta: 3 },
+  { id: "q783", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "As autarquias integram a Administração Indireta. Uma de suas características é",
+      alternativas: [
+        "executar atividades típicas do Estado ou de prestação de serviços públicos, com o objetivo de beneficiar a sociedade como um todo.",
+        "depender dos recursos ou de aprovação pública para exercer suas atividades, desde que permaneça dentro dos limites da lei.",
+        "deter capital exclusivamente público, para realizar atividades econômicas ou serviços públicos de interesse, nos moldes da iniciativa particular.",
+        "possuir personalidade jurídica de direito público, para a realização de atividades típicas do poder público que requeiram uma gestão administrativa centralizada."
+      ], resposta_correta: 0 },
+  { id: "q784", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Na estrutura da administração pública, observam-se diferenças entre cargo público, emprego público e função pública. Assim, pode-se afirmar que",
+      alternativas: [
+        "a investidura em cargo ou emprego público depende de aprovação prévia em concurso público e está sujeita ao vínculo regido pela Consolidação das Leis Trabalhistas (CLT).",
+        "o cargo público é ocupado tanto na Administração Direta como na Indireta autárquica e fundacional, enquanto o emprego público e a função pública ocorrem na Administração Indireta.",
+        "as funções públicas de confiança exercidas exclusivamente por servidores ocupantes de cargo efetivo destinam-se ao exercício das atribuições de direção, chefia e assessoramento.",
+        "é prerrogativa exclusiva dos brasileiros natos ou estrangeiros residentes há mais de 5 (cinco) anos no país o acesso aos cargos temporários e funções públicas."
+      ], resposta_correta: 2 },
+  { id: "q785", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Com relação ao indivíduo contratado no serviço público para um cargo em comissão, é correto afirmar que",
+      alternativas: [
+        "é investido em cargo público por meio de eleição ou designação. Não se sujeita ao processo administrativo disciplinar dos servidores estatutários, nem possui regime próprio de responsabilização.",
+        "a contratação é por tempo determinado para atender à necessidade de excepcional interesse público. O regime imposto é contratual, sem vínculo com cargo ou emprego público.",
+        "a admissão ocorre por meio de processo seletivo simplificado. Tal procedimento decorre pela falta de tempo hábil para o preenchimento da vaga, via as etapas de seleção por concurso público.",
+        "ocupa uma posição de livre nomeação, isto é, não precisa ser aprovado em um concurso público. Não lhe é garantido o direito de estabilidade, podendo ser dispensado sem justificativa."
+      ], resposta_correta: 3 },
+  { id: "q786", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Os serviços públicos classificados como uti universi ou gerais são aqueles",
+      alternativas: [
+        "custeados por meio de taxas ou tarifas.",
+        "normalmente remunerados por impostos.",
+        "possíveis de mensuração, individualmente, pelo uso do serviço.",
+        "rentáveis e se referem às atividades de exploração econômica."
+      ], resposta_correta: 1 },
+  { id: "q787", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "A espécie de contrato administrativo utilizado sempre que o Poder Público opte por promover a prestação indireta de serviço público mediante delegação a uma pessoa jurídica de direito privado configura o contrato de",
+      alternativas: [
+        "outorga de serviço público.",
+        "concessão de serviço público.",
+        "permissão de serviço público.",
+        "exploração de serviço público."
+      ], resposta_correta: 1 },
+  { id: "q788", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "De acordo com a Lei nº 14.133/21, considerando-se as modalidades de licitação, assinale a alternativa correta.",
+      alternativas: [
+        "Quando o objeto licitado possuir padrões de desempenho e qualidade que possam ser objetivamente definidos pelo edital, por meio de especificações usuais de mercado, adota-se a modalidade pregão.",
+        "O leilão exigirá registro cadastral prévio, quando da fase de habilitação, e deverá ser homologado assim que concluída a fase de lances, sendo efetivado o pagamento pelo licitante vencedor, na forma definida no edital.",
+        "A concorrência é a modalidade entre quaisquer interessados que, na fase de classificação, comprovem os requisitos mínimos de qualificação exigidos no edital para execução do objeto licitado.",
+        "Por se tratar de um tipo de licitação que visa à contratação de serviços ou à compra de produtos técnicos, na modalidade diálogo competitivo, o vencedor é aquele que oferecer o menor preço ou o maior desconto."
+      ], resposta_correta: 0 },
+  { id: "q789", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Uma das hipóteses de inexigibilidade de licitação previstas na Lei nº 14.133/2021 se refere à",
+      alternativas: [
+        "contratação de profissional do setor artístico, exclusivamente por um servidor autorizado, desde que consagrado pela crítica especializada ou pela opinião pública.",
+        "aquisição de bens ou peças, de origem nacional ou estrangeira, para a manutenção de equipamentos, adquiridas do fornecedor original desses equipamentos durante o período de garantia técnica.",
+        "aquisição de materiais, de equipamentos ou de gêneros ou contratação de serviços que só possam ser fornecidos por produtor, empresa ou representante comercial exclusivos.",
+        "contratação de serviços técnicos especializados de natureza predominantemente intelectual, serviços de publicidade e de divulgação, com profissionais ou empresas de notória especialização."
+      ], resposta_correta: 2 },
+  { id: "q790", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Lins/SP — Agente Administrativo — 2024",
+      enunciado: "Com base na Lei de Improbidade Administrativa, assinale a alternativa correta.",
+      alternativas: [
+        "Receber vantagem econômica, direta ou indireta, para facilitar alienação, permuta ou locação de bem público por preço inferior ao valor de mercado constitui ato que causa prejuízo ao erário.",
+        "O exercício da função ou desempenho de competências públicas, sem comprovação de ato doloso com fim ilícito, não afasta a responsabilidade por ato de improbidade administrativa.",
+        "A autoridade judicial competente poderá determinar o afastamento do agente público do exercício do cargo, do emprego ou da função, com prejuízo da remuneração, quando a medida for necessária à instrução processual.",
+        "O sucessor ou o herdeiro daquele que causar dano ao erário ou que se enriquecer ilicitamente estão sujeitos somente à obrigação de repará-lo até o limite do valor da herança ou do patrimônio transferido."
+      ], resposta_correta: 3 },
+  { id: "q791", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Determinada prefeitura municipal publicou nova norma a respeito do licenciamento para obras e zoneamento urbano, reduzindo a altura das construções edilícias. Com relação aos prédios que obtiveram licenciamento e foram construídos antes da nova norma, trata-se de:",
+      alternativas: [
+        "ato jurídico perfeito.",
+        "ato passível de revogação.",
+        "direito adquirido.",
+        "coisa julgada.",
+        "direito consuetudinário."
+      ], resposta_correta: 0 },
+  { id: "q792", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Como forma de homenagear um professor, hoje aposentado, que prestou grandes serviços a uma universidade pública federal, cuja sede encontra-se em um município brasileiro, determinado grupo de alunos, professores e funcionários aventou a possibilidade de atribuir a uma das bibliotecas da universidade o nome desse professor ilustre, o que viola o princípio da Administração Pública da",
+      alternativas: [
+        "eficiência.",
+        "impessoalidade.",
+        "publicidade.",
+        "autotutela.",
+        "segurança jurídica."
+      ], resposta_correta: 1 },
+  { id: "q793", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Um servidor público deve pautar a sua atuação observando também os princípios constitucionais da Administração Pública, sendo correto afirmar que",
+      alternativas: [
+        "o princípio da legalidade antecede e prevalece sobre os demais princípios constitucionais, sendo hierarquicamente superior.",
+        "os princípios constitucionais explícitos foram inseridos, pela primeira vez, na Constituição Federal brasileira de 1988.",
+        "o princípio da moralidade está estritamente atrelado ao princípio da ilegalidade, ou seja, um ato só é imoral caso ele seja ilegal também.",
+        "a publicidade dos atos dos órgãos públicos pode vir acompanhada de nomes e imagens dos servidores públicos como forma de reconhecimento e promoção pessoal.",
+        "a vontade e o interesse do agente público não podem ser confundidos com a vontade do órgão público a que ele faz parte."
+      ], resposta_correta: 4 },
+  { id: "q794", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Sobre a organização da administração da Administração Pública brasileira, é correto afirmar que",
+      alternativas: [
+        "órgãos da administração direta são criados por meio de descentralização.",
+        "empresas públicas e sociedades de economia mista são conhecidas também como empresas estatais.",
+        "administração direta e indireta possuem personalidade jurídica própria.",
+        "consórcios públicos pertencem à administração direta.",
+        "entidades paraestatais são uma das espécies da administração indireta."
+      ], resposta_correta: 1 },
+  { id: "q795", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Determinada prefeitura optou por criar uma sociedade de economia mista, na qual o governo municipal é o acionista majoritário, tendo por objetivo o estudo e a solução do problema da habitação popular daquela localidade. Com isso, tem-se um exemplo de",
+      alternativas: [
+        "centralização de serviço público.",
+        "desconcentração de serviço público.",
+        "descentralização por outorga.",
+        "concentração de serviço público.",
+        "descentralização por delegação."
+      ], resposta_correta: 2 },
+  { id: "q796", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Como forma de promover a conservação e recuperação da natureza da região, um ente municipal criou uma fundação pública. As fundações públicas possuem como uma de suas características",
+      alternativas: [
+        "a isenção à submissão ao regramento geral de licitações e contratos.",
+        "a atribuição de personalidade jurídica apenas de direito público.",
+        "o exercício de atividade econômica de interesse do Estado.",
+        "a tutela administrativa pela administração direta.",
+        "a possibilidade de qualificação como agências reguladoras, mas não como agências executivas."
+      ], resposta_correta: 3 },
+  { id: "q797", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "A Unidade Central de Gestão de Pessoas de uma prefeitura designa a um grupo de funcionários o estudo normativo sobre as relações de trabalho no setor público, e esse grupo considerou corretamente que",
+      alternativas: [
+        "criação e extinção de cargos públicos, como regra, independem de lei.",
+        "mudança de padrão, sem mudança de classe, leva o servidor ocupante de cargo efetivo à promoção.",
+        "funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo.",
+        "servidores públicos adquirem vitaliciedade após aprovação no estágio probatório, bastando, para isso, serem concursados.",
+        "servidor de cargo de nível médio, após atingir o topo da carreira, poderá ser promovido a cargo de nível superior."
+      ], resposta_correta: 2 },
+  { id: "q798", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Assinale a alternativa correta relativa aos cargos, empregos e funções públicas.",
+      alternativas: [
+        "Cargo público é regido pelo regime celetista.",
+        "Cargos em comissão são providos apenas para pessoas externas à Administração Pública.",
+        "Função temporária dá estabilidade ao servidor após três anos de efetivo exercício.",
+        "Emprego público é regido pelo regime estatutário.",
+        "Função pública compreende função de confiança e função temporária."
+      ], resposta_correta: 4 },
+  { id: "q799", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Sobre as formas de ingresso e saída da Administração Pública, é correto afirmar que",
+      alternativas: [
+        "funções de confiança são de livre nomeação e exoneração.",
+        "servidor público que adquire estabilidade após período determinado constitucionalmente não pode perder o cargo.",
+        "cargos comissionados, destinados apenas às atribuições de direção, chefia e assessoramento, não admitem processo de seleção.",
+        "ocupante de cargo público de provimento efetivo é passível de exoneração ad nutum.",
+        "concurso público é obrigatório para atender a necessidade temporária de excepcional interesse público."
+      ], resposta_correta: 0 },
+  { id: "q800", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Os servidores públicos do departamento de compras de uma prefeitura estão preparando um pregão para adquirir bens comuns, que são aqueles cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital, por meio de especificações usuais no mercado. É correto afirmar sobre o pregão que",
+      alternativas: [
+        "a definição do objeto deve ser precisa, suficiente e clara, de modo a limitar a competição entre os interessados.",
+        "as aquisições de bens comuns, quando efetuadas pelo sistema de registro de preços, podem utilizar a modalidade de pregão.",
+        "o pregão presencial deve ser preferível ao pregão eletrônico para evitar fraudes e, assim, garantir a lisura do processo licitatório.",
+        "a equipe de apoio deve ser integrada, em sua maioria, por servidores ocupantes de cargos comissionados e funções de confiança.",
+        "a fase interna do pregão é iniciada com a convocação de todos os interessados."
+      ], resposta_correta: 1 },
+  { id: "q801", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Conforme trecho de matéria sobre elevação de multa para empresas concessionárias ou permissionárias de energia elétrica que mantiverem fios e cabos inutilizados em postes, o poder público pode prestar serviços públicos sob diferentes formas, sendo duas delas por meio de concessão e permissão. Corresponde a uma característica do regime de permissão",
+      alternativas: [
+        "prescindibilidade de licitação, como regra, para a delegação do serviço público do Estado para o permissionário.",
+        "assunção da titularidade do serviço público, antes pertencente à pessoa política.",
+        "possibilidade de execução de obra apenas por pessoa jurídica ou consórcio de empresas que demonstre capacidade para seu desempenho.",
+        "delegação do serviço público, do Estado para o permissionário, a título precário.",
+        "delegação do serviço público formalizada entre Estado e permissionário por meio de ato administrativo."
+      ], resposta_correta: 3 },
+  { id: "q802", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "É um exemplo de serviço público uti singuli",
+      alternativas: [
+        "limpeza urbana.",
+        "iluminação pública.",
+        "fornecimento de água.",
+        "defesa nacional.",
+        "segurança pública."
+      ], resposta_correta: 2 },
+  { id: "q803", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "O leilão é uma modalidade de licitação para alienação de bens imóveis ou de bens móveis inservíveis ou legalmente apreendidos e ocorre por meio do tipo de licitação (ou critério de julgamento)",
+      alternativas: [
+        "melhor técnica.",
+        "menor preço.",
+        "técnica e preço.",
+        "maior retorno econômico.",
+        "maior lance."
+      ], resposta_correta: 4 },
+  { id: "q804", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Nos processos de licitação, é permitido",
+      alternativas: [
+        "fracionar a despesa para efetuar contratação direta, isto é, por dispensa ou inexigibilidade.",
+        "parcelar o objeto quando for tecnicamente viável e economicamente vantajoso.",
+        "indicar independentemente de justificativa a marca do bem a ser adquirido.",
+        "tratar de forma diferenciada e simplificada as empresas de pequeno e médio porte.",
+        "utilizar o Sistema de Registro de Preços, que, como regra, obriga a Administração a contratar."
+      ], resposta_correta: 1 },
+  { id: "q805", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — Prefeitura de Campinas/SP — Agente Administrativo — 2023",
+      enunciado: "Coaduna-se com uma conduta ética no serviço público",
+      alternativas: [
+        "omitir da autoridade superior irregularidade de que tiver ciência em razão do cargo.",
+        "utilizar veículo da repartição, se houver expressa autorização da chefia imediata, para uso particular.",
+        "obedecer às ordens superiores ainda que manifestadamente ilegais.",
+        "criticar autoridade, do ponto de vista doutrinário ou de organização do serviço, em trabalho assinado.",
+        "promover manifestação de apreço por algum colega de trabalho."
+      ], resposta_correta: 3 },
+  { id: "q825", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "A respeito dos Servidores Públicos, assinale a alternativa que está de acordo com o expresso na Constituição Federal.",
+      alternativas: [
+        "Admite-se em situações excepcionais a incorporação de vantagens de caráter temporário ao exercício de função de confiança à remuneração do cargo efetivo.",
+        "A fixação dos padrões de vencimento do sistema remuneratório observará, entre outras coisas, o grau de dificuldade exigido no concurso público.",
+        "A União, os Estados e os Municípios manterão escolas de governo para a formação e o aperfeiçoamento dos servidores públicos.",
+        "Os Poderes Executivo, Legislativo e Judiciário publicarão mensalmente os valores do subsídio e da remuneração dos cargos e empregos públicos.",
+        "Os Secretários Estaduais e Municipais serão remunerados exclusivamente por subsídio fixado em parcela única, vedado o acréscimo de qualquer gratificação."
+      ], resposta_correta: 2 },
+  { id: "q826", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que Josué é servidor público titular de cargo efetivo no âmbito do Município ABC e há um ano ele teve um Acidente Vascular Cerebral que o deixou com sequelas neurológicas, mas não o incapacitou para todo o tipo de trabalho. Josué ocupava cargo de nível superior, mas atualmente não possui mais capacidade mental para exercer suas atribuições originárias. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Josué",
+      alternativas: [
+        "poderá ser readaptado para cargo cujas atribuições e responsabilidades sejam compatíveis com suas limitações mentais, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, mantida a remuneração do cargo de origem.",
+        "poderá ser reintegrado para cargo compatível com suas limitações mentais, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, auferindo a remuneração do cargo atual.",
+        "não poderá ser readaptado para um cargo diferente, uma vez que, ao ser aprovado em um concurso público, é vedada a mudança de cargo.",
+        "não poderá ser reintegrado a um cargo diverso, sob pena de ofensa ao princípio constitucional do concurso público.",
+        "poderá ser readaptado para cargo cujas atribuições e responsabilidades sejam compatíveis com suas limitações mentais, desde que possua a habilitação e o nível de escolaridade exigidos para o cargo de destino, auferindo a remuneração do novo cargo."
+      ], resposta_correta: 0 },
+  { id: "q827", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "De acordo com o expresso na Constituição Federal, as Turmas Recursais",
+      alternativas: [
+        "são órgãos autárquicos do Poder Judiciário.",
+        "não são órgãos do Poder Judiciário.",
+        "são órgãos autônomos do Poder Judiciário.",
+        "subordinam-se ao Conselho Nacional de Justiça e têm jurisdição em todo o território nacional.",
+        "vinculam-se diretamente ao Tribunal de Justiça respectivo e têm jurisdição em todo o território nacional."
+      ], resposta_correta: 1 },
+  { id: "q828", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que João é servidor público vinculado ao Tribunal de Justiça de São Paulo e praticou conduta considerada como abuso de poder e que também é definida em lei como de improbidade, durante o horário de expediente forense e nas dependências de uma Vara Cível. Maria é advogada e presenciou a cena em que o ilícito foi cometido. Diante da situação hipotética e com base na Lei nº 10.261/68, é correto afirmar que",
+      alternativas: [
+        "João deverá ser suspenso por prazo não superior a 90 dias e ser-lhe-á facultado ser representado por advogado no processo disciplinar.",
+        "a Maria é assegurado, por ser advogada, o direito de representar contra a ilegalidade, e a pena aplicável ao caso se sujeita ao prazo de prescrição de 2 anos.",
+        "caso o ato tenha sido presenciado por outro servidor público, a este é conferida a faculdade de representar ao seu superior hierárquico, no prazo de 15 dias.",
+        "caso seja aplicada pena disciplinar de suspensão, João terá o prazo de 15 dias para interpor recurso.",
+        "Maria, como qualquer pessoa, poderá representar João, e a ele deverá ser aplicada a pena de demissão a bem do serviço público."
+      ], resposta_correta: 4 },
+  { id: "q829", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "A respeito da extinção da punibilidade da pena disciplinar pela prescrição, com base na Lei nº 10.261/68, assinale a alternativa correta.",
+      alternativas: [
+        "O lapso prescricional corresponde, na hipótese de desclassificação, ao da pena efetivamente aplicada.",
+        "É causa de suspensão do prazo prescricional a expedição da portaria que instaura processo disciplinar.",
+        "A extinção da punibilidade pela prescrição não autoriza a autoridade julgadora a determinar o registro do fato nos assentamentos individuais do servidor.",
+        "A prescrição começa a correr, nas faltas continuadas ou permanentes, do dia em que tenha se iniciado a continuação ou permanência.",
+        "A prescrição é interrompida durante o prazo estabelecido para o cumprimento do Termo de Ajustamento de Conduta."
+      ], resposta_correta: 0 },
+  { id: "q830", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que Isaías é servidor público e teve contra si aplicada pena disciplinar. Inconformado com a decisão, decide interpor recurso. Com base na situação hipotética e no disposto na Lei nº 10.261/68, é correto afirmar que",
+      alternativas: [
+        "o recurso terá efeito suspensivo e, na sua elaboração, o recorrente deverá indicar, além do seu nome e qualificação, a exposição das razões de seu inconformismo.",
+        "o recurso deverá ser interposto no prazo de 20 dias, a contar da publicação da decisão impugnada no Diário Oficial do Estado.",
+        "o recurso deverá ser apresentado à autoridade que deverá julgá-lo, salvo se Isaías desejar que a autoridade que aplicou a pena exerça um juízo de retratação.",
+        "o recurso será apreciado, ainda que incorretamente denominado ou endereçado à autoridade incompetente.",
+        "na hipótese de a decisão recorrida ser mantida pela autoridade que julgou o recurso, Isaías poderá, a qualquer tempo, apresentar pedido de reconsideração, caso surjam fatos ou circunstâncias ainda não apreciados no processo."
+      ], resposta_correta: 3 },
+  { id: "q831", tema: "Direito Administrativo", dificuldade: "facil", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "De acordo com a Lei nº 10.261/68, o processo disciplinar será concluído, em regra, no prazo de até",
+      alternativas: [
+        "60 dias.",
+        "90 dias.",
+        "180 dias.",
+        "30 dias.",
+        "120 dias."
+      ], resposta_correta: 1 },
+  { id: "q832", tema: "Direito Administrativo", dificuldade: "media", fonte: "VUNESP — TJ-SP Escrevente Técnico Judiciário (2ª, 3ª, 4ª, 44ª, 45ª e 52ª Circunscrições) — 2023 — Versão 1 (gabarito oficial publicado no DJE-SP de 05/07/2023)",
+      enunciado: "Considere que José é agente público recém-empossado no Estado de São Paulo e está desenvolvendo um projeto de pesquisa sobre justiça restaurativa no âmbito administrativo. Durante as suas investigações descobriu que a Lei nº 10.261/68 possui um longo regramento sobre Práticas Autocompositivas, Termo de Ajustamento de Conduta e Suspensão Condicional da Sindicância, o que o motiva a procurar o setor responsável pela implantação da prática da Lei. Com base na situação hipotética, um servidor público desse Setor poderá informar, de forma correta, a José que",
+      alternativas: [
+        "o Termo de Ajustamento de Conduta não poderá ser adotado nos casos de extravio ou dano a bem público praticado de forma culposa por servidor público.",
+        "as sessões de práticas autocompositivas serão conduzidas por um Procurador do Estado e realizadas em ambiente que assegure a publicidade do processo e a indisponibilidade do interesse público.",
+        "a celebração de acordo em sessão autocompositiva ensejará a extinção de punibilidade caso a conduta do funcionário não gere prejuízo ao erário e sejam cabíveis, em tese, as penas de repreensão, suspensão e multa.",
+        "a autoridade competente para apuração da irregularidade e o Procurador responsável pela condução do processo poderão, em qualquer fase, encaminhar o caso para as práticas autocompositivas, o que importará na suspensão do processo disciplinar e na suspensão do prazo prescricional.",
+        "o cumprimento das condições de Termo de Ajustamento de Conduta importará na minoração da pena disciplinar aplicável, e o prazo para o cumprimento de suas condições não poderá ser inferior a 2 anos."
+      ], resposta_correta: 2 },
 ];
+
