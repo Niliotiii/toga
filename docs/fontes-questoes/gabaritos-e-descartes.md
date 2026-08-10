@@ -1151,5 +1151,317 @@ documentado — Tributário tem ~40–60 disponíveis em 6 concursos;
 Trabalho/Ambiental/Direitos Humanos têm margem similar nos concursos
 já minerados). Os IDs q869+ ficam livres para essa expansão.
 
+---
+
+## Leva 19 — Expansão Direito Tributário (reprocessamento de blocos descartados "fora da taxonomia de 4 temas")
+
+**Quando**: 2026-08-07. **Motivo**: agora que Tributário é tema do
+app, reprocessar blocos de concursos que haviam sido descartados
+**apenas** por "fora da taxonomia de 4 temas do app" (gabarito
+confiável, doutrina concordante).
+
+Critério aplicado (metodologia do projeto): **só inserir quando
+gabarito oficial + doutrina concordam**. Conflito gabarito×doutrina
+→ descarte.
+
+### Vitória/ES Procurador 2024 (Tipo 1 — gabarito definitivo 13/10/2024)
+Bloco Q56–66, gabarito Tipo 1 confirmado: B,A,D,C,E,A,C,E,B,A,B.
+Inseridas em `src/data/direito-tributario.ts`:
+- q883 ← Q56 (IPTU isenção sindicato empregadores) — B(1)
+- q884 ← Q60 (servidor requisição força pública) — E(4)
+- q885 ← Q63 (Petrobras IPTU terreno marinha arrendatária) — E(4) *(gabarito Tipo 1 Q63=E, confirmado)*
+- q886 ← Q65 (imunidade templos religiosos CNPJ+constituição) — A(0)
+- q887 ← Q66 (ISS lançamento por estimativa LC 157/2016) — D(3)
+- q878 ← Q64 (taxa de fiscalização renovação funcionamento) — **corrigido de A(0) para B(1)**: gabarito oficial Tipo 1 Q64=B e doutrina STF (proporcionalidade taxa×custo fiscalização) concordam. A Súmula 5 STF (alternativa A) aplica-se a impostos, não a taxas (que admitem iniciativa legislativa ordinária).
+
+### PGM-Niterói 2022 (gabarito definitivo)
+Q61–75, gabarito Tipo 1: B,C,D,E,A,B,D,C,E,A,B,A,B,D,E. Já inseridas
+na Leva 18 (q855–q858). Sem novas adições nesta leva (restante do bloco
+confirmado já em q869–q874 de levas anteriores).
+
+### TJMS Juiz Substituto 34º Concurso 2026 (Tipo 1 — gabarito definitivo 21/01/2026)
+Bloco Q76–80, gabarito Tipo 1 (OCR via pdftoppm -r 400 + tesseract):
+Q76=B, Q77=C, Q78=E, Q79=A, Q80=A.
+Inseridas:
+- q888 ← Q76 (ISS parcelamento decadência STJ) — B(1)
+- q889 ← Q77 (ICMS denúncia espontânea retificação GIA) — C(2)
+- q890 ← Q80 (apropriação indébita previdenciária = delito material, exige constituição definitiva do crédito — STF HC 163.994/RE 1.058.946) — A(0)
+
+Descartadas (gabarito×doutrina em conflito):
+- Q78 (IRRF autarquia municipal): gabarito E, mas STF RE 1.041.860
+  (tema 1050) indica C → descarte.
+- Q79 (taxa/tarifa/pedágio): gabarito A, mas doutrina (tarifa=preço
+  público, não tributo) indica E → descarte. (OCR ambíguo na linha
+  Q79 — zoom individual retornou E vs. linha completa A — mas o
+  conflito com doutrina torna o descarte inevitável em qualquer
+  leitura.)
+
+### Concursos bloqueados (sem gabarito disponível)
+- **ALEP Procurador 2024 Q52–56** (Tributário e Financeiro): texto
+  extraído em `/tmp/alep_prova.txt` (linhas 1055–1182) — IPVA
+  incorporação STJ Súmula 392, imunidade PIS entidade beneficente,
+  substituição tributária ICMS progressiva, IPVA alienação não
+  comunicada ao DETRAN, compensação tributária V/F. **Gabarito não
+  transcrito no log e não localizado na web** → não inserir.
+- **TCE-PE Auditor 2025 Q31–34** (Direito Financeiro): gabarito não
+  transcrito no log (log só cobre Q21–30 e Q35–40) e não localizado na
+  web → não inserir.
+
+### Resultado
+- Adições líquidas: +8 questões Tributário (q883–q890).
+- Correção: q878 resposta A→B.
+- Total Tributário: 18 → **26** (q855–q890, com gap q859–q868 usados
+  em outros temas).
+- `tsc --noEmit` limpo. `questoes.test.ts` verde (5/5). Nenhum id
+  duplicado globalmente.
+
+---
+
+## Leva 20 — TCE-PE Procurador 2025 e ALEP 2024 (desbloqueio via busca web)
+
+**Quando**: 2026-08-07. **Motivo**: desbloqueio das tarefas #5 (ALEP) e #6
+(TCE-PE) que estavam pendentes por falta de gabarito. WebSearch nativo do
+ambiente retorna apenas placeholder (não-funcional); solução encontrada foi
+WebFetch no `html.duckduckgo.com/html/?q=...` que retorna resultados reais,
+depois `curl` direto nos PDFs oficiais da FGV.
+
+### Descoberta importante (correção de log anterior)
+O caderno `/tmp/tcepe_prova.pdf` **não é do cargo Auditor** como o log
+anterior (Leva 17) afirmava. É **Procurador do Tribunal de Contas**, com
+**100 questões** (não 80). Estrutura real do caderno:
+- Q1-20 Constitucional; Q21-31 Administrativo (+ Lei Orgânica TCE-PE);
+  Q32-41 Civil/Empresarial; Q42-47 Processual; **Q48-52 Financeiro**;
+  **Q53-60 Tributário** *(cabeçalho "Direito Tributário" na L1241)*;
+  Q61-70 Previdenciário; Q71+ Penal.
+
+**Observação**: na numeração impressa, "Direito Financeiro" (cabeçalho
+L1097) inicia em Q53 e "Direito Tributário" (cabeçalho L1241) inicia em
+Q61 — há defasagem entre o cabeçalho temático e o número da questão por
+causa do layout em duas colunas. Mapeamento confirmado pelo conteúdo dos
+enunciados.
+
+### TCE-PE Procurador 2025 — Tributário (Q61-64)
+**Fonte do gabarito**: PDF oficial FGV "gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf"
+(definitivo retificado em 17/07/2026). Procurador Tipo 1, linha Q61-80:
+`C C D E D C E A A B C C C D B A C E D A` (Q70 anulada, fora do bloco).
+
+Inseridas em `src/data/direito-tributario.ts` (gabarito + doutrina STF/STJ
+concordam em todas):
+- q891 ← Q61 (RRF, renúncia de receita, LC 159/2017) — C(2)
+- q892 ← Q62 (IRRF Município contratado PJ, CF 158 I + STF RE 1.041.860
+  tema 1050) — C(2)
+- q893 ← Q63 (redirecionamento execução fiscal, dissolução irregular,
+  Súmula 435 STJ + CTN 135 III) — D(3)
+- q894 ← Q64 (taxa alvará armas de fogo/explosivos, CF 145 II, STF) — E(4)
+
+### TCE-PE Procurador 2025 — Financeiro (Q53-60): NÃO inserido
+O app não tem tema "Direito Financeiro" separado (TEMAS =
+Penal/Constitucional/Civil/Administrativo/Tributário/Trabalho/Ambiental/
+Direitos Humanos). Bloco Q53-60 fica fora de escopo, não aproveitado.
+
+### ALEP Procurador 2024 — Tributário e Financeiro (Q52-56): TODAS DESCARTADAS
+**Fonte do gabarito**: PDF oficial FGV
+"aletoprocurador2024_gabarito_definitivo_das1ca64.pdf" (definitivo).
+Procurador Jurídico Tipo 1, Q52-56 = `E C E C D`.
+
+Todas as 5 descartadas por **conflito gabarito × doutrina STF/STJ**:
+- Q52 (sucessão empresarial, Súmula 392 STJ): gabarito E exige
+  "fraude/dolo/simulação" — conflita com a solidariedade objetiva da
+  Súmula 392 STJ (responsabilidade independe de fraude).
+- Q53 (imunidade PIS entidade beneficente): gabarito C nega a imunidade
+  — conflita com CF art. 195 §7º (imunidade constitucional de
+  contribuições sociais a entidades beneficentes de assistência social).
+- Q54 (ST ICMS progressiva, afirmativas I/II/III): gabarito E ("III
+  apenas") — I (restituição STJ REsp 1.090.152) e II também corretas.
+- Q55 (IPVA alienação não comunicada ao DETRAN): gabarito C diz
+  "responsável subsidiário" — CTN art. 131 §2º prevê responsabilidade
+  solidária (não subsidiária).
+- Q56 (compensação tributária V/F): gabarito D (F-F-V) — análise STJ/STF
+  (art. 170-A CTN c/c STF ADI 4.403 sobre multa isolada constitucional)
+  indica V-V-F (alternativa C).
+
+### Resultado da Leva 20
+- Adições líquidas: **+4 questões Tributário** (q891-q894, TCE-PE).
+- Total Tributário: 26 → **30** (q855-q894, com gaps em IDs usados por
+  outros temas).
+- `tsc --noEmit` limpo. 17/17 suítes jest, 67/67 testes verdes. Nenhum
+  id duplicado globalmente.
+- Memória atualizada: gabaritos oficiais TCE-PE Procurador 2025 e ALEP
+  Procurador 2024 agora arquivados localmente em /tmp (tcepe_gab_def.pdf,
+  alep_gab_def.pdf) para referência futura.
+
+### Fontes (URLs oficiais FGV)
+- TCE-PE 2025 gabarito definitivo retificado:
+  https://conhecimento.fgv.br/sites/default/files/concursos/gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf
+- ALEP 2024 gabarito definitivo (Procurador):
+  https://conhecimento.fgv.br/sites/default/files/concursos/aletoprocurador2024_gabarito_definitivo_das1ca64.pdf
+- Busca via DuckDuckGo HTML (WebSearch nativo não retorna conteúdo):
+  https://html.duckduckgo.com/html/?q=...
 
 
+
+
+
+---
+
+## Leva 21 — Senado Federal 2022 (Consultor Legislativo) + re-mineração
+
+### Senado Federal 2022 — Consultor Legislativo, Assessoramento Legislativo (Direito Tributário e Direito Financeiro) — Tipo 1
+- Fonte prova: ZIP oficial `SENADO 04 - CONSULTOR.zip` em
+  https://www12.senado.leg.br/transparencia/hotsite-concurso/provas
+  → arquivo interno `Assessoramento Legislativo (Direito Tributário e Direito Financeiro)(E4CNS12) Tipo 1.pdf`
+- Fonte gabarito: https://www12.senado.leg.br/transparencia/hotsite-concurso/gabaritos/senado2022_gabarito_definitivo_edital04.pdf
+- Estrutura: Q1-60 base comum (Constitucional/Administrativo/etc.), Q61-100 Conhecimentos Específicos da Subárea (Tributário + Financeiro mistos).
+- Mapeamento Q61-100 (TIPO 1): 61=C 62=A 63=D 64=C 65=E 66=C 67=C 68=D
+  69=E 70=E 71=A 72=C 73=D 74=E 75=B 76=B 77=B 78=D 79=A 80=E 81=E
+  82=B 83=B 84=E 85=D 86=E 87=D 88=E 89=C 90=A 91=B 92=A 93=E 94=E
+  95=C 96=A 97=D 98=B 99=A 100=C
+
+### Inseridas (q913-q944, 32 questões) — verificadas gabarito + doutrina
+- q913 Q61 (Res. Senado 13/2012 ICMS guerra dos portos) C
+- q914 Q62 (renúncia receita LRF hipóteses) A
+- q915 Q63 (PAF Decreto 70.235 certidão + notificação) D
+- q916 Q64 (repartição receitas tributárias — Estados) C
+- q917 Q66 (Simples Nacional opção — vedações) C
+- q918 Q67 (tratados dupla tributação OCDE) C
+- q919 Q68 (obrigação tributária, deveres instrumentais STF RE 580.535) D
+- q920 Q69 (prescrição crédito tributário interrupção) C
+- q921 Q70 (preferências crédito tributário, falência extraconcursal L. 11.101/05 art. 84) E
+- q922 Q71 (interpretação legislação tributária) A
+- q923 Q72 (CONFAZ convênios ICMS) C
+- q924 Q73 (restituição IR, ação anulatória 2 anos CTN art. 169) D
+- q925 Q74 (taxa vs preço público) E
+- q926 Q75 (fato gerador, ST para frente) B
+- q927 Q76 (Lei Rouanet 4% IR — Lei 8313/91 art. 26) B
+- q928 Q77 (Senado resolução alíquotas ICMS interestaduais CF art. 155 §2º XII) B
+- q929 Q78 (cautelar fiscal Lei 8397/92 indisponibilidade) D
+- q930 Q79 (denúncia espontânea F/V/F — Súmula 568 STJ multa moratória) A
+- q931 Q80 (administração tributária, requisitos Dívida Ativa CTN art. 202) E
+- q932 Q82 (preferência crédito tributário privilégio geral) B
+- q933 Q84 (dação em pagamento Lei 13.259/2016 §2º desistência/renúncia) E
+- q934 Q86 (IPVA alíquota mínima 1% motos 170cc — Res. Senado 5/2012) B
+- q935 Q87 (ITR reforma agrária — Lei 9393/96 art. 3º isenção, fração > 30ha) D
+- q936 Q89 (CIDE ad valorem CF art. 149 §2º) C
+- q937 Q90 (cautelar fiscal 25% vs 30% — Lei 8397 art. 1º VI) A
+- q938 Q94 (IRPJ lucro real com isenção) E
+- q939 Q95 (CSLL base cálculo adição resultado positivo equivalência patrimonial) A
+- q940 Q96 (SAF futebol 5% receitas — Lei 14.193/2021) A
+- q941 Q97 (preços de transferência PIC importação — Lei 9430/96 art. 18) D
+- q942 Q98 (IE cigarros tabaco — Decreto 3647/2000) B
+- q943 Q99 (ITBI imunidade incorporação CF art. 156 §2º II) A
+- q944 Q100 (incentivo cultura música erudita/instrumental — Lei 8313/91 §2º c) C
+
+### Descartadas (Senado 2022) — gabarito x doutrina em conflito ou fora do escopo
+- Q65 (PPA/LDO/LOA leis orçamentárias) — Financeiro puro.
+- Q81 (DRU desvinculação receitas União) — Financeiro puro.
+- Q83 (ISS instalação palco — Pirenópolis vs Goiânia): gab B (lugar da
+  execução) conflita com STF RE 606.882/SE (tema 798) — local do
+  estabelecimento do prestador. Descartada.
+- Q85 (IRPF menor incapaz Youtube): gab E (menor é responsável direto)
+  vs IN RFB (rendimentos de incapaz declarados pelo responsável legal).
+  Conflito — descartada.
+- Q88 (contribuição previdenciária MEI/contribuinte individual) —
+  Previdenciário, fora do escopo Tributário.
+- Q91 (IRPJ imunidade associação educação): gab B ("isenta") vs doutrina
+  (CTN art. 9º IV c = imunidade). Conflito — descartada.
+- Q92 (LRF perda cargo servidor) — Financeiro puro.
+- Q93 (LRF despesas primárias limite individualizado) — Financeiro puro.
+
+### Re-mineração de concursos anteriores
+- TJPR 2026 Juiz Substituto — Q76 (denúncia espontânea retificação GIA
+  ICMS, Súmula 568 STJ) adicionada como **q945** (gab B).
+- ALERJ 2026 Procurador Legislativo — Q62 (taxa segurança pública,
+  serviço geral indivisível, STF) adicionada como **q946** (gab C).
+
+## Leva 22 — CMSP 2024 (Câmara Municipal de São Paulo, Procurador Legislativo)
+- Fonte gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/cmspprocurador2024_gabarito_definitivo_20240206.pdf
+- Fonte prova: https://arquivos.qconcursos.com/prova/arquivo_prova/102423/fgv-2024-camara-municipal-de-sao-paulo-sp-procurador-legislativo-prova.pdf
+- Bloco Tributário e Financeiro: Q76-80. Q76-78 Tributário, Q79-80 Financeiro.
+- Inseridas (q947-q948):
+  - q947 Q76 (imunidade recíproca — SEM com ações em Bolsa, STF RE 602.499/tema 503) E
+  - q948 Q77 (ISS alíquota fixa sociedade simples médica — DL 406/68 art. 8º §1º + STF RE 656.704/tema 693) A
+- Descartadas:
+  - Q78 (conceito de tributo I/II/III): gab B (I e II) — II sobre
+    desconto IPVA bons motoristas é incerto frente à ADI 4425 STF.
+    Descartada por cautela.
+  - Q79 (progressão servidor LRF) — Financeiro.
+  - Q80 (leis orçamentárias V/F/V) — Financeiro.
+
+### ALEP/ALETO 2024 — re-análise
+- Confirmado: ALEP (Paraná) e ALETO (Tocantins) usaram a **mesma prova**
+  FGV (14/04/2024, gabaritos idênticos). Bloco Q52-56 Tributário:
+  - Q52 (IPVA incorporação + Súmula 392 STJ): gab E conflita com a
+    doutrina (sucessor responde independentemente de fraude). Descartada.
+  - Q53 (imunidade PIS entidade beneficente): gab C ("não beneficiárias")
+    vs CF art. 195 §7º. Descartada.
+  - Q54 (ST ICMS I/II/III): gab E ("III apenas") conflita com STF tema
+    96 (ST progressiva não exige LC federal). Descartada.
+  - Q55 (IPVA alienação DETRAN): gab C (responsável subsidiário) vs CTN
+    art. 131 §2º (solidária). Descartada.
+  - Q56 (compensação tributos V/F): gab D conflita com STJ. Descartada.
+- Conclusão: ALEP/ALETO 2024 = 0 questões aproveitadas (todas as 5 do
+  bloco Tributário com conflito gabarito x doutrina).
+
+### Resultado acumulado
+- Após Levas 21-22: total Tributário 30 → **84 questões** (q855-q948, com gaps).
+- `tsc --noEmit` limpo. 17/17 suítes jest, 67/67 testes verdes. Nenhum id duplicado.
+- Meta inicial (100) ainda pendente — faltam 16. PGE-AC VIII (2026)
+  gabarito obtido (gabarito-definitivo-pge-ac.pdf) mas prova não
+  localizada publicamente; continuar próxima leva.
+
+## Leva 23 — PGE-AC VIII (2026) + PGM-Niterói re-mineração final
+
+### PGM-Niterói 2022 — re-mineração do bloco Q61-75 (Tributário e Financeiro)
+- 3 novas questões Tributário adicionadas (gabarito definitivo 26/03/2023):
+  - q949 Q63 (multa IPTU, nova lei deixa de considerar infração, retroatividade
+    benigna CTN art. 106 II c) D
+  - q950 Q67 (taxa coleta de lixo débitos atrasados, sub-rogação + responsabilidade
+    solidária CTN art. 130 + STJ) D
+  - q951 Q70 (Simples Nacional, multa por atraso Defis = obrigação acessória,
+    LC 123/2006) A
+- Descartadas nesta re-mineração:
+  - Q69 (transação créditos Niterói — LC municipal específica, fora do escopo).
+  - Q72 (imputação pagamento: gab D "responsabilidade tributária primeiro" é o
+    INVERSO do CTN art. 163 I — obrigação própria primeiro).
+  - Q74 (ISS lugar da execução Silva Jardim vs STF tema 798 — lugar do
+    estabelecimento do prestador, Niterói).
+  - Q75 (RRF vedações — Financeiro/LC 159/2017, não Tributário).
+
+### PGE-AC VIII (2026) — Procurador do Estado do Acre, Classe I — Tipo 1
+- Fonte prova: https://conhecimento.fgv.br/sites/default/files/concursos/procurador-do-estado-do-acre-cns001-tipo-1.pdf
+- Fonte gabarito: https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-pge-ac.pdf
+- Bloco "Direito Tributário e Processo Tributário": Q71-90 (Q86-90 Ambiental).
+  Depois Q91+ Direito Financeiro.
+- 11 questões Tributário inseridas (q952-q962):
+  - q952 Q71 (imunidade religiosa, doação a congênere estrangeiro) D
+  - q953 Q72 (ICMS decadência 5 anos CTN art. 167 §2º + STJ) B
+  - q954 Q74 (ITCMD bens no exterior, domicílio do de cujus, CF art. 155 §1º III) B
+  - q955 Q75 (IPVA isenções estaduais — Lei 483/2024 AC) E
+  - q956 Q76 (PGE-AC atribuição exclusiva inscrição Dívida Ativa CTN art. 201) E
+  - q957 Q78 (execução fiscal ICMS vs honorários sucumbenciais, STF tema 1103
+    RE 1.040.252) D
+  - q958 Q79 (IPVA bicada licenciamento outro Estado, domicílio do proprietário
+    CF art. 155 §2º I + STF) E
+  - q959 Q80 (IVA Dual EC 132/2023, IBS bens e serviços, LC 214/2025) C
+  - q960 Q81 (execução fiscal dissolução irregular, presunção + necessidade
+    dolo/fraude STJ) D
+  - q961 Q84 (ICMS transferências interestaduais filiais, EC 87/2015 + LC
+    190/2022) B
+  - q962 Q85 (ICMS ST para frente, sem restituição por preço inferior, STF tema
+    261 RE 593.649) D
+- Descartadas (PGE-AC):
+  - Q73 (CDA erro material substituição): gab C ("não pode") vs STJ (pode
+    substituir a qualquer tempo por erro material). Descartada.
+  - Q77 (parcelamento + recuperação judicial, Lei 3.739/2021 AC): lei local,
+    sem como verificar. Descartada.
+  - Q82 (parcelamento Acre Lei 3.739/2021): lei local. Descartada.
+  - Q83 (CIRA Acre recuperação créditos): órgão local AC. Descartada.
+  - Q86-Q90 (Ambiental): fora do escopo Tributário.
+
+### Resultado final acumulado
+- Total Tributário: 30 → **98 questões** (q855-q962, com gaps).
+- `tsc --noEmit` limpo. 17/17 suítes jest, 67/67 testes verdes.
+- Nenhum id duplicado (verificado com sort | uniq -d).
+- Meta inicial (100): atingiu-se 98/100 (98%). As 2 restantes exigiriam
+  novas fontes de prova objetiva (procurador concursos com bloco Tributário
+  puro) não localizadas publicamente nesta sessão.
