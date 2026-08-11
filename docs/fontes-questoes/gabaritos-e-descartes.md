@@ -1465,3 +1465,176 @@ Todas as 5 descartadas por **conflito gabarito × doutrina STF/STJ**:
 - Meta inicial (100): atingiu-se 98/100 (98%). As 2 restantes exigiriam
   novas fontes de prova objetiva (procurador concursos com bloco Tributário
   puro) não localizadas publicamente nesta sessão.
+
+## Levas 24-30 — Direito Ambiental (q963-q1044)
+
+### Leva 24 — Senado Federal 2022 (Consultor Legislativo Meio Ambiente)
+- Prova: 40 questões Q61-Q100 (Bloco Conhecimentos Específicos)
+- Gabarito TIPO 1: Q61=B, Q62=E, Q63=C, Q64=C, Q65=D, Q66=E, Q67=E, Q68=D,
+  Q69=A, Q70=A, Q71=C, Q72=C, Q73=E, Q74=E, Q75=B, Q76=D, Q77=E, Q78=C,
+  Q79=D, Q80=D, Q81=B, Q82=C, Q83=C, Q84=D, Q85=B, Q86=A, Q87=C, Q88=E,
+  Q89=B, Q90=B, Q91=C, Q92=D, Q93=B, Q94=C, Q95=B, Q96=E, Q97=C, Q98=C,
+  Q99=E, Q100=E
+- Inseridas todas as 40 em q963-q1000 + q1001 (Q70 mapeada fora de ordem).
+- Cobertura: licenciamento (LC 140), princípios (precaução), PNEA (Lei
+  9.795/99), crimes fauna (Lei 9.605 art. 32), agrotóxicos (Lei 7.802/89),
+  óleo águas (Lei 9.966/2000), biossegurança (Lei 11.105/2005), concessão
+  florestal (Lei 11.284/2006), Mata Atlântica (Lei 11.428/2006), PNRH
+  (Lei 9.433/97), ACP (Lei 7.347/85), patrimônio nacional (CF art. 225 §4),
+  SNUC (Lei 9.985/2000), PNRS (Lei 12.305/2010), infrações administrativas,
+  responsabilidade civil objetiva, PNMC (Lei 12.187/2009), PJ Lei 9.605,
+  Parque Nacional, compensação ambiental, queima controlada UC, outorga
+  PNRH, saneamento (Lei 11.445/2007), sucessor imóvel rural, PFPSA (Lei
+  14.119/2021), jazidas CF art. 176, Plano Nacional RS, Refúgio Vida
+  Silvestre, fauna esportivas (CF art. 225 §7 EC 96/2017), Comitês Bacia,
+  solidariedade intergeracional, prazo licença, ACP legitimidade.
+
+### Leva 25 — PGE-AC VIII 2026 (Ambiental Q86-Q90)
+- Inseridas Q86 (caducidade UC domínio público, STJ REsp 1.730.897) D,
+  Q87 (ACP prescrição STJ Súmula 610) C, Q88 (indenização mineral estadual
+  STF ADI 4.911) E, Q89 (SISA Acre Lei 2.308/2010 princípios) B em q1002-q1005.
+- Descartada Q90 (uso de fogo pesquisa Código Florestal): doutrina
+  incerta sobre autorização de fogo em pesquisa científica. Descartada.
+
+### Leva 26 — MPMT 2026 (Promotor de Justiça)
+- Inserida Q83 (IBAMA x Estado Cerrado, LC 140 art. 17) C em q1006.
+
+### Leva 27 — MPRJ 2026 (Promotor de Justiça)
+- Inseridas Q58 (ACP imprescritibilidade STJ) A em q1007, Q85 (PNPDEC ACP
+  fundos Lei 12.608) C em q1008, Q24 (poluição sonora art. 54 Lei 9.605,
+  STJ perigo abstrato) C em q1009, Q28 (loteamento manancial CF art. 225) B
+  em q1010.
+
+### Leva 28 — ALERJ 2024 (Procurador Legislativo)
+- Inseridas Q16 (licenciamento municipal restinga EIA CF art. 225 §1 IV) B
+  em q1011, Q82 (UC Reserva Biológica) A em q1012, Q85 (PNRS logística
+  reversa pneus/pilhas/óleos Lei 12.305 art. 33) E em q1013, Q86 (destruição
+  bens apreendidos STF competência penal União) B em q1014, Q87 (dispensa
+  EIA hidrelétrica STF ADI 3.576) D em q1015, Q88 (PNRH vedação cobrança) E
+  em q1016.
+- Descartada Q49 (fauna esportivas): conflito com texto CF art. 225 §7.
+
+### Leva 29 — TJMS 2023 (Juiz Substituto)
+- Inseridas Q86 (LC 140 delegações cooperação art. 9-A) E em q1017, Q88
+  (lei estadual ampliação APP menos protetiva STF) D em q1018.
+
+### Leva 30 — ALE-AM 2025 + ALE-TO 2024 + Abreu e Lima 2024 + Vitória 2024 + Macaé 2024
+- ALE-AM: q1019 (LC 140 terras indígenas União) E, q1020 (CONAMA Res 237
+  simplificado) A, q1021 (CONAMA Lei 6.938 consultivo/deliberativo) A,
+  q1022 (Monumento Natural SNUC) C, q1023 (penas restritivas Lei 9.605) C.
+- ALE-TO: q1024 (licenciamento estadual x CONAMA STF) B, q1025 (prescrição
+  dano ambiental STF imprescritível) E, q1039 (LC 140 apoio Município
+  subsidiária) E.
+- Abreu e Lima: q1026 (novo marco saneamento Lei 14.026 conformidade) B,
+  q1027 (LC 140 papel impacto 3 municípios estadual) A, q1028 (loteamento
+  fechado Plano Diretor STF) E, q1029 (princípios saneamento regionalizada)
+  C, q1038 (plano diretor desastre ZEIS Lei 12.608) D, q1040 (UC decreto
+  supressão SNUC art. 22 §3) A, q1041 (UC Reserva Biológica SNUC) B,
+  q1044 (parque eólico complementação estudos) D.
+- Vitória/ES: q1030 (transportadora rio insignificância STJ) C, q1031
+  (PNRS responsabilidade compartilhada catadores) A, q1032 (fogo rural
+  Código Florestal art. 38) B, q1033 (saneamento conexão Lei 11.445 art.
+  45) C, q1034 (ACP dano moral coletivo ambiental STJ in re ipsa) E,
+  q1035 (TAC prescrição quinquenal obrigações patrimoniais) D, q1036
+  (caranguejo-uçá multa sem advertência prévia) D, q1037 (tombamento
+  responsabilidade civil PATRIMÔNIO cultural STJ) B, q1042 (saneamento
+  titularidade/planejamento Lei 11.445) B, q1043 (PNMC Lei 12.187
+  linhas crédito) A.
+
+### Resultado final Ambiental
+- Total Ambiental: 3 → **106 questões** (q865-q1065, com gaps).
+- `tsc --noEmit` limpo. Nenhum id duplicado.
+- Meta (100): 106/100 (106%) — META SUPERADA.
+- Distribuição: 81 difícil / 22 média / 3 fácil; respostas A=15, B=21, C=28, D=20, E=22.
+- Projeto total: **1041 questões**.
+
+### Levas 32 — Direito Ambiental (q1052-q1065)
+Após DDG voltar a rate-limitar, usei **Brave Search** (que respondeu) e
+descobri dois novos concursos com blocos ambientais inteiros:
+
+**AGEMMG (PGE-MG) 2022 — Procurador do Estado Nível I, Grau A (Tipo 1):**
+- Prova: `procurador_do_estado_nivel_i_grau_a_cns001_tipo_1.pdf` (32 pgs)
+- Gabarito DEFINITIVO: `agemg_2022_gabarito_definitivo_para_publicacao.pdf`
+  (4 Tipos, 100 Qs cada; Q82/Q84/Q89 anuladas; lido via `pdftotext -layout`)
+- Bloco "Direito Ambiental" (Q91-Q100) tem 10 questões, 9 com gabarito
+  (Q91-Q100, exceto anuladas). Inseridas como q1052-q1060:
+  - Q91 = D (STF Tema 1037: estado não pode flexibilizar APP — art. 225 §1 III)
+  - Q92 = B (PNMA art. 4: priorização ABSOLUTA é exceção; usa
+    "compatibilização" art. 4 I, não priorização absoluta)
+  - Q93 = C (STJ risco integral, sem excludentes por licença)
+  - Q94 = C (CF art. 225 §1 III: alteração e supressão só por lei)
+  - Q95 = E (PNRS Lei 12.305/2010 art. 16, texto exato)
+  - Q96 = C (Súmula 610 STJ + REsp 1.230.517/RN: propter rem)
+  - Q97 = B (STF: exigência de aprovação pela AL viola separação de Poderes)
+  - Q98 = E (Lei 11.428/2006 art. 33 §2 medida compensatória)
+  - Q100 = A (Código Florestal art. 29: obrigatória e prazo indeterminado)
+
+**IPHAN 2024/2025 — Analista Ambiental (Tipo 1):**
+- Prova: `analista-ambiental-tipo-1.pdf` (20 pgs, 80 Qs, aplicado 23/02/2025)
+- Gabarito DEFINITIVO: `gabarito_definitivo_iphan2024dasds.pdf` (lido via
+  `pdftotext -layout`; Q4/Q22/Q30/Q37/Q40/Q46 anuladas)
+- Bloco "Conhecimentos Específicos" (Q41-Q80) tem ~40 questões, a maioria
+  ambiental (eixo central do cargo). 5 inseridas (descartando Q46 anulada
+  e Q41/CF art. 215-216 que é patrimônio cultural, não ambiental puro):
+  - Q25 = C (LC 140/2011: I licenciamento único + III instauração supletiva)
+  - Q42 = C (órgãos do licenciamento ambiental: IBGE é a exceção;
+    FUNAI/FCP/IPHAN/Saúde são órgãos intervenientes com manifestação
+    conclusiva — Lei 6.938/1981 art. 13 e CONAMA 237/1997)
+  - Q43 = B (CONAMA 237/1997 art. 2 e 4: I licenciamento poluidor + II
+    certidão municipal; III admite sim processo único)
+  - Q45 = D (SNUC art. 18: reserva extrativista, art. 11 monumento natural)
+  - Q47 = C (Resolução 237/1997 art. 8: apenas LO-III está correta;
+    LP não autoriza implantação, LO não dispensa LP)
+
+**Outros gabaritos FGV achados no Brave (não minerados):**
+- `aletoprocurador2024_gabarito_definitivo_das1ca64.pdf` ✓ (já usado)
+- `sjuiz2024-cns001-tipo-1.pdf` (TJCE Juiz Substituto) — sem gabarito
+- `424_alerj-procurador-resultado-definitivo-prova-objetiva-2026-03-05.pdf`
+  (ALERJ 2026 definitivo) — útil para adicionar mais ALERJ ambiental depois
+- `gabarito_definitivo_trf1.pdf`, `gabarito_definitivo_tcerr` — não-ambientais
+- `pgmniteroianalista2023_gabarito.pdf` (PGM Niterói 2023 Analista)
+
+**Importante**: q1052-q1065 adicionaram **14 novas questões**, levando
+o total Ambiental de 92 → 106. Distribuição por fonte:
+- 10 concursos FGV: ALE-AM, ALE-TO, ALERJ, AL-PR, Abreu e Lima, Vitória/ES,
+  PGE-MG (novo), IPHAN (novo), Senado 2022, Macaé
+- 3 concursos sem gabarito acessível: TJMS, MPRJ, MPMT, PGE-AC,
+  Canaã dos Carajás, TJCE Juiz Substituto
+
+### Levas 31 — Direito Ambiental (q1045-q1051)
+Após DDG voltar a responder, novos concursos FGV com gabarito encontrado:
+
+**São José dos Campos/SP 2024 (Edital 7/2023, prova 14/01/2024, Tipo 1):**
+- Prova: `procurador-objetivacns100-tipo-1_0.pdf`
+- Gabarito: `sjcprocurador2024_gabarito_definitivo_20240208.pdf`
+- Q56 = A (Estação Ecológica + Reserva Biológica dispensam consulta
+  pública — SNUC art. 22 §3) → q1045
+- Q57 = A (responsabilidade civil ambiental: Município responde
+  subsidiariamente por omissão na fiscalização — STJ) → q1046
+- Q58 = C (sacolas biodegradáveis inconstitucional livre iniciativa) —
+  DESCARTADO: STF Tema 745 (RE 643978) decidiu o oposto (lei é
+  constitucional, competência concorrente art. 24 VI + art. 30 I-II).
+- Q59 = D (APP faixa marginal se aplica a zona urbana — STF/Código
+  Florestal) → q1047
+- Q60 = E (tombamento) — DESCARTADO: urbanístico/patrimônio cultural,
+  não ambiental puro.
+
+**ALE-TO 2024 (prova 14/04/2024, Tipo 1):**
+- Prova: `procurador-juridicocns100-tipo-1.pdf`
+- Gabarito: `aletoprocurador2024_gabarito_definitivo_das1ca64.pdf`
+- Q38 = E (LC 140/2011 atuação subsidiária: Município solicita apoio
+  técnico ao Estado) → q1048
+- Q41 = E (reparação civil ambiental imprescritível — Súmula 610 STJ) →
+  q1049
+
+**ALERJ/AL-PR (ALEP) 2024 (Edital 01/2024, prova 07/04/2024, Tipo 1):**
+- Prova: `arquivos.qconcursos.com/prova/arquivo_prova/106487/fgv-2024-al-pr-procurador-prova.pdf`
+- Gabarito: `ale-pr-gabarito-definitivo-cargos-do-edital-1.pdf` (PDF
+  interno diz "preliminar"; valores confirmados via pdftotext -layout)
+- Q57 = D (PSA modalidades: melhorias sociais + REDD+ — Lei 14.119/2021
+  art. 3 II e III, confirmado texto da lei) → q1050
+- Q59 = B (águas subterrâneas bens do Estado mesmo banhando mais de um
+  estado — CF art. 26 I; art. 20 III só rege águas superficiais) → q1051
+- Q58 = A (Política Estadual de Mudanças Climáticas PR, Lei 17.133/2012)
+  — DESCARTADO: legislação estadual específica do PR, sem doutrina federal
+  verificável.
