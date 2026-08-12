@@ -955,4 +955,283 @@ export const QUESTOES_DIREITO_AMBIENTAL: Questao[] = [
       "I e II, apenas.",
       "I e III, apenas."
     ], resposta_correta: 2 },
+  { id: "q1066", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "Dentre as categorias de unidade de conservação do grupo de Proteção Integral, previstas na Lei nº 9.985/2000, uma se caracteriza por ter como objetivo básico preservar sítios naturais raros, singulares ou de grande beleza cênica. Para essa categoria, se for possível compatibilizar os objetivos da unidade com a utilização da terra e dos recursos naturais, ela pode ser constituída também por áreas particulares. A visitação pública estará sujeita às condições e restrições estabelecidas no Plano de Manejo da unidade, às normas estabelecidas pelo órgão responsável por sua administração e ao que está previsto em seu regulamento. Nos casos em que exista alguma incompatibilidade entre os objetivos da área e as atividades privadas, ou quando não haja aquiescência do proprietário às condições propostas pelo órgão responsável pela administração da unidade para a coexistência da unidade com o uso da propriedade, a área deverá ser desapropriada. Essa categoria é denominada:",
+    alternativas: [
+      "Área de Proteção Ambiental.",
+      "Parque Nacional.",
+      "Reserva Biológica.",
+      "Monumento Natural.",
+      "Floresta Nacional."
+    ], resposta_correta: 3 },
+  { id: "q1067", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "A logística reversa prevê um conjunto de ações, procedimentos e meios destinados a garantir a coleta e a restituição dos resíduos ao setor empresarial, para reaproveitamento ou destinação ambientalmente adequada, independentemente do serviço público de limpeza. Dentre os produtos que já são obrigados a adotar a logística reversa, encontram-se:",
+    alternativas: [
+      "pneus e estruturas em acrílico.",
+      "óleos lubrificantes e agrotóxicos.",
+      "vigas metálicas e pilhas e baterias.",
+      "modulados plásticos e eletroeletrônicos.",
+      "cerâmica e lâmpadas fluorescentes."
+    ], resposta_correta: 1 },
+  { id: "q1068", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "Em matéria de licenciamento ambiental, a Lei Complementar nº 140/2011 estabelece que:",
+    alternativas: [
+      "a supressão de vegetação decorrente de licenciamentos ambientais é autorizada pelo órgão ambiental municipal, ainda que o licenciamento esteja sendo levado a cabo no âmbito do Estado ou da União.",
+      "no caso de empreendimentos e atividades efetiva ou potencialmente poluidores que, em tese, atinjam dois Estados da Federação, há necessidade de obtenção de licença ambiental pelo órgão competente de ambos os entes federativos e da União.",
+      "para autorização de supressão e manejo de vegetação, e para fins de licenciamento ambiental de atividades ou empreendimentos utilizadores de recursos ambientais, efetiva ou potencialmente poluidores, o critério do ente federativo instituidor da unidade de conservação é aplicado às Áreas de Proteção Ambiental.",
+      "a renovação de licenças ambientais deve ser requerida com antecedência mínima de cento e vinte dias da expiração de seu prazo de validade, fixado na respectiva licença, ficando este automaticamente prorrogado até a manifestação definitiva do órgão ambiental competente.",
+      "os demais entes federativos interessados no processo de licenciamento de determinado empreendimento podem manifestar-se ao órgão responsável pela licença ou autorização, de maneira vinculante, desde que respeitados os prazos e procedimentos legais."
+    ], resposta_correta: 3 },
+  { id: "q1069", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "De acordo com a Resolução do CONAMA nº 237/1997, a licença prévia:",
+    alternativas: [
+      "autoriza a instalação do empreendimento ou atividade de acordo com as especificações constantes dos planos, programas e projetos aprovados, incluindo as medidas de controle ambiental e demais condicionantes, da qual constituem motivo determinante.",
+      "permite o início da operação da atividade ou empreendimento, após a verificação do efetivo cumprimento do que consta do estudo de impacto ambiental (EIA) e das licenças anteriores, com as medidas de controle ambiental e condicionantes determinados para a operação.",
+      "ocorre no início do processo administrativo de licenciamento ambiental, antes da apresentação do estudo de impacto ambiental (EIA) e respectivo relatório de impacto ambiental (RIMA) e atesta a viabilidade jurídico-ambiental do empreendimento.",
+      "consiste nos estudos relativos aos aspectos ambientais relacionados à localização, instalação, operação e ampliação de uma atividade ou empreendimento, englobando o relatório ambiental, plano e projeto de controle ambiental, plano de recuperação de área degradada e análise preliminar de risco.",
+      "é concedida na fase preliminar do planejamento do empreendimento ou atividade aprovando sua localização e concepção, atestando a viabilidade ambiental e estabelecendo os requisitos básicos e condicionantes a serem atendidos nas próximas fases de sua implementação."
+    ], resposta_correta: 4 },
+  { id: "q1070", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "Em relação às Áreas de Preservação Permanente - APP, o Código Florestal (Lei Federal nº 12.651/2012) dispõe que:",
+    alternativas: [
+      "tendo ocorrido supressão de vegetação situada em APP, o proprietário da área, possuidor ou ocupante a qualquer título é obrigado a promover a recomposição da vegetação de área equivalente a três vezes a área degradada, além de arcar com o pagamento de multa civil.",
+      "consideram-se APP, em zonas rurais ou urbanas, as faixas marginais de qualquer curso d'água natural perene e intermitente, excluídos os efêmeros, desde a borda da calha do leito regular, em largura mínima de trinta metros, para os cursos d'água de menos de dez metros de largura.",
+      "a obrigação de reparar o dano por supressão de vegetação situada em APP tem natureza pessoal e acompanha o autor do dano ainda que este aliene a propriedade a terceiro, não havendo transmissão da obrigação ao sucessor no caso de transferência de domínio ou posse do imóvel rural.",
+      "denomina-se APP a área de trinta por cento localizada no interior de uma propriedade ou posse rural, com a função de assegurar o uso econômico de modo sustentável dos recursos naturais do imóvel rural, auxiliar a conservação e a reabilitação dos processos ecológicos e promover a conservação da biodiversidade.",
+      "é vedado o acesso de pessoas e animais às APP's para obtenção de água e para realização de atividades de baixo impacto ambiental, salvo se houver prévia autorização do órgão ambiental competente e mediante o pagamento de valor pecuniário a título de compensação ambiental."
+    ], resposta_correta: 1 },
+  { id: "q1071", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "A Lei nº 9.605/1998 dispõe sobre as sanções penais e administrativas derivadas de condutas e atividades lesivas ao meio ambiente. Comete crime ambiental tipificado no citado diploma legal aquele que:",
+    alternativas: [
+      "causa poluição de qualquer natureza em níveis tais que resultem ou possam resultar em danos à saúde humana.",
+      "comete homicídio, cuja vítima seja funcionário público em sentido amplo de qualquer órgão público ambiental.",
+      "subtrai para si ou para outrem, mediante violência ou grave ameaça, coisa alheia móvel pertencente à Secretaria Estadual de Meio Ambiente.",
+      "reduz alguém a condição análoga à de escravo, sujeitando-o a condições degradantes de trabalho em área de preservação ambiental.",
+      "obtém vantagem ambiental ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante qualquer meio fraudulento."
+    ], resposta_correta: 0 },
+  { id: "q1072", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Companhia de Desenvolvimento Econômico de Minas Gerais (CODEMIG) — Concurso Público 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental — Prova aplicada em 20/12/2015 — Tipo 2 (gabarito preliminar)",
+    enunciado: "A Lei Federal nº 6.938/1981 determina, no capítulo sobre os objetivos da Política Nacional do Meio Ambiente, que tal política visará:",
+    alternativas: [
+      "à compatibilização do desenvolvimento econômico-social com a preservação da qualidade do meio ambiente e do equilíbrio ecológico.",
+      "a especificar quais atividades potencialmente poluidoras são de competência da União, dos Estados, do Distrito Federal e dos Municípios para o licenciamento ambiental.",
+      "a detalhar a forma e o conteúdo obrigatórios dos estudos de impacto ambiental (EIA's) e dos respectivos relatórios de impacto ambiental (RIMA's).",
+      "ao estabelecimento do rito, procedimento e conteúdo obrigatórios das audiências públicas, que têm por finalidade expor aos interessados os benefícios do empreendimento.",
+      "à definição de áreas vedadas à ação governamental referentes à qualidade e ao equilíbrio ecológico, atendendo aos interesses exclusivos da União."
+    ], resposta_correta: 0 },
+  { id: "q1073", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Análises Ambientais — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "De acordo com a resolução CONAMA nº 1/1986, o estudo de impacto ambiental deverá contemplar algumas atividades técnicas obrigatórias. Assinale a opção que indica uma dessas atividades.",
+    alternativas: [
+      "Definição das medidas mitigadoras dos impactos.",
+      "Elaboração das alternativas tecnológicas.",
+      "Definição dos limites da área geográfica.",
+      "Busca de alternativa para o caso da não execução do projeto.",
+      "Levantamento da área de influência do projeto."
+    ], resposta_correta: 0 },
+  { id: "q1074", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Análises Ambientais — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 9.433/1997 estabelece os objetivos da política nacional de recursos hídricos. Assinale a opção que apresenta, corretamente, um desses objetivos.",
+    alternativas: [
+      "Integração da gestão de recursos hídricos com a gestão ambiental.",
+      "Articulação com os Estados com vistas ao gerenciamento dos recursos hídricos.",
+      "Utilização dos recursos hídricos em alinhamento com o uso do solo.",
+      "Utilização racional e integrada dos recursos hídricos.",
+      "Gestão das bacias hidrográficas com a dos sistemas estuarinos e zonas costeira."
+    ], resposta_correta: 3 },
+  { id: "q1075", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Análises Ambientais — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A respeito das questões ambientais que afetam a instalação de uma usina nuclear, analise as afirmativas a seguir. I. A Comissão Nacional de Energia Nuclear – CNEN tem a responsabilidade de definir localização de usinas nucleares. II. Os Estados da Federação podem restringir a construção de usinas nucleares em seus territórios. III. A regulação do licenciamento das instalações nucleares é de responsabilidade da CNEN. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "II e III, apenas."
+    ], resposta_correta: 2 },
+  { id: "q1076", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Análises Ambientais — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O Acordo de Paris é um importante tratado internacional ambiental, assinado pelos países signatários da Convenção-Quadro das Nações Unidas sobre Mudança do Clima, durante a 21ª Conferência das Partes (COP21). Conforme o Art. 4º do Acordo, cada país signatário deverá estabelecer e comunicar suas Contribuições Nacionalmente Determinadas (National Determined Contributions – NDC), com vistas à consecução do acordo. Em sua NDC, que entrou em vigor em 2016, o Brasil se comprometeu a",
+    alternativas: [
+      "conter o aumento da média da temperatura em seu território para no máximo 1,5°C até 2025 e 2°C até 2030.",
+      "substituir 19% da geração termelétrica baseada em combustíveis fósseis por fontes renováveis até 2025.",
+      "eletrificar a frota nacional de veículos automotores a combustão interna a uma taxa de 1% ao ano, a partir de 2025.",
+      "reduzir as emissões de gases de efeito estufa em 37% em 2025 e 43% em 2030, em relação à estimativa de 2,1 GtCO2e de 2005.",
+      "investir no mínimo 0,1% do PIB, a partir de 2025, em ações para redução do desmatamento e restauração de áreas de floresta."
+    ], resposta_correta: 3 },
+  { id: "q1077", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Ecologia — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 6.938, de 1981, e suas atualizações são um marco na legislação ambiental brasileira, instituindo a Política Nacional do Meio Ambiente (PNMA). Seu principal objetivo é promover a preservação, melhoria e recuperação da qualidade ambiental. Essa lei exerce uma influência significativa no setor energético brasileiro, garantindo que o desenvolvimento energético ocorra de maneira sustentável e equilibrada, minimizando os impactos ambientais negativos. Nesse contexto e tendo como base a referida lei, considere as afirmativas a seguir. I. A produção de energia termoelétrica enquadra-se na categoria de \"Serviços de Utilidade\" como atividade potencialmente poluidora e utilizadora de recursos ambientais. II. A produção de petróleo e gás natural enquadra-se na categoria \"Extração e Tratamento de Minerais\" como atividade potencialmente poluidora e utilizadora de recursos ambientais. III. A geração fotovoltaica enquadra-se na categoria \"Indústrias Diversas\" como atividade potencialmente poluidora e utilizadora de recursos ambientais. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 1 },
+  { id: "q1078", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Ecologia — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A geração hidrelétrica desempenha um papel crucial no fornecimento de energia elétrica no Brasil estando fortemente relacionada com a boa gestão dos recursos hídricos no país. A Lei nº 9.433, de 8 de janeiro de 1997 estabelece diretrizes para o uso sustentável e a gestão dos recursos hídricos no Brasil, incluindo a outorga de direitos de uso da água. No contexto da referida lei, é correto afirmar que",
+    alternativas: [
+      "a outorga de direito de uso de recursos hídricos deverá ser suspensa parcial ou totalmente devido à ausência de uso por dois anos consecutivos.",
+      "a extração de água de aquífero subterrâneo para insumo de processo produtivo não está sujeita a outorga pelo poder público.",
+      "o Poder Executivo Federal não poderá delegar aos Estados e ao Distrito Federal competência para conceder outorga de direito de uso de recurso hídrico de domínio da União.",
+      "por ser um recurso estratégico, a outorga e a utilização de recursos hídricos sob o domínio da união para fins de geração de energia elétrica são concedidas pelo Ministério da Defesa.",
+      "a outorga e a utilização de recursos hídricos para fins de geração de energia elétrica estão subordinadas ao Plano Nacional de Recursos Hídricos."
+    ], resposta_correta: 4 },
+  { id: "q1079", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Ecologia — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Com relação aos objetivos da Convenção sobre Diversidade Biológica (CDB), analise os itens a seguir. I. Incentivar o desenvolvimento econômico por meio da exploração de recursos genéticos. II. Promover o uso sustentável dos componentes da biodiversidade. III. Repartir justa e equitativamente os benefícios derivados do uso dos recursos genéticos. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 3 },
+  { id: "q1080", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Ecologia — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Um município brasileiro está planejando um projeto para recuperar uma área de floresta nativa degradada. O gestor do município buscou realizar uma ação mais alinhada com a Política Nacional da Biodiversidade para garantir a recuperação sustentável e a conservação da área. Assinale a opção que a apresenta.",
+    alternativas: [
+      "A promoção de um programa de turismo na área recuperada.",
+      "A implementação um programa de reflorestamento utilizando espécies exóticas de rápido crescimento.",
+      "O envolvimento das comunidades locais na recuperação, utilizando conhecimentos tradicionais e promovendo a plantação de espécies nativas.",
+      "O desenvolvimento de um programa de agricultura nas proximidades da floresta.",
+      "A criação de um programa de caça controlada para manejo da fauna local."
+    ], resposta_correta: 2 },
+  { id: "q1081", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Concurso Público, Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Ecologia — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Política Nacional da Biodiversidade é um marco fundamental com relação aos recursos biológicos do país. Assinale a opção que apresenta seu principal objetivo.",
+    alternativas: [
+      "Estimular o desenvolvimento de práticas industriais ambientalmente responsáveis.",
+      "Promover atividades recreativas e turísticas em áreas naturais.",
+      "Garantir a conservação da biodiversidade e seu uso sustentável.",
+      "Promover a inserção de conteúdos sobre sustentabilidade e biodiversidade nos currículos educacionais.",
+      "Implementar iniciativas de urbanização ecológica, ampliando a presença de áreas verdes em zonas urbanas."
+    ], resposta_correta: 2 },
+  { id: "q1082", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — VIII Concurso Público para Procurador do Estado do Acre (PGE-AC) — 2026 — Tipo 1 (gabarito definitivo de 24/05/2026)",
+    enunciado: "Sobre o uso de fogo na vegetação e controle dos incêndios, segundo o Código Florestal, analise os casos a seguir. I. Nos locais ou nas regiões cujas peculiaridades justifiquem o emprego do fogo em práticas agropastoris ou florestais, mediante prévia aprovação do órgão estadual ambiental competente do Sisnama, para cada imóvel rural ou de forma regionalizada, que estabelecerá os critérios de monitoramento e controle. II. Em Unidades de Conservação é permitido o emprego da queima controlada, em conformidade com o respectivo plano de manejo e mediante prévia aprovação do órgão gestor da Unidade de Conservação, visando ao manejo conservacionista da vegetação nativa, cujas características ecológicas estejam associadas evolutivamente à ocorrência do fogo. III. Em atividades de pesquisa científica vinculada a projeto de pesquisa devidamente aprovada pelos órgãos competentes e realizada por instituição de pesquisa reconhecida, mediante prévia aprovação do órgão ambiental competente do SISNAMA, é permitido o uso de fogo na vegetação. Segundo o Código Florestal, é permitido o uso de fogo em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 4 },
+  { id: "q1083", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Senado Federal, Consultor Legislativo (Assessoramento Legislativo — Meio Ambiente) — Edital 4/2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+    enunciado: "De acordo com a Lei nº 9.795/1999, que instituiu a Política Nacional de Educação Ambiental, assinale a opção que não contém um dos objetivos fundamentais da educação ambiental.",
+    alternativas: [
+      "Fomento e fortalecimento da integração com a ciência e a tecnologia.",
+      "Estímulo e fortalecimento de uma consciência crítica sobre a problemática ambiental e social.",
+      "Incentivo à participação individual e coletiva, permanente e responsável, na preservação do equilíbrio do meio ambiente, entendendo-se a defesa da qualidade ambiental como um valor separável do exercício da cidadania.",
+      "Desenvolvimento de uma compreensão integrada do meio ambiente em suas múltiplas e complexas relações, envolvendo aspectos ecológicos, psicológicos, legais, políticos, sociais, econômicos, científicos, culturais e éticos.",
+      "Estímulo à cooperação entre as diversas regiões do País, em níveis micro e macrorregionais, com vistas à construção de uma sociedade ambientalmente equilibrada, fundada nos princípios da liberdade, igualdade, solidariedade, democracia, justiça social, responsabilidade e sustentabilidade."
+    ], resposta_correta: 2 },
+  { id: "q1084", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) — Processo Seletivo Simplificado — Analista Ambiental — Prova aplicada em 23/02/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Segundo o Decreto Federal nº 6.514/2008, que trata das infrações e sanções administrativas ao meio ambiente, sobre as Infrações Contra o Ordenamento Urbano e o Patrimônio Cultural, avalie as afirmativas a seguir. I. Deteriorar arquivo, registro, museu, biblioteca, pinacoteca, instalação científica ou similar protegido por lei, ato administrativo ou decisão judicial. II. Promover construção em solo não edificável, ou no seu entorno, assim considerado em razão de seu valor paisagístico, ecológico, artístico, turístico, histórico, cultural, religioso, arqueológico, etnográfico ou monumental, sem autorização da autoridade competente ou em desacordo com a concedida. III. Pichar edificação alheia ou monumento urbano, apenas se for coisa tombada. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 1 },
+  { id: "q1085", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) — Processo Seletivo Simplificado — Analista Ambiental — Prova aplicada em 23/02/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Conforme a Lei federal nº 11.428/2006, que dispõe sobre a utilização e a proteção da vegetação nativa do Bioma Mata Atlântica, considera-se população tradicional \"a população vivendo em estreita relação com o ambiente natural, dependendo de seus recursos naturais para a sua reprodução sociocultural, por meio de atividades de baixo impacto ambiental.\" Nos pedidos de autorização de que trata a Lei federal nº 11.428/2006, os órgãos competentes do Poder Executivo adotarão normas e procedimentos especiais para assegurar às populações tradicionais I. acesso fácil à autoridade administrativa, em local próximo ao seu lugar de moradia. II. procedimentos gratuitos, céleres e simplificados, compatíveis com o seu nível de instrução. III. procedimentos gratuitos, mas mantendo a análise e o julgamento igualitários dos pedidos. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 1 },
+  { id: "q1086", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) — Processo Seletivo Simplificado — Analista Ambiental — Prova aplicada em 23/02/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Sobre a Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas (PNGATI), instituída pelo Decreto nº 7.747/2012, assinale a opção que indica um objetivo específico da PNGATI quanto à governança e à participação indígena.",
+    alternativas: [
+      "Promover a proteção, fiscalização, vigilância e monitoramento ambiental das terras indígenas e seus limites.",
+      "Promover a participação indígena nos conselhos gestores das unidades de conservação localizadas em áreas contíguas às terras indígenas.",
+      "Realizar consulta aos povos indígenas no processo de licenciamento ambiental de atividades e empreendimentos que os afetem diretamente e às suas terras.",
+      "Realizar consulta prévia, livre e informada aos povos indígenas no processo de criação de unidades de conservação em áreas que os afetem diretamente.",
+      "Promover ações voltadas ao reconhecimento profissional, à capacitação e à formação de indígenas para a gestão territorial e ambiental no ensino médio, no ensino superior e na educação profissional e continuada."
+    ], resposta_correta: 2 },
+  { id: "q1087", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) — Processo Seletivo Simplificado — Analista Ambiental — Prova aplicada em 23/02/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 10.257/2001 regulamentou os Artigos 182 e 183 da Constituição da República, estabeleceu diretrizes gerais da política urbana. Essa Lei, denominada Estatuto da Cidade, estabeleceu normas de ordem pública e de interesse social que regulam o uso da propriedade urbana em prol do bem coletivo, da segurança e do bem-estar dos cidadãos, bem como do equilíbrio ambiental. Sobre o Estatuto das Cidades, avalie os itens a seguir. I. O direito de preempção será exercido sempre que o Poder Público necessitar proteger áreas de interesse histórico, cultural ou paisagístico. II. Uma diretriz geral é a proteção, preservação e recuperação do meio ambiente natural e construído, do patrimônio cultural, histórico, artístico, paisagístico e arqueológico. III. A elaboração do Estudo Prévio de Impacto de Vizinhança (EIV) substitui a elaboração e a aprovação de Estudo Prévio de Impacto Ambiental (EIA), requeridas nos termos da legislação ambiental. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 1 },
+  { id: "q1088", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Companhia de Pesquisa de Recursos Minerais (CPRM) — Serviço Geológico do Brasil — Edital 01/2025 — Pesquisador em Geociências — Engenharia Ambiental — Prova aplicada em 30/11/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O enquadramento dos corpos de água é uma ferramenta de planejamento que visa alcançar ou manter padrões de qualidade compatíveis, devendo ser, obrigatoriamente, alcançado ou mantido em um segmento de corpo de água. O enquadramento é um processo essencial para a gestão sustentável dos recursos hídricos. Dessa forma, pode-se considerar que o objetivo principal do enquadramento dos corpos de água, conforme definido pela Resolução CONAMA nº 357/2005 é",
+    alternativas: [
+      "priorizar o uso para consumo humano sobre o industrial.",
+      "minimizar a necessidade de monitoramento ambiental.",
+      "permitir o uso irrestrito dos corpos hídricos.",
+      "estabelecer metas de qualidade compatíveis com os usos pretendidos.",
+      "determinar a importância do monitoramento qualiquantitativo dos corpos d'água."
+    ], resposta_correta: 3 },
+  { id: "q1089", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Companhia de Pesquisa de Recursos Minerais (CPRM) — Serviço Geológico do Brasil — Edital 01/2025 — Pesquisador em Geociências — Engenharia Ambiental — Prova aplicada em 30/11/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Sobre a avaliação e gestão ambiental, analise os itens a seguir: I. O licenciamento ambiental é um exemplo de instrumento de gestão ambiental do tipo \"comando e controle\". II. A magnitude e a importância são exemplos de aspectos dos impactos ambientais. III. A matriz de Leopold é um exemplo de metodologia de avaliação de impactos ambientais. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 2 },
+  { id: "q1090", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Instituto Estadual do Ambiente do Rio de Janeiro (INEA-RJ) — Concurso Público 2013 — Tecnólogo em Gestão Ambiental — Prova aplicada em 19/05/2013 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A criação das Agências de Água será autorizada pelo Conselho Nacional de Recursos Hídricos ou pelos Conselhos Estaduais de Recursos Hídricos mediante solicitação de um ou mais Comitês de Bacias Hidrográficas. Assinale a alternativa que indica a função das Agências de Águas.",
+    alternativas: [
+      "Fiscalizar os Comitês de Bacias Hidrográficas.",
+      "Secretariar os Comitês de Bacias Hidrográficas.",
+      "Multar os usuários dos recursos hídricos.",
+      "Presidir os Comitês de Bacias Hidrográficas.",
+      "Criar os Comitês de Bacias Hidrográficas."
+    ], resposta_correta: 1 },
+  { id: "q1091", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Instituto Estadual do Ambiente do Rio de Janeiro (INEA-RJ) — Concurso Público 2013 — Tecnólogo em Gestão Ambiental — Prova aplicada em 19/05/2013 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Assinale a alternativa que apresenta instrumentos da Política Nacional de Recursos Hídricos – PNRH (Lei Federal n. 9.433/97).",
+    alternativas: [
+      "A outorga dos direitos de uso dos recursos hídricos e os Comitês de Bacias Hidrográficas.",
+      "Os Comitês de Bacias Hidrográficas e a Faixa Marginal de Proteção.",
+      "Os estudos de Impactos Ambientais e a Outorga dos direitos de uso dos recursos hídricos.",
+      "O enquadramento das Águas em Classes de uso e a cobrança pelo uso dos recursos hídricos.",
+      "O Sistema Nacional de Informações sobre Recursos Hídricos e os Estudos de Impactos Ambientais."
+    ], resposta_correta: 3 },
+  { id: "q1092", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Instituto Estadual do Ambiente do Rio de Janeiro (INEA-RJ) — Concurso Público 2013 — Tecnólogo em Gestão Ambiental — Prova aplicada em 19/05/2013 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Com relação à Lei n. 9.795/99, Política Nacional de Educação Ambiental, assinale a alternativa que constitui um dos princípios básicos para educação ambiental.",
+    alternativas: [
+      "O pluralismo de ideias e concepções pedagógicas, na perspectiva da inter, multi e transdisciplinaridade.",
+      "A capacitação de recursos humanos.",
+      "O fortalecimento da cidadania, a autodeterminação dos povos e a solidariedade como fundamentos para o futuro da humanidade.",
+      "O fomento e o fortalecimento da integração com a ciência e a tecnologia.",
+      "O incentivo à participação individual e coletiva na preservação do equilíbrio do meio ambiente, como um valor inseparável do exercício da cidadania."
+    ], resposta_correta: 0 },
+  { id: "q1093", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto Estadual do Ambiente do Rio de Janeiro (INEA-RJ) — Concurso Público 2013 — Engenheiro Ambiental — Prova aplicada em 19/05/2013 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei de Recursos Hídricos de 1997 estabelece o enquadramento dos rios como um instrumento de gestão dos recursos hídricos e as condições de qualidade da água dos rios. A resolução do CONAMA n. 357/2005 define as classes dos rios. A esse respeito, analise as afirmativas a seguir. I. As classes vão de 1 a 5, sendo as classes 1 e 2 as de melhor qualidade. II. As águas de classe 1 podem ser destinadas ao abastecimento para consumo humano, após tratamento simplificado. III. Os indicadores para enquadrar os rios nas diferentes classes são os parâmetros da qualidade da água em que estão indicados as fontes de contaminação. Assinale:",
+    alternativas: [
+      "se somente a afirmativa II estiver correta.",
+      "se somente as afirmativas I e II estiverem corretas.",
+      "se somente as afirmativas I e III estiverem corretas.",
+      "se somente as afirmativas II e III estiverem corretas.",
+      "se todas as afirmativas estiverem corretas."
+    ], resposta_correta: 0 },
+  { id: "q1094", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto Estadual do Ambiente do Rio de Janeiro (INEA-RJ) — Concurso Público 2013 — Engenheiro Ambiental — Prova aplicada em 19/05/2013 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Uma grande rodovia (empreendimento sujeito ao licenciamento ambiental) recebeu uma LP do órgão ambiental competente e considerou desnecessária a elaboração de EIA/RIMA, baseando-se apenas em um Estudo Prévio de Viabilidade Ambiental. O Ministério Público, ao questionar a LP emitida nessas condições, irá alegar que o empreendedor descumpriu os procedimentos a seguir: I. A não realização de estudo de alternativa locacional. II. A não realização de Audiência Pública. III. A indefinição da Área de Influência Direta e Indireta. Assinale:",
+    alternativas: [
+      "se somente I estiver correto.",
+      "se somente II estiver correto.",
+      "se somente I e II estiverem corretos.",
+      "se somente II e III estiverem corretos.",
+      "se todas estiverem corretos."
+    ], resposta_correta: 4 },
+  { id: "q1095", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) — Processo Seletivo Simplificado — Analista Ambiental — Prova aplicada em 23/02/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A prevenção, avaliação e recuperação de impactos ambientais, sociais e culturais em Projetos de Licenciamento em comunidades tradicionais, indígenas e quilombolas, são essenciais para assegurar a integridade do patrimônio, a melhoria da qualidade de vida e as condições plenas de reprodução física e cultural das atuais e futuras gerações, tendo o Instituto do Patrimônio Histórico e Artístico Nacional (Iphan) um papel protagonista na proteção dessas populações e suas culturas. Sobre o tema apresentado acima, avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) O etnozoneamento é o instrumento de planejamento participativo da Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas, que visa à categorização de áreas de relevância ambiental, sociocultural e produtiva para os povos indígenas, desenvolvido a partir do etnomapeamento. ( ) Os estudos nos processos de licenciamento ambiental com participação do Iphan, quando realizados em terras indígenas ou quilombolas, eximem pesquisadores e demais interessados de obterem junto à Fundação Nacional do Índio as respectivas autorizações relativas ao cronograma de execução e autorização da entrada dos profissionais nas áreas pretendidas. ( ) A Política Nacional de Gestão Territorial e Ambiental de Terras Indígenas tem como um dos objetivos apoiar iniciativas indígenas sustentáveis de etnoturismo e de ecoturismo, respeitada a decisão da comunidade e a diversidade dos povos indígenas, promovendo-se, quando couber, estudos prévios, diagnósticos de impactos socioambientais e a capacitação das comunidades indígenas para a gestão dessas atividades. As afirmativas são, respectivamente,",
+    alternativas: [
+      "V – F – F.",
+      "V – F – V.",
+      "V – V – F.",
+      "F – V – V.",
+      "F – F – F."
+    ], resposta_correta: 1 },
+  { id: "q1096", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) — Processo Seletivo Simplificado — Analista Ambiental — Prova aplicada em 23/02/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Pela Resolução CONAMA nº 237/1997, que dispõe sobre a revisão e a complementação dos procedimentos e critérios usados para o licenciamento ambiental, compete ao IBAMA o licenciamento ambiental de empreendimentos e atividades com significativo impacto ambiental",
+    alternativas: [
+      "local e no mar territorial.",
+      "local, no mar territorial e em terras indígenas.",
+      "local, na plataforma continental e em terras indígenas.",
+      "em dois ou mais Estados, no mar territorial e em terras indígenas.",
+      "em mais de um Município ou em unidades de conservação de domínio estadual ou do Distrito Federal e no mar territorial."
+    ], resposta_correta: 3 },
 ];

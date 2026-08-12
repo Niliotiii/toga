@@ -1638,3 +1638,156 @@ Após DDG voltar a responder, novos concursos FGV com gabarito encontrado:
 - Q58 = A (Política Estadual de Mudanças Climáticas PR, Lei 17.133/2012)
   — DESCARTADO: legislação estadual específica do PR, sem doutrina federal
   verificável.
+
+### Leva 32 — Direito Ambiental (q1066-q1072) — CODEMIG 2015
+**CODEMIG 2015 — Analista de Desenvolvimento Econômico — Analista Ambiental**
+(Edital 01/2015, prova aplicada em 06/09/2015, **Tipo 2** — não Tipo 1):
+- Prova: `/tmp/codemig_prova.pdf` (Tipo 2 confirmado via regex `Tipo\s*\d`)
+- Gabarito: `/tmp/codemig_gab.pdf` (gabarito preliminar, todos os cargos;
+  colunas Tipo 1 + Tipo 2 lado a lado; usei a coluna Tipo 2)
+- Cargo: "Analista de Desenvolvimento Econômico - Analista Ambiental"
+- Q40 = D (SNUC Monumento Natural art. 11) → q1066
+- Q41 = B (Logística reversa PNRS: óleos lubrificantes + agrotóxicos) →
+  q1067
+- Q42 = D (LC 140/2011 renovação 120 dias) → q1068
+- Q43 = E (CONAMA 237/1997 art. 8 I — LP aprova localização/concepção)
+  → q1069
+- Q44 = B (Código Florestal APP faixa marginal) → q1070
+- Q45 = A (Lei 9.605/98 crime ambiental poluição) → q1071
+- Q46 = A (PNMA Lei 6.938 compatibilização) → q1072
+- Q47 = D (CF 225 §3º empresas poluidoras responsabilidade) —
+  DESCARTADO: gabarito Tipo 2=D, mas alternativa C (reparação civil
+  imprescritível — Súmula 610 STJ) também correta doutrinariamente.
+
+### Leva 33 — Direito Ambiental (q1073-q1081) — EPE 2024
+**FGV — Empresa de Pesquisa Energética (EPE) — Edital 03/2024**
+(prova aplicada em 01/09/2024, **Tipo 1** — gabarito definitivo):
+- Gabarito único: `/tmp/_epe_gab.pdf` → `/tmp/epe2024_gab_lay.txt`
+  (inclui todos os cargos: Meio Ambiente/Análises Ambientais, /Ecologia,
+  /Emissão e Efluentes, /Geoprocessamento, /Recursos Hídricos)
+- URL pattern: `ape-meio-ambiente-{name}cns{NNN}-tipo-1.pdf`
+  ("ape" = Analista de Pesquisa Energética, cargo; entidade = EPE)
+- **Análises Ambientais (cns004):**
+  - Q40 = A (CONAMA 1/1986 art. 2: diagnóstico + medidas mitigadoras) →
+    q1073
+  - Q44 = D (Lei 9.433/1997 PNRH art. 2 objetivos) → q1074
+  - Q49 = C (usina nuclear CNEN — Lei 10.308/2001) → q1075
+  - Q50 = D (Acordo de Paris NDC: 37% 2025, 43% 2030, base 2005) →
+    q1076
+- **Ecologia (cns005):**
+  - Q34 = B (PNMA categorias de áreas protegidas) → q1077
+  - Q35 = E (Lei 9.433 outorga geração elétrica subordinada PNRH art.
+    12 §1) → q1078
+  - Q58 = D (Convenção Diversidade Biológica: conservação, uso
+    sustentável, repartição de benefícios) → q1079
+  - Q59 = C (PNB Decreto 4.339/2002 recuperação) → q1080
+  - Q61 = C (PNB objetivo principal) → q1081
+- **Descartados EPE:**
+  - Q47 (Análises Ambientais) = E — DESCARTADO: alternativa I ("planta
+    limpa depende de licenciamento") doutrinariamente correta, conflito.
+  - Q48 (Análises Ambientais) = ? — DESCARTADO: Lei 14.120/2021 doutrina
+    incerta, sem verificação confiável.
+  - Q33 (Ecologia) = D — DESCARTADO: alternativa B (CONAMA 237)
+    conflitante com gabarito.
+
+**Total após lote 33: 122 questões Ambiental** (q865-q1081 com lacunas).
+
+### Leva 34 — Direito Ambiental (q1082-q1083) — PGE-AC + Senado
+
+**PGE-AC 2026 (continuação do lote 30):**
+- Q90 = E (Código Florestal art. 38: I, II e III todos permitidos —
+  agropastoril, UC queima controlada, pesquisa científica) → q1082
+  - Verificação doutrinária: Lei 12.651/2012 art. 38 caput + incisos
+    I, II e III confirmados no planalto.gov.br. Gabarito Tipo 1=E.
+
+**Senado Federal 2022 MA (lacuna preenchida):**
+- Q64 = C (Lei 9.795/1999 art. 5 IV — alternativa (C) troca
+  "inseparável" por "separável", incorreta) → q1083
+  - Já confirmado art. 5 I, III, IV, V, VI no planalto.gov.br.
+  - Gabarito Senado 2022 MA Q64=C ✓.
+
+**Nota sobre Senado 2022 MA:** todas as 40 questões Q61-Q100 agora
+estão inseridas (q963-q999, q1000=q100, q1001=q70, q1083=q64).
+Caderno **esgotado**.
+
+**Total após lote 34: 124 questões Ambiental** (q865-q1083 com lacunas).
+
+### Leva 35 — Direito Ambiental (q1084-q1092) — IPHAN + CPRM + INEA-RJ
+
+**IPHAN 2025 (lacuna Q44, Q52, Q64, Q69):**
+- Q44 = B (Decreto 6.514/2008 art. 72 II e 74: deteriorar
+  arquivo/museu + construir em solo não edificável; art. 75 não
+  limita pichar a tombada) → q1084
+- Q52 = B (Estatuto da Cidade Lei 10.257/2001: art. 26 VIII
+  preempção histórica/cultural/paisagística + art. 2 XII diretriz
+  meio ambiente; EIV não substitui EIA) → q1087
+- Q64 = B (Lei 11.428/2006 art. 13 I+II procedimentos especiais:
+  acesso fácil + procedimentos gratuitos céleres; III fala em
+  "igualitários" mas lei diz "prioritários") → q1085
+- Q69 = C (PNGATI Decreto 7.747/2012 art. 4 II f: eixo 2
+  governança e participação indígena = "consulta povos
+  indígenas... licenciamento ambiental") → q1086
+- Descartados IPHAN: Q41 (CF 215/216 patrimônio cultural),
+  Q50 (Carta de Veneza), Q66 (CONAMA 237 IBAMA — alternativas
+  conflitantes), Q77 (PEAT IN IBAMA operacional), Q80 (PNPCT
+  Decreto 6.040 item I ambíguo).
+
+**CPRM/SGB 2025 (Pesquisador em Geociências — Engenharia Ambiental):**
+- Prova: `pesquisador-em-geociencias-engenharia-ambiental-cns01e01-tipo-1.pdf`
+- Gabarito: `cprm_gabarito-preliminar.pdf` (na verdade definitivo,
+  data 30/11/2025)
+- Q60 = D (CONAMA 357/2005: enquadramento = estabelecer metas
+  de qualidade compatíveis com usos pretendidos) → q1088
+- Q69 = C (avaliação e gestão ambiental: I licenciamento =
+  comando-e-controle; II magnitude/importância = atributos não
+  aspectos; III matriz Leopold = metodologia EIA) → q1089
+- Descartados CPRM: Q50, Q52, Q58, Q61, Q65, Q66 (conflitos
+  gabarito × doutrina ou ambíguos).
+
+**INEA-RJ 2013 (Tecnólogo em Gestão Ambiental — Tipo 1):**
+- Prova: `gestao_ambiental_-_tipo_01.pdf`
+- Gabarito: `inea-rj2013_gabarito_definitivo_0.pdf`
+- Q52 = B (Lei 9.433/1997 art. 41: Agências de Água exercem
+  função de secretaria executiva dos Comitês) → q1090
+- Q62 = D (Lei 9.433/1997 art. 5: enquadramento + cobrança são
+  instrumentos; Comitês não é instrumento — é parte do Sistema
+  art. 33) → q1091
+- Q68 = A (Lei 9.795/1999 art. 4 III: pluralismo de idéias e
+  concepções pedagógicas na perspectiva inter/multi/transdisciplinar;
+  demais alternativas são objetivos art. 5 não princípios art. 4) →
+  q1092
+- Descartados INEA: Q51, Q54, Q55, Q56 (conflitos).
+
+**Total após lote 35: 133 questões Ambiental** (q865-q1092 com lacunas).
+
+### Leva 36 — Direito Ambiental (q1093-q1094) — INEA-RJ Engenheiro Ambiental
+
+**INEA-RJ 2013 (Engenheiro Ambiental — Tipo 1):**
+- Prova: `engenheiro_ambiental_-_tipo_01.pdf`
+- Gabarito: `inea-rj2013_gabarito_definitivo_0.pdf`
+- Q55 = A (CONAMA 357/2005: classes 1-4, não 1-5; classe 1 =
+  tratamento simplificado para consumo humano; enquadramento NÃO
+  é por fontes de contaminação, mas por usos preponderantes) → q1093
+- Q68 = E (LP de grande rodovia sem EIA: faltam alternativa
+  locacional, audiência pública — CONAMA 1/86 art. 2 X e art. 5,
+  e definição de AID/AII — CONAMA 1/86 art. 5) → q1094
+- Descartados Engenheiro Ambiental: Q41-50 (técnicos/engenharia),
+  Q49 (CONAMA 273 sem verificação), Q50, Q54 (cálculos
+  hidrológicos), Q60 (engenharia sanitária).
+
+**Total após lote 36: 135 questões Ambiental** (q865-q1094 com lacunas).
+
+### Leva 37 — Direito Ambiental (q1095-q1096) — IPHAN PNGATI + CONAMA 237
+
+**IPHAN 2025 (continuação, Q70 + Q66):**
+- Q70 = B (etnozoneamento V; eximir autorização FUNAI F;
+  etnoturismo/ecoturismo V → V-F-V = B) → q1095
+- Q66 = D (CONAMA 237/1997 art. 4 §1: IBAMA licencia
+  empreendimentos com significativo impacto em dois ou mais
+  Estados + mar territorial + terras indígenas — demais
+  alternativas com "local" erradas) → q1096
+- Descartados IPHAN operacionais: Q41, Q50, Q65, Q67, Q68, Q74,
+  Q77, Q79, Q80 (todos IN IPHAN 01/2015 regras operacionais
+  específicas não-doutrinárias).
+
+**Total após lote 37: 137 questões Ambiental** (q865-q1096 com lacunas).
