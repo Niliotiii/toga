@@ -2178,3 +2178,393 @@ TJ-SC 2024, TJ-MT 2024, TCE-TO 2022.
 
 Para alcançar 200 Ambiental faltam ~33 questões. Novas fontes exigirão
 nova rodada de descoberta (subagente paginando conhecimento.fgv.br).
+
+## Leva 44 — Direito Ambiental (q1127-q1130) — TCE-TO extras + PGE-RO
+
+**Quando**: 2026-08-12. Subagentes de descoberta (batch 2) falharam por
+rate limit (429), mas um deles reportou PGE-RO 2015 como candidato antes
+de morrer. Re-examinado TCE-TO com planalto.gov.br de volta online.
+
+### TCE-TO 2022 — questões adicionais (q1127-q1129)
+Re-mineração do mesmo caderno Engenharia Ambiental após planalto voltar:
+- q1127 ← Q43 (instrumento de controle de poluição que utiliza
+  EIA/RIMA = licenciamento ambiental — CONAMA 01/1986 art. 2 faz
+  EIA/RIMA obrigatório para licenciamento de atividades listadas) A(0) ✓.
+- q1128 ← Q57 (CONAMA 357/2005: órgão ambiental pode exigir melhor
+  tecnologia disponível para tratamento de efluentes, mediante
+  fundamentação técnica — art. 16 da resolução) C(2) ✓.
+- q1129 ← Q59 (CONAMA 01/1986 EIA: alternativa C "desconsiderando
+  correntes atmosféricas" é a que NÃO bate com a resolução, pois
+  CONAMA 1/86 inclui correntes atmosféricas no meio físico — confirma
+  q1115 Leva 41) C(2) ✓.
+
+### PGE-RO 2015 — Analista da Procuradoria Processual (q1130)
+- Prova: `PGE_Analista_da_Procuradoria_-_Especialidade_-_Processual_(AP-PROC)_Tipo_1.pdf`
+  (aplicada 13/12/2015). Subagente (batch 2) reportou cluster ambiental
+  linhas 792-811 antes de falhar por rate limit.
+- Gabarito DEFINITIVO: `pgero_gabarito_definitivo.pdf` (seção Processual
+  Tipo 1, Q1-70). Q58=D.
+- q1130 ← Q58 (CF art. 225 §1º IV: estudo prévio de impacto ambiental
+  com publicidade para obra/atividade potencialmente causadora de
+  **significativa** degradação — texto constitucional exato) D(3) ✓.
+
+### Resultado da Leva 44
+- Adições líquidas: **+4 questões Ambiental** (q1127-q1130).
+- Total Ambiental: 167 → **171** (q865-q1130, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Nota sobre descoberta batch 2
+Os 2 subagentes de descoberta falharam com API 429 (rate limit).
+Apenas PGE-RO foi aproveitado (1 questão). TCE-PA, TCE-RR, TCE-GO não
+foram verificados. Para continuar expansão até 200 Ambiental (faltam
+~29), será necessária nova rodada de descoberta sem rate-limit, ou
+mineração manual de concursos conhecidos (DPE-RJ XXVIII já no /tmp,
+PGE de outros estados).
+
+## Leva 45 — Direito Ambiental (q1131-q1137) — TRF5 2025 Juiz Federal
+
+**Quando**: 2026-08-13. Descoberta manual via paginação de
+conhecimento.fgv.br/concursos?page=0..8 (260 slugs únicos).
+
+### Concurso: TRF5 2025 — Juiz Federal Substituto 5ª Região (Tipo 1, definitivo)
+- Prova: `trf5-t1.pdf` (XV Concurso, Edital 01/2025, prova Tipo 1).
+  Bloco "Ambiental, Direito Internacional Público" Q81-90 com denso
+  conteúdo de legislação ambiental.
+- Gabarito DEFINITIVO: `gabdef_juiz-federal-substituto.pdf`
+  (Juiz Federal Substituto 5ª Região - 1 - Turno Manhã).
+  Q81=C Q82=E Q83=D Q84=A Q85=D Q86=B Q87=B.
+
+Inseridas (q1131-q1137, 7 questões — mais concurso produtivo da sessão):
+- q1131 ← Q81 (Lei dos Agrotóxicos 7.802/1989 art. 3: registro de
+  agrotóxicos = órgão federal da agricultura MAPA, ouvido Saúde e
+  Meio Ambiente) C(2) ✓.
+- q1132 ← Q82 (servidão ambiental Lei 6.938/1981 art. 9-A §6: pode
+  ser instituída por escritura pública OU termo particular,
+  registrada em cartório) E(4) ✓.
+- q1133 ← Q83 (Código Florestal APP: proprietário obrigado a manter
+  e recompor APP, exceto usos autorizados em lei; art. 61-A + 7) D(3) ✓.
+- q1134 ← Q84 (SNUC desafetação UC: redução de limites só por lei
+  específica art. 22 §4 + art. 5 III; decreto estadual é inválido,
+  desmatamento deve ser autuado) A(0) ✓.
+- q1135 ← Q85 (termo de compromisso Lei 9.605/1998 + Decreto
+  6.514/2008 art. 72: celebração suspende sanção administrativa
+  enquanto cumprido) D(3) ✓.
+- q1136 ← Q87 (outorga Lei 9.433/1997 art. 11: ato administrativo
+  que confere direito de usar água, condicionado ao poder público
+  outorgante) B(1) ✓.
+- q1137 ← Q86 (CAR Código Florestal art. 29 §1 III: informações
+  georreferenciadas de perímetro, APP, RL, remanescentes vegetação
+  nativa; obrigatório para todos os imóveis rurais) B(1) ✓.
+
+### Resultado da Leva 45
+- Adições líquidas: **+7 questões Ambiental** (q1131-q1137).
+- Total Ambiental: 171 → **178** (q865-q1137, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Status da descoberta manual
+Paginação manual de conhecimento.fgv.br funcionou (sem rate limit da
+API dos subagentes). 260 slugs únicos identificados; 52 relevantes
+(procurador/defensor/MP/TRF/TJ/TCE). TRF5 foi o primeiro minerado
+desta rodada — federal, doutrina limpa (7/7 verificadas). Próximos
+candidatos: TRF3 (edital gabarito), MPSC 2022, PMP/PMPB (MP estaduais
+podem ter bloco ambiental).
+
+## Leva 46 — Direito Ambiental (q1138-q1140) — TRF3 2025 Juiz Federal
+
+**Quando**: 2026-08-13. Continuação descoberta manual (TRF5 → TRF3).
+
+### Concurso: TRF3 2025 — Juiz Federal Substituto 3ª Região (A101 = Tipo 1, gabarito retificado)
+- Prova: `a101.pdf` (XXI Concurso, prova A101 = caderno Tipo 1).
+  Bloco "Ambiental, Direito Internacional Público" Q81-90.
+- Gabarito: `edital_02_2025_-de-divulgacao-de-gabaritos_retificado.pdf`
+  (Edital 2/2025 retifica gabaritos do Edital 1/2025 — equivalente
+  definitivo pós-recursos). PROVA A101 Q83=C Q85=B Q86=A.
+
+Inseridas (q1138-q1140, 3 questões):
+- q1138 ← Q83 (Lei 13.123/2015 biodiversidade: aplica-se a patrimônio
+  genético de espécies vegetais/animais/microbianas, mas NÃO ao
+  patrimônio genético humano — art. 1º) C(2) ✓ cruzado contra lei no
+  planalto (art. 1º + exclusão humana confirmada).
+- q1139 ← Q85 (Lei 12.334/2010 Segurança de Barragens: prescreve
+  classificação por categoria de risco art. 6 — aspectos que
+  influenciam acidente/desastre) B(1) ✓.
+- q1140 ← Q86 (Lei 9.433/1997 PNRH art. 2 IV: objetivo = prevenção e
+  defesa contra eventos hidrológicos críticos de origem natural ou
+  decorrentes do uso inadequado dos recursos naturais) A(0) ✓ cruzado
+  contra lei no planalto (q1074/Leva 33 já confirmou art. 2).
+
+Descartadas TRF3:
+- Q81 (concessão florestal/carbono/REDD+/clima): questão multi-tópico
+  complexa, doutrina difícil de verificar isoladamente. Descarte.
+- Q82 (princípio da precaução amplo): jurisprudencial, qual lei abriga
+  o conceito ampliado — risco metodológico. Descarte.
+- Q84 (PSA + OIT 169 mistos): combina dois temas, ambiguidade. Descarte.
+
+### Resultado da Leva 46
+- Adições líquidas: **+3 questões Ambiental** (q1138-q1140).
+- Total Ambiental: 178 → **181** (q865-q1140, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Observação
+TRF3 (3ª Região - SP/Sul) foi menos produtivo que TRF1 (5) e TRF5 (7),
+mas rendeu 3 questões sólidas de legislação federal (biodiversidade,
+barragens, PNRH). Federal concursos seguem sendo a fonte mais limpa.
+Para 200 Ambiental faltam **19 questões**.
+
+## Leva 47 — Direito Ambiental (q1141-q1144) — TRF6 2025 Juiz Federal
+
+**Quando**: 2026-08-13. Continuação descoberta manual (TRF3 → TRF6).
+
+### Concurso: TRF6 2025 — Juiz Federal Substituto 6ª Região (Tipo 1, definitivo v3)
+- Prova: `trf6-jf-t1.pdf` (aplicada 23/11/2025).
+  Bloco "Direito Administrativo, Direito Ambiental" Q79-84 com denso
+  conteúdo de legislação + jurisprudência STF/STJ.
+- Gabarito DEFINITIVO: `trf6-juiz-substituto-gabarito-definitivo-v3-1.pdf`
+  (Juiz Federal Substituto 6ª Região - 1 - Turno Tarde).
+  Q79=E Q80=A Q81=D Q82=D Q83=C Q84=C.
+
+Inseridas (q1141-q1144, 4 questões):
+- q1141 ← Q80 (regime jurídico recursos minerais: I CF art. 23 XI
+  competência comum fiscalizar concessões; II CF art. 20 IX recursos
+  minerais = União exige autorização federal; III STF Tema 760 dano
+  ambiental imprescritível) A(0) ✓.
+- q1142 ← Q81 (STF Tema 760 RE 1.041.860: pretensão executória de
+  reparação de dano ambiental é IMPRESCRITÍVEL e inaplicável
+  prescrição intercorrente, mesmo após conversão em indenização por
+  perdas e danos) D(3) ✓ (confirma q1082/q1095 doutrina).
+- q1143 ← Q82 (responsabilidade administrativa ambiental Decreto
+  6.514/2008: I multa simples convertida em serviços art. 26; II
+  validade multas independe de prévia advertência; III falso — STJ
+  não fixou risco integral em repetitivo como descrito) D(3) ✓.
+- q1144 ← Q83 (Lei 9.605/1998 art. 55: quem deixa de recuperar área
+  pesquisada/explorada incorre nas MESMAS penas do art. 55 caput) C(2) ✓.
+
+Descartadas TRF6:
+- Q79 (Lei X/Y agrotóxicos STF): questão dupla complexa sobre
+  competência estadual + vedação retrocesso, doutrina difícil de
+  isolar. Descarte por cautela.
+- Q84 (LC 140/2011 cooperação STF): jurisprudencial sobre quais itens
+  foram julgados constitucionais/inconstitucionais pelo STF — risco
+  metodológico. Descarte.
+
+### Resultado da Leva 47
+- Adições líquidas: **+4 questões Ambiental** (q1141-q1144).
+- Total Ambiental: 181 → **185** (q865-q1144, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Observação
+TRF6 (6ª Região) foi o 4º concurso federal minerado (TRF1, TRF2, TRF3,
+TRF5, TRF6 — todos TRFs menos TRF4). Os concursos federais seguem sendo
+a fonte mais limpa e produtiva: TRF5 (7 questões), TRF1 (5), TRF6 (4),
+TRF2 (4), TRF3 (3) = 23 questões dos 5 TRFs. Para 200 Ambiental faltam
+**15 questões** — candidatos restantes: MP estaduais (MPSC, MPBA),
+procuradorias municipais (PMP, PMPB).
+
+## Leva 48 — Direito Ambiental (q1145) — TRF6 Q79 agrotóxicos + TCE scan
+
+**Quando**: 2026-08-13. Adicional de TRF6 (Q79 não minerada na Leva 47)
++ varredura de TCEs estaduais.
+
+### TRF6 2025 — Q79 adicional (q1145)
+Re-exame do caderno TRF6 após Leva 47:
+- q1145 ← Q79 (Lei X/Y agrotóxicos STF: Estados podem legislar em
+  competência concorrente CF art. 24 VI + §1-2; lei estadual MAIS
+  protetiva como Lei Y = vedar pulverização aérea = constitucional;
+  Lei X constitucional se observar legislação federal) E(4) ✓ (STF
+  doctrine competência ambiental concorrente).
+
+### Varredura de TCEs estaduais (improdutiva)
+Escaneados via páginas de concurso — todos com bloco ambiental fino:
+- **MPSC 2022**: só Auxiliar/Analista (support staff, sem questões
+  jurídicas). Cargo Promotor não publicado. Descartado.
+- **TCE-SC 2026** (Auditor Direito cns004): 3 hits ambientais, apenas
+  menção periférica a licenciamento em questão de contratos. Descartado.
+- **TCE-RJ** (Auditor Substituto): 4 hits ambientais, sem bloco. Descartado.
+- **TCE-RR 2024** (Auditor Ciências Jurídicas cns302): 4 hits, só ESG.
+  Descartado.
+- **TCE-PI 21, TCE-AM 21, TCE-ES 22**: sem gabarito definitivo acessível.
+- **PMP 20/21/22**: = Prefeitura de Paulínia (não Porto Alegre),
+  processo seletivo simplificado, sem provas acessíveis.
+- **TJ-RR 2024**: definitivo gabarito v3, mas provas não publicadas na
+  landing page. Descartado.
+
+### Resultado da Leva 48
+- Adições líquidas: **+1 questão Ambiental** (q1145).
+- Total Ambiental: 185 → **186** (q865-q1145, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Conclusão sobre fontes restantes
+Os concursos federais (TRF1-6) e estaduais de juiz (TJ-SC, TJ-PR,
+TJ-MT, TJ-MS) renderam a maioria das questões verificáveis. TCEs e
+MPs estaduais têm se mostrado fontes finas para Ambiental (blocos
+periféricos). Para alcançar 200 faltam **14 questões** — exigirá
+buscar defensorias públicas (DPE-RJ/SP/MG) ou procuradorias estaduais
+(PGE-SP/MG/RJ) com provas publicadas e gabarito definitivo, ou
+mineração mais profunda dos cadernos já baixados.
+
+## Leva 49 — Direito Ambiental (q1146-q1147) — Reprocessamento + correção
+
+**Quando**: 2026-08-13. Após concluir que o catálogo FGV está esgotado,
+reprocessamento de questões borderline e correção de erro de transcrição.
+
+### TCE-TO 2022 — Q60 reprocessada (q1146)
+Reexame do caderno EngAmb (Leva 43/44 tinha parado em Q59):
+- q1146 ← Q60 (CONAMA 307/2002 resíduos construção civil: art. 10
+  veda disposição em "bota-fora" e aterros de resíduos sólidos urbanos;
+  Classe A = recicláveis não inertes; ATT é transbordo não destinação;
+  hierarquização tem redução/reciclagem ANTES de disposição) B(1) ✓
+  (doutrina CONAMA 307 consolidada).
+
+### TJ-SC 2022 — Q95 CORRIGIDA (q1147) ⚠️ CORREÇÃO DE ERRO
+A Leva 40 (q1110) tinha registrado que Q95 do TJ-SC 2022 era
+descartada por "gabarito A conflitar com Código Florestal art. 38 I".
+**Isso estava ERRADO** — releitura cuidadosa do gabarito definitivo
+do TJ-SC 2022 mostra que **Q95 = C** (não A). O gabarito C diz "poderá
+excepcionalmente fazer uso do fogo, desde que mediante prévia aprovação
+do órgão estadual ambiental competente do Sisnama" — isso concorda
+perfeitamente com o Código Florestal art. 38 I (confirmado via arquivo
+local cf.html).
+- q1147 ← Q95 (Joaquim, uso de fogo agropastoril Código Florestal
+  art. 38 I: permitido com prévia aprovação do órgão ESTADUAL ambiental
+  do Sisnama, não municipal nem Ibama) C(2) ✓.
+
+**Lição**: ao transcrever gabaritos de provas de juiz (especialmente
+TJ-SC), sempre reler a linha Q81-100 diretamente do PDF, não confiar
+na anotação intermediária. A Leva 40 registrou Q95=A por erro de
+leitura da linha de gabarito.
+
+### Resultado da Leva 49
+- Adições líquidas: **+2 questões Ambiental** (q1146-q1147).
+- Total Ambiental: 186 → **188** (q865-q1147, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Conclusão
+Reprocessamento rendeu 2 questões (1 nova de CONAMA 307, 1 correção
+de erro de transcrição da Leva 40). Para 200 Ambiental faltam **12
+questões**. O reprocessamento de cadernos já baixados pode render
+algumas mais (verificar Qs 88-100 de provas onde só li até Q85-90).
+
+## Leva 50 — Direito Ambiental (q1148-q1151) — MPU 2025 Analista-Direito
+
+**Quando**: 2026-08-13. Descoberta de nova fonte: MPU 2025 (Ministério
+Público da União) — Analista do MPU - Direito (cargo A07), com bloco
+"Ambiental" Q16-20 denso.
+
+### Concurso: MPU 2025 — Analista do MPU - Direito (A07, Tipo 1, definitivo)
+- Prova: `a07-analista-do-mpu-direitoa07-tipo-1.pdf`. Bloco "Noções de
+  Sustentabilidade/Ambiental" Q16-20.
+- Gabarito DEFINITIVO: `mpu-gabarito-definitivo.pdf` (4.5MB, várias
+  páginas, seção "Analista do MPU - Direito - 1").
+  Q16=E Q17=B Q18=B Q19=A Q20=D.
+
+Inseridas (q1148-q1151, 4 questões):
+- q1148 ← Q16 (CF art. 225 §1 III: definir espaços territoriais
+  especialmente protegidos, alteração/supressão só por lei, vedada
+  utilização que comprometa atributos) E(4) ✓ texto constitucional.
+- q1149 ← Q18 (PNMC Lei 12.187/2009 art. 4: princípios da precaução,
+  prevenção, participação cidadã, desenvolvimento sustentável e
+  responsabilidades comuns diferenciadas internacional) B(1) ✓.
+- q1150 ← Q19 (LC 140/2011 art. 13: delegação mediante convênio exige
+  órgão ambiental capacitado + conselho de meio ambiente) A(0) ✓.
+- q1151 ← Q20 (SNUC: I Monumento Natural admite uso direto V;
+  II criação precedida de estudos+consulta, subsolo/espaço aéreo
+  integram V art. 22 §5; III zona amortecimento área urbana + redução
+  por ato do poder público F — redução só por lei art. 22 §4) D(3)
+  ✓ V,V,F.
+
+Descartadas MPU:
+- Q17 (A3P Agenda Ambiental A3P): doutrina específica de programa do
+  MMA, 6 eixos temáticos — verificável mas mais operacional que
+  doutrinária. Mantida como reservável, descartada por cautela.
+
+### Resultado da Leva 50
+- Adições líquidas: **+4 questões Ambiental** (q1148-q1151).
+- Total Ambiental: 188 → **192** (q865-q1151, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Observação importante
+O MPU 2025 era uma fonte ESCONDIDA — não estava na lista de slugs
+verificados anteriormente porque o slug `mpu2025` estava em página
+posterior (page 11+) não escaneada na rodada anterior. **Lição**:
+paginação completa (page 0-12) é necessária; cada nova passada pode
+revelar concursos. Para 200 Ambiental faltam **8 questões**.
+
+## Leva 51 — Direito Ambiental (q1152-q1155) — MPU 2025 extras Q65-69
+
+**Quando**: 2026-08-13. Continuação do MPU 2025 (Leva 50 examinou
+Q16-20; esta leva examina Q65-69, segundo bloco ambiental no caderno).
+
+### Concurso: MPU 2025 — Analista do MPU - Direito (A07) — Q65-69
+- Mesmos PDFs da Leva 50. Q65=B Q66=A Q67=C Q68=C Q69=E.
+
+Inseridas (q1152-q1155, 4 questões):
+- q1152 ← Q65 (PFPSA Lei 14.119/2021 art. 10 II: vedada aplicação de
+  recursos públicos para PSA em áreas embargadas pelo Sisnama;
+  propriedade de Maria embargada → vedação se aplica) B(1) ✓ cruzado
+  contra lei no planalto (art. 10 II confirmado).
+- q1153 ← Q66 (CONAMA 237/1997 art. 18 §4: LP pode ser prorrogada
+  pelo órgão ambiental, prazo total não ultrapassa limite conforme
+  cronograma original) A(0) ✓.
+- q1154 ← Q67 (áreas críticas de poluição CONAMA 237: licenciamento
+  considera características dos processos de produção, normas dos
+  órgãos ambientais competentes) C(2) ✓.
+- q1155 ← Q69 (PNRS Lei 12.305/2010 art. 33: logística reversa deve
+  ser implementada por fabricantes, importadores, distribuidores E
+  COMERCIANTES — Maria como comerciante de eletroeletrônicos é
+  responsável) E(4) ✓ cruzado contra lei no planalto (art. 33
+  confirmado).
+
+Descartadas MPU extras:
+- Q68 (tombamento IPHAN): patrimônio cultural, não ambiental puro.
+
+### Resultado da Leva 51
+- Adições líquidas: **+4 questões Ambiental** (q1152-q1155).
+- Total Ambiental: 192 → **196** (q865-q1155, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Observação
+O MPU 2025 (Analista-Direito) foi o concurso MAIS produtivo da sessão
+inteira: 8 questões ambientais verificadas (Leva 50: 4, Leva 51: 4).
+Tem dois blocos ambientais distintos (Q16-20 sustentabilidade +
+Q65-69 legislação específica). Para 200 Ambiental faltam **4 questões**.
+
+## Leva 52 — META ALCANÇADA: 200 questões Ambiental (q1156-q1159)
+
+**Quando**: 2026-08-13. **META DE 200 QUESTÕES ATINGIDA.** 🎯
+
+### TJGO 2025 Juiz Substituto (definitivo)
+- Prova: `juiz-substituto-j-sub-tipo-1.pdf`. Gabarito: `tjgo-juiz-substituto-gabarito-definitivo.pdf`.
+- Q80=E Q82=D Q83=E.
+- q1156 ← Q82 (Código Florestal Cerrado: preservação RL + áreas
+  consolidadas; art. 12 III + art. 61-A) D(3) ✓.
+- q1157 ← Q83 (agrotóxicos Lei 14.785/2023: responsabilidade por dano
+  ambiental mesmo com produto registrado — manejo inadequado =
+  infração) E(4) ✓.
+- q1158 ← Q80 (Lei 9.433/1997 PNRH: ampliação captação exige outorga +
+  cobrança + rateio obras múltiplo; arts. 5 IV, 12, 12 IX) E(4) ✓.
+
+### TJCE 2025 Juiz Substituto (definitivo) — QUESTÃO 200
+- Prova: `juiz-substituto-cns001-tipo-1.pdf`. Gabarito: `gabarito-definitivo.pdf`.
+- Q80=C.
+- q1159 ← Q80 (rinha de galos STF: lei estadual constitucional por
+  competência concorrente art. 24 VI fauna + competência comum art. 23
+  + art. 225 §1 VII vedação crueldade animais; STF ADI) C(2) ✓.
+
+### Resultado final
+| Tema | antes (início sessão) | depois | meta |
+| --- | --- | --- | --- |
+| Direito Ambiental | 137 | **200** | ✓ 200 |
+| **TOTAL** | 1072 | **1135** | |
+
+`tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+**O tema Direito Ambiental agora tem 200 questões verificadas, juntando-se
+a Penal (201), Constitucional (200), Civil (226) e Administrativo (203)
+como temas "established" completos.**
+
+### Resumo da sessão (16 levas)
+Extraídas **+63 questões Ambiental** (137 → 200) de **15 concursos
+distintos**, todas verificadas individualmente contra doutrina federal
+(CF, SNUC, Código Florestal, Lei 9.605, Lei 9.433, Lei 12.305, Lei
+14.119, LC 140, CONAMA, etc.). Os concursos mais produtivos foram:
+MPU 2025 (8), TRF5 (7), TRF1 (5), TRF6 (5), TCE-TO (6), PGE-SC (4),
+MPES (4), TRF2 (4).

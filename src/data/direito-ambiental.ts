@@ -1504,4 +1504,301 @@ export const QUESTOES_DIREITO_AMBIENTAL: Questao[] = [
       "de instalação, e no procedimento de licenciamento ambiental deverá constar a certidão da Prefeitura Municipal, declarando que o local e o tipo de empreendimento estão em conformidade com a legislação aplicável ao uso e à ocupação do solo;",
       "de operação, e o órgão ambiental competente poderá estabelecer prazos de análise diferenciados para cada modalidade de licença, em função das peculiaridades do empreendimento, desde que observado o prazo máximo de seis meses."
     ], resposta_correta: 0 },
+  { id: "q1127", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Controle ambiental é um conjunto de medidas que visam corrigir ou mitigar os impactos sobre a qualidade do meio ambiente. O instrumento de controle de poluição ambiental que se utiliza do Estudo de Impacto Ambiental e do Relatório do Impacto Ambiental é o(a):",
+    alternativas: [
+      "licenciamento;",
+      "avaliação de impacto ambiental;",
+      "fiscalização;",
+      "monitoramento;",
+      "auditoria ambiental."
+    ], resposta_correta: 0 },
+  { id: "q1128", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Os efluentes de qualquer fonte poluidora somente poderão ser lançados, direta ou indiretamente, nos corpos de água, após o devido tratamento e desde que obedeçam às condições, padrões e exigências dispostos na Resolução CONAMA nº 357/2005 e em outras normas aplicáveis. Nesse contexto, de acordo com a mencionada resolução, o órgão ambiental competente:",
+    alternativas: [
+      "não poderá, em qualquer hipótese, autorizar o lançamento de efluentes acima das condições e padrões estabelecidos nessa resolução;",
+      "exigirá, em todos os processos de licenciamento ambiental de qualquer empreendimento ou atividade, a apresentação de estudo de capacidade de suporte de carga do corpo de água receptor;",
+      "poderá, a qualquer momento, exigir a melhor tecnologia disponível para o tratamento dos efluentes, compatível com as condições do respectivo curso de água superficial, mediante fundamentação técnica;",
+      "permitirá, nas águas de classe especial, o lançamento de efluentes ou disposição de resíduos domésticos, agropecuários, de aquicultura, industriais e de quaisquer outras fontes poluentes;",
+      "autorizará, no controle das condições de lançamento, para fins de diluição antes do seu lançamento, a mistura de efluentes com águas de melhor qualidade, tais como as águas de abastecimento público, para atendimento aos padrões desta resolução."
+    ], resposta_correta: 2 },
+  { id: "q1129", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Resolução CONAMA nº 01/1986 dispõe sobre critérios básicos e diretrizes gerais para a avaliação de impacto ambiental. De acordo com o citado ato normativo, NÃO se trata de uma das atividades técnicas a ser desenvolvida no estudo de impacto ambiental:",
+    alternativas: [
+      "a elaboração do programa de acompanhamento e monitoramento dos impactos positivos e negativos, indicando os fatores e parâmetros a serem considerados;",
+      "a definição das medidas mitigadoras dos impactos negativos, entre elas os equipamentos de controle e sistemas de tratamento de despejos, avaliando a eficiência de cada uma delas;",
+      "o estudo técnico sobre o meio físico, considerando o subsolo, as águas, o ar e o clima, destacando os recursos minerais, a topografia, os tipos e aptidões do solo, os corpos d'água, o regime hidrológico, e desconsiderando as correntes atmosféricas, pelas constantes variações;",
+      "o diagnóstico ambiental da área de influência do projeto com a completa descrição e análise dos recursos ambientais e suas interações, tal como existem, de modo a caracterizar a situação ambiental da área, antes da implantação do projeto, considerando, entre outros, o meio socioeconômico;",
+      "a análise dos impactos ambientais do projeto e de suas alternativas, por meio de identificação, previsão da magnitude e interpretação da importância dos prováveis impactos relevantes, discriminando, entre outros, os impactos positivos e negativos (benéficos e adversos), diretos e indiretos, imediatos e a médio e longo prazos, temporários e permanentes."
+    ], resposta_correta: 2 },
+  { id: "q1130", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Procuradoria Geral do Estado de Rondônia (PGE-RO) — Analista da Procuradoria — Especialidade Processual — Prova aplicada em 13/12/2015 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Constituição da República de 1988 impõe ao poder público e à coletividade o dever de defender e preservar, para as presentes e futuras gerações, o meio ambiente ecologicamente equilibrado, que também é um direito de todos. Para assegurar a efetividade desse direito, de acordo com o texto constitucional, incumbe ao Poder Público exigir, na forma da lei, para instalação de:",
+    alternativas: [
+      "toda e qualquer obra ou atividade efetivamente causadora de qualquer degradação ambiental, estudo de contaminação hídrica, do solo e do ar, a que se dará publicidade;",
+      "obra ou atividade potencialmente causadora de qualquer degradação do meio ambiente, a realização de audiência pública, antes da concessão da licença ambiental;",
+      "toda e qualquer obra ou atividade potencialmente causadora de qualquer dano ao meio ambiente, plano de reparação de área degradada, antes da concessão da licença ambiental;",
+      "obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, estudo prévio de impacto ambiental, a que se dará publicidade;",
+      "toda e qualquer obra ou atividade efetivamente causadora de qualquer degradação do meio ambiente, depósito prévio de caução para assegurar a reparação dos danos ambientais."
+    ], resposta_correta: 3 },
+  { id: "q1131", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "João, proprietário rural, pretende comercializar um novo agrotóxico em seu estado. Para isso, ele precisa entender qual órgão é responsável pelo registro desses produtos. De acordo com a Lei dos Agrotóxicos, para registrar o agrotóxico, João deve procurar o órgão:",
+    alternativas: [
+      "federal responsável pelo setor da saúde;",
+      "estadual de defesa agropecuária;",
+      "federal responsável pelo setor da agricultura;",
+      "municipal responsável pelo setor do meio ambiente;",
+      "federal responsável pelo setor do meio ambiente."
+    ], resposta_correta: 2 },
+  { id: "q1132", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "A microempresa rural XYC, proprietária de uma fazenda no interior, deseja contribuir para a preservação ambiental e considera instituir uma servidão ambiental em parte de sua propriedade, renunciando voluntariamente ao direito de uso e exploração dos recursos naturais dessa área. No entanto, seus representantes têm dúvidas sobre as implicações legais dessa decisão. Com base na Lei nº 6.938/1981, é correto afirmar que a servidão ambiental:",
+    alternativas: [
+      "se aplica às Áreas de Preservação Permanente e à Reserva Legal mínima exigida;",
+      "apenas pode ser instituída por pessoas naturais, não por pessoas jurídicas;",
+      "pode ser instituída apenas em caráter temporário, com prazo máximo de 20 anos;",
+      "não pode ser transferida a terceiros, seja de forma gratuita ou onerosa;",
+      "pode ser instituída mediante registro por instrumento público ou particular."
+    ], resposta_correta: 4 },
+  { id: "q1133", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Maria é proprietária de um terreno rural. Há alguns anos, ela removeu parte da vegetação nativa situada em uma Área de Preservação Permanente (APP) para ampliar sua área de cultivo agrícola. Recentemente, Maria foi notificada pelo órgão ambiental competente sobre a necessidade de regularizar a situação da APP em sua propriedade. Diante disso, Maria busca orientação jurídica para entender suas obrigações legais referentes à manutenção e à recuperação da APP, conforme o Código Florestal (Lei nº 12.651/2012). Com base no caso apresentado, é correto afirmar que Maria:",
+    alternativas: [
+      "é obrigada a manter a vegetação da APP em seu terreno, mas não é responsável por sua recomposição caso tenha ocorrido alguma supressão anterior à sua aquisição;",
+      "não é obrigada a manter a vegetação da APP, pois essa responsabilidade recai exclusivamente sobre pessoas jurídicas de direito público;",
+      "pode suprimir a vegetação da APP, sem necessidade de recomposição, desde que a sua finalidade seja a expansão de atividades agrícolas;",
+      "é responsável por manter a vegetação da APP em seu terreno e, caso tenha ocorrido supressão, é obrigada a promover sua recomposição, exceto nos casos de usos autorizados previstos em lei;",
+      "tem a opção de manter ou suprimir a vegetação da APP, uma vez que pretende realizar atividade de natureza agrossilvipastoril."
+    ], resposta_correta: 3 },
+  { id: "q1134", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "No âmbito de suas atribuições legais, agentes de fiscalização ambiental receberam denúncia de desmatamento ilegal em uma área que, até recentemente, integrava uma Unidade de Conservação (UC). Ao investigar, constataram que a área foi desafetada por meio de um decreto estadual, resultando na redução dos limites originais da UC. Diante da situação narrada, a ação correta da equipe de fiscalização é:",
+    alternativas: [
+      "proceder com a autuação dos responsáveis pelo desmatamento, pois a desafetação da área é inválida, uma vez que a redução dos limites de uma UC só pode ocorrer mediante lei específica;",
+      "abster-se da ação fiscalizatória, considerando que o decreto estadual é suficiente para validar a redução dos limites da UC;",
+      "encaminhar um relatório ao órgão gestor da UC, sugerindo a regularização das atividades na área desafetada com base no decreto estadual;",
+      "inaugurar processo administrativo para avaliar a legalidade do decreto estadual e, enquanto isso, suspender qualquer ação fiscalizatória na área em questão;",
+      "abster-se da ação fiscalizatória, desde que a UC atingida não seja classificada como Unidade de Proteção Integral ou de Uso Sustentável."
+    ], resposta_correta: 0 },
+  { id: "q1135", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Durante uma fiscalização ambiental, a empresa Verde Limpo S/A foi autuada por operar sem as licenças ambientais necessárias, configurando atividade potencialmente poluidora. Para regularizar sua situação, a empresa propôs celebrar um termo de compromisso com o órgão ambiental competente. Considerando as disposições da Lei nº 9.605/1998, é correto afirmar que:",
+    alternativas: [
+      "o termo de compromisso pode ser celebrado, mas não possui força de título executivo extrajudicial, necessitando de homologação judicial para sua execução;",
+      "a celebração do termo de compromisso é facultativa e depende exclusivamente da vontade do autuado e da participação do Ministério Público, sem necessidade de anuência do órgão ambiental;",
+      "o termo de compromisso se destina exclusivamente à reparação de danos ambientais já ocorridos, não podendo ser utilizado para regularizar atividades em andamento;",
+      "a celebração do termo de compromisso suspende a aplicação de sanções administrativas enquanto suas cláusulas estiverem sendo cumpridas;",
+      "somente pessoas físicas podem celebrar termos de compromisso com órgãos ambientais, não sendo permitida a celebração pela empresa Verde Limpo S/A."
+    ], resposta_correta: 3 },
+  { id: "q1136", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Uma empresa de abastecimento de água pretende captar água de um rio federal para abastecer um município. Considerando a Política Nacional de Recursos Hídricos (Lei nº 9.433/1997), é correto afirmar que a outorga de direitos de uso de recursos hídricos:",
+    alternativas: [
+      "é dispensada quando o uso da água é destinado ao consumo humano e à dessedentação de animais, independentemente do volume captado;",
+      "é um ato administrativo que confere ao usuário o direito de utilizar a água, desde que respeitadas as condições estabelecidas pelo poder público outorgante;",
+      "só é exigida para captações de água superficiais, não se aplicando a águas subterrâneas;",
+      "tem caráter permanente e não pode ser revisada ou suspensa, mesmo em situações de escassez ou de não cumprimento das condições estabelecidas;",
+      "é de competência exclusiva dos municípios, não cabendo à União ou aos estados a gestão desse instrumento."
+    ], resposta_correta: 1 },
+  { id: "q1137", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 5ª Região (TRF5) — XV Concurso — Juiz Federal Substituto da 5ª Região — Edital 01/2025 — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Determinado proprietário de um imóvel rural de 500 hectares, localizado em área rural no Estado de Pernambuco, deseja regularizar sua propriedade junto ao Cadastro Ambiental Rural (CAR), conforme exigido pelo Código Florestal (Lei nº 12.651/2012). Durante o preenchimento do CAR, surgem dúvidas sobre as informações que devem ser fornecidas e os prazos aplicáveis. Sobre o caso, é correto afirmar que:",
+    alternativas: [
+      "o CAR é obrigatório apenas para propriedades rurais com área superior a 1.000 hectares, sendo facultativo para propriedades menores;",
+      "o CAR deve conter informações georreferenciadas do perímetro do imóvel, das áreas de preservação permanente, de reserva legal e de remanescentes de vegetação nativa, além de outras informações previstas em regulamento;",
+      "o prazo para inscrição no CAR é de dois anos a partir da data de publicação da Lei nº 12.651/2012, não sendo possível realizar novas inscrições após esse período;",
+      "a inscrição no CAR é dispensada para propriedades que já possuem licença ambiental válida, independentemente do tamanho da área;",
+      "o CAR é um instrumento de caráter voluntário, sem efeito jurídico direto ou vinculação com a regularização ambiental do imóvel rural."
+    ], resposta_correta: 1 },
+  { id: "q1138", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 3ª Região (TRF3) — XXI Concurso — Juiz Federal Substituto e Juíza Federal Substituta — Prova A101 — Tipo 1 (edital de divulgação de gabaritos retificado)",
+    enunciado: "A respeito da biodiversidade, assinale a alternativa correta:",
+    alternativas: [
+      "De acordo com a Lei nº 13.123/2015, não é permitida a remessa ao exterior de amostras de patrimônio genético, sendo vedado também o acesso por pessoa natural estrangeira.",
+      "É possível o acesso ao patrimônio genético ou ao conhecimento tradicional associado realizado no exterior por pessoa natural estrangeira, desde que associada a instituição nacional de pesquisa científica e tecnológica.",
+      "A Lei nº 13.123/2015 dispõe sobre o acesso ao patrimônio genético de todas as espécies vegetais, animais, microbianas ou espécies de outra natureza, mas não se aplica ao patrimônio genético humano.",
+      "É possível o acesso ao patrimônio genético ou ao conhecimento tradicional associado realizado no exterior, mas apenas por pessoa jurídica nacional pública.",
+      "Não é permitida a exploração econômica do produto acabado ou material reprodutivo oriundo de acesso ao patrimônio genético ou ao conhecimento tradicional associado produzidos fora do País."
+    ], resposta_correta: 2 },
+  { id: "q1139", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 3ª Região (TRF3) — XXI Concurso — Juiz Federal Substituto e Juíza Federal Substituta — Prova A101 — Tipo 1 (edital de divulgação de gabaritos retificado)",
+    enunciado: "No que concerne a atividades de mineração, assinale a alternativa correta:",
+    alternativas: [
+      "Por força do Decreto-lei nº 227/1967, conclui-se que o monitoramento dos riscos da atividade de mineração não é obrigação da empresa, sendo obrigatória a inspeção dos órgãos públicos ambientais.",
+      "A Lei de Segurança de Barragens (Lei nº 12.334/2010) prescreve a necessidade de classificar a atividade por categoria de risco, conforme os aspectos que possam influenciar na possibilidade de ocorrência de acidente ou desastre.",
+      "Para a lavra garimpeira de pequeno potencial de impacto ambiental, o STF tem permitido a dispensa ou a simplificação do processo de licenciamento ambiental para atividade de mineração a céu aberto, por norma do legislador estadual.",
+      "Aquele que explorar recursos minerais tem a obrigação constitucional de recuperar o meio ambiente degradado, mediante melhor solução técnica disponível pelo próprio detentor da concessão ou da permissão de lavra ou autorização de pesquisa.",
+      "A Lei nº 7.805/1989 estabelece que o permissionário da lavra garimpeira deve evitar o extravio das águas e promover a sua drenagem para que não causem danos a terceiros, não prevendo, porém, o dever de tratar aquelas que possam causar danos a terceiros."
+    ], resposta_correta: 1 },
+  { id: "q1140", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 3ª Região (TRF3) — XXI Concurso — Juiz Federal Substituto e Juíza Federal Substituta — Prova A101 — Tipo 1 (edital de divulgação de gabaritos retificado)",
+    enunciado: "De acordo com a Lei nº 9.433/1997, assinale a alternativa correta:",
+    alternativas: [
+      "É objetivo da Política Nacional de Recursos Hídricos a prevenção e defesa contra enchentes e inundações de origem natural ou decorrentes do uso inadequado dos recursos naturais.",
+      "O sistema de informações sobre recursos hídricos pressupõe a centralização da obtenção de dados e controle de acesso por parte da União para o planejamento e elaboração de seu Plano de Recursos Hídricos.",
+      "A efetivação da outorga de direitos de uso de recursos hídricos contempla o princípio da participação na medida em que permite a colaboração da sociedade civil no processo decisório.",
+      "O Sistema Nacional de Gerenciamento de Recursos Hídricos é composto por diversos órgãos da administração pública federal, mas a implementação da Política Nacional de Recursos Hídricos compete aos Executivos Estaduais e Municipais.",
+      "O regime de outorga de direitos de uso de recursos hídricos tem como objetivo assegurar o controle quantitativo e qualitativo dos usos da água, sendo efetivado apenas por ato da autoridade competente do Poder Executivo Federal ou, por delegação, dos Estados ou do Distrito Federal."
+    ], resposta_correta: 0 },
+  { id: "q1141", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 6ª Região (TRF6) — Concurso 2025 — Juiz Federal Substituto da 6ª Região — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Em tema de regime jurídico dos recursos minerais, avalie as afirmativas a seguir. I. É competência comum da União, dos Estados, do Distrito Federal e dos Municípios registrar, acompanhar e fiscalizar as concessões de direitos de pesquisa e exploração de recursos hídricos e minerais em seus territórios. II. É indispensável a autorização federal para a utilização de água mineral obtida diretamente do solo como insumo em processo industrial, mesmo que não destinada ao envase e consumo humano. III. É imprescritível a pretensão de ressarcimento ao erário decorrente da exploração irregular do patrimônio mineral da União, porquanto indissociável do dano ambiental causado. Com base na Constituição Federal e na jurisprudência dos Tribunais Superiores, está correto o que se afirma em",
+    alternativas: [
+      "I, II e III.",
+      "II, apenas.",
+      "III, apenas.",
+      "II e III, apenas.",
+      "I e III, apenas."
+    ], resposta_correta: 0 },
+  { id: "q1142", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 6ª Região (TRF6) — Concurso 2025 — Juiz Federal Substituto da 6ª Região — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Em 2017, o Ministério Público Federal ofereceu denúncia pelo crime ambiental praticado e, em 2018, transitou em julgado condenação de Fernanda à pena privativa de liberdade e à obrigação de reparar os danos causados ao ecossistema, mediante elaboração e execução de plano de recuperação de área degradada. Ocorre que, dada a complexidade técnica da recuperação da área e as peculiaridades do solo, em 2019, o juízo converteu a obrigação de fazer em indenização por perdas e danos. Apenas em 2025, o Ministério Público promoveu em desfavor de Fernanda, a execução da obrigação de pagar a indenização. A defesa, assim, alegou que a pretensão executória do parquet estava prescrita, pois se passaram mais de cinco anos do trânsito em julgado da sentença. O magistrado, observando a jurisprudência do Supremo Tribunal Federal, deve reconhecer que",
+    alternativas: [
+      "assiste razão à defesa, pois o lapso temporal da prescrição executória é de cinco anos e se inicia com o trânsito em julgado da condenação, independentemente de quando ocorreu a conversão da obrigação de fazer em obrigação de pagar.",
+      "assiste parcial razão à defesa, pois já ocorreu prescrição, mas o lapso temporal da prescrição executória de cinco anos se inicia da data da conversão da obrigação de fazer em obrigação de pagar.",
+      "assiste parcial razão à defesa, pois o lapso temporal da prescrição executória é de cinco anos, mas somente se inicia com a total reparação ambiental da área, não importando quem a promova, diante da natureza indisponível do meio ambiente ecologicamente equilibrado, como direito fundamental de terceira geração.",
+      "não ocorreu prescrição, porque é imprescritível a pretensão executória e inaplicável a prescrição intercorrente na execução de reparação de dano ambiental, ainda que posteriormente convertida em indenização por perdas e danos, diante da natureza transindividual, transgeracional e indisponível do bem jurídico protegido.",
+      "não ocorreu prescrição, porque, apesar de ser imprescritível a pretensão condenatória de reparação ambiental, não o é a pretensão executória, sendo aplicável a prescrição intercorrente na execução de reparação de dano ambiental, diante da ponderação e harmonização do princípio da segurança jurídica com a natureza difusa e coletiva do bem jurídico protegido."
+    ], resposta_correta: 3 },
+  { id: "q1143", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 6ª Região (TRF6) — Concurso 2025 — Juiz Federal Substituto da 6ª Região — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Em matéria de responsabilidade administrativa ambiental, avalie as afirmativas a seguir. I. A multa simples pode ser convertida em serviços de preservação, melhoria e recuperação da qualidade do meio ambiente. II. A validade das multas administrativas por infração ambiental, previstas na Lei nº 9.605/1998, independe da prévia aplicação da penalidade de advertência. III. A responsabilidade administrativa ambiental é objetiva, informada pela teoria do risco integral, sendo o nexo de causalidade o fator aglutinador que permite que o risco se integre na unidade do ato, conforme decidido pelo Superior Tribunal de Justiça, em sede de recurso repetitivo. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I, II e III."
+    ], resposta_correta: 3 },
+  { id: "q1144", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 6ª Região (TRF6) — Concurso 2025 — Juiz Federal Substituto da 6ª Região — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "João, de forma livre e consciente, executou pesquisa, lavra e extração de recursos minerais sem a competente autorização, permissão, concessão e licença. Sobre o caso em tela, de acordo com a Lei de Crimes Ambientais, assinale a afirmativa correta.",
+    alternativas: [
+      "Se o crime tiver sido praticado em unidade de conservação, a pena é aumentada em dois terços.",
+      "Em razão da natureza do crime praticado, é incabível a substituição da pena privativa de liberdade por penas restritivas de direitos.",
+      "Nas mesmas penas previstas para o crime praticado por João, incorre quem deixa de recuperar a área pesquisada ou explorada, nos termos da autorização, permissão, licença, concessão ou determinação do órgão competente.",
+      "Pela pena cominada ao crime praticado, é incabível a transação penal, mas, em tese, é possível o oferecimento de suspensão condicional do processo.",
+      "Nas mesmas penas previstas para o crime praticado por João, incorre quem produz, processa, embala, comercializa, fornece, transporta, armazena, guarda, tem em depósito ou usa produto ou substância tóxica, perigosa ou nociva à saúde humana ou ao meio ambiente, em desacordo com as exigências estabelecidas em leis ou nos seus regulamentos."
+    ], resposta_correta: 2 },
+  { id: "q1145", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 6ª Região (TRF6) — Concurso 2025 — Juiz Federal Substituto da 6ª Região — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "O Estado Alfa editou duas leis dispondo sobre agrotóxicos, da seguinte forma: Lei X — suprime a exigência de que produtos importados tenham autorização de uso no país de origem; Lei Y — veda a pulverização aérea de agrotóxicos na agricultura no âmbito do Estado Alfa. Nesse contexto, de acordo com a jurisprudência do Supremo Tribunal Federal, assinale a afirmativa correta.",
+    alternativas: [
+      "Ambas as leis estaduais são formalmente inconstitucionais, porque Estados não podem legislar sobre utilização de agrotóxicos.",
+      "Ambas as leis estaduais são materialmente inconstitucionais, porque Estados não podem editar normas menos protetivas ao meio ambiente quanto à utilização de agrotóxicos.",
+      "A lei X é constitucional, por prestigiar a soberania nacional, não vinculando o país a regramento externo; A lei Y é inconstitucional, pois representa violação à ordem econômica.",
+      "A lei X é inconstitucional, por ofender o princípio da vedação da proteção deficiente em matéria ambiental, pois reduziu a proteção socioambiental; A lei Y é constitucional, pois representa maior proteção ao meio ambiente se comparada com as diretrizes gerais fixadas na legislação federal.",
+      "A lei X é constitucional e não ofende o princípio da vedação ao retrocesso socioambiental, desde que observe a legislação federal acerca da matéria; A lei Y é constitucional, pois representa maior proteção à saúde e ao meio ambiente se comparada com as diretrizes gerais fixadas na legislação federal."
+    ], resposta_correta: 4 },
+  { id: "q1146", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Resolução CONAMA nº 307/2002 estabelece diretrizes, critérios e procedimentos para a gestão dos resíduos da construção civil, disciplinando as ações necessárias de forma a minimizar os impactos ambientais. Consoante dispõe o mencionado ato normativo:",
+    alternativas: [
+      "os resíduos da construção civil classificados como Classe A são aqueles não reutilizáveis e não recicláveis como agregados, tais como madeiras e gesso;",
+      "os resíduos da construção civil não poderão ser dispostos, entre outros, em aterros de resíduos sólidos urbanos e em áreas de \"bota-fora\";",
+      "área de transbordo e triagem de resíduos da construção civil e resíduos volumosos (ATT) é a área tecnicamente adequada para destinação final de resíduos da construção civil Classe A no solo;",
+      "os Planos de Gerenciamento de Resíduos da Construção Civil serão elaborados e implementados pelos Municípios, vedada a participação dos grandes geradores, que apenas contribuirão financeiramente a título de medida compensatória;",
+      "os geradores deverão, em matéria de hierarquização de resíduos sólidos, ter como objetivo prioritário a disposição final ambientalmente adequada dos rejeitos e, secundariamente, a redução, a reutilização, a reciclagem e a não geração de resíduos."
+    ], resposta_correta: 1 },
+  { id: "q1147", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Tribunal de Justiça de Santa Catarina (TJ-SC) — Edital 11/2022 — Juiz Substituto — Prova aplicada em 21/08/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Com o objetivo de expandir suas atividades de agricultura familiar de plantação de maçã, Joaquim, proprietário de imóvel em área rural, pretende fazer uso de fogo na vegetação em determinada parte de sua propriedade, para fins de limpeza e preparo do solo antes do plantio, entre uma safra e outra. Apesar de ter sido alertado sobre os impactos ambientais negativos da queimada pelo seu filho Gabriel, que estudou na escola questões sobre mudanças climáticas e importância da preservação da flora, Joaquim manteve seu intuito de se valer dessa técnica, mas se comprometeu com seu filho a se capacitar para, nos próximos anos, utilizar alternativas sustentáveis ao uso do fogo na agricultura. Tendo em vista que a região onde está localizado o imóvel de Joaquim possui peculiaridades que justificam o emprego de fogo em práticas agropastoris naquela época do ano, diante do que dispõe o Código Florestal, Joaquim:",
+    alternativas: [
+      "não poderá fazer uso do fogo, em qualquer hipótese, por expressa proibição legal, sob pena da tríplice responsabilização ambiental nas esferas civil, penal e administrativa;",
+      "não poderá fazer uso do fogo, em qualquer hipótese, haja vista que, inobstante inexistir previsão legal específica sobre o tema, aplicam-se os princípios ambientais previstos no Código Florestal, como os da prevenção e da solidariedade intergeracional;",
+      "poderá excepcionalmente fazer uso do fogo, desde que mediante prévia aprovação do órgão estadual ambiental competente do Sisnama, para o imóvel rural ou de forma regionalizada, que estabelecerá os critérios de monitoramento e controle;",
+      "poderá excepcionalmente fazer uso do fogo, desde que mediante prévia licença ambiental a ser expedida pelo órgão ambiental municipal competente do Sisnama, que estabelecerá medidas mitigatórias, bem como multa proporcional ao dano ambiental a ser causado;",
+      "poderá excepcionalmente fazer uso do fogo, desde que mediante prévia licença ambiental a ser expedida pelo Ibama, que estabelecerá medidas mitigatórias, compensatórias e reparatórias proporcionais ao dano ambiental a ser causado."
+    ], resposta_correta: 2 },
+  { id: "q1148", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "A Constituição Federal trouxe um rico capítulo dispondo sobre a proteção ao meio ambiente para as presentes e futuras gerações, estabelecendo que todos têm direito a um meio ambiente ecologicamente equilibrado. Em relação aos princípios, normas e regras estabelecidos no Art. 225 da Constituição Federal sobre Meio Ambiente, é correto afirmar que:",
+    alternativas: [
+      "será inferior à dos combustíveis fósseis e de hidrelétricas o regime fiscal para os biocombustíveis, tecnologias de baixo carbono e para o hidrogênio verde para garantir diferenciais competitivos, especialmente em relação às contribuições parafiscais;",
+      "são consideradas cruéis as práticas desportivas que utilizem animais, ainda que sejam manifestações culturais registradas como bens de natureza imaterial integrantes do patrimônio cultural brasileiro e que assegurem o bem-estar dos animais envolvidos;",
+      "são patrimônio nacional os biomas da floresta amazônica brasileira, da mata atlântica, caatinga, pampas sulinos, serra do mar e o pantanal mato-grossense, e sua utilização far-se-á na forma de lei complementar, inclusive quanto ao uso dos recursos naturais;",
+      "incumbe ao poder público e à coletividade o dever de preservar e manter os processos ecológicos essenciais naturais e promover o manejo ecológico das espécies endêmicas e exóticas dos ecossistemas;",
+      "incumbe ao poder público definir os espaços territoriais e seus componentes a serem especialmente protegidos, sendo a alteração e a supressão permitidas apenas por meio de lei, vedada qualquer utilização que comprometa a integridade dos atributos que justificam sua proteção."
+    ], resposta_correta: 4 },
+  { id: "q1149", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "As mudanças climáticas estão cada vez mais presentes. No Brasil, trata-se da Política Nacional sobre Mudança do Clima - PNMC (Lei nº 12.187/2009). Sobre a Lei nº 12.187/2009, é correto afirmar que a PNMC:",
+    alternativas: [
+      "busca a promoção e o desenvolvimento nacional de pesquisas científico-tecnológicas, bem como a difusão de tecnologias, processos e práticas orientados a mitigar a mudança do clima por meio de sumidouros de gases de efeito estufa implantados pelo poder público, adotando as medidas de adaptação possíveis, independentemente de vulnerabilidades e do setor produtivo;",
+      "e as ações dela decorrentes, executadas sob a responsabilidade dos entes políticos e dos órgãos da administração pública, observarão os princípios da precaução, da prevenção, da participação cidadã, do desenvolvimento sustentável e o das responsabilidades comuns, porém diferenciadas, este último no âmbito internacional;",
+      "tem por finalidade o desenvolvimento econômico com a possível proteção do sistema climático, com redução das emissões naturais de gases de efeito estufa em relação às suas diferentes fontes, independentemente de fortalecimento das remoções antrópicas por sumidouros de gases de efeito estufa no território nacional;",
+      "estabelece que a adaptação necessária do contexto socioeconômico deverá ser sustentável, independentemente das comunidades afetadas, buscando segurança energética a partir de combustíveis fósseis e complementariedade de energias renováveis;",
+      "tem como diretriz os compromissos assumidos pelo Brasil no Protocolo de Quioto para obter as ações de mitigação da mudança do clima em detrimento do desenvolvimento sustentável, com as medidas de adaptação para equalização dos efeitos adversos das mudanças e estabilidade do sistema ambiental e econômico."
+    ], resposta_correta: 1 },
+  { id: "q1150", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "A divisão de atribuições e as modalidades de cooperação entre os entes federativos foram regulamentadas por meio da Lei Complementar (LC) nº 140/2011, que estabeleceu importantes novas regras. Com efeito, o federalismo cooperativo finalmente tem, nos instrumentos de cooperação e colaboração, ferramentas relevantes para a proteção ambiental no país. Diante do exposto, é correto afirmar que:",
+    alternativas: [
+      "o ente federativo poderá delegar, mediante convênio, a execução de ações administrativas, desde que o ente destinatário da delegação disponha de órgão ambiental capacitado a executar as ações administrativas a serem delegadas e de conselho de meio ambiente;",
+      "a LC nº 140/2011 não reconhece os fundos privados e outros instrumentos econômicos como formas de cooperação, para fins específicos dessa política pública, mas apenas os fundos públicos, embora ela preveja instrumentos como convênios, acordos de cooperação e consórcios públicos;",
+      "a cooperação entre os entes federados implica a autorização legal para que qualquer um deles lavre auto de infração ambiental e instaure processo administrativo em face de empreendimentos licenciados e, concomitantemente, apure as penalidades cabíveis de forma ampla e indistinta;",
+      "a atuação subsidiária consiste em ação do ente da federação que se substitui ao ente federativo original e a atuação supletiva consiste na ação do ente federado que visa a auxiliar no desempenho das atribuições comuns, quando solicitado pelo ente federativo original;",
+      "os instrumentos de cooperação são hierarquizados, sendo as duas formas de delegação (de atribuições de execução de ações) prioritárias nessa política ambiental, e as demais formas, como consórcios, participações públicas, audiências públicas e fundos públicos, instrumentos ordinários de cooperação previstos nessa legislação."
+    ], resposta_correta: 0 },
+  { id: "q1151", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Os espaços especialmente protegidos, além do Código Florestal, possuem o Sistema Nacional de Unidades de Conservação (SNUC) como uma política pública das mais relevantes para essa finalidade. A divisão de Unidades de Conservação de Proteção Integral e de Uso Sustentável é construída a partir de uma lógica e perspectiva dos atributos que são necessários conservar. Desse modo, analise as afirmativas a seguir, considerando V para a(s) verdadeira(s) e F para a(s) falsa(s). I. Embora as unidades de proteção integral tenham como objetivo básico a manutenção dos ecossistemas livres de alterações causadas por interferência humana, admitindo, como regra, apenas o uso indireto dos seus atributos naturais, podem, conforme o caso, ser de uso direto, como, por exemplo, o monumento natural. II. A criação de unidades de conservação é feita por ato do poder público, precedida de estudos técnicos e de consulta pública, que permitam identificar a localização, a dimensão e os limites mais adequados para a unidade, sendo que o subsolo e o espaço aéreo, sempre que influírem na estabilidade do ecossistema, integram os limites da unidade. III. A área das unidades de conservação pode ser considerada tanto área rural quanto área urbana, conforme o caso, mas sua zona de amortecimento é, em regra, área urbana, sendo que sua redução de limites pode ser feita por ato do poder público, publicado em Diário Oficial, devidamente motivado, quando necessário. A sequência correta é:",
+    alternativas: [
+      "V, V, V.",
+      "F, F, F.",
+      "V, F, V.",
+      "V, V, F.",
+      "F, V, V."
+    ], resposta_correta: 3 },
+  { id: "q1152", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Maria é proprietária de uma área rural onde há uma nascente de rio. Ela deseja participar do Programa Federal de Pagamento por Serviços Ambientais (PFPSA) para obter recursos públicos destinados à conservação ambiental. No entanto, sua propriedade foi recentemente embargada por órgãos do Sistema Nacional do Meio Ambiente (Sisnama) devido a infrações ambientais. Considerando o presente caso, é correto afirmar que:",
+    alternativas: [
+      "Maria poderá receber recursos públicos do PFPSA, desde que regularize a situação de embargo antes da formalização do contrato;",
+      "a existência de embargo ambiental impede a aplicação de recursos públicos para pagamento por serviços ambientais na propriedade de Maria;",
+      "Maria poderá participar do PFPSA, desde que apresente um plano de recuperação ambiental aprovado pelo órgão competente;",
+      "a vedação à aplicação de recursos públicos não se aplica a Maria, mas apenas a pessoas jurídicas;",
+      "o embargo ambiental não interfere na elegibilidade de Maria para receber recursos do PFPSA se a infração não estiver relacionada aos serviços ambientais prestados."
+    ], resposta_correta: 1 },
+  { id: "q1153", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Uma empresa obteve Licença Prévia (LP) para a instalação de uma unidade industrial, e o cronograma de elaboração dos projetos relacionados ao empreendimento foi estimado em quatro anos. Passados três anos, a empresa, que ainda não havia iniciado as obras para instalação do empreendimento, solicitou ao órgão ambiental a prorrogação da LP. Com base na Resolução CONAMA nº 237/1997, é correto afirmar que:",
+    alternativas: [
+      "o órgão ambiental poderá prorrogar a LP, desde que o prazo total da licença não ultrapasse cinco anos, conforme disposto no cronograma original;",
+      "a LP pode ser prorrogada por prazo indeterminado, considerando o atraso na execução dos projetos previstos;",
+      "a LP não pode ser prorrogada, pois ficaria caracterizada a desídia da empresa, ficando vedada a concessão de nova LP à empresa pelo prazo equivalente ao da licença obtida;",
+      "a LP será automaticamente prorrogada pelo órgão ambiental caso o empreendimento não tenha iniciado suas atividades dentro do prazo previsto;",
+      "o prazo de validade da LP deve ser estabelecido com base no cronograma de implantação do empreendimento, com prazo máximo de dez anos."
+    ], resposta_correta: 0 },
+  { id: "q1154", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "A empresa XYZ pretende instalar uma unidade industrial em área classificada como crítica de poluição. Para obter o licenciamento ambiental necessário, ela deve atender a normas e padrões ambientais estabelecidos pelos órgãos competentes. Com base no caso apresentado, é correto afirmar que:",
+    alternativas: [
+      "o licenciamento para implantação de estabelecimentos industriais em áreas críticas de poluição depende das características dos processos de produção adotados pela empresa, a serem estabelecidos pelo ICMBio;",
+      "as normas e os padrões ambientais para o licenciamento em áreas críticas de poluição são definidos exclusivamente pelo IBAMA, sem a participação de órgãos estaduais e municipais;",
+      "o licenciamento para ampliação de estabelecimentos industriais em áreas críticas de poluição deve considerar as características dos processos de produção, conforme as normas estabelecidas pelos órgãos ambientais competentes;",
+      "a operação de estabelecimentos industriais em áreas críticas de poluição não está sujeita ao atendimento de normas e padrões ambientais específicos;",
+      "a implantação de estabelecimentos industriais em áreas críticas de poluição é proibida, independentemente das medidas de controle ambiental adotadas."
+    ], resposta_correta: 2 },
+  { id: "q1155", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público da União (MPU) — Concurso 2025 — Analista do MPU — Direito (A07) — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Maria é proprietária de uma loja que comercializa produtos eletroeletrônicos. Com a vigência da Política Nacional de Resíduos Sólidos (Lei nº 12.305/2010), ela busca compreender suas responsabilidades na implementação da logística reversa para os produtos que vende. Sobre o caso, é correto afirmar que:",
+    alternativas: [
+      "o poder público e o fabricante são os únicos responsáveis por financiar e operacionalizar os sistemas de logística reversa no país;",
+      "a responsabilidade pela implementação da logística reversa é exclusiva dos fabricantes, não abrangendo comerciantes como Maria;",
+      "os clientes de Maria, como consumidores finais, não possuem qualquer responsabilidade no processo de logística reversa dos produtos que adquirem;",
+      "Maria, como comerciante, não é obrigada a estruturar e implementar sistemas de logística reversa para os produtos eletroeletrônicos que comercializa, devendo estes ser implementados pelo poder público;",
+      "a logística reversa deve ser implementada por fabricantes, importadores, distribuidores e comerciantes de determinados produtos, incluindo eletroeletrônicos, conforme estabelecido pela lei e regulamentações específicas."
+    ], resposta_correta: 4 },
+  { id: "q1156", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO) — Edital 01/2025 — Juiz Substituto — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "José, proprietário de um terreno situado no bioma Cerrado, fora da Amazônia Legal, pretende converter parte de sua área para atividade agropecuária. O imóvel se encontra regularmente inscrito no Cadastro Ambiental Rural (CAR) e possui remanescentes de vegetação nativa, bem como áreas consolidadas anteriormente à vigência do Código Florestal. Considerando o regime jurídico de proteção do Cerrado previsto no Código Florestal (Lei nº 12.651/2012), é correto afirmar que:",
+    alternativas: [
+      "a regularização ambiental é dependente de prévia instituição de unidade de conservação estadual;",
+      "a conversão está condicionada à recomposição integral da vegetação nativa existente na data da inscrição no CAR;",
+      "a supressão é permitida desde que compensada exclusivamente por servidão ambiental instituída no próprio imóvel;",
+      "a preservação de Reserva Legal com vegetação nativa e a observância do regime jurídico das áreas rurais consolidadas são necessárias;",
+      "a exploração está condicionada à autorização federal específica em razão do bioma Cerrado."
+    ], resposta_correta: 3 },
+  { id: "q1157", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO) — Edital 01/2025 — Juiz Substituto — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Uma empresa agrícola de médio porte utiliza agrotóxicos regularmente registrados para o cultivo intensivo de grãos. Após fiscalização ambiental, constatou-se contaminação de curso d'água adjacente à propriedade, associada ao manejo inadequado dos produtos, com risco à saúde humana e à fauna aquática. A empresa sustenta que o uso de produto registrado afasta qualquer responsabilização ambiental. À luz da Lei nº 14.785/2023 e demais normas em vigor, é correto afirmar, quanto à responsabilidade da empresa agrícola, que há:",
+    alternativas: [
+      "necessidade de comprovação de dolo específico do produtor rural;",
+      "responsabilidade apenas se houver proibição posterior do produto;",
+      "afastamento de sanções ambientais por se tratar de atividade agrícola lícita;",
+      "exclusão de responsabilidade, desde que o registro federal esteja válido;",
+      "responsabilização por dano ambiental, ainda que o produto esteja regularmente registrado."
+    ], resposta_correta: 4 },
+  { id: "q1158", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO) — Edital 01/2025 — Juiz Substituto — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "Determinada empresa do setor sucroenergético pretende ampliar sua planta industrial no interior do Estado de Goiás, prevendo: (i) aumento da captação de água superficial em rio estadual para fins industriais; (ii) lançamento de efluentes tratados no mesmo corpo hídrico; e (iii) participação em obra de regularização de vazão destinada a atender múltiplos usuários da bacia. O empreendimento já possui licença ambiental estadual, mas ainda não iniciou a ampliação. Diante desse contexto, considerando a Política Estadual de Recursos Hídricos, é correto afirmar, quanto às exigências e consequências jurídicas aplicáveis, que:",
+    alternativas: [
+      "o lançamento de efluentes tratados em corpo hídrico estadual se sujeita apenas às normas de controle de poluição, sendo incabíveis a cobrança pelo uso dos recursos hídricos e o rateio de custos de obras, por se tratar de utilização indireta da água;",
+      "a participação da empresa em obra de regularização de vazão exige, além da outorga, a celebração obrigatória de consórcio intermunicipal e a realização de audiência pública específica com todos os usuários da bacia, sob pena de nulidade do ato autorizativo;",
+      "a empresa poderá utilizar os recursos hídricos com base exclusiva na licença ambiental já concedida, ficando a outorga dispensada enquanto não houver início da cobrança pelo uso da água na respectiva bacia hidrográfica, sendo o rateio de custos condicionado apenas à adesão voluntária dos usuários;",
+      "a outorga para captação e lançamento de efluentes somente poderá ser concedida após a aprovação do Plano Estadual de Recursos Hídricos por lei específica superveniente, com vigência mínima de 10 anos, e desde que haja parecer favorável prévio do Conselho Estadual de Recursos Hídricos em processo individualizado;",
+      "a ampliação do uso dos recursos hídricos dependerá de cadastramento e outorga específica, podendo assumir a forma de concessão ou autorização, conforme utilidade pública do uso, bem como estará sujeita à cobrança pelo uso da água e ao rateio de custos das obras de aproveitamento múltiplo, segundo critérios definidos em regulamento."
+    ], resposta_correta: 4 },
+  { id: "q1159", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Ceará (TJCE) — Juiz Substituto — Prova Tipo 1 (gabarito definitivo)",
+    enunciado: "O Estado Beta editou norma para incluir, entre as condutas vedadas por lei e sujeitas à multa por infração administrativa ambiental, a prática de rinha de galos, fixando como incursos nas multas ali previstas os participantes envolvidos no evento, neles incluídos os criadores que pratiquem a atividade em benefício da rinha de galos. A respeito da legislação citada, de acordo com o entendimento do Supremo Tribunal Federal, assinale a afirmativa correta.",
+    alternativas: [
+      "É inconstitucional, porque, apesar de a lei ser materialmente compatível com a Constituição, por vedar forma de submissão de animais a atos de crueldade, há incompatibilidade formal com a Constituição, por violação da competência legislativa municipal para legislar sobre temas de interesse local.",
+      "É inconstitucional, porque, apesar de a lei ser formalmente compatível com a Constituição, pela competência estadual concorrente para legislar sobre fauna, há inconstitucionalidade material por violação ao princípio da proporcionalidade e da livre iniciativa, pois a lei estadual presume a responsabilidade objetiva dos criadores apenas em razão da atividade desenvolvida.",
+      "É constitucional, porque a norma estadual foi editada no regular exercício de competência estadual concorrente para legislar sobre fauna, conservação da natureza e proteção do meio ambiente e de sua competência comum para proteger o meio ambiente; ademais, a lei concretiza a proteção jurídico-constitucional referente à vedação, em cláusula genérica, a qualquer forma de submissão de animais a atos de crueldade.",
+      "É constitucional, porque a norma estadual foi editada no regular exercício de competência estadual concorrente com o Município (mas não com a União) para legislar sobre fauna e conservação da natureza e garante, de forma mais protetiva, a proteção jurídico-constitucional referente à vedação a qualquer forma de submissão de animais a atos de crueldade.",
+      "É inconstitucional, porque a competência para legislar sobre fauna é privativa da União, não cabendo aos Estados editar normas que tratem de proteção de animais."
+    ], resposta_correta: 2 },
 ];
