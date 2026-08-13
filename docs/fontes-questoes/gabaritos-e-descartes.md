@@ -1791,3 +1791,390 @@ Caderno **esgotado**.
   específicas não-doutrinárias).
 
 **Total após lote 37: 137 questões Ambiental** (q865-q1096 com lacunas).
+
+## Leva 38 — Direito Ambiental (q1097-q1103) — MPES + TJPR
+
+**Quando**: 2026-08-12. **Motivo**: continuar expansão do tema Ambiental
+(137→144) minerando concursos com bloco ambiental não explorado.
+
+### Concurso: MPES 2026 — Agente Técnico — Engenheiro Ambiental (Tipo 1)
+- Prova: `agente-tecnico-engenheiro-ambiental-cns114-tipo-1.pdf` (60 Qs,
+  aplicada 02/08/2026). Página: `conhecimento.fgv.br/concursos/mpes26`.
+- Gabarito: `mpes-gabarito-preliminar-v2.pdf` (PRELIMINAR — cruzado com
+  doutrina; só inseridas onde gabarito + doutrina concordam, conforme
+  metodologia do projeto).
+- Gabarito Eng Amb PROVA 1 (0-based A-E): Q35=C Q41=D Q43=C Q45=E Q52=E
+  Q51=E (descartada).
+
+Inseridas (q1097-q1100, 4 questões):
+- q1097 ← Q41 (CAR Código Florestal art. 29: obrigatório + §2º "não é
+  título" + §1º III identificações/coordenadas — I e III verdadeiras,
+  II falsa) D(3) ✓ cruzado contra lei 12.651 art. 29 no planalto.
+- q1098 ← Q43 (SNUC art. 9º: Estação Ecológica = preservação natureza
+  + pesquisas científicas, proteção integral) C(2) ✓ cruzado contra
+  lei 9.985 no planalto.
+- q1099 ← Q45 (Diagnóstico Ambiental CONAMA 1/1986: meios físico,
+  biológico e socioeconômico — I, II e III verdadeiras) E(4) ✓
+  doutrina padrão de EIA/RIMA.
+- q1100 ← Q52 (imóvel rural 3 módulos fiscais, APP/RL/AUR degradadas
+  2,5 ha → projeto simplificado de recomposição — Código Florestal
+  art. 67 pequena propriedade ≤4 módulos) E(4) ✓.
+
+Descartadas MPES (gabarito preliminar × doutrina em conflito ou
+estaduais):
+- Q35 (EIV): gabarito C (I e III), mas Estatuto da Cidade art. 38
+  vincula EIV a lei municipal (não operações urbanas consorciadas);
+  item I deveria ser falso. Conflito — descarte.
+- Q51 (plano diretor): gabarito E (I, II e III), mas art. 41 §2º
+  Estatuto da Cidade exige ">quinhentos mil" (não "cinquenta mil")
+  habitantes para plano de transporte; item III falso. Conflito —
+  descarte.
+- Q42, Q50: regulamentação estadual específica do ES (água subterrânea
+  Aracruz, resíduos sólidos ES), sem doutrina federal verificável.
+
+### Concurso: TJPR 2025/2026 — Juiz Substituto (Tipo 1, definitivo)
+- Prova: `juiz-substituto-cns001-tipo-1_0.pdf` (100 Qs, 22/02/2026).
+  Bloco "Direito Ambiental" Q79-81.
+- Gabarito definitivo (21/01/2026): Q78=E Q79=E Q80=A Q81=B.
+
+Inseridas (q1101-q1103, 3 questões):
+- q1101 ← Q79 (caminhão madeira sem licença, fiel depositário — STJ
+  REsp 1.230.517: sem direito subjetivo, mas Adm pode discricionariamente
+  nomear se sem risco) E(4) ✓.
+- q1102 ← Q80 (Súmula 652 STJ — responsabilidade por omissão fiscalização
+  ambiental aplicável à tutela do patrimônio cultural — extensão STJ
+  consistente com q1037 existente) A(0) ✓.
+- q1103 ← Q81 (PSA Lei 14.119/2021: art. 4 XII setor privado medição +
+  art. 3 I pagamento direto; art. 5 III diretriz inclui área urbana, não
+  veda — III falsa → I e II = B) B(1) ✓ cruzado contra lei no planalto.
+
+Descartadas TJPR: Q78 (ICMS revogação benefício fiscal = Tributário,
+fora do escopo Ambiental).
+
+### Resultado da Leva 38
+- Adições líquidas: **+7 questões Ambiental** (q1097-q1103).
+- Total Ambiental: 137 → **144** (q865-q1103, com gaps).
+- Distribuição respostas: A=20 B=30 C=33 D=29 E=32.
+- `tsc --noEmit` limpo. Nenhum id duplicado (q1097-q1103 únicos).
+
+## Leva 39 — Direito Ambiental (q1104-q1109) — EPE Efluentes + PGE-SC
+
+**Quando**: 2026-08-12. **Motivo**: subagente localizou 8 concursos com
+blocos ambientais não minerados (todos com gabarito definitivo); primeiro
+lote usa EPE (cargo já parcialmente minerado, novo cargo) e PGE-SC 2022.
+
+### Concurso: EPE 2024 — Analista de Pesquisa Energética — Meio Ambiente/Emissão e Efluentes (Tipo 1)
+- Prova: `agente-tecnico-engenheiro-ambiental-cns114-tipo-1.pdf` etc.
+  Cargo ape_007 (distinto do ape_004 Análises Ambientais e ape_005
+  Ecologia já minerados). Q1-30 = conhecimento comum (legislação).
+- Gabarito DEFINITIVO: `_epe_gab.pdf` (mesmo arquivo, cargo Emissão e
+  Efluentes TIPO 1: Q28=B Q29=B Q30=E).
+
+Inseridas (q1104-q1105, 2 questões):
+- q1104 ← Q30 (outorga Lei 9.433/1997: geração elétrica subordinada ao
+  PNRH — art. 12 §2º) E(4) ✓ cruzado contra lei no planalto.
+- q1105 ← Q28 (CONAMA 237/1997 art. 8º I: LP aprova localização e
+  concepção; LI autoriza implantação; LO autoriza operação) B(1) ✓.
+
+Descartadas EPE Efluentes:
+- Q29 (PNMA Lei 6.938 categorias poluidoras): gabarito B (I e II), mas
+  classificação por anexo da lei ambígua (fotovoltaica em "Indústrias
+  Diversas" incerto). Descartada por cautela.
+- Q31 (CONAMA 420/2009 Valor de Prevenção): técnica de concentração,
+  não doutrina legal pura.
+- Q55 (CONAMA 506/2024 IQAr): cálculo, não doutrina.
+
+### Concurso: PGE-SC 2022 — Procurador do Estado (Tipo 1, definitivo)
+- Prova: `procurador_do_estadopge-proc_tipo_1.pdf` (aplicada 04/12/2022).
+  Bloco "Direito Ambiental" Q71-Q75 (5 questões).
+- Gabarito DEFINITIVO: `pge_sc_2022_gabaritos_definitivo_para_publicacao_com_cabecalho.pdf`.
+  Q71=D Q72=C Q73=C Q74=C Q75=B.
+
+Inseridas (q1106-q1109, 4 questões):
+- q1106 ← Q71 (CF art. 21 XXIII: competência privativa da União para
+  serviços nucleares — Estados não podem legislar sobre termonuclear
+  nem exigir plebiscito) D(3) ✓.
+- q1107 ← Q73 (Lei 9.605/1998 art. 32 §1º-A + §2º: cão/gato maus-tratos
+  = reclusão 2-5 anos; morte = aumento 1/6 a 1/3) C(2) ✓ cruzado contra
+  lei no planalto (Lei 14.064/2020).
+- q1108 ← Q74 (Lei 11.445/2007 art. 11 §5º, incluído pela Lei
+  14.026/2020: titular define entidade de regulação e fiscalização
+  independentemente da modalidade de prestação) C(2) ✓ cruzado contra
+  lei no planalto.
+- q1109 ← Q75 (Lei 9.985/2000 art. 36: significativo impacto ambiental
+  → apoiar implantação/manutenção de UC de Proteção Integral, ≥0,5%
+  custos) B(1) ✓ cruzado contra lei no planalto.
+
+Descartadas PGE-SC:
+- Q72 (transparência ambiental STJ): tese de incidente de assunção de
+  competência (jurisprudência específica), sem verificação clara contra
+  acórdão. Descartada por cautela metodológica.
+
+### Resultado da Leva 39
+- Adições líquidas: **+6 questões Ambiental** (q1104-q1109).
+- Total Ambiental: 144 → **150** (q865-q1109, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes passando. Nenhum id duplicado.
+
+### Descoberta de subagente (8 concursos novos com bloco ambiental definitivo)
+Subagente paginou `conhecimento.fgv.br/concursos?page=0..12` (339 slugs)
+e localizou 8 concursos não minerados com bloco ambiental + gabarito
+definitivo verificado HTTP 200:
+1. TRF2 Juiz Federal Substituto 2026 — `gabarito-definitivo-trf2-juiz-substituto-v2.pdf`
+2. PGE-SC Procurador 2022 ✓ (MINERADO nesta leva)
+3. TCE-BA Auditor 2023 — `tce-ba-gabaritos-definitivo.pdf`
+4. TJ-SC Juiz Substituto 2024 — `tjscjuizsub2024_gabarito_definitivov2.pdf`
+5. TRF1 Juiz Federal Substituto 2025 — `trf1_gabarito_definitivo.pdf`
+6. TJ-MT Juiz Substituto 2024 — `tjmt_juizsub_gabarito_definitivo.pdf`
+7. TJ-SC Juiz Substituto 2022 — `tjsc2022juiz_gabarito_definitivo.pdf` (64 menções)
+8. TCE-TO Auditor Controle Externo Engenharia Ambiental 2022
+
+Detalhes e URLs completos salvos na memória do projeto
+(`fgv-slugs-diretos-ambiental-juiz-tce-pge.md`). Próximas levas podem
+minerar os 7 restantes (TJ-SC 2022 e TRF2 2026 parecem mais ricos).
+
+## Leva 40 — Direito Ambiental (q1110-q1114) — TJ-SC 2022 + TRF2 2026
+
+**Quando**: 2026-08-12. Continuação da mineração dos concursos
+localizados pelo subagente (Leva 39 documentou 8 candidatos).
+
+### Concurso: TJ-SC 2022 — Juiz Substituto (Tipo 1, definitivo)
+- Prova: `juiz_substituto_juz-sub_tipo_1.pdf` (aplicada 21/08/2022).
+  Bloco Ambiental esparsado em BLOCO III (Q93-96). Apesar das "64
+  menções" do subagente, a maioria são termos periféricos; só Q94
+  passou verificação gabarito+doutrina.
+- Gabarito DEFINITIVO: `tjsc2022juiz_gabarito_definitivo.pdf`.
+  Q94=C Q95=A Q96=B.
+
+Inseridas (1 questão):
+- q1110 ← Q94 (Lei 12.305/2010 art. 8: instrumentos PNRS — "proibição
+  de consórcios entre entes" NÃO é instrumento; a lei incentiva
+  cooperação) C(2) ✓ cruzado contra lei no planalto.
+
+Descartadas TJ-SC 2022 (conflito gabarito × doutrina):
+- Q95 (uso de fogo Joaquim, Código Florestal art. 38 I): gabarito A
+  ("proibido em qualquer hipótese") × doutrina art. 38 I (permite com
+  aprovação do órgão estadual). Conflito claro — descarte.
+- Q96 (loteamento responsabilidade civil, Súmula 652 STJ): gabarito B
+  (responsabilidade subjetiva sem dolo/culpa) × doutrina Súmula 652
+  (responsabilidade objetiva solidária subsidiária = alternativa D).
+  Conflito — descarte.
+
+### Concurso: TRF2 2026 — Juiz Federal Substituto 2ª Região (Tipo 1, definitivo)
+- Prova: `juiz-federal-substituto-da-2a-regiao-cns100-tipo-1.pdf`
+  (aplicada 12/04/2026, 100 Qs). Bloco "Direito Ambiental, Direito
+  Internacional Público e Privado" Q81-84, mais Q8 (competência ambiental).
+- Gabarito DEFINITIVO: `gabarito-definitivo-trf2-juiz-substituto-v2.pdf`.
+  Q8=B Q81=C Q82=C Q83=D.
+
+Inseridas (q1111-q1114, 4 questões):
+- q1111 ← Q81 (SNUC Lei 9.985/2000: Estação Ecológica dispensa
+  consulta pública art. 22 §4º; limitações provisórias são ato
+  administrativo não judicial; mosaico art. 26 gestão integrada) — só
+  III verdadeiro C(2) ✓ cruzado contra lei no planalto.
+- q1112 ← Q82 (LC 140/2011: município sem órgão ambiental capacitado
+  nem conselho → licenciamento pelo Estado em caráter SUPLETIVO
+  art. 13) C(2) ✓.
+- q1113 ← Q83 (Lei 9.433/1997 art. 12 §1º II: derivações/captações/
+  lançamentos insignificantes = EXCEÇÃO à outorga, não regra) D(3) ✓
+  cruzado contra lei no planalto.
+- q1114 ← Q8 (CF art. 24 VI + §1º-2º: proteção ambiental = competência
+  concorrente União/Estados, ressalvada lei federal exauriente) B(1) ✓.
+
+### Resultado da Leva 40
+- Adições líquidas: **+5 questões Ambiental** (q1110-q1114).
+- Total Ambiental: 150 → **155** (q865-q1114, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Próximos concursos do subagente ainda não minerados
+1. TRF1 2025 Juiz Federal (1ª Região) — `trf1_gabarito_definitivo.pdf`
+2. TCE-BA 2023 Auditor (43 menções ambientais) — `tce-ba-gabaritos-definitivo.pdf`
+3. TJ-SC 2024 Juiz Substituto — `tjscjuizsub2024_gabarito_definitivov2.pdf`
+4. TJ-MT 2024 Juiz Substituto — `tjmt_juizsub_gabarito_definitivo.pdf`
+5. TCE-TO 2022 Auditor Engenharia Ambiental — `tceto2022_gabarito_definitivo_*.pdf`
+
+A produtividade está caindo (conflitos gabarito×doutrina frequentes
+em provas de juiz — Súmula 652, art. 38 I). Considerar pausar em 155
+ou prosseguir com TCE-BA (auditor costuma ter doutrina mais limpa).
+
+## Leva 41 — Direito Ambiental (q1115-q1120) — TCE-BA 2023 + TRF1 2025
+
+**Quando**: 2026-08-12. Continuação da mineração dos concursos do
+subagente (Leva 39).
+
+### Concurso: TCE-BA 2023 — Auditor Estadual de Controle Externo (Tipo 1, definitivo)
+- Prova: `auditor-estadual-de-controle-externoaud-001-tipo-1.pdf`
+  (aplicada 12/12/2023, 80 Qs objetivas + 2 discursivas).
+- Gabarito DEFINITIVO: `tce-ba-gabaritos-definitivo.pdf`. Q37=B Q76=D Q80=B.
+
+Inseridas (1 questão):
+- q1115 ← Q80 (CONAMA 01/1986: diagnóstico ambiental do **meio físico**
+  = regime hidrológico + correntes marinhas e atmosféricas; espécies
+  raras = meio biológico, uso do solo = socioeconômico) B(1) ✓ cruzado
+  contra doutrina CONAMA 01/86 anexo.
+
+Descartadas TCE-BA (conflito gabarito × doutrina):
+- Q76 (Lei 9.433/1997 diretrizes gerais de ação): gabarito D (água bem
+  de domínio público = fundamento art. 1) × doutrina art. 3 II
+  (alternativa B "adequação gestão diversidades" = diretriz correta).
+  Gabarito confundiu fundamentos (art. 1) com diretrizes (art. 3).
+- Q37 (taxa preservação ambiental estadual): gabarito B (curso de água
+  pertencente a Alfa) × doutrina competência concorrente art. 24 VI
+  (alternativa C mais precisa). Tensão B×C — descarte.
+
+### Concurso: TRF1 2025 — Juiz Federal Substituto 1ª Região (Tipo 1, definitivo)
+- Prova: `trf1-t1.pdf` (aplicada 15/06/2025, 100 Qs). Bloco "Direito
+  Ambiental, Direito Internacional Público" Q81-90, mais Q85 (Est. Cidade).
+- Gabarito DEFINITIVO: `trf1_gabarito_definitivo.pdf`.
+  Q83=C Q84=A Q85=A Q86=D Q87=C.
+
+Inseridas (q1116-q1120, 5 questões):
+- q1116 ← Q83 (Lei 12.334/2010 Política Nacional de Segurança de
+  Barragens: empreendedor deve elaborar e manter atualizado o Plano
+  de Segurança da Barragem - PSB, art. 8, submetendo ao órgão
+  fiscalizador) C(2) ✓ cruzado contra lei no planalto.
+- q1117 ← Q84 (Lei 9.605/1998 art. 6 dosimetria: gravidade do fato
+  I + antecedentes II + situação econômica III - alternativa A reúne
+  I e II) A(0) ✓ cruzado contra lei no planalto.
+- q1118 ← Q85 (Estatuto da Cidade art. 46 consórcio imobiliário:
+  proprietário transfere imóvel ao município, recebe unidades
+  urbanizadas/edificadas após obras - Lei 13.465/2017) A(0) ✓.
+- q1119 ← Q86 (Lei 11.445/2007 gestão associada saneamento: associação
+  voluntária entre entes via convênio de cooperação ou consórcio
+  público, CF art. 241; em regiões metropolitanas requer convênios
+  entre municípios e estado) D(3) ✓ cruzado contra lei no planalto.
+- q1120 ← Q87 (CONAMA 237/1997 art. 10 §1: arquivamento não impede
+  reapresentação do pedido mediante novo pagamento de custo de
+  análise) C(2) ✓.
+
+### Resultado da Leva 41
+- Adições líquidas: **+6 questões Ambiental** (q1115-q1120).
+- Total Ambiental: 155 → **161** (q865-q1120, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Conclusão sobre os 8 concursos do subagente
+Minerados até agora (5/8): PGE-SC 2022, TJ-SC 2022, TRF2 2026, TCE-BA
+2023, TRF1 2025. Restam 3: TJ-SC 2024, TJ-MT 2024, TCE-TO 2022 EngAmb.
+
+Observação: TRF1 2025 foi o mais produtivo (5 questões limpas, todas
+verificadas). TCE-BA teve 2 conflitos gabarito×doutrina (1 aproveitada).
+O rendimento está estável (~2-5 questões por concurso após descartes
+metodológicos). Para alcançar 200 Ambiental faltam ~39 questões.
+
+## Leva 42 — Direito Ambiental (q1121-q1123) — TJ-SC 2024 + TJ-MT 2024
+
+**Quando**: 2026-08-12. Continuação da mineração dos concursos do
+subagente (Leva 39).
+
+### Concurso: TJ-SC 2024 — Juiz Substituto (Tipo 1, definitivo v2 retificado)
+- Prova: `juiz-substitutojz-subst-tipo-1.pdf` (aplicada 13/10/2024).
+  Bloco "Ambiental, Direito Administrativo" Q82-85.
+- Gabarito DEFINITIVO: `tjscjuizsub2024_gabarito_definitivov2.pdf`.
+  Q82=B Q83=D Q84=D Q85=E.
+
+Inseridas (q1121-q1122, 2 questões):
+- q1121 ← Q83 (prescrição dano ambiental STJ: dano individual de Maria
+  = prescritível quinquenal, dano coletivo/ACP do MP = imprescritível;
+  Súmula 652 STJ + REsp 1.230.517) D(3) ✓.
+- q1122 ← Q84 (Código Florestal Lei 12.651/2012: I "proibido em
+  qualquer situação" FALSO — art. 38 I permite com autorização; II
+  Política Nacional Queimadas VERDADEIRO — art. 40 Lei 14.406/2022;
+  III instrumentos impactos queimadas VERDADEIRO — art. 40 §1º) D(3)
+  ✓ cruzado contra lei no planalto (art. 40 confirmado via arquivo
+  local cf.html).
+
+Descartadas TJ-SC 2024:
+- Q82 (transparência ambiental STJ): jurisprudência específica de IAC,
+  sem verificação clara. Descarte por cautela.
+- Q85 (trânsito cargas vivas competência): jurisprudência STF complexa
+  (competência privativa União art. 22 I trânsito vs concorrente
+  art. 24 VI fauna). Descarte por cautela.
+
+### Concurso: TJ-MT 2024 — Juiz Substituto (Tipo 1, definitivo)
+- Prova: `juiz-substituto-tjmtobjjz-subst-mt-tipo-1.pdf`.
+  Bloco "Ambiental, Direito Administrativo" Q82-84.
+- Gabarito DEFINITIVO: `tjmt_juizsub_gabarito_definitivo.pdf`.
+  Q82=A Q83=D Q84=C.
+
+Inseridas (q1123, 1 questão):
+- q1123 ← Q82 (competência estadual licenciamento ambiental: CF art. 24
+  VI + §2 competência suplementar; LC 140/2011 art. 13 distribui
+  competências; lei estadual simplifica licenciamento baixo/médio
+  impacto = constitucional) A(0) ✓.
+
+Descartadas TJ-MT 2024 (conflito gabarito × doutrina):
+- Q83 (PSA Lei 14.119/2021): gabarito D (APP não pode ser PSA por
+  obrigação legal) × doutrina art. 3 (modalidades incluem títulos
+  verdes/CRA = alternativa C). Ambiguidade C×D — descarte.
+- Q84 (Lei 9.433 cobrança recursos hídricos): gabarito C ("apenas em
+  áreas urbanas e exclusivamente arrecadar fundos") × doutrina art. 5
+  IV + art. 19-22 (cobrança em todo território, reconhece água como
+  bem econômico + financia gestão). Gabarito claramente errado —
+  descarte.
+
+### Resultado da Leva 42
+- Adições líquidas: **+3 questões Ambiental** (q1121-q1123).
+- Total Ambiental: 161 → **164** (q865-q1123, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Status dos 8 concursos do subagente
+Minerados (6/8): PGE-SC 2022, TJ-SC 2022, TRF2 2026, TCE-BA 2023,
+TRF1 2025, TJ-SC 2024, TJ-MT 2024. Restam: TCE-TO 2022 (Eng Amb).
+
+Observação: o rendimento caiu nesta leva (3 questões de 2 concursos,
+vs 5-6 das levas anteriores). Os conflitos gabarito×doutrina em provas
+de juiz estadual (TJ-SC 2022 Leva 40, TJ-MT 2024 agora) são frequentes
+— provavelmente porque essas provas testam jurisprudência marginal em
+vez de doutrina codificada. Para 200 Ambiental faltam ~36 questões.
+
+## Leva 43 — Direito Ambiental (q1124-q1126) — TCE-TO 2022 Engenharia Ambiental
+
+**Quando**: 2026-08-12. Último dos 8 concursos do subagente (Leva 39).
+
+### Concurso: TCE-TO 2022 — Auditor de Controle Externo — Engenharia Ambiental (Tipo 1, definitivo)
+- Prova: `auditor_de_controle_externo_-_engenharia_ambientalaudengamb_tipo_1.pdf`
+  (aplicada 16/10/2022, 70 Qs). Único cargo onde o cargo em si é
+  ambiental — bloco Conhecimentos Específicos Q41-70 denso em
+  legislação ambiental (CONAMA 1/86, 237/97, 307/02, 357/05, 420/09;
+  SNUC; Lei 9.605/98).
+- Gabarito DEFINITIVO: `tceto2022_gabarito_definitivo_164151578464.pdf`
+  (PDF único cobre 22+ cargos; extraída apenas a seção "Auditor de
+  Controle Externo - Engenharia Ambiental - TIPO 1", linhas Q1-70).
+  Q51=C Q55=D Q56=A Q57=C Q58=B Q59=C.
+
+Inseridas (q1124-q1126, 3 questões):
+- q1124 ← Q51 (SNUC Lei 9.985/2000: I "usos únicos" FALSO — cada
+  categoria tem usos específicos art. 7; II "impedimento extrativismo"
+  FALSO — UCs Uso Sustentável permitem art. 14/17; III expansão/
+  diversificação economia VERDADEIRO — art. 5 VII + art. 6) → só III
+  C(2) ✓.
+- q1125 ← Q55 (Lei 9.605/1998 art. 20 sanções restritivas de direito:
+  suspensão/cancelamento registro, perda incentivos fiscais, perda
+  financiamento — "perda função pública/suspensão direitos políticos"
+  NÃO está no art. 20, é sanção da Lei 8.429/92 improbidade) D(3) ✓
+  (doutrina consolidada, planalto indisponível nesta sessão).
+- q1126 ← Q56 (CONAMA 237/1997: enunciado descreve LP "planejamento,
+  aprova localização e concepção" = art. 3 I; art. 11 §1 estudos por
+  profissionais habilitados às expensas do empreendedor) A(0) ✓.
+
+Descartadas TCE-TO (não verificadas por indisponibilidade do planalto
+ou CONAMA específica não-confirmada):
+- Q57 (CONAMA 357/2005 lançamento efluentes): gabarito C, mas sem
+  verificação da resolução específica nesta sessão (planalto offline).
+- Q58 (CONAMA 420/2009 contaminação solo): idem, CONAMA específica.
+- Q59 (CONAMA 01/1986 EIA atividades): gabarito C, alternativa C
+  "desconsiderando correntes atmosféricas" suspeita de erro — CONAMA
+  1/86 inclui correntes atmosféricas. Conflito aparente — descarte.
+
+### Resultado da Leva 43
+- Adições líquidas: **+3 questões Ambiental** (q1124-q1126).
+- Total Ambiental: 164 → **167** (q865-q1126, com gaps).
+- `tsc --noEmit` limpo. 5/5 testes data passando. Nenhum id duplicado.
+
+### Conclusão — todos os 8 concursos do subagente minerados
+Total extraído das 8 fontes do subagente (Levas 39-43): **+30 questões
+Ambiental** (137 → 167). Os 8 concursos estão agora esgotados:
+PGE-SC 2022, TJ-SC 2022, TRF2 2026, TCE-BA 2023, TRF1 2025,
+TJ-SC 2024, TJ-MT 2024, TCE-TO 2022.
+
+Para alcançar 200 Ambiental faltam ~33 questões. Novas fontes exigirão
+nova rodada de descoberta (subagente paginando conhecimento.fgv.br).

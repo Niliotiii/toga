@@ -1234,4 +1234,274 @@ export const QUESTOES_DIREITO_AMBIENTAL: Questao[] = [
       "em dois ou mais Estados, no mar territorial e em terras indígenas.",
       "em mais de um Município ou em unidades de conservação de domínio estadual ou do Distrito Federal e no mar territorial."
     ], resposta_correta: 3 },
+  { id: "q1097", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES) — Concurso Público Edital 01/2026 — Agente Técnico — Engenheiro Ambiental — Prova aplicada em 02/08/2026 — Tipo 1 (gabarito preliminar)",
+    enunciado: "O Cadastro Ambiental Rural (CAR) foi criado com a finalidade de integrar as informações ambientais das propriedades e posses rurais, compondo base de dados para controle, monitoramento, planejamento ambiental e combate ao desmatamento. Sobre o CAR, analise os itens a seguir. I. A inscrição no CAR é obrigatória e por prazo indeterminado para todas as propriedades e posses rurais. II. O cadastramento será considerado título para fins de reconhecimento do direito de propriedade ou posse e de comprovação no Sistema de Tributação da Terra. III. A inscrição do imóvel rural no CAR exigirá do proprietário ou possuidor rural, dentre outras informações, sua identificação e a identificação do imóvel, por meio de planta e memorial descritivo, contendo a indicação das coordenadas geográficas. Está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "III, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas."
+    ], resposta_correta: 3 },
+  { id: "q1098", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES) — Concurso Público Edital 01/2026 — Agente Técnico — Engenheiro Ambiental — Prova aplicada em 02/08/2026 — Tipo 1 (gabarito preliminar)",
+    enunciado: "Uma equipe de pesquisadores pretende desenvolver um estudo sobre restauração de ecossistemas modificados em uma unidade de conservação de proteção integral. O estudo tem como objetivo a preservação da natureza e a realização de pesquisas científicas. A unidade de conservação em questão, de acordo com o Sistema Nacional de Unidades de Conservação (SNUC), é uma",
+    alternativas: [
+      "Reserva Nacional.",
+      "Floresta Nacional.",
+      "Estação Ecológica.",
+      "Área de Proteção Ambiental.",
+      "Área de Relevante Interesse Ecológico."
+    ], resposta_correta: 2 },
+  { id: "q1099", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES) — Concurso Público Edital 01/2026 — Agente Técnico — Engenheiro Ambiental — Prova aplicada em 02/08/2026 — Tipo 1 (gabarito preliminar)",
+    enunciado: "O Diagnóstico Ambiental deve caracterizar a situação ambiental da área de influência, antes da implantação do projeto. Sobre o Diagnóstico Ambiental, analise as afirmativas a seguir. I. Deve apresentar uma completa descrição do meio físico — o subsolo, as águas, o ar e o clima, destacando os recursos minerais, a topografia, os tipos e aptidões do solo, os corpos d'água, as correntes marinhas e as correntes atmosféricas. II. Deve apresentar uma completa descrição do meio biológico e dos ecossistemas naturais — a fauna e a flora, destacando as espécies indicadoras da qualidade ambiental e as áreas de preservação permanente. III. Deve apresentar uma completa descrição do meio socioeconômico — o uso e a ocupação do solo, os usos da água e a socioeconomia, destacando as relações de dependência entre a sociedade local, os recursos ambientais e a potencial utilização futura desses recursos. Está correto o que se afirma em:",
+    alternativas: [
+      "I, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II e III apenas.",
+      "I, II e III."
+    ], resposta_correta: 4 },
+  { id: "q1100", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES) — Concurso Público Edital 01/2026 — Agente Técnico — Engenheiro Ambiental — Prova aplicada em 02/08/2026 — Tipo 1 (gabarito preliminar)",
+    enunciado: "Um imóvel rural localizado no município de Cachoeiro de Itapemirim, ES, possui 3 módulos fiscais e o somatório das Áreas de Preservação Permanente (APP), de Reserva Legal (RL) e de Uso Restrito (AUR), e degradadas é de 2,5 hectares. Esse imóvel poderá ser regularizado mediante",
+    alternativas: [
+      "cadastro florestal rural.",
+      "relatório de monitoramento.",
+      "termos de ajustamento de conduta.",
+      "projeto de monitoramento de áreas degradadas.",
+      "projeto simplificado de recomposição de áreas degradadas."
+    ], resposta_correta: 4 },
+  { id: "q1101", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Paraná (TJPR) — Concurso 2025/2026 — Juiz Substituto — Prova aplicada em 22/02/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O órgão ambiental competente apreendeu o caminhão de Maria, que estava transportando madeira sem a licença ambiental e os demais documentos obrigatórios. Inconformada, Maria ajuizou ação judicial pleiteando a liberação do veículo. No caso em tela, o magistrado deverá decidir, observando a jurisprudência do Superior Tribunal de Justiça no sentido de que Maria",
+    alternativas: [
+      "não possui direito subjetivo de ser nomeada fiel depositária do bem, e a Administração Pública não pode nomeá-la, ainda que entenda oportuno e conveniente.",
+      "possui direito subjetivo de ser nomeada fiel depositária do bem, desde que apresente caução no valor de mercado do veículo.",
+      "pode ser nomeada fiel depositária do bem, conforme critério discricionário da Administração Pública, desde que apresente caução no valor do dano ambiental.",
+      "não pode ser nomeada fiel depositária do bem, diante de expressa vedação legal, sendo o bem restituído apenas após o término do processo administrativo e caso não seja decretada a perda do bem.",
+      "não titulariza direito público subjetivo de ser nomeada fiel depositária do bem, mas a Administração Pública pode, discricionariamente, nomeá-la, desde que a posse do bem não traga risco de utilização em novas infrações."
+    ], resposta_correta: 4 },
+  { id: "q1102", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Paraná (TJPR) — Concurso 2025/2026 — Juiz Substituto — Prova aplicada em 22/02/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O verbete de Súmula 652 do Superior Tribunal de Justiça dispõe: \"A responsabilidade civil da Administração Pública por danos ao meio ambiente, decorrente de sua omissão no dever de fiscalização, é de caráter solidário, mas de execução subsidiária\". De acordo com o STJ, tal entendimento",
+    alternativas: [
+      "é aplicável à tutela do patrimônio cultural.",
+      "não é aplicável aos danos climáticos.",
+      "não é aplicável aos danos ambientais decorrentes de uso de agrotóxicos.",
+      "é aplicável ao patrimônio privado, caso haja curso hídrico no imóvel, mesmo sem dano ambiental.",
+      "é aplicável a danos não ambientais relacionados a organismos geneticamente modificados."
+    ], resposta_correta: 0 },
+  { id: "q1103", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Paraná (TJPR) — Concurso 2025/2026 — Juiz Substituto — Prova aplicada em 22/02/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 14.119/2021 instituiu a Política Nacional de Pagamento por Serviços Ambientais. Nesse contexto, observe as assertivas a seguir: I. Entre os objetivos da Política Nacional de Pagamento por Serviços Ambientais, está o de incentivar o setor privado a incorporar a medição das perdas ou ganhos dos serviços ecossistêmicos nas cadeias produtivas vinculadas aos seus negócios; II. Entre as modalidades de pagamento por serviços ambientais, destaca-se o pagamento direto, monetário ou não monetário; III. Entre as diretrizes da Política Nacional de Pagamento por Serviços Ambientais, merece destaque a utilização do pagamento por serviços ambientais como instrumento de promoção do desenvolvimento social, ambiental, econômico e cultural das populações em área rural (vedada a incidência em área urbana) e dos produtores rurais, em especial das comunidades tradicionais, dos povos indígenas e dos agricultores familiares. De acordo com o citado diploma legal, está correto o que se afirma em",
+    alternativas: [
+      "II e III, apenas.",
+      "I e II, apenas.",
+      "I e III, apenas.",
+      "II, apenas.",
+      "I, II e III."
+    ], resposta_correta: 1 },
+  { id: "q1104", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Emissão e Efluentes — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A geração hidrelétrica desempenha um papel crucial no fornecimento de energia elétrica no Brasil, estando fortemente relacionada com a boa gestão dos recursos hídricos no país. A Lei nº 9.433, de 8 de janeiro de 1997, estabelece diretrizes para o uso sustentável e a gestão dos recursos hídricos no Brasil, incluindo a outorga de direitos de uso da água. No contexto da referida lei, assinale a afirmativa correta.",
+    alternativas: [
+      "A outorga de direito de uso de recursos hídricos deverá ser suspensa parcial ou totalmente devido à ausência de uso por dois anos consecutivos.",
+      "A extração de água de aquífero subterrâneo para insumo de processo produtivo não está sujeita a outorga pelo poder público.",
+      "O Poder Executivo Federal não poderá delegar aos Estados e ao Distrito Federal competência para conceder outorga de direito de uso de recurso hídrico de domínio da União.",
+      "A outorga e a utilização de recursos hídricos sob o domínio da União, por ser um recurso estratégico, para fins de geração de energia elétrica são concedidas pelo Ministério da Defesa.",
+      "A outorga e a utilização de recursos hídricos para fins de geração de energia elétrica estão subordinadas ao Plano Nacional de Recursos Hídricos."
+    ], resposta_correta: 4 },
+  { id: "q1105", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Empresa de Pesquisa Energética (EPE) — Edital 03/2024 — Analista de Pesquisa Energética — Meio Ambiente/Emissão e Efluentes — Prova aplicada em 01/09/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Resolução CONAMA nº 237 estabelece os procedimentos e critérios para o licenciamento ambiental no Brasil. Ela detalha as responsabilidades dos órgãos ambientais e define as etapas do processo de licenciamento. Considere um projeto que visa construir uma usina solar fotovoltaica de 300MW de potência instalada no Nordeste brasileiro. Tendo em vista que o projeto deve atender a referida resolução, assinale a afirmativa correta.",
+    alternativas: [
+      "A Licença de Instalação (LI) permite que a usina entre em funcionamento após a verificação do cumprimento das condições estabelecidas nas licenças anteriores.",
+      "A Licença Prévia (LP) avalia a viabilidade ambiental do projeto e aprova a localização e concepção, considerando os aspectos ambientais.",
+      "A Licença de Operação (LO) autoriza o início da construção da usina, assegurando que todas as exigências e medidas de controle ambiental sejam atendidas.",
+      "Por tratar-se de uma geração de energia limpa e renovável, a Licença Prévia (LP) é facultativa.",
+      "Por tratar-se de uma geração de energia limpa e renovável, a Licença de Instalação (LI) é facultativa."
+    ], resposta_correta: 1 },
+  { id: "q1106", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Procuradoria-Geral do Estado de Santa Catarina (PGE-SC) — Edital 01/2022 — Procurador do Estado — Prova aplicada em 04/12/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Por meio de emenda à sua Constituição, o Estado Beta editou a seguinte norma: \"Observada a legislação federal pertinente, a construção de centrais termelétricas e hidrelétricas dependerá de projeto técnico de impacto ambiental e aprovação da Assembleia Legislativa; a de centrais termonucleares, desse projeto, dessa aprovação e de consulta plebiscitária\". De acordo com o entendimento do Supremo Tribunal Federal, o artigo inserido na Constituição do Estado Beta é:",
+    alternativas: [
+      "constitucional, porque confere maior proteção ambiental às atividades e aos empreendimentos objeto da norma, prestigiando o meio ambiente ecologicamente equilibrado;",
+      "constitucional, porque é competência comum da União, dos Estados, do Distrito Federal e dos Municípios proteger o meio ambiente e combater a poluição em qualquer de suas formas;",
+      "inconstitucional, formalmente, porque incorre em indevida invasão da competência privativa dos Municípios para explorar serviços de interesse local;",
+      "inconstitucional, formalmente, porque incorre em indevida invasão da competência privativa da União para explorar serviços relacionados à atividade nuclear e à energia e legislar a seu respeito;",
+      "constitucional, desde que conferida interpretação conforme a Constituição da República de 1988, porque, apesar de se tratar de matéria de competência privativa da União, a norma restringiu atividade nuclear, que é fundada na teoria do risco integral."
+    ], resposta_correta: 3 },
+  { id: "q1107", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Procuradoria-Geral do Estado de Santa Catarina (PGE-SC) — Edital 01/2022 — Procurador do Estado — Prova aplicada em 04/12/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "João, de forma livre e consciente, em setembro de 2022, praticou ato de maus-tratos a um cachorro caramelo, vira-lata que vive na praça da cidade e de propriedade de José, morador em situação de rua, que cuidava com carinho de seu animal de estimação. Em razão dos odiosos atos de maus-tratos, consistentes em fortes e diversos chutes contra o animal, o cachorro morreu após a agressão. Consoante dispõe a Lei nº 9.605/1998, João praticou crime:",
+    alternativas: [
+      "de menor potencial ofensivo, punível com detenção, de três meses a um ano, e multa;",
+      "de menor potencial ofensivo, mas não faz jus à transação penal por se tratar de crime ambiental;",
+      "punível com pena de reclusão, de dois a cinco anos, e multa, mais aumento de pena de um sexto a um terço, em razão da morte do animal;",
+      "de maus-tratos a animal, em sua forma qualificada em razão da morte do animal, punível com pena de reclusão, de quatro a oito anos, e multa;",
+      "ambiental qualificado pela morte do animal punível com pena de reclusão, de dois a quatro anos, e multa, mais aumento de pena de um sexto à metade, em razão de o animal pertencer a pessoa vulnerável."
+    ], resposta_correta: 2 },
+  { id: "q1108", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Procuradoria-Geral do Estado de Santa Catarina (PGE-SC) — Edital 01/2022 — Procurador do Estado — Prova aplicada em 04/12/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 11.445/2007 estabelece as diretrizes nacionais para o saneamento básico e consiste em importante diploma legislativo na concretização do direito fundamental ao meio ambiente ecologicamente equilibrado e em tema de saúde pública. De acordo com a citada lei, em especial com a redação atualizada pela Lei nº 14.026/2020 (novo marco legal do saneamento básico), em matéria de regulação, é correto afirmar que:",
+    alternativas: [
+      "a adesão dos titulares dos serviços públicos de saneamento de interesse local às estruturas das formas de prestação regionalizada é obrigatória quando houver entidade reguladora legalmente constituída;",
+      "as responsabilidades administrativa e civil, no caso de prestação regionalizada dos serviços de saneamento, não são aplicadas aos titulares dos serviços públicos de saneamento, quando houver entidade reguladora em atuação;",
+      "o titular dos serviços públicos de saneamento básico deverá definir a entidade responsável pela regulação e fiscalização desses serviços, independentemente da modalidade de sua prestação;",
+      "os chefes dos Poderes Executivos poderão formalizar a gestão associada para o exercício de funções relativas aos serviços públicos de saneamento básico, sendo obrigatória, em caso de convênio de cooperação e inexistência de entidade reguladora, a autorização legal;",
+      "a existência de normas que prevejam os meios para o cumprimento das diretrizes da política nacional de saneamento básico, excluindo a designação de entidade de regulação no caso de prestação direta do serviço de saneamento, é condição de eficácia dos contratos sobre o tema."
+    ], resposta_correta: 2 },
+  { id: "q1109", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Procuradoria-Geral do Estado de Santa Catarina (PGE-SC) — Edital 01/2022 — Procurador do Estado — Prova aplicada em 04/12/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A sociedade empresária Alfa protocolizou requerimento de licença ambiental de empreendimentos de significativo impacto ambiental, assim considerado pelo órgão ambiental competente, com fundamento em estudo de impacto ambiental e seu respectivo relatório - EIA/RIMA apresentados. No caso em tela, consoante dispõe a Lei nº 9.985/2000, em regra, a sociedade empresária Alfa será obrigada a:",
+    alternativas: [
+      "apoiar com medidas socioambientais a população vulnerável da área de influência direta e indireta do empreendimento;",
+      "apoiar a implantação e manutenção de unidade de conservação do Grupo de Proteção Integral;",
+      "cumprir medida compensatória, consistente em formação de garantia a título de caução em valor não inferior a 5% dos custos totais previstos para a implantação do empreendimento, a ser levantado após o início das atividades do empreendimento;",
+      "cumprir medida mitigatória, consistente em formação de garantia a título de caução em valor não inferior a 1% dos custos totais previstos para a implantação do empreendimento, a ser levantado após a emissão da licença ambiental;",
+      "cumprir medida reparatória antecipada, consistente em formação de garantia a título de caução em valor não inferior a 0,5% dos custos totais previstos para a implantação do empreendimento, a ser levantado em caso de dano ambiental."
+    ], resposta_correta: 1 },
+  { id: "q1110", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Tribunal de Justiça de Santa Catarina (TJ-SC) — Edital 11/2022 — Juiz Substituto — Prova aplicada em 21/08/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 12.305/2010 instituiu a Política Nacional de Resíduos Sólidos, dispondo sobre seus princípios, objetivos e instrumentos, bem como sobre as diretrizes relativas à gestão integrada e ao gerenciamento de resíduos sólidos, incluídos os perigosos, às responsabilidades dos geradores e do poder público e aos instrumentos econômicos aplicáveis. De acordo com o referido diploma legal, NÃO constitui um dos instrumentos da Política Nacional de Resíduos Sólidos:",
+    alternativas: [
+      "sistemas de logística reversa;",
+      "incentivos fiscais, financeiros e creditícios;",
+      "proibição de consórcios entre os entes federados;",
+      "termos de compromisso e termos de ajustamento de conduta;",
+      "incentivo à criação e ao desenvolvimento de cooperativas de catadores de materiais reutilizáveis e recicláveis."
+    ], resposta_correta: 2 },
+  { id: "q1111", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 2ª Região (TRF2) — XIX Concurso — Juiz Federal Substituto da 2ª Região — Prova aplicada em 12/04/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O Poder Público pretende criar uma Estação Ecológica, unidade de conservação de proteção integral, destinada à preservação da natureza e à realização de pesquisas científicas. Registre-se que há um conjunto de unidades de conservação, de categorias diferentes, próximas ao local onde se pretende instituir a nova unidade. De acordo com a narrativa e considerando as disposições da Lei nº 9.985/2000, analise as afirmativas a seguir. I. A criação da Estação Ecológica deverá ser precedida de estudos técnicos e de consulta pública que permitam identificar a localização, a dimensão e os limites mais adequados para a unidade, conforme dispuser o regulamento. II. O Poder Público poderá requerer judicialmente a decretação de limitações administrativas provisórias ao exercício de atividades e empreendimentos efetiva ou potencialmente causadores de degradação ambiental, para a realização de estudos com vistas à criação de unidade de conservação, quando, a critério do Chefe do Poder Executivo, houver risco de dano grave aos recursos naturais ali existentes. III. Quando houver um conjunto de unidades de conservação de categorias diferentes ou não, próximas, justapostas ou sobrepostas, e outras áreas protegidas públicas ou privadas, constituindo um mosaico, a gestão do conjunto deverá ser feita de forma integrada e participativa, considerando-se os seus distintos objetivos de conservação, de forma a compatibilizar a presença da biodiversidade, a valorização da sociodiversidade e o desenvolvimento sustentável no contexto regional. Considerando as disposições da Lei nº 9.985/2000, está correto o que se afirma em",
+    alternativas: [
+      "I, apenas.",
+      "II, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 2 },
+  { id: "q1112", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 2ª Região (TRF2) — XIX Concurso — Juiz Federal Substituto da 2ª Região — Prova aplicada em 12/04/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A sociedade empresária XPTO requereu, junto ao Município Alfa, o licenciamento ambiental de atividade potencialmente causadora de impacto ambiental. Contudo, o referido município, situado no Estado Beta, não possui órgão ambiental capacitado nem conselho de meio ambiente. Nesse cenário, considerando as disposições da Lei Complementar nº 140/2011, assinale a opção correta quanto ao ente competente para o licenciamento ambiental.",
+    alternativas: [
+      "União ou o Estado Beta, em caráter subsidiário, a critério da sociedade empresária XPTO.",
+      "Estado Beta, em caráter subsidiário.",
+      "Estado Beta, em caráter supletivo.",
+      "União, em caráter subsidiário.",
+      "União, em caráter supletivo."
+    ], resposta_correta: 2 },
+  { id: "q1113", tema: "Direito Ambiental", dificuldade: "media", fonte: "FGV — Tribunal Regional Federal da 2ª Região (TRF2) — XIX Concurso — Juiz Federal Substituto da 2ª Região — Prova aplicada em 12/04/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Considerando o aumento dos litígios envolvendo os recursos hídricos, o regime de outorga de direitos de uso de recursos hídricos tem como objetivos assegurar o controle quantitativo e qualitativo dos usos da água e o efetivo exercício dos direitos de acesso à água. Nesse cenário, considerando as disposições da Lei nº 9.433/1997, estão sujeitos a outorga pelo Poder Público os direitos dos seguintes usos de recursos hídricos, à exceção de um. Assinale-o.",
+    alternativas: [
+      "O lançamento em corpo de água de esgotos e demais resíduos líquidos ou gasosos, tratados ou não, com o fim de sua diluição, transporte ou disposição final.",
+      "Outros usos que alterem o regime, a quantidade ou a qualidade da água existente em um corpo de água.",
+      "A extração de água de aquífero subterrâneo para consumo final ou insumo de processo produtivo.",
+      "As derivações, captações e lançamentos considerados insignificantes.",
+      "O aproveitamento dos potenciais hidrelétricos."
+    ], resposta_correta: 3 },
+  { id: "q1114", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 2ª Região (TRF2) — XIX Concurso — Juiz Federal Substituto da 2ª Região — Prova aplicada em 12/04/2026 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A partir de uma ampla mobilização da sociedade civil organizada, o Estado Alfa editou a Lei nº X, que vedou a construção de pequenas centrais hidrelétricas no curso de determinado rio. Essa medida desagradou certos segmentos da sociedade, que tinham projetos em curso para a promoção de construções dessa natureza, embora não tenham sido detectados prejuízos econômicos imediatos com a vedação. Em razão das divergências existentes, a questão veio a ser judicializada, sendo debatida a conformidade constitucional, ou não, da Lei nº X. Na situação descrita, é correto afirmar que",
+    alternativas: [
+      "caso o rio esteja integralmente situado no território de Alfa, será de propriedade desse ente federativo e atrairá sua competência legislativa.",
+      "trata-se de medida protetiva ao meio ambiente, de competência legislativa concorrente entre Alfa e a União, ressalvada a existência de lei desse último ente exaurindo a temática.",
+      "ainda que o rio seja de propriedade de Alfa, a matéria versada na Lei nº X é de competência legislativa privativa da União, embora seja possível que os Estados sejam autorizados a legislar sobre ela.",
+      "a proteção ao meio ambiente é de competência comum entre os entes federativos, logo, a vedação à realização das referidas construções pode ser objeto de normas editadas nas distintas esferas de governo.",
+      "a União somente tem competência para editar normas gerais a respeito dessa temática, indicativo de que Alfa sempre terá alguma liberdade de conformação nessa seara, desde que não as afronte, tendo, na falta dessas normas, competência plena."
+    ], resposta_correta: 1 },
+  { id: "q1115", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado da Bahia (TCE-BA) — Edital 001/2023 — Auditor Estadual de Controle Externo — Prova aplicada em 12/12/2023 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Resolução CONAMA nº 01/86 estabelece as definições, as responsabilidades, os critérios básicos e as diretrizes gerais para uso e implementação da Avaliação de Impacto Ambiental como um dos instrumentos da Política Nacional do Meio Ambiente. Segundo esse instrumento legal, uma das atividades técnicas mínimas do estudo de impacto ambiental é o diagnóstico ambiental da área de influência do projeto. É realizada a completa descrição e análise dos recursos ambientais e suas interações, tal como existem, de modo a caracterizar a situação ambiental da área, antes da implantação do projeto, considerando os diversos componentes do meio ambiente. No diagnóstico ambiental do meio físico considera(m)-se:",
+    alternativas: [
+      "as espécies raras e ameaçadas de extinção;",
+      "o regime hidrológico e as correntes marinhas e atmosféricas;",
+      "o uso e a ocupação do solo e os usos da água;",
+      "as relações de dependência entre a sociedade local e os recursos ambientais;",
+      "o mapeamento das populações terrestres e aquáticas."
+    ], resposta_correta: 1 },
+  { id: "q1116", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 1ª Região (TRF1) — XVIII Concurso — Juiz Federal Substituto da 1ª Região — Prova aplicada em 15/06/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Um empreendedor construiu uma barragem para fins de armazenamento de resíduos industriais. Após a conclusão da obra, o empreendedor foi notificado pelos órgãos ambientais sobre a necessidade de cumprir determinadas obrigações legais para garantir a segurança da estrutura. Considerando a Lei nº 12.334/2010, que estabelece a Política Nacional de Segurança de Barragens, é correto afirmar que o empreendedor de barragens tem a obrigação legal de:",
+    alternativas: [
+      "realizar vistorias periódicas na barragem, com frequência mínima de seis meses, e elaborar relatórios técnicos que comprovem a estabilidade da estrutura;",
+      "contratar um seguro que cubra possíveis danos ambientais e materiais decorrentes de acidentes com a barragem, além de apresentar anualmente um relatório financeiro detalhado ao órgão fiscalizador;",
+      "elaborar e manter atualizado o Plano de Segurança da Barragem, que deve incluir ações de monitoramento, inspeções e procedimentos de emergência, submetendo-o à aprovação do órgão fiscalizador;",
+      "disponibilizar publicamente, em site próprio, todas as informações técnicas e os relatórios de inspeção da barragem, além de realizar audiências públicas trimestrais para discutir a segurança da estrutura;",
+      "realizar a desativação da barragem apenas quando houver indícios de risco iminente de rompimento, apresentando um relatório técnico simplificado ao órgão fiscalizador."
+    ], resposta_correta: 2 },
+  { id: "q1117", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 1ª Região (TRF1) — XVIII Concurso — Juiz Federal Substituto da 1ª Região — Prova aplicada em 15/06/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A empresa ABC Ltda. foi autuada por infração ambiental em decorrência de poluição causada por suas atividades industriais. A autuação ocorreu após a fiscalização identificar descargas irregulares de efluentes em curso d'água, gerando danos ambientais. A empresa já havia sido autuada por infrações ambientais anteriores. Considerando a Lei nº 9.605/1998 (Lei de Crimes Ambientais), é correto afirmar que, no caso acima, as penas devem ser aplicadas:",
+    alternativas: [
+      "considerando a gravidade do fato, os antecedentes da empresa e a análise dos danos causados ao meio ambiente;",
+      "sem considerar os antecedentes da empresa, mas levando em conta a gravidade do dano ambiental causado e a capacidade econômica do infrator;",
+      "após a realização de um estudo de impacto ambiental detalhado, que inclua a análise de alternativas para evitar futuros danos;",
+      "de forma atenuada, considerando a capacidade econômica da empresa e grau de culpa, sem levar em conta a gravidade do dano ou os antecedentes;",
+      "de forma proporcional à capacidade técnica da empresa, com base em um relatório de auditoria ambiental independente."
+    ], resposta_correta: 0 },
+  { id: "q1118", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 1ª Região (TRF1) — XVIII Concurso — Juiz Federal Substituto da 1ª Região — Prova aplicada em 15/06/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O Município Z identificou uma área central subutilizada que não atende à função social da propriedade, conforme estabelece o Estatuto da Cidade (Lei nº 10.257/2001). Para promover a requalificação urbana dessa região, o município propôs aos proprietários locais a formação de um consórcio imobiliário. Com base no Estatuto da Cidade, é correto afirmar que:",
+    alternativas: [
+      "o consórcio imobiliário permite que o proprietário transfira seu imóvel ao poder público municipal e, após a conclusão das obras, receba unidades imobiliárias urbanizadas ou edificadas como pagamento;",
+      "para a formação de um consórcio imobiliário, é necessário que o proprietário comprove capacidade financeira para arcar com parte dos custos das obras de urbanização e edificação;",
+      "o consórcio imobiliário só pode ser estabelecido se a área em questão estiver inserida em uma operação urbana consorciada previamente aprovada pelo município;",
+      "a implementação de um consórcio imobiliário exige que o proprietário mantenha a posse direta do imóvel durante toda a execução das obras, transferindo a propriedade ao poder público apenas após a conclusão dos trabalhos;",
+      "o consórcio imobiliário somente pode ser aplicado em áreas destinadas exclusivamente à regularização fundiária de assentamentos informais consolidados há mais de cinco anos."
+    ], resposta_correta: 0 },
+  { id: "q1119", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 1ª Região (TRF1) — XVIII Concurso — Juiz Federal Substituto da 1ª Região — Prova aplicada em 15/06/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O Município Y está situado em uma região onde diversos outros municípios compartilham sistemas de abastecimento de água e tratamento de esgoto. Diante dessa realidade, os gestores municipais estão avaliando a melhor forma de organizar a prestação dos serviços públicos de saneamento básico. Considerando as disposições da Lei de Diretrizes Nacionais para o Saneamento Básico (Lei nº 11.445/2007), é correto afirmar que:",
+    alternativas: [
+      "a titularidade dos serviços públicos de saneamento básico em regiões metropolitanas é exercida exclusivamente pelos estados, independentemente da participação dos municípios envolvidos;",
+      "municípios inseridos em aglomerações urbanas podem formar consórcios intermunicipais para a gestão associada dos serviços de saneamento básico, desde que instituam fundação intermunicipal para a prestação dos serviços;",
+      "a prestação regionalizada dos serviços de saneamento básico, em microrregiões, deve ser organizada por meio de gestão associada voluntária entre os municípios envolvidos, sem a necessidade de participação do estado;",
+      "a gestão associada dos serviços públicos de saneamento básico em regiões metropolitanas requer a celebração de convênios entre os municípios e o estado;",
+      "os municípios, ao integrarem regiões metropolitanas, mantêm sua autonomia plena para gerir individualmente os serviços de saneamento básico, sem necessidade de coordenação com os demais entes federativos."
+    ], resposta_correta: 3 },
+  { id: "q1120", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal Regional Federal da 1ª Região (TRF1) — XVIII Concurso — Juiz Federal Substituto da 1ª Região — Prova aplicada em 15/06/2025 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A empresa ABC submeteu um pedido de licenciamento ambiental para a instalação de uma usina de reciclagem. Devido a pendências na documentação apresentada, o processo foi arquivado pelo órgão ambiental competente. Considerando as disposições da Resolução CONAMA nº 237/1997, é correto afirmar, quanto às implicações desse arquivamento, que:",
+    alternativas: [
+      "a empresa deve aguardar um período mínimo de 12 meses após o arquivamento para submeter um novo requerimento de licença;",
+      "a reapresentação do pedido de licença requer que seja realizado um novo Estudo de Impacto Ambiental (EIA), mesmo que o empreendimento permaneça inalterado;",
+      "a empresa pode protocolar um novo requerimento de licença a qualquer momento, desde que efetuado novo pagamento do custo de análise;",
+      "o novo requerimento de licença só será aceito se houver alterações significativas nas atividades inicialmente previstas no pedido anterior;",
+      "a empresa, após o arquivamento, está isenta do pagamento de novo custo de análise se reapresentar o requerimento dentro de 6 meses."
+    ], resposta_correta: 2 },
+  { id: "q1121", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça de Santa Catarina (TJ-SC) — Edital 44/2024 — Juiz Substituto — Prova aplicada em 13/10/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "Em janeiro de 2020, Maria realizava o cultivo de cana-de-açúcar em sua pequena propriedade rural, quando ouviu o barulho de um caminhão da sociedade empresária Alfa, que transportava grande quantidade de determinada substância química e caiu em um rio da região, pois o motorista acabou dormindo ao volante. O acidente causou poluição hídrica do solo e do subsolo. Maria ajuizou uma ação indenizatória, em setembro de 2024, em face da sociedade empresária Alfa, em razão dos danos materiais sofridos, pois comprovou ter perdido toda a sua plantação de cana. Por sua vez, no mesmo mês de setembro de 2024, o Ministério Público estadual ajuizou ação civil pública, pleiteando reparação ambiental e indenização por danos ambientais interinos. No caso em tela, o magistrado competente para processar e julgar as mencionadas ações, com base na jurisprudência dos tribunais superiores, deve:",
+    alternativas: [
+      "declarar que não houve a prescrição das pretensões veiculadas nas duas ações, pois os danos ambientais individuais e coletivos estão sujeitos à prescrição quinquenal;",
+      "declarar que não houve a prescrição das pretensões veiculadas nas duas ações, pois os danos ambientais individuais e coletivos são imprescritíveis;",
+      "reconhecer a prescrição das pretensões veiculadas nas duas ações, pois ultrapassado o prazo de três anos, cujo termo inicial conta-se da ciência inequívoca dos efeitos do fato gerador;",
+      "reconhecer a prescrição da pretensão veiculada na ação indenizatória de Maria pelos danos ambientais individuais, mas não reconhecer a prescrição das pretensões da ação ajuizada pelo Ministério Público, visto que são imprescritíveis;",
+      "declarar que não houve a prescrição das pretensões veiculadas nas duas ações, pois os danos ambientais individuais prescrevem em cinco anos e os coletivos são imprescritíveis."
+    ], resposta_correta: 3 },
+  { id: "q1122", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça de Santa Catarina (TJ-SC) — Edital 44/2024 — Juiz Substituto — Prova aplicada em 13/10/2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "\"Queimadas no Brasil: focos de incêndio atingem recorde em agosto. Nas últimas 48 horas, o Brasil teve quase 4.500 focos de incêndio, de acordo com o Instituto Nacional de Pesquisas Espaciais (Inpe). Desde o início de 2024, já foram praticamente 107 mil focos, um aumento de 75% em relação ao ano passado.\" O trecho acima transcrito, oriundo de matéria veiculada no dia 26/08/24 no site do Senado Federal, traz à lume a alarmante situação de incêndios por todo o país, com múltiplas causas e consequências ambientais. Nesse contexto, de acordo com o novo Código Florestal, analise as afirmativas a seguir. I. É proibido o uso de fogo na vegetação, em qualquer situação, sob pena da tríplice responsabilidade ambiental: civil, administrativa e criminal. II. O Governo Federal deverá estabelecer uma Política Nacional de Manejo e Controle de Queimadas, Prevenção e Combate aos Incêndios Florestais, que promova a articulação institucional com vistas na substituição do uso do fogo no meio rural, no controle de queimadas, na prevenção e no combate aos incêndios florestais e no manejo do fogo em áreas naturais protegidas. III. A Política Nacional de Manejo e Controle de Queimadas, Prevenção e Combate aos Incêndios Florestais deverá prever instrumentos para a análise dos impactos das queimadas sobre mudanças climáticas e mudanças no uso da terra, conservação dos ecossistemas, saúde pública e fauna, para subsidiar planos estratégicos de prevenção de incêndios florestais. Consoante dispõe a Lei nº 12.651/2012, está correto o que se afirma em:",
+    alternativas: [
+      "I, apenas.",
+      "III, apenas.",
+      "I e III, apenas.",
+      "II e III, apenas.",
+      "I, II e III."
+    ], resposta_correta: 3 },
+  { id: "q1123", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso (TJ-MT) — Juiz Substituto — Prova aplicada em 2024 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O estado X publicou a Lei nº 123, de iniciativa parlamentar, que simplificou e tornou mais célere o licenciamento ambiental para empreendimentos ou atividades de baixo e médio potencial poluidor, sob condições a serem disciplinadas em ato infralegal. Sobre o caso, é correto afirmar que a lei é:",
+    alternativas: [
+      "formal e materialmente constitucional, uma vez que, em matéria de licenciamento ambiental, os estados possuem competência suplementar;",
+      "formalmente inconstitucional, por não ser de iniciativa do chefe do Poder Executivo, e materialmente constitucional;",
+      "formalmente inconstitucional, por não ser de iniciativa do chefe do Poder Executivo, e materialmente inconstitucional, por violar o princípio de vedação ao retrocesso ambiental;",
+      "formalmente constitucional e materialmente inconstitucional, por violar a competência privativa da União para legislar sobre licenciamento ambiental;",
+      "formalmente constitucional e materialmente inconstituscional, por violar o princípio de vedação ao retrocesso."
+    ], resposta_correta: 0 },
+  { id: "q1124", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "O Sistema Nacional de Unidades de Conservação da Natureza (SNUC) corresponde ao conjunto de Unidades de Conservação (UCs) federais, estaduais e municipais. A respeito do SNUC, analise as afirmativas a seguir. I. Os usos permitidos são únicos para todas as unidades de conservação. II. Uma das premissas adotadas para a consolidação do SNUC é o impedimento de todo o tipo de extrativismo nas unidades de conservação. III. A consolidação do SNUC se configura na oportunidade de expansão e diversificação da economia. Está correto somente o que se afirma em:",
+    alternativas: [
+      "I;",
+      "II;",
+      "III;",
+      "I e II;",
+      "II e III."
+    ], resposta_correta: 2 },
+  { id: "q1125", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A Lei nº 9.605/1998 considera infração administrativa ambiental toda ação ou omissão que viole as regras jurídicas de uso, gozo, promoção, proteção e recuperação do meio ambiente. Praticada uma infração administrativa ambiental, após regular processo administrativo, ao infrator, dependendo das circunstâncias, deve ser aplicada a correlata sanção administrativa. Entre essas sanções administrativas, a citada lei elenca algumas sanções restritivas de direito. NÃO se trata de uma dessas sanções restritivas de direito:",
+    alternativas: [
+      "suspensão de registro, licença ou autorização;",
+      "cancelamento de registro, licença ou autorização;",
+      "perda ou restrição de incentivos e benefícios fiscais;",
+      "perda da função pública ou suspensão dos direitos políticos;",
+      "perda ou suspensão da participação em linhas de financiamento em estabelecimentos oficiais de crédito."
+    ], resposta_correta: 3 },
+  { id: "q1126", tema: "Direito Ambiental", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado do Tocantins (TCE-TO) — Edital 01/2022 — Auditor de Controle Externo — Engenharia Ambiental — Prova aplicada em 16/10/2022 — Tipo 1 (gabarito definitivo)",
+    enunciado: "A sociedade empresária Alfa protocolou junto ao órgão estadual competente pedido de licença ambiental relacionado a empreendimento consistente em um aterro sanitário. O requerimento deu início a processo de licenciamento ambiental em que o empreendedor pretende obter licença na fase do planejamento do aterro, aprovando sua localização e concepção, atestando a viabilidade ambiental e estabelecendo os requisitos básicos e condicionantes a serem atendidos nas próximas fases de sua implementação. Consoante dispõe a Resolução CONAMA nº 237/1997, trata-se de requerimento de licença:",
+    alternativas: [
+      "prévia, e os estudos necessários ao processo de licenciamento deverão ser realizados por profissionais legalmente habilitados, às expensas do empreendedor;",
+      "preliminar, e adotar-se-á procedimento sumário simplificado diante da natureza do empreendimento e do baixo impacto ambiental, desde que autorizado pelo Tribunal de Contas;",
+      "de instalação, e o órgão ambiental competente poderá estabelecer prazos de análise diferenciados para cada modalidade de licença, em função das peculiaridades do empreendimento, desde que observado o prazo máximo de doze meses;",
+      "de instalação, e no procedimento de licenciamento ambiental deverá constar a certidão da Prefeitura Municipal, declarando que o local e o tipo de empreendimento estão em conformidade com a legislação aplicável ao uso e à ocupação do solo;",
+      "de operação, e o órgão ambiental competente poderá estabelecer prazos de análise diferenciados para cada modalidade de licença, em função das peculiaridades do empreendimento, desde que observado o prazo máximo de seis meses."
+    ], resposta_correta: 0 },
 ];
