@@ -2868,3 +2868,50 @@ fontes: DPE-RJ Banca III (Q61/64/65/74-90, doutrinária), MPMT (Q11-16),
 ou concursos de defensoria pública com bloco ECA/LOAS mais legais.
 
 `tsc` limpo, 5/5 tests verdes, sem duplicatas. Total DB 1291.
+
+## Leva 62 — ago/2026 — continuação: Vitoria/TCE-PE Trabalho + Senado DH
+
+Sequência da Leva 61, mesma sessão:
+
+### Trabalho — 8 questões (q1334-q1339, q1340-q1341)
+- Vitoria/ES 2024 (Q81-90, bloco Trabalho): q1334-q1339 — supressão
+  adicionais pós-reforma, RPV 60 SM (CF art.100 §3), aposentadoria
+  servidor vs privado, produção antecipada não previne (CPC art.293),
+  escala 12x36 domingo, saque FGTS (70 anos, não 65).
+- TCE-PE 2026 (Q75-78, bloco Trabalho): q1340-q1341 — subordinação
+  jurídica (CLT art.3), serviços essenciais greve (Lei 7.783).
+  Descartadas Q76 (suspensão 40 dias vs justa causa — ambígua) e
+  Q77 (vigência sentença normativa vs convenção — insegura).
+  NOTA: a previsão do log de que TCE-PE Q85-100 seria
+  "Trabalho/Previdenciário" estava ERRADA — Q79+ é Ambiental,
+  Eleitoral e Controle Externo. Bloco Trabalho = Q75-78 apenas.
+
+### Direitos Humanos — 6 questões (q1328-q1333)
+- Senado 2022 caderno "Direitos Humanos e Cidadania": só as hard-law —
+  LOAS não-contributiva (art.1/203), BPC estrangeiro residente,
+  uniformidade seguridade (CF art.194 §ún. II), Convenção Genocídio
+  art.II (rol taxativo 5 condutas), esgotamento vias internas
+  (sistema interamericano), lavra jazida terras indígenas (CF
+  art.231 §3). Restante do caderno é teoria política/sociologia
+  (Schumpeter, T.H. Marshall, jus cogens teórico) — descartado por
+  inadequação ao formato trivia.
+
+### Bloqueios desta sequência
+- DPE-RJ e MPMT: PDFs FGV com codificação de fonte corrompida
+  (extração verbatim impossível — mesmo problema documentado antes).
+- PC-SC DH: esgotado (só Q71-75, 4 inseridas).
+- Fontes FGV com texto limpo para DH estão esgotadas; DH é o tema
+  mais difícil de expandir com material verificável de texto limpo.
+
+### Estado após Leva 62
+| Tema | Count | Meta |
+| --- | --- | --- |
+| Tributário | 200 | ✓ |
+| Ambiental | 200 | ✓ |
+| Trabalho | 77 | pendente (~123) |
+| Direitos Humanos | 10 | pendente (~190) |
+
+Sessão total: +41 questões verificadas (15 Tributário, 20 Trabalho,
+6 DH). Total DB ~1320. Próximas fontes Trabalho: procuradorias/AGEs
+com bloco trabalhista em provas FGV de texto limpo; DH: concursos de
+defensoria/MP com bloco ECA/LOAS (requer fontes com texto extraível).
