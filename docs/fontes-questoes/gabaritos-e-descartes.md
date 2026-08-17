@@ -2812,3 +2812,59 @@ MPES (4), TRF2 (4).
 - Resultado: 124 + 11 (Leva 56) + 10 (Leva 57) + 3 (Leva 58) + 3
   (Leva 59) + 7 (Leva 60) = **158 questões**.
 - `tsc --noEmit` limpo. 5/5 data tests passando. Nenhum id duplicado.
+
+## Leva 61 — ago/2026 — reforço Tributário (Vitoria) + Trabalho (Senado)
+
+Continuação da expansão dos 4 temas novos. Esta sessão adicionou:
+
+### Tributário — 4 questões (q875-q878) da Prefeitura de Vitória/ES 2024
+Reprocessamento do bloco "Tributário e Financeiro" (Q56-70) antes
+descartado. Inseridas só as inequívocas (gabarito Tipo 1 × doutrina):
+- q875 = Q57 (IPVA aeronaves/embarcações, EC132/2023 domicílio, CF art.158 III)
+- q876 = Q58 (sistema S capacidade ativa, STJ Tema 1105)
+- q877 = Q62 (ISS posto de atendimento, STJ Tema 796)
+- q878 = Q64 (taxa fiscalização iniciativa privativa Executivo, STF)
+
+Ambíguas descartadas (isenção IPTU sindicato, ISS dívida/parcelamento,
+autarquia federal taxa/precatório, LRF limites, ISS estimativa local).
+
+### Tributário — PGM-Niterói 2022 (q869-q874), 6 questões
+Reprocessamento do bloco Q61-75:
+- q869 = Q66 (contribuição pensionistas, ADI 3105 STF)
+- q870 = Q67 (taxa coleta lixo propter rem, STJ Tema 510)
+- q871 = Q69 (transação rescindida, Lei 13.988/20)
+- q872 = Q70 (Simples Nacional obrigação acessória, LC 123)
+- q873 = Q74 (ISS local estabelecimento prestador, EC127/2023)
+- q874 = Q75 (Regime Recuperação Fiscal vedado, EC126/2019)
+
+### Trabalho — 5 questões (q1311-q1315) do Senado 2022 (caderno
+"Direito do Trabalho e Direito Previdenciário")
+Reprocessamento do bloco específico Q61-100:
+- q1311 = Q75 (natureza cláusulas: normativa/obrigacional)
+- q1312 = Q86 (competência JT multas administrativas, CF art.114 III)
+- q1313 = Q95 (auxílio incapacidade, doença pré-existente agravada)
+- q1314 = Q96 (acidente de trajeto, Lei 8.213 art.21 VI)
+- q1315 = Q100 (salário-de-contribuição, adicional tempo de serviço)
+
+**LIÇÃO de validação**: ao ler gabaritos FGV em colunas (20 questões por
+linha), é fácil trocar a letra da coluna. Confirmei cada letra individualmente
+antes de inserir; questões com leitura doutrinária ambígua ou conflito
+gabarito×doutrina descartadas (ex.: Q67 terceirização, Q87 preposto
+terceirizado, Q64 férias tempo parcial tiveram leitura duvidosa).
+
+### Estado após Leva 61
+| Tema | Count | Meta |
+| --- | --- | --- |
+| Tributário | 200 | ✓ |
+| Ambiental | 200 | ✓ |
+| Trabalho | 57 | pendente (~143) |
+| Direitos Humanos | 4 | pendente (~196) |
+
+PC-SC (Direitos Humanos Q71-75) esgotado — só 5 questões no bloco.
+Caderno "Direitos Humanos e Cidadania" do Senado é majoritariamente
+teoria política/sociologia (Schumpeter, T.H. Marshall), pouco "hard law"
+— não adequado ao app de trivia jurídica. Para Direitos Humanos, próximas
+fontes: DPE-RJ Banca III (Q61/64/65/74-90, doutrinária), MPMT (Q11-16),
+ou concursos de defensoria pública com bloco ECA/LOAS mais legais.
+
+`tsc` limpo, 5/5 tests verdes, sem duplicatas. Total DB 1291.
