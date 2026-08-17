@@ -469,4 +469,49 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
       "é correta, porque é possível o desconto integral do atraso e de até metade do valor do repouso semanal remunerado;",
       "é incorreta, porque, para que haja desconto no repouso semanal, é necessário que haja falta de Breno, não sendo possível a subtração no caso de atraso."
     ], resposta_correta: 2 },
+  { id: "q1311", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Na convenção coletiva de determinada categoria há uma cláusula prevendo piso salarial mínimo para todos os profissionais em valor superior ao mínimo nacional e outra cláusula estabelecendo multa, em favor do sindicato, para a parte que descumprir alguma previsão da norma coletiva. Considerando esses fatos, assinale a opção que contempla, na ordem, a natureza jurídica das cláusulas citadas.",
+      alternativas: [
+        "Normativa e obrigacional.",
+        "Econômica e sindical.",
+        "Social e obrigacional.",
+        "Social e econômica.",
+        "Sindical e obrigacional."
+      ], resposta_correta: 0 },
+  { id: "q1312", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Uma grande indústria de laticínios foi autuada em 2022 por auditores responsáveis pela fiscalização do trabalho porque não mantinha em seus quadros a cota mínima legal de aprendizes e de pessoas com deficiência ou readaptadas. A empresa interpôs recurso administrativo, não obtendo sucesso, e agora pretende questionar, pela via judicial, as multas recebidas. Diante da situação apresentada, assinale a opção que contempla a(s) justiça(s) competente(s) para apreciar uma eventual ação que busque a anulação dos autos de infração.",
+      alternativas: [
+        "A Justiça Federal comum para a questão das cotas de pessoas com deficiência e a Justiça do Trabalho para a questão das cotas dos aprendizes.",
+        "A Justiça do Trabalho em ambos os casos.",
+        "A Justiça do Trabalho para a questão das cotas de pessoas com deficiência e a Justiça Federal comum para a questão das cotas dos aprendizes.",
+        "A Justiça Federal comum em ambos os casos.",
+        "A Justiça Estadual para a questão das cotas de pessoas com deficiência e a Justiça do Trabalho para a questão das cotas dos aprendizes."
+      ], resposta_correta: 1 },
+  { id: "q1313", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Matheus era portador de uma doença antes de se filiar ao Regime Geral de Previdência Social (RGPS). Após ser admitido como empregado em uma empresa, e por conta das condições adversas de trabalho, a doença de Matheus comprovadamente se agravou, a ponto de impossibilitá-lo de trabalhar, ficando afastado do serviço por mais de 15 dias; consequentemente, foi encaminhado ao INSS. Considerando os fatos narrados e a previsão contida na Lei previdenciária, assinale a afirmativa correta.",
+      alternativas: [
+        "O segurado em questão receberá metade do auxílio por incapacidade temporária porque já portador da doença antes de entrar para o RGPS.",
+        "Matheus não receberá auxílio por incapacidade temporária por se tratar de doença pré-existente ao ingresso no RGPS.",
+        "Matheus poderá receber aposentadoria por incapacidade permanente em razão do agravamento da doença, mas não auxílio por incapacidade temporária.",
+        "Matheus receberá auxílio por incapacidade temporária porque houve agravamento da doença após seu ingresso no RGPS.",
+        "Somente haveria direito ao auxílio por incapacidade temporária se houvesse progressão da doença, mas não agravamento, pelo que Matheus não receberá o benefício."
+      ], resposta_correta: 3 },
+  { id: "q1314", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Renan terminou uma jornada de trabalho e pegou sua motocicleta, que estava estacionada na garagem do empregador. Enquanto se dirigia para sua residência, devidamente equipado, Renan foi abalroado por um automóvel e sofreu um acidente de grande proporção. Diante da situação exposta e dos termos da Lei previdenciária, assinale a afirmativa correta.",
+      alternativas: [
+        "O acidente do trabalho está caracterizado na hipótese, sendo irrelevante que o veículo seja de propriedade do segurado.",
+        "Durante 2 horas contadas da saída do emprego, qualquer evento ocorrido com Renan seria acidente do trabalho, sendo irrelevante para onde ele estava se deslocando.",
+        "O evento não se configura acidente do trabalho porque o veículo era de propriedade do segurado, que assim assume o risco.",
+        "Somente se o deslocamento estivesse sendo feito em transporte público ou em transporte fornecido pelo empregador é que o sinistro seria acidente do trabalho.",
+        "A Lei é omissa a respeito, cabendo ao juiz verificar as condições do sinistro para concluir se ele poderá, ou não, ser caracterizado como acidente do trabalho."
+      ], resposta_correta: 0 },
+  { id: "q1315", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Das parcelas indicadas a seguir, pagas em 2021 por uma grande empresa, que possui 1.500 funcionários, assinale aquela que integra o salário-de-contribuição para fins previdenciários e, assim, sobre a qual haverá recolhimento de INSS.",
+      alternativas: [
+        "Parcela paga a título de incentivo à demissão.",
+        "Parcela paga a título de vale-transporte, na forma da legislação própria.",
+        "Parcela paga a título de adicional por tempo de serviço.",
+        "Participação nos lucros da empresa, paga de acordo com a Lei específica.",
+        "Valor pago em decorrência da cessão de direitos autorais."
+      ], resposta_correta: 2 },
 ];
