@@ -775,4 +775,49 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Inexistindo previsão legal para esta situação, o INSS acionará o Poder Judiciário para que este decida o destino da aposentadoria.",
         "A aposentadoria especial de Renata será automaticamente cancelada."
       ], resposta_correta: 4 },
+  { id: "q1351", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — Prefeitura de Abreu e Lima/PE, Procurador Jurídico Municipal — 2024 — Tipo 1 (gabarito definitivo de 23/11/2025)",
+      enunciado: "O contrato de emprego tem requisitos próprios que o caracterizam e o distinguem de outras modalidades contratuais. Das opções a seguir, indique aquela que contém um requisito desnecessário para que o vínculo empregatício seja reconhecido em juízo.",
+      alternativas: [
+        "Subordinação, não eventualidade.",
+        "Onerosidade, pessoalidade.",
+        "Permanência e salário.",
+        "Pessoalidade e subordinação.",
+        "Não eventualidade e exclusividade."
+      ], resposta_correta: 4 },
+  { id: "q1352", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Abreu e Lima/PE, Procurador Jurídico Municipal — 2024 — Tipo 1 (gabarito definitivo de 23/11/2025)",
+      enunciado: "Trata-se de situação em que o Município de Abreu e Lima terceirizou serviço de vigilância, sendo que os vigilantes terceirizados desempenham suas funções em prédios públicos municipais, com a fiscalização do ente público na qualidade de tomador dos serviços. Considerando o entendimento consolidado do TST, assinale a afirmativa correta caso haja reclamação trabalhista contra o empregador e o Município de Abreu e Lima.",
+      alternativas: [
+        "O Município de Abreu e Lima será responsabilizado solidariamente.",
+        "O ente público municipal terá responsabilidade subsidiária.",
+        "Poderá haverá reconhecimento do vínculo empregatício com o ente público para os vigilantes que não tiveram a CTPS assinada.",
+        "Não haverá responsabilidade do Município porque ele é o tomador dos serviços.",
+        "A responsabilidade é do Poder Público, exceto em relação ao FGTS, por expressa exclusão legal."
+      ], resposta_correta: 1 },
+  { id: "q1353", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Abreu e Lima/PE, Procurador Jurídico Municipal — 2024 — Tipo 1 (gabarito definitivo de 23/11/2025)",
+      enunciado: "Gilberto é garçom num restaurante localizado em Alto São Miguel, bairro do Município de Abreu e Lima, e recebe diariamente um valor médio de R$ 80,00 de gorjetas dos clientes que almoçam e jantam no estabelecimento. De acordo com a legislação em vigor e o entendimento consolidado do TST, assinale a afirmativa correta.",
+      alternativas: [
+        "A gorjeta integra a remuneração.",
+        "A gorjeta integra o salário.",
+        "A gorjeta não integra o salário nem a remuneração.",
+        "A gorjeta deverá ser integrada, pela média, no aviso prévio e no adicional noturno.",
+        "A gorjeta deverá ser integrada, pela média, nas horas extras e no repouso semanal remunerado."
+      ], resposta_correta: 0 },
+  { id: "q1354", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Abreu e Lima/PE, Procurador Jurídico Municipal — 2024 — Tipo 1 (gabarito definitivo de 23/11/2025)",
+      enunciado: "Em determinada Vara do Trabalho há uma reclamação trabalhista que tramita pelo procedimento sumaríssimo. Na Vara do Trabalho vizinha tramita um inquérito para apuração de falta grave. Com base na CLT, as quantidades máximas de testemunhas que cada parte poderá ouvir no procedimento sumaríssimo e no inquérito para apuração de falta grave, nesta ordem, são",
+      alternativas: [
+        "duas e três testemunhas.",
+        "três e seis testemunhas.",
+        "duas e seis testemunhas.",
+        "três e duas testemunhas.",
+        "duas e duas testemunhas."
+      ], resposta_correta: 2 },
+  { id: "q1355", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — Prefeitura de Abreu e Lima/PE, Procurador Jurídico Municipal — 2024 — Tipo 1 (gabarito definitivo de 23/11/2025)",
+      enunciado: "A quantidade de Ministros que devem compor o Tribunal Superior do Trabalho (TST) e a quantidade de turmas que o referido Tribunal possui são, respectivamente, de",
+      alternativas: [
+        "17 Ministros e 7 turmas.",
+        "25 Ministros e 5 turmas.",
+        "32 Ministros e 10 turmas.",
+        "11 Ministros e 2 turmas.",
+        "27 Ministros e 8 turmas."
+      ], resposta_correta: 4 },
 ];
