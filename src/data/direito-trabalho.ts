@@ -820,4 +820,49 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "11 Ministros e 2 turmas.",
         "27 Ministros e 8 turmas."
       ], resposta_correta: 4 },
+  { id: "q1356", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — NAV Brasil Serviços de Navegação Aérea S.A., Advogado — 2026 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Uma determinada empresa, após seguir os trâmites legais, assinou uma norma coletiva com o sindicato representativo da categoria dos seus empregados, pelo prazo máximo de vigência legalmente permitido. Considerando-se esses dados e de acordo com a CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Trata-se de um acordo coletivo, com prazo máximo de vigência de dois anos, sendo vedada a ultratividade.",
+        "É uma convenção coletiva, com prazo máximo de vigência de um ano, sendo permitida a ultratividade.",
+        "Trata-se de um acordo coletivo, com prazo máximo de vigência de um ano, sendo permitida a ultratividade.",
+        "Trata-se de uma convenção coletiva, com prazo máximo de vigência de três anos, sendo vedada a ultratividade.",
+        "É uma sentença normativa, com prazo máximo de vigência de três anos, sendo vedada a ultratividade."
+      ], resposta_correta: 0 },
+  { id: "q1357", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — NAV Brasil Serviços de Navegação Aérea S.A., Advogado — 2026 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Rosa foi admitida em maio de 2024 e trabalhou sem qualquer falta até maio de 2025, quando completou o seu período aquisitivo de férias. O período concessivo de férias terminou em maio de 2026, mas o empregador de Rosa não concedeu o direito às férias para a trabalhadora. Diante dessa situação e considerando os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Rosa terá direito ao dobro do pagamento e da quantidade de férias, que passará a ser de 60 dias.",
+        "A empregada terá direito à dobra da quantidade de férias e receberá o pagamento com acréscimo de 50%.",
+        "Rosa terá direito a 60 dias de férias, recebimento em dobro e a comunicar diretamente ao empregador em que data deseja se afastar para fruí-las.",
+        "Uma vez que o período concessivo de férias já fluiu, Rosa perderá o direito às férias, mas receberá o seu pagamento.",
+        "Rosa terá direito a 30 dias de férias e seu recebimento em dobro."
+      ], resposta_correta: 4 },
+  { id: "q1358", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — NAV Brasil Serviços de Navegação Aérea S.A., Advogado — 2026 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Recurso judicial é o meio de que a parte se utiliza para tentar modificar uma decisão que seja desfavorável ao seu interesse. Os recursos devem ter previsão legal, com requisitos subjetivos e objetivos próprios. Dos recursos indicados a seguir, assinale aquele que, na seara trabalhista, somente pode ser manejado na fase executória.",
+      alternativas: [
+        "Agravo de instrumento.",
+        "Recurso de revista.",
+        "Agravo de petição.",
+        "Recurso ordinário.",
+        "Embargos de declaração."
+      ], resposta_correta: 2 },
+  { id: "q1359", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — NAV Brasil Serviços de Navegação Aérea S.A., Advogado — 2026 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Pedro ajuizou uma reclamação trabalhista em face da União. Esta, devidamente citada, não contestou o feito nem compareceu à audiência de instrução e julgamento. Diante dessa situação, considerando os termos da CLT e do entendimento consolidado do TST, assinale a afirmativa correta.",
+      alternativas: [
+        "O juiz nomeará curador especial para defesa dos interesses da União.",
+        "Pessoa jurídica de direito público sujeita-se à revelia.",
+        "Uma vez que o patrimônio público deve ser protegido, deverá ser realizada nova citação.",
+        "Não poderá ser aplicada a revelia por se tratar de ente público.",
+        "Deverá se aplicar a confissão, mas não a revelia."
+      ], resposta_correta: 1 },
+  { id: "q1360", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Concurso Público Nacional Unificado (CNU) 2ª Edição — Bloco Temático 1 (Seguridade Social) — 2025 — Tipo 1 (gabarito preliminar de 05/10/2025)",
+      enunciado: "A Constituição Federal estabelece princípios fundamentais que orientam a estrutura do Estado brasileiro, consagrando valores, diretrizes e objetivos para as dimensões política, econômica, social e jurídica do país. Em relação à seguridade social, a Constituição Federal também traça objetivos. Sobre eles, é correto afirmar que:",
+      alternativas: [
+        "a equidade na forma de participação no custeio da seguridade social dispensa a contribuição de pessoas consideradas de baixa renda, mesmo na previdência social;",
+        "a seletividade e a distributividade das prestações às populações urbanas e rurais visam a romper a distinção de tratamento que outrora vigorava entre esses segmentos;",
+        "a universalidade da cobertura e do atendimento desdobra-se em dois aspectos, que significam, respectivamente, ampliar o número de pessoas amparadas e excluir a cobertura de idade avançada;",
+        "o valor dos benefícios previdenciários é protegido pela vedação de sua redução, garantindo-se o reajustamento a fim de manter, em caráter permanente, o valor originário da prestação;",
+        "o caráter democrático e descentralizado da administração materializa-se pela gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do poder público nos órgãos colegiados."
+      ], resposta_correta: 4 },
 ];
