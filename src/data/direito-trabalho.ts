@@ -694,4 +694,58 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Distribuição de medicamentos e alimentos.",
         "Turismo, eventos esportivos e culturais."
       ], resposta_correta: 4 },
+  { id: "q1342", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Jorgina é empregada numa empresa de laticínios e recebe 1 salário-mínimo mensal. Comprovadamente há, no meio ambiente de trabalho de Jorgina, agente agressor à saúde em grau máximo, além de existir risco acentuado de morte. O EPI que é fornecido pela empresa não tem o poder de eliminar o agente agressor à saúde. De acordo com a situação apresentada e os termos da CLT, assinale a afirmativa correta em relação ao(s) adicional(is) a que Jorgina fará jus.",
+      alternativas: [
+        "A empregada receberá o adicional de maior valor, que no caso é a periculosidade.",
+        "Jorgina receberá metade de cada adicional, respeitando assim a média do risco a que é efetivamente exposta.",
+        "A empregada receberá cumulativamente os adicionais de insalubridade e periculosidade.",
+        "Jorgina receberá o adicional de maior valor, que no caso é a insalubridade.",
+        "Havendo acúmulo de adicionais, a empregada receberá o de menor valor acrescido de 50%."
+      ], resposta_correta: 3 },
+  { id: "q1343", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Joana é empregada em um grande açougue desde 2021, e desenvolve as suas atividades no interior de uma câmara frigorífica com clima artificialmente frio. Em razão disso, Joana recebe os seguintes equipamentos de proteção individual: blusa e calça feitas em material térmico e impermeável, luvas térmicas, capuz de proteção e bota térmica. Joana trabalha de 2ª a 6ª feira, das 10:00 às 16:00 horas, com intervalo de 15 minutos. Considerando os fatos narrados e a previsão contida na CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "A empregada terá direito a um intervalo especial de 20 minutos de repouso depois de 1 hora e 40 minutos de trabalho contínuo.",
+        "No caso apresentado, não existe direito a qualquer pausa especial porque o intervalo legal para refeição foi observado.",
+        "Joana terá direito a um intervalo especial de 10 minutos de repouso a cada 90 minutos de trabalho.",
+        "Joana não terá direito a qualquer intervalo especial, mas se for realizar horas extras deverá ter um descanso de 15 minuto antes do início da sobrejornada.",
+        "A empresa deverá observar 2 intervalos de 10 minutos cada por turno de trabalho de Joana, sem prejuízo da pausa alimentar."
+      ], resposta_correta: 0 },
+  { id: "q1344", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Em determinada base territorial, o sindicato dos gráficos, o sindicato dos distribuidores de medicamentos, o sindicato dos professores e o sindicato dos empregados que fazem a captação de lixo resolveram, em assembleias regulares próprias, deflagrar movimento de greve para reivindicar reajuste salarial. De acordo com a norma de regência, assinale a opção que contempla o(s) sindicato(s) que poderá(ão) comunicar a greve aos sindicatos patronais ou aos empregadores, com 48 horas de antecedência.",
+      alternativas: [
+        "O sindicato dos distribuidores de medicamentos e o sindicato dos empregados que fazem a captação de lixo.",
+        "O sindicato dos gráficos e o sindicato dos professores.",
+        "O sindicato dos empregados que fazem a captação de lixo e o sindicato dos professores.",
+        "O sindicato dos gráficos, o sindicato dos distribuidores de medicamentos, o sindicato dos professores e o sindicato dos empregados que fazem a captação de lixo.",
+        "Somente o sindicato dos empregados que fazem a captação de lixo."
+      ], resposta_correta: 1 },
+  { id: "q1345", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Foi prolatada sentença na reclamação trabalhista movida por Genilton contra o seu ex-empregador, julgando procedente o pedido. A empresa apresentou as razões de recurso ordinário no 8º dia útil após a publicação da sentença e, 3 dias depois, juntou aos autos o recolhimento das custas e do depósito recursal, enfatizando que o preparo havido sido feito também no 8º dia útil, conforme chancela bancária visível nos documentos, mas que, por descuido do setor interno da empresa, o comprovante somente estava sendo juntado naquele momento. Considerando os termos da CLT e o entendimento consolidado do TST, assinale a afirmativa correta.",
+      alternativas: [
+        "Deserto o recurso porque o preparo não foi apresentado no prazo legal.",
+        "O recurso terá seguimento normal porque os recolhimentos foram feitos dentro do prazo recursal.",
+        "Seria possível tolerar a comprovação das custas após o prazo recursal, mas não do depósito recursal.",
+        "Não há dispositivo legal ou jurisprudencial sobre o tema, daí porque ficará a critério do magistrado dar ou não seguimento ao recurso.",
+        "Seria possível tolerar a comprovação do depósito recursal após o prazo recursal, mas não das custas."
+      ], resposta_correta: 0 },
+  { id: "q1346", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "O Conselho Nacional de Previdência Social (CNPS) é o órgão superior de deliberação colegiada destinado ao tratamento da matéria de Direito previdenciário no Brasil. Dentre as suas relevantes atribuições, o CNPS estabelece diretrizes gerais e aprecia as decisões de políticas aplicáveis à Previdência Social; participa, acompanha e avalia sistematicamente a gestão previdenciária; aprecia e aprova os planos e programas da Previdência Social bem como as propostas orçamentárias da Previdência Social, antes de sua consolidação na proposta orçamentária da Seguridade Social. Assinale a opção que contempla a quantidade de membros do CNPS.",
+      alternativas: [
+        "11 membros.",
+        "13 membros.",
+        "17 membros.",
+        "15 membros.",
+        "9 membros."
+      ], resposta_correta: 3 },
+  { id: "q1347", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Manuela é dona de casa e faz recolhimento para a Previdência Social como contribuinte facultativa há 12 anos ininterruptamente. Em virtude da crise econômica que se abateu sobre a família de Manuela, em janeiro de 2022 ela precisou cessar a contribuição que até então realizava. Considerando os fatos narrados e a previsão contida na Lei previdenciária, assinale a afirmativa correta.",
+      alternativas: [
+        "Manuela manterá a qualidade de segurada, independentemente de contribuições, por até 6 meses.",
+        "Manuela continuará ostentando a condição de segurada por um período de 12 meses.",
+        "Por haver realizado mais de 120 contribuições mensais sem interrupção, Manuela terá um período de graça de 24 meses.",
+        "Deixando de recolher, Manuela perderá imediatamente a condição de segurada porque o sistema da Previdência Social é contributivo.",
+        "Manuela terá direito a um período de graça de 36 meses porque contribuiu por mais de 10 anos ininterruptos e não é empregada."
+      ], resposta_correta: 0 },
 ];
