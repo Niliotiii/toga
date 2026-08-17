@@ -865,4 +865,31 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "o valor dos benefícios previdenciários é protegido pela vedação de sua redução, garantindo-se o reajustamento a fim de manter, em caráter permanente, o valor originário da prestação;",
         "o caráter democrático e descentralizado da administração materializa-se pela gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do poder público nos órgãos colegiados."
       ], resposta_correta: 4 },
+  { id: "q1361", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "VUNESP — Câmara da Estância Balneária de Praia Grande/SP, Analista de Recursos Humanos — 2025 — Versão 3 (gabarito oficial de 27/07/2025)",
+      enunciado: "A Consolidação das Leis Trabalhistas (CLT), ao longo dos anos, vem sofrendo alterações em relação a diversos temas. Sobre a licença-paternidade, é correto afirmar que, entre as alterações em vigor, tem-se a",
+      alternativas: [
+        "redução da jornada de trabalho no período da licença para, no máximo, 44 horas.",
+        "licença-paternidade alterada de 7 dias para 60 dias.",
+        "divisão das férias para o gozo da paternidade, facultativa a um período não inferior a 15 dias corridos.",
+        "alteração da licença-paternidade para 20 dias, sob certas condições.",
+        "normatização do gozo de licença para casais homoafetivos, com período variando de 5 a 60 dias de licença para um dos membros do casal."
+      ], resposta_correta: 3 },
+  { id: "q1362", tema: "Direito do Trabalho", dificuldade: "media", fonte: "VUNESP — Câmara da Estância Balneária de Praia Grande/SP, Analista de Recursos Humanos — 2025 — Versão 3 (gabarito oficial de 27/07/2025)",
+      enunciado: "Diversas organizações passaram a adotar o benefício de auxílio home office para seus colaboradores. Tal benefício deve ser considerado como um tipo",
+      alternativas: [
+        "obrigatório para organizações com mais de 1.000 empregados.",
+        "recompensatório, por promover maior conforto aos trabalhadores destacados.",
+        "de fomento da qualidade de vida, por garantir maior conforto a seus usuários.",
+        "não obrigatório, servindo a qualquer tipo e porte de organização.",
+        "de desenvolvimento pessoal e profissional, conciliando as esferas de vida do indivíduo."
+      ], resposta_correta: 3 },
+  { id: "q1363", tema: "Direito do Trabalho", dificuldade: "media", fonte: "VUNESP — Câmara da Estância Balneária de Praia Grande/SP, Analista de Recursos Humanos — 2025 — Versão 3 (gabarito oficial de 27/07/2025)",
+      enunciado: "Comparativamente, os direitos decorrentes de pedido de demissão pelo empregado ou de demissão consensual, com acordo para dispensa entre empregador e empregado, têm a seguinte distinção:",
+      alternativas: [
+        "na demissão requisitada pelo empregado, ele não tem direito ao seguro-desemprego e recebe 50% de aviso prévio.",
+        "na demissão requisitada pelo empregado, a multa é de 50% dos 40% referentes ao FGTS, e, na demissão consensual, o colaborador tem direito ao saque de 80%.",
+        "na demissão requisitada pelo empregado, o aviso prévio é recebido integralmente, e, na demissão consensual, o aviso prévio é de 40% do valor integral.",
+        "na demissão a partir de acordo, a multa é de 20% do FGTS, e, na demissão requisitada pelo empregado, ele recebe férias vencidas proporcionais mais 1/3 de acréscimo.",
+        "na demissão a partir de acordo, o colaborador recebe seguro-desemprego, e, na demissão requisitada pelo empregado, não há direito a multa de 20% sobre o FGTS."
+      ], resposta_correta: 4 },
 ];
