@@ -748,4 +748,31 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Deixando de recolher, Manuela perderá imediatamente a condição de segurada porque o sistema da Previdência Social é contributivo.",
         "Manuela terá direito a um período de graça de 36 meses porque contribuiu por mais de 10 anos ininterruptos e não é empregada."
       ], resposta_correta: 0 },
+  { id: "q1348", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "O recurso adesivo é compatível com o processo do trabalho e, de acordo com o TST, é desnecessário que a matéria nele veiculada esteja relacionada com a do recurso interposto pela parte contrária. Considerando o entendimento consolidado do TST, assinale a opção que contempla um recurso manejado na Justiça do Trabalho que não admite recurso adesivo.",
+      alternativas: [
+        "Recurso ordinário.",
+        "Agravo de petição.",
+        "Recurso de revista.",
+        "Agravo de instrumento.",
+        "Embargos."
+      ], resposta_correta: 3 },
+  { id: "q1349", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Glória da Silva sofreu um grave acidente do trabalho; após submeter-se a tratamento médico, recuperou-se, mas ficou com sequela. Em razão de sua limitação, passou por processo de reabilitação e foi reinserida aos quadros do empregador em outra função. Diante da sua condição, passou a receber auxílio-acidente tão logo cessou o auxílio por incapacidade temporária que até então recebia. Considerando os fatos descritos e a previsão contida na norma de regência, assinale a opção que aponta o índice e o momento de reajuste do benefício previdenciário de Glória da Silva.",
+      alternativas: [
+        "IPCA medido pela FGV, com reajuste a cada 12 meses de recebimento do benefício previdenciário pela segurada.",
+        "INPC apurado pelo IBGE, com reajuste anual na mesma data do reajuste do salário-mínimo.",
+        "IGPM apurado pela média divulgada pelo IBGE e FIPE, com reajuste no mês de julho de cada ano.",
+        "IPCA-15 apurado pelo DIEESE, com reajuste anual, coincidente com o mês do aniversário da segurada.",
+        "IPC medido pela FIPE, com reajuste a cada 12 meses de recebimento do benefício previdenciário pela segurada."
+      ], resposta_correta: 1 },
+  { id: "q1350", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Após cumprir todos os requisitos legais, Renata, empregada de uma empresa privada, conseguiu, em 2022, a aposentadoria especial após 20 anos de serviços prestados em ambiente no qual havia exposição a agente químico prejudicial à saúde. Renata continuará trabalhando na mesma empresa, mas acertou com o empregador que, em razão da aposentadoria, será transferida para outro setor, no qual há agente prejudicial à saúde diverso daquele que gerou a aposentadoria especial. Considerando os fatos descritos e a previsão contida na norma previdenciária, assinale a afirmativa correta.",
+      alternativas: [
+        "Renata receberá metade da aposentadoria especial enquanto permanecer em atividade.",
+        "Não haverá qualquer consequência na aposentadoria especial porque o agente agressor à saúde é diverso.",
+        "Haverá uma redução de 25% na aposentadoria, mas a empresa deverá acrescer essa diferença no salário.",
+        "Inexistindo previsão legal para esta situação, o INSS acionará o Poder Judiciário para que este decida o destino da aposentadoria.",
+        "A aposentadoria especial de Renata será automaticamente cancelada."
+      ], resposta_correta: 4 },
 ];
