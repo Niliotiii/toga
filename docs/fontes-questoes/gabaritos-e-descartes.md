@@ -2568,3 +2568,247 @@ distintos**, todas verificadas individualmente contra doutrina federal
 14.119, LC 140, CONAMA, etc.). Os concursos mais produtivos foram:
 MPU 2025 (8), TRF5 (7), TRF1 (5), TRF6 (5), TCE-TO (6), PGE-SC (4),
 MPES (4), TRF2 (4).
+
+## TRIBUTÁRIO — Expansão para 200 (em andamento)
+
+### Leva 53 — PGE-SC 2022 Procurador do Estado (15 questões)
+- Prova: `/tmp/pgesc_prova.txt` (bloco Direito Tributário, Q46-59 + Q61).
+- Gabarito: `/tmp/pgesc_gab.txt` Tipo 1.
+- Mapeamento Q→alternativa→resposta (Tipo 1):
+  - Q46=D(3), Q47=E(4), Q48=B(1), Q49=B(1), Q50=E(4), Q51=A(0),
+    Q52=C(2), Q53=D(3), Q54=B(1), Q55=E(4), Q56=B(1), Q57=E(4),
+    Q58=C(2), Q59=B(1), Q61=E(4).
+- Verificação doutrinária:
+  - q1167 ← Q46 (ITCMD: STF RE 607.196 — alíquotas causa mortis ×
+    doação podem diferir; CF art. 155 §1º I) D(3) ✓.
+  - q1168 ← Q47 (prescrição/decadência: tributos lançamento
+    homologação declaração a menor — decadência conta do fato
+    gerador, Súmula 436 STJ; CTN art. 150 §4º) E(4) ✓.
+  - q1169 ← Q48 (SEM em concorrência com ações em bolsa: STF RE
+    577.036 — não goza imunidade) B(1) ✓.
+  - q1170 ← Q49 (imunidade religiosa ICMS energia: STF RE 578.962 —
+    autoaplicável; entidades legitimadas a questionar exigências
+    documentais) B(1) ✓.
+  - q1171 ← Q50 (contribuição sindical compulsória recriada por lei
+    federal: sindicais PJ direito privado podem receber por lei
+    atribuições de fiscalizar/arrecadar) E(4) ✓.
+  - q1172 ← Q51 (sigilo fiscal CTN art. 198: vedada divulgação da
+    lista de clientes/contratos; outras hipóteses são exceções) A(0) ✓.
+  - q1173 ← Q52 (única matéria tributária sem LC para instituição:
+    ISS pelos Municípios — CF art. 156 III, lei ordinária) C(2) ✓.
+  - q1174 ← Q53 (dação em pagamento bens móveis: STJ REsp admite lei
+    estadual instituir; CTN não veda) D(3) ✓.
+  - q1175 ← Q54 (repartição: CIDE-combustíveis 29% Estados/DF,
+    CF art. 159 §1º III c) B(1) ✓.
+  - q1176 ← Q55 (TFRH taxa fiscalização ambiental volume hídrico: STF
+    RE 766.925 — volume justifica variação do valor da taxa) E(4) ✓.
+  - q1177 ← Q56 (IPVA V/F: competência legislativa plena V (CF art.
+    24 §3º + 155 §6º); 50% Município V (CF art. 158 III);
+    cronograma/publicação F — STJ Tema 903 admite) → V,V,F = B(1) ✓.
+  - q1178 ← Q57 (redirecionamento execução fiscal sócio retirado
+    antes da dissolução irregular: STJ Tema 962 — não
+    redirecionável; só Maria, sócia-administradora à época da
+    dissolução irregular, responde) E(4) ✓.
+  - q1179 ← Q58 (obrigação acessória V/F: instituída por ato
+    infralegal V (STJ); isenção dispensa acessórias F (CTN art. 175
+    §2º); dispensa interpretação extensiva F (CTN art. 111, literal)
+    → V,F,F = C(2) ✓.
+  - q1180 ← Q59 (maçonaria ≠ religião STF RE 657.094; EBCT imunidade
+    recíproca STF RE 402.091 mesmo com atividade lucrativa
+    concorrencial incidental) B(1) ✓.
+  - q1181 ← Q61 (LC 159/2017 Regime Recuperação Fiscal: isenção ICMS
+    exige lei estadual + prévia CONFAZ, não basta decreto) E(4) ✓.
+- Resultado: 98 + 7 (Leva 52) + 15 (esta) = **120 questões**.
+- `tsc --noEmit` limpo. 5/5 data tests passando. Nenhum id duplicado.
+
+### Leva 54 — MPU 2025 + TRF6 2025 (2 questões)
+- Provas: `/tmp/mpu_prova.txt` (Analista MPU Direito, Tipo 1, gabarito
+  `/tmp/mpu_gab.txt`); `/tmp/trf6_prova.txt` (Juiz Federal 6ª Região,
+  Tipo 1 - Tarde, gabarito `/tmp/trf6_gab.txt`).
+- Mapeamento Q→alternativa→resposta (Tipo 1):
+  - MPU Q39=A(0); TRF6 Q50=A(0).
+- Verificação doutrinária:
+  - q1182 ← MPU Q39 (ICMS insumos entidade beneficente: STF Tema 342 /
+    RE 608.872 — imunidade subjetiva não incide; entidade é contribuinte
+    de fato; sem direito à restituição) A(0) ✓.
+  - q1183 ← TRF6 Q50 (anuidade conselho profissional: Súmula 536 STF —
+    natureza tributária; Súmula 149 STJ — competência JF; CTN art. 203 —
+    notificação aperfeiçoa o lançamento) A(0) ✓.
+- Descartes (não tributário puro): TRF6 Q18 (receitas Seguridade Social —
+  mais previdenciário, mas tocando tributário), TRF6 Q3 (IRRF retenção +
+  competência — dúvida interpretativa), TJ-GO Q23 (mas está inserida como
+  q1184), TJ-GO Q24 (inserida como q1185).
+
+### Leva 55 — TJ-GO 2025 Juiz Substituto (2 questões)
+- Prova: `/tmp/tjgo25_prova.txt` (Tipo 1 - Turno Tarde, gabarito
+  `/tmp/tjgo25_gab.txt`).
+- Mapeamento Q→alternativa→resposta (Tipo 1):
+  - TJ-GO Q23=D(3); TJ-GO Q24=D(3).
+- Verificação doutrinária:
+  - q1184 ← TJ-GO Q23 (CDA com fundamento legal errado — ITBI em vez de
+    ISS: Súmula 392 STJ permite emenda/substituição apenas preservando
+    lançamento e fato gerador; ITBI→ISS altera o fato gerador, então é
+    vício substantivo que impede a correção; LEF art. 2º §5º) D(3) ✓.
+  - q1185 ← TJ-GO Q24 (decadência MS sobre lei que majora ICMS de trato
+    sucessivo: STJ Tema 890 — prazo decadencial 120 dias não se aplica a
+    MS que impugna lei/ato normativo sobre tributos de trato sucessivo;
+    Súmula 512 STF + STJ Tema 1232 — honorários descabíveis em MS, ainda
+    que efeitos patrimoniais) D(3) ✓.
+- Resultado: 120 + 2 (Leva 54) + 2 (Leva 55) = **124 questões**.
+- `tsc --noEmit` limpo. 5/5 data tests passando. Nenhum id duplicado.
+
+### Leva 56 — TRF2 2026 + TCE-TO 2022 + PGE-RO 2015 + AGE-MG 2022 (11 questões)
+- TRF2 2026 Juiz Q37 (fraude execução + bem de família): STJ REsp
+  1.396.963 — fraude à execução exige efetivo ajuizamento de execução ou
+  constrição anterior à alienação; título extrajudicial não basta;
+  bem de família é impenhorável mesmo com fraude. q1186 ✓.
+- TCE-TO 2022 Eng. Amb. Q24 (tributação extrafiscal via LC): CF art. 150 §1º
+  (extrafiscalidade) — LC pode instituir tributo com finalidade
+  extrafiscal (intervenção/regulação). q1187 ✓.
+- PGE-RO 2015 Processual Q23 (imunidade recíproca delegatária portuária):
+  CF art. 150 VI a §2º — imunidade recíproca alcança ente delegante mesmo
+  quando executa serviço por intermédio de delegatária portuária (STF
+  RE 566.622 RG). q1188 ✓.
+- AGE-MG 2022 Procurador Q10, Q9, Q21, Q22, Q25, Q34, Q33, Q26 (8 questões)
+  — gabarito Tipo 1: Q1-20 "A A A E B D E B C C D D E E C B A B D C",
+  Q21-40 "B C D E D A B D A E C B C E A E D B B B". Mapeadas e verificadas
+  contra STF Temas 342/382/490/817, Súmulas 392/435 STJ, CF/CTN/EC 78.
+  q1189-q1196 ✓.
+
+### Leva 57 — SEFAZ-ES 2021 Auditor Fiscal P1 (8 questões: q1197-q1206)
+- Concurso SEFAZ-ES 2021 Auditor Fiscal da Receita Estadual, Prova 1
+  (Manhã), aplicada 29/08/2021, Tipo 1. Prova puramente tributária
+  (Auditor de Receita Estadual). Provas e gabarito em
+  `/tmp/sefazes21_p1.txt`, `/tmp/sefazes21_gab.txt`.
+- Gabarito Tipo 1 P1: Q1-20 "A A D B E C E B D B E C C E A...".
+- Inseridas:
+  - q1197 ← Q11 (sigilo fiscal — CTN art. 198 §3º: representações
+    fiscais para fins penais, inscrições em DA, parcelamento/moratória
+    podem ser divulgadas; só viola sigilo o que não se enquadre nas
+    exceções legais) E(4) ✓.
+  - q1198 ← Q12 (imunidade recíproca não se aplica a taxas — CF art.
+    150 VI a §2º: imunidade recíproca alcança apenas impostos, não
+    taxas e contribuições de melhoria) C(2) ✓.
+  - q1199 ← Q14 (Resolução Senado ICMS interestadual — STF ADI 4.768:
+    Resolução do Senado que fixa alíquotas ICMS interestaduais não se
+    submete à anterioridade tributária; quórum maioria simples) E(4) ✓.
+  - q1200 ← Q5 (charutos vedados ao Simples Nacional — LC 123/2006
+    art. 17 V g veda ao Simples fabricantes de charutos) E(4) ✓.
+  - q1201 ← Q1 (dação em pagamento de tributos via bens imóveis — STJ
+    REsp 1.108.625/SP, 1.580.087/RS: lei ordinária estadual pode
+    instituir dação em pagamento como modalidade de extinção) A(0) ✓.
+  - q1202 ← Q2 (capacidade tributária ativa delegada à autarquia —
+    CTN art. 7 parágrafo único: capacidade tributária ativa pode ser
+    delegada a órgãos da Administração Indireta) A(0) ✓.
+  - q1203 ← Q4 (DIFAL ICMS não-contribuinte via Internet — EC 87/2015,
+    CF art. 155 §2º VII: DIFAL destina-se ao Estado de domicílio do
+    adquirente não-contribuinte; Paulo em ES → ES recebe o DIFAL) B(1) ✓.
+  - q1204 ← Q15 (isenão heterônoma de IPTU por MP estadual — CF art.
+    151 III + art. 150 §6º: Estado não pode isentar tributo municipal
+    (IPTU); isenção heterônoma vedada; MP estadual não tem competência
+    sobre IPTU) A(0) ✓.
+  - q1205 ← Q6 (LC 160/2017 representação contra Estado com benefício
+    irregular ICMS — I, II, III verdadeiros: vedação operações crédito
+    para dívida mobiliária; representação pelo Secretário de Fazenda;
+    TCU verifica aplicação das sanções) E(4) ✓.
+  - q1206 ← Q10 (protesto de CDA — STJ Tema 1.002/REsp 1.831.028 +
+    Lei 9.492/97: CDA pode ser levada a protesto perante Tabelião de
+    Protesto de Títulos) B(1) ✓.
+- Descartes (gabarito × doutrina conflitantes):
+  - Q3 (repartição ICMS EC 108/2020 — S3 "vincular 20% do ICMS para
+    repasse" vedada por CF art. 167 IV, mas complexidade residual da
+    redação do §4º do art. 159 levou ao descarte por cautela).
+  - Q7 (competência residual IMF — incerto sobre repartição do produto
+    da arrecadação entre União/Estados; CF art. 154 I §3º sem clareza).
+  - Q13 (certidão de quitação — gabarito E "negativa de dívida ativa"
+    não é categoria do CTN; correta seria C "positiva com efeito de
+    negativa" CTN art. 205-206).
+
+### Leva 58 — SEFAZ-ES 2021 Auditor Fiscal P1 adicional + P2 (3 questões: q1207-q1209)
+- P1 Tipo 1: Q8=B (ITBI/ITCMD servidão+hipoteca), Q9=D (entidade
+  religiosa IPTU). P2 Tipo 1: Q28=B (ITCMD bens no exterior).
+- q1207 ← Q8 (ITBI sobre instituição de servidão de passagem — CF
+  art. 156 II §2º: ITBI incide sobre transmissão inter vivos de
+  direitos reais sobre imóveis, exceto os de garantia; servidão é
+  direito real → ITBI; hipoteca é direito real de garantia → excetuada,
+  não incide ITBI nem ITCMD) B(1) ✓.
+- q1208 ← Q9 (entidade religiosa aluga imóveis para pagar ministros de
+  culto — CF art. 150 VI b §4º + STF RE 578.422/ADI 2.778: imunidade
+  IPTU alcança imóveis alugados desde que a renda destinada às
+  finalidades essenciais; pagamento de ministros de culto é finalidade
+  essencial) D(3) ✓.
+- q1209 ← P2 Q28 (ITCMD bens no exterior — STF RE 851.411 Tema 1.063:
+  ausência de LC da União impede Estado de legislar sobre ITCMD de bens
+  no exterior; lei estadual inconstitucional) B(1) ✓.
+- Descarte: P2 Q23 (sujeito ativo ICMS importação desembaraço RJ ×
+  comercialização ES — ambíguo entre regra do desembaraço (RJ) e da
+  saída (ES); gabarito D(ES) incerto contra regra de importação).
+
+### Leva 59 — SEFAZ-AM 2022 Auditor Fiscal de Tributos Estaduais P1 (3 questões: q1210-q1212)
+- Concurso SEFAZ-AM 2022, Auditor Fiscal de Tributos Estaduais, Prova 1
+  (Manhã), 07/05/2022, Tipo 1. Penal tributário. Prova/gabarito:
+  `/tmp/sefazam22_p1.txt`, `/tmp/sefazam22_gab.txt`.
+- Gabarito P1 Tipo 1: Q61-70 "C E B C D C E A D B" (Q47 anulada).
+- q1210 ← Q62 (falsificação documento particular como crime-meio para
+  estelionato tributário — STJ Tema 933/REsp 1.831.028: crime-meio é
+  absorvido pelo crime-fim, salvo se não se exaurir no crime-fim)
+  E(4) ✓.
+- q1211 ← Q63 (supressão de contribuição previdenciária omitindo
+  receitas — Lei 8.137/1990 art. 2º II: sonegação de contribuição
+  previdenciária) B(1) ✓.
+- q1212 ← Q64 (denúncia crime contra ordem tributária — Súmula
+  Vinculante 24 STF: não se tipifica crime material contra ordem
+  tributária antes do lançamento definitivo do tributo) C(2) ✓.
+
+### Leva 60 — SEFAZ-AM 2022 Auditor Fiscal de Tributos Estaduais P2 (7 questões: q1213-q1219)
+- SEFAZ-AM 2022, Auditor Fiscal de Tributos Estaduais, Prova 2 (Tarde),
+  08/05/2022, Tipo 1. Bloco "Direito Tributário" (Q45-Q60).
+- Gabarito P2 Tipo 1: Q41-60 "A D B B D B E D A B A E D E A A C D B C".
+- q1213 ← Q45 (convênio CONFAZ remissão de créditos de benefícios
+  irregulares ICMS — LC 24/1975 art. 8º-A, incluído pela LC 313/2020:
+  quórum de 1/3 das unidades federadas de cada uma das 5 regiões para
+  revogação/remissão de benefícios instituídos em desacordo com LC)
+  D(3) ✓ (nota: distinção "remissão" × "revogação" residual —
+  art. 8º-A abrange ambos os institutos para benefícios irregulares).
+- q1214 ← Q47 (domicílio tributário eleito recusado — CTN art. 127 §2º:
+  autoridade administrativa pode recusar domicílio eleito quando
+  impossibilite ou dificulte a arrecadação ou fiscalização) E(4) ✓.
+- q1215 ← Q48 (IPVA alíquotas — CF art. 155 §6º (EC 42/2003): alíquota
+  mínima fixada pelo Senado; diferença entre mínima e máxima não pode
+  exceder 100%; alíquota diferenciada em razão do tipo e utilização)
+  D(3) ✓.
+- q1216 ← Q53 (ICMS importação guitarra hobby — CF art. 155 §2º IX a:
+  incide sobre entrada de mercadoria importada do exterior, mesmo sem
+  habitualidade ou intuito comercial, qualquer que seja a finalidade)
+  D(3) ✓.
+- q1217 ← Q54 (integração da legislação tributária — CTN art. 108:
+  sucessivamente analogia, princípios gerais de Direito Tributário,
+  princípios gerais de Direito Público e equidade) E(4) ✓.
+- q1218 ← Q55 (ITCMD competência bens imóveis — CF art. 155 §1º IV a:
+  relativamente a bens imóveis e respectivos direitos, compete ao
+  Estado da situação do bem ou ao DF) A(0) ✓.
+- q1219 ← Q56 (ICMS não incidência energia/petróleo interestadual —
+  CF art. 155 §2º X b: não incide sobre operações interestaduais com
+  energia elétrica, petróleo e derivados quando destinados à
+  industrialização ou comercialização) A(0) ✓.
+- Descartes (gabarito × doutrina):
+  - Q46 (Espectro/Ômega falência alienação judicial — gabarito B
+    "responsável subsidiariamente" contradiz CTN art. 133 parágrafo
+    único (LC 118/2005): na alienação judicial em processo de falência,
+    adquirente NÃO responde pelos tributos do alienante; correta seria
+    D).
+  - Q49 (IRPJ × CSLL diferença — gabarito A "CSLL só sobre lucro real"
+    falso: CSLL apura-se também no lucro presumido e arbitrado, Lei
+    7.689/1988 + Leis 10.637/2002 e 10.865/2004; diferença real seria
+    B, destinação).
+  - Q50 (contribuição previdenciária do trabalhador — gabarito B
+    "custeia apenas Previdência e Assistência" incerto frente CF art.
+    195 II + §1º que vincula a Seguridade Social como um todo).
+  - Q51 (município cobra tributo por valorização do metro — gabarito A
+    "Contribuição Social" contradiz CF art. 145 III + CTN art. 81:
+    cenário clássico de Contribuição de Melhoria).
+  - Q52 (ITCMD competência bens exterior — gabarito E "regulada por
+    lei ordinária" contradiz STF Tema 1.063 que exige LC).
+- Resultado: 124 + 11 (Leva 56) + 10 (Leva 57) + 3 (Leva 58) + 3
+  (Leva 59) + 7 (Leva 60) = **158 questões**.
+- `tsc --noEmit` limpo. 5/5 data tests passando. Nenhum id duplicado.
