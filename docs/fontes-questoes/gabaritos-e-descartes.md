@@ -2915,3 +2915,43 @@ Sessão total: +41 questões verificadas (15 Tributário, 20 Trabalho,
 6 DH). Total DB ~1320. Próximas fontes Trabalho: procuradorias/AGEs
 com bloco trabalhista em provas FGV de texto limpo; DH: concursos de
 defensoria/MP com bloco ECA/LOAS (requer fontes com texto extraível).
+
+## Leva 63 — ago/2026 — Senado Trabalho esgotado (q1342-q1350)
+
+Mineração completa do caderno "Direito do Trabalho e Direito
+Previdenciário" do Senado 2022. Total inserido deste caderno:
+q1311-q1315, q1316-q1327, q1342-q1347, q1348-q1350 = 26 questões
+das ~40 específicas (Q61-100). Restantes descartadas por ambiguidade
+doutrinária ou conflito gabarito×doutrina:
+- Q61 (experiência rescisão recíproca — art.481 vs indenização)
+- Q62 (Melissa intervalo 20min refeição — negociação coletiva)
+- Q63 (Odete/Irene movimentos sociais — teoria sociológica)
+- Q68 (escala 12x36 Carlos Eduardo — ambíguo reforma)
+- Q76 (dissídio prazo instauração — CLT art.860 incerto)
+- Q82 (depósito recursal MEI/filantrópica — leitura coluna incerta)
+- Q87 (preposto terceirizado — gabarito B vs reforma art.843 §1)
+- Q88 (Heleno justiça gratuita ofício — reforma art.790)
+- Q89 (MS sem decisão — CPC art.320 vs Súmula 5)
+- Q91 (gratuidade ofício salário — ambíguo)
+- Q97 (reajuste auxílio-acidente — inserido em q1349, não descartado)
+- Q98 (Mirela pensão Fátima 19a — dependência incerta)
+
+Novas desta leva (q1342-q1350): cumulação insalubridade/periculosidade
+(maior, CLT art.195), intervalo câmara frigorífica 20min/1h40 (art.253),
+greve serviços essenciais 48h (Lei 7.783), preparo deserto (Súmula 187),
+CNPS 15 membros (Lei 8.213 art.3), período graça facultativo 6 meses
+(art.15 II), recurso adesivo AI não admite (Súmula 318), reajuste
+auxílio-acidente INPC (art.41-A), aposentado especial atividade
+insalube cancelada (EC103/19 art.19 §3).
+
+### Estado após Leva 63
+| Tema | Count | Meta |
+| --- | --- | --- |
+| Tributário | 200 | ✓ |
+| Ambiental | 200 | ✓ |
+| Trabalho | 86 | pendente (~114) |
+| Direitos Humanos | 10 | pendente (~190) |
+
+Senado Trabalho esgotado. Próximas fontes: subagente buscando VUNESP
+TRT/prefeituras (texto limpo) e FCC. Total DB ~1326. tsc limpo,
+5/5 tests, sem duplicatas.
