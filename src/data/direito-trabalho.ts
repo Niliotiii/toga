@@ -622,4 +622,58 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Salário-maternidade.",
         "Auxílio-acidente."
       ], resposta_correta: 3 },
+  { id: "q1334", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura Municipal de Vitória/ES, Procurador Municipal — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "O casal Verônica e Eduardo trabalha na mesma empresa localizada em Jardim Camburi, bairro do Município de Vitória/ES. Verônica trabalha há 15 anos em local insalubre e Eduardo, há 8 anos em horário noturno. Cada qual recebe em seu contracheque o adicional de insalubridade e noturno, respectivamente. Ocorre que em 2024 houve uma reestruturação na empresa, pelo que Verônica foi transferida para um setor sem agente insalubre e Eduardo, para o turno da manhã, das 9 às 18h. Com isso, o empregador suprimiu os adicionais até então pagos. De acordo com a legislação em vigor e o entendimento consolidado do TST, marque a alternativa correta.",
+      alternativas: [
+        "Está errada a empresa porque ambos os empregados, pelo longevo tempo de recebimento, tinham direito adquirido ao respectivo adicional.",
+        "Está correta a empresa em relação a Eduardo, já que ele recebia adicional há menos de 10 anos, mas errada em relação a Verônica porque o adicional dela se incorporou ao salário.",
+        "Não merece censura a atitude empresarial porque Verônica não estará mais sujeita a agente agressor à saúde e Eduardo não mais se ativará em horário noturno.",
+        "A postura da empresa será considerada válida contanto que haja acordo coletivo de trabalho prevendo a supressão dos adicionais respectivos.",
+        "Está correta a empresa em relação a Verônica, pois a saúde dela será doravante preservada, mas equivocada quanto a Eduardo, pois o TST prevê o direito ao adicional noturno mesmo havendo alteração de turno."
+      ], resposta_correta: 2 },
+  { id: "q1335", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura Municipal de Vitória/ES, Procurador Municipal — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Carlos, Pedro e José eram vigilantes terceirizados em uma repartição pública municipal de Vitória/ES. Foram dispensados sem nada receber, e ajuizaram reclamação trabalhista plúrima em abril de 2024. A ação foi movida contra o ex-empregador e o tomador dos serviços. Houve condenação líquida, a decisão transitou em julgado, a execução contra o ex-empregador foi inexitosa e então, direcionada contra o Município de Vitória, tomador dos serviços e responsável subsidiário. A condenação foi de R$ 25.700,00 em favor de Carlos, R$ 37.200,00 para Pedro e R$ 22.180,00 para José. Considerando a norma constitucional e que não há Lei municipal regendo a matéria, marque a forma de pagamento desses débitos pelo Município de Vitória.",
+      alternativas: [
+        "Todos receberão por meio de requisição de pequeno valor (RPV).",
+        "Pedro receberá por meio de precatório, mas Carlos e José, por RPV.",
+        "José e Pedro receberão por meio de precatório, e Carlos por RPV.",
+        "Carlos e Pedro receberão por meio de precatório e José, por RPV.",
+        "Todos receberão por meio de precatório."
+      ], resposta_correta: 0 },
+  { id: "q1336", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura Municipal de Vitória/ES, Procurador Municipal — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Regina e Ricardo são amigos desde os tempos da faculdade de direito. Após formados, Regina foi trabalhar como empregada numa empresa privada de Vitória/ES no setor de compliance, ao passo que Ricardo foi aprovado em concurso público para uma empresa pública municipal de Vitória, na qual atua como advogado da área trabalhista, sob o regime celetista (CLT). Após décadas de bons serviços prestados, ambos resolveram se aposentar espontaneamente, mas pretendem continuar a trabalhar em seus respectivos empregos porque ainda se consideram jovens, têm força de trabalho e intencionam acumular a aposentadoria com o salário da ativa, trazendo maior conforto material para si e seus dependentes. Diante da situação apresentada e das normas de regência, marque a alternativa correta.",
+      alternativas: [
+        "Somente a pretensão de Ricardo poderá se concretizar, pois a aposentadoria de Regina gerará a extinção do seu contrato.",
+        "Ambos poderão se aposentar e continuar trabalhando, pois a relação do segurado com o INSS não se confunde com a relação com o empregador.",
+        "Somente a pretensão de Regina poderá se concretizar, pois a aposentadoria de Ricardo gerará a extinção do seu contrato.",
+        "Aposentar significa jubilar, cessar, por de lado, razão pela qual a aposentadoria voluntária porá fim aos pactos laborais de Regina e Ricardo.",
+        "Ambos poderão se aposentar, continuar trabalhando e sobre o salário da ativa após a aposentadoria não haverá contribuição previdenciária."
+      ], resposta_correta: 2 },
+  { id: "q1337", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura Municipal de Vitória/ES, Procurador Municipal — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Silvia trabalha há 3 anos numa sociedade empresária localizada em Cariacica, mas soube pelo seu gerente que a empresa “fecharia as portas muito em breve”. Silvia entende que faz jus ao adicional de periculosidade em razão das funções que exerce. Diante da urgência, ajuizou medida judicial para a produção antecipada de prova pericial, pois com o fechamento da empresa a prova se tornaria inviável. A ação foi distribuída à 120ª Vara do Trabalho de Vitória e a prova pericial, deferida e produzida, tendo o perito concluído que a atividade de Silvia era perigosa. Dias após, a sociedade empresária encerrou suas atividades. Diante da situação apresentada e dos termos da legislação em vigor, marque a alternativa correta.",
+      alternativas: [
+        "A 120ª Vara do Trabalho de Vitória será preventa para apreciar a reclamação trabalhista que venha a ser ajuizada.",
+        "Houve um equívoco porque a produção antecipada de provas não está prevista na CLT e, por isso, não pode ser manejada na seara trabalhista.",
+        "A produção antecipada de provas serve apenas para a colheita de depoimentos, e não para a realização de uma prova técnica.",
+        "O juízo da 120ª Vara do Trabalho de Vitória não ficará prevento para apreciar a reclamação trabalhista que venha a ser proposta.",
+        "Tendo a perícia sido positiva, caberia ao juízo da 120ª Vara do Trabalho, na mesma, decisão, deferir o pagamento do adicional de periculosidade a Silvia."
+      ], resposta_correta: 3 },
+  { id: "q1338", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura Municipal de Vitória/ES, Procurador Municipal — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Fernanda foi contratada em março de 2024 como profissional de tecnologia da informação, tendo a carteira profissional anotada. No contrato individual de trabalho de Fernanda consta que ela deverá cumprir a escala de doze horas seguidas por trinta e seis horas ininterruptas de descanso (12x36 h). No mês de abril de 2024, por 2 vezes a escala de Fernanda coincidiu com o dia de domingo e em 1 oportunidade, com dia de feriado nacional. Considerando a situação apresentada e os termos da CLT, marque a alternativa correta.",
+      alternativas: [
+        "Fernanda não terá direito ao pagamento, com adicional de 100%, das horas trabalhadas aos domingos e feriado.",
+        "A escala contratada é ilegal porque deveria estar prevista em norma coletiva, daí porque será extra a hora que exceder a 8ª diária.",
+        "A empregada em questão terá direito ao pagamento, como extra acrescida de 100%, das horas referentes às escalas que coincidam com os domingos.",
+        "A escala contratada é ilegal porque deveria estar prevista em convenção coletiva, daí porque será extra a hora que exceder a 44ª semanal.",
+        "A empregada em questão terá direito ao pagamento, como extra acrescida de 100%, das horas referentes à escala que coincidiu com o feriado."
+      ], resposta_correta: 0 },
+  { id: "q1339", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — Prefeitura Municipal de Vitória/ES, Procurador Municipal — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Das situações abaixo indicadas marque aquela que, de acordo com a Lei de regência, não autoriza o saque do FGTS depositado na conta vinculada do trabalhador.",
+      alternativas: [
+        "Se a extinção do contrato de trabalho ocorrer por culpa recíproca.",
+        "Quando o trabalhador tiver idade igual ou superior a sessenta e cinco anos.",
+        "Se o dependente do trabalhador for acometido de neoplasia maligna.",
+        "Quando o trabalhador com deficiência, por prescrição, necessite adquirir prótese para promoção de acessibilidade e de inclusão social.",
+        "Se o dependente do trabalhador for portador do vírus HIV."
+      ], resposta_correta: 1 },
 ];
