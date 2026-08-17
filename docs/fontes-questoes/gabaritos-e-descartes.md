@@ -2955,3 +2955,50 @@ insalube cancelada (EC103/19 art.19 §3).
 Senado Trabalho esgotado. Próximas fontes: subagente buscando VUNESP
 TRT/prefeituras (texto limpo) e FCC. Total DB ~1326. tsc limpo,
 5/5 tests, sem duplicatas.
+
+## Leva 64 — ago/2026 — subagente destrava novas fontes Trabalho
+
+Subagente (general-purpose, Brave Search) localizou 5 fontes com
+texto limpo. Usadas 3 nesta leva:
+
+### Abreu e Lima 2024 Procurador (q1351-q1355) — bloco Q49-56
+"Direito do Trabalho e Processual do Trabalho": requisitos vínculo
+(exclusividade não é, Súmula 266), responsabilidade subsidiária
+ente público (Súmula 331 IV), gorjeta remuneração não salário
+(art.457 §3 reforma), testemunhas sumaríssimo 2/inquérito 6
+(art.852-H + art.821), TST 27 ministros/8 turmas.
+
+### NavBrasil 2026 Advogado (q1356-q1359) — Q57-61
+norma coletiva 2 anos vedada ultratividade (art.614 §3 + art.620-A),
+férias em dobro 30 dias (art.137), Agravo de Petição fase executória
+(art.897 §1), ente público sujeito à revelia (Súmula 367).
+
+### CNU 2025 Bloco 1 Seguridade (q1360) — Q31
+gestão quadripartite (CF art.194 §único VII). Resto do bloco é
+teoria/história (mutualismo, solidariedade) — baixo ROI hard-law.
+
+### VUNESP Praia Grande 2025 Analista RH (q1361-q1363) — Q39/40/48
+licença-paternidade 20 dias (art.473 III, Lei 13.257), auxílio home
+office não obrigatório, distinção pedido demissão vs consensual
+(art.484-A: 20% multa + seguro-desemprego).
+
+### Descartadas desta leva
+- Abreu Q50 (jurisdição voluntária RO ambíguo), Q52 (prova whatsapp),
+  Q55 (extinção contrato B/D ambíguos).
+- NavBrasil Q57 (estabilidade suplente CIPA ambígua).
+- CNU Q34/37/39 (gabarito×doutrina: facultativo contribuição, pensão
+  3 regimes, BPC/bolsa família previdenciários — conflito).
+
+### Estado após Leva 64
+| Tema | Count | Meta |
+| --- | --- | --- |
+| Tributário | 200 | ✓ |
+| Ambiental | 200 | ✓ |
+| Trabalho | 99 | pendente (~101) |
+| Direitos Humanos | 10 | pendente (~190) |
+
+Sessão total: +53 questões verificadas (15 Trib + 42 Trabalho + 6 DH).
+Trabalho quase em 100. Próximas fontes Trabalho: mais VUNESP câmaras/
+prefeituras SP (analista RH, agente adm), FGV procuradorias com bloco
+trabalhista. DH segue o gargalo — fontes texto-limpo raras.
+Total DB ~1339. tsc limpo, 5/5 tests, sem duplicatas.
