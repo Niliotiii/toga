@@ -676,4 +676,22 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Quando o trabalhador com deficiência, por prescrição, necessite adquirir prótese para promoção de acessibilidade e de inclusão social.",
         "Se o dependente do trabalhador for portador do vírus HIV."
       ], resposta_correta: 1 },
+  { id: "q1340", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — TCE-PE, Procurador do Tribunal de Contas — 2026 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Conforme o art. 3º da CLT, considera-se empregado toda pessoa física que prestar serviços de natureza não eventual a empregador, sob a dependência desse e mediante salário. Entre os requisitos que caracterizam essa relação está a subordinação que, do ponto de vista jurídico, caracteriza-se como:",
+      alternativas: [
+        "econômica.",
+        "jurídica.",
+        "técnica.",
+        "política.",
+        "social."
+      ], resposta_correta: 1 },
+  { id: "q1341", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — TCE-PE, Procurador do Tribunal de Contas — 2026 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Dos serviços ou atividades listados a seguir, cujos trabalhadores estejam na iminência de deflagrar greve, assinale aquele(a) cuja entidade patronal correspondente ou os empregadores diretamente interessados deverão, pela Lei, ser notificados com antecedência mínima de 48 (quarenta e oito) horas antes da paralisação.",
+      alternativas: [
+        "Funerários.",
+        "Telecomunicações.",
+        "Captação e tratamento de esgoto e lixo.",
+        "Distribuição de medicamentos e alimentos.",
+        "Turismo, eventos esportivos e culturais."
+      ], resposta_correta: 4 },
 ];
