@@ -514,4 +514,112 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Participação nos lucros da empresa, paga de acordo com a Lei específica.",
         "Valor pago em decorrência da cessão de direitos autorais."
       ], resposta_correta: 2 },
+  { id: "q1316", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Das situações abaixo listadas, considerando as normas de regência e o entendimento consolidado do TST, assinale aquela que não ensejará garantia provisória no emprego.",
+      alternativas: [
+        "Empregada que registra sua candidatura a cargo de dirigente sindical durante o período de aviso prévio trabalhado.",
+        "Empregado eleito pelos pares para comissão de empregados para promover o entendimento direto com o empregador numa empresa de 250 funcionários.",
+        "Empregado de empresa que seja eleito diretor de sociedade cooperativa criada pelos próprios empregados.",
+        "Empregado eleito membro suplente da Comissão Internas de Prevenção de Acidentes (CIPA).",
+        "Empregado nomeado membro suplente do Conselho Curador do FGTS."
+      ], resposta_correta: 0 },
+  { id: "q1317", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Marluce e Thiago eram empregados numa empresa de construção civil há 8 meses mas, em razão da crise financeira que se abateu sobre o setor, ambos receberam aviso prévio do empregador em 12/08/2022. O aviso prévio de Marluce foi indenizado e o de Thiago, trabalhado. Ocorre que em 23/09/2022 a empresa venceu uma concorrência para a construção de uma escola pública e, por causa disso, contatou Marluce e Thiago, propondo a reconsideração do aviso prévio e a retomada do contrato de trabalho de ambos. Considerando os fatos narrados e a previsão contida na CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "É possível a retratação, mas apenas em relação a Thiago, cujo aviso prévio foi trabalhado.",
+        "A retratação é possível em relação a ambos os empregados, sendo obrigatória a aceitação.",
+        "Diante do prazo transcorrido, não poderá haver a reconsideração do aviso prévio.",
+        "É possível a retratação, mas apenas em relação a Marluce, cujo aviso prévio foi indenizado.",
+        "A retratação é possível em relação a ambos os empregados, cabendo a eles aceitar ou não."
+      ], resposta_correta: 2 },
+  { id: "q1318", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Uma entidade sindical possui 8.000 associados e convocou assembleia geral especificamente para deliberar sobre a celebração de uma convenção coletiva. Na 1ª convocação, não se alcançou o quórum mínimo legal. Considerando os fatos narrados e a CLT, assinale a opção que contempla a quantidade mínima de associados que deverá estar presente para que a 2ª convocação seja considerada regular e a assembleia possa prosseguir.",
+      alternativas: [
+        "1/3 dos associados.",
+        "4.000 associados.",
+        "1/5 dos associados.",
+        "4.001 associados.",
+        "1.000 associados."
+      ], resposta_correta: 4 },
+  { id: "q1319", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Clesio é advogado, atuando em seu próprio escritório como profissional liberal. Além disso, ele é professor numa faculdade particular, com CTPS assinada, na qual leciona a cadeira de Direito Constitucional, ministrando aulas duas vezes por semana. Clesio foi eleito, há 2 meses, Presidente do sindicato dos advogados da sua região. Ocorre que a instituição de ensino pretende dispensar Clesio sem justa causa, pois renovará todo o seu quadro de professores. Considerando os fatos descritos e o entendimento consolidado do TST, marque a afirmativa correta.",
+      alternativas: [
+        "Clesio não poderá ser dispensado sem justa causa porque terá garantia no emprego durante todo o mandato e até 1 ano após.",
+        "Clésio não terá garantia no emprego porque não exerce na empresa atividade da categoria profissional do sindicato para o qual foi eleito dirigente.",
+        "O empregado possui garantia no emprego, somente podendo ser dispensado se houver instauração prévia de inquérito no qual se comprove alguma falta grave.",
+        "Não haverá garantia no emprego em favor de Clesio, pois isso somente ocorreria se ele fosse eleito Presidente da OAB local.",
+        "Caberá ao Poder Judiciário, no caso concreto e verificando a atuação de Clesio junto ao sindicato, decidir se há ou não garantia no emprego."
+      ], resposta_correta: 1 },
+  { id: "q1320", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Foi assinado um acordo coletivo em 2022 e nele foram estipuladas algumas vantagens para a classe trabalhadora. Logo após, entretanto, a empresa informou que não observaria as benesses porque percebeu que a sua concessão é muito dispendiosa e poderia até inviabilizar a continuação dos negócios. De acordo com a CLT, a medida que deve ser proposta para que se exija de forma coacta o respeito à vantagem pactuada é a",
+      alternativas: [
+        "execução de título judicial.",
+        "ação civil coletiva.",
+        "ação monitória.",
+        "ação de cumprimento.",
+        "execução de título extrajudicial."
+      ], resposta_correta: 3 },
+  { id: "q1321", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Os trabalhadores de uma determinada fábrica, insatisfeitos com as condições de trabalho, pretendem deflagrar uma greve postulando reajuste salarial. Ocorre que não há sindicato representativo da categoria daqueles empregados na base territorial em questão. De acordo com a Lei de regência, competirá convocar, definir e deliberar sobre a paralisação coletiva da prestação de serviços",
+      alternativas: [
+        "à comissão de negociação constituída pela assembleia geral.",
+        "à confederação dos trabalhadores.",
+        "à central sindical.",
+        "à federação dos trabalhadores.",
+        "ao Ministério do Trabalho e Previdência, que indicará um árbitro."
+      ], resposta_correta: 0 },
+  { id: "q1322", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Assinale a opção que indica, das entidades e pessoas elencadas, a que tem legitimidade para a instauração do dissídio coletivo de greve na atividade de compensação bancária.",
+      alternativas: [
+        "associações civis.",
+        "central sindical.",
+        "associações profissionais.",
+        "Ministério Público do Trabalho.",
+        "Juiz do Trabalho de 1º grau."
+      ], resposta_correta: 3 },
+  { id: "q1323", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Em determinado sindicato patronal, após acirrada disputa e várias chapas concorrentes, houve a eleição, para a administração da entidade, de uma diretoria constituída de quatro membros e de um Conselho Fiscal composto por quatro membros, eleitos pela Assembleia Geral. Em relação a essa eleição, e de acordo com as regras da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Está equivocada a quantidade de membros da diretoria, que deveria ser de no mínimo cinco.",
+        "É regular a eleição tanto quanto ao formato quanto ao número de eleitos.",
+        "Está errada a quantidade de membros do Conselho Fiscal, que deveria ser três.",
+        "Nada há de irregular pois o sindicato tem liberdade de fixar a quantidade de diretores e integrantes do Conselho Fiscal.",
+        "Está incorreta a quantidade de membros da diretoria, que deveria ser de sete, e do Conselho Fiscal, que deveria ter igual número."
+      ], resposta_correta: 2 },
+  { id: "q1324", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "O sindicato dos empregados de uma categoria designou data e hora para tomar, por escrutínio secreto, deliberações concernentes a assuntos variados. Alguns associados questionam essa conduta, afirmando que tudo deveria ser aberto, público e transparente. Dos assuntos indicados a seguir, assinale aquele que, de acordo com a CLT, não se submete a escrutínio secreto.",
+      alternativas: [
+        "Aplicação do patrimônio.",
+        "Julgamento dos atos da diretoria, relativos a penalidades impostas a associados.",
+        "Tomada e aprovação de contas da diretoria.",
+        "Eleição de associado para representação da respectiva categoria prevista em lei.",
+        "Indicação de delegado sindical."
+      ], resposta_correta: 4 },
+  { id: "q1325", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "A empresa ÔMEGA ajuizou ação trabalhista contra o ex-empregado Jorge, requerendo a devolução de um notebook de propriedade da empresa que não foi devolvido por ocasião da extinção do contrato. Citado validamente, o empregado não compareceu em juízo e o pedido foi julgado procedente à revelia, determinando-se a devolução do aparelho em 15 dias, sob pena de multa diária fixada em R$ 50,00. O trabalhador então interpôs recurso ordinário arguindo o direito de retenção do notebook até que seus direitos, que serão perseguidos em ação própria a ser futuramente ajuizada, sejam pagos. Sob o aspecto processual, considerando os fatos narrados e a previsão contida na CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "A pretensão do trabalhador deve ser atendida porque não cabe ação da empresa contra o empregado na Justiça do Trabalho.",
+        "A pretensão de Jorge procede porque ele tem o direito de permanecer com algum patrimônio da empresa como garantia do pagamento de seus direitos.",
+        "Jorge não terá a pretensão atendida porque a retenção deveria ter sido suscitada como matéria de defesa.",
+        "Até o trânsito em julgado é possível arguir, com sucesso, a compensação e a retenção, daí porque é viável suscitar a retenção no recurso.",
+        "Não é possível dar guarida à pretensão do ex-empregado porque a retenção deveria ter sido suscitada em instância ordinária."
+      ], resposta_correta: 2 },
+  { id: "q1326", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Em determinada empresa há 4 empregados com os seguintes diagnósticos médicos: Douglas é diabético; Regina tem hanseníase; Wilson tem neoplasia maligna e Denise tem enfisema pulmonar. Assinale a opção que contempla os(as) empregados(as) que, em razão de sua doença, não precisarão de carência para recebimento do auxílio por incapacidade temporária.",
+      alternativas: [
+        "Douglas e Denise, apenas.",
+        "Regina e Wilson, apenas.",
+        "Regina e Denise, apenas.",
+        "Douglas e Wilson, apenas.",
+        "Douglas, Denise, Regina e Wilson."
+      ], resposta_correta: 1 },
+  { id: "q1327", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Senado Federal, Edital nº 4/2022 — Consultor Legislativo, Assessoramento Legislativo (Direito do Trabalho e Direito Previdenciário) — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Após 35 anos de contribuição, Janaína aposentou-se pelo Regime Geral de Previdência Social e nessa condição se encontrava há 7 anos. Então, Janaína recebeu uma boa proposta para retornar ao mercado de trabalho, que foi por ela aceita não só para ocupar o tempo ocioso, como porque desejava aumentar a renda familiar por conta do aumento de seus gastos. Dos benefícios previdenciários listados a seguir, indique aquele que poderá, em tese, ser recebido por Janaína.",
+      alternativas: [
+        "Aposentadoria especial.",
+        "Auxílio por incapacidade temporária.",
+        "Salário-família.",
+        "Salário-maternidade.",
+        "Auxílio-acidente."
+      ], resposta_correta: 3 },
 ];
