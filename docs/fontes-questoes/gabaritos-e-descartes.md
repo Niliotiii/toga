@@ -3155,3 +3155,40 @@ Sessão ago/2026 acumulado: +102 questões. Padrão produtivo descoberto:
 concursos de MP/promotor FGV recentes com bloco "Infância e Juventude"
 são a melhor fonte DH — procurar próximos (ex.: MPSC, MPBA, MPPB
 quando saírem).
+
+## Leva 68 — ago/2026 — MPES 2025 + MPU 2025: +11 DH
+
+Padrão "concursos de MP têm bloco DH" confirmado em mais 2 fontes:
+
+### MPES 2025 Promotor (q1400-q1407, +8)
+Prova Tarde/Tipo Branca (promotor-de-justica-substituto-cns100-tipo-1.pdf)
++ gabarito DEFINITIVO (gabarito-definitivo_promotor-de-justica-substituto.
+pdf). Mapeamento turno confirmado por 3 âncoras doutrinárias. DH Q11-16
++ Infância Q46-47: Convenção Interamericana Racismo, ADI 4275
+(autodeclaratório em cartório, Lei 14.382/2022), Favela Nova Brasília
+Corte IDH, ADPF 976 (população rua), ADPF 347 (estado coisas
+inconstitucional), Xucuru/OIT 169, acolhimento emergencial CT,
+entrega voluntária equipe interprofissional. Descartadas Q48/Q49/Q50.
+
+### MPU 2025 Analista-Direito (q1408-q1410, +3)
+Bloco "Noções de DH e Fundamentais e de Acessibilidade" Q21-25
+(a07-analista-do-mpu-direitoa07-tipo-1.pdf + mpu-gabarito-definitivo.pdf).
+LBI biopsicossocial, Estatuto Igualdade Racial art.39, Pacto São José
+jurisdição facultativa. Q21 anulada, Q24 descartada.
+
+### Fontes verificadas e mortas nesta leva
+- mpes26: só cargos técnicos. MPSP/PCPR/DPE-RJ 2026: fase edital.
+- PGM (portal) = Niterói antigo esgotado. pmp21/pmp22 = Paulínia (não MP).
+- MPSC 2022: gabarito existe mas prova promotor removida do portal
+  (404 nos padrões adivinhados). MPU técnico: sem bloco jurídico DH.
+
+### Estado após Leva 68
+| Tema | Count | Sessão ago/2026 |
+| --- | --- | --- |
+| Tributário | 200 ✓ | +15 |
+| Trabalho | 124 | +67 |
+| Direitos Humanos | 32 | +28 (de 4!) |
+
+DH mais que octuplicou na sessão (4→32). Total DB 1386. Próximas
+fontes DH: MPSC 2022 (se achar a prova via qconcursos), mpal
+(MP-Alagoas, página 5 do portal), próximos MPs 2026 quando saírem.
