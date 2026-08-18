@@ -3250,3 +3250,35 @@ hardcode removido em favor de soma dinâmica (committed junto).
 
 Padrão "concursos de Procurador/Defensor/MP FGV têm bloco DH +
 Trabalho verificável" continua: SJC rendeu ambos na mesma prova.
+
+### Leva 71 — ago/2026 — MPRJ 2025 Promotor: +4 DH
+
+MPRJ XXXVIII Concurso Promotor 2025 (Tipo 1/Tarde, gabarito
+03/08/2025), bloco "Direito da Infância e da Juventude":
+- DH q1425-q1428 (+4): MP atribuições na infância (ação de adoção
+  de habilitado NÃO é do MP — ECA art.201), atribuição exclusiva
+  Conselho Tutelar (alunos faltosos LDB art.12 VIII + medidas
+  101/129), internação provisória só via representação MP com
+  indícios (ECA art.178/179 — delegado não representa diretamente),
+  confissão não dispensa provas no socioeducativo (nulidade STJ)
+- Descartadas: Q76 (procedimento desacolhimento incerto), Q79
+  (CNJ 485/2023 recente específico), Q80 (teses STJ específicas),
+  Q83 (unificação medidas jurisprudência incerta), Q84 (tese D
+  "apenas internação 18-21" duvidosa), Q85 (gabarito B vs
+  doutrina Lei 12.850 art.4 corroboração)
+- Prova NÃO possui bloco Trabalho/Previdenciário/Consumidor —
+  apenas Penal, Civil, Const, Admin, Eleitoral, Infância (juros)
+
+### Estado após Leva 71
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Tributário | 185 | 200 ✓ |
+| Trabalho | 57 | 129 |
+| Ambiental | 200 | 200 ✓ |
+| Direitos Humanos | 4 | **45** |
+| **TOTAL DB** | — | **1404** |
+
+DH já supera em 11× o estoque inicial (4→45) e o fluxo
+"MP/Procurador/Defensor FGV + gabarito publicado → bloco
+Infância/Juventude rico em ECA" continua sendo o mais produtivo
+para DH. MPRJ 2025 teve 8 questões de Infância num único bloco.
