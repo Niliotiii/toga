@@ -3192,3 +3192,31 @@ jurisdição facultativa. Q21 anulada, Q24 descartada.
 DH mais que octuplicou na sessão (4→32). Total DB 1386. Próximas
 fontes DH: MPSC 2022 (se achar a prova via qconcursos), mpal
 (MP-Alagoas, página 5 do portal), próximos MPs 2026 quando saírem.
+
+## Leva 69 — ago/2026 — MPGO 2023+2025: +7 DH
+
+Padrão "concursos de MP têm bloco DH" continua rendendo:
+
+### MPGO 2023 Promotor (q1411-q1413, +3) — 48º Concurso
+Bloco "Direitos Difusos, Coletivos e Individuais Homogêneos" Q58-69
+(gabarito definitivo via comissaodeconcurso_comunicado-n.-11.pdf,
+prova promotor-de-justica-substitutocns001-tipo-1.pdf, TARDE): idoso
+gratuidade (art.39), Lei 13.431 escuta especializada, colaboração
+premiada em improbidade (STF ADI 5803).
+
+### MPGO 2025 Promotor (q1414-q1417, +4) — 49º Concurso
+Mesma estrutura, Q50-57 (gabarito preliminar
+mpgo2025-gabaritos-para-publicacao.pdf, prova cns100-tipo-1_0.pdf):
+infiltração internet (ECA + Lei 13.444), direito difuso, TAC título
+executivo extrajudicial, ação civil pública estrutural (mínimo
+existencial, STF).
+
+### Estado após Leva 69
+| Tema | Count | Sessão ago/2026 |
+| --- | --- | --- |
+| Tributário | 200 ✓ | +15 |
+| Trabalho | 124 | +67 |
+| Direitos Humanos | 39 | +35 (de 4!) |
+
+DH quase decuplicou. Total DB 1393. Próximas fontes DH: MP-PR/MP-BA
+quando saírem, MPSC 2022 (prova offline).
