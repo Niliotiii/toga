@@ -91,4 +91,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "a lavra da jazida mineral depende de autorização do Poder Executivo federal, sendo que as comunidades afetadas, caso não as explorem diretamente, devem ter assegurado o direito de participar dos resultados da lavra, na forma da lei.",
         "a lavra da jazida mineral depende de autorização do Congresso Nacional, ouvidas as comunidades afetadas, que não têm assegurado o direito de explorá-las diretamente, mas devem participar dos resultados da lavra, na forma da lei."
       ], resposta_correta: 4 },
+  { id: "q1389", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Após a análise necessária, foi constatado que a comunidade Alfa, situada no território brasileiro, foi formada por cativos que fugiram dos seus senhores em meados do século XIX e ali se estabeleceram, sendo atualmente ocupada pelos seus descendentes. Além disso, foi constatado que a área contígua, ao norte dessa comunidade, oferecia farta matéria-prima, passível de ser utilizada nos trabalhos manuais desenvolvidos pelos membros da referida comunidade. À luz desse quadro, os líderes da comunidade Alfa consultaram um especialista em relação à propriedade da área, sendo-lhes corretamente informado que,",
+      alternativas: [
+        "tanto a área da comunidade como a área contígua são de propriedade de Alfa, o que se dá na modalidade de título coletivo e pró-indiviso.",
+        "apenas a área da comunidade é de propriedade coletiva de Alfa, gravada com as cláusulas de inalienabilidade, imprescritibilidade e impenhorabilidade.",
+        "as normas constitucionais e internacionais que dispõem sobre a propriedade de áreas semelhantes à de Alfa são de eficácia limitada, carecendo de integração por lei.",
+        "apenas a área da comunidade Alfa é de propriedade da União, sendo assegurado o usufruto vitalício aos seus ocupantes, enquanto a área contígua pode ser integrada ao patrimônio público via desapropriação.",
+        "é assegurado a cada ocupante da comunidade Alfa a propriedade exclusiva da área ocupada, cabendo à comunidade fixar as diretrizes de uso, enquanto a propriedade da área contígua é de terceiros."
+      ], resposta_correta: 1 },
+  { id: "q1390", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Após ampla mobilização dos indígenas da Tribo Alfa, foram iniciadas medidas, no âmbito do órgão estatal competente, visando à identificação e à delimitação de uma terra que defendiam ser tradicionalmente ocupada por Alfa. Esse processo seria ultimado com a regularização fundiária, permitindo, inclusive, a retirada das pessoas que indevidamente ocupam a área. A respeito dessa primeira etapa, à luz da sistemática vigente, assinale a afirmativa correta.",
+      alternativas: [
+        "Será realizada a demarcação física, de caráter temporário, conforme estudo preliminar realizado por ambientalistas e historiadores.",
+        "Será assegurado a todos os interessados na área a possibilidade do contraditório, apresentando razões instruídas com todas as provas pertinentes.",
+        "O processo será conduzido pelo Ministério da Justiça e Segurança Pública, que irá, ou não, emitir a portaria declaratória de que a terra pertence a Alfa.",
+        "Serão realizadas avaliações preliminares de caráter sigiloso, que irão subsidiar o parecer inicial, favorável ou desfavorável à declaração de que a terra pertence a Alfa.",
+        "A Fundação Nacional dos Povos Indígenas conduzirá uma investigação de caráter inquisitorial, promovida por equipe técnica multidisciplinar, que irá subsidiar o seu relatório."
+      ], resposta_correta: 1 },
+  { id: "q1391", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Pedro, recém-empossado como Prefeito do Município Alfa, que tinha entre os seus compromissos a maximização de todas as iniciativas municipais destinadas à defesa da pessoa idosa, solicitou que um assessor explicasse o nível de influência do Conselho Municipal de Defesa dos Direitos da Pessoa Idosa (CMDDPI) nas decisões que ele, Chefe do Poder Executivo, decidisse adotar. O assessor explicou corretamente que, à luz da Política Nacional do Idoso, o CMDDPI",
+      alternativas: [
+        "configura um fórum de debates, que irá subsidiar as decisões do Chefe do Poder Executivo municipal e a sua avaliação da política nacional do idoso.",
+        "seguirá as determinações do Chefe do Poder Executivo municipal, desde que se mantenham adstritas à política nacional do idoso.",
+        "é um órgão permanente e deliberativo que, entre outras competências, deve avaliar a política nacional do idoso no âmbito da instância político-administrativa municipal.",
+        "irá atuar, em razão do caráter nacional da política do idoso, como longa manus do Conselho Nacional dos Direitos da Pessoa Idosa, de modo concorrente com o Chefe do Poder Executivo municipal.",
+        "é exemplo de descentralização administrativa, devendo definir a política municipal do idoso a ser observada pelo Chefe do Poder Executivo no exercício de suas atividades privativas, que abrangem os momentos de execução e de avaliação."
+      ], resposta_correta: 2 },
 ];
