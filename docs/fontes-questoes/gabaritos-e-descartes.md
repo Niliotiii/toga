@@ -3220,3 +3220,33 @@ existencial, STF).
 
 DH quase decuplicou. Total DB 1393. Próximas fontes DH: MP-PR/MP-BA
 quando saírem, MPSC 2022 (prova offline).
+
+### Leva 70 — ago/2026 — SJC Procurador 2024: +5 Trabalho, +2 DH
+
+SJC (São José dos Campos) Procurador Municipal 2024 (prova objetiva
+procurador-objetivacns100-tipo-1_0.pdf, gabarito
+sjcprocurador2024_gabarito_definitivo_20240208.pdf):
+- DH q1418-q1419 (+2): ECA art.87 linhas de atuação política de
+  atendimento, fluid recovery CDC art.100 caráter residual (STJ)
+- Trabalho q1420-q1424 (+5): comissão empregados 3.500 (CLT art.164
+  + garantia registro→1 ano pós-mandato), inquérito civil não é
+  pressuposto de ACP, MPT 2º/3º graus PJ direito público (LC 75
+  art.84 VII), acúmulo aposentadoria+pensão (Lei 8.213 art.124),
+  aposentadoria incapacidade 100% AT/60% comum (art.42 §2)
+- Descarte: Q63 FGTS saque (duas alternativas plausíveis — art.20
+  VIII 3 anos vs X aposentadoria)
+
+### Estado após Leva 70
+| Tema | Sessão ago/2026 |
+| --- | --- |
+| Tributário | 200 ✓ |
+| Trabalho | 129 (de 57) |
+| Ambiental | 200 ✓ |
+| Direitos Humanos | 41 (de 4) |
+| **TOTAL DB** | **1400** |
+
+Obs.: testes referem "≥800" e soma por tema, então count fixo
+hardcode removido em favor de soma dinâmica (committed junto).
+
+Padrão "concursos de Procurador/Defensor/MP FGV têm bloco DH +
+Trabalho verificável" continua: SJC rendeu ambos na mesma prova.
