@@ -892,4 +892,76 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "na demissão a partir de acordo, a multa é de 20% do FGTS, e, na demissão requisitada pelo empregado, ele recebe férias vencidas proporcionais mais 1/3 de acréscimo.",
         "na demissão a partir de acordo, o colaborador recebe seguro-desemprego, e, na demissão requisitada pelo empregado, não há direito a multa de 20% sobre o FGTS."
       ], resposta_correta: 4 },
+  { id: "q1364", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Ronaldo trabalha em uma sociedade empresária localizada em Belo Horizonte/MG, mas submeteu-se a um processo seletivo para outra empresa, localizada em Uberlândia. Ele foi aprovado e teve a promessa de iniciar no novo emprego em 45 dias. Em razão disso, Ronaldo pediu demissão do seu emprego atual, afirmando que cumpriria o aviso prévio com trabalho, requerendo o cumprimento da jornada integral e ausência nos últimos 7 dias. A empresa não concordou com isso. Diante dos fatos narrados e da previsão contida na CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Ronaldo teria que cumprir o aviso prévio com redução de 2 horas diárias, não sendo viável a redução do número de dias.",
+        "Ronaldo não poderia trabalhar durante o aviso prévio e seu valor deve ser descontado dos haveres resilitórios.",
+        "Errado o empregado, porque não haverá qualquer redução na sua jornada de trabalho durante o aviso prévio.",
+        "Plenamente viável a pretensão de Ronaldo de cumprir a jornada integral e faltar 7 dias corridos, sendo direito potestativo dele.",
+        "A pretensão de Ronaldo é viável caso haja norma coletiva prevendo a substituição da redução das horas por ausências."
+      ], resposta_correta: 2 },
+  { id: "q1365", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Uma sociedade empresária localizada em Contagem/MG possui 30 empregados. Uma vez que o seu fluxo de caixa foi abalado em razão da pandemia, a sociedade empresária resolveu pagar a 1ª parcela do 13º salário de 2022 da seguinte forma: 10 empregados receberiam no mês de março, 10, no mês de junho, e 10, em setembro. Sobre o procedimento adotado pela empresa, considerando as normas de regência sobre a matéria, assinale a afirmativa correta.",
+      alternativas: [
+        "A sociedade empresária está correta, pois pode escalonar o pagamento da 1ª parcela do 13º salário da forma implementada.",
+        "A sociedade empresária está errada, pois discriminou seus trabalhadores, violando a garantia constitucional de isonomia.",
+        "A atitude é válida, se houver previsão disso em acordo coletivo ou convenção coletiva em vigor; caso contrário, não.",
+        "A sociedade empresária equivocou-se, porque a 1ª parcela da gratificação natalina deve ser paga até o mês de julho de cada ano.",
+        "A sociedade empresária pode organizar o pagamento da 1ª parcela do 13º salário, mas nesse caso precisa ter autorização do Ministério do Trabalho e Previdência."
+      ], resposta_correta: 0 },
+  { id: "q1366", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Em acordo coletivo de trabalho feito pelo sindicato dos empregados com uma indústria alimentícia de Betim/MG, cuja vigência é de outubro de 2022 a abril de 2024, foram estipuladas várias cláusulas. Entre elas, uma prevê que a remuneração do trabalho noturno será igual à do diurno. Sabendo que a elaboração dessa norma coletiva seguiu todas as formalidades previstas na norma de regência, e tendo em vista a disposição da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "O prazo estipulado de vigência supera 1 ano, que é o máximo previsto em Lei, tornando o excesso irregular, mas a cláusula que suprime o adicional noturno é válida por 1 ano.",
+        "Tanto a supressão do adicional noturno quanto o prazo de vigência da norma são ilegais.",
+        "A validade da supressão do adicional noturno e do prazo de vigência dependerão de homologação judicial.",
+        "Tanto a supressão do adicional noturno quanto o prazo de vigência da norma são legais porque o negociado prevalece sobre legislado.",
+        "A supressão do adicional noturno é ilícita e o prazo de vigência da norma é regular."
+      ], resposta_correta: 4 },
+  { id: "q1367", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Joelma contratou um advogado e ajuizou reclamação trabalhista contra o seu ex-empregador, que é uma sociedade empresária localizada em Ipatinga/MG. A sociedade empresária apresentou resposta na forma de contestação e reconvenção, atribuindo a esta o valor da causa em R$ 10.000,00. O pedido da reclamação trabalhista foi julgado procedente, tendo o juiz proferido sentença líquida e declarado que o crédito devido a Joelma, já atualizado, seria de R$ 50.000,00. Já a reconvenção foi julgada improcedente. Na reclamação trabalhista, o juiz deferiu honorários advocatícios de sucumbência no percentual mínimo previsto na CLT e, na reconvenção, deferiu honorários no percentual máximo previsto na CLT. Assim sendo, assinale a opção que contempla o valor total dos honorários advocatícios de sucumbência que o advogado da autora fará jus somando-se os da reclamação trabalhista e os da reconvenção.",
+      alternativas: [
+        "R$ 3.500,00.",
+        "R$ 4.000,00.",
+        "R$ 5.000,00.",
+        "R$ 6.000,00.",
+        "R$ 5.500,00."
+      ], resposta_correta: 1 },
+  { id: "q1368", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Maria trabalhou em uma sociedade empresária privada localizada em Ouro Preto/MG por 13 anos ininterruptos, exercendo a função de almoxarife. Em razão dos efeitos da pandemia, com a respectiva redução das atividades do seu empregador, Maria foi dispensada sem justa causa em 2022, recebendo sua indenização. Considerando os fatos narrados e a norma de regência, assinale a opção que indica o prazo no qual, mesmo sem contribuir após a dispensa, Maria continuará ostentando a condição de segurada e, assim, estará coberta pela Previdência Social.",
+      alternativas: [
+        "24 meses.",
+        "12 meses.",
+        "6 meses.",
+        "3 meses.",
+        "30 meses."
+      ], resposta_correta: 0 },
+  { id: "q1369", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Gerson, aposentado pelo RGPS, está casado com Juliana há 30 anos e vive em Sete Lagoas/MG com sua esposa e 2 filhos (João, com 20 anos de idade e Antônio, com 25, sendo este estudante de ensino superior). Infelizmente, Gerson veio a óbito no início de outubro de 2022 em razão de um ataque cardíaco fulminante. Após as primeiras providências e passado o luto, a família pretende requerer pensão por morte. Assinale a opção que indica o percentual devido a título de pensão por morte e quem será o beneficiário.",
+      alternativas: [
+        "100% da aposentadoria, dividido em partes iguais entre a viúva e os 2 filhos.",
+        "50% da aposentadoria, dividido entre a viúva e o filho de 25 anos de idade.",
+        "60% da aposentadoria, com rateio igual entre os filhos do falecido.",
+        "100% da aposentadoria, dividido em partes iguais entre a viúva e o filho com 20 anos de idade.",
+        "70% da aposentadoria, rateados entre Juliana e o filho com 20 anos de idade."
+      ], resposta_correta: 3 },
+  { id: "q1370", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Os segurados da Previdência Social podem ser obrigatórios ou facultativos. O facultativo é aquele que não tem obrigação de fazer os recolhimentos, mas o faz voluntariamente por entender que a adesão ao RGPS é vantajosa pela proteção social que ela oferece. Das situações abaixo listadas, assinale a que contempla, de acordo com a norma de regência, um(a) segurado(a) facultativo(a).",
+      alternativas: [
+        "Breno, que presta serviço de natureza urbana em caráter eventual a uma sociedade empresária, sem relação de emprego.",
+        "Jonilson, ministro de confissão religiosa de uma congregação.",
+        "Alexandra, que é estagiária nos termos da Lei nº 11.788/08.",
+        "Carlos, que é trabalhador rural.",
+        "Fernanda, cooperada de cooperativa de produção mediante remuneração ajustada ao trabalho executado."
+      ], resposta_correta: 2 },
+  { id: "q1371", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Advocacia-Geral do Estado de Minas Gerais (AGE-MG), Procurador do Estado Nível I, Grau A — 2022 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Marcos Vinicius, que trabalha em uma sociedade empresária em Araxá/MG e ganha o correspondente a 2 salários-mínimos, sofreu um grave acidente do trabalho em 2019 e ficou afastado por 2 anos da sociedade empresária, recebendo o benefício previdenciário correspondente. Depois de recuperado, teve o benefício cessado e retornou à sociedade empresária, mas readaptado para outra função, pois ficou com sequela do acidente sofrido, que reduziu sua capacidade para o trabalho que habitualmente exercia. Assinale a opção que indica o benefício previdenciário que Marcos Vinicius poderá receber de imediato, logo após o retorno à sociedade empresária.",
+      alternativas: [
+        "Aposentadoria por incapacidade permanente.",
+        "Auxílio por incapacidade temporária.",
+        "Salário-família.",
+        "Auxílio-acidente.",
+        "Auxílio reclusão."
+      ], resposta_correta: 3 },
 ];
