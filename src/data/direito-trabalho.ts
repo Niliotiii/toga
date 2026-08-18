@@ -964,4 +964,40 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Auxílio-acidente.",
         "Auxílio reclusão."
       ], resposta_correta: 3 },
+  { id: "q1372", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de São José dos Campos/SP, Procurador — 2024 — Tipo 1 (gabarito definitivo de 14/01/2024)",
+      enunciado: "O inquérito civil foi criado pela Lei da Ação Civil Pública, inspirado no inquérito policial. Trata-se de um procedimento administrativo e se fundamenta no princípio da autotutela do Estado. Sobre o inquérito civil, assinale a afirmativa correta.",
+      alternativas: [
+        "Está sujeito aos princípios do contraditório e da ampla defesa.",
+        "Não constitui pressuposto processual para que o Ministério Público do Trabalho ajuíze ação civil pública.",
+        "É presidido por membro do Ministério Público do Trabalho com fiscalização de um juiz do Trabalho.",
+        "Se destina à coleta de elementos de convicção acerca da ocorrência de lesão ou ameaça de lesão a interesses e direitos individuais.",
+        "É instrumento de investigação permitido a todos aqueles legitimados ao ajuizamento de ação civil pública."
+      ], resposta_correta: 1 },
+  { id: "q1373", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de São José dos Campos/SP, Procurador — 2024 — Tipo 1 (gabarito definitivo de 14/01/2024)",
+      enunciado: "O Ministério Público do Trabalho (MPT) é um dos ramos do Ministério Público da União. É uma instituição relevante, permanente e essencial à função jurisdicional do Estado. O MPT tem autonomia funcional e administrativa, atuando como órgão independente. Os procuradores do Trabalho buscam dar proteção aos direitos fundamentais e sociais do cidadão frente a ilegalidades praticadas na seara trabalhista. Das opções a seguir, marque aquela que contempla, de acordo com a norma de regência, uma atribuição afeta ao Ministério Público do Trabalho.",
+      alternativas: [
+        "Propor as ações necessárias à defesa dos direitos e interesses dos maiores, capazes e índios, decorrentes das relações de trabalho.",
+        "Instaurar dissídio de greve em atividade essencial com possibilidade de lesão ao interesse público, desde que provocado pelo sindicato dos empregadores.",
+        "Promover habeas data, quando a competência for da Justiça do Trabalho.",
+        "Atuar como árbitro, mesmo sem solicitação das partes, nos dissídios de competência da Justiça do Trabalho.",
+        "Intervir obrigatoriamente em todos os feitos nos segundo e terceiro graus de jurisdição da Justiça do Trabalho, quando a parte for pessoa jurídica de Direito Público, Estado estrangeiro ou organismo internacional."
+      ], resposta_correta: 4 },
+  { id: "q1374", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de São José dos Campos/SP, Procurador — 2024 — Tipo 1 (gabarito definitivo de 14/01/2024)",
+      enunciado: "O Regime Geral de Previdência Social (RGPS) oferece benefícios e serviços. Benefícios são prestações em pecúnia, ao passo que serviços são bens imateriais colocados à disposição do segurado. Ressalvado o caso de direito adquirido, em regra não é possível o recebimento conjunto de dois ou mais benefícios previdenciários. Contudo, há exceções. Nas situações a seguir é vedado o acúmulo de benefícios previdenciários, à exceção de uma. Assinale-a.",
+      alternativas: [
+        "Aposentadoria e auxílio por incapacidade temporária.",
+        "Mais de uma aposentadoria.",
+        "Salário-maternidade e auxílio por incapacidade temporária.",
+        "Aposentadoria e pensão por morte.",
+        "Mais de um auxílio-acidente."
+      ], resposta_correta: 3 },
+  { id: "q1375", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de São José dos Campos/SP, Procurador — 2024 — Tipo 1 (gabarito definitivo de 14/01/2024)",
+      enunciado: "Helena e Deolina são empregadas da mesma empresa e foram aposentadas por incapacidade permanente em 2021. A base de cálculo desse benefício, sabe-se, é todo o período contributivo desde a competência julho de 1994 ou desde o início da contribuição, se posterior àquela competência. A incapacidade de Helena decorreu de doença comum, enquanto a de Deolina foi fruto de acidente de trabalho. Ambas tinham 12 anos de contribuição mensal e recebiam 3 salários mínimos junto ao empregador quando foram aposentadas. Diante desses dados, indique o percentual que corresponde ao benefício das seguradas em questão.",
+      alternativas: [
+        "100% (cem por cento) da base de cálculo para Deolina e 60% (sessenta por cento) para Helena.",
+        "100% (cem por cento) da base de cálculo para ambas as seguradas.",
+        "80% (oitenta por cento) da base de cálculo acrescido de 2% (dois por cento) para cada ano que exceder 10 anos para ambas as seguradas.",
+        "100% (cem por cento) da base de cálculo para Helena e 60% (sessenta por cento) para Deolina.",
+        "60% (sessenta por cento) da base de cálculo para ambas as seguradas."
+      ], resposta_correta: 0 },
 ];
