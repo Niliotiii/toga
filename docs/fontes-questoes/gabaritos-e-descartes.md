@@ -3113,3 +3113,45 @@ gabarito 2024", e prova "ALE-TO 2024 procurador tipo 1".
 ### Estado após Leva 66
 Trabalho 124, DH 13 (+3). Sessão ago/2026 total: +79 questões
 verificadas. Total DB 1367.
+
+## Leva 67 — ago/2026 — MPRJ 2026: mina de ouro DH + bloqueio MPMT turno
+
+### Inserido: MPRJ 2026 XXXIX Concurso Promotor (q1392-q1399, +8 DH)
+Novo concurso ativo no portal com bloco dedicado "Direito da Infância
+e da Juventude" (Q76-84), texto limpo e gabarito publicado
+(mprj-promotor-2026-gabaritos-para-publicacao.pdf — PRELIMINAR
+31/05/2026; todas as respostas confirmadas contra doutrina, então
+mudança por recurso não deve afetar). 8 de 9 questões: apadrinhamento
+(Lei 14.442/22), reintegração nos mesmos autos, escola mais próxima
+4 anos (CF art.208 VII), perda de objeto, remissão MP exclusão
+(ECA art.126), crime Lei 13.431 ação incondicionada, execução
+socioeducativa local cumprimento, acolhimento alta complexidade
+(LOAS art.23). Descartada Q80 (ECA Digital Lei 15.211/2025,
+inverificável de memória). DH 13 -> 21.
+
+### Bloqueio definitivo MPMT (documentar para não repetir)
+A prova MPMT em /tmp (TARDE, TIPO 1) tem texto LEGÍVEL (só acentos de
+cabeçalho corrompidos) com DH Q11-16 + Infância Q47-50 (~10 questões).
+Porém o gabarito definitivo cobre SÓ o turno MANHÃ (4 tipos). Evidência
+de embaralhamento entre turnos: q694 já inserida (Q1 TCEA) tem resposta
+C que bate com a linha "Tipo 2"; âncora doutrinária minha Q11
+(discriminação indireta = B) bate com "Tipo 1" — linhas distintas.
+Manhã e Tarde = mesmas questões em ordens diferentes. Sem gabarito
+Tarde específico, o bloco é INUTILIZÁVEL. (A sessão anterior usou o
+caderno Manhã; os valores de gabarito no log dela batem com a linha
+"Tipo 2" do arquivo definitivo — a rotulação de tipos do arquivo não
+corresponde aos rótulos de caderno.)
+
+### Outras checagens da rodada
+- Canaã: gabaritos encontrados são de outros cargos (Agente de
+  Serviços 2025) — Procurador segue sem gabarito.
+- MPSP, PCPR 2026, DPE-RJ 2026: fase de edital, sem provas ainda.
+- ALE-TO 2023 / ALE-AM 2025: hashes de gabarito não localizados
+  (Brave 429 intermitente, Bing sem resultados).
+
+### Estado após Leva 67
+DH 21 (+11 na rodada: 3 Macaé + 8 MPRJ). Trabalho 124. Total DB 1375.
+Sessão ago/2026 acumulado: +102 questões. Padrão produtivo descoberto:
+concursos de MP/promotor FGV recentes com bloco "Infância e Juventude"
+são a melhor fonte DH — procurar próximos (ex.: MPSC, MPBA, MPPB
+quando saírem).
