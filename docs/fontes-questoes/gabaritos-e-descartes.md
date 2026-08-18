@@ -3075,3 +3075,41 @@ esgotadas: todas procuradorias FGV texto-limpo, Senado, CNU, VUNESP
 RH. Próximas vias: FCC TRT (exige gabarito do mesmo tipo — ver
 bloqueio), novos concursos FGV 2026 com bloco trabalhista, VUNESP
 novos. DH permanece o gargalo crítico.
+
+## Leva 66 — ago/2026 — Macaé DH + pendências bloqueadas por rate-limit
+
+### Inserido: Macaé DH (q1389-q1391)
+O bloco "Direito Constitucional e Direitos Humanos" do Macaé (Q21-38)
+é majoritariamente Constitucional; DH real: Q33 (quilombola — título
+coletivo + tríplice cláusula, CF art.68 ADCT + Decreto 4.887/03),
+Q34 (demarcação indígena contraditório, Decreto 1.775/96), Q35
+(conselho idoso deliberativo, Lei 8.842/94). Descartadas Q32 (eugenia
+— história), Q36 (tecnologia assistiva — sem hard law), Q38 (ação
+afirmativa — doutrina mole). DH 10 -> 13.
+
+### Pendências identificadas (material real, aguardando gabarito)
+1. **ALE-TO 2023 Procurador Jurídico** (prova baixada: slug
+   procurador-juridicocns100-tipo-1.pdf): bloco DH Q54-56 (tratados
+   DH incorporação, Corte IDH Tzompaxtle/Luiza Melinho/Manuela,
+   PcD STJ+Caso Damião Ximenes). Gabarito 2024 baixado
+   (aletoprocurador2024_gabarito_definitivo_das1ca64.pdf) NÃO serve —
+   prova 2024 é diferente. Gabarito 2023 tem hash desconhecido.
+2. **ALE-AM 2025 Procurador** (prova baixada: procurador-cns100-tipo-1.pdf,
+   Edital 1/2025): bloco Previdenciário Q71-72 (subsistema previdência
+   CF art.201; MEI 5% SM LC 123 art.21 §2 — inequívoca). Gabarito
+   hash desconhecido.
+3. **Canaã dos Carajás 2024** (prova baixada): questões quilombola
+   (~Q30-31, linhas 387-430 do txt). Gabarito não está no portal
+   (confirmado por tentativa).
+4. **ALE-TO 2024**: gabarito em mãos, prova 2024 URL desconhecida
+   (tentativas de padrão falharam).
+
+### Bloqueio de busca desta rodada
+Brave 429 (curl E WebFetch), DDG captcha (14KB), URL-guess esgotado.
+Quando os rate-limits resetarem: buscar hashes via Brave
+"aletoprocurador2023_gabarito", "aleam 2025 gabarito", "canaa
+gabarito 2024", e prova "ALE-TO 2024 procurador tipo 1".
+
+### Estado após Leva 66
+Trabalho 124, DH 13 (+3). Sessão ago/2026 total: +79 questões
+verificadas. Total DB 1367.
