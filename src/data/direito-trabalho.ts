@@ -1162,4 +1162,40 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "100% (cem por cento) da base de cálculo para Helena e 60% (sessenta por cento) para Deolina.",
         "60% (sessenta por cento) da base de cálculo para ambas as seguradas."
       ], resposta_correta: 0 },
+  { id: "q1429", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Goiás (TCE-GO), Analista de Controle Externo — Jurídica — 2024 — Tipo Branca/Manhã (gabarito definitivo de 26/09/2024)",
+      enunciado: "Pedro trabalha num pet shop localizado em Planaltina/GO há 5 anos como tosador de animais. Desejando saber quanto tempo faltava para sua aposentadoria, Pedro baixou em seu celular o aplicativo “meu INSS” e acessou o seu CNIS (cadastro nacional de informações sociais). Para sua surpresa, verificou que o atual empregador não recolheu nenhuma contribuição, malgrado haver descontado o INSS cota-parte do empregado em todos os contracheques de Pedro. Diante da situação apresentada e de acordo com a Lei de regência, marque o crime que, em tese, foi praticado pelo empregador de Pedro.",
+      alternativas: [
+        "Estelionato previdenciário.",
+        "Sonegação de contribuição previdenciária.",
+        "Furto qualificado porque praticado contra entidade pública.",
+        "Prevaricação dolosa.",
+        "Apropriação indébita previdenciária."
+      ], resposta_correta: 4 },
+  { id: "q1430", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Goiás (TCE-GO), Analista de Controle Externo — Jurídica — 2024 — Tipo Branca/Manhã (gabarito definitivo de 26/09/2024)",
+      enunciado: "Em Senador Canedo/GO existe uma associação desportiva que mantém equipe de futebol profissional, cujo maior rival é uma equipe de futebol de Aparecida de Goiânia/GO, que no ano de 2023 se transformou numa SAF (Sociedade Anônima do Futebol). Em relação ao percentual da contribuição de ambas as entidades para a Seguridade Social a ser feita em 2024, independentemente da base de cálculo, marque a alternativa correta.",
+      alternativas: [
+        "Ambas as entidades estarão sujeitas à alíquota de 5% (cinco por cento).",
+        "A associação desportiva se submeterá à alíquota de 20% e a SAF, 11%.",
+        "Ambas as entidades estarão sujeitas à alíquota de 20% (vinte por cento).",
+        "A SAF se submeterá à alíquota de 5% e a associação desportiva, 11%.",
+        "Ambas as entidades estarão sujeitas à alíquota de 11% (onze por cento)."
+      ], resposta_correta: 0 },
+  { id: "q1431", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Goiás (TCE-GO), Analista de Controle Externo — Jurídica — 2024 — Tipo Branca/Manhã (gabarito definitivo de 26/09/2024)",
+      enunciado: "Rosangela é servidora pública do Estado de Goiás, ocupando cargo efetivo, e atua em Jataí/GO. Em seu contracheque constam diversas parcelas e Rosangela está em dúvida sobre a forma de cálculo da contribuição previdenciária. Das parcelas abaixo, retiradas do contracheque de Rosangela, marque aquela sobre a qual haverá recolhimento de contribuição previdenciária da servidora em comento.",
+      alternativas: [
+        "Diárias para viagens.",
+        "Gratificação natalina.",
+        "Ajuda de custo.",
+        "Auxílio-alimentação.",
+        "Abono de permanência."
+      ], resposta_correta: 1 },
+  { id: "q1432", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Goiás (TCE-GO), Analista de Controle Externo — Jurídica — 2024 — Tipo Branca/Manhã (gabarito definitivo de 26/09/2024)",
+      enunciado: "Jordana reside em Catalão/GO, aposentou-se de forma comum em 2023 pelo Regime Geral de Previdência Social mas, por dificuldade financeira, resolveu procurar emprego, conseguindo colocação num pequeno comércio da localidade, onde recebe o correspondente a 2 salários mínimos – valor até superior à sua aposentadoria. Considerando os fatos narrados, marque a alternativa que identifica o que ocorrerá com a aposentadoria de Jordana.",
+      alternativas: [
+        "Como Jordana terá 2 fontes de renda, haverá recolhimento previdenciário sobre a aposentadoria do Regime Geral de Previdência Social.",
+        "Jordana tem liberdade para trabalhar, mas sua aposentadoria será suspensa enquanto estiver na ativa e, em contrapartida, não incidirá INSS sobre o salário dela.",
+        "Por ser aposentada pelo Regime Geral, não haverá recolhimento de INSS sobre o salário da ativa nem sobre a aposentadoria de Jordana.",
+        "Não incidirá contribuição previdenciária sobre a aposentadoria de Jordana.",
+        "O INSS incidirá apenas sobre a diferença entre o salário da ativa e a aposentadoria de Jordana."
+      ], resposta_correta: 3 },
 ];
