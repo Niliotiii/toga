@@ -118,4 +118,76 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "irá atuar, em razão do caráter nacional da política do idoso, como longa manus do Conselho Nacional dos Direitos da Pessoa Idosa, de modo concorrente com o Chefe do Poder Executivo municipal.",
         "é exemplo de descentralização administrativa, devendo definir a política municipal do idoso a ser observada pelo Chefe do Poder Executivo no exercício de suas atividades privativas, que abrangem os momentos de execução e de avaliação."
       ], resposta_correta: 2 },
+  { id: "q1392", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "Benício, de 13 anos, já foi acolhido institucionalmente diversas vezes. Seu pai é falecido, enquanto a mãe descumpre reiteradamente deveres inerentes ao poder familiar. Em sede de audiências concentradas, declarou que não deseja ser adotado nem retornar para casa, mas que não aguenta mais o ambiente do acolhimento institucional. Além disso, relatou vontade de aprender coreano, pois gosta muito da cultura de entretenimento do país. Considerando as necessidades do adolescente e sua situação jurídica, assinale a afirmativa correta.",
+      alternativas: [
+        "A manutenção de Benício em acolhimento institucional depende de sua anuência.",
+        "Benício poderá ter o curso custeado por padrinho ou madrinha, mas é vedado o apadrinhamento diretamente por pessoa jurídica.",
+        "O curso de idioma pretendido não poderá ser custeado por meio de programa de apadrinhamento, em razão de não possuir caráter profissionalizante.",
+        "Benício não poderá ser transferido para programa de acolhimento familiar, que é de caráter temporário e excepcional, por já ter atingido 12 anos de idade.",
+        "Os padrinhos ou as madrinhas devem ter mais de 18 anos, não estar inscritos nos cadastros de adoção, bem como cumprir os requisitos do programa de apadrinhamento de que façam parte."
+      ], resposta_correta: 4 },
+  { id: "q1393", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "Alexandre e Luciana são pais de Beatriz, de dez anos de idade. Diante de grave negligência dos pais nos cuidados com a filha, constatada violação aos deveres inerentes ao poder familiar, determinou-se o acolhimento e a suspensão de Beatriz do poder familiar. Passados dois meses, em sede de audiências concentradas, as equipes socioassistenciais narraram que a avó paterna Lurdes, residente em cidade vizinha, demonstrou interesse em assumir os cuidados da neta. A avó visitou Beatriz na entidade, tendo se mostrado responsável e afetuosa, com vínculos preservados, segundo os relatórios. Sobre o caso concreto, assinale a afirmativa correta.",
+      alternativas: [
+        "O desacolhimento de Beatriz depende do ajuizamento de ação autônoma por Lurdes.",
+        "Beatriz poderá ser reintegrada à sua avó Lurdes mediante decisão nos autos do processo de acolhimento institucional.",
+        "A tutela de Beatriz, em caráter provisório, poderá ser deferida a Lurdes em sede de audiências concentradas.",
+        "A reintegração familiar de Beatriz depende de sentença judicial nos autos da ação de destituição do poder familiar.",
+        "A negligência da família natural justifica que o Juízo priorize a colocação de Beatriz em família substituta."
+      ], resposta_correta: 1 },
+  { id: "q1394", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "A Associação de Mães, Pais e Responsáveis do Município Delta procurou você, Promotor(a) de Justiça, porque dezenas de associadas relataram que, em 2026, tornou-se mais difícil a matrícula na educação infantil. Ao analisar os procedimentos de instrução sobre o tema, você verificou que o Município não atendeu às recomendações expedidas. A Associação deseja saber se é possível a adoção de medidas judiciais, bem como se crianças de qualquer idade podem ser beneficiadas. Sobre o tema, assinale a afirmativa correta.",
+      alternativas: [
+        "O Supremo Tribunal Federal (STF) fixou a tese da insindicabilidade individual do direito à vaga em creche.",
+        "A matrícula na educação básica é obrigação do Estado e dever dos pais, independentemente de idade mínima.",
+        "O(A) Promotor(a) de Justiça poderá ajuizar ação para a garantia do direito das crianças acima de dois anos de idade, idade mínima fixada como de oferecimento obrigatório.",
+        "O atendimento em creche e pré-escola às crianças de até cinco anos de idade é de aplicação direta e imediata, porém a oferta de zero a quatro anos deve ser progressivamente ampliada.",
+        "É dever do Estado garantir escola pública de educação infantil ou de ensino fundamental mais próxima de sua residência a toda criança a partir do dia em que completar quatro anos de idade."
+      ], resposta_correta: 4 },
+  { id: "q1395", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "Em janeiro de 2022, quando Eduarda contava 15 anos, foi ajuizada representação administrativa em face de seus pais Cléo e Fábio, pois a filha estava em situação de evasão escolar. O processo corre na Vara da Infância, da Juventude e do Idoso de Belford Roxo. Ao longo do processo, em que o casal foi representado pela Defensoria Pública, restou comprovado que, em 2022, Cléo estava muito doente e Fábio desempregado. Porém, finda a instrução processual, verificou-se que atualmente aquele cenário estava superado. Apesar de persistir a situação de vulnerabilidade socioeconômica da família, Eduarda está regularmente matriculada, frequentando as aulas com assiduidade e acompanhamento próximo dos pais. Sobre o caso apresentado, assinale a afirmativa correta.",
+      alternativas: [
+        "A multa do Art. 249 do Estatuto da Criança e do Adolescente (ECA) não pode ser aplicada abaixo de três salários mínimos.",
+        "É incabível a imposição de multa em razão da gratuidade ex lege dos processos da Justiça da Infância e da Juventude.",
+        "A gratuidade de justiça conferida a Cléo e Fábio, assistidos da Defensoria Pública, abarca a multa do Art. 249 do ECA.",
+        "O(A) Promotor(a) de Justiça poderá pedir a extinção do processo por perda superveniente do interesse de agir.",
+        "O(A) Promotor(a) de Justiça deverá requerer o declínio de competência para uma das Varas de Família de Belford Roxo."
+      ], resposta_correta: 3 },
+  { id: "q1396", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "Felipe, de 16 anos, foi apreendido em flagrante por suposta prática de ato infracional análogo ao crime do Art. 37 da Lei nº 11.343/2006. O adolescente foi apresentado perante você, Promotor(a) de Justiça, que entendeu que as circunstâncias pessoais e familiares eram favoráveis ao adolescente. Sobre o caso narrado, assinale a afirmativa correta.",
+      alternativas: [
+        "A concessão de remissão pré-processual é da competência exclusiva do Juiz.",
+        "É incabível a remissão por se tratar de ato infracional análogo a crime equiparado a hediondo.",
+        "A cumulação da remissão com medida socioeducativa em meio aberto dispensa a manifestação da defesa técnica.",
+        "O(A) representante do Ministério Público poderá conceder a remissão pré-processual cumulada com medida socioeducativa em meio aberto, como forma de exclusão do processo.",
+        "O(a) representante do Ministério Público poderá conceder a remissão processual cumulada com medida socioeducativa em meio aberto ou fechado, como forma de suspensão do processo."
+      ], resposta_correta: 3 },
+  { id: "q1397", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "Ana Beatriz, de 16 anos, foi testemunha em processo criminal no qual João, influenciador digital famoso, de 18 anos de idade, foi acusado do crime do Art. 217-A do Código Penal contra Luiza, de 17 anos. Ana Beatriz não sofreu violência, mas foi a primeira pessoa para quem Luiza contou os fatos. João foi representado pelo advogado Jorge. O depoimento especial da adolescente foi gravado e juntado aos autos. Dias depois, Jorge (primário, de bons antecedentes) permitiu que seu filho Paulo, de 19 anos, que estava muito curioso, assistisse ao depoimento. Sobre a hipótese, assinale a afirmativa correta.",
+      alternativas: [
+        "Jorge praticou crime de ação penal incondicionada.",
+        "Jorge praticou infração administrativa prevista na Lei nº 13.431/2017.",
+        "A oitiva de Ana Beatriz na modalidade de depoimento especial era facultativa em razão da condição de sua idade.",
+        "A oitiva de Ana Beatriz na modalidade de depoimento especial era facultativa em razão da condição de testemunha.",
+        "Jorge praticou crime previsto na Lei nº 13.431/2017, mas fará jus à suspensão condicional do processo e ao acordo de não persecução penal."
+      ], resposta_correta: 0 },
+  { id: "q1398", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "Arthur, de 17 anos, reside com sua mãe em Armação dos Búzios. Em 2025, foi apreendido pela suposta prática de ato infracional análogo ao do Art. 33 da Lei nº 11.343/2006, em Cabo Frio. Na época, lhe foi oferecida a proposta de remissão imprópria, mas ele não a aceitou. Ao final do processo, a medida de prestação de serviços à comunidade lhe foi imposta. Arthur iniciou o cumprimento, porém, em 2026, foi novamente apreendido em Cabo Frio, com a imposição de medida socioeducativa de semiliberdade. A decisão transitou em julgado e o adolescente está cumprindo a medida no Centro de Recursos Integrados de Atendimento ao Adolescente (CRIAAD) Macaé. Considerando a atual situação jurídica de Arthur e que todos os municípios mencionados são sede de Comarca, assinale a afirmativa correta.",
+      alternativas: [
+        "O processo de execução de medida socioeducativa de Arthur deverá correr em Armação dos Búzios.",
+        "O processo de execução de medida socioeducativa de Arthur deverá correr em Cabo Frio.",
+        "O processo de execução de medida socioeducativa de Arthur deverá correr em Macaé.",
+        "O Juízo competente para a execução da medida socioeducativa de prestação de serviços à comunidade é o de Armação dos Búzios, que deverá suspender o processo até o fim do cumprimento da medida de semiliberdade, de competência de Cabo Frio.",
+        "O Juízo competente para a execução da medida socioeducativa de prestação de serviços à comunidade é o de Armação dos Búzios, que deverá suspender o processo até o fim do cumprimento da medida de semiliberdade, de competência de Macaé."
+      ], resposta_correta: 2 },
+  { id: "q1399", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Ministério Público do Estado do Rio de Janeiro (MPRJ), XXXIX Concurso, Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar de 31/05/2026)",
+      enunciado: "O Município Sigma não possui serviço de acolhimento institucional. Em razão desse fato, a organização não governamental Associação das Crianças, que já trabalha em prol dos direitos de crianças e adolescentes da cidade, deseja passar a funcionar como acolhimento institucional para atender à demanda local. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+      alternativas: [
+        "O serviço de acolhimento institucional integra a proteção social especial de alta complexidade.",
+        "Os membros da Associação das Crianças poderão se cadastrar para o acolhimento familiar, porém a pessoa jurídica não poderá se credenciar para a prestação do serviço.",
+        "A Associação das Crianças, por possuir natureza privada, poderá se credenciar para prestar o serviço de acolhimento institucional, mas não poderá receber recursos públicos.",
+        "Os acolhimentos institucionais são necessariamente pessoas jurídicas de direito público, integrado por equipe técnica multiprofissional, observados os princípios da Lei nº 8.069/1990 (Estatuto da Criança e do Adolescente – ECA) e da Lei nº 12.594/2012 (Lei do Sistema Nacional de Atendimento Socioeducativo – Sinase).",
+        "A Associação das Crianças poderá proceder à inscrição junto ao Ministério Público, que comunicará o Conselho Municipal dos Direitos da Criança e do Adolescente e o Conselho Tutelar acerca da sua decisão."
+      ], resposta_correta: 0 },
 ];
