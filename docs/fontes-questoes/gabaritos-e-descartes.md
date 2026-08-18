@@ -3282,3 +3282,62 @@ DH já supera em 11× o estoque inicial (4→45) e o fluxo
 "MP/Procurador/Defensor FGV + gabarito publicado → bloco
 Infância/Juventude rico em ECA" continua sendo o mais produtivo
 para DH. MPRJ 2025 teve 8 questões de Infância num único bloco.
+
+## Leva 72 — TCE-GO 2024 Jurídica (Previdenciário)
+
+TCE-GO Analista de Controle Externo — Jurídica, Edital 01/2024,
+Tipo 1 Branca (Tarde). Prova objetiva + 2 discursivas. A parte
+discursiva (Q2) cobre Seguridade Social/Previdência com 5 itens
+sobre dependentes, aposentadoria por invalidez, aposentadoria
+voluntária — útil para *template* doutrinário, não para múltipla
+escolha.
+
+Provas objetivas mineradas para bloco Previdenciário (Q84-87 do
+caderno objetivo):
+- Trabalho q1429-q1432 (+4): apropriação indébita previdenciária,
+  contribuição 5% SAF/associação, parcela que incide contribuição,
+  aposentado RGPS volta a trabalhar
+- Descartadas: questões de controle externo/contabilidade (não
+  são Direito do Trabalho nem Previdenciário puro)
+
+## Leva 73 — MPGO 2025 (Difusos + Admin)
+
+MPGO 49º Concurso Promotor de Justiça Substituto, Edital
+182/2025-CSMP, PROVA 1 Tipo Branca-Manhã, gabarito PRELIMINAR de
+01/02/2026 (prova aplicada 01/02/2026). 100 questões, layout 2
+colunas (navegação propensa a erro — releitura múltipla).
+
+Bloco "Direitos Difusos, Coletivos e Individuais Homogêneos"
+(Q50-70) — mais produtivo para DH desta sessão:
+- DH q1433-q1439 (+7): ECA art.144-A infiltração em ambiente
+  digital (consumidor em sentido estrito CDC art.81 §1º III),
+  associação em ACP (autorização assemblear p/ ACP se houver
+  diretoria eleita), LGBTI+/nome social (STF ADI 4275 + Port.
+  MGP 09/2018), acessibilidade PCD (Lei 10.098/2000), Lei
+  13.431/2017 revitimização (escuta especializada), Estatuto
+  Igualdade Racial (Lei 12.288/2010 — autoatribuição), direito
+  difuso individuais homogêneos (CC art.935 distinção)
+- Admin q1440-q1442 (+3): recomendação MP sem coercitividade
+  (Lei 8.625/1993 art.27 parágrafo único), improbidade instâncias
+  independentes (Lei 8.429/1992 art.21 — cível não vincula penal),
+  inquérito civil inquisitivo (STJ — pode colher depoimento sem
+  advogado)
+- Descartadas: Q50 (tese específica CDC difícil), Q57 (defesa do
+  consumidor institucional genérica), Q62 (IDH constitucional
+  incerto), Q69 (ombudsman institucional), Q70 (atribuições MP
+  eleitoral)
+
+### Estado após Leva 73
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Tributário | 185 | 200 ✓ |
+| Trabalho | 57 | 133 |
+| Ambiental | 200 | 200 ✓ |
+| Direitos Humanos | 4 | **52** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1418** |
+
+Trabalho (133) e DH (52) seguem como os dois temas prioritários.
+Próximas fontes: MPES 2025, MPU 2025, MPGO 2023 (mesmo padrão de
+bloco Infância/Difusos). MP/Promotor FGV permanece a fonte mais
+produtiva para DH.
