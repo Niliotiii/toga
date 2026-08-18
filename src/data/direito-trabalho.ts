@@ -1000,4 +1000,121 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "100% (cem por cento) da base de cálculo para Helena e 60% (sessenta por cento) para Deolina.",
         "60% (sessenta por cento) da base de cálculo para ambas as seguradas."
       ], resposta_correta: 0 },
+  { id: "q1376", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Silvana trabalha desde junho de 2023 em uma sociedade empresária localizada em Imboassica, bairro de Macaé/RJ. A sede da sociedade empresária em que Silvana trabalha está localizada em São Paulo. Existe uma convenção coletiva da categoria de Silvana vigente em São Paulo e outra convenção coletiva vigente em Macaé e adjacências. Considerando a situação retratada e os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Deverá ser aplicada a norma coletiva de Macaé em relação aos direitos de Silvana.",
+        "Aplicar-se-á, integralmente, a norma coletiva mais benéfica para a trabalhadora.",
+        "Deverá ser aplicada a norma coletiva de São Paulo em relação aos direitos de Silvana.",
+        "Pelo princípio da proteção, será aproveitada de cada norma, e em relação a cada direito, o que for mais benéfico para Silvana.",
+        "Caberá à empregada Silvana escolher a que norma deseja estar submetida, após analisar suas vantagens e desvantagens."
+      ], resposta_correta: 0 },
+  { id: "q1377", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Maria Aparecida trabalha em uma sociedade empresária e, em suas redes sociais, explicou as dificuldades financeiras que atravessava, porque seu empregador estava em atraso com os salários dos últimos dois meses, além de não fornecer vale transporte e tíquete refeição no mesmo período. Apresentou no vídeo extrato da sua conta bancária, que já estava negativa. Terminou o desabafo chorando e dizendo: assim não dá! Um dos empregados alertou o empregador acerca da postagem e, em razão disso, Maria Aparecida foi dispensada por justa causa, sob a alegação de que estava abalando a reputação da sociedade empresária, que só não realizou os pagamentos porque se encontrava sem dinheiro. Considerando a situação retratada e os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "A situação não é falta grave ensejadora de justa causa, mas a sociedade empresária poderia ajuizar ação trabalhista postulando indenização por dano moral contra a empregada.",
+        "Caberia à sociedade empresária, se desejasse, ajuizar ação na Justiça do Trabalho para obrigar a empregada a retirar o conteúdo de sua rede social, sob pena de multa diária.",
+        "Errada a sociedade empresária, pois a atitude da empregada não é ilegal, na medida em que estampa a verdade e a rede social é de titularidade da empregada.",
+        "Correta a sociedade empresária, porque a exposição de suas fragilidades poderá lhe causar prejuízo junto aos seus clientes e fornecedores.",
+        "A sociedade empresária poderia ajuizar ação contra a plataforma para que a rede social da empregada fosse cancelada porque sua conduta traz potencial prejuízo ao empregador."
+      ], resposta_correta: 2 },
+  { id: "q1378", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "William trabalhou em uma sociedade empresária localizada em Cavaleiros, bairro de Macaé/RJ, de novembro de 2019 a fevereiro de 2024. William recebia, por último, o salário de R$2.300,00, quando foi dispensado por justa causa em razão da avaria que causou em um veículo do ex-empregador. No seu TRCT, foram calculados os direitos (saldo salarial e dois períodos de férias vencidas acrescidas de 1/3) e deduzido o valor de R$15.700,00 referente ao conserto da avaria por ele causado, gerando um valor negativo no TRCT. Considerando a situação retratada e os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "William deverá pagar a diferença que ainda deve à sociedade empresária, sendo que as partes deverão negociar a forma de devolução no tocante ao valor e parcelas.",
+        "O ex-empregado não ficará obrigado a pagar nada além daquilo que ultrapassar o valor do seu próprio direito, ou seja, o TRCT será considerado zerado e nada mais será pago.",
+        "Em razão da proteção especial conferida ao salário, a sociedade empresária poderia descontar no máximo 50% do salário de William e pagar o saldo da indenização.",
+        "Errada a sociedade empresária, porque qualquer compensação no pagamento não poderia exceder o equivalente a um mês de remuneração de William.",
+        "Não compete ao empregador, por conta própria, fazer descontos no TRCT do empregado, devendo ajuizar ação para provar o prejuízo e ter ressarcimento do gasto."
+      ], resposta_correta: 4 },
+  { id: "q1379", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Depois de 28 anos de bons trabalhos prestados, Renan foi dispensado sem justa causa em 10/02/2022, com aviso prévio indenizado. Em 27/05/2024, Renan ajuizou reclamação trabalhista postulando o pagamento de horas extras, que foi distribuída para a 80ª Vara do Trabalho de Macaé. Em defesa, o ex-empregador alegou a prescrição extintiva. Considerando a situação retratada e os termos da legislação em vigor, assinale a afirmativa correta.",
+      alternativas: [
+        "Não frutificará a prescrição porque ela somente teve início a partir do término do aviso prévio proporcional ao tempo de serviço.",
+        "Mesmo que a sociedade empresária não suscitasse a prescrição, uma vez que a ação foi ajuizada após 2 anos do término do contrato, caberia ao juiz declará-la de ofício.",
+        "A prescrição extintiva deve ser acolhida e o processo, extinto com resolução do mérito.",
+        "Não se cogitará de prescrição extintiva na hipótese, porque o pedido formulado é imprescritível.",
+        "O processo deverá ser extinto sem resolução do mérito, porque, com a prescrição bienal, a sentença será terminativa."
+      ], resposta_correta: 2 },
+  { id: "q1380", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Sheila contratou um advogado e ajuizou reclamação trabalhista contra o ex-empregador postulando o pagamento de diferença salarial em razão de equiparação com um colega que realizava as mesmas atividades, mas recebia salário superior. Logo em seguida, o juiz determinou, em despacho, que Sheila apontasse o nome do paradigma, informação que não constava da petição inicial. Então, o advogado de Sheila peticionou informando o nome do modelo, e aproveitou para requerer também o pagamento de adicional de insalubridade em grau máximo. Considerando a situação retratada, assinale a opção que apresenta, corretamente, os fenômenos jurídicos ocorridos.",
+      alternativas: [
+        "Para ambos os pedidos houve emenda.",
+        "Para o pedido de equiparação salarial houve emenda e para o de adicional de insalubridade, aditamento.",
+        "Para ambos os pedidos houve aditamento.",
+        "Para o pedido de equiparação salarial houve aditamento e para o de adicional de insalubridade, emenda.",
+        "Houve cumulação subjetiva superveniente."
+      ], resposta_correta: 1 },
+  { id: "q1381", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "O ex-empregador de Joana ajuizou ação de consignação em pagamento, porque a ex-empregada não compareceu para receber as verbas resilitórias devidas pela dispensa sem justa causa. Devidamente citada, Joana contratou uma advogada que apresentou contestação à consignatória e reconvenção, pleiteando adicional noturno, adicional de periculosidade e indenização por dano moral contra a ex-empregadora e a sociedade empresária tomadora de serviços, como responsável subsidiária, já que Joana trabalhava como terceirizada junto a uma grande sociedade empresária. Contra tal desejo, o ex-empregador se insurgiu com veemência. Diante da situação apresentada e da norma de regência, assinale a afirmativa correta.",
+      alternativas: [
+        "Joana está correta porque a reconvenção pode ser proposta contra o autor original e terceiro.",
+        "Não é possível ampliar o escopo subjetivo da lide em reconvenção, pelo que Joana está juridicamente equivocada quando pretende inserir outra sociedade empresária na lide.",
+        "Uma vez que a reconvenção somente pode ser proposta em face do autor original, a inclusão de outra sociedade empresária poderá ser feita se houver concordância do consignante.",
+        "Não cabe reconvenção em ação consignatória, mas apenas defesa de caráter dúplice, daí porque a reconvenção deve ser extinta de plano pelo magistrado, observando o princípio da celeridade.",
+        "Se após a apresentação da reconvenção a sociedade empresária consignante desistir da ação principal, o processo como um todo deverá ser extinto."
+      ], resposta_correta: 1 },
+  { id: "q1382", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Gerson e Júlia ajuizaram reclamação trabalhista plúrima que foi distribuída para a 29ª Vara do Trabalho de Macaé. Na audiência inaugural, marcada para tentativa de acordo, ambos os autores faltaram e o processo foi arquivado, com isenção das custas. Não houve interposição de recurso, ocorrendo o trânsito em julgado, mas dois meses após, Gerson e Júlia ajuizaram ação rescisória contra a sentença de arquivamento. Diante da situação apresentada e da norma de regência, assinale a afirmativa correta.",
+      alternativas: [
+        "Se houver uma justificativa plausível para a ausência de Gerson e Julia, a sentença de arquivamento poderá ser rescindida.",
+        "Caso a ação rescisória tenha sucesso, na mesma oportunidade o Tribunal se encarregará de julgar o mérito do processo arquivado.",
+        "É possível a rescisão do julgado se houver prova de que a decisão pelo arquivamento foi proferida por juiz suspeito.",
+        "Se a ação rescisória for julgada improcedente, uma consequência imediata é que o ajuizamento da ação original não terá o efeito de interromper a prescrição.",
+        "A ação rescisória é incabível na espécie, porque a natureza da sentença não impede a propositura de nova demanda."
+      ], resposta_correta: 4 },
+  { id: "q1383", tema: "Direito do Trabalho", dificuldade: "facil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "No Direito Previdenciário, carência é o tempo mínimo de contribuição que o segurado precisa comprovar para ter direito a um benefício previdenciário. Alguns benefícios exigem carência e outros, não. Sabendo-se que Eduardo é empregado em uma sociedade empresária, assinale a opção que indica, de acordo com a Lei de regência, a carência necessária para ele receber o auxílio por incapacidade temporária comum (ou previdenciário).",
+      alternativas: [
+        "24 contribuições mensais.",
+        "Não há carência.",
+        "6 contribuições mensais.",
+        "12 contribuições mensais.",
+        "10 contribuições mensais."
+      ], resposta_correta: 3 },
+  { id: "q1384", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Marcela é empregada em uma sociedade empresária localizada em Cancela Preta, bairro de Macaé/RJ. No contracheque de Marcela há diversas rubricas, todas discriminadas e pormenorizadas. Das parcelas listadas a seguir, extraídas dos recibos salariais da empregada em questão, assinale aquela que, de acordo com a norma de regência, integra a base de cálculo para o recolhimento da contribuição previdenciária.",
+      alternativas: [
+        "Cessão de direitos autorais.",
+        "Participação nos lucros ou resultados da empresa.",
+        "Diárias para viagens.",
+        "Férias indenizadas e respectivo adicional constitucional.",
+        "13º salário."
+      ], resposta_correta: 4 },
+  { id: "q1385", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Thainá é empregada em uma grande sociedade empresária localizada em Mirante da Lagoa, bairro de Macaé/RJ. Thainá recebe R$2.500,00 mensais de salário, mas em sua CTPS o empregador anotou valor menor, de R$2.000,00 – ou seja, a empregada recebe R$500,00 oficiosamente (“por fora”). O recolhimento do INSS de Thainá é feito em relação ao valor anotado na carteira profissional. Considerando a situação retratada e a legislação em vigor, assinale a afirmativa correta.",
+      alternativas: [
+        "Há crime de apropriação indébita previdenciária.",
+        "Há crime de sonegação de contribuição previdenciária.",
+        "Não há crime na hipótese apresentada, mas apenas irregularidade fiscal.",
+        "Há crime de estelionato.",
+        "Há crime de apropriação indébita."
+      ], resposta_correta: 1 },
+  { id: "q1386", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Dependentes previdenciários são pessoas que vivem sob a dependência econômica do segurado. São divididos em classes, sendo que os dependentes de uma mesma classe concorrem em igualdade de condições. A existência de dependente de classe superior exclui do direito às prestações os das classes seguintes. Assinale a opção que indica quem pode, em tese, ser considerado dependente de um segurado.",
+      alternativas: [
+        "O companheiro homoafetivo do segurado.",
+        "O irmão emancipado do segurado.",
+        "Os avós do segurado, que vivam sob sua dependência econômica.",
+        "O enteado do segurado, menor de 21 anos, em qualquer condição.",
+        "Os netos do segurado, que vivam sob a sua dependência econômica."
+      ], resposta_correta: 0 },
+  { id: "q1387", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Após 3 anos de trabalho contínuo, Clarissa pediu demissão do emprego. Quinze meses depois, ainda desempregada, Clarissa foi diagnosticada com Covid-19 e necessitou de 30 dias de repouso absoluto, não só para não transmitir a doença a terceiros, mas porque sua saúde já era debilitada e, portanto, sua recuperação mais lenta. Considerando a situação retratada e a legislação em vigor, assinale a afirmativa correta.",
+      alternativas: [
+        "Clarissa terá direito ao auxílio por incapacidade comum, porque se encontra no período de graça e continua desempregada.",
+        "Não haverá direito ao benefício, porque, apesar de estar no período de graça, a dispensa ocorreu a pedido da segurada.",
+        "Não haverá direito ao benefício, porque o período de graça já terminou.",
+        "Clarissa terá direito ao auxílio por incapacidade comum, mas apenas com a metade do valor, porque a doença é contagiosa.",
+        "Não haverá direito porque o sistema é contributivo e, a partir do momento em que a pessoa deixa de recolher INSS, perde o direito à proteção previdenciária."
+      ], resposta_correta: 2 },
+  { id: "q1388", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Prefeitura de Macaé/RJ, Procurador — 2024 — Tipo 1 (gabarito definitivo de 13/10/2024)",
+      enunciado: "Uma sociedade empresária localizada na Riviera Fluminense, bairro de Macaé/RJ, possui 110 empregados, sendo dois deles reabilitados da Previdência Social desde 2020. Um desses reabilitados foi dispensado sem justa causa em julho de 2024 e a sociedade empresária permaneceu com 109 empregados. Considerando a situação retratada e a norma de regência, assinale a afirmativa correta.",
+      alternativas: [
+        "É direito potestativo do empregador realizar a dispensa sem justa causa, pois o empregado em questão não tem garantia no emprego.",
+        "A dispensa somente poderia ocorrer após a contratação de outro trabalhador com deficiência ou beneficiário reabilitado da Previdência Social.",
+        "Ilegal a dispensa porque no retorno da reabilitação profissional o empregado tem estabilidade por 5 anos.",
+        "A dispensa sem justa causa seria válida contanto que fosse homologada perante o sindicato de classe do empregado.",
+        "Por se tratar de dispensa discriminatória, a vítima terá direito a uma indenização pelos danos moral e existencial."
+      ], resposta_correta: 1 },
 ];
