@@ -3041,3 +3041,37 @@ Macaé Q66 (férias dia semana) e Q74 (adesivo litisconsorte).
 Sessão total: +78 questões (15 Trib + 67 Trabalho + 6 DH). Procuradorias
 FGV esgotadas p/ Trabalho. Próximas: FCC TRT (renderização imagem) ou
 mais VUNESP (câmaras/prefeituras com cargo jurídico/RH). Total ~1356.
+
+## Bloqueio FCC multi-tipo (documentado)
+
+FCC TRT 15ª Região (SP) 2025 Técnico Judiciário: prova escaneada com
+OCR embutido legível (ruído menor: hã=há, &=6), bloco "Noções de
+Direito do Trabalho" Q48-54. Porém o gabarito do Portal do Candidato
+(qconcursos mirror id 130401) NÃO identifica o tipo de caderno — a
+prova é Tipo 005 e o gabarito parece ser de outro tipo: Q53 (férias
+escolares menores 18, art.134 §2 inequívoca) bate (A), mas Q48
+contradiz Súmula 205 TST (gabarito D diz mera identidade de sócios
+formaria grupo) e Q54 contradiz art.468 §1 CLT pós-reforma. Gabarito
+oficial multi-tipo não localizado (Brave). LIÇÃO: provas FCC vêm em
+múltiplos Tipos embaralhados; sem gabarito do MESMO tipo do caderno
+disponível, a fonte é inutilizável — verificar header de tipo antes
+de minerar. Bloco descartado por segurança.
+
+## Sessão ago/2026 — consolidado final
+
+| Lote | Fonte | IDs | Qtd |
+| --- | --- | --- | --- |
+| Leva 61 | PGM-Niterói Trib + Vitoria Trib | q869-874, q875-878 | 10 |
+| Leva 61 | Senado Trabalho | q1311-1315 | 5 |
+| Leva 62 | Vitoria/TCE-PE Trabalho, Senado DH | q1334-1341, q1328-1333 | 14 |
+| Leva 63 | Senado Trabalho (esgotado) | q1342-1350 | 9 |
+| Leva 64 | Abreu e Lima, NavBrasil, CNU, Praia Grande | q1351-1363 | 13 |
+| Leva 65 | AGE-MG, SJC, Macaé Trabalho | q1364-1388 | 25 |
+| Total | | | 76 |
+
+Estado final: Tributário 200 ✓, Ambiental 200 ✓, Trabalho 124
+(faltam ~76), DH 10 (faltam ~190). Total DB 1364. Fontes Trabalho
+esgotadas: todas procuradorias FGV texto-limpo, Senado, CNU, VUNESP
+RH. Próximas vias: FCC TRT (exige gabarito do mesmo tipo — ver
+bloqueio), novos concursos FGV 2026 com bloco trabalhista, VUNESP
+novos. DH permanece o gargalo crítico.
