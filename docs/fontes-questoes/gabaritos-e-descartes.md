@@ -3002,3 +3002,42 @@ Trabalho quase em 100. Próximas fontes Trabalho: mais VUNESP câmaras/
 prefeituras SP (analista RH, agente adm), FGV procuradorias com bloco
 trabalhista. DH segue o gargalo — fontes texto-limpo raras.
 Total DB ~1339. tsc limpo, 5/5 tests, sem duplicatas.
+
+## Leva 65 — ago/2026 — procuradorias FGV: AGEMG/SJC/Macaé Trabalho
+
+Minerados os blocos "Direito do Trabalho" das 3 procuradorias FGV
+restantes da lista de slugs (memória fgv-slugs-diretos-procurador):
+
+### AGE-MG 2022 Procurador Nível I (q1364-q1371) — bloco Q66-80
+8 questões: aviso pedido demissão sem redução (art.488 só dispensa
+empregador), 13º escalonado fev-nov (art.145), supressão noturno por
+norma coletiva ilícita (CF art.7 XIX) + vigência 19m regular
+(art.614 §3), honorários 5%+15% = R$4.000 (art.791-A), período graça
+24m (art.15 II), pensão 100% viúva+filho<21 (art.16), estagiária
+facultativa (art.11), auxílio-acidente pós-sequela (art.86).
+
+### SJC 2024 Procurador (q1372-q1375) — bloco Q62-67
+4 questões: inquérito civil não pressuposto ACP, MPT intervir 2º/3º
+graus PJ público (LC 75 art.84 VII), acúmulo aposentadoria+pensão
+permitido (art.124), 100% acidente/60% comum (art.42 §2 EC103).
+
+### Macaé 2024 Procurador (q1376-q1388) — bloco Q66-80
+13 questões (lista completa no commit). Gabarito via Brave:
+ed.-3-macaeproc2024_gabarito_definitivo_100_v2.pdf.
+
+### Descartadas (leitura doutrinária incerta)
+AGEMG Q69/71/73/74; SJC Q62 (comissão representação) e Q63 (FGTS 3
+anos vs aposentadoria — duas alternativas corretas aparentes);
+Macaé Q66 (férias dia semana) e Q74 (adesivo litisconsorte).
+
+### Estado após Leva 65
+| Tema | Count | Meta |
+| --- | --- | --- |
+| Tributário | 200 | ✓ |
+| Ambiental | 200 | ✓ |
+| Trabalho | 124 | pendente (~76) |
+| Direitos Humanos | 10 | pendente (~190) |
+
+Sessão total: +78 questões (15 Trib + 67 Trabalho + 6 DH). Procuradorias
+FGV esgotadas p/ Trabalho. Próximas: FCC TRT (renderização imagem) ou
+mais VUNESP (câmaras/prefeituras com cargo jurídico/RH). Total ~1356.
