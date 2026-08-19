@@ -1738,4 +1738,22 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "A convenção coletiva de trabalho vigorará até 14 de junho de 2027 e a sentença normativa, até 14 de junho de 2026.",
         "Tanto a sentença normativa quanto a convenção coletiva vigorarão até 14 de junho de 2027."
       ], resposta_correta: 2 },
+  { id: "q1493", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XV Concurso para Juiz Federal Substituto da 5ª Região (TRF5) — Edital 01/2025 — Tipo 1 (gabarito definitivo da prova aplicada em 2025)",
+      enunciado: "A Constituição de 1988 tem ampla previsão de objetivos da seguridade social brasileira a serem concretizados mediante ações legislativas e administrativas, em prol do bem-estar e da justiça sociais. Nesse sentido, a necessidade de equilíbrio financeiro e atuarial dos sistemas previdenciários significa:",
+      alternativas: [
+        "a impossibilidade de concessão de qualquer serviço ou benefício da seguridade social sem contribuição prévia do interessado.",
+        "a impossibilidade de concessão de prestações previdenciárias acidentárias, no âmbito do Regime Geral de Previdência Social, sem o atendimento à carência mínima necessária.",
+        "comando voltado ao legislador ordinário, de tal maneira que assegure, a toda e qualquer pessoa, pagamentos mínimos de sobrevivência desde que haja recolhimentos prévios.",
+        "regra específica do subsistema previdenciário na qual haja dimensionamento de plano de custeio compatível com o plano de benefícios, mediante cálculo atuarial.",
+        "a necessária equidade do valor de benefícios, de forma a preservar a base contributiva de aposentados e pensionistas do Regime Geral de Previdência Social."
+      ], resposta_correta: 3 },
+  { id: "q1494", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XV Concurso para Juiz Federal Substituto da 5ª Região (TRF5) — Edital 01/2025 — Tipo 1 (gabarito definitivo da prova aplicada em 2025)",
+      enunciado: "A sociedade XPTO, atuante no setor alimentício, possui 1.500 empregados em sua folha mensal de pagamentos. Todos estão devidamente registrados, recebendo salário mensal contratualmente pactuado, mas com algumas adições que refletem pagamentos não necessariamente de índole contraprestacional. Nesse contexto hipotético, uma parcela que deve ser adicionada ao salário de contribuição mensal dos empregados é:",
+      alternativas: [
+        "licença-prêmio indenizada.",
+        "vale-transporte, pago na forma da legislação.",
+        "diárias para viagem.",
+        "participação nos lucros da empresa, paga na forma da legislação.",
+        "aportes à previdência complementar, quando não extensível a todos os empregados."
+      ], resposta_correta: 4 },
 ];
