@@ -3564,3 +3564,45 @@ processual), Q16 (segurado especial detalhes IN — regulatory).
 
 Juiz Federal TRF (3 regionais: TRF1+TRF2+TRF3) totalizou 12 questões
 Previdenciárias limpas esta sessão. Faltam ~19 Trabalho para 200.
+
+## Leva 82 — DPE-PE Defensor Público 2025 (Direitos Humanos)
+Concurso: DPE-PE Defensor Público Edital 01/2025, Tipo 1 (gabarito
+preliminar prova 01/06/2025 — somente preliminar, questões
+ancoradas em ECA/Lei Maria da Penha/documentos históricos firmes).
+Prova `defensor-publicocns100-tipo-1.pdf` + `dpe-pe-gabaritos-para-publicacao.pdf`.
+- Extraídas q1445-q1447 (3): Q80 ECA entrega voluntária adoção —
+sigilo judicial nascimento (ECA art.166), Q84 Convenção de Viena
+1969 não é documento normativo de DH (vs Magna Carta 1215, Const
+Alemã 1919, Estatuto TPI 1998, DUDH 1948), Q87 Lei Maria da Penha
+origem recomendação CIDH (caso Maria da Penha vs Brasil).
+- Descartadas: Q82 (relativistas/universalistas — teoria ambígua
+B/E plausíveis), Q83 (teoria crítica DH — acadêmica), Q85
+(instrumento internalização SIDH — institucional específico),
+Q86 (foro prerrogativa duplo grau — case-specific), Q88 (Complexo
+Curado medidas provisórias — case-specific), Q89 (obstáculos
+investigação ditadura), Q90 (ADPF cumprimento SIDH — A vs D
+incerto), Q91 (CNV Herzog incorreta — leitura incerta), Q92 (TPI
+incorreta — A/B ambíguos), Q93 (premissas processo Corte IDH —
+multi-premissa).
+
+## Nova fonte DH produtiva confirmada
+**DPE Defensor Público (FGV)** tem disciplina "Direitos Humanos"
+dedicada (10+ questões por prova). DPE-PE 2025 confirma (3 limpas
+após descartes teóricos/case-specific). Outras DPE: `dperj2026`,
+`dpe-ro` (support-staff apenas — skip). A maioria das questões DH
+do Defensor é teórica (universalismo/relativismo/teoria crítica)
+ou case-specific (Corte IDH casos específicos) → descartáveis;
+preferir questões com anchor legislativo (ECA, Lei Maria da Penha,
+Estatuto Idoso, Convenções ratificadas).
+
+### Estado após Leva 82
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **183** |
+| Direitos Humanos | 4 | **57** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1482** |
+
+DPE Defensor confirmada como fonte DH, mas rendimento médio baixo
+após descartes teóricos (~3/prova). DH ainda a maior lacuna (57/200,
+faltam 143). Trabalho a ~17 do alvo.
