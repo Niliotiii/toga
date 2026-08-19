@@ -3909,3 +3909,34 @@ firme que não seria alterada por recurso.
 
 DH agora em 77/200. TJ-MS 2023 rendeu menos (2) por não ter bloco DH
 dedicado e por gabarito só preliminar.
+
+## Leva 91 — TJ-SC Juiz Substituto 2025 (DH)
+
+**Fonte**: FGV — TJSC Concurso para Juiz Substituto 2025, Edital 11/2025,
+Tipo 1 Branca-Tarde (caderno `juiz-substitutojuizsubstituto-tipo-1_0.pdf`),
+gabarito definitivo. Quinto TJ Juiz minerado (anterior: tjscjuiz24).
+
+**Questões extraídas (q1468-q1469, +2)**:
+- q1468 = Q99 (answer C): IDCF (CF Art. 109 §5º) + CADH — grave
+  violação de DH = atentado de grande monta a direitos previstos em
+  normas internacionais a cuja aplicabilidade o Brasil aderiu.
+  Anchor: STF ADI 4815, RCL 9.537 (tese firme IDCF).
+- q1469 = Q100 (answer E): crime de desacato (CP Art. 331) + CADH
+  Art. 13 (liberdade de expressão) + STF — desacato preserva lisura da
+  função pública e dignidade; investidura em cargo não é renúncia à
+  honra. STF não adotou tese Corte IDH de descriminalizar desacato;
+  CP Art. 331 vigente.
+
+**Descartes**:
+- Q62 (CIDPD natureza jurídica): gabarito = E "constitucionais", mas
+  doutrina padrão = supralegal (CIDPD via Decreto Legislativo 186/2008
+  = rito ordinário). Tensão STF RE 1.267.878 (Tema 984, princípio como
+  constitucional) vs doutrina majoritária (supralegal). Contestado →
+  descartar.
+- Bloco "Humanística e Direitos Humanos" (Q70+): majoritariamente
+  eleitoral/empresarial/falimentar — sem bloco DH dedicado.
+- ECA block Qs: socioeducativa/processual.
+
+DH agora em 79/200. Sessão total TJ Juiz: tjpr25(+5), tjgo25(+3),
+tjce25(+3), tjmsjuiz23(+2), tjsc25(+2) = 15 DH em 5 concursos.
+Catálogo FGV TJ Juiz objtiva esgotado.
