@@ -514,4 +514,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "à recomendação da Comissão Interamericana de Direitos Humanos.",
         "ao projeto de lei apresentado pelo Conselho Nacional de Direitos Humanos."
       ], resposta_correta: 3 },
+  { id: "q1448", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Concurso para Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar da prova aplicada em 2026)",
+      enunciado: "Um Município, ao reorganizar a rede pública de saúde, decide encerrar determinadas Unidades Básicas com base em critérios de eficiência orçamentária. As Unidades desativadas, no entanto, estavam situadas em bairros com elevada concentração de população negra, para quem o acesso à saúde passa a depender do deslocamento para um único centro regional, localizado em região distante e de difícil acesso por transporte público. Conforme as definições da Convenção Interamericana contra o Racismo, a Discriminação Racial e Formas Correlatas de Intolerância, a situação descrita configura",
+      alternativas: [
+        "discriminação racial direta, uma vez que a decisão produz exclusão de grupo étnico-racial, embora não se ampare expressamente em raça, cor, ascendência ou origem nacional ou étnica.",
+        "discriminação racial indireta, dado que uma prática aparentemente neutra acarreta desvantagem particular a grupo específico em razão de raça e cor, sem objetivo ou justificativa razoável e legítima à luz do direito internacional dos direitos humanos.",
+        "discriminação múltipla ou agravada, porquanto a prática afeta simultaneamente o direito à igualdade, o direito à saúde e o direito ao acesso à cidade das comunidades afetadas.",
+        "intolerância, pois a exclusão revela manifestação de desrespeito à dignidade de grupo em condição de vulnerabilidade.",
+        "hipótese de ação afirmativa às avessas, modalidade vedada pela Convenção, sempre que a aplicação de medida neutra reverta o critério em prejuízo do grupo originalmente protegido."
+      ], resposta_correta: 1 },
+  { id: "q1449", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Concurso para Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar da prova aplicada em 2026)",
+      enunciado: "À luz da Ação Direta de Inconstitucionalidade nº 4.275, julgada pelo Supremo Tribunal Federal, da Resolução conjunta nº 01/2014 do Conselho Nacional de Política Criminal e Penitenciária e do Conselho Nacional de Combate à Discriminação, bem como da Resolução CNJ nº 348/2020, com a redação dada pela Resolução CNJ nº 366/2021, que dispõem sobre os direitos da população LGBTQIAPN+, em particular daquela em situação de privação de liberdade, analise as afirmativas a seguir e classifique-as como verdadeiras (V) ou falsas (F). I. A pessoa transgênero que comprove identidade de gênero dissonante daquela que lhe foi designada ao nascer, por autoidentificação firmada em declaração escrita, dispõe do direito fundamental subjetivo à alteração do prenome e da classificação de gênero no registro civil, pela via administrativa ou judicial, independentemente de procedimento cirúrgico e de laudos de terceiros. II. As pessoas transexuais em privação de liberdade devem ser encaminhadas para unidades prisionais correspondentes ao sexo biológico de origem, sendo-lhes facultado o uso de vestimentas e a manutenção de cabelos compridos conforme o gênero. III. A transferência compulsória entre celas ou alas, bem como a imposição de quaisquer outros castigos ou sanções em razão da condição de pessoa LGBT, são considerados tratamentos desumanos e degradantes. As afirmativas são, respectivamente,",
+      alternativas: [
+        "V – V – V.",
+        "V – V – F.",
+        "V – F – V.",
+        "F – V – V.",
+        "F – F – F."
+      ], resposta_correta: 2 },
+  { id: "q1450", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado de Mato Grosso (MPMT), Concurso para Promotor de Justiça Substituto — 2026 — Tipo 1 (gabarito preliminar da prova aplicada em 2026)",
+      enunciado: "Mévio, Promotor de Justiça recentemente titularizado em Promotoria de Justiça com atribuição para a proteção coletiva de idosos, recebeu representação narrando diversas irregularidades que estariam ocorrendo no interior da Instituição de Longa Permanência para Idosos (ILPI) denominada Alfa Idosos. Constatados indícios de veracidade dos fatos, a representação foi recebida como notícia de fato e, após a realização de algumas diligências, instaurado inquérito civil para prosseguimento das apurações. Após a obtenção de documentos, realização de reuniões e oitivas, Mévio se convenceu de que os fatos trazidos ao Parquet eram verdadeiros, ajuizando ação perante o Juízo competente. Considerando a legislação em vigor, é correto afirmar que",
+      alternativas: [
+        "o representante do Ministério Público, no exercício de suas funções, somente terá livre acesso à entidade de atendimento à pessoa idosa mediante autorização judicial, motivo pelo qual tal pleito deve constar da inicial.",
+        "as entidades governamentais e não governamentais de atendimento à pessoa idosa somente serão fiscalizadas pelos Conselhos da Pessoa Idosa e pelo Ministério Público, competindo aos Conselhos a avaliação da política nacional do idoso.",
+        "a legitimação do Ministério Público para as ações cíveis previstas no Estatuto do Idoso impede a de terceiros, sendo legitimado exclusivo para a defesa judicial dos direitos dos idosos e sua proteção.",
+        "para as ações cíveis fundadas em interesses difusos, coletivos, individuais indisponíveis ou homogêneos relativos a idosos, consideram-se legitimados, concorrentemente, o Ministério Público e a Ordem dos Advogados do Brasil, dentre outros.",
+        "na ocorrência de infração por entidade de atendimento que coloque em risco os direitos dos idosos, poderá o Ministério Público promover a suspensão das atividades, não sendo cabível a dissolução da entidade."
+      ], resposta_correta: 3 },
 ];
