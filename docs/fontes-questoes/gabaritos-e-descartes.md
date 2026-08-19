@@ -3538,3 +3538,29 @@ TRF1+TRF2 Juiz Federal renderam 7 questões Previdenciárias limpas
 (RPPS, RGPS, Lei 8.213). TRT regionais no catálogo FGV esgotadas
 (apenas trt13/16/24 existem). Juiz Federal TRF = nova fonte produtiva
 para bloco previdenciário. Faltam ~24 Trabalho para 200.
+
+## Leva 81 — TRF3 Juiz Federal Substituto 2025 (Previdenciário)
+Concurso: XXI Concurso Magistratura Federal TRF3, Prova A101 (gabarito
+preliminar retificado prova 19/01/2025 — somente preliminar disponível,
+mas questões ancoradas em Lei 8.213/CF firmes não alteradas em recurso).
+Prova `a101.pdf` + `juiz-federal-substituto-e-juiza-federal-substituta-da-3a-regiao-gabaritos-preliminares-retificado.pdf`.
+- Extraídas q1476-q1480 (5): Q9 princípios Previdência Social
+(CF art.201), Q10 segurado obrigatório RGPS brasileiro no exterior
+(Lei 8.213 art.11.I), Q11 período de carência definição (Lei 8.213
+art.24), Q12 auxílio-doença insuscetível reabilitação profissional
+(Lei 8.213 art.62), Q14 pensão por morte 180/90 dias filhos<16
+(Lei 8.213 art.77 pós-EC 103).
+- Descartadas: Q13 (prescrição requerimento administrativo — Súmula
+STJ processual contested), Q15 (decadência revisão pensionista —
+processual), Q16 (segurado especial detalhes IN — regulatory).
+
+### Estado após Leva 81
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **181** |
+| Direitos Humanos | 4 | **54** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1480** |
+
+Juiz Federal TRF (3 regionais: TRF1+TRF2+TRF3) totalizou 12 questões
+Previdenciárias limpas esta sessão. Faltam ~19 Trabalho para 200.
