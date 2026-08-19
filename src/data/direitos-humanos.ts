@@ -541,4 +541,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "para as ações cíveis fundadas em interesses difusos, coletivos, individuais indisponíveis ou homogêneos relativos a idosos, consideram-se legitimados, concorrentemente, o Ministério Público e a Ordem dos Advogados do Brasil, dentre outros.",
         "na ocorrência de infração por entidade de atendimento que coloque em risco os direitos dos idosos, poderá o Ministério Público promover a suspensão das atividades, não sendo cabível a dissolução da entidade."
       ], resposta_correta: 3 },
+  { id: "q1451", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES), Concurso para Promotor de Justiça Substituto — 2025 — Tipo 1 (gabarito definitivo)",
+      enunciado: "A Convenção Interamericana contra o Racismo, a Discriminação Racial e Formas Correlatas de Intolerância representa importante marco normativo no combate às desigualdades raciais no âmbito interno e internacional. Considerando o conteúdo e os objetivos dessa Convenção, assinale a opção correta.",
+      alternativas: [
+        "Constitui Tratado Internacional sobre direitos humanos que assume, nos termos da jurisprudência do Supremo Tribunal Federal, hierarquia de norma supralegal que condiciona a interpretação da legislação ordinária e de atos normativos secundários, permitindo ainda uma interpretação cosmopolita da Constituição.",
+        "Estabelece que as medidas especiais ou de ação afirmativa não constituem espécie de discriminação racial, desde que não se perpetuem quando alcançados seus objetivos e que não levem à manutenção de direitos separados para grupos diferentes.",
+        "Define a discriminação racial indireta como aquela decorrente de práticas racistas veladas que têm o objetivo ou intenção de estabelecer direitos desiguais para grupos sociais racializados, de modo a instituir um sistema de supremacia racial.",
+        "Define a discriminação múltipla ou agravada como a soma ou o conjunto de discriminações sofridas por pessoas racializadas em razão de seu pertencimento a determinado grupo racial, propondo medidas para o combate a essas diversas esferas de discriminação racial.",
+        "Define o racismo como a conduta criminosa praticada por indivíduos com dolo específico de afetar a honra objetiva e subjetiva de pessoas racializadas, estabelecendo o dever do Estado de combater estas práticas mediante medidas efetivas de criminalização e responsabilização penal."
+      ], resposta_correta: 1 },
+  { id: "q1452", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES), Concurso para Promotor de Justiça Substituto — 2025 — Tipo 1 (gabarito definitivo)",
+      enunciado: "Com base no entendimento firmado pelo Supremo Tribunal Federal (STF) no julgamento da ADI 4275/DF, sobre o direito das pessoas transexuais, transgêneras e travestis à requalificação civil de nome e gênero, assinale a afirmativa correta quanto aos requisitos e ao procedimento para o exercício desse direito.",
+      alternativas: [
+        "A requalificação civil depende da apresentação de laudo médico e psicológico, que ateste a disforia de gênero e comprove a adequação física ou hormonal à identidade autodeclarada, conforme o princípio da veracidade registral.",
+        "O pedido de requalificação civil deve ser submetido ao Poder Judiciário, que verificará a adequação entre o gênero autodeclarado e o sexo biológico constante nos registros oficiais.",
+        "O procedimento de requalificação civil é administrativo e autodeclaratório, podendo ser requerido diretamente em cartório de registro civil, sem necessidade de cirurgia, laudos ou decisão judicial, mediante simples manifestação da vontade da pessoa interessada.",
+        "O STF condicionou a requalificação civil à alteração prévia dos documentos perante os órgãos previdenciários e de identidade profissional, a fim de evitar divergências cadastrais.",
+        "A requalificação civil foi admitida apenas para pessoas maiores de 21 anos, devendo as demais pessoas transexuais, transgêneras e travestis obter prévia autorização judicial, como medida de proteção da personalidade em desenvolvimento."
+      ], resposta_correta: 2 },
 ];
