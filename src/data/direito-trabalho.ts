@@ -1585,4 +1585,49 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "O irmão de 20 anos do segurado.",
         "O enteado do segurado."
       ], resposta_correta: 3 },
+  { id: "q1476", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — XXI Concurso da Magistratura Federal, Juiz Federal Substituto da 3ª Região (TRF3) — 2025 — Prova A101 (gabarito preliminar retificado da prova aplicada em 19/01/2025)",
+      enunciado: "Assinale a alternativa correta. São Princípios da Previdência Social:",
+      alternativas: [
+        "Cálculo dos benefícios considerando-se os salários-de-contribuição corrigidos monetariamente; economicidade; irredutibilidade do valor dos benefícios de forma a preservar-lhes o poder aquisitivo.",
+        "Previdência complementar facultativa, custeada por contribuição adicional; caráter democrático e descentralizado da gestão administrativa, com a participação do governo e da comunidade, em especial de trabalhadores em atividade, representantes das empresas, empregadores e aposentados.",
+        "Previdência complementar facultativa, custeada, ou não, por contribuição adicional; irredutibilidade do valor dos benefícios de forma a preservar-lhes o poder aquisitivo; universalidade e uniformidade de participação nos planos previdenciários.",
+        "Universalidade de participação nos planos previdenciários; uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais; seletividade e distributividade na prestação dos benefícios.",
+        "Uniformidade, universalidade e equivalência dos benefícios e serviços às populações urbanas e rurais; cálculo dos benefícios considerando-se os salários-de-contribuição corrigidos monetariamente pela taxa Selic."
+      ], resposta_correta: 3 },
+  { id: "q1477", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XXI Concurso da Magistratura Federal, Juiz Federal Substituto da 3ª Região (TRF3) — 2025 — Prova A101 (gabarito preliminar retificado da prova aplicada em 19/01/2025)",
+      enunciado: "Assinale a alternativa correta sobre os segurados obrigatórios do Regime Geral de Previdência Social:",
+      alternativas: [
+        "São segurados obrigatórios da Previdência Social as seguintes pessoas físicas, como empregado, o brasileiro civil que trabalha para a União, no exterior, em organismos oficiais brasileiros ou internacionais dos quais o Brasil seja membro efetivo, ainda que lá domiciliado e contratado, salvo se segurado na forma da legislação vigente do país do domicílio.",
+        "O servidor civil ocupante de cargo efetivo ou o militar da União, dos Estados, do Distrito Federal ou dos Municípios, bem como o das respectivas autarquias e fundações, são excluídos do Regime Geral de Previdência Social consubstanciado na Lei nº 8.213/1991, desde que não amparados por regime próprio de previdência social.",
+        "São beneficiários do Regime Geral de Previdência Social, na condição de dependentes do segurado, o cônjuge, a companheira, o companheiro e o filho não emancipado, de qualquer condição, menor e maior de 21 (vinte e um) anos ou inválido ou que tenha deficiência intelectual ou mental ou deficiência grave.",
+        "Será excluído definitivamente da condição de dependente quem tiver sido condenado criminalmente por sentença com trânsito em julgado, como autor, coautor ou partícipe de homicídio doloso ou culposo, ou de tentativa desse crime, cometido contra a pessoa do segurado, ressalvados os absolutamente incapazes e os inimputáveis.",
+        "Nos períodos destinados a refeição ou descanso, ou por ocasião da satisfação de outras necessidades fisiológicas, no local do trabalho ou durante este, o empregado não é considerado no exercício do trabalho."
+      ], resposta_correta: 0 },
+  { id: "q1478", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — XXI Concurso da Magistratura Federal, Juiz Federal Substituto da 3ª Região (TRF3) — 2025 — Prova A101 (gabarito preliminar retificado da prova aplicada em 19/01/2025)",
+      enunciado: "Assinale a alternativa correta sobre o período de carência dos benefícios do Regime Geral de Previdência Social:",
+      alternativas: [
+        "Na hipótese de perda da qualidade de segurado, para fins da concessão dos benefícios de auxílio-doença, de aposentadoria por invalidez, de salário-maternidade e de auxílio-reclusão, o segurado deverá contar, a partir da data da nova filiação à Previdência Social, com um terço dos períodos previstos nos incisos I, III e IV do caput do art. 25 da Lei nº 8.213/1991.",
+        "A doença ou lesão de que o segurado já era portador ao filiar-se ao Regime Geral de Previdência Social nunca lhe conferirá direito à aposentadoria por invalidez.",
+        "Período de carência é o número mínimo de contribuições mensais indispensáveis para que o beneficiário faça jus ao benefício, consideradas a partir do transcurso do primeiro dia dos meses de suas competências.",
+        "A aposentadoria por tempo de serviço será devida, cumprida a carência exigida pela Lei nº 8.213/1991, ao segurado que completar 30 (trinta) anos de serviço, se do sexo feminino, ou 35 (trinta e cinco) anos, se do sexo masculino.",
+        "A aposentadoria especial será devida, uma vez cumprida a carência exigida pela Lei nº 8.213/1991, ao segurado que tiver trabalhado sujeito a condições especiais que prejudiquem a saúde ou a integridade física, durante 20 (vinte), 25 (vinte e cinco) ou 30 (trinta) anos, conforme dispuser a lei."
+      ], resposta_correta: 2 },
+  { id: "q1479", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XXI Concurso da Magistratura Federal, Juiz Federal Substituto da 3ª Região (TRF3) — 2025 — Prova A101 (gabarito preliminar retificado da prova aplicada em 19/01/2025)",
+      enunciado: "Assinale a alternativa correta a respeito das disposições da Lei nº 8.213/1991 sobre benefícios e o segurado em gozo de auxílio-doença:",
+      alternativas: [
+        "A empresa deverá elaborar e manter atualizado perfil profissiográfico abrangendo as atividades desenvolvidas pelo trabalhador e fornecer a este, antes da rescisão do contrato de trabalho, cópia autêntica desse documento.",
+        "O segurado recluso em cumprimento de pena em regime aberto ou semiaberto não terá direito ao auxílio-doença.",
+        "Ao segurado ou segurada da Previdência Social que adotar ou obtiver guarda judicial para fins de adoção de criança é devido salário-maternidade pelo período de 130 (cento e trinta) dias.",
+        "Perde o direito à pensão por morte o cônjuge, o companheiro ou a companheira se comprovada, em cinco anos, simulação ou fraude no casamento ou na união estável, ou a formalização desses com o fim exclusivo de constituir benefício previdenciário, apuradas em processo judicial no qual será assegurado o direito ao contraditório e à ampla defesa.",
+        "O segurado em gozo de auxílio-doença, insuscetível de recuperação para sua atividade habitual, deverá submeter-se a processo de reabilitação profissional para o exercício de outra atividade."
+      ], resposta_correta: 4 },
+  { id: "q1480", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XXI Concurso da Magistratura Federal, Juiz Federal Substituto da 3ª Região (TRF3) — 2025 — Prova A101 (gabarito preliminar retificado da prova aplicada em 19/01/2025)",
+      enunciado: "Sobre a pensão por morte, assinale a alternativa correta:",
+      alternativas: [
+        "Será devida ao conjunto dos dependentes do segurado que falecer, aposentado ou não, a contar da data do óbito, quando requerida em até 180 (cento e oitenta) dias após o óbito, para os filhos menores de 16 (dezesseis) anos, ou em até 90 (noventa) dias após o óbito, para os demais dependentes.",
+        "Será devida 30 (trinta) dias após a decisão judicial, no caso de morte presumida.",
+        "Será perdida pelo cônjuge, o companheiro ou a companheira se comprovada, a qualquer tempo, simulação ou fraude no casamento ou na união estável, ou a formalização desses com o fim exclusivo de constituir benefício previdenciário, apuradas em processo administrativo ou judicial no qual será assegurado o direito ao contraditório e à ampla defesa.",
+        "Havendo mais de um pensionista, será rateada entre todos em partes proporcionais.",
+        "Será devida a partir do requerimento, quando requerida 60 (sessenta) dias após o óbito."
+      ], resposta_correta: 0 },
 ];
