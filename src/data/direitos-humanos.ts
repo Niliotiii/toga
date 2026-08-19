@@ -568,4 +568,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Segundo a Convenção OIT nº 169, dispôs-se que os direitos sobre recursos naturais em terras indígenas limitam-se aos recursos superficiais, sem participação na exploração de riquezas do subsolo.",
         "Nos termos da Convenção OIT nº 169, previu-se que os deslocamentos por interesse público podem ser decididos unilateralmente, desde que mediante a devida indenização pecuniária e independentemente do consentimento dos povos afetados."
       ], resposta_correta: 0 },
+  { id: "q1454", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Santa Catarina (TJSC), Concurso para Juiz Substituto — 2024 — Tipo 1 (gabarito definitivo v2)",
+      enunciado: "Sobre o sistema regional interamericano de proteção dos direitos humanos, é correto afirmar que:",
+      alternativas: [
+        "o esgotamento dos recursos locais é requisito de admissibilidade da petição endereçada pela vítima ou seu representante à Corte Interamericana de Direitos Humanos contendo denúncia de violação de direitos humanos.",
+        "a ausência de decurso do prazo de seis meses, contado da data do fato ou de sua ciência por parte do poder público, é requisito de admissibilidade para apresentação de denúncia de violação de direitos humanos.",
+        "a exceção de admissibilidade por ausência de esgotamento dos recursos internos pode ser invocada pelo Estado a qualquer tempo, desde que antes do proferimento da sentença pela Corte.",
+        "o requisito de esgotamento dos recursos locais pode ser dispensado, caso se constatem barreiras de acesso à justiça, com dificuldade de acesso da vítima aos recursos da jurisdição interna.",
+        "é facultativo o acionamento simultâneo de mais de um mecanismo internacional de proteção de direitos humanos."
+      ], resposta_correta: 3 },
 ];
