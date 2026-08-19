@@ -622,4 +622,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Diante da crise do Direito Internacional e do fortalecimento da soberania estatal, os Estados encontram-se juridicamente autorizados a afastar unilateralmente o cumprimento de tratados internacionais de Direitos Humanos ratificados, sem necessidade de denúncia formal ou observância das regras internacionais pertinentes.",
         "O sistema global de proteção dos Direitos Humanos mostra-se incompatível com agendas internacionais de desenvolvimento sustentável, uma vez que se limita à tutela de direitos civis e políticos, não dialogando com políticas públicas voltadas à redução das desigualdades sociais e econômicas."
       ], resposta_correta: 1 },
+  { id: "q1460", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO), Concurso para Juiz Substituto — 2025 — Tipo 1 / Branca-Tarde (gabarito definitivo, prova aplicada em 2025)",
+      enunciado: "No curso de um procedimento de licenciamento ambiental para a implantação de uma obra pública, o órgão responsável identificou que a área afetada é tradicionalmente ocupada por um povo indígena e por uma comunidade tradicional, que utilizam o território para a reprodução de seus modos de vida, práticas culturais e atividades de subsistência. Para fins de participação social, o órgão entendeu suficiente a realização de audiências públicas gerais, abertas a toda a população interessada, sem a adoção de procedimentos específicos voltados às comunidades diretamente afetadas. Considerando os direitos assegurados aos povos indígenas e às comunidades tradicionais no ordenamento jurídico brasileiro, a conduta do órgão licenciador deve ser caracterizada como:",
+      alternativas: [
+        "legítima, já que a adoção de procedimentos diferenciados é facultativa e depende de previsão expressa em cada política pública setorial.",
+        "correta, visto que a consulta específica somente é exigida quando há remoção compulsória das comunidades de seus territórios tradicionalmente ocupados.",
+        "incompatível, uma vez que a participação em audiências públicas gerais é suficiente para satisfazer plenamente as exigências de transparência, publicidade e controle social aplicáveis aos procedimentos administrativos.",
+        "regular, pois os direitos desses grupos se limitam à preservação cultural, não alcançando a definição de procedimentos administrativos no licenciamento ambiental.",
+        "incompatível, pois o ordenamento jurídico reconhece a relação diferenciada desses grupos com o território e exige consulta específica quando medidas administrativas os afetam diretamente."
+      ], resposta_correta: 4 },
+  { id: "q1461", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO), Concurso para Juiz Substituto — 2025 — Tipo 1 / Branca-Tarde (gabarito definitivo, prova aplicada em 2025)",
+      enunciado: "Ao definir os mecanismos para implementação do Estatuto dos Refugiados de 1951, a Lei nº 9.474/1997 criou o Comitê Nacional para os Refugiados (CONARE). O CONARE tem competência legal para:",
+      alternativas: [
+        "determinar a perda, em primeira instância, da condição de refugiado.",
+        "autorizar a emissão de documento de identidade civil de solicitantes de refúgio.",
+        "aprovar alterações ao decreto regulamentador do Estatuto dos Refugiados de 1951.",
+        "analisar os recursos apresentados em resposta às decisões de não reconhecimento da condição de refugiado.",
+        "decidir sobre os pedidos de extradição que tenham como objeto indivíduos com solicitação de refúgio pendentes de decisão."
+      ], resposta_correta: 0 },
+  { id: "q1462", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO), Concurso para Juiz Substituto — 2025 — Tipo 1 / Branca-Tarde (gabarito definitivo, prova aplicada em 2025)",
+      enunciado: "Em 2010, a Assembleia Geral da Organização das Nações Unidas adotou as Regras de Bangkok, também conhecidas como Regras das Nações Unidas para o tratamento de mulheres presas e medidas não privativas de liberdade para mulheres infratoras. Sobre o tema, analise as afirmativas a seguir. I. Não se aplicarão sanções de isolamento ou segregação disciplinar a gestantes e lactantes. II. Instrumentos de contenção jamais devem ser usados em mulheres em trabalho de parto. III. Mulheres presas não deverão ser desestimuladas a amamentar seus filhos, salvo se houver razões médicas específicas para tanto. As Regras de Bangkok buscam garantir o(s) direito(s) que se afirma(m) em:",
+      alternativas: [
+        "I, apenas.",
+        "I e II, apenas.",
+        "I e III, apenas.",
+        "II e III, apenas.",
+        "I, II e III."
+      ], resposta_correta: 4 },
 ];
