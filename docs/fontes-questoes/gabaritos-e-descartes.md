@@ -3940,3 +3940,52 @@ gabarito definitivo. Quinto TJ Juiz minerado (anterior: tjscjuiz24).
 DH agora em 79/200. Sessão total TJ Juiz: tjpr25(+5), tjgo25(+3),
 tjce25(+3), tjmsjuiz23(+2), tjsc25(+2) = 15 DH em 5 concursos.
 Catálogo FGV TJ Juiz objtiva esgotado.
+
+## Leva 92 — VUNESP TJ-RJ Juiz Substituto 2026 (LI Concurso) (DH)
+
+**Fonte**: VUNESP — TJRJ LI Concurso para Ingresso na Magistratura de
+Carreira, Juiz Substituto 2026, Prova Objetiva Versão 1 (80 questões),
+gabarito **definitivo** Edital 08/2026 (após recursos, prova aplicada
+15/03/2026). **PRIMEIRA fonte VUNESP** minerada para DH. Prova+gabarito
+oficiais baixados direto do site tjrj.jus.br (Brave Search único motor
+que surfaceou as URLs oficiais; VUNESP/WebFetch dá 403 e DDG/CAPTCHA).
+
+Atenção VUNESP (ver [[vunesp-caderno-version-gabarito]]): prova tem 4
+versões com ordem embaralhada; li o texto da questão e cruzei gabarito
+pela VERSÃO 1 (não confiei no número). Versão 1 gabarito: Q7=A, Q26=C,
+Q33=N(anulada), Q34=A, Q78=A, Q79=C, Q80=E.
+
+**Questões extraídas (q1470-q1475, +6)**:
+- q1470 = Q34 (answer A): Lei 7.716/89 criminaliza divulgação do
+  nazismo (fabricação/comercialização/distribuição/veiculação de
+  símbolos). Anchor: Lei 7.716/89 Art. 20 + STF ADO 49.
+- q1471 = Q78 (answer A): povos indígenas — descabe indenização em
+  casos já pacificados de terras já reconhecidas, ressalvados os
+  judicializados. Anchor: STF RE 1.011.499 (Tema 1.057), EC 137/2023,
+  Lei 14.701/2023.
+- q1472 = Q79 (answer C): Parecer Consultivo 32/2025 Corte IDH
+  (Emergência Climática e DH) — autoridades judiciais aplicam
+  princípio pro actione em matéria climática.
+- q1473 = Q80 (answer E): Convenção contra Tortura ONU (1984) — norma
+  proibitiva não impede cláusula expressa de denúncia (Art. 31).
+- q1474 = Q7 (answer A): tomada de decisão apoiada (CC Art. 1.783-A,
+  LBI) — divergência pessoa apoiada x apoiador → juiz decide após
+  oitiva do MP.
+- q1475 = Q26 (answer C): vacinação obrigatória de criança — recusa
+  dos pais = infração administrativa punida com multa (não crime, não
+  suspensão do poder familiar isolada). Anchor: STJ REsp 1.631.356
+  (Tema 910), Lei 6.360/76, Lei 13.979/2020 Art. 3º.
+
+**Descartes**:
+- Q23 (adoção STJ): processual-familiar ECA.
+- Q24 (acolhimento institucional ECA): processual-institucional.
+- Q25 (ECA autorização judicial viagem): processual ECA.
+- Q27, Q28 (ECA socioeducativa): processual.
+- Q33 (Lei Maria da Penha/STF legítima defesa honra): **anulada**
+  (gabarito N) → descartar.
+- Q35 (Lei Crimes Hediondos/política criminal): penal, não DH.
+
+DH agora em 85/200. VUNESP TJ-RJ confirmou: VUNESP tem bloco
+"Direitos Humanos" dedicado (Q79-Q80) + bloco "Direito da
+Antidiscriminação" (Q78 indígenas) + questões ECA/PCD dispersas. Brave
+Search é a rota viável para achar PDFs oficiais VUNESP/TJRJ.
