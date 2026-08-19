@@ -1522,4 +1522,40 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "É possível admitir-se a reconvenção desde que a empresa faça o recolhimento prévio das custas relativas a ela.",
         "Em tese, será possível o manejo da reconvenção desde que o reclamante concorde com o seu ajuizamento."
       ], resposta_correta: 2 },
+  { id: "q1469", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — XVIII Concurso para Juiz Federal Substituto do Tribunal Regional Federal da 1ª Região (TRF1) — 2025 — Tipo 1 (gabarito definitivo da prova aplicada em 15/06/2025)",
+      enunciado: "Jorge, jovem advogado, inicia suas atividades remuneradas em janeiro de 2020, na condição de advogado autônomo. Em janeiro de 2025, logra aprovação em concurso público para juiz federal da 1ª Região, iniciando suas atividades em março do mesmo ano. Diante do cenário hipotético apresentado, Jorge terá direito à aposentadoria voluntária com a idade de:",
+      alternativas: [
+        "60 anos.",
+        "65 anos.",
+        "55 anos.",
+        "62 anos.",
+        "57 anos."
+      ], resposta_correta: 1 },
+  { id: "q1470", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XVIII Concurso para Juiz Federal Substituto do Tribunal Regional Federal da 1ª Região (TRF1) — 2025 — Tipo 1 (gabarito definitivo da prova aplicada em 15/06/2025)",
+      enunciado: "Manoel, segurado empregado do Regime Geral de Previdência Social (RGPS), sofre acidente de trabalho e vem a falecer logo após o início de suas atividades profissionais, sem sequer completar um mês de trabalho. Nesse contexto, é correto afirmar que Maria, sua viúva:",
+      alternativas: [
+        "não terá direito a pensão por morte, pois Manoel não cumpriu a carência para a concessão do benefício desejado.",
+        "terá direito a pensão por morte, desde que comprove efetiva dependência econômica junto ao falecido, mesmo que casados e coabitando a mesma residência.",
+        "não terá direito a pensão por morte, pois o benefício é pago ao cônjuge somente após 18 meses de contribuições mensais.",
+        "poderá obter o benefício, pela via judicial, desde que comprove que Manoel faleceu por culpa exclusiva do empregador.",
+        "terá direito ao benefício, pois Manoel já era filiado ao RGPS quando do acidente, sendo que a pensão por morte não possui carência."
+      ], resposta_correta: 4 },
+  { id: "q1471", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XVIII Concurso para Juiz Federal Substituto do Tribunal Regional Federal da 1ª Região (TRF1) — 2025 — Tipo 1 (gabarito definitivo da prova aplicada em 15/06/2025)",
+      enunciado: "Júlia, servidora pública federal, ocupante de cargo público de provimento efetivo, iniciou suas atividades em janeiro de 2015, como analista judiciária no TRF1. No momento do ingresso no cargo público, ela não possuía recolhimentos ou vínculos anteriores e, desde 2020, é qualificada como pessoa com deficiência. Nessa situação hipotética, é correto afirmar que:",
+      alternativas: [
+        "Júlia poderá obter aposentadoria na condição de pessoa com deficiência, a qual poderá ser concedida independente de idade mínima, desde que atendido o tempo de contribuição mínimo previsto em lei complementar.",
+        "a qualidade de pessoa com deficiência permitirá a Júlia aposentadoria em condições mais favoráveis, sendo irrelevante o grau de deficiência.",
+        "Júlia poderá aposentar-se na condição de pessoa com deficiência, mas somente aos 55 anos de idade, após tempo mínimo de contribuição de 20 anos.",
+        "a aposentadoria da pessoa com deficiência, em virtude da EC nº 103/2019, carece de lei complementar para sua regulamentação, de tal maneira que não existe regra distinta em favor de Júlia.",
+        "caso comprovada a sua deficiência, Júlia poderá obter, no máximo, aposentadoria por incapacidade permanente, e não aposentadoria voluntária com regras particulares."
+      ], resposta_correta: 0 },
+  { id: "q1472", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XVIII Concurso para Juiz Federal Substituto do Tribunal Regional Federal da 1ª Região (TRF1) — 2025 — Tipo 1 (gabarito definitivo da prova aplicada em 15/06/2025)",
+      enunciado: "Uma indústria brasileira, empregadora de centenas de empregados, organiza, por meio de acordo coletivo com o sindicato local, negociação coletiva em prol de pagamento de lucros e resultados a seus trabalhadores. Após o término do exercício, a empregadora, uma vez identificada a lucratividade desejada e prevista no acordo coletivo, efetuou os pagamentos aos empregados, em estrita observância às normativas fixadas em norma coletiva. Os referidos valores pagos aos empregados são:",
+      alternativas: [
+        "dotados de natureza salarial, compondo o salário de contribuição dos empregados.",
+        "desprovidos de natureza salarial, desde que pagos em estrita conformidade com as previsões da legislação vigente.",
+        "desprovidos de natureza salarial, haja vista a imunidade tributária que afasta tais pagamentos da incidência tributária.",
+        "dotados de natureza salarial, mas somente quanto aos empregados vinculados a regime próprio de previdência social.",
+        "desprovidos de natureza salarial, desde que os pagamentos tenham ocorrido em prol da totalidade de segurados empregados e avulsos da indústria."
+      ], resposta_correta: 1 },
 ];
