@@ -3800,3 +3800,42 @@ limpas após descartes.
   não DH.
 
 DH agora em 69/200. Próxima fonte: TJ-RS Juiz 2025 (`tjrs25`) já baixado.
+
+## Leva 88 — TJ-GO Juiz Substituto 2025 (DH)
+
+**Fonte**: FGV — TJGO Concurso para Juiz Substituto 2025, Tipo 1
+Branca-Tarde (caderno `juiz-substituto-j-sub-tipo-1.pdf`), gabarito
+definitivo (`tjgo-juiz-substituto-gabarito-definitivo.pdf`). Bloco III
+inclui "Noções Gerais de Direito e Formação Humanística e Direitos
+Humanos". Segundo TJ minerado para DH nesta sessão.
+
+**Questões extraídas (q1460-q1462, +3)**:
+- q1460 = Q95 (answer E): povos indígenas e comunidades tradicionais —
+  conduta do órgão licenciador incompatível, exige-se consulta
+  específica quando medidas administrativas afetam diretamente.
+  Anchor: CF Art. 231 + Convenção 169 OIT Art. 6 (consulta prévia,
+  livre e informada).
+- q1461 = Q98 (answer A): CONARE competência — determinar a perda, em
+  primeira instância, da condição de refugiado. Anchor: Lei 9.474/97
+  Art. 12, III (verificado via planalto.gov.br). B é erro comum
+  (protocolo emitido pela Polícia Federal, Art. 21, não CONARE).
+- q1462 = Q100 (answer E): Regras de Bangkok ONU (mulheres presas) —
+  I (sem isolamento a gestantes/lactantes, Regra 42), II (sem
+  contenção em trabalho de parto, Regra 24), III (não desestimular
+  amamentação salvo razões médicas, Regra 48) todas corretas.
+
+**Descartes**:
+- Q91 (reconhecimento facial/LGPD): privacidade/dados, não DH core.
+- Q92 (Núcleos Justiça 4.0 / Resolução CNJ 398/2021): institucional-
+  específico.
+- Q93 (reconhecimento facial privado + segurança pública): LGPD.
+- Q94 (Rawls "como equidade"/teoria da justiça): teórica/filosofia.
+- Q96 (direito penal intertemporal): penal, não DH.
+- Q97 (jurimetria/análise econômica do direito): teórica.
+- Q99 (RPU ONU): **anulada** pelo gabarito (asterisco) → descartar.
+
+DH agora em 72/200. TJ-PR (5) + TJ-GO (3) confirmam TJ Juiz (Bloco
+"Formação Humanística e Direitos Humanos") como fonte DH produtiva
+quando a banca FGV inclui esse bloco. Próximos candidatos TJ Juiz:
+tjpe26, tjms25 (caderno não disponível), tjce25, tjmg21, tjrs25
+(support-staff, descartado).
