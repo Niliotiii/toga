@@ -3989,3 +3989,37 @@ DH agora em 85/200. VUNESP TJ-RJ confirmou: VUNESP tem bloco
 "Direitos Humanos" dedicado (Q79-Q80) + bloco "Direito da
 Antidiscriminação" (Q78 indígenas) + questões ECA/PCD dispersas. Brave
 Search é a rota viável para achar PDFs oficiais VUNESP/TJRJ.
+
+## Leva 93 — VUNESP TJ-RJ Juiz Substituto 2025 (L Concurso) (DH)
+
+**Fonte**: VUNESP — TJRJ L Concurso (50º) para Ingresso na Magistratura
+de Carreira, Juiz Substituto 2025, Prova Objetiva Versão 1 (80
+questões), gabarito **definitivo** Edital 11/2025 (após recursos,
+prova aplicada 12/01/2025; Q37 e Q67 anuladas). Segunda prova VUNESP
+TJ-RJ minerada (a LI/2026 foi a primeira, Leva 92).
+
+**Questões extraídas (q1476-q1478, +3)**:
+- q1476 = Q78 (answer B): Direito Antidiscriminatório — teoria da
+  discriminação organizacional (processos inconscientes da cultura
+  institucional no mercado de trabalho). Anchor: doutrina firme da
+  discriminação institucional/organizacional (Allport).
+- q1477 = Q79 (answer A): Sistema Interamericano DH — Corte
+  Interamericana tem competência consultiva; qualquer membro da OEA
+  (parte ou não da Convenção) pode solicitar parecer. Anchor: CADH
+  Art. 64(1). B errada (CADH entrou em vigor 1978, não 1970); C
+  errada (indivíduos não postulam diretamente à Corte).
+- q1478 = Q80 (answer E): Controle de Convencionalidade — doutrina do
+  controle interno surgiu em 26/09/2006, Caso Almonacid Arellano v.
+  Chile (Corte IDH). Anchor: história doutrinária firme (origem do
+  controle de convencionalidade), não ruling substantivo contestado.
+
+**Descartes**:
+- Q77 (smart contracts/blockchain/AI): digital, não DH.
+- ECA Q25/Q27: processual-familiar.
+- Q6 (idoso união estável regime bens): civil, não DH.
+- Sem questão PCD dedicada neste concurso (diferente da LI/2026 Q7).
+
+DH agora em 88/200. VUNESP TJ-RJ rendeu 9 DH totais (6 LI/2026 + 3
+L/2025) — classe VUNESP confirmada como produtiva via Brave Search
+para PDFs oficiais. Próximas fontes VUNESP: Prefeitura Tremembé-SP
+Procurador, e buscar Defensor/Promotor VUNESP-SP.
