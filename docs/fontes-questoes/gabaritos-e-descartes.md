@@ -3427,3 +3427,38 @@ TRT/Juiz do Trabalho FGV confirmado como fonte RICÍSSIMA para
 Trabalho (9 questões de 1 prova). Outras regionais TRT (trt13,
 etc.) e CSJT 2023 já minerado — próxima alvo: outras regionais
 TRT com cargo Analista Judiciário (Graduação em Direito).
+
+## Leva 77 — TRT-13 2022 Analista Judiciário Direito (Trabalho)
+
+TRT-13 (Paraíba) Analista Judiciário — Área Judiciária — Graduação
+em Direito, 2022, Tipo 1, gabarito DEFINITIVO de 27/11/2022. 70
+questões. **Bloco Trabalho ainda mais rico que TRT-16** (empregad
+26, aposentadoria 17, trabalhista 16, contribuição 12, CLT 8).
+- Trabalho q1445-q1456 (+12): Q50 CTPS digital prazo (CLT art.29),
+  Q52 estabilidade acidentária+inquérito (CLT arts.118/853), Q53
+  menor noturno vedado (CF art.7º XXXIII + CLT art.404), Q54 acordo
+  extrajudicial RO (CLT art.895), Q55 revelia advogado (CLT art.844
+  + CPC art.318), Q56 prescrição intercorrente de ofício (CLT
+  art.878 §1º), Q57 sumaríssimo 2 testemunhas (CLT arts.852-B/H),
+  Q58 falência crédito trabalhista (Lei 11.101 art.3º), Q64
+  atentado liberdade trabalho (CP art.197), Q66 apropriação indébita
+  previdenciária (CP art.168-A), Q68 IR verbas (Lei 7.713), Q69
+  gratificação natalina salário-contribuição (Lei 8.212 art.28)
+- Descartadas: Q51 (intervalo >2h acordo individual — Reforma-
+  contested art.71), Q59 (habilitação retardatária voto nuance), Q63
+  (atestado médico — Penal), Q67 (contribuição sindical — Tributário),
+  Q70 (ministro religioso facultativo/obrigatório — contested), Q20
+  anulada.
+
+### Estado após Leva 77
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **157** |
+| Direitos Humanos | 4 | **54** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1444** |
+
+Padrão confirmado: **TRT Regionais (Analista Judiciário Área
+Judiciária Graduação em Direito) são a fonte mais rica para
+Trabalho**, 9-12 questões por prova com gabarito definitivo.
+Próximas regionais TRT a explorar (CSJT 2023 já minerado).
