@@ -487,4 +487,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "o ensino domiciliar é um direito público subjetivo do aluno e de sua família, sendo autoaplicável nas modalidades \"utilitarista\" e \"por conveniência circunstancial\" e dependente de regulamentação nas espécies unschooling radical (desescolarização radical), unschooling moderado (desescolarização moderada) e homeschooling puro.",
         "é inconstitucional a legislação que regulamenta o ensino domiciliar, prática que aprofunda a separação anti-isonômica das classes sociais em matéria educacional e desvaloriza o convívio entre as crianças como parte essencial do processo educativo."
       ], resposta_correta: 2 },
+  { id: "q1445", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Defensoria Pública do Estado de Pernambuco (DPE-PE), Concurso para Defensor Público — Edital 01/2025 — Prova Tipo 1 (gabarito preliminar da prova aplicada em 01/06/2025)",
+      enunciado: "Maya engravida em um momento muito difícil de sua vida. O pai da criança é seu ex-marido, que a submeteu a violência doméstica por anos. Ela sabe que não receberá qualquer apoio da família, que sempre a julgou por se divorciar, e decidiu não contar a ninguém sobre a gestação. Assim, decide se mudar de cidade, ainda sem saber o que fazer, a fim de evitar contato com seus familiares e o ex-marido. Após ser orientada por uma agente comunitária de saúde sobre a possibilidade de entregar a criança de forma voluntária e protegida, Maya reflete intensamente, e procura a Justiça da Infância e Juventude para fazê-lo. Sobre o fato acima apresentado, assinale a afirmativa correta.",
+      alternativas: [
+        "Caso a manifestação de vontade para entrega à adoção se dê antes do nascimento da criança, a gestante será ouvida pela autoridade judiciária, que poderá encaminhá-la para elaboração de relatório pela equipe interprofissional da Justiça da Infância e da Juventude.",
+        "Incumbe ao poder público proporcionar assistência psicológica à gestante e à mãe, no período pré e pós-natal, inclusive como forma de prevenir ou minorar as consequências do estado puerperal, desde que a criança não seja entregue para adoção.",
+        "Caso Maya desista da entrega voluntária, será determinado pela Justiça da Infância e da Juventude o acompanhamento familiar pelo prazo de 60 (sessenta) dias.",
+        "Maya tem direito ao sigilo judicial em torno do nascimento e da entrega da criança, inclusive em relação ao suposto genitor e à família ampla.",
+        "A retratação ao consentimento de entrega de filho para adoção, feita antes da publicação da sentença constitutiva da adoção, tem por consequência a retomada do poder familiar pelos pais biológicos."
+      ], resposta_correta: 3 },
+  { id: "q1446", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Defensoria Pública do Estado de Pernambuco (DPE-PE), Concurso para Defensor Público — Edital 01/2025 — Prova Tipo 1 (gabarito preliminar da prova aplicada em 01/06/2025)",
+      enunciado: "Sendo correto asseverar que se pode provar a afirmação histórica dos Direitos Humanos por meio das normas que declaram tais direitos, assinale a opção que não contém um documento normativo dessa afirmação.",
+      alternativas: [
+        "A Magna Carta, de 1215.",
+        "A Constituição Alemã, de 1919.",
+        "A Convenção de Viena, de 1969.",
+        "O Estatuto do Tribunal Penal Internacional, de 1998.",
+        "A Declaração Universal dos Direitos Humanos, de 1948."
+      ], resposta_correta: 2 },
+  { id: "q1447", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Defensoria Pública do Estado de Pernambuco (DPE-PE), Concurso para Defensor Público — Edital 01/2025 — Prova Tipo 1 (gabarito preliminar da prova aplicada em 01/06/2025)",
+      enunciado: "A Lei nº 11.340/2006, que cria mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher, também chamada de \"Lei Maria da Penha\", deve sua origem",
+      alternativas: [
+        "à iniciativa do Conselho Nacional de Justiça.",
+        "ao requerimento do Instituto Maria da Penha.",
+        "ao projeto de lei de iniciativa do Chefe do Executivo.",
+        "à recomendação da Comissão Interamericana de Direitos Humanos.",
+        "ao projeto de lei apresentado pelo Conselho Nacional de Direitos Humanos."
+      ], resposta_correta: 3 },
 ];
