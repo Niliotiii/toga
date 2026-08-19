@@ -649,4 +649,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "II e III, apenas.",
         "I, II e III."
       ], resposta_correta: 4 },
+  { id: "q1463", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Ceará (TJCE), Concurso para Juiz Substituto — 2025 — Tipo 1 / Branca-Tarde (gabarito definitivo, prova aplicada em 20/07/2025)",
+      enunciado: "O Poder Executivo Federal instituiu um grupo de trabalho com o objetivo de analisar se, à luz da Convenção sobre os Direitos das Pessoas com Deficiência, há a faculdade ou obrigação de ser implementado um mecanismo de natureza propositiva, crítica e fiscalizadora dos direitos ali previstos, bem como a posição que deve ocupar no âmbito das estruturas estatais de poder e se a sociedade civil deve integrá-lo. Assinale a opção que apresenta, corretamente, a conclusão a que o grupo de trabalho, ao fim de sua análise, amparado pela jurisprudência do Supremo Tribunal Federal, chegou.",
+      alternativas: [
+        "A organização interna de cada Estado Parte não é tratada na Convenção, não havendo obrigatoriedade de se criar uma estrutura específica com a funcionalidade de zelar pela sua observância.",
+        "Deve existir uma estrutura específica em cada Estado Parte, de natureza não estatal, com viés democrático e gestão da sociedade civil organizada, incumbida de fiscalizar a aplicação da Convenção.",
+        "É cogente a existência de mecanismo independente, não se admitindo qualquer ingerência unilateral da estrutura estatal a que está vinculado, assegurando-se, ademais, a participação da sociedade civil organizada.",
+        "Deve existir uma estrutura específica, de viés estatal, dotada de autonomia, de composição paritária, sendo a participação da sociedade civil organizada norteada pelo sistema de mérito, com a realização de processo seletivo próprio.",
+        "É facultada a criação de estrutura específica, em prol da especialização de funções e do aumento da eficiência, assegurando-se a participação da sociedade civil organizada, sem a ingerência do Poder Público na chancela das escolhas realizadas."
+      ], resposta_correta: 2 },
+  { id: "q1464", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Ceará (TJCE), Concurso para Juiz Substituto — 2025 — Tipo 1 / Branca-Tarde (gabarito definitivo, prova aplicada em 20/07/2025)",
+      enunciado: "Maria, Joana e Andrea realizaram um debate em relação à possível existência de mecanismos não convencionais de proteção dos Direitos Humanos no plano do Direito Internacional Público, que poderiam acarretar consequências diretas para o Estado de Direito responsável por violações a esses direitos. Maria afirmou que o reconhecimento da soberania estatal é a base de desenvolvimento do Direito Internacional Público, logo, a existência dos referidos mecanismos seria uma contradictio in terminis. Joana defendeu que violações massivas a esses direitos poderiam acarretar, no extremo, o uso da força pelo Conselho de Segurança das Nações Unidas. Andrea, por fim, defendeu que os mecanismos não convencionais existem e são operativos, mas devem observar o requisito da exaustão das vias internas. Em relação às assertivas de Maria, Joana e Andrea concluiu-se, corretamente, que",
+      alternativas: [
+        "todas estão certas.",
+        "apenas Maria está certa.",
+        "apenas Joana está certa.",
+        "apenas Maria e Andrea estão certas.",
+        "apenas Joana e Andrea estão certas."
+      ], resposta_correta: 2 },
+  { id: "q1465", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Ceará (TJCE), Concurso para Juiz Substituto — 2025 — Tipo 1 / Branca-Tarde (gabarito definitivo, prova aplicada em 20/07/2025)",
+      enunciado: "A República Federativa do Brasil figura como parte em convenção internacional, celebrada pela Organização dos Estados Americanos, que foi devidamente ratificada pelo Congresso Nacional em 2000, sendo depositado o instrumento de ratificação e promovida a sua promulgação na ordem interna no ano subsequente. A convenção tem por objeto o reconhecimento de determinado direito social de viés não prestacional. No início do corrente ano, o Presidente da República decidiu que iria denunciá-la. A respeito da situação descrita, com base na jurisprudência do Supremo Tribunal Federal, assinale a afirmativa correta.",
+      alternativas: [
+        "Como a convenção tem o status de emenda constitucional, a denúncia não é possível.",
+        "A denúncia a ser realizada no corrente ano não prescinde da sua aprovação pelo Congresso Nacional.",
+        "A denúncia de convenções internacionais consubstancia ato de competência privativa do Presidente da República.",
+        "Caso a denúncia não acarrete ônus para a República Federativa do Brasil, consubstancia ato de competência privativa do Presidente da República.",
+        "Em razão de sua natureza supralegal, a denúncia de convenções internacionais sobre direitos humanos sempre pressupôs a aprovação pelo Congresso Nacional."
+      ], resposta_correta: 1 },
 ];
