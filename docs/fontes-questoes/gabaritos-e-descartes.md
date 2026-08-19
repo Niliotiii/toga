@@ -3341,3 +3341,36 @@ Trabalho (133) e DH (52) seguem como os dois temas prioritários.
 Próximas fontes: MPES 2025, MPU 2025, MPGO 2023 (mesmo padrão de
 bloco Infância/Difusos). MP/Promotor FGV permanece a fonte mais
 produtiva para DH.
+
+## Leva 74 — MPGO 2022 Promotor (DH)
+
+MPGO 48º Concurso Promotor de Justiça Substituto 2022, Tipo 1
+(gabarito PRELIMINAR de 16/01/2022 — definitivo não publicado).
+100 questões, layout 2 colunas. Bloco "Direitos Difusos,
+Coletivos e Individuais Homogêneos" Q51-70 + blocos Civil/Penal.
+
+Produção DH limitada (mais fino que MPGO 2025): o bloco Difusos
+é majoritariamente processual-coletivo + improbidade (Admin),
+não DH substantivo.
+- DH q1443-q1444 (+2): Q88 encarceramento/convenção interamericana
+  (STF RE 580.792 Tema 865 — responsabilidade objetiva do Estado
+  por condições carcerárias), Q69 ensino domiciliar (STF RE 888.815
+  Tema 825 — sem direito subjetivo constitucional ao homeschooling,
+  mas possível lei federal)
+- Descartadas (ambiguidade doutrinária ou preliminar): Q56
+  (PNAE financiamento — Admin/orçamentário, não DH núcleo), Q70
+  (creche ECA art.54 IV — competência ECA art.148 vs foro privativo
+  Fazenda Pública contestada), Q78 (curatela compartilhada Lei
+  13.146/2015 — detalhe estatutário em gabarito preliminar)
+
+### Estado após Leva 74
+| Tema | Agora |
+| --- | --- |
+| Trabalho | 133 |
+| Direitos Humanos | **54** |
+| **TOTAL DB** | **1420** |
+
+Trabalho e DH seguem prioritários. Re-despachados agentes em
+paralelo (DH em MP/Defensor, Trabalho em Procurador/TRT/TCE)
+após janela de rate-limit 429 decorrida. Instruções reforçam
+pacing de requisições HTTP para evitar novo 429.
