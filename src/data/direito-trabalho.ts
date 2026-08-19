@@ -1225,4 +1225,85 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "inválida, pois a CF/88 impede a vinculação simultânea a dois ou mais regimes previdenciários.",
         "válida, desde que Jorge venha a aderir, também, ao regime de previdência complementar estadual."
       ], resposta_correta: 2 },
+  { id: "q1436", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "No curso de relação processual no âmbito da Justiça do Trabalho, foram acolhidos, em sentença transitada em julgado, os pedidos formulados pelo reclamante, com a consequente condenação do antigo empregador ao pagamento dos valores almejados. Ressalte-se que a condenação decorreu do não pagamento de horas extraordinárias, sendo que, durante toda a relação de emprego, as contribuições previdenciárias incidentes sobre o salário normal foram pontualmente recolhidas pelo empregador. Nesse caso, as contribuições previdenciárias concernentes ao objeto da referida condenação devem ser objeto de execução no âmbito da Justiça",
+      alternativas: [
+        "do Trabalho, devendo ser iniciada de ofício.",
+        "do Trabalho, a partir de iniciativa privativa do Instituto Nacional de Previdência Social.",
+        "comum, por iniciativa da Fazenda Pública, após a devida inscrição do débito em dívida ativa.",
+        "do Trabalho, a partir de iniciativa do reclamante ou do Instituto Nacional de Previdência Social.",
+        "comum, por iniciativa da Fazenda Pública, independente de prévia inscrição do débito em dívida ativa."
+      ], resposta_correta: 3 },
+  { id: "q1437", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Maria, que trabalha numa empresa em Açailândia/MA, engravidou, teve o seu bebê, e saiu em licença maternidade em junho de 2022. Após 120 dias, retornou à empresa. Considerando a situação apresentada, assinale a opção que contempla o intervalo especial para amamentação a que Maria terá direito e o seu tempo de duração.",
+      alternativas: [
+        "Durante 1 ano Maria terá direito a um intervalo de 1 hora corrida para amamentação.",
+        "Para amamentar seu bebê, Maria terá um intervalo diário de 30 minutos até 6 meses após o seu retorno à empresa.",
+        "Uma vez que a licença maternidade foi aproveitada após a reforma trabalhista, no retorno não haverá direito a qualquer intervalo especial, salvo previsão em norma coletiva.",
+        "Maria terá direito a quantos intervalos forem necessários para manter o bem-estar de seu bebê, não havendo na Lei um limite.",
+        "Maria terá direito a dois intervalos especiais de meia hora cada um até 6 meses de idade do filho."
+      ], resposta_correta: 4 },
+  { id: "q1438", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Regina é uma teletrabalhadora, sendo empregada em uma empresa situada em Timon/MA. Regina recebeu do empregador todo o equipamento de informática, devidamente instalado num quarto de sua residência que é utilizado como escritório. Em determinado dia de 2022, durante a realização de suas atividades normais, Regina recebeu um violento choque no computador que manuseava. Uma vez que a empregada em questão possui um marca-passo, além do enorme susto sofrido, precisou se afastar do serviço por alguns dias para se recuperar, pois o marca-passo sofreu uma pequena avaria. Diante da situação retratada, assinale a afirmativa correta.",
+      alternativas: [
+        "O evento não é um acidente do trabalho porque se trata de uma teletrabalhadora, que não cumpre suas atividades na sede da empresa.",
+        "O sinistro será considerado acidente do trabalho se a recuperação da empregada exceder 15 dias.",
+        "Ocorreu um acidente do trabalho e a empresa deverá emitir a Comunicação de Acidente do Trabalho (CAT).",
+        "O evento será acidente do trabalho se essa situação estiver prevista, por escrito, no contrato da empregada.",
+        "O fato não caracteriza acidente do trabalho porque o empregador não teve culpa, sendo responsabilizada a empresa que fornece a energia elétrica."
+      ], resposta_correta: 2 },
+  { id: "q1439", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Nilton joga no maior clube de futebol do Maranhão, recebendo elevado salário. Entendendo que estava sendo lesado pelo clube em vários direitos, Nilton ajuizou reclamação trabalhista contra o clube, perseguindo a reparação dessas lesões e da multa contratualmente fixada, atribuindo à causa o valor de R$ 1.800.000,00 (um milhão e oitocentos mil reais), que foi o somatório dos direitos que reivindicou. A ação foi contestada e instruída, sobrevindo a sentença de improcedência total dos pedidos formulados. De acordo com a CLT, e considerando que não houve requerimento de gratuidade de justiça, assinale a opção correta em relação às custas que deverão ser recolhidas por Nilton caso ele queira recorrer.",
+      alternativas: [
+        "Nilton deve recolher R$ 36.000,00.",
+        "Nilton deve recolher R$ 18.000,00.",
+        "Não haverá necessidade de recolhimento de custas quando é o trabalhador quem recorre.",
+        "Sendo o pedido julgado totalmente improcedente, o juiz terá liberdade de fixar as custas por equidade.",
+        "Nilton deve recolher quatro vezes o limite dos benefícios do Regime Geral de Previdência Social."
+      ], resposta_correta: 4 },
+  { id: "q1440", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Em determinada reclamação trabalhista, ajuizada em 2021, e que tramita na 20ª VT/São Luís, o pedido foi julgado procedente, sendo condenado o ex-empregador ao pagamento de R$ 40.000,00 para o trabalhador e R$ 4.000,00 de honorários advocatícios de sucumbência. No título executivo consta ainda a responsabilidade do Estado do Maranhão, que está no polo passivo porque houve terceirização dos serviços. Não tendo sido pago o débito pelo ex-empregador e não se logrando êxito na constrição do seu patrimônio, a execução foi direcionada contra o Estado do Maranhão. Sobre a forma de pagamento do ente público no caso concreto, assinale a afirmativa correta.",
+      alternativas: [
+        "O crédito do trabalhador e os honorários advocatícios serão pagos mediante precatório.",
+        "O crédito do trabalhador e os honorários advocatícios serão pagos mediante RPV.",
+        "Os honorários advocatícios serão pagos por RPV e o crédito do trabalhador, por precatório.",
+        "É o juiz que determinará se a forma de pagamento será RPV ou precatório de acordo com a condição financeira e social do credor.",
+        "O crédito do trabalhador será pago por RPV e dos honorários, por precatório."
+      ], resposta_correta: 1 },
+  { id: "q1441", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Uma empresa de construção civil localizada em Balsas/MA é executada numa reclamação trabalhista pelo valor de R$ 50.000,00, tendo sido citada por oficial de justiça para pagar a dívida em 48 horas. A empresa em questão está com os seus ativos concentrados em 2 projetos de engenharia, daí porque não deseja se descapitalizar neste momento, e deseja uma alternativa para garantir o juízo e discutir os cálculos, pois tem absoluta certeza que o valor homologado judicialmente é superior ao devido. Diante da situação retratada e do que dispõe a CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "A empresa poderá apresentar seguro-garantia judicial no valor de R$ 65.000,00 para garantir o juízo.",
+        "O seguro-garantia judicial é possível apenas em relação à parcela incontroversa, pois a controversa deverá ser depositada em espécie.",
+        "A executada poderá apresentar seguro-garantia judicial no valor de R$ 50.000,00 para garantir o juízo.",
+        "A empresa deverá depositar o valor do débito ou apresentar bens à penhora, pois na seara trabalhista não é possível o uso de seguro-garantia judicial.",
+        "A empresa devedora poderá apresentar seguro-garantia judicial, mas no valor do dobro da dívida exequenda."
+      ], resposta_correta: 0 },
+  { id: "q1442", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Um dos princípios constitucionais da Seguridade Social é o caráter democrático e descentralizado da gestão administrativa. Neste sentido, tem-se que o CNPS (Conselho Nacional de Previdência Social)",
+      alternativas: [
+        "é quinquipartite, tendo representantes dos trabalhadores, dos empregadores, dos aposentados, do Ministério Público e do governo nos órgãos colegiados.",
+        "tem apenas representantes do Governo.",
+        "é bipartite, tendo a participação dos trabalhadores e do governo nos órgãos colegiados.",
+        "é quadripartite, tendo a participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados.",
+        "é tripartite, tendo a participação dos trabalhadores, dos empregadores e dos aposentados nos órgãos colegiados."
+      ], resposta_correta: 3 },
+  { id: "q1443", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Pedro estava em seu horário de almoço e alimentava-se no refeitório da empresa. Ao levantar e se dirigir ao balcão para deixar sua bandeja, Pedro escorregou, porque o chão estava molhado, e teve violenta queda, machucando-se e quebrando o prato e a bandeja que conduzia. Diante dos fatos narrados e da Lei previdenciária, assinale a afirmativa correta.",
+      alternativas: [
+        "O evento não foi acidente do trabalho porque Pedro não estava trabalhando, e sim no horário de refeição.",
+        "O acidente do trabalho somente ficará caracterizado se Pedro não se recuperar em 15 dias consecutivos.",
+        "Houve acidente do trabalho e a empresa deverá emitir CAT até o 1º dia útil seguinte ao evento, sob pena de multa.",
+        "Uma vez que a desatenção foi de Pedro, não se caracteriza acidente do Trabalho e o empregado deverá arcar com o prejuízo material que causou à empresa.",
+        "Em 24 horas a empresa terá de emitir a CAT e a autoridade policial deverá ser convocada para instaurar inquérito."
+      ], resposta_correta: 2 },
+  { id: "q1444", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+      enunciado: "Insatisfeito com sua remuneração e carga horária de trabalho como empregado da \"empresa X\", Bernardo convence seus colegas de trabalho a iniciarem uma greve regular. Na hipótese, ao ser questionado se é correto afirmar que Bernardo cometeu crime(s) de atentado contra a liberdade de trabalho, previsto(s) no art. 197, do CP, você deve responder, corretamente, que",
+      alternativas: [
+        "não, Bernardo não cometeu crime de atentado contra a liberdade de trabalho, previsto no art. 197, do CP, uma vez que o tipo penal exige, para sua caracterização, o emprego de violência ou grave ameaça para forçar alguém a aderir ao movimento.",
+        "sim, Bernardo cometeu crime de atentado contra a liberdade de trabalho, previsto no art. 197, do CP, visto que, ao convencer seus pares, Bernardo violou a liberdade de trabalho de seus colegas.",
+        "não, Bernardo agiu em estado de necessidade, que é uma excludente da ilicitude, prevista no art. 23, I c/c art. 24, do CP.",
+        "não, Bernardo não cometeu crime de atentado contra a liberdade de trabalho, previsto no art. 197, do CP, uma vez que não logrou êxito em convencer seus pares a aderirem ao movimento de greve.",
+        "sim, Bernardo cometeu crimes de atentado contra a liberdade de trabalho, em concurso formal, nos termos do art. 197, na forma do art. 70, ambos do CP."
+      ], resposta_correta: 0 },
 ];
