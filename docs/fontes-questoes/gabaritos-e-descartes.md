@@ -3462,3 +3462,38 @@ Padrão confirmado: **TRT Regionais (Analista Judiciário Área
 Judiciária Graduação em Direito) são a fonte mais rica para
 Trabalho**, 9-12 questões por prova com gabarito definitivo.
 Próximas regionais TRT a explorar (CSJT 2023 já minerado).
+
+## Leva 78 — TRT-24 MS 2024 Analista Judiciário (Trabalho)
+
+TRT-24 (Mato Grosso do Sul) Analista Judiciário Área Judiciária
+Sem Especialidade 2024, Tipo 1, gabarito DEFINITIVO de 11/05/2025.
+60 questões (Q11 anulada). Bloco Trabalho Q47-Q60 + Q31-36.
+- Trabalho q1457-q1468 (+12): Q31 dispensa coletiva intervenção
+  sindical (CF art.8º VI), Q33 aposentadoria PCD LC (CF art.201 §1º
+  + LC 182/2021), Q35 licença homoafetiva adoção (Lei 8.213 art.
+  71-A), Q47 retratação aviso prévio (CLT art.489), Q50 13º 2
+  parcelas (Lei 4.090/62), Q51 desconsideração personalidade
+  conhecimento (CPC art.50 + CLT art.792-A), Q52 acordo
+  extrajudicial homologação (CLT art.855-B), Q53 força maior chuvas
+  (CLT art.501), Q54 equiparação sem nacionalidade (CLT art.461
+  §1º), Q56 saque FGTS aposentadoria (Lei 8.036 art.20), Q58 bem
+  família 3 imóveis (STJ + Lei 8.009), Q60 reconvenção JT (CPC
+  art.343 + CLT art.11)
+- Descartadas: Q34 (contribuição sindical não-sindicalizados —
+  STF ADI 5794 opt-in conflict), Q36 (servidora pré-CF/88 —
+  ambiguous), Q48 (CIPA employer-indicado nuance), Q49
+  (compensação habitual — Súmula 85 IV conflict), Q55 (EPI
+  insalubridade Súmula 80), Q57 (RPV/precatório Município
+  threshold), Q59 (depósito recursal entidade/doméstico).
+
+### Estado após Leva 78
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **169** |
+| Direitos Humanos | 4 | **54** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1468** |
+
+Trabalho saltou de 133→169 nesta sessão (+36 em 3 provas TRT).
+TRT regionais confirmadas como a fonte mais rica e limpa (gabarito
+definitivo, 9-12 questões CLT cada). Faltam ~31 para 200.
