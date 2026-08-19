@@ -3839,3 +3839,43 @@ DH agora em 72/200. TJ-PR (5) + TJ-GO (3) confirmam TJ Juiz (Bloco
 quando a banca FGV inclui esse bloco. Próximos candidatos TJ Juiz:
 tjpe26, tjms25 (caderno não disponível), tjce25, tjmg21, tjrs25
 (support-staff, descartado).
+
+## Leva 89 — TJ-CE Juiz Substituto 2025 (DH)
+
+**Fonte**: FGV — TJCE Concurso para Juiz Substituto 2025, Tipo 1
+Branca-Tarde (caderno `juiz-substituto-cns001-tipo-1.pdf`), gabarito
+definitivo (prova aplicada em 20/07/2025). Terceiro TJ minerado para DH.
+
+**Questões extraídas (q1463-q1465, +3)**:
+- q1463 = Q97 (answer C): CIDPD — cogente existência de mecanismo
+  independente de monitoramento, sem ingerência unilateral estatal,
+  com participação da sociedade civil. Anchor: CIDPD Art. 33(2) +
+  Decreto 6.949/2009 + STF (Conanda).
+- q1464 = Q98 (answer C, apenas Joana): mecanismos não convencionais
+  DH — Maria errada (soberania não impede mecanismos OIT/UNESCO/Conselho
+  DH), Joana certa (violações massivas → uso força Conselho Segurança
+  ONU, Cap. VII/R2P), Andrea errada (exaustão vias internas aplica-se
+  a mecanismos convencionais como Corte IDH/CEDAW OP, não aos não
+  convencionais como Relatores Especiais ONU).
+- q1465 = Q100 (answer B): denúncia de tratado internacional DH não
+  prescinde de aprovação pelo Congresso Nacional. Anchor: STF ADI
+  1.625 / ADI 4.173 (denúncia de tratado exige anuência congressual).
+
+**Descartes**:
+- Q52 (ANPP em crimes raciais / injúria racial): penal-processual.
+- Q53 (audiência Art. 16 Lei Maria da Penha): processual.
+- Q93 (supervisor comissão / Lei Estadual CE 16.208/2017): lei
+  local/institucional específica.
+- Q94 (Agenda 2030/ODS igualdade gênero): sutil, claim "nortear todos
+  objetivos" cross-cutting contestável.
+- Q95 (impacto desproporcional / discriminação reversa): answer A
+  redação truncada ("grupo aquinhoado com o tratamento diferenciado")
+  + doutrina sutil/contested → descartar.
+- Q99 (Jellinek/brownismo/congregacionalismo/historiografia DH):
+  teórica-historiográfica.
+- Q96 (Comarcas Vinculadas / Lei Estadual CE 16.397/2017): lei local.
+
+DH agora em 75/200. Padrão confirmado: TJ Juiz FGV com bloco
+"Formação Humanística e Direitos Humanos" rende 3-5 limpas/prova
+após descartes teóricos/processuais/lei-local. TJ-PR (+5), TJ-GO
+(+3), TJ-CE (+3) = 11 DH em 3 concursos nesta sessão.
