@@ -712,4 +712,40 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "a ação de ofender, humilhar, espezinhar e agredir funcionário público in officio ou propter officium, assim como a crítica e a censura, com ou sem excessos, estão inseridas no âmbito de proteção da liberdade de expressão, seja pela leitura da Convenção Americana sobre Direitos Humanos, seja pela jurisprudência do Supremo Tribunal Federal.",
         "o exercício abusivo da liberdade de expressão não se coaduna com o Estado democrático, importando o desacato em instrumento de preservação da lisura da função pública e da própria dignidade de quem a exerce, não se podendo despojar o funcionário da dignidade da pessoa humana, em razão do status, porquanto a investidura em cargo ou função pública não constitui renúncia à honra e à dignidade."
       ], resposta_correta: 4 },
+  { id: "q1470", tema: "Direitos Humanos", dificuldade: "media", fonte: "VUNESP — Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), LI Concurso para Ingresso na Magistratura de Carreira, Juiz Substituto — 2026 — Prova Objetiva, Versão 1 (gabarito definitivo de 10/04/2026, prova aplicada em 15/03/2026, Edital 08/2026)",
+      enunciado: "À luz da Lei nº 7.716/1989 (Lei de Preconceito de Raça ou de Cor), bem como da legislação e da jurisprudência constitucional aplicáveis, assinale a alternativa correta.",
+      alternativas: [
+        "A Lei nº 7.716/1989 criminaliza, de forma específica, a divulgação do nazismo, abrangendo a fabricação, comercialização, distribuição ou veiculação de símbolos, emblemas, ornamentos ou propaganda com esse conteúdo ideológico.",
+        "Toda forma de discriminação, inclusive aquelas decorrentes de políticas públicas de ação afirmativa, é vedada pelo ordenamento jurídico e deve ser objeto de repressão penal.",
+        "As condutas tipificadas na Lei nº 7.716/1989 tornam-se penalmente irrelevantes quando praticadas em contexto de humor, recreação ou descontração, desde que ausente animus discriminandi explícito.",
+        "Embora a Lei nº 14.532/2023 tenha inserido a injúria racial no âmbito da Lei nº 7.716/1989, o Supremo Tribunal Federal assentou que essa alteração possui natureza meramente interpretativa, razão pela qual pode retroagir para alcançar fatos anteriores, sem violação ao princípio da irretroatividade penal.",
+        "A configuração dos crimes previstos na Lei nº 7.716/1989 exige a comprovação de que a vítima tenha efetivamente experimentado sentimento subjetivo de humilhação ou ofensa, decorrente da conduta discriminatória."
+      ], resposta_correta: 0 },
+  { id: "q1471", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "VUNESP — Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), LI Concurso para Ingresso na Magistratura de Carreira, Juiz Substituto — 2026 — Prova Objetiva, Versão 1 (gabarito definitivo de 10/04/2026, prova aplicada em 15/03/2026, Edital 08/2026)",
+      enunciado: "Considerando o atual entendimento do Supremo Tribunal Federal acerca dos direitos dos povos indígenas e das comunidades tradicionais, assinale a alternativa correta.",
+      alternativas: [
+        "Descabe indenização em casos já pacificados, decorrentes de terras indígenas já reconhecidas e declaradas em procedimento demarcatório, ressalvados os casos judicializados e em andamento.",
+        "Existindo ocupação tradicional indígena ou renitente esbulho contemporâneo à promulgação da Constituição Federal, aplica-se o regime indenizatório relativo exclusivamente às benfeitorias úteis.",
+        "As terras de ocupação tradicional indígena são de posse permanente da comunidade indígena, cabendo-lhes o usufruto preferencial das riquezas do solo, dos rios e lagos nelas existentes.",
+        "Os povos indígenas possuem capacidade civil e postulatória, sendo partes legítimas nos processos em que discutidos seus interesses, sem prejuízo, nos termos da lei, da legitimidade concorrente da FUNAI e do Ministério Público.",
+        "A ocupação tradicional das terras indígenas é compatível com a tutela constitucional do meio ambiente, sendo assegurado o exercício das atividades tradicionais dos povos indígenas, desde que previamente autorizadas pelo poder público competente."
+      ], resposta_correta: 0 },
+  { id: "q1472", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "VUNESP — Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), LI Concurso para Ingresso na Magistratura de Carreira, Juiz Substituto — 2026 — Prova Objetiva, Versão 1 (gabarito definitivo de 10/04/2026, prova aplicada em 15/03/2026, Edital 08/2026)",
+      enunciado: "A respeito do conteúdo do Parecer Consultivo nº 32/2025 (Emergência Climática e Direitos Humanos) da Corte Interamericana de Direitos Humanos, é correto afirmar:",
+      alternativas: [
+        "em observância à hierarquia das fontes normativas e ao princípio da lex specialis, a Convenção Americana de Direitos Humanos pode ser interpretada para restringir direitos ambientais previstos na Declaração Americana de Direitos Humanos.",
+        "os Estados devem impulsionar mecanismos para que as crianças e os adolescentes tenham acesso a assistência jurídica efetiva e sem custo, independentemente das possibilidades estatais, para iniciar procedimentos destinados a salvaguardar seus direitos humanos frente aos danos ambientais ou climáticos.",
+        "as autoridades judiciais devem aplicar o princípio pro actione quanto à admissibilidade das ações, dos recursos interpostos e aos requisitos de legitimidade ativa em matéria climática.",
+        "o reconhecimento da Natureza como sujeito de direitos, apesar de representar uma manifestação contemporânea do princípio de interdependência entre direitos humanos e meio ambiente, introduz um conteúdo estranho ao corpus iuris interamericano.",
+        "o direito à ciência possui uma dimensão substantiva e também pode ser considerado um direito de procedimento. Porém, o direito à ciência não se confunde e não abrange os benefícios que possam advir dos saberes locais, tradicionais e indígenas, visto que eles se relacionam com os direitos culturais."
+      ], resposta_correta: 2 },
+  { id: "q1473", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "VUNESP — Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), LI Concurso para Ingresso na Magistratura de Carreira, Juiz Substituto — 2026 — Prova Objetiva, Versão 1 (gabarito definitivo de 10/04/2026, prova aplicada em 15/03/2026, Edital 08/2026)",
+      enunciado: "Em relação às normas e aos parâmetros internacionais e interamericanos para a prevenção e para a repressão ao desaparecimento forçado e à tortura, assinale a alternativa correta.",
+      alternativas: [
+        "Em decorrência da gravidade do desaparecimento forçado, a Convenção Internacional proíbe que os Estados definam circunstâncias atenuantes, mas permite que a legislação nacional preveja circunstâncias agravantes para o desaparecimento forçado de gestantes.",
+        "Nos termos da literalidade da Convenção Internacional, a existência de uma norma de caráter fundamental deve sujeitar a ação penal decorrente do desaparecimento forçado às regras internas de prescrição, ainda que se trate de uma prática generalizada ou sistemática que constitua um crime contra a humanidade.",
+        "Salvo para a hipótese de rejeição expressa da extradição, a Convenção Interamericana impõe a obrigação ao Estado de estabelecer sua jurisdição sobre o delito de tortura, quando o suspeito se encontrar sob a sua jurisdição.",
+        "O momento histórico em que se deu a elaboração da Convenção Internacional contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes é o que justifica, além da ausência de consenso entre os Estados, a omissão normativa quanto ao direito à reparação das vítimas.",
+        "A natureza da norma internacional que proíbe a prática da tortura não impediu a existência de dispositivo expresso garantindo que o Estado Parte possa denunciar a Convenção Internacional contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes."
+      ], resposta_correta: 4 },
 ];
