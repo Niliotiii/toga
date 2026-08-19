@@ -3634,3 +3634,44 @@ Previdenciárias limpas. TRF4 não aparece no catálogo FGV (em
 concurso próprio CEBRASPE). Faltam ~13 Trabalho para 200. Próxima
 fronteira: PGE/TCE estaduais Procurador (bloco Previd/Trabalho)
 e TJ Juiz via bloco Constitucional.
+
+## Leva 84 — Varredura fontes Trabalho adicionais (zero extração limpa)
+Após Trabalho atingir 195/200, varredura de fontes adicionais
+confirmou exaustão das fontes limpas para os 5 restantes:
+- **TJMT Juiz 2024** (`tjmtjuiz24`): Q60 BPC/LOAS PCD means-test
+  multi-fator (gabarito E "todos 3 argumentos contornam renda per
+  capita") — intricate Lei 8.742 art.20 §3 (exclusão pensão
+  indenizatória + dedução gastos médicos SUS) não verificável
+  com confiança. Q66 MP trabalhadores = Constitucional (vício MP),
+  não Trabalho. Sem bloco Trabalho dedicado (TJ Juiz = Penal/Civil/Const).
+- **MPU 2025 Analista Direito** (`mpu2025`, a07): support-staff.
+  Q35/Q37 Previd = institucional (plano integridade MPU Portaria
+  PGR/MPU, TCU registro aposentadoria cargo comissão). Não doutrina
+  Trabalho limpa.
+- **PGM-Rio Analista Procuradoria** (`pgmcmrio`, grupo-i):
+  support-staff "Analista de Procuradoria - Direito". Q39 competência
+  JT × Justiça Comum (concurso público fase pré-contratual SEM CLT)
+  — STF Tema 312 vs concurso-público doctrine contested. Q68
+  contagem recíproca = processual (coisa julgada/ação rescisória).
+- **MP-RJ Promotor 2026** (`mprjpromotor2026`): Penal/Civil-heavy,
+  SEM bloco "Direito do Trabalho" ou "Direitos Humanos" dedicado.
+  Q55 TCE-RJ registro aposentadoria = institucional (controle
+  externo). Maria da Penha/ECA incidentais em questões Penais/Civis.
+- **TJ-MS Juiz 2025** (`tjmsjuiz25`): prova publicada em formato
+  DJE (Diário da Justiça Eletrônico), não PDF extraível limpo.
+  Gabarito 13.6MB DJE. Abandonado por formato.
+
+### Estado após Leva 84
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **195** |
+| Direitos Humanos | 4 | **57** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1482** |
+
+Trabalho: +138 desde início sessão global (57→195). 5 restantes
+exigiriam formato DJE não-extraível ou questões processuais/
+contested — forçar = padding inverificável (vedado). 195/200 =
+97,5%, todas com anchor doutrinário limpo (CLT, Lei 8.213/8.212,
+EC 103/2019, Súmulas TST/STF). Pivot para Direitos Humanos
+(maior lacuna: 57/200).
