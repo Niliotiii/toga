@@ -1558,4 +1558,31 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "dotados de natureza salarial, mas somente quanto aos empregados vinculados a regime próprio de previdência social.",
         "desprovidos de natureza salarial, desde que os pagamentos tenham ocorrido em prol da totalidade de segurados empregados e avulsos da indústria."
       ], resposta_correta: 1 },
+  { id: "q1473", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XIX Concurso para Juiz Federal Substituto da 2ª Região (TRF2) — 2026 — Tipo 1 (gabarito definitivo da prova aplicada em 12/04/2026)",
+      enunciado: "Joana, ocupante de cargo público efetivo de determinado ente federativo, com garantia de vitaliciedade, veio a se aposentar voluntariamente sob a égide do respectivo regime próprio de previdência social. Logo após a aposentadoria, Joana foi convidada a ocupar cargo em comissão, de livre nomeação e exoneração, em outro ente federativo. Com base na situação descrita, é correto afirmar que",
+      alternativas: [
+        "Joana somente pode ocupar o cargo em comissão caso isso também tenha sido possível quando estava na ativa.",
+        "Joana terá somados os proventos da aposentadoria e a remuneração do cargo em comissão, para fins de cotejo com o teto remuneratório constitucional, sendo que o cargo em comissão será regido pelo regime geral de previdência social.",
+        "os proventos da aposentadoria e a remuneração do cargo em comissão serão cotejados isoladamente com o teto remuneratório constitucional, sendo que o cargo em comissão será regido pelo regime geral de previdência social.",
+        "Joana terá somado o valor dos proventos da aposentadoria e a remuneração do cargo em comissão, para fins de cotejo com o teto remuneratório constitucional, sendo que o cargo em comissão será regido pelo regime próprio de previdência social, se houver.",
+        "os proventos da aposentadoria e a remuneração do cargo em comissão serão cotejados isoladamente com o teto remuneratório constitucional, sendo que o cargo em comissão será regido pelo regime próprio de previdência social, se houver."
+      ], resposta_correta: 2 },
+  { id: "q1474", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XIX Concurso para Juiz Federal Substituto da 2ª Região (TRF2) — 2026 — Tipo 1 (gabarito definitivo da prova aplicada em 12/04/2026)",
+      enunciado: "De acordo com a norma constitucional, nenhum benefício previdenciário que substitua o salário de contribuição ou o rendimento do trabalho do segurado pode ter valor mensal inferior ao salário mínimo. Considerando os benefícios do Regime Geral de Previdência Social (RGPS), assinale a opção que apresenta aquele que, por não possuir natureza substitutiva da renda do trabalho, pode ser pago em valor inferior ao salário mínimo.",
+      alternativas: [
+        "Auxílio-acidente.",
+        "Auxílio-reclusão.",
+        "Aposentadoria especial.",
+        "Pensão por morte.",
+        "Auxílio por incapacidade temporária."
+      ], resposta_correta: 0 },
+  { id: "q1475", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — XIX Concurso para Juiz Federal Substituto da 2ª Região (TRF2) — 2026 — Tipo 1 (gabarito definitivo da prova aplicada em 12/04/2026)",
+      enunciado: "Dependentes previdenciários são pessoas que vivem sob a dependência econômica do segurado e que, por isso, farão jus a alguns benefícios previdenciários, a exemplo da pensão por morte e do auxílio-reclusão. Nos termos da legislação previdenciária, os dependentes são organizados em classes, sendo que os de uma mesma classe concorrem em igualdade de condições, e a existência daqueles de classe anterior exclui o direito dos das classes subsequentes. Considerando o disposto na Lei nº 8.213/1991, assinale a opção que identifica corretamente a pessoa que pode ser considerada dependente classe III da Previdência Social, desde que comprovada a dependência econômica.",
+      alternativas: [
+        "O companheiro homoafetivo do segurado.",
+        "O primo de 1º grau do segurado.",
+        "A mãe do segurado.",
+        "O irmão de 20 anos do segurado.",
+        "O enteado do segurado."
+      ], resposta_correta: 3 },
 ];
