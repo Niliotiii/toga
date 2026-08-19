@@ -676,4 +676,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Caso a denúncia não acarrete ônus para a República Federativa do Brasil, consubstancia ato de competência privativa do Presidente da República.",
         "Em razão de sua natureza supralegal, a denúncia de convenções internacionais sobre direitos humanos sempre pressupôs a aprovação pelo Congresso Nacional."
       ], resposta_correta: 1 },
+  { id: "q1466", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Concurso para Juiz Substituto — 2023 — Tipo 1 / Branca-Tarde (gabarito preliminar de 03/05/2023)",
+      enunciado: "Quanto à pessoa com deficiência e à Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015), é correto afirmar que:",
+      alternativas: [
+        "pessoa com deficiência é aquela portadora de alguma limitação sensorial, intelectual ou cognitiva, que a coloca em desigualdade de condições com as demais pessoas.",
+        "a deficiência afeta a capacidade civil da pessoa, seja absolutamente, seja relativamente.",
+        "pessoa com deficiência poderá ser submetida à internação forçada, desde que não esteja sob curatela.",
+        "pessoa com deficiência é aquela com impedimento de longo prazo, que, em interação com alguma barreira, obsta a sua participação, em igualdade de condições, com as demais pessoas.",
+        "pessoa com deficiência não pode mais ser submetida à curatela, por ser juridicamente capaz; pode, tão somente, ser colocada sob tomada de decisão apoiada."
+      ], resposta_correta: 3 },
+  { id: "q1467", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso do Sul (TJMS), Concurso para Juiz Substituto — 2023 — Tipo 1 / Branca-Tarde (gabarito preliminar de 03/05/2023)",
+      enunciado: "O incidente de deslocamento de competência foi instituído pela Emenda Constitucional nº 45/2004, que inseriu o §5º no Art. 109 da Constituição da República de 1988. Sobre o instituto, à luz do entendimento do Superior Tribunal de Justiça, é correto afirmar que:",
+      alternativas: [
+        "a constatação de grave violação efetiva e real de direitos humanos e a possibilidade de responsabilização internacional, decorrente do descumprimento de obrigações assumidas em tratados internacionais, são pressupostos suficientes para o acolhimento do incidente de deslocamento de competência.",
+        "possuem legitimidade para suscitar o incidente de deslocamento de competência, perante o Superior Tribunal de Justiça, o procurador-geral da República, o defensor público da União e o advogado-geral da União, não o podendo fazer a vítima ou o grupo vitimado.",
+        "a existência de condenação do Estado brasileiro pela Corte Interamericana de Direitos Humanos, como no caso da Favela Nova Brasília/RJ, é fundamento suficiente para o deslocamento de competência para a Justiça Federal, ante o inegável interesse da União.",
+        "de acordo com o entendimento do Superior Tribunal de Justiça, é sempre necessário, entre outros pressupostos, haver evidência de que os órgãos do sistema estadual não mostram condições de seguir no desempenho da função de apuração, processamento e julgamento do caso com a devida isenção.",
+        "embora largamente verificado na realidade judiciária, o incidente de deslocamento de competência impõe uma exceção à regra geral de competência relativa e somente poderia ser efetuado em situações excepcionalíssimas."
+      ], resposta_correta: 3 },
 ];
