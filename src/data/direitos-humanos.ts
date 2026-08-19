@@ -415,15 +415,6 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "depende de autorização expressa do Diretor-Geral da Polícia Federal, sem prejuízo da prévia comunicação ao juízo competente.",
         "não é admitida por inexistência de previsão legal para sua realização, ainda que visando a investigação de crimes sexuais contra crianças e adolescentes."
       ], resposta_correta: 0 },
-  { id: "q1434", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2025 — PROVA 1 / Tipo Branca-Manhã (gabarito preliminar de 01/02/2026)",
-      enunciado: "Em 2024, uma indústria química situada às margens do Rio Bonito passou a descartar resíduos tóxicos sem o devido tratamento, provocando mortandade de peixes e contaminação da água utilizada por diversos municípios da região. Diante desses fatos, o Ministério Público Estadual instaurou inquérito civil para apurar os fatos e, ante a inércia administrativa, ajuizou ação civil pública requerendo: (i) a imediata cessação das atividades poluidoras, (ii) a recuperação integral da área degradada e (iii) a indenização por danos ambientais e morais coletivos. Diversas pessoas ingressaram como terceiros interessados, alegando prejuízos à saúde e à pesca artesanal. Considerando o microssistema da tutela coletiva e a teoria dos direitos transindividuais, assinale a opção que classifica corretamente o interesse jurídico tutelado no caso e indica sua correspondente fundamentação legal.",
-      alternativas: [
-        "Direito coletivo stricto sensu, pois há um grupo de pescadores identificável com vínculo jurídico.",
-        "Direito individual homogêneo, porque cada morador sofreu prejuízo pessoal decorrente da contaminação.",
-        "Direito difuso, por tratar-se de bem indivisível, pertencente a uma coletividade indeterminada e ligada por circunstâncias de fato.",
-        "Direito individual disponível, já que cada pessoa poderia buscar indenização isoladamente.",
-        "Direito público subjetivo de caráter individual, por envolver interesse do consumidor final da água tratada."
-      ], resposta_correta: 2 },
   { id: "q1435", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Ministério Público do Estado de Goiás (MPGO), Promotor de Justiça Substituto — 2025 — PROVA 1 / Tipo Branca-Manhã (gabarito preliminar de 01/02/2026)",
       enunciado: "A associação civil “Movimento pela Cidadania Urbana”, regularmente constituída há dois anos e com previsão estatutária de defesa do meio ambiente e do patrimônio público, ajuizou ação civil pública contra o Município de Alvorada do Norte, sustentando que a aprovação de loteamento urbano contrariava o Plano Diretor, a Lei de Parcelamento do Solo e as diretrizes ambientais locais. O juízo indeferiu a petição inicial sob o argumento de ausência de ata autorizativa e de representatividade social suficiente. O Tribunal manteve a decisão. À luz da Lei nº 7.347/1985, do art. 82, IV, do Código de Defesa do Consumidor e da jurisprudência do Superior Tribunal de Justiça, assinale a afirmativa correta.",
       alternativas: [
@@ -541,33 +532,6 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "para as ações cíveis fundadas em interesses difusos, coletivos, individuais indisponíveis ou homogêneos relativos a idosos, consideram-se legitimados, concorrentemente, o Ministério Público e a Ordem dos Advogados do Brasil, dentre outros.",
         "na ocorrência de infração por entidade de atendimento que coloque em risco os direitos dos idosos, poderá o Ministério Público promover a suspensão das atividades, não sendo cabível a dissolução da entidade."
       ], resposta_correta: 3 },
-  { id: "q1451", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES), Concurso para Promotor de Justiça Substituto — 2025 — Tipo 1 (gabarito definitivo)",
-      enunciado: "A Convenção Interamericana contra o Racismo, a Discriminação Racial e Formas Correlatas de Intolerância representa importante marco normativo no combate às desigualdades raciais no âmbito interno e internacional. Considerando o conteúdo e os objetivos dessa Convenção, assinale a opção correta.",
-      alternativas: [
-        "Constitui Tratado Internacional sobre direitos humanos que assume, nos termos da jurisprudência do Supremo Tribunal Federal, hierarquia de norma supralegal que condiciona a interpretação da legislação ordinária e de atos normativos secundários, permitindo ainda uma interpretação cosmopolita da Constituição.",
-        "Estabelece que as medidas especiais ou de ação afirmativa não constituem espécie de discriminação racial, desde que não se perpetuem quando alcançados seus objetivos e que não levem à manutenção de direitos separados para grupos diferentes.",
-        "Define a discriminação racial indireta como aquela decorrente de práticas racistas veladas que têm o objetivo ou intenção de estabelecer direitos desiguais para grupos sociais racializados, de modo a instituir um sistema de supremacia racial.",
-        "Define a discriminação múltipla ou agravada como a soma ou o conjunto de discriminações sofridas por pessoas racializadas em razão de seu pertencimento a determinado grupo racial, propondo medidas para o combate a essas diversas esferas de discriminação racial.",
-        "Define o racismo como a conduta criminosa praticada por indivíduos com dolo específico de afetar a honra objetiva e subjetiva de pessoas racializadas, estabelecendo o dever do Estado de combater estas práticas mediante medidas efetivas de criminalização e responsabilização penal."
-      ], resposta_correta: 1 },
-  { id: "q1452", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES), Concurso para Promotor de Justiça Substituto — 2025 — Tipo 1 (gabarito definitivo)",
-      enunciado: "Com base no entendimento firmado pelo Supremo Tribunal Federal (STF) no julgamento da ADI 4275/DF, sobre o direito das pessoas transexuais, transgêneras e travestis à requalificação civil de nome e gênero, assinale a afirmativa correta quanto aos requisitos e ao procedimento para o exercício desse direito.",
-      alternativas: [
-        "A requalificação civil depende da apresentação de laudo médico e psicológico, que ateste a disforia de gênero e comprove a adequação física ou hormonal à identidade autodeclarada, conforme o princípio da veracidade registral.",
-        "O pedido de requalificação civil deve ser submetido ao Poder Judiciário, que verificará a adequação entre o gênero autodeclarado e o sexo biológico constante nos registros oficiais.",
-        "O procedimento de requalificação civil é administrativo e autodeclaratório, podendo ser requerido diretamente em cartório de registro civil, sem necessidade de cirurgia, laudos ou decisão judicial, mediante simples manifestação da vontade da pessoa interessada.",
-        "O STF condicionou a requalificação civil à alteração prévia dos documentos perante os órgãos previdenciários e de identidade profissional, a fim de evitar divergências cadastrais.",
-        "A requalificação civil foi admitida apenas para pessoas maiores de 21 anos, devendo as demais pessoas transexuais, transgêneras e travestis obter prévia autorização judicial, como medida de proteção da personalidade em desenvolvimento."
-      ], resposta_correta: 2 },
-  { id: "q1453", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES), Concurso para Promotor de Justiça Substituto — 2025 — Tipo 1 (gabarito definitivo)",
-      enunciado: "A proteção internacional dos direitos dos povos indígenas abrange tanto instrumentos normativos, como a Convenção nº 169 da Organização Internacional do Trabalho (OIT), quanto decisões da Corte Interamericana de Direitos Humanos (Corte IDH), que consolidam entendimentos sobre o direito à terra, à consulta prévia e à autodeterminação. Considerando essas normas e a jurisprudência interamericana, assinale a opção correta sobre os direitos dos povos indígenas.",
-      alternativas: [
-        "No caso Povo Indígena Xucuru vs. Brasil, a Corte IDH determinou a desintrusão e a garantia do domínio pleno e efetivo do território, fixando o prazo de até 18 meses, a partir da notificação da sentença.",
-        "Nos termos da Convenção OIT nº 169, estabeleceu-se que a consulta aos povos interessados deve ocorrer imediatamente após a adoção da medida estatal.",
-        "No caso Povo Indígena Xucuru vs. Brasil, a Corte IDH admitiu a substituição do território reconhecido por terras não contíguas ao território titulado, diante de dificuldades fundiárias.",
-        "Segundo a Convenção OIT nº 169, dispôs-se que os direitos sobre recursos naturais em terras indígenas limitam-se aos recursos superficiais, sem participação na exploração de riquezas do subsolo.",
-        "Nos termos da Convenção OIT nº 169, previu-se que os deslocamentos por interesse público podem ser decididos unilateralmente, desde que mediante a devida indenização pecuniária e independentemente do consentimento dos povos afetados."
-      ], resposta_correta: 0 },
   { id: "q1454", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Santa Catarina (TJSC), Concurso para Juiz Substituto — 2024 — Tipo 1 (gabarito definitivo v2)",
       enunciado: "Sobre o sistema regional interamericano de proteção dos direitos humanos, é correto afirmar que:",
       alternativas: [
@@ -830,7 +794,7 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Se os pais forem falecidos, tiverem sido destituídos ou suspensos do poder familiar, ou houverem aderido expressamente ao pedido de colocação em família substituta, este poderá ser formulado diretamente em cartório, em petição assinada pelos próprios requerentes. Nessas hipóteses, é dispensada a assistência de advogado."
       ], resposta_correta: 4 },
   { id: "q1483", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
-      enunciado: "Assinale a alternativa incorreta:",
+      enunciado: "Considerando a legislação relativa à educação, à infância e à juventude, assinale a alternativa incorreta:",
       alternativas: [
         "Entre outras condutas previstas em Lei, as pilhérias podem caracterizar intimidação sistemática (bullying).",
         "A defesa da ordem jurídica, do regime democrático, dos interesses sociais e individuais indisponíveis, relacionada ao pleno cumprimento da Lei que regulamenta o Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Lei 14.113/2020), compete ao Ministério Público dos Estados e do Distrito Federal e Territórios e ao Ministério Público Federal, especialmente quanto às transferências de recursos federais.",
@@ -857,7 +821,7 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "A prioridade na tramitação dos processos e procedimentos e na execução dos atos e diligências judiciais em que figure pessoa com idade igual ou superior a 60 (sessenta) anos, em qualquer instância, é garantida exclusivamente quando esta figura como parte."
       ], resposta_correta: 1 },
   { id: "q1486", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
-      enunciado: "Assinale a alternativa incorreta:",
+      enunciado: "No âmbito dos direitos humanos e da legislação correlata, assinale a alternativa incorreta:",
       alternativas: [
         "O direito à consulta prévia, livre, informada e de boa-fé encontra previsão na Convenção 169, da Organização Internacional do Trabalho, bem como na Declaração das Nações Unidas sobre os Direitos dos Povos Indígenas.",
         "A democratização do acesso e fruição dos espaços e serviços públicos é uma das diretrizes da Política Nacional para a População em Situação de Rua (Decreto 7.053/09).",
@@ -866,7 +830,7 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "A Lei da Migração (Lei 13.445/2017) estabelece definições para: imigrante, emigrante, residente fronteiriço, visitante e apátrida."
       ], resposta_correta: 2 },
   { id: "q1487", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
-      enunciado: "Assinale a alternativa correta:",
+      enunciado: "No campo da teoria e da história dos direitos humanos, assinale a alternativa correta:",
       alternativas: [
         "A teoria crítica dos direitos humanos encontra seu fundamento na hegemonia da produção normativa como forma de proteção universal aos direitos elementares da cidadania.",
         "A hermenêutica diatópica está diretamente vinculada à ideia de consagração do relativismo cultural.",
