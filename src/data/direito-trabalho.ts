@@ -1684,4 +1684,58 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "como somente parcela dos empregados está exposta a agentes nocivos, a consequência natural é a inexistência de qualquer encargo previdenciário adicional, dentro de um crivo de razoabilidade.",
         "a elaboração, por parte do empregador, de perfis profissiográficos previdenciários dos empregados é encargo legal que possui presunção absoluta de veracidade quanto à exposição."
       ], resposta_correta: 0 },
+  { id: "q1487", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso para Procurador do Tribunal de Contas — Edital 01/2025 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Joana conseguiu um emprego numa fábrica de laticínios para ganhar salário mensal de R$ 5.000,00. Assim que soube de sua aprovação no processo seletivo, Joana procurou a empresa solicitando que não fizesse o desconto mensal de INSS. Explicou que desaprova a forma pela qual a autarquia é administrada e pretende usar parte do seu salário para investir numa previdência privada e, com isso, ter rentabilidade e condições melhores do que as proporcionadas pelo Regime Geral de Previdência Social. Diante destes fatos, assinale a afirmativa que avalia corretamente a demanda de Joana.",
+      alternativas: [
+        "É possível atendê-la, desde que ela comprove, prévia e documentalmente, a contratação de previdência privada.",
+        "Pode ser parcialmente acolhida, pois Joana deverá, em relação ao seu salário, contribuir para o INSS ao menos sobre 1 salário mínimo.",
+        "É passível de ser acatada, uma vez que atualmente é possível a renúncia formal em relação ao Regime Geral de Previdência Social.",
+        "É impossível de ser satisfeita, uma vez que o regime previdencial é geral e obrigatório.",
+        "Pode ser atendida, desde que haja autorização judicial em ação própria por ela movida para tal fim."
+      ], resposta_correta: 3 },
+  { id: "q1488", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso para Procurador do Tribunal de Contas — Edital 01/2025 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Princípios são proposições diretoras, que orientam e cristalizam valores fundamentais no âmbito jurídico e social. Considerando esse conceito, assinale a opção que corresponde a um dos princípios basilares da Seguridade Social no Brasil.",
+      alternativas: [
+        "Exclusividade da base de financiamento.",
+        "Caráter centralizado da gestão administrativa.",
+        "Equidade na forma de participação no custeio.",
+        "Redutibilidade do valor dos benefícios em casos radicais.",
+        "Disparidade dos benefícios e serviços às populações urbanas e rurais."
+      ], resposta_correta: 2 },
+  { id: "q1489", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso para Procurador do Tribunal de Contas — Edital 01/2025 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "No âmbito federal, a fonte do orçamento da Seguridade Social é composta das receitas da União, receitas das contribuições sociais e receitas de outras fontes. De acordo com a lei de regência, constituem contribuições sociais as:",
+      alternativas: [
+        "das empresas, incidentes sobre 50% da remuneração paga ou creditada aos segurados a seu serviço.",
+        "dos trabalhadores, incidentes sobre 50% do seu salário-de-contribuição.",
+        "das empresas, incidentes sobre transferências bancárias.",
+        "incidentes sobre a receita de concursos públicos, exceto concurso de prognósticos.",
+        "dos empregadores domésticos."
+      ], resposta_correta: 4 },
+  { id: "q1490", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso para Procurador do Tribunal de Contas — Edital 01/2025 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Roberta trabalhava na iniciativa privada há 12 anos, sendo aprovada no concurso para Auditor de Controle Externo do Tribunal de Contas do Estado de Pernambuco, e em breve tomará posse no desejado cargo. Mara, irmã de Roberta, que é Procuradora do Tribunal de Contas de Pernambuco há 6 anos, recebeu uma proposta muito vantajosa de um dos maiores escritórios de advocacia do país, e decidiu pedir exoneração para assumir esse novo desafio profissional. Considerando as situações descritas, a respeito da contagem de tempo de contribuição e compensação financeira, assinale a afirmativa correta.",
+      alternativas: [
+        "Roberta levará consigo o tempo de contribuição do Regime Geral de Previdência Social (RGPS) para o Regime Próprio de Previdência Social (RPPS) e Mara, o tempo de contribuição junto ao RPPS para o RGPS.",
+        "Somente Roberta poderá averbar o tempo de contribuição do RGPS para o RPPS, pois o inverso, que é o caso de Mara, não tem previsão legal.",
+        "Não existe a possibilidade ou previsão legal de contagem recíproca de tempo de contribuição de um regime para outro, pois são independentes e autônomos.",
+        "Somente Mara poderá averbar o tempo de contribuição do RPPS para o RGPS, pois o inverso não tem previsão legal.",
+        "A contagem recíproca de tempo de contribuição somente é possível se houver decisão judicial favorável, e nesse caso não há compensação financeira entre os Regimes."
+      ], resposta_correta: 0 },
+  { id: "q1491", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso para Procurador do Tribunal de Contas — Edital 01/2025 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Conforme o art. 3º da CLT, considera-se empregado toda pessoa física que prestar serviços de natureza não eventual a empregador, sob a dependência desse e mediante salário. Entre os requisitos que caracterizam essa relação está a subordinação que, do ponto de vista jurídico, caracteriza-se como:",
+      alternativas: [
+        "econômica.",
+        "jurídica.",
+        "técnica.",
+        "política.",
+        "social."
+      ], resposta_correta: 1 },
+  { id: "q1492", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso para Procurador do Tribunal de Contas — Edital 01/2025 — Tipo 1 (gabarito definitivo retificado de 17/07/2026)",
+      enunciado: "Após fracasso nas negociações, a categoria dos bancários de determinada localidade instaurou dissídio coletivo e obteve, em 15 de junho de 2025, uma sentença normativa na Justiça do Trabalho. Já o sindicato dos rodoviários da mesma localidade, também em 15 de junho de 2025, negociou e assinou uma convenção coletiva de trabalho com o sindicato representativo da categoria econômica correlata. Considerando que tanto o dissídio coletivo quanto a sentença normativa terão vigência pelo prazo máximo previsto em lei, assinale a opção que indica corretamente qual é esse prazo e até quando eles permanecerão em vigor.",
+      alternativas: [
+        "Tanto a sentença normativa quanto a convenção coletiva vigorarão até 14 de junho de 2029.",
+        "A convenção coletiva de trabalho vigorará até 14 de junho de 2026 e a sentença normativa, até 14 de junho de 2027.",
+        "A sentença normativa vigorará até 14 de junho de 2029 e a convenção coletiva de trabalho, até 14 de junho de 2027.",
+        "A convenção coletiva de trabalho vigorará até 14 de junho de 2027 e a sentença normativa, até 14 de junho de 2026.",
+        "Tanto a sentença normativa quanto a convenção coletiva vigorarão até 14 de junho de 2027."
+      ], resposta_correta: 2 },
 ];
