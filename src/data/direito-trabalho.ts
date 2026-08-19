@@ -1306,4 +1306,112 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "não, Bernardo não cometeu crime de atentado contra a liberdade de trabalho, previsto no art. 197, do CP, uma vez que não logrou êxito em convencer seus pares a aderirem ao movimento de greve.",
         "sim, Bernardo cometeu crimes de atentado contra a liberdade de trabalho, em concurso formal, nos termos do art. 197, na forma do art. 70, ambos do CP."
       ], resposta_correta: 0 },
+  { id: "q1445", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Os primos Ruy e Antenor foram contratados em 5 de setembro de 2022 pela sociedade empresária Riacho Calmo S.A., localizada no Município de Baraúna/PB, e encaminhados ao setor de Recursos Humanos da empresa. Ambos possuem CTPS digital, sendo que a carteira de Ruy foi assinada pelo novo empregador no 5º dia útil após a admissão e a de Antenor, no 7º dia útil após o seu ingresso na empresa. Considerando a situação apresentada e os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "As CTPS's foram assinadas no prazo legal de 10 dias úteis, daí porque não existe qualquer irregularidade administrativa.",
+        "Não existe na Lei prazo específico para a assinatura da CTPS, havendo recomendação para que não ultrapasse os primeiros 30 dias do contrato, sob pena de multa.",
+        "A CTPS de Ruy foi assinada no prazo legal, mas a de Antenor não, gerando multa administrativa para a empresa de R$ 3.000,00 por ser sociedade anônima.",
+        "Com o advento da CTPS digital, o empregador ficou desonerado de prazo para assinatura porque agora isso deve ser feito pelo próprio empregado, com validação posterior da empresa.",
+        "Uma vez que o prazo para assinatura das carteiras é de 48 horas, a empresa descumpriu a norma para ambos os empregados e receberá duas multas de R$ 800,00 cada."
+      ], resposta_correta: 2 },
+  { id: "q1446", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Nelson é empregado numa pousada para turistas no litoral sul da Paraíba, local conhecido por suas belas praias. Nelson sofreu um acidente do trabalho típico em março de 2022, afastou-se do trabalho por 90 dias em benefício previdenciário acidentário, e retornou ao emprego em julho de 2022. Contudo, o empregador de Nelson começou a desconfiar de algumas de suas condutas, ao mesmo tempo em que notou o desaparecimento de vários produtos da pousada. Então, o titular da empresa acessou as câmeras de segurança e, para sua surpresa, viu as gravações de Nelson furtando toalhas, lençóis, pratos e talheres, além de acessar indevidamente a caixa registradora da pousada e retirar R$ 150,00 para si. Indignado, o proprietário decidiu terminar o contrato com Nelson. Diante dos fatos narrados e da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Uma vez que Nelson está em período estabilitário, a dispensa somente poderá ocorrer sem justa causa.",
+        "É possível a dispensa por justa causa, mas a empresa deverá instaurar previamente inquérito judicial para apurar a falta grave.",
+        "Estando o empregado no período de garantia no emprego, a empresa não poderá romper o contrato de Nelson por 12 meses a partir do retorno.",
+        "Apesar da atitude de Nelson ser reprovável, o valor dos produtos furtados não é expressivo, daí não há tipificação para a justa causa.",
+        "A falta grave está caracterizada e Nelson poderá ser dispensado imediatamente por justa causa."
+      ], resposta_correta: 1 },
+  { id: "q1447", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Flávio é um jovem de 17 anos de idade que, como muitos outros brasileiros, estuda e trabalha com sacrifício desde os 16 anos de idade para se manter e ajudar a sua família. Atualmente Flávio procura emprego, e foi selecionado para uma vaga como recepcionista numa casa noturna de shows musicais, na qual trabalhará de 4ª feira a domingo, dias em que o estabelecimento tem maior movimento, das 20:00 às 5:00 horas, com 1 hora de pausa. O futuro empregador assegurou que Flávio terá a CTPS assinada e todos os direitos legais garantidos. A respeito da situação retratada e dos termos da CLT e da Constituição Federal, assinale a afirmativa correta.",
+      alternativas: [
+        "Sendo a recepção em um estabelecimento com uma atividade lícita, não há problema na contratação de Flávio.",
+        "Não será possível a contratação de Flávio porque ele não pode se ativar em horário noturno.",
+        "Impossível a contratação porque Flávio não tem 18 anos e, assim, não pode trabalhar como empregado em nenhum lugar.",
+        "A contratação nos moldes ofertados é possível desde que ao menos um dos responsáveis por Flávio autorize.",
+        "Será necessária autorização judicial para Flávio iniciar o seu trabalho, haja vista tratar-se de um menor."
+      ], resposta_correta: 1 },
+  { id: "q1448", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Cláudio e o seu ex-empregador chegaram a bom termo num acordo extrajudicial para romper o contrato de trabalho de Cláudio e indenizá-lo em R$ 18.000,00 pelos anos de serviços prestados na empresa. Então, com cada parte assistida por seu próprio advogado, elaboraram uma minuta conjunta para homologação do acordo extrajudicial, que foi distribuída para a 10ª Vara do Trabalho, de Sousa/PB. O juiz designou audiência e, após interrogar o trabalhador, indeferiu a homologação desejada pelas partes porque concluiu que Cláudio seria prejudicado com o acordo, pois o valor foi reputado baixo pelo magistrado. Assim, o juiz extinguiu o processo na própria audiência. Diante desta situação, assinale a afirmativa correta.",
+      alternativas: [
+        "Nada pode ser feito porque o juiz não tem obrigação de homologar o acordo pretendido pelas partes.",
+        "As partes, em consenso, podem interpor recurso de agravo de petição para que o acordo seja homologado.",
+        "Desta decisão judicial, que tem a natureza jurídica de sentença, caberá recurso ordinário para o TRT da 13ª Região.",
+        "Qualquer das partes pode impetrar mandado de segurança para assegurar o direito líquido e certo de ter o acordo homologado judicialmente.",
+        "Se as partes apresentam um acordo que não é homologado, a ação será automaticamente convolada em reclamação trabalhista e prosseguir na forma da CLT."
+      ], resposta_correta: 2 },
+  { id: "q1449", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Eduarda ajuizou reclamação trabalhista contra o seu empregador, que foi distribuída para a 5ª Vara do Trabalho de Itaporanga/PB. A juíza titular designou audiência telepresencial. No dia e hora marcados, Eduarda compareceu com seu advogado, a empresa restou ausente, mas o advogado da reclamada estava presente, informando que no dia anterior havia protocolizado pelo Processo Judicial Eletrônico (PJe) sua defesa com documentos. O advogado de Eduarda requereu a aplicação da revelia e confissão, bem como a exclusão imediata da defesa e documentos apresentados. Considerando a situação e os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Deverão ser aceitos a contestação e os documentos apresentados.",
+        "Por se tratar de audiência telepresencial, não poderá haver qualquer punição.",
+        "Defesa e documentos juntados deverão obrigatoriamente ser excluídos.",
+        "O juiz deverá analisar o caso concreto e decidir se a defesa e documentos devem ou não permanecer nos autos.",
+        "Os documentos poderão permanecer nos autos, mas a defesa deve ser excluída."
+      ], resposta_correta: 0 },
+  { id: "q1450", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Das opções a seguir, assinale aquela em que a CLT, expressamente, prevê que o juiz possa conhecer e declarar de ofício de um instituto, ou seja, independentemente de requerimento da parte interessada.",
+      alternativas: [
+        "Prescrição total.",
+        "Prescrição intercorrente.",
+        "Prescrição parcial.",
+        "Prescrição por ato único do empregador.",
+        "Prescrição interruptiva."
+      ], resposta_correta: 1 },
+  { id: "q1451", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Vanessa trabalha como mecânica numa loja localizada em Conde/PB. Em setembro de 2022, Vanessa foi dispensada sem justa causa e não recebeu nenhum de seus direitos. Então, a ex-empregada procurou um advogado para ajuizar reclamação trabalhista cobrando os valores devidos pela saída e horas extras sonegadas ao longo do pacto laboral, que foram quantificados em R$ 36.360,00. Considerando o caso retratado e as normas da CLT, assinale a opção que indica o procedimento que a ação de Vanessa deverá observar e a quantidade de testemunhas que cada parte poderá ouvir em juízo.",
+      alternativas: [
+        "Procedimento comum ordinário, com até três testemunhas para cada parte.",
+        "Procedimento sumaríssimo, com até duas testemunhas para cada parte.",
+        "Procedimento sumário, com até três testemunhas para cada parte.",
+        "Procedimento especial consignatório, com até duas testemunhas para cada parte.",
+        "O procedimento será escolhido livremente por Vanessa, com uma testemunha para cada parte."
+      ], resposta_correta: 1 },
+  { id: "q1452", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Após a decretação da falência da sociedade Parari Oficina de Refrigeração Ltda., o administrador judicial Sr. Joca Claudino tomou conhecimento, por informação do administrador da sociedade falida, da existência de ações trabalhistas já propostas antes da decretação da falência. Considerando-se as normas de fixação de competência dos juízos trabalhista e falimentar quanto ao julgamento de créditos trabalhistas, é correto afirmar que",
+      alternativas: [
+        "é proibido ao credor trabalhista pleitear perante o administrador judicial a modificação de créditos derivados da relação de trabalho, pois se trata de competência exclusiva do juiz da falência.",
+        "as ações de natureza trabalhista serão processadas perante a justiça do trabalho até a apuração do respectivo crédito, que será inscrito no quadro de credores pelo valor determinado em sentença.",
+        "as ações de natureza trabalhista devem ser extintas na justiça do trabalho, com deslocamento da competência para o juízo universal da falência, resguardado ao credor trabalhista o pedido de reserva ao juiz da falência.",
+        "é permitido ao credor trabalhista pleitear perante o administrador judicial a habilitação de seu crédito no processo de falência, sendo contudo da competência do juiz do trabalho deferir ou não sua habilitação.",
+        "as ações de natureza trabalhista e as impugnações à relação de credores elaborada pelo administrador judicial serão processadas e julgadas perante o juízo falimentar sempre que tiverem por objeto créditos trabalhistas."
+      ], resposta_correta: 1 },
+  { id: "q1453", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Jonathan, sujeito violento, proprietário de uma pizzaria de relativo sucesso na rua de maior sucesso em João Pessoa, fica revoltado com a inauguração de outra pizzaria na mesma rua. Sua revolta aumenta quando diversos artistas começam a frequentar o estabelecimento concorrente. Não se contendo, atravessa a rua, procura o proprietário do estabelecimento, Matheus, e o constrange determinando que feche seu estabelecimento em alguns dias sob a ameaça de quebrar o imóvel e machucar os clientes que estiverem ali presentes, o que deixa Matheus muito preocupado e amedrontado. Em relação à conduta de Jonathan, é correto afirmar que",
+      alternativas: [
+        "é atípica, porque apenas proferiu palavras.",
+        "configura crime de frustração de direito assegurado por lei trabalhista.",
+        "configura crime de atentado contra a liberdade de contrato de trabalho e boicotagem violenta.",
+        "configura crime de atentado contra a liberdade de trabalho.",
+        "é atípica, porque só configuraria crime se o estabelecimento fosse efetivamente fechado."
+      ], resposta_correta: 3 },
+  { id: "q1454", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Antônio é funcionário de uma empresa de calçados. A empresa desconta de seu salário o valor correspondente à contribuição previdenciária do empregado, mas não realiza o referido recolhimento. Antônio indaga Paulo, sócio da empresa, sobre a conduta, e Paulo responde que tal conduta era para melhorar o fluxo de caixa da empresa e apresentar ao banco um saldo melhor para obter financiamento e renovar o parque industrial da referida empresa. O sócio da empresa aduziu que os recolhimentos estavam apenas sendo recolhidos com atraso de seis meses. Antônio diligencia junto ao INSS e descobre que a parcela relativa à sua contribuição, deduzida de seu salário, não é recolhida há dois anos. A situação caracteriza",
+      alternativas: [
+        "crime de apropriação indébita, artigo 168 do Código Penal.",
+        "crime de apropriação indébita previdenciária.",
+        "conduta atípica.",
+        "crime de falsidade ideológica, prevista no artigo 299 do Código Penal.",
+        "crime de uso de documento falso."
+      ], resposta_correta: 1 },
+  { id: "q1455", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "Paulo, empregado da empresa XYZ Mineradora Ltda., recebeu no mês de junho de 2022, além de seu salário-base (importância fixa), as seguintes verbas em seu contracheque: 1) adicional de 1/3 de férias gozadas; 2) gratificação de produtividade; 3) diárias destinadas exclusivamente ao pagamento de despesas de alimentação e pousada, por serviço eventual realizado em Município diferente ao da sede de trabalho; 4) salário-família. Diante desse cenário, o Imposto sobre a Renda de Pessoa Física incidirá",
+      alternativas: [
+        "sobre o adicional de 1/3 de férias gozadas e sobre a gratificação de produtividade.",
+        "sobre o adicional de 1/3 de férias gozadas e sobre as diárias destinadas exclusivamente ao pagamento de despesas de alimentação e pousada, por serviço eventual realizado em Município diferente ao da sede de trabalho.",
+        "sobre as diárias destinadas exclusivamente ao pagamento de despesas de alimentação e pousada, por serviço eventual realizado em Município diferente ao da sede de trabalho e sobre a gratificação de produtividade.",
+        "sobre o adicional de 1/3 de férias gozadas e sobre o salário-família.",
+        "sobre as diárias destinadas exclusivamente ao pagamento de despesas de alimentação e pousada, por serviço eventual realizado em Município diferente ao da sede de trabalho e sobre o salário-família."
+      ], resposta_correta: 0 },
+  { id: "q1456", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 13ª Região (PB) (TRT-13), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 27/11/2022)",
+      enunciado: "O chamado salário-de-contribuição constitui a base de cálculo tributária para a contribuição previdenciária devida pelo trabalhador. Diante disso, à luz do Art. 28 da Lei 8.212/1991, assinale a opção que apresenta valores que integram o salário-de-contribuição para fins de incidência desta contribuição de seguridade social.",
+      alternativas: [
+        "Diárias para viagens.",
+        "Gratificação natalina.",
+        "Parcela recebida a título de vale-transporte.",
+        "Ajuda de custo, em parcela única, recebida exclusivamente em decorrência de mudança de local de trabalho do empregado.",
+        "Abono do PIS/PASEP."
+      ], resposta_correta: 1 },
 ];
