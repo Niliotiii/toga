@@ -3497,3 +3497,44 @@ Sem Especialidade 2024, Tipo 1, gabarito DEFINITIVO de 11/05/2025.
 Trabalho saltou de 133→169 nesta sessão (+36 em 3 provas TRT).
 TRT regionais confirmadas como a fonte mais rica e limpa (gabarito
 definitivo, 9-12 questões CLT cada). Faltam ~31 para 200.
+
+## Leva 79 — TRF1 Juiz Federal Substituto 2025 (Trabalho/Previdenciário)
+Concurso: XVIII Concurso Juiz Federal Substituto TRF1, Tipo 1 (gabarito
+definitivo prova 15/06/2025). Prova `trf1-t1.pdf` + `trf1_gabarito_definitivo.pdf`.
+- Extraídas q1469-q1472 (4): Q12 aposentadoria voluntária RPPS idade
+65 (EC 103/2019 art.40§1ºIII), Q13 pensão por morte RGPS sem carência
+acidente trabalho (Lei 8.213/91 art.74), Q14 aposentadoria PCD RPPS
+independe idade mínima LC (EC 103/2019 art.40§21), Q17 PLR desprovida
+natureza salarial (Lei 10.101/2000 art.3§1º).
+- Descartadas: Q15 (prova vida em comum união estável — IN procedural
+detail), Q16 (SAT/RAT incidência massa salarial — STF ADI 5535
+contested mass-salarial vs individual exposure), Q18 (EC 103 regimes
+próprios municípios — alternativas B e E ambas plausíveis).
+
+## Leva 80 — TRF2 Juiz Federal Substituto 2026 (Previdenciário)
+Concurso: XIX Concurso Juiz Federal Substituto TRF2, Tipo 1 "BRANCA"
+(gabarito definitivo prova 12/04/2026). Prova `juiz-federal-substituto-da-2a-regiao-cns100-tipo-1.pdf`
++ `gabarito-definitivo-trf2-juiz-substituto-v2.pdf`.
+- Extraídas q1473-q1475 (3): Q8 aposentado RPPS em cargo comissão
+outro ente — cotejo isolado teto + RGPS (CF art.40§13 + STF ADI 4105),
+Q11 auxílio-acidente não substitui renda, pode ser < salário mínimo
+(STF RE 414622 / STJ), Q13 dependente classe III Lei 8.213 art.16 —
+irmão <21 anos.
+- Descartadas: Q9 (salário-maternidade — gabarito E "todas as irmãs"
+contradiz carência 10 contrib. art.71§3 para contribuinte
+individual/facultativa), Q10 (revisão benefício urbano/rural prazo
+30/60 dias — IN procedural), Q12 (prazo prescrição anulação INSS 10a
+— STJ Súmula/Tema contested).
+
+### Estado após Leva 80
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **176** |
+| Direitos Humanos | 4 | **54** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1475** |
+
+TRF1+TRF2 Juiz Federal renderam 7 questões Previdenciárias limpas
+(RPPS, RGPS, Lei 8.213). TRT regionais no catálogo FGV esgotadas
+(apenas trt13/16/24 existem). Juiz Federal TRF = nova fonte produtiva
+para bloco previdenciário. Faltam ~24 Trabalho para 200.
