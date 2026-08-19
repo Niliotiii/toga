@@ -3374,3 +3374,56 @@ Trabalho e DH seguem prioritários. Re-despachados agentes em
 paralelo (DH em MP/Defensor, Trabalho em Procurador/TRT/TCE)
 após janela de rate-limit 429 decorrida. Instruções reforçam
 pacing de requisições HTTP para evitar novo 429.
+
+## Leva 75 — TCE-SC 2026 Auditor Direito (Previdenciário)
+
+TCE-SC Auditor Fiscal de Controle Externo — Direito, Edital 1/2026,
+Tipo 1, gabarito DEFINITIVO de 24/05/2026. 80 questões. Bloco
+Previdenciário no fim (Q94, Q97-Q100), resto é Penal/Civil/
+Admin/Trib/Const sem DH.
+- Trabalho q1433-q1435 (+3): Q94 remessa necessária INSS (CPC
+  art. 496 §3º I — limite 1.000 salários-mínimos, líquida por
+  cálculo aritmético), Q99 advogada autônoma RGPS segurada
+  obrigatória (Lei 8.213 art. 11 V — contribuinte individual),
+  Q100 servidor RPPS acumular com RGPS exige outra atividade
+  remunerada lícita (CF art. 201 §2º + Lei 8.213 art. 11)
+- Descartadas: Q93 (bens públicos — Admin/Civil), Q97/Q98
+  (servidor RPPS/EC 103/19 — excluído por validação servidor
+  estatutário). Cargo Administração (cns201) escaneado: bloco
+  Trabalho fino (só "contratação" em sentido licitatório).
+
+## Leva 76 — TRT-16 2022 Analista Judiciário Direito (Trabalho)
+
+TRT-16 (Maranhão) Analista Judiciário — Área Judiciária — Graduação
+em Direito, 2022, Tipo 1, gabarito DEFINITIVO de 06/11/2022. 80
+questões. **Bloco Trabalho mais rico da sessão** (Q65-Q77):
+empregador(10), segurado(9), acidente(8), greve(6), CLT, CNPS.
+- Trabalho q1436-q1444 (+9): Q38 execução contribuições
+  previdenciárias na JT (CLT art. 879-A — post-Reforma, por
+  iniciativa do reclamante ou INSS, NÃO de ofício), Q66 intervalo
+  amamentação (CLT art. 396 — dois intervalos de meia hora até 6
+  meses), Q67 teletrabalho acidente + CAT (Lei 8.213 arts.19-22),
+  Q69 custas teto (CLT art. 789 caput — 4× limite RGPS), Q68
+  precatório vs RPV (CF art. 100 — RPV se ≤60 salários-mínimos),
+  Q70 seguro-garantia judicial execução (CLT art. 889-A — dívida
+  +30%), Q75 CNPS quadripartite (Lei 8.212 art. 6º), Q76 acidente
+  refeitório + CAT 1º dia útil (Lei 8.213 arts.21-22), Q77 greve
+  crime art. 197 CP (exige violência/grave ameaça)
+- Descartadas: Q65 (convenção coletiva redução jornada+salário —
+  ambíguo re CLT art. 611-A VI contrapartida), Q79 (paralização
+  trabalho CP art.200 — Penal, não Trabalho núcleo), Q72 (sociedade
+  conta participação — Civil), Q73 (falência competência —
+  Processual). Q58 anulada (gabarito *).
+
+### Estado após Leva 76
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **145** |
+| Direitos Humanos | 4 | **54** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1432** |
+
+TRT/Juiz do Trabalho FGV confirmado como fonte RICÍSSIMA para
+Trabalho (9 questões de 1 prova). Outras regionais TRT (trt13,
+etc.) e CSJT 2023 já minerado — próxima alvo: outras regionais
+TRT com cargo Analista Judiciário (Graduação em Direito).
