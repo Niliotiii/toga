@@ -1414,4 +1414,112 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Ajuda de custo, em parcela única, recebida exclusivamente em decorrência de mudança de local de trabalho do empregado.",
         "Abono do PIS/PASEP."
       ], resposta_correta: 1 },
+  { id: "q1457", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Determinada empresa pública integrante da administração pública indireta federal, que explora atividade econômica em sentido estrito, promoveu a dispensa coletiva de cerca de três mil empregados sem prévia intervenção sindical, isto sob o argumento de que as demissões decorriam de dificuldades financeiras associadas à crise econômica global. A partir de provocação de um legitimado, o Tribunal Regional do Trabalho competente observou corretamente que, na perspectiva constitucional,",
+      alternativas: [
+        "a intervenção sindical era imprescindível à demissão em massa dos trabalhadores.",
+        "a demissão foi lícita, salvo se algum trabalhador era alcançado por cláusula constitucional de estabilidade.",
+        "as garantias constitucionais de proteção ao emprego não apresentam impeditivo à demissão coletiva.",
+        "os atos oriundos dos entes da administração pública não estão sujeitos à competência dos órgãos da Justiça do Trabalho.",
+        "a ausência de negociação coletiva somente não seria impeditivo à demissão coletiva caso negociação anterior a tivesse dispensado."
+      ], resposta_correta: 0 },
+  { id: "q1458", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "João, pessoa portadora de deficiência física, filiada ao Regime Geral de Previdência Social, buscou se informar sobre a possibilidade de obter a aposentadoria voluntária com a observância de requisitos diferenciados de idade e tempo de contribuição. Após analisar a sistemática constitucional aplicável às pessoas que se encontram na sua situação, João concluiu corretamente que",
+      alternativas: [
+        "a lei complementar pode prever critérios diferenciados para ambos os requisitos mencionados por ele.",
+        "a aplicação de critérios diferenciados é admitida, caso a deficiência seja atestada em avaliação de caráter exclusivamente físico.",
+        "os critérios diferenciados são apenas os previstos na ordem constitucional, não podendo ser ampliados pela legislação infraconstitucional.",
+        "a regra geral afeta aos trabalhadores deve ser observada, considerando as ações afirmativas de inserção das pessoas com deficiência no ambiente sociopolítico.",
+        "a lei ordinária, que veicula o plano geral de benefícios do regime geral de Previdência Social, pode estabelecer requisitos diferenciados de tempo de contribuição."
+      ], resposta_correta: 0 },
+  { id: "q1459", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Maria e Joana, ambas trabalhadoras formais, vinculadas ao Regime Geral de Previdência Social, após um longo período de união homoafetiva, decidiram adotar a criança X. À luz desse quadro, procuraram os departamentos de pessoal dos respectivos empregadores e informaram que almejavam fazer jus à licença prevista em lei. Sobre a hipótese, considerando os balizamentos estabelecidos pela sistemática vigente, assinale a afirmativa correta.",
+      alternativas: [
+        "Ambas fazem jus à licença-maternidade.",
+        "Não fazem jus a nenhuma licença, pois figuram apenas como adotantes.",
+        "Caso uma delas tenha usufruído a licença-maternidade, a outra fará jus à licença-paternidade.",
+        "Podem fazer jus à licença, maternidade ou paternidade, conforme o disposto em convenção coletiva.",
+        "A fruição da licença, apesar de compatível com a ordem constitucional, carece de integração pela lei."
+      ], resposta_correta: 2 },
+  { id: "q1460", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Selma trabalhava há 7 meses como costureira numa sociedade empresária que fabricava uniformes, localizada em Taquarussu/MS. Com o fraco movimento, o empregador dispensou Selma sem justa causa, com aviso prévio indenizado. Ocorre que 20 dias após a dispensa, a empresa verificou que venceu a licitação de uma escola estadual para o fornecimento de uniformes, pelo que agora o trabalho de Selma seria necessário. Considerando os fatos narrados e o que dispõe a CLT, assinale a opção que descreve corretamente a conduta da empresa.",
+      alternativas: [
+        "A empresa deverá recontratar Selma, porque seu contrato anterior findou.",
+        "O empregador deve retratar-se do aviso prévio concedido, não podendo Selma recusar.",
+        "O empregador deverá deixar finalizar o período do aviso prévio para, depois, propor a Selma a unicidade contratual.",
+        "A empresa deverá reconsiderar o aviso prévio, sendo facultado à empregada aceitar ou não a reconsideração.",
+        "O empregador não poderá fazer nada porque, concedido o aviso prévio, o empregado não pode retornar para a mesma empresa, sob pena de caracterizar fraude."
+      ], resposta_correta: 1 },
+  { id: "q1461", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Lena trabalha numa sociedade empresária localizada em Corguinho/MS e completará 1 ano no emprego. Lena está ansiosa pelo pagamento do 13º salário, que será importante para quitar algumas dívidas pessoais. Lena tem dúvida sobre quando receberá a gratificação natalina. Sobre o 13º salário, de acordo com a lei de regência, assinale a afirmativa correta.",
+      alternativas: [
+        "Deverá ser pago em duas parcelas, sendo a 1ª entre fevereiro e 30/11 e a 2ª até 20/12.",
+        "Deverá ser pago em parcela única até o dia 20 de dezembro.",
+        "Deverá ser pago em duas parcelas, sendo a 1ª até 30/6 e a 2ª até 31/12.",
+        "A 1ª parcela deverá ser paga no mês escolhido pelo empregado e a 2ª até 30/11.",
+        "Todos os empregados devem receber a 1ª parcela no mesmo mês em razão do princípio constitucional de isonomia."
+      ], resposta_correta: 0 },
+  { id: "q1462", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Luana trabalhou por 3 anos numa sociedade empresária localizada em Novo Horizonte do Sul/MS, quando injustamente foi dispensada por justa causa. Então, Luana ajuizou reclamação trabalhista contra a empresa e já inseriu os sócios dela no polo passivo. Sobre a conduta processual de Luana, e considerando o que dispõe a CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "Luana se equivocou, porque o incidente de desconsideração da personalidade jurídica é cabível apenas na fase de execução.",
+        "É possível que a parte se valha da desconsideração da personalidade jurídica na fase de conhecimento.",
+        "Admite-se desconsideração da personalidade jurídica na fase de conhecimento se os sócios concordarem.",
+        "A desconsideração da personalidade jurídica é cabível na fase de conhecimento, recursal ou de execução, a critério do trabalhador.",
+        "É possível a parte valer-se da desconsideração da personalidade jurídica na fase de conhecimento, mas os sócios poderão interpor recurso imediato contra essa pretensão."
+      ], resposta_correta: 1 },
+  { id: "q1463", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Perante a 10ª Vara do Trabalho de Rio Brilhante/MS foi apresentada uma demanda visando à homologação de acordo extrajudicial. Todos os requisitos legais estavam presentes. Considerando esses fatos e de acordo com os termos da CLT, assinale a afirmativa correta.",
+      alternativas: [
+        "O magistrado obrigatoriamente deverá designar audiência para ouvir as partes.",
+        "O juiz é obrigado a homologar o acordo pretendido porque as partes estão em consenso.",
+        "O juiz analisará o acordo e proferirá sentença, no prazo de 15 dias a contar da distribuição da petição.",
+        "Caso o juiz se negue a homologar o acordo, não caberá recurso desta decisão.",
+        "A petição de homologação de acordo extrajudicial não suspende o prazo prescricional da ação quanto aos direitos nela especificados."
+      ], resposta_correta: 2 },
+  { id: "q1464", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "O Município de Caracol/MS foi vítima de chuvas torrenciais que abalaram as estruturas municipais. No âmbito privado, imperou o caos. A água invadiu diversos estabelecimentos, como foi o caso da Drogaria Caracol Ltda., que ficou completamente inundada, sendo perdidos todos os medicamentos e produtos de higiene e beleza. O titular da drogaria constatou que não havia mais condições de prosseguir com o negócio, então encerrou as atividades e extinguiu todos os contratos de trabalho. De acordo com a CLT, assinale a opção que indica corretamente a natureza da extinção desses contratos.",
+      alternativas: [
+        "Distrato.",
+        "Força maior.",
+        "Fato do príncipe.",
+        "Resilição contratual.",
+        "Resolução contratual."
+      ], resposta_correta: 1 },
+  { id: "q1465", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Dos requisitos indicados a seguir, assinale aquele que, de acordo com a atual CLT, não é necessário para que seja deferida a equiparação salarial entre dois empregados.",
+      alternativas: [
+        "Mesma nacionalidade.",
+        "Mesmo estabelecimento.",
+        "Diferença de tempo na função inferior a dois anos.",
+        "Existência de pessoal organizado em quadro de carreira.",
+        "Tempo de serviço para o mesmo empregador inferior a quatro anos."
+      ], resposta_correta: 0 },
+  { id: "q1466", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Das situações listadas a seguir, assinale a que, de acordo com a norma de regência, autoriza o saque total do FGTS depositado em conta vinculada.",
+      alternativas: [
+        "Aposentadoria concedida pela Previdência Social.",
+        "Idade igual ou superior a sessenta e cinco anos alcançada pelo trabalhador.",
+        "Realização de distrato do contrato de trabalho por vontade de ambas as partes.",
+        "Pedido de demissão quando o empregado tiver mais de 12 meses no serviço.",
+        "Permanência do trabalhador, por dois anos ininterruptos, fora do regime do FGTS, com consequente inativação da conta."
+      ], resposta_correta: 0 },
+  { id: "q1467", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Em execução trabalhista que tramita na 7ª Vara do Trabalho de Jardim/MS, o juiz verificou pelas ferramentas disponíveis que o executado possuía três imóveis. Logo após o executado peticionou informando e comprovando documentalmente que reside sucessivamente nos três imóveis ao longo do ano, daí porque seriam impenhoráveis. Não há qualquer registro ou averbação no Registro de Imóveis a respeito. Considerando esses fatos e a norma de regência, assinale a afirmativa correta.",
+      alternativas: [
+        "A impenhorabilidade recairá sobre o imóvel de maior valor.",
+        "Nenhum dos imóveis será passível de penhora porque cada um deles é considerado bem de família.",
+        "A Lei determina que o executado escolha e indique um dos imóveis, para que ele seja penhorado.",
+        "A impenhorabilidade recairá sobre o imóvel de menor valor.",
+        "Havendo mais de um bem de família, qualquer deles poderá ser penhorado, pois o executado continuará tendo um imóvel."
+      ], resposta_correta: 4 },
+  { id: "q1468", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 24ª Região (MS) (TRT-24), Analista Judiciário — Área Judiciária — Sem Especialidade — 2024 — Tipo 1 (gabarito definitivo de 11/05/2025)",
+      enunciado: "Genilson trabalhou numa sociedade empresária localizada em Corumbá/MS de janeiro de 2019 a julho de 2022, quando foi dispensado sem justa causa. Em maio de 2024, Genilson ajuizou reclamação trabalhista, tendo sido designada audiência para o dia 14 de setembro de 2024. Nessa audiência a empresa apresentou defesa sob a forma de contestação e reconvenção. Considerando esses fatos e analisando a norma jurídica em tese, assinale a afirmativa correta.",
+      alternativas: [
+        "O pedido da reconvenção está prescrito.",
+        "Não cabe reconvenção na Justiça do Trabalho por falta de previsão legal.",
+        "A reconvenção pode ser admitida e o juiz deve apreciar o seu mérito.",
+        "É possível admitir-se a reconvenção desde que a empresa faça o recolhimento prévio das custas relativas a ela.",
+        "Em tese, será possível o manejo da reconvenção desde que o reclamante concorde com o seu ajuizamento."
+      ], resposta_correta: 2 },
 ];
