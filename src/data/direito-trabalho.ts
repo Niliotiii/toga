@@ -1630,4 +1630,22 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Havendo mais de um pensionista, será rateada entre todos em partes proporcionais.",
         "Será devida a partir do requerimento, quando requerida 60 (sessenta) dias após o óbito."
       ], resposta_correta: 0 },
+  { id: "q1481", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Concurso Público 2025 para Juiz Federal Substituto da 6ª Região (TRF6) — 2025 — Tipo 1 (gabarito definitivo da prova aplicada em 23/11/2025)",
+      enunciado: "Caio é gerente setorial de forma ininterrupta há 12 anos em uma sociedade empresária que se dedica à exportação de produtos. Fabiano, seu subordinado, ingressou na sociedade há 3 anos. Em razão da crise no setor, ambos os empregados foram dispensados sem justa causa. Acerca do período de graça, considerando os fatos e a Lei de Regência, assinale a afirmativa correta.",
+      alternativas: [
+        "Ambos os ex-empregados terão 12 meses de período de graça.",
+        "Fabiano terá 24 meses de período de graça e Caio, 36 meses.",
+        "Fabiano terá 6 meses de período de graça e Caio, 24 meses.",
+        "Caio terá 12 meses de período de graça e Fabiano, 6 meses.",
+        "Caio terá 24 meses de período de graça e Fabiano, 12 meses."
+      ], resposta_correta: 4 },
+  { id: "q1482", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Concurso Público 2025 para Juiz Federal Substituto da 6ª Região (TRF6) — 2025 — Tipo 1 (gabarito definitivo da prova aplicada em 23/11/2025)",
+      enunciado: "Em 2025, Pedro e Alex foram envolvidos em um grave acidente de trabalho em uma sociedade empresária do setor automobilístico. Ambos se encontram incapacitados, mesmo após 15 dias de afastamento, e por isso serão encaminhados ao INSS. Pedro tem cinco meses no emprego e recebe um salário-mínimo por mês; Alex tem 4 anos no emprego e ganha dois salários-mínimos mensais. Acerca do valor do benefício que ambos receberão, considerando os fatos e a Lei de regência, assinale a afirmativa correta.",
+      alternativas: [
+        "Pedro e Alex receberão 91% do salário de contribuição.",
+        "Pedro receberá um salário-mínimo e Alex, 91% de dois salários-mínimos.",
+        "Ambos os empregados receberão 50% do salário que recebiam na ativa.",
+        "Ambos os empregados receberão um salário-mínimo da Previdência Social.",
+        "Pedro não receberá benefício porque não tem a carência exigida, e Alex receberá do INSS dois salários-mínimos, valor do seu salário."
+      ], resposta_correta: 1 },
 ];
