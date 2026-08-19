@@ -1648,4 +1648,40 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Ambos os empregados receberão um salário-mínimo da Previdência Social.",
         "Pedro não receberá benefício porque não tem a carência exigida, e Alex receberá do INSS dois salários-mínimos, valor do seu salário."
       ], resposta_correta: 1 },
+  { id: "q1483", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XV Concurso para Juiz Federal Substituto da 5ª Região (TRF5) — Edital 01/2025 — Tipo 1 (gabarito definitivo da prova aplicada em 2025)",
+      enunciado: "Mário, juiz federal lotado na 5ª Região, sofre acidente automobilístico que o deixa temporariamente afastado de suas funções, haja vista a comprovada incapacidade temporária, mediante perícia médica. Nesse contexto, é correto afirmar que:",
+      alternativas: [
+        "caso a incapacidade laboral de Mário ultrapasse 12 meses, ele será compulsoriamente aposentado por incapacidade permanente.",
+        "na hipótese de agravamento do quadro clínico de Mário, eventual aposentadoria por incapacidade permanente será concedida pelo regime previdenciário próprio federal.",
+        "caso Mário tenha plena recuperação para suas atividades profissionais, ele poderá requerer o benefício de auxílio-acidente, junto ao INSS, na hipótese de sequelas definitivas.",
+        "caso Mário fique incapacitado definitivamente após 24 meses de afastamento, ele terá de se submeter a processo de readaptação profissional, podendo ser realocado em qualquer atividade do tribunal.",
+        "na eventualidade de óbito de Mário durante seu afastamento, o benefício previdenciário de pensão por morte será encargo do Tesouro Nacional e não do Regime Próprio de Previdência Federal."
+      ], resposta_correta: 1 },
+  { id: "q1484", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XV Concurso para Juiz Federal Substituto da 5ª Região (TRF5) — Edital 01/2025 — Tipo 1 (gabarito definitivo da prova aplicada em 2025)",
+      enunciado: "Maria, moradora de cidade do interior do Estado da Paraíba, em região de atividade econômica eminentemente rural, busca aposentadoria por idade, haja vista ter provas documentais de atividade profissional em pequena propriedade rural, em conjunto com sua família. Na referida situação hipotética, é correto afirmar que:",
+      alternativas: [
+        "segundo a descrição de sua atividade profissional, Maria está qualificada como segurada obrigatória empresária do Regime Geral de Previdência Social (RGPS).",
+        "na situação descrita, a única possibilidade de aposentadoria para Maria seria por idade, ao completar 62 anos, e desde que comprovado o recolhimento de 15 anos de contribuição.",
+        "em qualquer situação, o INSS poderá exigir de Maria a prova de todos os recolhimentos previdenciários derivados da comercialização de sua produção rural, haja vista ela ser a responsável tributária.",
+        "caso Maria obtenha aposentadoria por idade na condição de pequena produtora rural, ela impedirá que os demais membros da família recebam prestação semelhante, por conta do necessário custeio do sistema previdenciário.",
+        "caso Maria desempenhe suas atividades em estrito regime de economia familiar, em área não superior a quatro módulos fiscais, poderá enquadrar-se como segurada especial do RGPS e aposentar-se nessa condição."
+      ], resposta_correta: 4 },
+  { id: "q1485", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XV Concurso para Juiz Federal Substituto da 5ª Região (TRF5) — Edital 01/2025 — Tipo 1 (gabarito definitivo da prova aplicada em 2025)",
+      enunciado: "Pedro, juiz federal lotado em cidade do interior de Pernambuco, recebe demanda na qual o autor requer aposentadoria por idade, na condição de segurado especial, alegando ter desempenhado, ao longo de toda a sua vida, atividade rural em sua pequena propriedade. Diante do cenário hipotético narrado, uma decisão acertada seria não admitir a condição de segurado especial do autor:",
+      alternativas: [
+        "uma vez demonstrado que ele, de forma limitada e por qualquer período, tenha usado sua propriedade para fins turísticos.",
+        "uma vez comprovado que ele, de forma concomitante e continuada, tenha exercido diversos mandatos de vereador na referida cidade.",
+        "na hipótese de ele ter, por meio de contrato, realizado parceria rural de qualquer parcela de seu terreno.",
+        "na hipótese de ele ter sido beneficiário de benefício de prestação continuada no passado.",
+        "na hipótese de comprovada utilização de mão de obra remunerada de forma continuada e sem interrupção."
+      ], resposta_correta: 4 },
+  { id: "q1486", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — XV Concurso para Juiz Federal Substituto da 5ª Região (TRF5) — Edital 01/2025 — Tipo 1 (gabarito definitivo da prova aplicada em 2025)",
+      enunciado: "A sociedade Brasiliana Ltda., especializada em confecção de bolsas de couro, possui 55 empregados em atividade, sendo 15 deles em atividade insalubre, por exposição ao ruído de forma permanente, acima dos limites de tolerância da legislação vigente. Nesse contexto, é correto afirmar que:",
+      alternativas: [
+        "a exposição a agente nocivo, caso seja capaz de viabilizar a contagem de tempo especial para fins de aposentadoria, trará, como consequência tributária, a majoração da contribuição para financiamento das prestações oriundas de riscos ambientais do trabalho.",
+        "a referida sociedade deve ser imediatamente fechada, com o encerramento de suas atividades, por exposição de trabalhadores a agentes nocivos, o que é peremptoriamente vedado pela legislação previdenciária, independentemente de eventual ação regressiva por parte do INSS.",
+        "a situação descrita poderá acarretar, como consequência, incremento de contribuição previdenciária por parte do empregador, na forma de incidência adicional de contribuição sobre a totalidade da folha de empregados da sociedade.",
+        "como somente parcela dos empregados está exposta a agentes nocivos, a consequência natural é a inexistência de qualquer encargo previdenciário adicional, dentro de um crivo de razoabilidade.",
+        "a elaboração, por parte do empregador, de perfis profissiográficos previdenciários dos empregados é encargo legal que possui presunção absoluta de veracidade quanto à exposição."
+      ], resposta_correta: 0 },
 ];
