@@ -1198,4 +1198,31 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Não incidirá contribuição previdenciária sobre a aposentadoria de Jordana.",
         "O INSS incidirá apenas sobre a diferença entre o salário da ativa e a aposentadoria de Jordana."
       ], resposta_correta: 3 },
+  { id: "q1433", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Santa Catarina (TCE-SC), Auditor Fiscal de Controle Externo — Direito — Edital 1/2026 — Tipo 1 (gabarito definitivo de 24/05/2026)",
+      enunciado: "João da Silva ajuizou ação em face do Instituto Nacional do Seguro Social (INSS), autarquia federal vinculada à União, postulando a concessão de benefício de aposentadoria por incapacidade permanente, com pagamento das prestações em atraso desde a data do requerimento administrativo indeferido. A sentença julgou o pedido procedente, fixando como termo inicial o mês do requerimento administrativo, estabelecendo a renda mensal inicial do benefício com base no salário de benefício já apurado pelo INSS e determinando a incidência de correção monetária e juros de mora conforme os índices legalmente previstos. A condenação em parcelas atrasadas, apurável mediante simples cálculos aritméticos com base nos parâmetros da sentença, estimava-se em aproximadamente 380 salários-mínimos, não havendo necessidade de liquidação autônoma ou atividade cognitiva complementar para sua quantificação. O INSS, em sede de impugnação ao cumprimento de sentença promovido por João da Silva, sustentou que a sentença deveria ter sido submetida ao duplo grau obrigatório de jurisdição por força da remessa necessária. Considerando o disposto na legislação processual civil e o entendimento fixado pelo Superior Tribunal de Justiça sob o regime dos recursos repetitivos, é correto afirmar que a sentença em referência",
+      alternativas: [
+        "não está sujeita à remessa necessária, pois a condenação imposta ao INSS não ultrapassa 500 salários-mínimos, limite a partir do qual a remessa necessária é exigível nas demandas que envolvam autarquias federais, nos termos do art. 496, § 3º, I, do CPC/2015.",
+        "está sujeita à remessa necessária, uma vez que o valor da condenação supera 100 salários-mínimos, limite a partir do qual a remessa necessária é exigível nas demandas que envolvam autarquias federais, nos termos do art. 496, § 3º, I, do CPC/2015.",
+        "está sujeita à remessa necessária, pois as condenações impostas ao INSS em demandas previdenciárias são, por sua própria natureza, materialmente ilíquidas, pois dependem da aferição de competências, salários de contribuição e índices de atualização variáveis, razão pela qual se submetem invariavelmente à remessa necessária.",
+        "não está sujeita à remessa necessária, pois, havendo parâmetros suficientes fixados no decisum que permitam a apuração imediata da condenação por simples cálculos aritméticos, e sendo possível estimar que o valor não excederá o limite de 1.000 salários-mínimos previsto no art. 496, § 3º, I, do CPC/2015, resta afastado o duplo grau obrigatório de jurisdição.",
+        "não está sujeita à remessa necessária, pelo fato de o valor da condenação ser inferior ao limite estabelecido no art. 496, § 3º, I, do CPC/2015, sendo irrelevante, para esse fim, a análise da complexidade exigida na fase de liquidação ou a existência de parâmetros suficientes na sentença para a apuração do quantum debeatur."
+      ], resposta_correta: 3 },
+  { id: "q1434", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Santa Catarina (TCE-SC), Auditor Fiscal de Controle Externo — Direito — Edital 1/2026 — Tipo 1 (gabarito definitivo de 24/05/2026)",
+      enunciado: "Maria Antônia, advogada privada em atividade autônoma no Estado de Santa Catarina, desempenha suas funções em favor de seus clientes, mediante remuneração contratualmente prevista, não possuindo qualquer outro vínculo laboral ou profissional. Diante da situação hipotética narrada, é correto afirmar que Maria é filiada, obrigatoriamente, ao",
+      alternativas: [
+        "Regime Geral de Previdência Social, na qualidade de segurada obrigatória.",
+        "Regime Geral de Previdência Social, na qualidade de segurada facultativa.",
+        "Regime Próprio de Previdência do Estado de Santa Catarina.",
+        "Regime Próprio de Previdência da União Federal.",
+        "Regime Complementar de Previdência Complementar instituído pela OAB local."
+      ], resposta_correta: 0 },
+  { id: "q1435", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal de Contas do Estado de Santa Catarina (TCE-SC), Auditor Fiscal de Controle Externo — Direito — Edital 1/2026 — Tipo 1 (gabarito definitivo de 24/05/2026)",
+      enunciado: "Jorge Ferraz, servidor público do Estado de Santa Catarina, dotado de cargo público de provimento efetivo, é regulamente filiado ao Regime de Previdência Estadual, vertendo suas contribuições normalmente. Jorge, todavia, decide realizar contribuição adicional ao Regime Geral de Previdência Social (RGPS), de forma a acumular aposentadorias de ambos os regimes. Diante da situação hipotética, é correto afirmar que a estratégia de Jorge é",
+      alternativas: [
+        "válida, desde que requeira inscrição previdenciária no RGPS como facultativo.",
+        "inválida, pois não é possível a acumulação de aposentadorias após a EC nº 103/19.",
+        "válida, desde que Jorge tenha outra atividade remunerada lícita que o vincule ao RGPS.",
+        "inválida, pois a CF/88 impede a vinculação simultânea a dois ou mais regimes previdenciários.",
+        "válida, desde que Jorge venha a aderir, também, ao regime de previdência complementar estadual."
+      ], resposta_correta: 2 },
 ];
