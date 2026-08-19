@@ -3754,3 +3754,49 @@ ADPFs 976/347/635 específicas). Padrão confirmado: anchor legislativo
 = limpo; caso-specific ruling = descartar. Para 138 DH restantes
 exigirá fontes CESPE/CEBRASPE/VUNESP/FCC além de FGV, ou mineração
 exaustiva de ~50 provas FGV (impraticável).
+
+## Leva 87 — TJ-PR Juiz Substituto 2025 (DH)
+
+**Fonte**: FGV — TJPR Concurso para Juiz Substituto 2025, Tipo 1 Branca-Tarde
+(caderno `juiz-substituto-cns001-tipo-1_0.pdf`), gabarito definitivo de
+27/03/2026 (prova aplicada em 22/02/2026) — `edital-gabarito-definitivo.pdf`.
+
+**Bloco DH dedicado**: Q96-Q100 ("Direitos Humanos") + Q50 (CIDPD) + Q27
+(LOAS/Assistência Social). Primeiro TJ-PR minerado para DH. Rendeu 5
+limpas após descartes.
+
+**Questões extraídas (q1455-q1459, +5)**:
+- q1455 = Q50 (answer A): CIDPD — tecnologias assistivas previstas na
+  Convenção, priorizando custo acessível. Anchor: CIDPD Art. 2 (definição)
+  + Art. 4(f)-(h) (acessibilidade/custo acessível).
+- q1456 = Q27 (answer D): LOAS Lei 8.742/93 — indeferimento de
+  assistência social ilegítimo; ausência CadÚnico sanada por busca ativa
+  pelo próprio órgão. Anchor: LOAS Art. 2º (direito de quem dela
+  necessitar) + Art. 6º-C (busca ativa) + Lei 12.435/2011.
+- q1457 = Q98 (answer D): tratados internacionais DH — rito qualificado
+  Art. 5º §3º CF → status de emenda constitucional; rito ordinário →
+  natureza supralegal, prevalece sobre legislação infraconstitucional
+  incompatível. Anchor: STF RE 466.343, ADI 3.481, EC 45/2004.
+- q1458 = Q99 (answer C): controle de convencionalidade — dever do
+  Judiciário interpretar/aplicar normas internas em conformidade com
+  CADH + jurisprudência Corte IDH, podendo ser exercido de ofício.
+  Anchor: Recomendação CNJ 123/2022 + STF ADI 3.540/4.650.
+- q1459 = Q100 (answer B): sistema global ONU de proteção DH permanece
+  fundado em tratados universais ratificados pelo Brasil (Pactos 1966
+  PIDCP/PIDESC) + mecanismos internacionais de monitoramento.
+
+**Descartes**:
+- Q26 (socioeducativa + maioridade penal superveniente): processual
+  ECA/SINASE, não DH doutrinário.
+- Q28 (internação por tráfico + reiteração + confissão): processual
+  socioeducativa ECA.
+- Q29 (audiências concentradas reavaliação + Recomendação CNJ 98/2021):
+  processo socioeducativo específico.
+- Q95 (união estável homoafetiva post mortem / relativização
+  publicidade): answer D apoiada em STJ REsp 1.589.966 específico —
+  sutilmente case-specific, distinto C vs D contestável → descartar.
+- Q96 (análise econômica do Direito / litigância má-fé): não-DH core.
+- Q97 (whistleblowing / Lei 13.608/2018): integridade/anticorrupção,
+  não DH.
+
+DH agora em 69/200. Próxima fonte: TJ-RS Juiz 2025 (`tjrs25`) já baixado.
