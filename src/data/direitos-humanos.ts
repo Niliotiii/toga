@@ -559,4 +559,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O STF condicionou a requalificação civil à alteração prévia dos documentos perante os órgãos previdenciários e de identidade profissional, a fim de evitar divergências cadastrais.",
         "A requalificação civil foi admitida apenas para pessoas maiores de 21 anos, devendo as demais pessoas transexuais, transgêneras e travestis obter prévia autorização judicial, como medida de proteção da personalidade em desenvolvimento."
       ], resposta_correta: 2 },
+  { id: "q1453", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Ministério Público do Estado do Espírito Santo (MPES), Concurso para Promotor de Justiça Substituto — 2025 — Tipo 1 (gabarito definitivo)",
+      enunciado: "A proteção internacional dos direitos dos povos indígenas abrange tanto instrumentos normativos, como a Convenção nº 169 da Organização Internacional do Trabalho (OIT), quanto decisões da Corte Interamericana de Direitos Humanos (Corte IDH), que consolidam entendimentos sobre o direito à terra, à consulta prévia e à autodeterminação. Considerando essas normas e a jurisprudência interamericana, assinale a opção correta sobre os direitos dos povos indígenas.",
+      alternativas: [
+        "No caso Povo Indígena Xucuru vs. Brasil, a Corte IDH determinou a desintrusão e a garantia do domínio pleno e efetivo do território, fixando o prazo de até 18 meses, a partir da notificação da sentença.",
+        "Nos termos da Convenção OIT nº 169, estabeleceu-se que a consulta aos povos interessados deve ocorrer imediatamente após a adoção da medida estatal.",
+        "No caso Povo Indígena Xucuru vs. Brasil, a Corte IDH admitiu a substituição do território reconhecido por terras não contíguas ao território titulado, diante de dificuldades fundiárias.",
+        "Segundo a Convenção OIT nº 169, dispôs-se que os direitos sobre recursos naturais em terras indígenas limitam-se aos recursos superficiais, sem participação na exploração de riquezas do subsolo.",
+        "Nos termos da Convenção OIT nº 169, previu-se que os deslocamentos por interesse público podem ser decididos unilateralmente, desde que mediante a devida indenização pecuniária e independentemente do consentimento dos povos afetados."
+      ], resposta_correta: 0 },
 ];
