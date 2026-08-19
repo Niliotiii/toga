@@ -748,4 +748,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O momento histórico em que se deu a elaboração da Convenção Internacional contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes é o que justifica, além da ausência de consenso entre os Estados, a omissão normativa quanto ao direito à reparação das vítimas.",
         "A natureza da norma internacional que proíbe a prática da tortura não impediu a existência de dispositivo expresso garantindo que o Estado Parte possa denunciar a Convenção Internacional contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes."
       ], resposta_correta: 4 },
+  { id: "q1474", tema: "Direitos Humanos", dificuldade: "media", fonte: "VUNESP — Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), LI Concurso para Ingresso na Magistratura de Carreira, Juiz Substituto — 2026 — Prova Objetiva, Versão 1 (gabarito definitivo de 10/04/2026, prova aplicada em 15/03/2026, Edital 08/2026)",
+      enunciado: "Ana, pessoa com deficiência intelectual leve, ajuizou pedido de tomada de decisão apoiada, indicando duas pessoas de sua confiança, com as quais mantém vínculo, para auxiliá-la em decisões patrimoniais de maior complexidade. Foi apresentado termo contendo os limites do apoio, o prazo de vigência e os compromissos dos apoiadores. O pedido foi deferido pelo juiz. Meses depois, Ana celebrou contrato de elevado valor econômico, mas um dos apoiadores manifestou discordância quanto à conveniência do negócio, alegando risco patrimonial. Diante da situação hipotética, e de acordo com o previsto no Código Civil, assinale a alternativa correta.",
+      alternativas: [
+        "Diante da divergência entre a pessoa apoiada e um dos apoiadores em negócio jurídico de risco relevante, caberá ao juiz decidir sobre a questão, após oitiva do Ministério Público.",
+        "A pessoa apoiada somente poderá requerer o término do acordo de tomada de decisão apoiada ao final do prazo de vigência previamente estipulado.",
+        "A tomada de decisão apoiada, assim como a curatela, restringe a capacidade civil de Ana, razão pela qual os atos por ela praticados dependem sempre da concordância expressa dos apoiadores para produzir efeitos perante terceiros.",
+        "O contrato celebrado por Ana somente produzirá efeitos se for obrigatoriamente contra assinado pelos apoiadores, independentemente de solicitação do terceiro contratante.",
+        "Para que o negócio jurídico seja declarado nulo de ofício pelo juiz, a divergência deve se dar entre Ana e os dois apoiadores."
+      ], resposta_correta: 0 },
 ];
