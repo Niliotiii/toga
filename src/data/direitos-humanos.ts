@@ -757,4 +757,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O contrato celebrado por Ana somente produzirá efeitos se for obrigatoriamente contra assinado pelos apoiadores, independentemente de solicitação do terceiro contratante.",
         "Para que o negócio jurídico seja declarado nulo de ofício pelo juiz, a divergência deve se dar entre Ana e os dois apoiadores."
       ], resposta_correta: 0 },
+  { id: "q1475", tema: "Direitos Humanos", dificuldade: "media", fonte: "VUNESP — Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), LI Concurso para Ingresso na Magistratura de Carreira, Juiz Substituto — 2026 — Prova Objetiva, Versão 1 (gabarito definitivo de 10/04/2026, prova aplicada em 15/03/2026, Edital 08/2026)",
+      enunciado: "Os pais de uma criança de 6 anos recusaram-se a autorizar a vacinação obrigatória do filho, apesar das recomendações médicas e do calendário oficial de imunização. Diante da situação hipotética, é correto afirmar, de acordo com o atual entendimento do Superior Tribunal de Justiça, que",
+      alternativas: [
+        "os pais podem recusar a vacinação obrigatória desde que assinem um termo de responsabilidade perante o Ministério Público.",
+        "os pais poderão, em razão da negligência, ter o poder familiar suspenso.",
+        "os pais incorrerão em uma infração administrativa punida com multa pecuniária.",
+        "os pais incorrerão em crime sujeito à pena de detenção.",
+        "é direito dos pais decidir pela aplicação ou não da vacinação dos filhos menores."
+      ], resposta_correta: 2 },
 ];
