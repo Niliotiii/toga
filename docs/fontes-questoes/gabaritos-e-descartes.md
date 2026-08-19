@@ -3606,3 +3606,31 @@ Estatuto Idoso, Convenções ratificadas).
 DPE Defensor confirmada como fonte DH, mas rendimento médio baixo
 após descartes teóricos (~3/prova). DH ainda a maior lacuna (57/200,
 faltam 143). Trabalho a ~17 do alvo.
+
+## Leva 83 — TRF5 Juiz Federal Substituto 2025 (Previdenciário)
+Concurso: TRF5 XV Concurso Juiz Federal Substituto, Edital 01/2025,
+Tipo 1 (gabarito definitivo). Prova `trf5-t1.pdf` + `gabdef_juiz-federal-substituto.pdf`.
+- Extraídas q1483-q1486 (4): Q11 juiz federal RPPS aposentadoria
+incapacidade permanente regime próprio (CF art.40), Q12 segurado
+especial economia familiar ≤4 módulos fiscais (Lei 8.213 art.11
+VII), Q13 mão de obra remunerada continuada exclui segurado
+especial (Lei 8.213 art.11§), Q14 RAT majorado para atividade
+risco especial (Lei 8.213 art.72).
+- Descartadas: Q15 (BPC/LOAS means test — gabarito B "aposentadoria
+esposa não conta" contradi Lei 8.742/93 art.20 renda per capita
+familiar), Q16 (aposentadoria especial pós-EC 103/2019 idade 60
+vs 45 — transitional/new-entrant rule contested).
+
+### Estado após Leva 83
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **187** |
+| Direitos Humanos | 4 | **57** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1486** |
+
+5 regionais TRF mineradas (TRF1/2/3/5/6) totalizaram 16 questões
+Previdenciárias limpas. TRF4 não aparece no catálogo FGV (em
+concurso próprio CEBRASPE). Faltam ~13 Trabalho para 200. Próxima
+fronteira: PGE/TCE estaduais Procurador (bloco Previd/Trabalho)
+e TJ Juiz via bloco Constitucional.
