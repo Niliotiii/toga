@@ -3675,3 +3675,47 @@ contested — forçar = padding inverificável (vedado). 195/200 =
 97,5%, todas com anchor doutrinário limpo (CLT, Lei 8.213/8.212,
 EC 103/2019, Súmulas TST/STF). Pivot para Direitos Humanos
 (maior lacuna: 57/200).
+
+## Leva 85 — MP-MT Promotor de Justiça 2026 (Direitos Humanos)
+Concurso: MPMT Promotor de Justiça Substituto 2026, Tipo 1 (gabarito
+preliminar). Prova `promotor-de-justica-substituto-cns100-tipo-1_1.pdf`
++ `mpmt2026-gabaritos-para-publicacao_0.pdf`. Promotor MT tem 2 blocos
+"Direitos Humanos" dedicados (Q9-Q16 + Q99-Q100), mas rendimento médio
+após descartes case-specific.
+- Extraídas q1448-q1450 (3): Q11 discriminação racial indireta
+(prática neutra impacto racial dispar, Convenção Interamericana
+contra Racismo), Q14 LGBTQIAPN+ privação liberdade V-F-V (ADI 4275
+STF + Resolução CNJ 348/2020/366/2021), Q76 Estatuto do Idoso
+art.74§2 legitimação concorrente MP/OAB ações coletivas idosos.
+- Descartadas: Q9 (LEX boletos competência concorrente/privativa
+borderline), Q10 (intervenção estadual por descumprimento prestar
+contas — complexa), Q12 (Caso Favela Nova Brasília vs Brasil —
+case-specific Corte IDH), Q13 (ADPF 976 população rua — case-specific
+STF), Q15 (Caso Xucuru vs Brasil — case-specific Corte IDH), Q16
+(ADPF 635 letalidade policial — case-specific STF), Q77 (tutela
+coletiva V-F-F = Processual Civil, não DH), Q100 (Recomendação CNMP
+96/2023 — institucional-specific).
+
+### Padrão DH confirmado (atualizado)
+Promotor/Defensor exams (FGV) com bloco "Direitos Humanos" dedicado
+rendem ~3 limpas após descartes. Padrão de descarte dominante:
+- **Case-specific**: Casos Corte IDH (Favela Nova Brasília, Xucuru),
+ADPFs específicas (976, 635) — exigem conhecimento exato do ruling,
+não doutrina verificável.
+- **Institucional-specific**: Recomendações CNMP/CNJ específicas.
+- **Teórica/ambígua**: universalismo/relativismo (DPE-PE Q82).
+Preferir anchor: ECA, Estatuto do Idoso, Lei Maria da Penha,
+Convenções ratificadas, ADIs-STF com tese firme.
+
+### Estado após Leva 85
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **195** |
+| Direitos Humanos | 4 | **60** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1485** |
+
+DH: +3 (DPE-PE 3 + MP-MT 3 = 6 nesta série de garimpo DH).
+DH ainda maior lacuna (60/200, faltam 140). Promotor/Defensor rendem
+~3/prova após descartes case-specific — para 140 restantes exigirá
+~47 provas DH-dedicadas, ou novas classes de fonte.
