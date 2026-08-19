@@ -3719,3 +3719,38 @@ DH: +3 (DPE-PE 3 + MP-MT 3 = 6 nesta série de garimpo DH).
 DH ainda maior lacuna (60/200, faltam 140). Promotor/Defensor rendem
 ~3/prova após descartes case-specific — para 140 restantes exigirá
 ~47 provas DH-dedicadas, ou novas classes de fonte.
+
+## Leva 86 — MP-ES Promotor de Justiça 2025 (Direitos Humanos)
+Concurso: MPES Promotor de Justiça Substituto 2025, Tipo 1 (gabarito
+definitivo). Prova `promotor-de-justica-substituto-cns100-tipo-1.pdf`
+(cns100 = objetiva; cnd102-105 = discursiva, evitar) + `gabarito-definitivo_promotor-de-justica-substituto.pdf`.
+- Extraídas q1451-q1452 (2): Q11 Convenção Interamericana contra
+Racismo — ações afirmativas não constituem discriminação se não
+perpetuadas (art. medidas especiais), Q12 ADI 4275 STF requalificação
+civil trans — procedimento administrativo autodeclaratório em
+cartório, sem cirurgia/laudos/decisão judicial (Provimento CNJ
+73/2018).
+- Descartadas: Q9 (extinção RPPS municipal — vedação ao retrocesso
+vs eficácia limitada borderline), Q10 (súmula vinculante proposta —
+complex legítimação), Q13 (Caso Favela Nova Brasília vs Brasil —
+case-specific Corte IDH), Q14 (ADPF 976 população rua — case-specific
+STF), Q15 (ADPF 347 sistema prisional — case-specific STF), Q16
+(Caso Xucuru 18 meses — case-specific, B-E eliminação por Convenção
+169 apenas).
+
+### Estado após Leva 86
+| Tema | Início sessão | Agora |
+| --- | --- | --- |
+| Trabalho | 57 | **195** |
+| Direitos Humanos | 4 | **62** |
+| Administrativo | 179 | 206 |
+| **TOTAL DB** | — | **1487** |
+
+DH: 5 provas DH-dedicadas mineradas (MPGO 2022, MPGO 2025, MPSC,
+DPE-PE 2025, MP-MT 2026, MP-ES 2025) — rendimento ~2-3 limpas/prova
+após descartes case-specific (Corte IDH Casos Favela Nova/Xucuru,
+ADPFs 976/347/635 específicas). Padrão confirmado: anchor legislativo
+(Convenções ratificadas, ECA, Estatuto Idoso, ADIs-STF tese firme)
+= limpo; caso-specific ruling = descartar. Para 138 DH restantes
+exigirá fontes CESPE/CEBRASPE/VUNESP/FCC além de FGV, ou mineração
+exaustiva de ~50 provas FGV (impraticável).
