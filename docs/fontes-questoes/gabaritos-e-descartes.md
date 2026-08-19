@@ -4023,3 +4023,82 @@ DH agora em 88/200. VUNESP TJ-RJ rendeu 9 DH totais (6 LI/2026 + 3
 L/2025) — classe VUNESP confirmada como produtiva via Brave Search
 para PDFs oficiais. Próximas fontes VUNESP: Prefeitura Tremembé-SP
 Procurador, e buscar Defensor/Promotor VUNESP-SP.
+
+## Leva 94 — MPPR Promotor Substituto 2021 (DH)
+
+**Fonte**: MPPR — Concurso para Ingresso na Carreira do Ministério
+Público do Estado do Paraná, Promotor Substituto — 2021 — Prova
+Preambular (100 questões, aplicada 05/12/2021). Banca = **Comissão de
+Concurso interna do MPPR** (NÃO FGV/FCC/Cebraspe — concursos estaduais
+de MP-Promotor usam banca interna do próprio MP). Gabarito oficial
+**definitivo** Edital 15/2021 (21/12/2021). PDFs públicos no portal
+`apps.mppr.mp.br` (sem login, sem gatekeeping). Primeira fonte de
+banca-interna-MP minerada para DH.
+
+**Rota**: Tremembé-SP Procurador (VUNESP) confirmado MORTO — nenhum
+concurso público indexado (Bing/Brave/qconcursos/acheconcursos).
+DPE-SP e DPE-MA (FCC) confirmados MORTOS — FCC gatekeeps prova/gabarito
+atrás do Portal do Candidato (login); paths públicos 404. Arquivo FGV
+MP-Promotor esgotado (só MPGO/MPES/MPRJ/MPMT têm Promotor; demais MP
+estaduais só support-staff). Pivô produtivo = sites de MP estadual
+com banca interna própria (MPPR é o proof-of-concept).
+
+**Caderno**: Prova Preambular = caderno único (sem versões embaralhadas
+como VUNESP) — nº da prova = nº do gabarito 1:1. Gabarito: Q81=B,
+Q82=D, Q83=D, Q84=E, Q85=C, Q97=E, Q98=B, Q99=C, Q100=E. Anuladas
+(Q11, Q15, Q31, Q51) e alterada (Q21) NÃO estão no set aceito.
+
+**Questões extraídas (q1479-q1487, +9)**:
+- q1479 = Q81 (answer B): ECA — gestante/mãe que quer entregar filho
+  p/ adoção tem direito à assistência psicológica (art. 8 §4/§5), NÃO
+  é encaminhada à entidade de acolhimento institucional. Anchor: ECA
+  art. 8 §5 (Lei 12.010/2009).
+- q1480 = Q82 (answer D): ECA apadrinhamento — programas apoiados pela
+  Justiça da Infância podem ser executados por órgãos públicos ou
+  OSCs. Anchor: ECA art. 19-B §5 (Lei 13.509/2017) verbatim.
+- q1481 = Q83 (answer D): ECA prazos contam-se em DIAS CORRIDOS (não
+  úteis). Anchor: ECA art. 152 §2 (Lei 13.509/2017).
+- q1482 = Q84 (answer E): ECA colocação em família substituta — se
+  pais falecidos/destitituídos/suspensos/aderiram, pode ser formulada
+  em cartório, dispensada assistência de advogado. Anchor: ECA art.
+  166 (Lei 12.010/2009) verbatim.
+- q1483 = Q85 (answer C): STF firmou que ensino domiciliar NÃO é
+  direito público subjetivo. Anchor: STF RE 1.041.510 (Tema 1098),
+  ADI 4417, ADI 5396 (tese firme).
+- q1484 = Q97 (answer E): LBI — PCD tem prioridade (NÃO igualdade) na
+  restituição do IRPF. Anchor: LBI (Lei 13.146/2015) art. 9 VI + art.
+  75 §5.
+- q1485 = Q98 (answer B): Estatuto do Idoso — proteção jurídico-social
+  por entidades de defesa dos idosos = linha de ação da política de
+  atendimento. Anchor: Lei 10.741/2003 art. 47 V verbatim.
+- q1486 = Q99 (answer C): "igualdade de gênero" ≠ "identidade de
+  gênero" (não são sinônimos). Anchor: doutrina DH firme (Yogyakarta
+  Principles + CEDAW); demais alts. ancoradas em Convenção 169 OIT,
+  Decreto 7.053/09, Lei 12.288/2010 art. 24, Lei 13.445/2017 art. 1
+  §1.
+- q1487 = Q100 (answer E): marcos históricos dos DH de 2ª dimensão =
+  Constituição Mexicana 1917 + Weimar 1919 + Tratado de Versalhes 1919
+  (OIT). Anchor: doutrina histórica firme (Bobbio/Comparato).
+
+**Descartes**:
+- Anuladas (per gabarito): Q11, Q15, Q31, Q51.
+- Processual-ECA/penal-core/admin/sanitário: Q22 (controle
+  constitucionalidade), Q24 (ANVISA+improbidade), Q29 (CRM
+  inadimplência), Q72-Q75 (LEP execução penal + medicina legal),
+  Q76-Q78 (CDC processual-coletivo), Q79 (internação Lei 11.343),
+  Q80 (fornecimento medicamentos).
+- Admin/lei-local-institucional: Q86-Q89 (improbidade, Lei 1.079/50,
+  Resolução CSMP 01/2017), Q95-Q96 (Ato Conjunto 01/2019 MP-PR).
+- Ambiental/urbanismo: Q90-Q93 (Código Florestal, UCs, PNMA,
+  saneamento), Q94 (ACP coletividade).
+- Demais grupos (Q1-Q20 penal/eleitoral/legislação MP; Q35-Q57
+  civil/empresarial/proc civil): não DH.
+
+DH agora em **97/200**. MPPR 2021 = fonte mais produtiva da sessão (+9,
+superou TJPR +5 e MPRJ +6/+3). Padrão confirmado: **MP-Promotor com
+banca interna estadual** (MPPR) + bloco GRUPO 5 dedicado
+(Infância/Educação + PCD + Idoso + Direitos Humanos) é altamente
+produtivo (5-9 DH/prova), com PDFs públicos sem gatekeeping. Próxima
+fonte sugerida: MPPR 2018 (Concurso 95) — mesma estrutura, mesmo
+portal público. Outras bancas internas estaduais a explorar: MPMG,
+MPSC, MPRS, MPBA, MPPE.

@@ -793,4 +793,85 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Atualmente o ordenamento jurídico brasileiro não mais admite o controle de convencionalidade difuso, o que foi consequência da promulgação da Emenda Constitucional nº 45; até então admitia-se e podia ser utilizado como paradigma os tratados internacionais de direitos humanos e os comuns.",
         "No âmbito do sistema interamericano de direitos humanos a doutrina do controle interno de convencionalidade surgiu formalmente em 26 de setembro de 2006, momento em que a Corte Interamericana de Direitos Humanos julgou o Caso Almonacid Arellano e outros Vs. Chile, e foi em 2006 que a Corte Interamericana levou a obrigatoriedade desse controle, de forma preferencial, para o Judiciário dos Estados-partes, apesar do termo controle de convencionalidade já ter tido referência antes."
       ], resposta_correta: 4 },
+  { id: "q1479", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Nos termos do Estatuto da Criança e do Adolescente (Lei 8.069/90), assinale a alternativa incorreta:",
+      alternativas: [
+        "Incumbe ao poder público proporcionar assistência psicológica à gestante e à mãe, no período pré e pós-natal, inclusive como forma de prevenir ou minorar as consequências do estado puerperal.",
+        "As gestantes ou mães que manifestem interesse em entregar seus filhos para adoção serão obrigatoriamente encaminhadas, sem constrangimento e com o acompanhamento do Conselho Tutelar, à entidade de acolhimento institucional mais próxima de seu domicílio.",
+        "É obrigatória a vacinação das crianças nos casos recomendados pelas autoridades sanitárias.",
+        "Os hospitais e demais estabelecimentos de atenção à saúde de gestantes, públicos e particulares, são obrigados a manter alojamento conjunto, possibilitando ao neonato a permanência junto à mãe.",
+        "A atenção odontológica à criança terá função educativa protetiva e será prestada, inicialmente, antes de o bebê nascer, por meio de aconselhamento pré-natal, e, posteriormente, no sexto e no décimo segundo anos de vida, com orientações sobre saúde bucal."
+      ], resposta_correta: 1 },
+  { id: "q1480", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Nos termos do que expressamente estabelece o Estatuto da Criança e do Adolescente (Lei 8.069/90) acerca do programa de apadrinhamento, assinale a alternativa correta:",
+      alternativas: [
+        "Podem ser padrinhos ou madrinhas somente pessoas físicas, maiores de 18 (dezoito) anos, e não inscritas nos cadastros de adoção, desde que cumpram os requisitos exigidos pelo programa de apadrinhamento de que fazem parte.",
+        "O perfil da criança ou do adolescente a ser apadrinhado será definido pela equipe técnica da entidade de acolhimento institucional, com prioridade para crianças com remota possibilidade de reinserção familiar ou colocação em família adotiva.",
+        "Se ocorrer violação das regras de apadrinhamento, os responsáveis pelo programa e pelos serviços de acolhimento deverão, mediante a instauração de procedimento administrativo, adotar as providências necessárias para a dissolução do vínculo.",
+        "Os programas ou serviços de apadrinhamento apoiados pela Justiça da Infância e da Juventude poderão ser executados por órgãos públicos ou por organizações da sociedade civil.",
+        "Toda criança e adolescente em situação de risco pessoal ou social pode participar de programa de apadrinhamento."
+      ], resposta_correta: 3 },
+  { id: "q1481", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Considerando as disposições do Estatuto da Criança e do Adolescente (Lei 8.069/90) e a jurisprudência do Supremo Tribunal Federal e do Superior Tribunal de Justiça, assinale a alternativa incorreta:",
+      alternativas: [
+        "O Ministério Público possui legitimidade para instaurar sindicância para a apuração de ilícitos ou infrações às normas de proteção à infância e à juventude.",
+        "O princípio da insignificância é aplicável aos atos infracionais, desde que verificados os requisitos necessários para a configuração do delito de bagatela.",
+        "O juízo especializado da Justiça da Infância e da Juventude é competente para o cumprimento e a efetivação do montante sucumbencial por ele arbitrado.",
+        "Os prazos referentes aos processos regidos pelo Estatuto da Criança e do Adolescente são contados em dias úteis.",
+        "A despeito da possibilidade de ter ocorrido fraude no registro de nascimento, não é do melhor interesse da criança o acolhimento institucional ou familiar temporário, salvo diante de evidente risco à sua integridade física ou psíquica."
+      ], resposta_correta: 3 },
+  { id: "q1482", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Nos termos do Estatuto da Criança e do Adolescente (Lei 8.069/90), assinale a alternativa correta:",
+      alternativas: [
+        "Na hipótese de prática de qualquer ato criminoso doloso contra filho, a destituição do poder familiar pode ser decretada diretamente pelo juízo cível, independentemente da existência de sentença de procedência no juízo criminal.",
+        "A convivência do filho com a mãe ou o pai privado de liberdade, por meio de visitas periódicas, dá-se mediante requerimento do Ministério Público à autoridade judiciária competente.",
+        "O deferimento da guarda de criança ou adolescente a terceiros impede o exercício do direito de visitas pelos pais.",
+        "Em se tratando da colocação de criança ou adolescente indígena em família substituta, é obrigatório que sejam consideradas e respeitadas sua identidade social e cultural, os seus costumes e tradições, bem como suas instituições, mesmo que incompatíveis com as disposições do Estatuto da Criança e do Adolescente.",
+        "Se os pais forem falecidos, tiverem sido destituídos ou suspensos do poder familiar, ou houverem aderido expressamente ao pedido de colocação em família substituta, este poderá ser formulado diretamente em cartório, em petição assinada pelos próprios requerentes. Nessas hipóteses, é dispensada a assistência de advogado."
+      ], resposta_correta: 4 },
+  { id: "q1483", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "Entre outras condutas previstas em Lei, as pilhérias podem caracterizar intimidação sistemática (bullying).",
+        "A defesa da ordem jurídica, do regime democrático, dos interesses sociais e individuais indisponíveis, relacionada ao pleno cumprimento da Lei que regulamenta o Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Lei 14.113/2020), compete ao Ministério Público dos Estados e do Distrito Federal e Territórios e ao Ministério Público Federal, especialmente quanto às transferências de recursos federais.",
+        "Segundo entendimento firmado pelo Supremo Tribunal Federal, o acesso ao ensino domiciliar facultativo é direito público subjetivo do aluno ou de sua família.",
+        "A promoção dos princípios do respeito aos direitos humanos, à diversidade e à sustentabilidade socioambiental é uma das diretrizes do Plano Nacional de Educação – PNE.",
+        "Nos processos seletivos para ingresso e permanência nos cursos oferecidos pelas instituições de ensino superior e de educação profissional e tecnológica, públicas e privadas, devem ser adotadas, entre outras, a seguinte medida: disponibilização de recursos de acessibilidade e de tecnologia assistiva adequados, previamente solicitados e escolhidos pelo candidato com deficiência."
+      ], resposta_correta: 2 },
+  { id: "q1484", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Nos termos do que prevê expressamente a Lei 13.146/2015 (Estatuto da Pessoa com Deficiência), assinale a alternativa incorreta:",
+      alternativas: [
+        "Incumbe ao poder público assegurar, criar, desenvolver, implementar, incentivar, acompanhar e avaliar o acesso à educação superior e à educação profissional e tecnológica em igualdade de oportunidades e condições com as demais pessoas.",
+        "A pessoa com deficiência tem direito à participação e ao acesso a cursos, treinamentos, educação continuada, planos de carreira, promoções, bonificações e incentivos profissionais oferecidos pelo empregador, em igualdade de oportunidades com os demais empregados.",
+        "O poder público deve promover a participação da pessoa com deficiência em atividades artísticas, intelectuais, culturais, esportivas e recreativas, com vistas ao seu protagonismo, devendo, entre outras medidas, incentivar a provisão de instrução, de treinamento e de recursos adequados, em igualdade de oportunidades com as demais pessoas.",
+        "O direito ao transporte e à mobilidade da pessoa com deficiência ou com mobilidade reduzida será assegurado em igualdade de oportunidades com as demais pessoas, por meio de identificação e de eliminação de todos os obstáculos e barreiras ao seu acesso.",
+        "A pessoa com deficiência tem direito ao recebimento de restituição de imposto de renda em igualdade de oportunidades com as demais pessoas."
+      ], resposta_correta: 4 },
+  { id: "q1485", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Nos termos da Lei 10.741/2003 (Estatuto do Idoso), assinale a alternativa correta:",
+      alternativas: [
+        "A obrigatoriedade de criação de varas especializadas e exclusivas do idoso integra a garantia do acesso à justiça.",
+        "A proteção jurídico-social por entidades de defesa dos direitos dos idosos é uma das linhas de ação da política de atendimento.",
+        "Mesmo no caso de entidades filantrópicas, ou casa-lar, é vedada a cobrança de participação do idoso no custeio da entidade.",
+        "O acolhimento de idosos em situação de risco social, por adulto ou núcleo familiar, apesar de sua importância e essencialidade, não tem o condão de caracterizar dependência econômica.",
+        "A prioridade na tramitação dos processos e procedimentos e na execução dos atos e diligências judiciais em que figure pessoa com idade igual ou superior a 60 (sessenta) anos, em qualquer instância, é garantida exclusivamente quando esta figura como parte."
+      ], resposta_correta: 1 },
+  { id: "q1486", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "O direito à consulta prévia, livre, informada e de boa-fé encontra previsão na Convenção 169, da Organização Internacional do Trabalho, bem como na Declaração das Nações Unidas sobre os Direitos dos Povos Indígenas.",
+        "A democratização do acesso e fruição dos espaços e serviços públicos é uma das diretrizes da Política Nacional para a População em Situação de Rua (Decreto 7.053/09).",
+        "Igualdade de gênero e identidade de gênero são expressões que possuem relação de sinonímia.",
+        "Conforme o Estatuto da Igualdade Racial (Lei 12.288/10), o direito à liberdade de consciência e de crença e ao livre exercício dos cultos religiosos de matriz africana compreende, entre outros, a produção, a comercialização, a aquisição e o uso de artigos e materiais religiosos adequados aos costumes e às práticas fundadas na respectiva religiosidade, ressalvadas as condutas vedadas por legislação específica.",
+        "A Lei da Migração (Lei 13.445/2017) estabelece definições para: imigrante, emigrante, residente fronteiriço, visitante e apátrida."
+      ], resposta_correta: 2 },
+  { id: "q1487", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2021 — Prova Preambular (gabarito oficial definitivo de 21/12/2021, Edital 15/2021, prova aplicada em 05/12/2021)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "A teoria crítica dos direitos humanos encontra seu fundamento na hegemonia da produção normativa como forma de proteção universal aos direitos elementares da cidadania.",
+        "A hermenêutica diatópica está diretamente vinculada à ideia de consagração do relativismo cultural.",
+        "A doutrina consagrou o termo \"Carta Internacional de Direitos Humanos\", que compreende a Declaração dos Direitos do Homem e do Cidadão e a Declaração Universal dos Direitos Humanos.",
+        "É correto afirmar que o termo multiculturalismo guarda ressonância plena com a ideia de diálogo intercultural.",
+        "Entre outros documentos, a Constituição mexicana de 1917, a Constituição alemã de Weimar de 1919 e, no Direito Internacional, o Tratado de Versalhes, são marcos dos direitos humanos de segunda dimensão."
+      ], resposta_correta: 4 },
 ];
