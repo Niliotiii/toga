@@ -3879,3 +3879,33 @@ DH agora em 75/200. Padrão confirmado: TJ Juiz FGV com bloco
 "Formação Humanística e Direitos Humanos" rende 3-5 limpas/prova
 após descartes teóricos/processuais/lei-local. TJ-PR (+5), TJ-GO
 (+3), TJ-CE (+3) = 11 DH em 3 concursos nesta sessão.
+
+## Leva 90 — TJ-MS Juiz Substituto 2023 (DH)
+
+**Fonte**: FGV — TJMS Concurso para Juiz Substituto 2023, Tipo 1
+Branca-Tarde (caderno `juiz-substitutojsub-tipo-1.pdf`), gabarito
+**preliminar** de 03/05/2023 (sem gabarito definitivo disponível).
+Aceito porque as 2 questões extraídas ancoram em tese estatutária/STJ
+firme que não seria alterada por recurso.
+
+**Questões extraídas (q1466-q1467, +2)**:
+- q1466 = Q11 (answer D): Lei Brasileira de Inclusão 13.146/2015 —
+  pessoa com deficiência = impedimento de longo prazo que, em
+  interação com barreira, obsta participação em igualdade de
+  condições. Anchor: LBI Art. 2º, I (definição legal literal).
+- q1467 = Q59 (answer D): Incidente de Deslocamento de Competência
+  (IDCF, CF Art. 109 §5º, EC 45/2004) — STJ exige evidência de que
+  órgãos estaduais não têm condições de atuar com a devida isenção.
+  Anchor: STJ RHC 75.373, CC 100.353-GO, CC 119.457-SP (tese firme).
+
+**Descartes**:
+- Q32 (idosos/CDC legitimidade coletiva em organização): CDC
+  processual-coletivo, não DH core.
+- Q98 (whistleblower/Lei 13.608): integridade/anticorrupção.
+- Q100 (equidade Aristóteles/Ética a Nicômaco): filosofia/teórica.
+- ECA block Qs (socioeducativa, guarda, adoção): processual-institucional.
+- Bloco "Formação Humanística" (Q71+) majoritariamente empresarial/
+  falimentar/tributário — sem bloco DH dedicado como TJ-PR/TJ-GO/TJ-CE.
+
+DH agora em 77/200. TJ-MS 2023 rendeu menos (2) por não ter bloco DH
+dedicado e por gabarito só preliminar.
