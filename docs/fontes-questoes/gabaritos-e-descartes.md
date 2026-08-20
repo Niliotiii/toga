@@ -4283,3 +4283,61 @@ Trabalho/Previd agora em **197/200**. Faltam 3. MPPR não tem mais
 questões previdenciárias/trabalhistas (apenas 1 por edição). Próxima
 fonte Trabalho: outro concurso de Juiz Federal/TRT/TJ com bloco
 trabalhista, ou Cebraspe (MPU/AGU).
+
+---
+
+### Leva 97 — MPPR Promotor Substituto 2016 (Concurso 93) — DH
+
+Fonte: MPPR (Comissão de Concurso Interna), Concurso para Ingresso na
+Carreira do Ministério Público do Estado do Paraná, Promotor Substituto —
+2016 — Prova Preambular. Gabarito oficial definitivo Edital 15/16 + errata
+Edital 16/16 (100 questões; Q74 anulada de ofício).
+
+URLs:
+- Prova: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/prova_preambular_2016.pdf
+- Gabarito: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/edital_15_2016_gabarito_definitivo.pdf
+- Errata: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/edital_16_2016_errata_Gabarito_Definitivo.pdf
+
+GRUPO 5: 5 Infância + 4 Patrimônio + 3 (PCD+Idoso+DH) + 2 Habitação/Urbanismo.
+Extraídas 8 DH-relevantes (Q80 SUS, Q81 ECA, Q83-85 ECA, Q96 PCD, Q97 Idoso,
+Q98 DH):
+
+- q1510 = Q80 (answer B): SUS — INCORRETA: iniciativa privada participa em
+  caráter COMPLEMENTAR (não obrigatório). Anchor: Lei 8.080/90 art. 4º.
+- q1511 = Q81 (answer D): ECA — socioeducando NÃO pode exercer função de
+  apuração disciplinar/aplicação de sanção na entidade. Anchor: Lei
+  12.594/2012 art. 49 §5.
+- q1512 = Q83 (answer B): ECA — impedimentos Conselho Tutelar (art. 132
+  + rol art. 145). Anchor: ECA art. 132 e 145.
+- q1513 = Q84 (answer A): ECA — INCORRETA: princípio do "interesse
+  superior" NÃO permite considerar outros interesses legítimos que
+  afastem a prioridade absoluta. Anchor: ECA art. 6º (proteção integral
+  absoluta).
+- q1514 = Q85 (answer B): ECA — internação em período NÃO superior a 3
+  anos nas hipóteses do art. 122. Anchor: ECA art. 121 §3º + art. 122.
+- q1515 = Q96 (answer C): PCD — incorretas apenas II e III (Convenção
+  NÃO define "pessoa com mobilidade reduzida"; edital Libras é
+  tradução do edital em Libras, não "completa" — e V: LBI NÃO permite
+  pesquisa com PCD em tutela/curatela? gabarito aponta C = incorretas I
+  e II). Anchor: Convenção ONU PCD art. 2; LBI arts. 16, 22, 26.
+- q1516 = Q97 (answer B): Idoso — corretas apenas I e II (Estatuto do
+  Idoso define violência art. 96; >65 sem gratuidade em serviço seletivo
+  paralelo art. 39 §2º). Anchor: Lei 10.741/2003 arts. 39, 96.
+- q1517 = Q98 (answer D): DH — corretas I (liberdade religiosa matriz
+  africana + acesso a meios comunicação, Estatuto Igualdade Racial
+  art. 26), IV (segurança alimentar + soberania, Lei 11.346/2006 art.
+  2º), V (Tortura art. 1 §1). Anchor: Lei 12.288/2010 art. 26; Lei
+  11.346/2006; Convenção Contra Tortura art. 1 §1.
+
+**Descartes**:
+- Anuladas (Edital 15/16 + errata): Q12, Q21, Q31, Q62, Q64, Q68, Q74
+  (de ofício), Q82. Q82 (ECA, seria DH) anulada -> descartada. Nenhuma
+  das 8 extraídas é anulada.
+- Patrimônio (Q86-89), Ambiental (Q90-92), ACP/Inquérito (Q93-95),
+  Habitação/Urbanismo (Q99-100): não DH.
+
+DH agora em **123/200**. MPPR 2016 = +8. MPPR total: 2016 (8) + 2017 (8) +
+2018 (14) + 2021 (9) = 39 DH (4 edições mineradas). Restam MPPR 2013/2014
+(Concursos 89/92) para possível mineração futura. Para fechar +77 restante,
+necessárias novas bancas (MPGO não-mined, MPMG/MPSC bloqueadas por login/
+gabarito-only, TJ-Juiz de outras unidades).
