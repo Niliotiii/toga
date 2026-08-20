@@ -4400,3 +4400,20 @@ DH-relevantes (Q80 omitido por ser SUS puro, não DH):
 DH agora em **131/200**. MPPR 2014 = +8. MPPR total: 2014 (8) + 2016 (8) +
 2017 (8) + 2018 (14) + 2021 (9) = 47 DH de 5 edições MPPR. Faltam 69.
 Último MPPR disponível: Concurso 89 (2013). Após, TJ-Juiz/MPGO/MPRJ.
+
+---
+
+### Leva 99 — MPPR Promotor 2014/2016 (Provas Preambulares) — Previdenciário p/ Trabalho
+
+Cada edição MPPR traz 1 questão de Direito Previdenciário no GRUPO 2.
+
+- q1497 = MPPR 2016 Q40 (answer C): previd — INCORRETA: exercente de
+  mandato eletivo é segurado OBRIGATÓRIO (não facultativo) do RGPS.
+  Anchor: Lei 8.213/91 art. 12 I "j" + CF art. 201.
+- q1498 = MPPR 2014 Q40 (answer A): competência — auxílio-acidente /
+  aposentadoria por invalidez por acidente NÃO acidentária = Justiça
+  Federal (ressalvada delegação à JE). Anchor: CF art. 109 I.
+
+Trabalho/Previd agora em **199/200**. Falta 1. MPPR 2017/2018 já usados
+(q1495-q1496). 2014/2016 usados (q1497-q1498). MPPR 2013 sem gabarito
+textual (cartão-resposta imagem) — descartado.

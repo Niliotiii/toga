@@ -1774,4 +1774,22 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "É defeso ao Magistrado, que entender que o Segurado faz jus a benefício distinto daquele requerido na inicial, encaminhar o feito ao juízo competente para examinar a possibilidade de concessão de outra benesse de cunho previdenciário.",
         "Compete à Justiça Federal julgar ação ajuizada por viúva de segurado, aposentado em razão de acidente de trabalho, na qual se pede ao INSS a concessão da respectiva pensão, desde que não haja discussão, próxima ou remota, do acidente de trabalho."
       ], resposta_correta: 4 },
+  { id: "q1497", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2016 — Prova Preambular (gabarito oficial definitivo de 2016, Edital 15/16, com errata do Edital 16/16, prova aplicada em 2016)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "Nos termos do artigo 201, §5º, da Constituição Federal, é vedada a filiação ao regime geral de previdência social, na qualidade de segurado facultativo, de pessoa participante do regime próprio de previdência.",
+        "A universalidade de participação nos planos previdenciários, mediante contribuição; o valor da renda mensal dos benefícios, substitutos do salário de contribuição ou do rendimento do trabalho do segurado (não inferior ao do salário mínimo); o cálculo dos benefícios considerando os salários de contribuição (corrigidos monetariamente); a preservação do valor real dos benefícios; e a previdência complementar facultativa, custeada por contribuição adicional, são princípios e diretrizes da organização da Previdência Social, conforme determina a Lei n. 8.212/1991.",
+        "É segurado facultativo da Previdência Social, como empregado, o exercente de mandato eletivo federal, estadual ou municipal, desde que não vinculado a regime próprio de previdência social.",
+        "O servidor civil ocupante de cargo efetivo ou o militar da União, dos Estados, do Distrito Federal ou dos Municípios, bem como o das respectivas autarquias e fundações, são excluídos do Regime Geral da Previdência Social consubstanciado na Lei n. 8.212/1991, desde que amparados por regime próprio de previdência social.",
+        "Para efeito de aposentadoria, é assegurada a contagem recíproca do tempo de contribuição na administração pública e na atividade privada, rural e urbana, hipótese em que os diversos regimes de previdência social se compensarão financeiramente, segundo critérios estabelecidos em lei."
+      ], resposta_correta: 2 },
+  { id: "q1498", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "As chamadas ações previdenciárias contra o Instituto Nacional do Seguro Social – INSS – podem ser propostas tanto perante a Justiça Federal como perante a Justiça Estadual, em conformidade com o que prevê o art. 109, I, da Constituição Federal. Considerando isso, assinale a alternativa correta:",
+      alternativas: [
+        "A concessão de auxílio-acidente ou aposentadoria por invalidez em razão de acidente de natureza não acidentária deve ser julgada pela Justiça Federal, ressalvada a hipótese constitucional de delegação de competência à Justiça Estadual.",
+        "A concessão de auxílio-acidente ou aposentadoria por invalidez em razão de acidente de natureza não acidentária deve ser julgada pela Justiça Estadual.",
+        "A Justiça Federal não concede auxílio-acidente, apenas auxílio-doença.",
+        "A Justiça Estadual não concede auxílio-acidente, apenas auxílio-doença.",
+        "É nula a sentença e demais atos decisórios da Justiça Estadual que julga ação previdenciária referente a acidente de trabalho."
+      ], resposta_correta: 0 },
 ];
