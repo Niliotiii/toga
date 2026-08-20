@@ -1756,4 +1756,22 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "participação nos lucros da empresa, paga na forma da legislação.",
         "aportes à previdência complementar, quando não extensível a todos os empregados."
       ], resposta_correta: 4 },
+  { id: "q1495", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "O fornecimento de equipamento de proteção individual – EPI ao empregado afasta o direito ao benefício da aposentadoria especial, pois basta para a neutralização dos agentes agressivos.",
+        "A caracterização do tempo de serviço especial obedece à legislação vigente à época em que forem implementados os requisitos para a aposentadoria por tempo de contribuição.",
+        "Para efeito de aposentadoria especial de professores, não se computa o tempo de serviço prestado fora da sala de aula.",
+        "A prescrição do direito de rever ato de aposentadoria, para fins de inclusão de tempo de serviço insalubre, perigoso ou penoso, atinge as parcelas vencidas anteriormente ao quinquênio que antecedeu o ajuizamento da ação.",
+        "É possível, em virtude da desconfiguração da original condição de trabalho da ex-empregadora, a realização de laudo pericial em empresa do mesmo ramo de atividade, com o exame de local com características similares ao daquele laborado pelo obreiro, a fim de apurar a efetiva exposição do segurado aos agentes nocivos, para reconhecimento do direito à contagem de tempo especial de serviço."
+      ], resposta_correta: 4 },
+  { id: "q1496", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "Ressalvados os impedimentos de ordem infraconstitucional, não há óbice constitucional a que o servidor efetivo aposentado compulsoriamente permaneça na função de confiança, no cargo comissionado que já desempenhava ou a que seja nomeado para cargo de livre nomeação e exoneração, uma vez que não se trata de continuidade ou criação de vínculo efetivo com a Administração.",
+        "O aposentado pelo Regime Geral de Previdência Social – RGPS que permanecer em atividade sujeita a este Regime, ou a ele retornar, não fará jus a prestação alguma da Previdência Social em decorrência do exercício dessa atividade, exceto ao auxílio-doença, ao salário-família e à reabilitação profissional, quando empregado.",
+        "Estende-se ao estrangeiro, ainda que em situação irregular, a garantia de um salário-mínimo de benefício mensal, caso idoso ou portador de necessidades especiais, que comprove não possuir meios de prover à própria manutenção ou de tê-la provida por sua família.",
+        "É defeso ao Magistrado, que entender que o Segurado faz jus a benefício distinto daquele requerido na inicial, encaminhar o feito ao juízo competente para examinar a possibilidade de concessão de outra benesse de cunho previdenciário.",
+        "Compete à Justiça Federal julgar ação ajuizada por viúva de segurado, aposentado em razão de acidente de trabalho, na qual se pede ao INSS a concessão da respectiva pensão, desde que não haja discussão, próxima ou remota, do acidente de trabalho."
+      ], resposta_correta: 4 },
 ];

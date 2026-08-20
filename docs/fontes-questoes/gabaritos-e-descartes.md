@@ -4257,3 +4257,29 @@ DH agora em **115/200**. MPPR 2017 = +8 (mais fino que 2018/2021 por ter
 2021 (9) = 31 DH. Próximas fontes MPPR exauridas nesta sessão; explorar
 outras bancas internas (MPMG, MPSC) e MPRJ concursos não minerados
 (XXXVII e anteriores).
+
+---
+
+### Leva 96 — MPPR Promotor 2017/2018 (Provas Preambulares) — Previdenciário para Trabalho
+
+Fonte: MPPR (Comissão de Concurso Interna), Promotor Substituto — 2017 e
+2018. Ambas as Provas Preambulares trazem 1 questão de Direito
+Previdenciário no GRUPO 2 (área Trabalho/Previd no arquivo
+direito-trabalho.ts, conforme padrão do DB).
+
+- q1495 = MPPR 2018 Q47 (answer E): aposentadoria especial — em caso de
+  desconfiguração da condição original de trabalho da ex-empregadora, é
+  possível laudo pericial em empresa do mesmo ramo com características
+  similares para apurar exposição a agentes nocivos e reconhecer tempo
+  especial. Anchor: Súmula 198 TNU / jurisprudência TRF sobre laudo
+  indireto (CPC art. 462; L. 8.213/91 art. 57 §3º).
+- q1496 = MPPR 2017 Q40 (answer E): competência — Justiça Federal julga
+  ação de viúva de segurado aposentado por acidente de trabalho pedindo
+  pensão, SEM discussão do acidente (próxima ou remota). Anchor: Súmula
+  501 STJ + art. 109 CF/88 (sem discussão do acidente, é previdenciário
+  puro -> JF).
+
+Trabalho/Previd agora em **197/200**. Faltam 3. MPPR não tem mais
+questões previdenciárias/trabalhistas (apenas 1 por edição). Próxima
+fonte Trabalho: outro concurso de Juiz Federal/TRT/TJ com bloco
+trabalhista, ou Cebraspe (MPU/AGU).
