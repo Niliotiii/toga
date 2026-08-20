@@ -838,4 +838,130 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "É correto afirmar que o termo multiculturalismo guarda ressonância plena com a ideia de diálogo intercultural.",
         "Entre outros documentos, a Constituição mexicana de 1917, a Constituição alemã de Weimar de 1919 e, no Direito Internacional, o Tratado de Versalhes, são marcos dos direitos humanos de segunda dimensão."
       ], resposta_correta: 4 },
+  { id: "q1488", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Entre as garantias de prioridade estabelecidas expressamente pelo Estatuto da Criança e do Adolescente (art. 4º, parágrafo único, da Lei n. 8.069/90), não há previsão de:",
+      alternativas: [
+        "Primazia de receber proteção e socorro em quaisquer circunstâncias.",
+        "Precedência de atendimento nos serviços públicos ou de relevância pública.",
+        "Destinação privilegiada de recursos públicos nas áreas relacionadas com a proteção à infância e à juventude.",
+        "Viabilização prioritária de formas alternativas de participação, ocupação e convívio com as demais gerações.",
+        "Preferência na formulação e na execução das políticas sociais públicas."
+      ], resposta_correta: 3 },
+  { id: "q1489", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos do Estatuto da Criança e do Adolescente (Lei n. 8.069/90), assinale a alternativa correta:",
+      alternativas: [
+        "A autoridade judiciária manterá, em cada comarca ou foro regional, um registro de crianças e adolescentes em condições de serem adotados e outro de pessoas interessadas na adoção.",
+        "O vínculo da adoção constitui-se por inscrição no registro civil.",
+        "A desistência do pretendente em relação à guarda para fins de adoção ou a devolução da criança ou do adolescente depois do trânsito em julgado da sentença de adoção importará na sua exclusão dos cadastros de adoção e na vedação de renovação da habilitação, de forma irreversível.",
+        "A adoção deve ser deferida quando representar vantagens para o adotando, sendo despiciendo aquilatar-se a existência de motivos legítimos.",
+        "Em observância ao princípio da proteção integral, a preferência das pessoas cronologicamente cadastradas para adotar determinada criança é absoluta."
+      ], resposta_correta: 0 },
+  { id: "q1490", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "O Estatuto da Criança e do Adolescente (Lei n. 8.069/90) não veda que lei municipal estabeleça mecanismos internos e externos de controle da atuação dos conselheiros tutelares individualmente considerados, regulamentando a forma de aplicação de sanções administrativas àqueles que, por ação ou omissão, descumprem seus deveres funcionais.",
+        "O sistema de garantias dos direitos da criança e do adolescente, concebido pela Lei n. 8.069/90, não é hierarquizado, havendo apenas profissionais e autoridades diversas com funções distintas.",
+        "É de atribuição do Conselho Tutelar assessorar o Poder Executivo local na elaboração da proposta orçamentária para planos e programas de atendimento dos direitos da criança e do adolescente.",
+        "O processo de escolha dos membros do Conselho Tutelar deve ser estabelecido em resolução do Conselho Municipal dos Direitos da Criança e do Adolescente e realizado sob a responsabilidade do Poder Judiciário, com a fiscalização do Ministério Público.",
+        "Os dirigentes de estabelecimentos de ensino fundamental devem comunicar ao Conselho Tutelar os casos de reiteração de faltas injustificadas e de evasão escolar, esgotados os recursos escolares."
+      ], resposta_correta: 3 },
+  { id: "q1491", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "A investigação do fato e o atendimento de criança a quem se imputa a prática de ato infracional é de responsabilidade exclusiva do Conselho Tutelar.",
+        "Como a tônica do procedimento para apuração de ato infracional é a celeridade, mostra-se viável a desistência de outras provas em face da confissão do adolescente.",
+        "Toda ação socioeducativa é pública incondicionada, e o Ministério Público é o seu titular exclusivo, não havendo que se falar em ação socioeducativa privada, ainda que em caráter subsidiário.",
+        "Em sede de aplicação de medida socioeducativa, havendo confissão, deve-se atenuar a imposição da medida.",
+        "O cálculo da prescrição de medida socioeducativa aplicada com ou sem prazo de duração certo, por analogia, deve ter em vista o limite de 3 (três) anos previsto para a duração máxima da medida de internação."
+      ], resposta_correta: 2 },
+  { id: "q1492", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos do que expressamente estabelece a Lei n. 8.069/90 (Estatuto da Criança e do Adolescente), assinale a alternativa incorreta. É medida aplicável aos pais ou responsável:",
+      alternativas: [
+        "Obrigação de encaminhar a criança ou adolescente a tratamento especializado.",
+        "Comparecimento em juízo, no prazo e nas condições fixadas pelo juiz, para informar e justificar as atividades.",
+        "Advertência.",
+        "Perda da guarda.",
+        "Destituição da tutela."
+      ], resposta_correta: 1 },
+  { id: "q1493", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos do que expressamente estabelece a Lei n. 8.069/90 (Estatuto da Criança e do Adolescente), assinale a alternativa incorreta:",
+      alternativas: [
+        "É direito dos pais ou responsáveis ter ciência do processo pedagógico, bem como participar da definição das propostas educacionais.",
+        "É dever do Estado assegurar atendimento em creche e pré-escola às crianças de zero a cinco anos de idade.",
+        "É assegurado às crianças e aos adolescentes o direito de contestar critérios avaliativos, podendo recorrer às instâncias escolares superiores.",
+        "No processo educacional respeitar-se-ão os valores culturais, artísticos e históricos próprios do contexto social da criança e do adolescente, garantindo-se a estes a liberdade da criação e o acesso às fontes de cultura.",
+        "Entende-se por trabalho educativo a atividade laboral em que prevalecem as exigências pedagógicas relativas ao desenvolvimento profissional e produtivo do educando."
+      ], resposta_correta: 4 },
+  { id: "q1494", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos da Lei n. 13.146/2015 (Estatuto da Pessoa com Deficiência), assinale a alternativa correta:",
+      alternativas: [
+        "Nos programas habitacionais, públicos ou subsidiados com recursos públicos, a pessoa com deficiência ou o seu responsável goza de prioridade na aquisição de imóvel para moradia própria. Referido direito à prioridade será reconhecido à pessoa com deficiência beneficiária apenas uma vez.",
+        "O consentimento prévio, livre e esclarecido da pessoa com deficiência é indispensável para a realização de tratamento, procedimento e pesquisa científica e dispensável para a hospitalização.",
+        "Considerando a livre escolha e autonomia dos contratantes, é possível a cobrança de valores diferenciados por planos e seguros privados de saúde em razão da condição de pessoa com deficiência, desde que não abusivos.",
+        "É assegurado à pessoa com deficiência, independente de solicitação, o recebimento de contas, boletos, recibos, extratos e cobranças de tributos em formato acessível.",
+        "Considera-se acompanhante aquele que acompanha a pessoa com deficiência desempenhando as funções de atendente pessoal."
+      ], resposta_correta: 0 },
+  { id: "q1495", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos da Lei n. 13.146/2015 (Estatuto da Pessoa com Deficiência), assinale a alternativa incorreta:",
+      alternativas: [
+        "Os hotéis, pousadas e similares devem ser construídos observando-se os princípios do desenho universal, além de adotar todos os meios de acessibilidade, conforme legislação em vigor. Os estabelecimentos já existentes deverão disponibilizar, pelo menos, 10% (dez por cento) de seus dormitórios acessíveis, garantida, no mínimo, 1 (uma) unidade acessível.",
+        "Em todas as áreas de estacionamento aberto ao público, de uso público ou privado de uso coletivo e em vias públicas, devem ser reservadas vagas equivalente a 10% (dez por cento) do total, garantida, no mínimo, 1 (uma) vaga devidamente sinalizada e com as especificações de desenho e traçado de acordo com as normas técnicas vigentes de acessibilidade.",
+        "As frotas de empresas de táxi devem reservar 10% (dez por cento) de seus veículos acessíveis à pessoa com deficiência.",
+        "Na outorga de exploração de serviço de táxi, reservar-se-ão 10% (dez por cento) das vagas para condutores com deficiência.",
+        "Telecentros comunitários que receberem recursos públicos federais para seu custeio ou sua instalação e lan houses devem possuir equipamentos e instalações acessíveis, devendo garantir, no mínimo, 10% (dez por cento) de seus computadores com recursos de acessibilidade para pessoa com deficiência visual, sendo assegurado pelo menos 1 (um) equipamento, quando o resultado percentual for inferior a 1 (um)."
+      ], resposta_correta: 1 },
+  { id: "q1496", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos do que expressamente estabelece a Lei n. 10.741/2003 (Estatuto do Idoso), assinale a alternativa incorreta. É princípio que deve ser adotado pelas entidades que desenvolvam programas de institucionalização de longa permanência:",
+      alternativas: [
+        "Preservação dos vínculos familiares.",
+        "Manutenção do idoso na mesma instituição, salvo em caso de força maior.",
+        "Participação do idoso nas atividades comunitárias, de caráter interno e externo.",
+        "Atendimento personalizado e em pequenos grupos.",
+        "Preparação gradativa para o desligamento."
+      ], resposta_correta: 4 },
+  { id: "q1497", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos do que expressamente estabelece a Lei n. 10.741/2003 (Estatuto do Idoso), assinale a alternativa correta. Para as ações cíveis fundadas em interesses difusos, coletivos, individuais indisponíveis ou homogêneos, consideram-se legitimados, concorrentemente:",
+      alternativas: [
+        "O Ministério Público, a União, os Estados, o Distrito Federal e os Municípios, a Ordem dos Advogados do Brasil e as associações legalmente constituídas há pelo menos 1 (um) ano e que incluam entre os fins institucionais a defesa dos interesses e direitos da pessoa idosa, dispensada a autorização da assembleia, se houver prévia autorização estatutária.",
+        "O Ministério Público, a Defensoria Pública, a União, os Estados, o Distrito Federal e os Municípios e as associações legalmente constituídas, independentemente do prazo de constituição e funcionamento.",
+        "O Ministério Público, a União, os Estados, o Distrito Federal e os Municípios, a Defensoria Pública e as associações legalmente constituídas há pelo menos 1 (um) ano e que incluam entre os fins institucionais a defesa dos interesses e direitos da pessoa idosa, dispensada a autorização da assembleia, se houver prévia autorização estatutária.",
+        "O Ministério Público, a Ordem dos Advogados do Brasil e as associações legalmente constituídas, independentemente do prazo de constituição e funcionamento.",
+        "O Ministério Público, a Defensoria Pública e as associações legalmente constituídas há pelo menos 1 (um) ano e que incluam entre os fins institucionais a defesa dos interesses e direitos da pessoa idosa, dispensada a autorização da assembleia, se houver prévia autorização estatutária."
+      ], resposta_correta: 0 },
+  { id: "q1498", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "A edição da Declaração Universal de Direitos Humanos foi o marco da universalidade e inerência dos direitos humanos.",
+        "A teoria crítica dos direitos humanos objetiva a formulação de uma teoria geral dos direitos humanos apta a ser aplicada, a priori, a todos os contextos existentes no planeta.",
+        "Segundo o Estatuto da Igualdade Racial (Lei n. 12.288/2010), ações afirmativas são programas e medidas especiais adotados pelo Estado e pela iniciativa privada para a correção das desigualdades raciais e para a promoção da igualdade de oportunidades.",
+        "Qualquer pessoa ou grupo de pessoas, ou entidade não-governamental legalmente reconhecida em um ou mais Estados membros da Organização dos Estados Americanos, pode apresentar à Comissão Interamericana petições que contenham denúncias ou queixas de violação à Convenção Americana de Direitos Humanos por um Estado Parte.",
+        "Os direitos humanos caracterizam-se pela existência da proibição de retrocesso, também chamada de \"efeito cliquet\"."
+      ], resposta_correta: 1 },
+  { id: "q1499", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "A Opinião Consultiva nº 24, da Corte Interamericana de Direitos Humanos, assentou que o nome e a menção a sexo nos documentos de registro de acordo com a identidade de gênero autopercebida não são garantias atualmente protegidas pela Convenção Americana de Direitos Humanos.",
+        "O Estatuto da Igualdade Racial (Lei n. 12.288/2010) destina-se, principalmente, à criminalização e ao sancionamento de condutas discriminatórias.",
+        "Nos termos da Convenção Contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes, é possível admitir-se a comprovação de existência de circunstâncias excepcionais, tais como ameaça ou estado de guerra e instabilidade política interna, como justificação para tortura.",
+        "A Política Nacional para a População em Situação de Rua (Decreto n. 7.053/09) deve ser implementada pelos municípios, de forma centralizada.",
+        "Conforme a Lei de Migração (Lei n. 13.445/2017), ao migrante é garantida no território nacional, em condição de igualdade com os nacionais, a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, bem como é assegurado, entre outros, o direito a abertura de conta bancária."
+      ], resposta_correta: 4 },
+  { id: "q1500", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Assinale a alternativa incorreta. Nos termos da Convenção Interamericana para Prevenir, Punir e Erradicar a Violência contra a Mulher:",
+      alternativas: [
+        "Nenhuma das disposições da referida Convenção poderá ser interpretada no sentido de restringir ou limitar as da Convenção Americana sobre Direitos Humanos ou de qualquer outra convenção internacional que ofereça proteção igual ou maior nesta matéria.",
+        "Os Estados partes devem adotar medidas apropriadas para eliminar a discriminação contra a mulher praticada por qualquer pessoa ou organização pública, respeitada a autonomia conferida às atividades empresariais.",
+        "O direito de toda mulher a ser livre de violência abrange, entre outros, o direito da mulher a ser valorizada e educada livre de padrões estereotipados de comportamento e costumes sociais e culturais baseados em conceitos de inferioridade ou subordinação.",
+        "Os Estados Partes convêm em adotar, progressivamente, medidas específicas, inclusive programas destinados a prestar serviços especializados apropriados a mulher sujeitada a violência, por intermédio de entidades dos setores público e privado, inclusive abrigos, serviços de orientação familiar, quando for o caso, e atendimento e custódia dos menores afetados.",
+        "Entre os direitos assegurados a toda mulher encontra-se o direito à liberdade de professar a própria religião e as próprias crenças, de acordo com a lei."
+      ], resposta_correta: 1 },
+  { id: "q1501", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2018 — Prova Preambular (gabarito oficial definitivo de 28/01/2019, Edital 03/2019, prova aplicada em 13/01/2019)",
+      enunciado: "Nos termos da Lei n. 6.001/73 (Estatuto do Índio), assinale a alternativa incorreta. Cumpre à União, aos Estados e aos Municípios, bem como aos órgãos das respectivas administrações indiretas, nos limites de sua competência, para a proteção das comunidades indígenas e a preservação dos seus direitos:",
+      alternativas: [
+        "Garantir aos índios a permanência voluntária no seu habitat, proporcionando-lhes ali recursos para seu desenvolvimento e progresso.",
+        "Assegurar aos índios a possibilidade de livre escolha dos seus meios de vida e subsistência.",
+        "Estimular o processo de integração do índio à comunhão nacional.",
+        "Garantir aos índios o pleno exercício dos direitos civis e políticos que em face da legislação lhes couberem.",
+        "Executar, sempre que possível mediante a colaboração dos índios, os programas e projetos tendentes a beneficiar as comunidades indígenas."
+      ], resposta_correta: 2 },
 ];

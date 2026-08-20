@@ -4102,3 +4102,96 @@ produtivo (5-9 DH/prova), com PDFs públicos sem gatekeeping. Próxima
 fonte sugerida: MPPR 2018 (Concurso 95) — mesma estrutura, mesmo
 portal público. Outras bancas internas estaduais a explorar: MPMG,
 MPSC, MPRS, MPBA, MPPE.
+
+---
+
+### Leva 94 — MPPR Promotor Substituto 2018 (Concurso 95) — DH
+
+Fonte: MPPR (Comissão de Concurso Interna), Concurso para Ingresso na
+Carreira do Ministério Público do Estado do Paraná, Promotor Substituto —
+2018 — Prova Preambular. Prova aplicada em 13/01/2019. Gabarito oficial
+definitivo de 28/01/2019 (Edital 03/2019).
+
+URLs (portal público, sem gatekeeping):
+- Prova Preambular: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/provapreambular2018.pdf
+- Gabarito definitivo: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/Edital_03_2019_-_gabarito_oficial_definitivo.pdf
+- Detalhes: https://apps.mppr.mp.br/concursos/concursos/detalhes_concurso/95
+
+Estrutura GRUPO 5 da prova (125 questões): 6 Infância/Educação (Q96-101),
+6 Patrimônio, 5 Ambiental/Urbanismo, 5 ACP, 2 PCD (Q118-119), 2 Idoso
+(Q120-121), 4 Direitos Humanos (Q122-125). Extraídas as 14 DH-relevantes:
+
+- q1488 = Q96 (answer D): ECA art. 4º §único prioridades — NÃO há
+  previsão de "viabilização prioritária de formas alternativas de
+  participação, ocupação e convívio com as demais gerações". Anchor:
+  ECA art. 4º §único (Lei 8.069/90) — incisos I-V são os 4 reais.
+- q1489 = Q97 (answer A): ECA — autoridade judiciária mantém registro
+  de crianças/adolescentes em condições de adoção E de interessados.
+  Anchor: ECA art. 50 §1º / art. 159 (cadastros separados).
+- q1490 = Q98 (answer D): ECA — INCORRETA: escolha dos membros do
+  Conselho Tutelar é por lei municipal (não resolução do CMDCA), sob
+  responsabilidade do Poder Executivo local (não PJ). Anchor: ECA art.
+  132 + art. 139 §2º (eleição pelo CMDCA; redação dada pela Lei
+  12.696/2012). Demais alts. ancoradas em ECA arts. 131, 136, 56.
+- q1491 = Q99 (answer C): ECA — ação socioeducativa é pública
+  incondicionada, MP titular exclusivo, INEXISTE ação socioeducativa
+  privada. Anchor: ECA art. 152 + art. 190.
+- q1492 = Q100 (answer B): ECA — INCORRETA: "comparecimento em juízo
+  para informar e justificar atividades" NÃO é medida aplicável aos
+  pais/responsável (é do art. 129, incisos de proteção, mas o
+  "comparecimento para informar e justificar atividades" não consta do
+  rol do art. 129). Anchor: ECA art. 129 (rol de medidas).
+- q1493 = Q101 (answer E): ECA — INCORRETA: "trabalho educativo =
+  exigências pedagógicas relativas ao desenvolvimento PROFISSIONAL E
+  PRODUTUTIVO" é ERRADO; trabalho educativo é atividade laboral em que
+  prevalecem exigências pedagógicas relativas ao CARÁTER FORMATIVO do
+  educando. Anchor: ECA art. 143 §3º (Lei 12.594/2012).
+- q1494 = Q118 (answer A): LBI — prioridade em programa habitacional
+  reconhecida à PCD beneficiária apenas uma vez. Anchor: LBI (Lei
+  13.146/2015) art. 28 §1º.
+- q1495 = Q119 (answer B): LBI — INCORRETA: vagas de estacionamento
+  reservadas são 5% (não 10%). Anchor: LBI art. 45 (5% das vagas).
+- q1496 = Q120 (answer E): Estatuto do Idoso — INCORRETA: "preparação
+  gradativa para o desligamento" NÃO é princípio das entidades de
+  longa permanência; o correto é "preparação gradativa para o
+  desligamento" — verificado: gabarito aponta E, ou seja E é a
+  incorreta (a redação do art. 16 não traz "preparação gradativa para
+  o desligamento" — traz "manutenção do idoso na mesma instituição"
+  etc.). Anchor: Lei 10.741/2003 art. 16 (incisos I-VIII).
+- q1497 = Q121 (answer A): Estatuto do Idoso — legitimação concorrente
+  para ações coletivas = MP + União/Estados/DF/Municípios + OAB +
+  associações (1 ano, fins institucionais, dispensa assembleia se
+  prévia autorização estatutária). Anchor: Lei 10.741/2003 art. 74.
+- q1498 = Q122 (answer B): DH — INCORRETA: teoria crítica dos DH NÃO
+  objetiva teoria geral aplicável a priori a todos os contextos (isso
+  é universalismo abstrato); teoria crítica é contextualizada. Demais
+  alts. ancoradas em DUDH, Lei 12.288/2010 art. 3º, CADH art. 44,
+  efeito cliquet.
+- q1499 = Q123 (answer E): Lei de Migração (Lei 13.445/2017) art. 3º
+  — inviolabilidade direitos + direito a abertura de conta bancária.
+  Anchor: Lei 13.445/2017 art. 3º §1º.
+- q1500 = Q124 (answer B): Convenção Belém do Pará (Convenção
+  Interamericana para Prevenir, Punir e Erradicar a Violência contra a
+  Mulher) — INCORRETA: "respeitada a autonomia conferida às atividades
+  empresariais" NÃO consta da Convenção (art. 7 não faz essa
+  ressalva). Anchor: Convenção de Belém do Pará art. 7.
+- q1501 = Q125 (answer C): Estatuto do Índio (Lei 6.001/73) —
+  INCORRETA: "estimular o processo de integração do índio à comunhão
+  nacional" como dever de PROTEÇÃO contradiz o paradigma
+  pós-1988/Convenção 169 (autodeterminação). Gabarito definitivo
+  aponta C. Anchor: Lei 6.001/73 art. 1º ( rol de deveres de
+  proteção).
+
+**Descartes**:
+- Anuladas (per gabarito Edital 03/2019): Q17, Q30, Q37, Q67, Q102.
+  Q102 (improbidade) seria área Patrimônio, não DH. Nenhuma anulada
+  entre as 14 extraídas.
+- Q102 gabarito alterado (D**): irrelevant para DH block.
+- Demais Grupo 5 (Patrimônio Q102-107, ACP/popular Q107-117,
+  Ambiental Q108-112, Urbanismo Q113, ACP/CNMP Q113-117): não DH.
+
+DH agora em **107/200**. MPPR 2018 = +14 (superou MPPR 2021 que deu +9).
+Padrão banca-interna-MPPR confirmado novamente: GRUPO 5 dedicado com
+blocos Infância + PCD + Idoso + DH. Próxima fonte sugerida: MPPR
+Concurso 94 (2015) ou 96 — mesma estrutura. Outras bancas internas
+estaduais: MPMG, MPSC, MPRS, MPBA, MPPE.
