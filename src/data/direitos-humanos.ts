@@ -1108,4 +1108,76 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Estão corretas somente as assertivas I, IV e V;",
         "Todas as assertivas estão incorretas."
       ], resposta_correta: 3 },
+  { id: "q1518", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "No que diz respeito ao direito à profissionalização e à proteção ao trabalho, assinale a alternativa incorreta:",
+      alternativas: [
+        "Ao adolescente empregado, aprendiz, em regime familiar de trabalho, aluno de escola técnica, assistido em entidade governamental ou não-governamental, é vedado trabalho noturno, realizado entre as vinte e duas horas de um dia e as cinco horas do dia seguinte.",
+        "Ao adolescente aprendiz, maior de quatorze anos, são assegurados os direitos trabalhistas e previdenciários.",
+        "Ao adolescente até quatorze anos de idade é assegurada bolsa de aprendizagem.",
+        "Ao adolescente portador de deficiência é assegurado trabalho protegido.",
+        "O programa social que tenha por base o trabalho educativo, sob responsabilidade de entidade governamental ou não-governamental sem fins lucrativos, deverá assegurar ao adolescente que dele participe condições de capacitação para o exercício de atividade regular remunerada."
+      ], resposta_correta: 2 },
+  { id: "q1519", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "Quanto aos direitos reconhecidos aos membros do Conselho Tutelar pela Lei n. 8.069/90 (após o advento da Lei n. 12.696/2012), assinale a alternativa incorreta:",
+      alternativas: [
+        "Férias remuneradas, acrescidas de 1/3 (um terço) do valor da remuneração mensal.",
+        "Licenças maternidade e paternidade.",
+        "Gratificação natalina.",
+        "Jornada semanal de 40 (quarenta) horas.",
+        "Cobertura previdenciária."
+      ], resposta_correta: 3 },
+  { id: "q1520", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "Acerca da Lei n. 12.594/2012, que institui o Sistema Nacional de Atendimento Socioeducativo - SINASE, assinale a alternativa incorreta:",
+      alternativas: [
+        "É assegurado ao adolescente casado ou que viva, comprovadamente, em união estável o direito à visita íntima.",
+        "Para garantir a oferta de programa de atendimento socioeducativo de meio aberto, os Municípios podem instituir consórcios, ou usar de qualquer outro instrumento jurídico adequado, como forma de compartilhar responsabilidades entre os mesmos.",
+        "É dever da União, dos Estados, dos Municípios e do DF elaborar seus Planos de Atendimento Socioeducativo, incluindo um diagnóstico da situação do SINASE, as diretrizes, os objetivos, as metas, as prioridades e as formas de financiamento e gestão das ações de atendimento para os 10 (dez) anos seguintes.",
+        "Os Planos de Atendimento Socioeducativo deverão, obrigatoriamente, prever ações articuladas nas áreas de educação, saúde, assistência social, cultura, capacitação para o trabalho e esporte, para os adolescentes atendidos.",
+        "A Lei n. 12.594/2012 reconhece que a execução da política socioeducativa é de responsabilidade do setor de assistência social, devendo as medidas socioeducativas em meio aberto ser executadas pelos CREAS dos municípios ou, na falta destes, pelos CRAS."
+      ], resposta_correta: 4 },
+  { id: "q1521", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "No que tange aos princípios previstos no art. 100, do Estatuto da Criança e do Adolescente, que regem a aplicação de medidas de proteção a crianças e adolescentes, assinale a alternativa incorreta:",
+      alternativas: [
+        "Responsabilidade primária e solidária do poder público: a plena efetivação dos direitos assegurados a crianças e a adolescentes por esta Lei e pela Constituição Federal, salvo nos casos por esta expressamente ressalvados, é de responsabilidade primária e solidária das 3 (três) esferas de governo, sem prejuízo da municipalização do atendimento e da possibilidade da execução de programas por entidades não governamentais.",
+        "Afastamento preventivo: crianças e adolescentes cujos direitos estiverem sendo violados pelos pais ou integrantes da família extensa devem ser cautelarmente afastados do convívio familiar, como forma de preservar sua integridade física, moral e psíquica.",
+        "Proporcionalidade e atualidade: a intervenção deve ser a necessária e adequada à situação de perigo em que a criança ou o adolescente se encontram no momento em que a decisão é tomada.",
+        "Intervenção mínima: a intervenção deve ser exercida exclusivamente pelas autoridades e instituições cuja ação seja indispensável à efetiva promoção dos direitos e à proteção da criança e do adolescente.",
+        "Oitiva obrigatória e participação: a criança e o adolescente, em separado ou na companhia dos pais, de responsável ou de pessoa por si indicada, bem como os seus pais ou responsável, têm direito a ser ouvidos e a participar nos atos e na definição da medida de promoção dos direitos e de proteção, sendo sua opinião devidamente considerada pela autoridade judiciária competente."
+      ], resposta_correta: 1 },
+  { id: "q1522", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "Acerca dos Conselhos de Direitos da Criança e do Adolescente, assinale a alternativa incorreta:",
+      alternativas: [
+        "Suas decisões, desde que obedecido o trâmite regimental e devidamente publicadas, por meio de Resolução ou ato equivalente, vinculam o gestor público em seu respectivo nível de atuação.",
+        "Detêm a prerrogativa de selecionar os projetos destinados ao atendimento de crianças e adolescentes que serão contemplados com recursos dos Fundos Especiais para a Infância e Adolescência - FIAs.",
+        "Sua composição deve ser necessariamente paritária, entre representantes do governo e da sociedade civil organizada.",
+        "Seus integrantes, embora não remunerados, respondem como \"agentes públicos\", para os fins da Lei n. 8.429/92 (Lei de Improbidade Administrativa) e como \"funcionários públicos\" para fins penais.",
+        "São órgãos consultivos, aos quais incumbe sugerir ao Poder Executivo a implementação de políticas públicas em prol de crianças, adolescentes e famílias em situação de risco pessoal, familiar ou social."
+      ], resposta_correta: 4 },
+  { id: "q1523", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "Quanto à educação, é facultativo o oferecimento de programas de educação especial a nível pré-escolar, em unidades hospitalares e congêneres nas quais estejam internados, por prazo igual ou superior a 1 (um) ano, educandos com deficiência.",
+        "A legislação pátria ainda se ressente da ausência de previsão de garantia de atendimento domiciliar de saúde à pessoa com deficiência grave não internada.",
+        "A discriminação por motivo de deficiência significa qualquer diferenciação, exclusão ou restrição baseada em deficiência, com o propósito ou efeito de impedir ou impossibilitar o reconhecimento, o desfrute ou o exercício, em igualdade de oportunidades com as demais pessoas, de todos os direitos humanos e liberdades fundamentais nas esferas política, econômica, social, cultural, civil ou qualquer outra. Abrange todas as formas de discriminação, inclusive a recusa de adaptação razoável.",
+        "A construção de edificações de uso privado multifamiliar está dispensada de atender aos preceitos da acessibilidade na interligação de partes de uso comum ou abertas ao público, bem como acessos, piscinas, andares de recreação, salão de festas e reuniões, saunas e banheiros, quadras esportivas, portarias, estacionamentos e garagens.",
+        "Quando se fala em atendimento prioritário e diferenciado, está excluído o mobiliário de recepção e atendimento adaptado à altura e à condição física de pessoas em cadeira de rodas, conforme estabelecido nas normas técnicas de acessibilidade da ABNT."
+      ], resposta_correta: 2 },
+  { id: "q1524", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "O direito ao respeito consiste também na preservação de objetos pessoais do idoso.",
+        "Com a finalidade de coibir o preconceito, constitui infração administrativa negar a alguém, por motivo de idade, emprego ou trabalho.",
+        "É correto afirmar que o conjunto legislativo priorizou o atendimento do idoso em sua família, seguido das formas alternativas ao asilamento e, por último, a institucionalização.",
+        "O envelhecimento é um direito personalíssimo.",
+        "Dificultar o acesso do idoso a operações bancárias, por motivo de idade, é crime com pena de 6 (seis) meses a 1 (um) ano e multa."
+      ], resposta_correta: 1 },
+  { id: "q1525", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2014 — Prova Preambular (gabarito oficial definitivo de 13/10/2014, Edital 11/14)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "Nos estabelecimentos de ensino fundamental, de ensino médio e de ensino superior, públicos e privados, é obrigatório o estudo da história geral da África e da história da população negra no Brasil.",
+        "O direito à liberdade de consciência e de crença e ao livre exercício dos cultos religiosos de matriz africana compreende a comunicação ao Ministério Público para a abertura de ação penal em face de atitudes e práticas de intolerância religiosa nos meios de comunicação e em quaisquer outros locais.",
+        "A Lei Estadual n. 7.238/2006, ao tratar de concurso público, estabelece que o candidato portador de necessidades especiais, em razão da necessária igualdade de condições, concorrerá a todas as vagas, sendo reservado no mínimo o percentual de cinco por cento em face da classificação obtida.",
+        "Ficará sujeito às penas de multa e de prestação de serviços à comunidade, incluindo atividades de promoção da igualdade racial, quem, em anúncios ou qualquer outra forma de recrutamento de trabalhadores, exigir aspectos de aparência próprios de raça ou etnia para empregos cujas atividades não justifiquem essas exigências.",
+        "Os programas de ação afirmativa constituem-se em políticas públicas destinadas a reparar as distorções e desigualdades sociais e demais práticas discriminatórias adotadas, nas esferas pública e privada, durante o processo de formação do País."
+      ], resposta_correta: 0 },
 ];

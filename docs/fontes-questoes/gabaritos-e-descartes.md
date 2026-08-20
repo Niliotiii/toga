@@ -4341,3 +4341,62 @@ DH agora em **123/200**. MPPR 2016 = +8. MPPR total: 2016 (8) + 2017 (8) +
 (Concursos 89/92) para possível mineração futura. Para fechar +77 restante,
 necessárias novas bancas (MPGO não-mined, MPMG/MPSC bloqueadas por login/
 gabarito-only, TJ-Juiz de outras unidades).
+
+---
+
+### Leva 98 — MPPR Promotor Substituto 2014 (Concurso 92) — DH
+
+Fonte: MPPR (Comissão de Concurso Interna), Concurso para Ingresso na
+Carreira do Ministério Público do Estado do Paraná, Promotor Substituto —
+2014 — Prova Preambular. Gabarito oficial definitivo de 13/10/2014 (Edital
+11/14). 100 questões.
+
+URLs:
+- Prova: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/PREMBULAR_2014.pdf
+- Gabarito: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/edital_11_divulga__o_gabaritodefinitivo.pdf
+
+GRUPO 5: 5 Infância (Q81-85) + 4 Patrimônio (Q86-89) + 3 Ambiental +
+3 ACP/IC + 3 PCD/Idoso/DH (Q96-98) + 2 Habitação/Urbanismo. Extraídas 8
+DH-relevantes (Q80 omitido por ser SUS puro, não DH):
+
+- q1518 = Q81 (answer C): ECA — INCORRETA: bolsa de aprendizagem é
+  assegurada ao adolescente ATÉ quatorze anos? Não, aprendizagem é
+  a partir de 14 anos (art. 60 ECA + CLT 428). Anchor: ECA arts. 60,
+  61, 62.
+- q1519 = Q82 (answer D): ECA — INCORRETA: jornada do Conselho Tutelar
+  é de 40h? Após Lei 12.696/2012, o art. 134 ECA fixa a jornada de 40h
+  SIM. Mas gabarito aponta D como incorreta — verificado: o "direito"
+  reconhecido é de 40h (correto), enquanto a alternativa D é "jornada
+  semanal de 40 horas" — o gabarito diz D é a incorreta. Anchor: ECA
+  art. 134 §1º (Lei 12.696/2012). Re-check: art. 134 §1º de fato diz
+  "jornada de 40 horas". Gabarito definitivo Edital 11/14 aponta D.
+  Possível erro na prova (questão pedia "incorreta" e D é a única
+  falsa no contexto de 2014 pós-lei). Mantido conforme gabarito.
+- q1520 = Q83 (answer E): SINASE — INCORRETA: política socioeducativa
+  NÃO é de responsabilidade do setor de assistência social (é do
+  SINASE/intersetorial). Anchor: Lei 12.594/2012 arts. 1º, 2º.
+- q1521 = Q84 (answer B): ECA — INCORRETA: "afastamento preventivo"
+  como princípio NÃO está no art. 100. Anchor: ECA art. 100 §único
+  (incisos I-XIII, não inclui "afastamento preventivo").
+- q1522 = Q85 (answer E): ECA — INCORRETA: Conselhos de Direitos (CMDCA)
+  são órgãos DELIBERATIVOS (não apenas consultivos). Anchor: ECA art.
+  88 II + Lei 8.242/1991.
+- q1523 = Q96 (answer C): LBI — discriminação por deficiência = definição
+  correta da Convenção ONU art. 2 + LBI art. 4. Anchor: Convenção ONU
+  PCD art. 2; LBI art. 4.
+- q1524 = Q97 (answer B): Estatuto do Idoso — INCORRETA: negar emprego
+  por motivo de idade é CRIME (não só infração administrativa). Anchor:
+  Lei 10.741/2003 art. 98.
+- q1525 = Q98 (answer A): Igualdade Racial — INCORRETA: obrigatório
+  estudo da história geral da África e população negra? O correto é
+  "história da África e dos africanos" + "luta dos negros no Brasil"
+  (Lei 10.639/03 alterada pela 11.645/08). Demais alts. com base no
+  Estatuto da Igualdade Racial (Lei 12.288/2010).
+
+**Descartes**:
+- Anuladas: Q17, Q20, Q36, Q46, Q66, Q94. Nenhuma no bloco DH.
+- Q80 (SUS competências, não DH). Q79 (saúde trabalhador, não DH).
+
+DH agora em **131/200**. MPPR 2014 = +8. MPPR total: 2014 (8) + 2016 (8) +
+2017 (8) + 2018 (14) + 2021 (9) = 47 DH de 5 edições MPPR. Faltam 69.
+Último MPPR disponível: Concurso 89 (2013). Após, TJ-Juiz/MPGO/MPRJ.
