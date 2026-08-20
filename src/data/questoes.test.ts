@@ -40,4 +40,16 @@ describe("QUESTOES_DB", () => {
       expect(count).toBeGreaterThan(0);
     });
   });
+
+  test("question ids are globally unique across all themes", () => {
+    // The `id` field is used as a dedup key in gameLogic (new Set(ids)) and
+    // as an identity guard in GameContext (currQ.id !== q.id). Two different
+    // questions sharing an id is a latent cross-theme bug. This test catches
+    // accidental reuse of an id that another theme file already claimed —
+    // which happened historically when themes were numbered from the same
+    // base range without checking other files.
+    const ids = QUESTOES_DB.map((q) => q.id);
+    const duplicates = ids.filter((id, i) => ids.indexOf(id) !== i);
+    expect(duplicates).toEqual([]);
+  });
 });
