@@ -4195,3 +4195,65 @@ Padrão banca-interna-MPPR confirmado novamente: GRUPO 5 dedicado com
 blocos Infância + PCD + Idoso + DH. Próxima fonte sugerida: MPPR
 Concurso 94 (2015) ou 96 — mesma estrutura. Outras bancas internas
 estaduais: MPMG, MPSC, MPRS, MPBA, MPPE.
+
+---
+
+### Leva 95 — MPPR Promotor Substituto 2017 (Concurso 94) — DH
+
+Fonte: MPPR (Comissão de Concurso Interna), Concurso para Ingresso na
+Carreira do Ministério Público do Estado do Paraná, Promotor Substituto —
+2017 — Prova Preambular. Gabarito oficial definitivo de 07/06/2017
+(Edital 18/2017) — 100 questões.
+
+URLs (portal público):
+- Prova Preambular: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/Prova_Preambular2.pdf
+- Gabarito definitivo: https://apps.mppr.mp.br/concursos/index.php/concursos/download_arquivo/Edital_18__gabarito_DEFINITIVO.pdf
+
+GRUPO 5 (2017) mais fino que 2018/2021: 5 Infância/Educação + 4 Patrimônio
++ 4 Ambiental/Urbanismo + 4 ACP + 1 PCD + 1 Idoso + 2 DH. Extraídas as 8
+DH-relevantes:
+
+- q1502 = Q82 (answer A): ECA — proibida hospedagem de criança em
+  hotel/motel salvo autorizada/acompanhada pelos pais. Anchor: ECA
+  art. 82 (Lei 8.069/90).
+- q1503 = Q83 (answer C): ECA/SINASE — INCORRETA: "internaçãos-sanção"
+  NÃO é a internação por reiteração; internação-sanção é por
+  descumprimento de medida (art. 122 §3º). Anchor: ECA art. 122.
+- q1504 = Q84 (answer E): SINASE (Lei 12.594/12) — INCORRETA: direito a
+  meio aberto quando inexistir vaga de internação NÃO existe
+  (inexistência de vaga NÃO gera direito a medida menos grave). Anchor:
+  Lei 12.594/2012 art. 35 §1º + Súmula 518 STJ.
+- q1505 = Q85 (answer D): LDB (Lei 9.394/96) — INCORRETA: fechamento de
+  escolas do campo/indígenas/quilombolas é precedido de manifestação do
+  órgão normativo (e comunidade), mas a redação correta exige
+  manifestação prévia e OBRIGATÓRIA, não "podendo contar". Gabarito
+  aponta D. Anchor: LDB art. 28 §§.
+- q1506 = Q97 (answer C): LBI (Lei 13.146/15) — prioridade em serviços
+  de emergência condicionada aos protocolos de atendimento médico.
+  Anchor: LBI art. 17 §1º.
+- q1507 = Q98 (answer A): Estatuto do Idoso — INCORRETA: a comunicação
+  de violência NÃO é "vedada a comunicação exclusiva ao Conselho
+  Municipal do Idoso" — o art. 19 §1º permite comunicar ao Conselho.
+  Gabarito aponta A. Anchor: Lei 10.741/2003 art. 19.
+- q1508 = Q99 (answer B): DH — INCORRETA: a definição dada de "Reforma
+  Agrária" é na verdade conceito de "Política Agrícola" (Estatuto da
+  Terra/LGT). Demais alts. corretas (pop. em rua = Decreto 7.053/09
+  art. 1º; orientação sexual Yogyakarta; povos tradicionais = Decreto
+  6.040/2007 art. 3º; desigualdade racial = Lei 12.288/2010 art. 1º).
+- q1509 = Q100 (answer E): LOAS (Lei 8.742/93) — INCORRETA: ações de
+  assistência social NÃO observam normas expedidas pelo CRAS/CREAS
+  (estes são unidades de atendimento, não normatizadoras; a norma é do
+  CNAS/NOB-SUAS). Anchor: LOAS art. 6º-C + art. 6º-C §único.
+
+**Descartes**:
+- Anuladas (per gabarito Edital 18/2017): Q01, Q28 (ambas fora do bloco
+  DH — Q01 penal, Q28 patrimônio/improbidade). Nenhuma anulada entre as
+  8 extraídas.
+- Patrimônio (Q86-90), Ambiental (Q91-92), Urbanismo (Q93-94),
+  ACP/CNMP/Mandado Segurança (Q95-96): não DH.
+
+DH agora em **115/200**. MPPR 2017 = +8 (mais fino que 2018/2021 por ter
+100 questões e GRUPO 5 menor). MPPR total minerado: 2017 (8) + 2018 (14) +
+2021 (9) = 31 DH. Próximas fontes MPPR exauridas nesta sessão; explorar
+outras bancas internas (MPMG, MPSC) e MPRJ concursos não minerados
+(XXXVII e anteriores).

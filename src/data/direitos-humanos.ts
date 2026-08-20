@@ -964,4 +964,76 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Garantir aos índios o pleno exercício dos direitos civis e políticos que em face da legislação lhes couberem.",
         "Executar, sempre que possível mediante a colaboração dos índios, os programas e projetos tendentes a beneficiar as comunidades indígenas."
       ], resposta_correta: 2 },
+  { id: "q1502", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Assinale a alternativa correta, nos termos do Estatuto da Criança e do Adolescente (Lei n. 8.069/90):",
+      alternativas: [
+        "É proibida a hospedagem de criança ou adolescente em hotel, motel, pensão ou estabelecimento congênere, salvo se autorizado ou acompanhado pelos pais ou responsável.",
+        "A Justiça da Infância e da Juventude é competente para conceder a remissão como forma de exclusão, suspensão ou extinção do processo.",
+        "A Justiça da Infância e da Juventude é competente para conhecer de ações de alimentos, sendo prescindível aquilatar se a criança ou adolescente está em situação de risco.",
+        "Compete à autoridade judiciária disciplinar, no âmbito da sua Comarca, as diversões e espetáculos públicos, informando sobre a natureza deles, as faixas etárias a que não se recomendem, locais e horários em que sua apresentação se mostre inadequada.",
+        "Toda criança somente pode ingressar e permanecer nos locais de diversões e espetáculos públicos ou nos locais de apresentação ou exibição quando acompanhada dos pais ou responsável."
+      ], resposta_correta: 0 },
+  { id: "q1503", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "São direitos do adolescente privado de liberdade, entre outros: permanecer internado na mesma localidade ou naquela mais próxima ao domicílio de seus pais ou responsável, corresponder-se com seus familiares e amigos e receber assistência religiosa, segundo a sua crença, e desde que assim o deseje.",
+        "É necessária a oitiva do adolescente infrator antes de decretar-se a regressão da medida socioeducativa.",
+        "A decretação da internação por reiteração no cometimento de outras infrações graves é também denominada de \"internação-sanção\".",
+        "A medida de internação deve ser cumprida em entidade exclusiva para adolescentes, em local distinto daquele destinado ao abrigo, obedecida rigorosa separação por critérios de idade, compleição física e gravidade da infração.",
+        "A aplicação de medidas socioeducativas ao adolescente, pela prática de ato infracional, é da competência exclusiva do juiz."
+      ], resposta_correta: 2 },
+  { id: "q1504", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Nos termos da Lei do Sistema Nacional de Atendimento Socioeducativo (Lei n. 12.594/12), assinale a alternativa incorreta:",
+      alternativas: [
+        "A execução das medidas socioeducativas reger-se-á, entre outros, pelo princípio da prioridade a práticas ou medidas que sejam restaurativas e, sempre que possível, atendam às necessidades das vítimas.",
+        "A visita do cônjuge, companheiro, pais ou responsáveis, parentes e amigos a adolescente a quem foi aplicada medida socioeducativa de internação observará dias e horários próprios definidos pela direção do programa de atendimento.",
+        "É vedado à autoridade judiciária aplicar nova medida de internação, por atos infracionais praticados anteriormente, a adolescente que já tenha concluído cumprimento de medida socioeducativa dessa natureza, ou que tenha sido transferido para cumprimento de medida menos rigorosa, sendo tais atos absorvidos por aqueles aos quais se impôs a medida socioeducativa extrema.",
+        "A medida socioeducativa será declarada extinta, entre outras hipóteses, pela condição de doença grave, que torne o adolescente incapaz de submeter-se ao cumprimento da medida.",
+        "É direito do adolescente submetido ao cumprimento de medida socioeducativa, independentemente da gravidade do ato infracional praticado, ser incluído em programa de meio aberto quando inexistir vaga para o cumprimento de medida de privação da liberdade."
+      ], resposta_correta: 4 },
+  { id: "q1505", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Nos termos da Lei n. 9.394/96, que estabelece as diretrizes e bases da educação nacional, assinale a alternativa incorreta:",
+      alternativas: [
+        "A educação abrange os processos formativos que se desenvolvem na vida familiar, na convivência humana, no trabalho, nas instituições de ensino e pesquisa, nos movimentos sociais e organizações da sociedade civil e nas manifestações culturais.",
+        "A educação, dever da família e do Estado, inspirada nos princípios de liberdade e nos ideais de solidariedade humana, tem por finalidade o pleno desenvolvimento do educando, seu preparo para o exercício da cidadania e sua qualificação para o trabalho.",
+        "O ensino da História do Brasil deve levar em conta as contribuições das diferentes culturas e etnias para a formação do povo brasileiro, especialmente das matrizes indígena, africana e europeia.",
+        "O fechamento de escolas do campo, indígenas e quilombolas deve ser precedida de manifestação do órgão normativo do respectivo sistema de ensino, podendo contar com a manifestação da comunidade escolar.",
+        "O ensino deve ser ministrado, entre outros, com base nos princípios: da liberdade de aprender, ensinar, pesquisar e divulgar a cultura, o pensamento, a arte e o saber; e do respeito à liberdade e apreço à tolerância."
+      ], resposta_correta: 3 },
+  { id: "q1506", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Assinale a alternativa correta:",
+      alternativas: [
+        "A pessoa com deficiência pode ser, em determinados casos, obrigada à fruição de benefícios decorrentes de ação afirmativa.",
+        "A pessoa com deficiência tem direito a receber atendimento prioritário com a finalidade de recebimento de restituição de imposto de renda, o que é extensível ao seu acompanhante ou ao seu atendente pessoal.",
+        "Nos serviços de emergência públicos e privados, a prioridade conferida pelo Estatuto da Pessoa com Deficiência (Lei n. 13.146/15) é condicionada aos protocolos de atendimento médico.",
+        "A pessoa com deficiência somente será atendida sem seu consentimento prévio, livre e esclarecido em casos de risco de morte.",
+        "O Estatuto da Pessoa com Deficiência (Lei n. 13.146/15) não contém normas de natureza penal."
+      ], resposta_correta: 2 },
+  { id: "q1507", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Nos termos da Lei n. 10.741/03 (Estatuto do Idoso), assinale a alternativa incorreta:",
+      alternativas: [
+        "Os casos de suspeita ou confirmação de violência praticada contra idosos serão objeto de notificação compulsória pelos serviços de saúde públicos e privados à autoridade sanitária, bem como serão obrigatoriamente comunicados por eles à autoridade policial e ao Ministério Público, sendo vedada a comunicação exclusiva ao Conselho Municipal do Idoso.",
+        "As transações relativas a alimentos poderão ser celebradas perante o Promotor de Justiça ou Defensor Público, que as referendará, e passarão a ter efeito de título executivo extrajudicial nos termos da lei processual civil.",
+        "Os descontos nos ingressos para eventos artísticos, culturais, esportivos e de lazer, que têm por objetivo proporcionar a participação dos idosos nas referidas atividades, poderão ser acima de 50% (cinquenta por cento).",
+        "Os meios de comunicação devem manter espaços ou horários especiais voltados aos idosos, com finalidade informativa, educativa, artística e cultural, e ao público sobre o processo de envelhecimento.",
+        "O acolhimento de idosos em situação de risco social, por adulto ou núcleo familiar, caracteriza a dependência econômica, para os efeitos legais."
+      ], resposta_correta: 0 },
+  { id: "q1508", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Assinale a alternativa incorreta:",
+      alternativas: [
+        "Considera-se população em situação de rua o grupo populacional heterogêneo que possui em comum a pobreza extrema, os vínculos familiares interrompidos ou fragilizados e a inexistência de moradia convencional regular, e que utiliza os logradouros públicos e as áreas degradadas como espaço de moradia e de sustento, de forma temporária ou permanente, bem como as unidades de acolhimento para pernoite temporário ou como moradia provisória.",
+        "Considera-se Reforma Agrária o conjunto de providências de amparo à propriedade da terra, que se destinem a orientar, no interesse da economia rural, as atividades agropecuárias, seja no sentido de garantir-lhes o pleno emprego, seja no de harmonizá-las com o processo de industrialização do país.",
+        "Pode-se compreender a orientação sexual como uma referência à capacidade de cada pessoa de ter uma profunda atração emocional, afetiva ou sexual por indivíduos de gênero diferente, do mesmo gênero ou de mais de um gênero, assim como ter relações íntimas e sexuais com essas pessoas.",
+        "Pode-se conceituar Povos e Comunidades Tradicionais como grupos culturalmente diferenciados e que se reconhecem como tais, que possuem formas próprias de organização social, que ocupam e usam territórios e recursos naturais como condição para sua reprodução cultural, social, religiosa, ancestral e econômica, utilizando conhecimentos, inovações e práticas gerados e transmitidos pela tradição.",
+        "Considera-se desigualdade racial toda situação injustificada de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, descendência ou origem nacional ou étnica."
+      ], resposta_correta: 1 },
+  { id: "q1509", tema: "Direitos Humanos", dificuldade: "media", fonte: "MPPR (Comissão de Concurso Interna), Concurso para Ingresso na Carreira do Ministério Público do Estado do Paraná, Promotor Substituto — 2017 — Prova Preambular (gabarito oficial definitivo de 07/06/2017, Edital 18/2017)",
+      enunciado: "Nos termos da Lei n. 8.742/93 (Lei Orgânica da Assistência Social), assinale a alternativa incorreta:",
+      alternativas: [
+        "O Cras (Centro de Referência de Assistência Social) é a unidade pública municipal, de base territorial, localizada em áreas com maiores índices de vulnerabilidade e risco social, destinada à articulação dos serviços socioassistenciais no seu território de abrangência e à prestação de serviços, programas e projetos socioassistenciais de proteção social básica às famílias.",
+        "O Creas (Centro de Referência Especializado de Assistência Social) é a unidade pública de abrangência e gestão municipal, estadual ou regional, destinada à prestação de serviços a indivíduos e famílias que se encontram em situação de risco pessoal ou social, por violação de direitos ou contingência, que demandam intervenções especializadas da proteção social especial.",
+        "Os Cras (Centros de Referência de Assistência Social) e os Creas (Centros de Referência Especializado de Assistência Social) são unidades públicas estatais instituídas no âmbito do Suas (Sistema Único de Assistência Social), que possuem interface com as demais políticas públicas e articulam, coordenam e ofertam os serviços, programas, projetos e benefícios da assistência social.",
+        "As instalações dos Cras (Centro de Referência de Assistência Social) e dos Creas (Centro de Referência Especializado de Assistência Social) devem ser compatíveis com os serviços neles ofertados, com espaços para trabalhos em grupo e ambientes específicos para recepção e atendimento reservado das famílias e indivíduos, assegurada a acessibilidade às pessoas idosas e com deficiência.",
+        "As ações de assistência social, no âmbito das entidades e organizações de assistência social, observarão as normas expedidas pelo Cras (Centros de Referência de Assistência Social) ou pelo Creas (Centro de Referência Especializado de Assistência Social)."
+      ], resposta_correta: 4 },
 ];
