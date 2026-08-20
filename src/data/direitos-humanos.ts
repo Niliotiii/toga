@@ -1198,4 +1198,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "A tomada de decisão apoiada introduzida pela Lei nº 13.146/2015 constitui um novo modelo jurídico de índole promocional das pessoas com deficiência, que reconhece a possibilidade de qualquer pessoa responsabilizar-se, de acordo com suas possibilidades, por seus atos. Por sua relevância, a medida pode ser instituída de ofício pelo juiz.",
         "Apesar de desejável, a fixação da curatela compartilhada só deve ocorrer quando ambos os requerentes apresentarem interesse no exercício da curatela, revelarem-se aptos ao exercício do munus e as circunstâncias fáticas evidenciarem que a medida é a que melhor resguarda os interesses do curatelado."
       ], resposta_correta: 0 },
+  { id: "q2134", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso (TJMT), Concurso para Juiz Substituto — Edital 01/2024 — Tipo 1 (gabarito definitivo da prova aplicada em 17/11/2024) — Q6",
+      enunciado: "Aerópago, adolescente de 17 anos, encontra na internet fotos suas em que aparece completamente nu. Por não ter consentido a essa divulgação, aciona judicialmente o provedor em que estão sediadas as publicações. Nesse caso, é correto afirmar que:",
+      alternativas: [
+        "por se tratar de Imagens Íntimas Não Consentidas (NCII, na sigla em inglês), o provedor tem a obrigação de remover o conteúdo independentemente de interpelação do interessado.",
+        "por se tratar de Imagens Íntimas Não Consentidas (NCII, na sigla em inglês), o provedor tem a obrigação de remover o conteúdo mediante interpelação do interessado, sem que se exija ordem judicial específica, desde que indicada a URL em que o conteúdo é disponibilizado.",
+        "por se tratar de Imagens Íntimas Não Consentidas (NCII, na sigla em inglês), o provedor tem a obrigação de remover o conteúdo mediante interpelação do interessado, sem que se exija ordem judicial específica ou a indicação da URL em que o conteúdo é disponibilizado.",
+        "mesmo em se tratando de Imagens Íntimas Não Consentidas (NCII, na sigla em inglês), o provedor só terá a obrigação de remover o conteúdo mediante ordem judicial específica, com a indicação da URL em que o conteúdo é disponibilizado.",
+        "mesmo em se tratando de Imagens Íntimas Não Consentidas (NCII, na sigla em inglês), o provedor só terá a obrigação de remover o conteúdo mediante ordem judicial específica, dispensada apenas a indicação da URL em que o conteúdo é disponibilizado."
+      ], resposta_correta: 1 },
 ];
