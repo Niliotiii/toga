@@ -4444,3 +4444,37 @@ Verificação: `python` confirma 0 IDs duplicados cross-file e 0 within-file.
 LIVRE em TODOS os arquivos de tema, não só no arquivo destino. O MPPR
 DH (q1488-q1525) colidiu porque o Trabalho já usava q1433-q1498. Da
 próxima vez, ao popular um tema, escolher IDs acima do max global.
+
+---
+
+### Leva 101 — MPGO 62º Concurso (FGV, 2025/2026) — fonte nova DH
+
+Descoberta: MPGO 62º (Edital 182/2025-CSMP, Promotor de Justiça
+Substituto, prova 01/02/2026) é fonte **FGV** (não banca-interna).
+Caderno Tipo 1 (Branca, PROVA PREAMBULAR):
+`promotor-de-justica-substitutocns001-tipo-1.pdf` (sem hífen entre
+"substituto" e "cns") — 100 Qs, 36 págs, layout 2 colunas.
+Gabarito preliminar: `mpgo2025-gabaritos-para-publicacao.pdf` — 4 blocos
+(PROVA 1-4, mesmo caderno embaralhado). Tipo 1 = PROVA 1.
+
+**Caveat FGV (shuffle):** gabarito PROVA 1 responde Q-N do **caderno
+Tipo 1** na ordem direta (Tipo 1 = Versão 1). Mas cada Q deve ser
+verificada vs doutrina, não só confiar no número.
+
+Qs DH extraídas (verificadas gabarito + doutrina):
+- q2132 = Q69 (homeschooling, STF RE 1.041.510 Tema 1098): ensino
+  domiciliar NÃO é direito público subjetivo, mas CF não veda lei
+  federal criando-o (mod. utilitarista/conveniência). Answer C. Confirma
+  tese idêntica à q1483 (MPPR 2021).
+- q2133 = Q78 (Estatuto PCD Lei 13.146/2015, curatela): LBI removeu
+  "deficiência mental" como impedimento matrimonial (alterou CC
+  art. 1.521 IV). Answer A.
+
+**Descarte:** Q88 (encarceramento/Convenção Interamericana, Q88=E
+"improcedência por separação de poderes") — conflita com linha STF
+(STF afirma responsabilidade estatal por condições degradantes,
+ADPF 347/RE 593.237). Doutrina ambígua → descartado per regra de
+segurança. Poderia ser revisado com gabarito DEFINITIVO futuro.
+
+DH agora **133/200**. MPGO 62º tem mais Qs DH-adjacentes (Q70 creche/
+MP legitimação, Q69 educação) exploráveis com cuidado.
