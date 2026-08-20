@@ -1261,7 +1261,7 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "Sendo o pedido julgado totalmente improcedente, o juiz terá liberdade de fixar as custas por equidade.",
         "Nilton deve recolher quatro vezes o limite dos benefícios do Regime Geral de Previdência Social."
       ], resposta_correta: 4 },
-  { id: "q1440", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+  { id: "q1499", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
       enunciado: "Em determinada reclamação trabalhista, ajuizada em 2021, e que tramita na 20ª VT/São Luís, o pedido foi julgado procedente, sendo condenado o ex-empregador ao pagamento de R$ 40.000,00 para o trabalhador e R$ 4.000,00 de honorários advocatícios de sucumbência. No título executivo consta ainda a responsabilidade do Estado do Maranhão, que está no polo passivo porque houve terceirização dos serviços. Não tendo sido pago o débito pelo ex-empregador e não se logrando êxito na constrição do seu patrimônio, a execução foi direcionada contra o Estado do Maranhão. Sobre a forma de pagamento do ente público no caso concreto, assinale a afirmativa correta.",
       alternativas: [
         "O crédito do trabalhador e os honorários advocatícios serão pagos mediante precatório.",
@@ -1270,7 +1270,7 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "É o juiz que determinará se a forma de pagamento será RPV ou precatório de acordo com a condição financeira e social do credor.",
         "O crédito do trabalhador será pago por RPV e dos honorários, por precatório."
       ], resposta_correta: 1 },
-  { id: "q1441", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+  { id: "q1500", tema: "Direito do Trabalho", dificuldade: "dificil", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
       enunciado: "Uma empresa de construção civil localizada em Balsas/MA é executada numa reclamação trabalhista pelo valor de R$ 50.000,00, tendo sido citada por oficial de justiça para pagar a dívida em 48 horas. A empresa em questão está com os seus ativos concentrados em 2 projetos de engenharia, daí porque não deseja se descapitalizar neste momento, e deseja uma alternativa para garantir o juízo e discutir os cálculos, pois tem absoluta certeza que o valor homologado judicialmente é superior ao devido. Diante da situação retratada e do que dispõe a CLT, assinale a afirmativa correta.",
       alternativas: [
         "A empresa poderá apresentar seguro-garantia judicial no valor de R$ 65.000,00 para garantir o juízo.",
@@ -1279,7 +1279,7 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "A empresa deverá depositar o valor do débito ou apresentar bens à penhora, pois na seara trabalhista não é possível o uso de seguro-garantia judicial.",
         "A empresa devedora poderá apresentar seguro-garantia judicial, mas no valor do dobro da dívida exequenda."
       ], resposta_correta: 0 },
-  { id: "q1442", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
+  { id: "q1501", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal Regional do Trabalho da 16ª Região (MA) (TRT-16), Analista Judiciário — Área Judiciária — Graduação em Direito — 2022 — Tipo 1 (gabarito definitivo de 06/11/2022)",
       enunciado: "Um dos princípios constitucionais da Seguridade Social é o caráter democrático e descentralizado da gestão administrativa. Neste sentido, tem-se que o CNPS (Conselho Nacional de Previdência Social)",
       alternativas: [
         "é quinquipartite, tendo representantes dos trabalhadores, dos empregadores, dos aposentados, do Ministério Público e do governo nos órgãos colegiados.",

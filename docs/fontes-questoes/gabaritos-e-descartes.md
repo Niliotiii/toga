@@ -4417,3 +4417,30 @@ Cada edição MPPR traz 1 questão de Direito Previdenciário no GRUPO 2.
 Trabalho/Previd agora em **199/200**. Falta 1. MPPR 2017/2018 já usados
 (q1495-q1496). 2014/2016 usados (q1497-q1498). MPPR 2013 sem gabarito
 textual (cartão-resposta imagem) — descartado.
+
+---
+
+### Leva 100 — Correção de colisão de IDs entre temas (integridade)
+
+Detectado: os arquivos `direito-trabalho.ts` e `direitos-humanos.ts`
+compartilhavam IDs (59 colisões: q1433, q1435-q1487 + q1488-q1498 da
+sessão). Adicionais 3 colisões admin↔trabalho (q1440-q1442). Prejudicial
+porque `id` é usado como chave de deduplicação em `gameLogic`
+(`new Set(ids)`) e guard em `GameContext` (`currQ.id !== q.id`); hoje não
+buga (rodada é single-tema) mas é defeito latente se `id` vira chave
+React/lookup cross-theme.
+
+Correção:
+- **Direitos Humanos renumerado**: q862-q1525 → **q2001-q2131** (131
+  questões, sequencial, range disjunto de todos os temas). Max ID geral
+  era 1525, então q2001+ está livre.
+- **Trabalho q1440/q1441/q1442** (TRT-16 MA) renumerados para
+  **q1499/q1500/q1501** (livres), resolvendo admin↔trabalho.
+
+Verificação: `python` confirma 0 IDs duplicados cross-file e 0 within-file.
+`tsc --noEmit` limpo. 17 suites/67 testes Jest passam.
+
+**Lição**: ao adicionar questões, verificar se o intervalo de IDs está
+LIVRE em TODOS os arquivos de tema, não só no arquivo destino. O MPPR
+DH (q1488-q1525) colidiu porque o Trabalho já usava q1433-q1498. Da
+próxima vez, ao popular um tema, escolher IDs acima do max global.
