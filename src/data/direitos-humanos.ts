@@ -1243,4 +1243,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "a criança deverá ser imediatamente encaminhada para família acolhedora, sendo designada audiência para oitiva de Júlia, quando será colhida sua manifestação de vontade de entregar seu filho para adoção, sendo respeitado o sigilo sobre a entrega e buscando-se, após, pessoa inscrita no cadastro de adoção.",
         "deverá ser buscada família cadastrada, para a qual deverá ser concedida imediatamente a guarda provisória, sendo posteriormente designada audiência para colheita da manifestação de vontade de Júlia de entregar seu filho para adoção."
       ], resposta_correta: 0 },
+  { id: "q2139", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso (TJMT), Concurso para Juiz Substituto — Edital 01/2024 — Tipo 1 (gabarito definitivo da prova aplicada em 17/11/2024) — Q38",
+      enunciado: "Antônio cumpre medida socioeducativa de liberdade assistida por fato praticado no ano de 2023. Em processo em curso por outro ato infracional ocorrido em 2022, é aplicada a ele medida socioeducativa de semiliberdade. Transitada em julgado a sentença que aplicou a medida de semiliberdade, deve ser determinado(a):",
+      alternativas: [
+        "a suspensão do cumprimento da medida socioeducativa de liberdade assistida, para que seja cumprida a de semiliberdade.",
+        "a imediata ida do adolescente para a instituição adequada, para cumprimento da medida socioeducativa de semiliberdade, e a regressão da medida de liberdade assistida.",
+        "que o adolescente continue a cumprir a medida de liberdade assistida anteriormente imposta e que, quando de sua extinção, seja iniciado o cumprimento da medida socioeducativa de semiliberdade.",
+        "que o adolescente cumpra a medida socioeducativa da semiliberdade, sendo determinada a unificação da execução das medidas aplicadas nas duas ações socioeducativas.",
+        "o cumprimento simultâneo das duas medidas socioeducativas aplicadas, tendo curso simultâneo os dois processos de execução."
+      ], resposta_correta: 3 },
 ];

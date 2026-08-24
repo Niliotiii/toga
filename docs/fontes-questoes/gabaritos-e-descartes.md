@@ -4517,3 +4517,21 @@ Qs extraídas (gabarito + lei verbatim CONFIRMADOS):
 
 DH agora **136/200**. TJ-ES +2. Método Planalto registrado p/ futuras
 verificações estatutárias (ECA, SINASE, LBI, Estatuto Idoso etc.).
+
+### Leva 102 (continuação) — revisitações com verificação Planalto
+
+- q2137 = TJ-ES Q39 (answer D): internação provisória excedeu 45
+  dias (art. 108 ECA confirmado) → constrangimento ilegal + HC
+  liberação (STJ). 
+- q2138 = TJ-MT Q37 (answer A): entrega p/ adoção com sigilo + sem
+  genitor indicado → colocação com habilitado/cadastrado. Anchor:
+  ECA art. 19-A §§4º, 5º, 9º (Lei 13.509/2017) confirmado Planalto.
+  (Antes descartada por dúvida; texto legal resolveu.)
+- q2139 = TJ-MT Q38 (answer D): sobrevinda sentença com nova medida
+  → UNIFICAÇÃO da execução, ouvidos MP e defensor. Anchor: SINASE
+  art. 45 VERBATIM (confirmado Planalto). (Antes não analisada.)
+
+DH agora **139/200**. Padrão confirmado: questões estatutárias ECA/
+SINASE/LBI são verificáveis com precisão via Planalto (curl direto),
+eliminando o risco de conflito doutrinário que derrubou as FGV
+jurisprudenciais (denúncia, remição, encarceramento).
