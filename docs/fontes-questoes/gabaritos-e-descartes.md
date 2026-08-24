@@ -4478,3 +4478,42 @@ segurança. Poderia ser revisado com gabarito DEFINITIVO futuro.
 
 DH agora **133/200**. MPGO 62º tem mais Qs DH-adjacentes (Q70 creche/
 MP legitimação, Q69 educação) exploráveis com cuidado.
+
+---
+
+### Leva 102 — TJ-ES Juiz Substituto 2023 (FGV) — DH + método Planalto
+
+Descoberta: **verificação direta de lei no Planalto** (planalto.gov.br,
+curl direto sem search engine) permite confirmar questões
+estatutárias com precisão verbatim. ECA l8069.htm (696KB) e SINASE
+l12594.htm (URL: /ccivil_03/_ato2011-2014/2012/lei/). Isso destrava
+verificação de âncora legal sem depender de memória doutrinária.
+
+TJ-ES 2023 (Edital 01, prova 27/08/2023, gabarito DEFINITIVO):
+- Caderno: concursos/tjes23 → juiz-substitutojuizsubstituto-tipo-1.pdf
+- Gabarito: tjes2023_gabarito_definitivo.pdf
+
+Qs extraídas (gabarito + lei verbatim CONFIRMADOS):
+- q2135 = Q34 (answer C): ECA desistência da guarda p/ adoção →
+  exclusão dos cadastros + vedação de renovação, SALVO decisão
+  judicial fundamentada. Anchor: ECA art. 42 §5º-equivalente (Lei
+  13.509/2017) — verbatim confirmado no Planalto. Nota: redação
+  antiga (Lei 12.010/2009) dizia "de forma irreversível" — q1489
+  (MPPR 2018 Q97) marca essa redação como ERRADA, consistente.
+- q2136 = Q38 (answer B): SINASE — excepcionalmente, juiz pode
+  suspender execução de medida socioeducativa, ouvidos defensor e
+  MP, p/ programa de atenção integral à saúde mental. Anchor:
+  SINASE Lei 12.594/2012 art. 64 §4º VERBATIM (confirmado). Alt D
+  errada: ECA art. 108 (45 dias) é internação PROVISÓRIA, não
+  psiquiátrica; alt E errada: avaliação integra o PIA (art. 64 §2º).
+
+**Descartes TJ-ES:**
+- Q86 (isenção ICMS próteses PCD): tributária (Confaz/renúncia), PCD
+  só contexto.
+- Q37-análoga TJ-MT (entrega p/ adoção): mantida descartada.
+- mprj2019 (Analista Processual Q52 tecnologia assistiva): caderno OK
+  mas gabarito netstorage MORTO (10 bytes) — sem gabarito, sem
+  inserção.
+
+DH agora **136/200**. TJ-ES +2. Método Planalto registrado p/ futuras
+verificações estatutárias (ECA, SINASE, LBI, Estatuto Idoso etc.).
