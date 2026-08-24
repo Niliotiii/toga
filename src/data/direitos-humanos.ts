@@ -1234,4 +1234,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "resta configurado constrangimento ilegal na hipótese narrada, que poderá ensejar a impetração de habeas corpus visando à liberação do adolescente.",
         "na hipótese de configuração de excesso de prazo na internação provisória, o prazo excedente é passível de detração penal, conforme previsão do ECA."
       ], resposta_correta: 3 },
+  { id: "q2138", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso (TJMT), Concurso para Juiz Substituto — Edital 01/2024 — Tipo 1 (gabarito definitivo da prova aplicada em 17/11/2024) — Q37",
+      enunciado: "Júlia, em final de gravidez, informa à equipe da unidade da saúde onde realiza o acompanhamento pré-natal que deseja entregar seu filho para adoção. De imediato, é encaminhada para a Vara da Infância e da Juventude, onde é recebida pela equipe interprofissional, que, após o atendimento, encaminha relatório ao juiz informando o desejo definitivo de Júlia, o sigilo solicitado por ela, que indicou que sua família não deveria ser contactada, e a negativa de informar a identidade do suposto pai. É correto afirmar que, após o nascimento:",
+      alternativas: [
+        "a criança deverá ser colocada imediatamente para adoção, buscando-se família cadastrada.",
+        "deverá ser buscado membro da família extensa, pois o direito fundamental à convivência familiar e comunitária é superior ao direito ao sigilo do nascimento, requerido pela mãe.",
+        "a criança deverá ser imediatamente encaminhada para família acolhedora, onde deverá permanecer até que se encontre membro da família extensa ou que se descubra a identidade paterna, pois o direito fundamental à convivência familiar e comunitária é superior ao direito ao sigilo do nascimento, requerido pela mãe.",
+        "a criança deverá ser imediatamente encaminhada para família acolhedora, sendo designada audiência para oitiva de Júlia, quando será colhida sua manifestação de vontade de entregar seu filho para adoção, sendo respeitado o sigilo sobre a entrega e buscando-se, após, pessoa inscrita no cadastro de adoção.",
+        "deverá ser buscada família cadastrada, para a qual deverá ser concedida imediatamente a guarda provisória, sendo posteriormente designada audiência para colheita da manifestação de vontade de Júlia de entregar seu filho para adoção."
+      ], resposta_correta: 0 },
 ];
