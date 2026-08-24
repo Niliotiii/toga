@@ -4535,3 +4535,24 @@ DH agora **139/200**. Padrão confirmado: questões estatutárias ECA/
 SINASE/LBI são verificáveis com precisão via Planalto (curl direto),
 eliminando o risco de conflito doutrinário que derrubou as FGV
 jurisprudenciais (denúncia, remição, encarceramento).
+
+### Leva 102 (continuação 2) — TJ-MT Q97/Q98 + re-mapeamento
+
+Correção de leitura do gabarito TJ-MT (2 colunas): Q94=microrregiões
+(ANULADA *), Q95=Y-juiz substituição (B), Q96=correição (D),
+Q97=pro homine (E), Q98=sistema global/regional (D).
+
+- q2140 = Q97 (answer E): pro homine = prevalece a interpretação que
+  favoreça a norma mais próxima à garantia dos DH. Doutrina firme
+  (hermenêutica pro persona, CADH arts. 29/b). (Antes descartada por
+  ERRO DE LEITURA do gabarito — resolvido.)
+- q2141 = Q98 (answer D): PIDESC compõe o sistema GLOBAL (ONU) e
+  garante autodeterminação de todos os povos (art. 1º comum aos dois
+  Pactos de 1966 — doutrina firme). (Antes confundida como Q95/B.)
+
+Descartes mantidos: Q93 LAI (opção A "súmulas vinculantes" controversa
++ número incerto), Q65 denúncia (conflito STF ADI 1.625), Q39 Lucas
+MP-legitimidade (contested).
+
+DH agora **141/200**. TJ-MT total: +4 (q2134 NCII foi TJ-MT tb — 5 no
+total desta edição: q2134, q2138, q2139, q2140, q2141).

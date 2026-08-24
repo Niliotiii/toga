@@ -1252,4 +1252,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "que o adolescente cumpra a medida socioeducativa da semiliberdade, sendo determinada a unificação da execução das medidas aplicadas nas duas ações socioeducativas.",
         "o cumprimento simultâneo das duas medidas socioeducativas aplicadas, tendo curso simultâneo os dois processos de execução."
       ], resposta_correta: 3 },
+  { id: "q2140", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso (TJMT), Concurso para Juiz Substituto — Edital 01/2024 — Tipo 1 (gabarito definitivo da prova aplicada em 17/11/2024) — Q97",
+      enunciado: "Quanto à aplicação do princípio pro homine no direito internacional dos direitos humanos, é correto afirmar que:",
+      alternativas: [
+        "em caso de conflito de princípios, deve prevalecer aquele que tutela os interesses dos seres humanos em relação aos direitos da natureza.",
+        "a eventual aposição de reserva por Estado signatário de tratado de direitos humanos deve ser interpretada ampliativamente.",
+        "cada Estado goza de autonomia para definir quais são os dispositivos dos tratados e convenções aplicáveis em seu ordenamento jurídico.",
+        "as cláusulas que garantem direitos humanos devem ser interpretadas de modo a não prejudicar a ordem pública e o interesse coletivo.",
+        "deve prevalecer a interpretação que favoreça a norma mais próxima à garantia dos direitos humanos."
+      ], resposta_correta: 4 },
+  { id: "q2141", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Mato Grosso (TJMT), Concurso para Juiz Substituto — Edital 01/2024 — Tipo 1 (gabarito definitivo da prova aplicada em 17/11/2024) — Q98",
+      enunciado: "Em análise e comparação entre o sistema global e o sistema regional interamericano de proteção dos direitos humanos, é correto afirmar que:",
+      alternativas: [
+        "o sistema global de proteção de direitos humanos é coordenado pela Organização dos Estados Americanos (OEA) e pelo Parlamento Europeu.",
+        "o Protocolo de San Salvador é um protocolo adicional à Convenção Americana sobre Direitos Humanos, não tendo, porém, sido promulgado no Brasil.",
+        "tanto o sistema global quanto o sistema interamericano de proteção dos direitos humanos possuem como principal referência a Convenção Americana sobre Direitos Humanos.",
+        "o Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais compõe o sistema global de proteção dos direitos humanos e garante o direito de todos os povos à autodeterminação.",
+        "a Corte Interamericana de Direitos Humanos é órgão do sistema global de proteção dos direitos humanos, cabendo à Comissão Interamericana de Direitos Humanos a coordenação do sistema regional interamericano de proteção."
+      ], resposta_correta: 3 },
 ];
