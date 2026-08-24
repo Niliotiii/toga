@@ -1279,4 +1279,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "são diplomatas dos Estados-membros da ONU que formam uma força-tarefa internacional para atuar em nome do Conselho de Direitos Humanos da ONU, fazendo uma negociação autônoma e independente em diferentes estados nacionais que estejam passando por situações de catástrofes naturais, conflitos armados ou crise econômica e/ou institucional, tendo em vista a retomada da estabilidade do país.",
         "são integrantes das Comissões de Direitos Humanos dos sistemas regionais de proteção dos direitos humanos, indicados por essas Comissões, que atuam em situações complexas de violação de direitos humanos em países que não integram o seu próprio sistema regional, com a finalidade de indicar as medidas políticas, legislativas e judiciais necessárias à cessação da violação dos direitos."
       ], resposta_correta: 0 },
+  { id: "q2143", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO), Concurso Público 2023 (Edital nº 01), Juiz Substituto — Tipo 1 (gabarito definitivo da prova aplicada em 17/12/2023, publicado em 31/01/2024) — Q99",
+      enunciado: "Suponha que foi constatada uma situação de trabalho análogo à de escravo numa fazenda (propriedade privada) situada em determinado Município do Estado de Goiás. Isso violaria, dentre outras normas, a Convenção Americana sobre Direitos Humanos. Diante de tal situação, a obrigação de cumprir as disposições da referida Convenção, fazer cessar a violação e assumir as responsabilidades perante os órgãos competentes do Sistema Interamericano de Direitos Humanos cabe:",
+      alternativas: [
+        "ao proprietário da fazenda onde ocorreu a violação.",
+        "ao governo municipal onde está situada a fazenda.",
+        "ao governo do Estado de Goiás.",
+        "ao governo nacional do Brasil.",
+        "conjuntamente, a todos os agentes citados nas demais alternativas."
+      ], resposta_correta: 3 },
 ];

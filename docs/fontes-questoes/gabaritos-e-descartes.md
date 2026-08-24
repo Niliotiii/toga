@@ -4580,3 +4580,10 @@ DEFINITIVO `tjgo2023_gabaritodefinitivo_20240131-002.pdf` (anuladas:
 
 DH agora **142/200**. Sessão total DH: +45 (97→142). Trabalho 199/200.
 Método Planalto (curl direto) = destravador-chave da sessão.
+- q2143 = TJ-GO 2023 Q99 (answer D): trabalho análogo ao escravo em
+  fazenda municipal viola CADH — responsabilidade internacional é do
+  GOVERNO NACIONAL (cláusula federal, CADH art. 28: Estado Parte
+  responde por ato de qualquer poder/nível). Ecoa Caso Fazenda Brasil
+  Verde vs. Brasil (Corte IDH 2016). Doutrina firme.
+
+DH agora **143/200**. TJ-GO 2023 total: +2.
