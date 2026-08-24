@@ -1225,4 +1225,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "em conformidade com o Art. 108 do ECA, a internação psiquiátrica não poderá exceder o prazo máximo de 45 dias.",
         "a avaliação psiquiátrica do adolescente tem caráter sigiloso, razão pela qual não deverá ser juntada ao Plano Individual de Atendimento (PIA) do adolescente."
       ], resposta_correta: 1 },
+  { id: "q2137", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado do Espírito Santo (TJES), Concurso Público 2023 (Edital nº 01), Juiz Substituto — Tipo 1 (gabarito definitivo da prova aplicada em 27/08/2023) — Q39",
+      enunciado: "Jefferson, adolescente de 17 anos, pratica ato infracional análogo ao crime de homicídio. Após apreensão em flagrante e apresentação para oitiva informal, o Ministério Público representa em face do adolescente, requerendo a internação provisória, que é deferida pelo juiz da Infância e Juventude. Após a realização de audiência de apresentação, o magistrado designa audiência em continuação, a se realizar em 30 dias. Tendo em vista a recusa dos funcionários do sistema socioeducativo em transportarem Jefferson à Vara da Infância e Juventude, como forma de protesto contra decisões administrativas exaradas pelo diretor da unidade socioeducativa de internação, o adolescente não é apresentado para a audiência em continuação e permanece internado por mais 25 dias. Considerando o disposto na Lei n. 8.069/1990 (ECA), é correto afirmar que:",
+      alternativas: [
+        "apesar da não realização da audiência na data de sua designação, o prazo legal para internação provisória foi observado e a privação de liberdade é legítima.",
+        "caso entenda pertinente, o magistrado pode prorrogar o prazo máximo de internação provisória por meio de decisão devidamente fundamentada.",
+        "o descumprimento injustificado do prazo de internação provisória configura infração administrativa às normas do ECA, com a previsão de multa de três a vinte salários mínimos.",
+        "resta configurado constrangimento ilegal na hipótese narrada, que poderá ensejar a impetração de habeas corpus visando à liberação do adolescente.",
+        "na hipótese de configuração de excesso de prazo na internação provisória, o prazo excedente é passível de detração penal, conforme previsão do ECA."
+      ], resposta_correta: 3 },
 ];
