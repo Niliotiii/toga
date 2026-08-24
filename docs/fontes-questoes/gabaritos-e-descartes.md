@@ -4556,3 +4556,27 @@ MP-legitimidade (contested).
 
 DH agora **141/200**. TJ-MT total: +4 (q2134 NCII foi TJ-MT tb — 5 no
 total desta edição: q2134, q2138, q2139, q2140, q2141).
+
+### Leva 103 — TJ-GO Juiz Substituto 2023 (FGV) — DH
+
+Fonte NOVA: TJGO 2023 (Edital 01, prova 17/12/2023), caderno
+`tjgo-2023-juiz-substitutojuizsubstituto-tipo-1.pdf` + gabarito
+DEFINITIVO `tjgo2023_gabaritodefinitivo_20240131-002.pdf` (anuladas:
+77, 94). Bloco final "Direitos Humanos e Formação Humanística".
+
+- q2142 = Q100 (answer A): relatores especiais ONU = especialistas
+  independentes nomeados pelo Conselho de DH, sistema de
+  Procedimentos Especiais (visitas de país, casos individuais,
+  desenvolvimento de padrões internacionais, aconselhamento técnico).
+  Definição textbook, doutrina firme. Tema atual (missão Clément
+  Voule 2022, crítica ao esvaziamento de conselhos).
+
+**Descartes TJ-GO 2023:**
+- Q10 (vestibular PCD/remanejamento vagas): depende de
+  jurisprudência STJ sobre vinculação do requerente de atendimento
+  especial às vagas reservadas — contested. Skip.
+- tjpr2021: netstorage morto (só gabarito preliminar linkado, sem
+  caderno). Morto.
+
+DH agora **142/200**. Sessão total DH: +45 (97→142). Trabalho 199/200.
+Método Planalto (curl direto) = destravador-chave da sessão.
