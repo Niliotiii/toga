@@ -1288,4 +1288,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "ao governo nacional do Brasil.",
         "conjuntamente, a todos os agentes citados nas demais alternativas."
       ], resposta_correta: 3 },
+  { id: "q2144", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Pernambuco (TJPE), Concurso Público para Juiz Substituto (Edital 01/2024) — Tipo 1 (gabarito definitivo da prova aplicada em 01/12/2024) — Q97",
+      enunciado: "Desde o ano de 2014, a Corte Interamericana de Direitos Humanos vem se posicionando sobre alegações de graves violações de direitos humanos de pessoas privadas de liberdade no Complexo Prisional do Curado, situado em Recife, no estado de Pernambuco. Sobre a situação e a jurisprudência do Supremo Tribunal Federal, é correto afirmar que:",
+      alternativas: [
+        "o Brasil foi condenado pela Corte Interamericana de Direitos Humanos no caso envolvendo o Complexo Prisional do Curado.",
+        "entre as medidas provisórias impostas pela Corte, consta a determinação de que o Estado brasileiro feche os estabelecimentos penais do Complexo do Curado.",
+        "as medidas provisórias impostas pela Corte Interamericana de Direitos Humanos não têm caráter vinculante, sendo recebidas como recomendações pelo ordenamento jurídico brasileiro.",
+        "após a declaração do sistema prisional brasileiro como um \"estado de coisas inconstitucional\" pelo Supremo Tribunal Federal, em 2015, a situação foi considerada regularizada pela Corte Interamericana de Direitos Humanos.",
+        "a Corte determinou o cômputo em dobro da pena de pessoas privadas de liberdade no Complexo do Curado, desde que não acusadas por crimes contra a vida, integridade física e dignidade sexual, sendo a medida validada pelo Supremo Tribunal Federal."
+      ], resposta_correta: 4 },
+  { id: "q2145", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Pernambuco (TJPE), Concurso Público para Juiz Substituto (Edital 01/2024) — Tipo 1 (gabarito definitivo da prova aplicada em 01/12/2024) — Q99",
+      enunciado: "Sobre o Comitê de Direitos Humanos da Organização das Nações Unidas, é correto afirmar que:",
+      alternativas: [
+        "tem por função a fiscalização do cumprimento do Pacto Internacional dos Direitos Econômicos, Sociais e Culturais e seus protocolos.",
+        "sua jurisdição ainda não é reconhecida pelo Brasil.",
+        "admite o recebimento de reclamações individuais.",
+        "admite denúncias anônimas, desde que acompanhadas de provas robustas do alegado.",
+        "não exige o esgotamento dos recursos internos disponíveis para o juízo de admissibilidade das denúncias."
+      ], resposta_correta: 2 },
 ];

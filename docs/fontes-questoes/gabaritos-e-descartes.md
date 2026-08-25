@@ -4587,3 +4587,36 @@ Método Planalto (curl direto) = destravador-chave da sessão.
   Verde vs. Brasil (Corte IDH 2016). Doutrina firme.
 
 DH agora **143/200**. TJ-GO 2023 total: +2.
+
+---
+
+### Leva 104 — TJ-PE Juiz Substituto 2024 (FGV) — DH
+
+Fonte NOVA: tjpe24 (Edital 01/2024, prova 01/12/2024, gabarito
+DEFINITIVO; anuladas 38, 66, 81). Caderno
+`juiz-substituto-tjpeobj01jz-subst-pe-tipo-1.pdf`. Bloco III inclui
+"Humanística e Direitos Humanos". TJ-PE 2022 (tjpe22) também tem
+caderno+gabarito definitivo — pendente de scan.
+
+- q2144 = Q97 (answer E): Corte IDH medidas provisórias Complexo do
+  Curado (Recife/PE, desde 2014) incluíram cômputo em dobro da pena
+  para não-condenados por crimes violentos/sexuais, validado pelo
+  STF. Alternativas A-D firmemente falsas (não houve condenação
+  contenciosa; não houve ordem de fechamento; medidas provisórias
+  SÃO vinculantes — pacta sunt servanda/STF; situação não
+  regularizada pós-ADPF 347).
+- q2145 = Q99 (answer C): Comitê de Direitos Humanos (ONU, fiscaliza
+  PIDCP) admite reclamações individuais via Protocolo Facultativo
+  (Brasil aderiu). B/D/E falsos (jurisdição reconhecida; não anônimas;
+  exige esgotamento de recursos internos). A falso (PIDESC = Comitê
+  DESC, outro órgão).
+
+**Descartes TJ-PE 2024:**
+- Q5 (Sinequanon/EI art. 88 custas): nuance jurisprudencial do
+  escopo do art. 88 (ações do cap. EI vs. contrato privado de plano
+  de saúde) — não verificável com firmeza. Skip.
+- Q35 (Luciano 11 anos/furto): gabarito D diz "não há que se falar em
+  aplicação de medida" — CONTRARIA ECA art. 105 (medidas de proteção
+  do art. 101 aplicam-se a criança). Conflito gabarito x lei. Skip.
+
+DH agora **145/200**.
