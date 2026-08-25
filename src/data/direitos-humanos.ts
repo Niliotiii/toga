@@ -1306,4 +1306,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "admite denúncias anônimas, desde que acompanhadas de provas robustas do alegado.",
         "não exige o esgotamento dos recursos internos disponíveis para o juízo de admissibilidade das denúncias."
       ], resposta_correta: 2 },
+  { id: "q2146", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Defensoria Pública do Estado do Rio de Janeiro (DPERJ), XXVIII Concurso para Ingresso na Classe Inicial da Carreira (Edital de Abertura) — Prova Objetiva, Tipo 1 (gabarito da prova aplicada em 01/10/2023) — Q64",
+      enunciado: "No âmbito do Projeto Rota de Direitos, promovido pela Defensoria Pública do Rio de Janeiro em parceria com órgãos governamentais e da sociedade civil, cujo objetivo é prestar auxílio, orientações e encaminhamentos a imigrantes, apátridas, solicitantes de refúgio e refugiados(as), João e seu filho maior de idade, José, recém-imigrados do Suriname, buscam informação acerca dos seus direitos no Brasil junto à Defensoria Pública. Considerando a necessidade de se prestar orientação jurídica adequada e integral, o(a) defensor(a) público(a) deve explicar que:",
+      alternativas: [
+        "os refugiados terão direito à isenção das taxas devidas para a solicitação de refúgio, caso comprovem hipossuficiência.",
+        "os solicitantes de refúgio têm direito à obtenção da Carteira de Trabalho e Previdência Social, mediante a apresentação do protocolo de solicitação de refúgio.",
+        "os migrantes terão direito à concessão de aposentadoria pelo Instituto Nacional do Seguro Social, podendo contabilizar o tempo de serviço no exterior.",
+        "os migrantes têm direito aos serviços públicos de educação a partir do momento em que sua situação migratória estiver regularizada.",
+        "a concessão de refúgio confere direito à lavratura de registro civil de nascimento no Brasil."
+      ], resposta_correta: 1 },
+  { id: "q2147", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Defensoria Pública do Estado do Rio de Janeiro (DPERJ), XXVIII Concurso para Ingresso na Classe Inicial da Carreira (Edital de Abertura) — Prova Objetiva, Tipo 1 (gabarito da prova aplicada em 01/10/2023) — Q81",
+      enunciado: "Maria, grávida de seis meses, apresentou declaração escrita à equipe que realizava seu pré-natal, manifestando interesse em entregar o recém-nascido para adoção. Realizado o parto, Maria ratificou a declaração anterior e recusou conhecer e nomear a criança. O caso foi comunicado à Vara da Infância, que determinou a lavratura de registro civil, suspensão do poder familiar e entrega para casal habilitado à adoção. Iniciado o processo de adoção e destituição do poder familiar, Maria não foi encontrada para citação pessoal para a audiência de confirmação do seu interesse, mas o juiz utilizou a declaração escrita e a ratificação pós-parto para julgar procedentes os pedidos. Nove dias após a sentença, Maria procura atendimento na Defensoria Pública dizendo-se arrependida da entrega e que gostaria de reverter a decisão. Estava acompanhada de homem que se declarou pai biológico da criança. Nesse caso, é correto afirmar que:",
+      alternativas: [
+        "a sentença não poderá ser modificada porque houve concordância válida por quem, na data da manifestação, detinha o poder familiar.",
+        "apenas o homem poderá recorrer da sentença, no prazo de dez dias úteis, em dobro, porque não houve tentativa de localização do pai biológico nem de inserção da criança em família extensa.",
+        "a sentença deve ser impugnada por apelação, no prazo de dez dias corridos, em dobro, porque a declaração anterior ao parto não tem validade para fins de entrega para adoção e não houve a tentativa de localização do pai biológico nem de inserção da criança em família extensa.",
+        "a sentença deve ser impugnada por apelação, no prazo de dez dias úteis, em dobro, porque não houve citação válida, e, embora a declaração anterior ao parto tenha validade, não houve a tentativa de localização do pai biológico nem de inserção da criança em família extensa.",
+        "a sentença não poderá ser revertida em relação a Maria, porque a entrega foi regular e houve manifestação de vontade."
+      ], resposta_correta: 2 },
 ];

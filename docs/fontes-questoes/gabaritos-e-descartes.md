@@ -4620,3 +4620,37 @@ caderno+gabarito definitivo — pendente de scan.
   do art. 101 aplicam-se a criança). Conflito gabarito x lei. Skip.
 
 DH agora **145/200**.
+
+---
+
+### Leva 105 — DPE-RJ Defensor XXVIII (FGV 2023) — DH
+
+Fonte NOVA: dpgerj2023 = DPE-RJ XXVIII Concurso (prova 01/10/2023, 90
+Qs). Já minerado p/ AMBIENTAL, mas o bloco **"Banca III: ... Direitos
+Humanos das Pessoas em Situação de Vulnerabilidade, Direito da Criança
+e do Adolescente e Princípios Institucionais da DP" (Q61-90)** era
+inédito p/ DH. Caderno `classe-inicial-...def-rio-tipo-1.pdf` + gab
+`def-rj-gabaritos-para-publicacao_46121351.pdf`.
+
+- q2146 = Q64 (answer B): solicitantes de refúgio → CTPS mediante
+  protocolo. Anchor: Lei 9.474/97 art. 21 §1º VERBATIM (Planalto:
+  "O protocolo permitirá... expedir carteira de trabalho provisória").
+  D falso: educação não exige regularização migratória (Lei 13.445).
+- q2147 = Q81 (answer C): entrega p/ adoção — declaração pré-parto
+  insuficiente (vontade deve ser manifestada em AUDIÊNCIA pós-parto,
+  ECA art. 19-A §5º); sem busca família extensa (§3º); apelação 10
+  dias CORRIDOS (ECA art. 152 §2º VERBATIM) EM DOBRO p/ Defensoria
+  (Lei 1.060/50 art. 5º §5º — dobro vedado só p/ Fazenda e MP no ECA).
+
+**Descartes DPE-RJ (padrões confirmados):**
+- Q66/67 Convenção Racismo (2 alternativas defensáveis: supralegal
+  rito comum vs assessoria/soberania) + numeração ambígua.
+- Q78/79 LBI (armadilhas: girassóis = Lei 14.624/2023 NÃO LBI; CC
+  alterado pela LBI; barreiras com 6 categorias; desenho universal ≠
+  adaptação razoável) — numeração incerta.
+- Q77 ADPF 635 (case-specific), Q87/88/89/90 (LC 80 institucional),
+  Q80 influenciador (D vs E confusos), caso Corte IDH Paraíba 1998
+  (case-specific).
+
+DH agora **147/200**. DPE-RJ XXVIII: +2. dpgerj2021 (Defensor 2021,
+gabarito definitivo "banca 1") = pendente de scan futura.
