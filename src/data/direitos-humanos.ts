@@ -1396,4 +1396,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Esse estatuto não contempla artigos específicos para fomentar uma educação específica, pois o plano de educação instituído pelo Ministério da Educação atende às demandas da obrigatoriedade do estudo da história africana e afro-brasileira.",
         "A referida lei não contempla artigos específicos para fomentar uma saúde específica para a população negra, pois a sua inclusão no Sistema Único de Saúde por meio de alteração legislativa criou a Política Nacional de Saúde da População Negra."
       ], resposta_correta: 1 },
+  { id: "q2157", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado de Sergipe (PGE-SE), Concurso Público 2023 para Procurador do Estado — Classe Inicial (gabarito oficial definitivo, prova aplicada em 19/11/2023) — Q27",
+      enunciado: "Considerando o disposto no Estatuto da Pessoa Idosa e no Estatuto da Criança e do Adolescente, assinale a opção correta.",
+      alternativas: [
+        "O período máximo previsto para a internação do menor de idade por ato infracional é de três anos, podendo, no entanto, chegar a cinco anos, em casos de extrema periculosidade do menor infrator.",
+        "É assegurado um salário mínimo de benefício mensal a pessoas idosas acima dos 65 anos de idade que não possuam meios para prover sua subsistência, tampouco sua família.",
+        "Em estacionamentos públicos ou privados, a reserva de vagas a pessoas idosas fica a cargo da discricionariedade do ente estatal responsável ou do proprietário do local.",
+        "Fica a critério da legislação local conceder ou não a gratuidade a maiores de 65 anos em transporte coletivo público urbano.",
+        "O Estado tem o dever de fornecer, gratuitamente, atendimento em creches e pré-escolas às crianças de zero a cinco anos de idade; no ensino fundamental a crianças e adolescentes, a saber, dos seis anos de idade a quatorze anos de idade; e no ensino médio a adolescentes de 15 a 18 anos de idade."
+      ], resposta_correta: 1 },
 ];

@@ -4891,3 +4891,31 @@ PGE-RR-23 (tratados+estatutos). Potencial destravar dezenas de DH
 seguras — fechamento de 200 viável.
 
 DH: **155/200** (+4). Trabalho: 200/200 ✅.
+
+### Leva 109 — Cebraspe PGE-SE Procurador 2023 (DH +1: q2157)
+
+**PGE-SE 2023 Procurador** (19/11/2023, gabarito DEFINITIVO; Q19/Q48/
+Q87 anuladas). A-E MCQ format (100 Qs).
+- q2157 = Q27 (Estatuto Idoso + ECA combinado) — gab B, DB B ✓.
+  Anchor: **LOAS art. 20 VERBATIM** ("BPC = garantia de um salário-
+  mínimo mensal ao idoso com 65 anos ou mais que não possua meios")
+  = alternativa B. Demais alternativas confirmadas FALSAS vs estatuto:
+  A=ECA art. 122 §3 (internação max 3 anos, sem exceção de 5);
+  C=reserva de vagas idoso OBRIGATÓRIA (Estatuto Idoso art. 36/37);
+  D=transporte 65+ gratuidade FEDERAL (Estatuto Idoso art. 39, não
+  "critério da legislação local").
+
+**Descarte PGE-SE:** Q26 (CDC art. 82 + MP legitimidade) = question de
+Direito do Consumidor, gabarito A, anchor CDC — mas é mais Civil/Consum
+que núcleo DH. Q20 (LAI/violações DH agentes) = gab B (nepotismo), o
+DH está numa alternativa não-correta.
+
+**Classificação de formato Cebraspe (CRÍTICO p/ futuro):**
+- A-E MCQ (usável): MP-BA✓, PGE-PA, PGE-PI, PGE-PR, PGE-RN, PGE-SE✓,
+  DPE-AC
+- C/E "julgue os itens" (NÃO usável p/ BD A-E): MPSC-23, PGE-RR,
+  TC-DF-24
+Antes de minerar um caderno Cebraspe, contar A-E-options vs
+"julgue" markers — só vale se A-E MCQ.
+
+DH: **156/200** (+1). Próxima: DPE-AC 2024 Defensor (ECA+Idoso, A-E).
