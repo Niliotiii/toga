@@ -1342,4 +1342,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "determine a suspensão do poder familiar de ofício, mesmo em procedimento sem contraditório, e a busca no Sistema Nacional de Adoção de pretendentes habilitados para o ajuizamento da ação de destituição do poder familiar cumulada com adoção, diante da omissão do Ministério Público.",
         "encaminhe os autos ao Conselho Tutelar e determine o ajuizamento da ação de destituição do poder familiar com pedido liminar de suspensão a fim de que a criança seja incluída no Sistema Nacional de Adoção e inserida em família substituta para futuro ajuizamento de ação de adoção."
       ], resposta_correta: 2 },
+  { id: "q2150", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Pernambuco (TJPE), Concurso Público para Juiz Substituto (Edital 01/2024) — Tipo 1 (gabarito definitivo da prova aplicada em 01/12/2024) — Q34",
+      enunciado: "Segundo entendimento pacificado no Superior Tribunal de Justiça, o envio de cartão de crédito sem que o consumidor tenha solicitado:",
+      alternativas: [
+        "não é prática comercial abusiva, pois está amparada pelos usos empresariais adotados pelo mercado de crédito na busca por novos consumidores do produto.",
+        "constitui prática comercial abusiva, configurando-se apenas ato ilícito indenizável, sem aplicação de multa administrativa.",
+        "não é prática comercial abusiva, porque o consumidor tem a oportunidade de cancelar o envio do produto quando quiser mediante comunicação à administradora do cartão de crédito.",
+        "constitui prática comercial abusiva, configurando-se ato ilícito indenizável e sujeito à aplicação de multa administrativa.",
+        "constitui prática comercial abusiva somente se, enviado o cartão de crédito sem prévia ciência do consumidor, a administradora se recusar a cancelá-lo ou impuser ônus para tal finalidade."
+      ], resposta_correta: 3 },
 ];

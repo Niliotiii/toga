@@ -4678,3 +4678,10 @@ gabarito definitivo "banca 1") = pendente de scan futura.
 - Q39 André audiências (Provimento CNJ 118/2021 institucional) → skip.
 
 DH agora **149/200**. TJ-PE 2024 total: +4.
+- q2150 = TJ-PE 2024 Q34 (answer D): envio de cartão não solicitado =
+  prática abusiva (CDC art. 39 III VERBATIM "enviar... sem solicitação
+  prévia, qualquer produto") + ato ilícito indenizável (STJ pacificado:
+  dano moral independe de uso) + multa administrativa (CDC art. 56 I).
+  Planalto verbatim.
+
+DH agora **150/200** (75%). TJ-PE 2024 total: +5. Sessão: +53 DH.
