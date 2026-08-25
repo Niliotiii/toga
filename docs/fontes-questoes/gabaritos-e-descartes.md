@@ -4996,3 +4996,21 @@ outras PGE).
 
 DH: **162/200** (+2). MP-BA esgotado p/ DH (Q89+ = legislação local BA
 MP institucional, fora núcleo DH). Restam 38.
+
+### Leva 114 — DPE-AC Q70 (tratados DH status) DH +1: q2164 + descarte Q63
+
+- q2164 = Q70 (status hierárquico tratados DH) — gab B, DB B ✓.
+  Anchor: **CF art. 5 §3 VERBATIM** (EC 45/2004) — "tratados e
+  convenções internacionais sobre DH aprovados em 2 turnos, 3/5 dos
+  votos = equivalentes a emendas constitucionais". Fácil, anchor
+  constitucional direto.
+
+**Descarte:** DPE-AC Q63 (idoso plano de saúde reajuste por idade) —
+gabarito A ("abusivo p/ jurisprudência, NÃO vedado pelo Estatuto
+Idoso"), mas Estatuto Idoso art. 15 §3 (Lei 14.423/2022) veda
+explicitamente cobrança de valores diferenciados em razão da idade →
+opção B seria a correta pós-2022. Prova DPE-AC 28/04/2024 (Lei
+14.423/2022 vigente) → gabarito reflete doutrina pré-2022. Padrão
+gabarito-vs-lei-atual → descartar (como MPGO 62º q2133).
+
+DH: **163/200** (+1). Restam 37.

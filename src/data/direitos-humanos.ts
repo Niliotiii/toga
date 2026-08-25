@@ -1459,4 +1459,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O tombamento é um instrumento legal para a proteção do patrimônio histórico e cultural, que, entretanto, pouco contribui para a preservação do patrimônio cultural, bens de valor histórico, artístico, cultural, arquitetônico e ambiental, devido à burocracia e à falta de recursos do Estado para a manutenção dos bens tombados.",
         "O tombamento é uma proteção legal flexível que estabelece parâmetros para a conservação e uso adequado de imóvel histórico, contribuindo pouco para a valorização das tradições afro-brasileiras e o respeito à diversidade religiosa."
       ], resposta_correta: 1 },
+  { id: "q2164", tema: "Direitos Humanos", dificuldade: "facil", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), VI Concurso Público para Defensor Público do Estado de Nível I — 2024 (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q70",
+      enunciado: "No que se refere à posição hierárquica dos tratados internacionais de proteção dos direitos humanos em face da Constituição Federal de 1988 (CF), caso um tratado internacional sobre direitos humanos seja aprovado no Senado Federal e na Câmara dos Deputados, em dois turnos, por três quintos dos votos dos seus respectivos membros, possuirá status hierárquico de",
+      alternativas: [
+        "decreto legislativo.",
+        "emenda constitucional.",
+        "lei complementar.",
+        "lei ordinária.",
+        "medida provisória."
+      ], resposta_correta: 1 },
 ];
