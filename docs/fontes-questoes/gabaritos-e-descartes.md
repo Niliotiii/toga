@@ -4978,3 +4978,21 @@ A-E MCQ Cebraspe com DH: revisão fina PGE-RN (Lei 13.460 prioridade
 idoso/PCD), MP-BA Q87-Q89 (patrimônio histórico afro-brasileiro = DH
 cultural), nova varredura concursos Cebraspe não-cached (AGU, TCU,
 outras PGE).
+
+### Leva 113 — MP-BA Q87 (PCD/LBI) + Q88 (patrimônio afro) DH +2: q2162-q2163
+
+- q2162 = Q87 (MP + Estatuto PCD Lei 13.146/2015) — gab D, DB D ✓.
+  Anchor: **LBI art. 7 VERBATIM** ("dever de todos comunicar violação
+  dos direitos da PCD; juízes remetem peças ao MP para providências")
+  + CF art. 129. MP = fiscal da lei e defensor dos direitos das PCD.
+  Refutadas: A (art. 178/43 MP intervém curatela PCD), C (não exige
+  consentimento responsáveis p/ difusos), E (LBI art. 7 fomenta
+  parcerias).
+- q2163 = Q88 (patrimônio histórico afro-brasileiro) — gab B, DB B ✓.
+  Anchor: CF art. 215/216 (patrimônio cultural) + IPHAN (DL 25/37 +
+  Portaria 366/2020 territórios tradicionais de matriz africana).
+  Refutadas: A (tombamento tem rito completo), C (laicidade não impede
+  proteção patrimonial de templos), D/E (juízos de valor falsos).
+
+DH: **162/200** (+2). MP-BA esgotado p/ DH (Q89+ = legislação local BA
+MP institucional, fora núcleo DH). Restam 38.

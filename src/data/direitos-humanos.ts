@@ -1441,4 +1441,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "A coibição de práticas e abordagens violentas, abusivas, desproporcionais, agressivas e letais é um dever exclusivo das empresas, sempre nos limites estabelecidos em lei, e não se estende ao Estado, que possui o monopólio da força, por isso não compete ao MP atuar nesses casos.",
         "Não cabe ao MP/BA celebrar termo de ajuste de conduta (TAC) com empresa acusada de praticar crime de racismo, pois essa competência é atribuída ao Ministério Público Federal (MPF), órgão legalmente competente para a defesa dos interesses sociais e individuais indisponíveis, do patrimônio público e social, e de outros interesses sociais, difusos e coletivos."
       ], resposta_correta: 2 },
+  { id: "q2162", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q87",
+      enunciado: "A respeito do papel do MP na aplicação do Estatuto da Pessoa com Deficiência (Lei n.º 13.146/2015), assinale a opção correta.",
+      alternativas: [
+        "É dispensável a presença do MP quando a pessoa com deficiência intelectual constitui advogado por meio de recursos próprios para definir a sua curatela, dada a presunção legal de que o patrono da causa saberá conduzir a ação judicial respeitando os direitos da pessoa com deficiência.",
+        "Não cabe ao MP fornecer orientações e informações sobre os direitos previstos no referido estatuto, pois é responsabilidade dos Poderes Executivo e Legislativo promover conscientização e o conhecimento a respeito da deficiência.",
+        "O MP pode ajuizar ações judiciais para proteger os direitos das pessoas com deficiência, buscando garantir a sua efetivação e responsabilizando aqueles que os violam, desde que haja consentimento dos responsáveis legais.",
+        "O MP atua como fiscal da lei e defensor dos direitos das pessoas com deficiência.",
+        "De acordo com expressa vedação legal, o MP está impedido de estabelecer convênios e parcerias com entidades governamentais e não governamentais para a promoção e defesa dos direitos da pessoa com deficiência."
+      ], resposta_correta: 3 },
+  { id: "q2163", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q88",
+      enunciado: "Assinale a opção correta a respeito da proteção do patrimônio histórico e cultural brasileiro.",
+      alternativas: [
+        "O processo de tombamento, instrumento utilizado para a proteção do patrimônio histórico e cultural, é simples e célere, bastando, para a sua consecução, a simples comprovação do valor histórico do imóvel.",
+        "O Instituto do Patrimônio Histórico e Artístico Nacional, com o objetivo de preservar saberes e práticas tradicionais, desenvolve iniciativas para identificar e inventariar territórios tradicionais de matriz africana, a fim de implementar ações de salvaguarda e manutenção desses sítios históricos.",
+        "Não há respaldo legal para o tombamento ou reconhecimento das casas de candomblé como patrimônio histórico e cultural brasileiro, pois templos religiosos não podem receber tratamento diferenciado, haja vista que o Estado é laico.",
+        "O tombamento é um instrumento legal para a proteção do patrimônio histórico e cultural, que, entretanto, pouco contribui para a preservação do patrimônio cultural, bens de valor histórico, artístico, cultural, arquitetônico e ambiental, devido à burocracia e à falta de recursos do Estado para a manutenção dos bens tombados.",
+        "O tombamento é uma proteção legal flexível que estabelece parâmetros para a conservação e uso adequado de imóvel histórico, contribuindo pouco para a valorização das tradições afro-brasileiras e o respeito à diversidade religiosa."
+      ], resposta_correta: 1 },
 ];
