@@ -4732,3 +4732,21 @@ Lição reforçada: linhas de gabarito multi-coluna devem ser extraídas
 programaticamente (pares número=letra), nunca lidas a olho.
 
 DH permanece **152/200** (correção de resposta, não de contagem).
+
+### REMOÇÃO — q2133 (MPGO 62º Q78 LBI/impedimentos): gabarito preliminar ERRA
+
+A re-verificação programática de TODAS as respostas inseridas (22
+checks contra gabaritos) pegou 2 divergências: q2138 (corrigida A→D,
+confirmei D correto) e q2133 (gabarito preliminar MPGO diz B —
+REMOVIDA). Análise estatutária do CC (Planalto verbatim):
+- Art. 1.521 ATUAL: o rol de impedimentos NÃO contém mais o incapaz
+  por deficiência mental (LBI removeu) → alternativa A era VERDADEIRA.
+- Art. 1.550 IV: casamento do incapaz de consentir = ANULÁVEL (não
+  nulo) → alternativa B (gabarito) é FALSA perante a lei.
+O gabarito PRELIMINAR do MPGO 62º adotou doutrina pré-LBI. Mesmo
+padrão dos descartes anteriores (Q88, Q49): preliminar FGV errando
+com lei vigente. q2133 removida; quando sair o DEFINITIVO, revisitar
+(a banca pode anular/corrigir — se anular, ok; se mantiver B,
+permanece descartada por conflito com CC).
+
+DH: **151/200**. Re-verificação completa das demais 20: todas ✓.
