@@ -1423,4 +1423,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O acesso aos direitos fundamentais, bem como ao direito à educação em instituições públicas no Brasil, é assegurado aos solicitantes de refúgio somente após a conclusão e a aprovação do respectivo processo de solicitação de reconhecimento da condição de refugiado.",
         "O Alto Comissariado das Nações Unidas para Refugiados (ACNUR) é membro convidado para as reuniões do Comitê Nacional para os Refugiados (CONARE) e, além de ter direito a voz e voto nessas reuniões, também tem a possibilidade de oferecer sugestões que facilitem o andamento do processo de solicitação de refúgio."
       ], resposta_correta: 0 },
+  { id: "q2160", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Paraná (PGE-PR), Concurso Público para Procurador do Estado — 2024 (gabarito oficial definitivo, prova aplicada em 17/11/2024) — Q2",
+      enunciado: "Em relação a tratados e convenções internacionais sobre direitos humanos, assinale a opção correta.",
+      alternativas: [
+        "Os tratados internacionais de direitos humanos não podem ser utilizados para complementar normas do direito interno brasileiro.",
+        "A proteção dos direitos humanos no sistema constitucional brasileiro decorre da aplicação sistemática das normas internas em conjunto com as normas dos tratados internacionais de direitos humanos que o Brasil subscreve.",
+        "A eficácia da proteção dos direitos humanos depende de expressa previsão nas normas.",
+        "No sistema brasileiro, todos os tratados internacionais de direitos humanos têm status de emenda constitucional.",
+        "A dignidade humana, embora considerada um vetor interpretativo das normas jurídicas, não é reconhecida como princípio jurídico."
+      ], resposta_correta: 1 },
 ];

@@ -4944,3 +4944,20 @@ DH: **158/200** (+2). Fontes Cebraspe A-E MCQ ainda a explorar:
 PGE-PI/PR/PA/RN. Padrão confirmado: idoso/refugiado/ECA/LGBTQIAPN+/
 Convenção 169/Lei 12.288 = anchors fortes, gabarito DEFINITIVO
 Cebraspe alinha à doutrina (sem o problema FGV-preliminar).
+
+### Leva 111 — Cebraspe PGE-PR Procurador 2024 (DH +1: q2160)
+
+PGE-PR 2024 (17/11/2024, gabarito DEFINITIVO; Q11/Q13/Q33/Q38/Q59/
+Q76 anuladas). A-E MCQ.
+- q2160 = Q2 (tratados internacionais de DH) — gab B, DB B ✓.
+  Anchor: CF art. 4º VII + art. 5º §§2º/3º + STF RE 466.343 — proteção
+  DH decorre da aplicação SISTEMÁTICA normas internas + tratados
+  (aplicação combinada/pro homine). Refutadas: D ("todos status emenda"
+  = falso, só pós-EC45 no rito §3º; pré-2004 = supralegal RE 466.343);
+  E (dignidade = princípio CF art. 1 III).
+
+Descartes: PGE-PI 2025 = bloco DH fino (Tributário/Adm dominante) —
+skip. PGE-PA Q40/Q41/Q43 = Consumidor/Agrário/Const com resposta não-DH.
+
+DH: **159/200** (+1). Restam 41. Fontes Cebraspe A-E restantes:
+PGE-RN (idoso/mulher/tratados), mais varredura fina PGE-PR.
