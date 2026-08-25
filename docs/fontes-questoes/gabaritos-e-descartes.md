@@ -4919,3 +4919,28 @@ Antes de minerar um caderno Cebraspe, contar A-E-options vs
 "julgue" markers — só vale se A-E MCQ.
 
 DH: **156/200** (+1). Próxima: DPE-AC 2024 Defensor (ECA+Idoso, A-E).
+
+### Leva 110 — Cebraspe DPE-AC Defensor 2024 (DH +2: q2158-q2159)
+
+**DPE-AC 2024 Defensor** (28/04/2024, gabarito DEFINITIVO; muitas Qs
+anuladas Q15/Q31/Q48/Q57/Q58/Q65/Q84/Q91/Q92). A-E MCQ. Bloco DH rico:
+idoso, refugiados, PNDH, ECA.
+- q2158 = Q61 (Política Idoso + Estatuto Idoso) — gab A, DB A ✓.
+  Anchor: **Estatuto Idoso art. 105 VERBATIM** (Lei 14.423/2022) —
+  "Exibir ou veicular, por qualquer meio de comunicação, informações ou
+  imagens depreciativas ou injuriosas à pessoa idosa: Pena — DETENÇÃO
+  de 1 a 3 anos e multa" + art. 22 (eliminar preconceito). Refutadas:
+  B (CF art. 1 I + art. 15 — respeito vontade, não "independente de
+  opinar"); E (Lei 10.778/2003 notificação COMPULSÓRIA, sem anuência).
+- q2159 = Q71 (Estatuto dos Refugiados Lei 9.474/1997) — gab A, DB A ✓.
+  Anchor: **Lei 9.474 art. 6 VERBATIM** — "O refugiado terá direito...
+  a cédula de identidade comprobatória de sua condição jurídica,
+  carteira de trabalho e documento de viagem" = alternativa A.
+  Refutadas: C (art. 12 é 1ª instância, recurso cabível — não
+  "irrecorrível"); D (educação não depende de conclusão do processo);
+  E (ACNUR art. 14 §1 = convidado, sem voto).
+
+DH: **158/200** (+2). Fontes Cebraspe A-E MCQ ainda a explorar:
+PGE-PI/PR/PA/RN. Padrão confirmado: idoso/refugiado/ECA/LGBTQIAPN+/
+Convenção 169/Lei 12.288 = anchors fortes, gabarito DEFINITIVO
+Cebraspe alinha à doutrina (sem o problema FGV-preliminar).

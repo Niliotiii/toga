@@ -1405,4 +1405,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Fica a critério da legislação local conceder ou não a gratuidade a maiores de 65 anos em transporte coletivo público urbano.",
         "O Estado tem o dever de fornecer, gratuitamente, atendimento em creches e pré-escolas às crianças de zero a cinco anos de idade; no ensino fundamental a crianças e adolescentes, a saber, dos seis anos de idade a quatorze anos de idade; e no ensino médio a adolescentes de 15 a 18 anos de idade."
       ], resposta_correta: 1 },
+  { id: "q2158", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), VI Concurso Público para Defensor Público do Estado de Nível I — 2024 (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q61",
+      enunciado: "A respeito da Política Nacional do Idoso (Lei n.º 8.842/1994) e do Estatuto da Pessoa Idosa (Lei n.º 10.741/2003), assinale a opção correta.",
+      alternativas: [
+        "A luta contra o preconceito etário e o combate à propagação de informações falsas, à linguagem discriminatória, à marginalização do idoso e aos estereótipos negativos relacionados ao envelhecimento são alguns dos objetivos do Estatuto da Pessoa Idosa, que prevê a pena de detenção para aquele que veicular, por qualquer meio de comunicação, informações ou imagens depreciativas ou injuriosas à pessoa idosa.",
+        "É assegurado à família da pessoa idosa e ao próprio médico escolher o tratamento de saúde mais adequado e mais benéfico ao idoso, independentemente de ele ser capaz de opinar a respeito do tratamento.",
+        "Um dos princípios da Política Nacional do Idoso é a universalização de políticas e programas de assistência social para as pessoas idosas.",
+        "Entre as diretrizes da Política Nacional do Idoso está o estímulo às ações intersetoriais, visando-se à integralidade da atenção, as quais, embora sejam uma reivindicação fundamental do Conselho Nacional do Idoso, são de difícil implementação por ausência da previsão legal no Estatuto da Pessoa Idosa.",
+        "A notificação às autoridades competentes, pelos sistemas de saúde, dos casos de suspeitas ou evidências de violência praticada contra pessoas idosas depende da anuência da vítima."
+      ], resposta_correta: 0 },
+  { id: "q2159", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), VI Concurso Público para Defensor Público do Estado de Nível I — 2024 (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q71",
+      enunciado: "A respeito das disposições do Estatuto dos Refugiados (Lei n.º 9.474/1997), assinale a opção correta.",
+      alternativas: [
+        "Os refugiados têm o direito de obter uma carteira de identidade que comprove sua condição jurídica, além de ter acesso à emissão de carteira de trabalho e a um documento de viagem específico para sua situação.",
+        "No caso de decisão negativa em processo relativo à solicitação de reconhecimento da condição de refugiado, o solicitante terá direito de recorrer ao ministro de Estado das Relações Exteriores, no prazo de 10 dias, contados do recebimento da notificação da decisão.",
+        "Compete ao Comitê Nacional para os Refugiados (CONARE) decidir, em primeira instância, sobre a cessação ou a perda da condição de refugiado, por meio de decisão irrecorrível, que deve ser informada ao Departamento de Polícia Federal para as providências cabíveis.",
+        "O acesso aos direitos fundamentais, bem como ao direito à educação em instituições públicas no Brasil, é assegurado aos solicitantes de refúgio somente após a conclusão e a aprovação do respectivo processo de solicitação de reconhecimento da condição de refugiado.",
+        "O Alto Comissariado das Nações Unidas para Refugiados (ACNUR) é membro convidado para as reuniões do Comitê Nacional para os Refugiados (CONARE) e, além de ter direito a voz e voto nessas reuniões, também tem a possibilidade de oferecer sugestões que facilitem o andamento do processo de solicitação de refúgio."
+      ], resposta_correta: 0 },
 ];
