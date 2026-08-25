@@ -1360,4 +1360,40 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "considerando que não houve anuência de Jéssica e de seus representantes legais, não será admitida a tomada de novo depoimento especial.",
         "caso Jéssica e seus representantes legais manifestassem concordância com novo depoimento especial, apesar de considerado imprescindível pelo magistrado, este não seria admitido, por ausência de previsão legal."
       ], resposta_correta: 3 },
+  { id: "q2153", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q81",
+      enunciado: "Uma incursão policial foi realizada em determinada comunidade urbana por um grupo de 40 a 80 policiais civis e militares de várias delegacias de uma cidade. Durante a operação, os policiais invadiram pelo menos cinco casas, sem mandado judicial e sem flagrante em andamento, tendo surgido diversas provas contundentes de que os mesmos policiais começaram a disparar contra os ocupantes das casas e levaram os corpos, cobertos por cobertores, à praça principal da comunidade. Há também acusações de atos de violência sexual que os referidos policiais teriam praticado, em duas das casas invadidas, contra três jovens, duas das quais eram meninas de 15 e 16 anos de idade. Estima-se, entre as vítimas fatais de violência policial, a predominância de jovens negros pobres e desarmados. Em face desse caso hipotético, assinale a opção correta.",
+      alternativas: [
+        "Entre as medidas normativas existentes para enfrentar o problema evidenciado na situação, o controle externo da atividade policial por meio do MP é fundamental para a apuração dos fatos, para coibir a violência letal e o abuso da autoridade policial.",
+        "Cabe às ouvidorias das respectivas polícias militar e civil apurar possível violação da abordagem e excesso policial, não cabendo ao MP atuar no caso, pois as atividades desenvolvidas pela polícia e pelo Poder Judiciário são independentes e não se conectam.",
+        "As condutas perpetradas pelos agentes públicos durante as incursões policiais são sempre técnicas, e a estimativa em relação ao alto índice de jovens negros mortos na operação policial em tela não pode ser considerada para a discussão de indício de racismo estrutural na corporação.",
+        "Com o advento da tecnologia e da consequente modernização das técnicas de perícia dos órgãos de segurança do Estado, não há registros de impunidade policial, sendo os casos de execução sumária e arbitrária, como o sugerido na situação em apreço, investigados de maneira adequada e célere.",
+        "O mito da impunidade das violações de direitos humanos praticadas por autoridades policiais em incursões nas comunidades brasileiras é desconstruído pela capacidade dos estados em realizar investigação policial eficiente e pelo pleno funcionamento das engrenagens da justiça para apurar as condutas das polícias, dispensando-se o controle judicial pelo MP."
+      ], resposta_correta: 0 },
+  { id: "q2154", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q84",
+      enunciado: "Assinale a opção correta a respeito da Convenção n.º 169 da OIT.",
+      alternativas: [
+        "Essa convenção é aplicável a todos os povos indígenas, mas não contempla as comunidades quilombolas em território nacional.",
+        "Nesse instrumento internacional, não está previsto o mecanismo de consulta às populações tradicionais sobre ações do governo com impacto sobre seus direitos.",
+        "A referida convenção é um instrumento de proteção dos direitos humanos dos povos indígenas e tribais e determina que os governos respeitem a identidade étnica e cultural, os costumes e as tradições desses povos, e, para tanto, utiliza-se de duas premissas básicas e fundamentais: respeito e participação.",
+        "Essa convenção não é um instrumento jurídico utilizado para salvaguardar a integridade física, territorial e cultural das comunidades quilombolas e indígenas, pois a CF prevê possibilidade de reconhecimento e titulação das terras desses povos indígenas e tribais.",
+        "A autodeterminação dos povos tribais e indígenas prevista nessa convenção requer o consentimento do Estado, logo, segundo esse critério, deve-se respeitar, no Brasil, o marco temporal, ou seja, somente as comunidades tribais e indígenas que estavam ocupando seus territórios em 1988 possuem o direito à autodeterminação."
+      ], resposta_correta: 2 },
+  { id: "q2155", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q85",
+      enunciado: "A respeito dos direitos da comunidade LGBTQIAPN+, assinale a opção correta.",
+      alternativas: [
+        "Inexiste qualquer proteção criminal contra a homofobia, a transfobia e a violência baseada na orientação sexual e identidade de gênero, o que demonstra a falta de empenho do Estado no combate à violência e crimes de ódio contra as pessoas LGBTQIAPN+.",
+        "O direito à liberdade de expressão e associação é mitigado para as pessoas LGBTQIAPN+, pois a legislação brasileira não permite a livre expressão da identidade de gênero e orientação sexual, dado o risco de desnaturalização da família tradicional.",
+        "O direito à identidade de gênero é uma reivindicação histórica da comunidade LGBTQIAPN+, pois ainda hoje não há jurisprudência que reconheça o direito de as pessoas transgênero alterarem seu nome e gênero nos documentos oficiais sem a necessidade de cirurgia ou tratamento médico.",
+        "O direito à adoção de filhos por casais LGBTQIAPN+ só é garantido mediante decisão judicial ou anuência expressa dos genitores.",
+        "O casamento entre pessoas do mesmo sexo é legal e deve ser reconhecido em todo o país, o que garante aos casais LGBTQIAPN+ os mesmos direitos e proteções legais concedidos aos casais heterossexuais."
+      ], resposta_correta: 4 },
+  { id: "q2156", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q86",
+      enunciado: "Considerando a Lei n.º 12.288/2010 — Estatuto da Igualdade Racial, assinale a opção correta.",
+      alternativas: [
+        "O Estatuto da Igualdade Racial garante a transversalidade da questão étnico-racial em cada temática objeto da ação governamental.",
+        "De acordo com o Estatuto da Igualdade Racial, as políticas de ação afirmativa e outras políticas públicas que tenham como objetivos a igualdade de oportunidades e a inclusão social da população negra devem ser observadas nos planos plurianuais e orçamentos da União.",
+        "Nessa lei, não há menção à responsabilidade do poder público em inserir a população negra no mercado de trabalho, uma vez que as políticas de cotas raciais são suficientes para promover a ascensão social da população negra por meio da garantia de trabalho.",
+        "Esse estatuto não contempla artigos específicos para fomentar uma educação específica, pois o plano de educação instituído pelo Ministério da Educação atende às demandas da obrigatoriedade do estudo da história africana e afro-brasileira.",
+        "A referida lei não contempla artigos específicos para fomentar uma saúde específica para a população negra, pois a sua inclusão no Sistema Único de Saúde por meio de alteração legislativa criou a Política Nacional de Saúde da População Negra."
+      ], resposta_correta: 1 },
 ];

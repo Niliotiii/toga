@@ -4841,3 +4841,53 @@ tcepi (slugs no catálogo; tcerj 2015 = sem caderno objtivo publicado,
 muito antigo).
 
 Trabalho: **200/200** ✅. DH: 151/200.
+
+### Leva 108 — Cebraspe MP-BA Promotor 2023 (DH +4: q2153-q2156) — NOVA banca
+
+**DESTRAVADOR: banca Cebraspe (CESPE-UnB).** Agente de pesquisa
+reverse-engineered o SPA cebraspe.org.br e a JSON API
+(apis.cebraspe.org.br/cebraspe/eventos/...) + CDN
+(cdn.cebraspe.org.br/concursos/{slug}/arquivos/{fn}). PDFs exigem
+header `Referer: https://www.cebraspe.org.br/concursos/{slug}` (senão
+404 hotlink-protection). 11 concursos jurídicos com gabarito
+**DEFINITIVO** verificado HTTP 200, cached em /tmp/cb_pdfs/. MP
+Promotor concentra DH (confirmado o padrão FGV/MPPR).
+
+**MP-BA 2023 Promotor** (prova 16/07/2023, gabarito OFICIAL DEFINITIVO):
+100 questões, 2 colunas, Q83/Q96/etc anuladas (X). Bloco DH Q81-Q89.
+Inseridas (gabarito + doutrina/estatuto CONCORDAM, Planalto verbatim):
+- q2153 = Q81 (incursão policial letal/jovens negros) — gab A, DB A ✓.
+  Anchor: CF art. 129 VII (controle externo da atividade policial pelo
+  MP) + LC 75/93 art. 9. A = controle externo pelo MP é a medida correta.
+- q2154 = Q84 (Convenção 169 OIT) — gab C, DB C ✓. Anchor: Convenção
+  169 art. 6º VERBATIM — "governos deverão: a) CONSULTAR os povos...
+  b) estabelecer meios para PARTICIPAR" → pilares respeito+participação.
+  (A exclui quilombolas=falso; B nega consulta=falso vs art.6a; E impõe
+  marco temporal 1988=falso — Convenção não traz 1988.)
+- q2155 = Q85 (LGBTQIAPN+) — gab E, DB E ✓. Anchor: STF ADI 4277/MI
+  4733 (2011) casamento igualitário reconhecido em todo o país. (A
+  falso: STF ADI 2693/MI 4733-2019 equiparou homofobia a racismo-Lei
+  7.716; C falso: STJ REsp 1.727.072 + CNJ Res 277/2018 nome social
+  sem cirurgia.)
+- q2156 = Q86 (Lei 12.288/2010 Estatuto Igualdade Racial) — gab B, DB
+  B ✓. Anchor: **Art. 56 VERBATIM** — "Na implementação dos programas
+  e das ações constantes dos planos plurianuais e dos orçamentos anuais
+  da União, deverão ser observadas as políticas de ação afirmativa...
+  e outras políticas públicas que tenham como objetivo promover a
+  igualdade de oportunidades e a inclusão social da população negra".
+
+**Descarte:** Q83 (TAC) = anulada (X) pelo gabarito — não inserir.
+Q82 (racismo estrutural/MPU+estadual ACP, gab C) e Q87-Q89
+(patrimônio histórico/legislação local BA): Q82 sound mas borderline
+aplicada; Q88/Q89 saem do núcleo DH puro (patrimônio histórico/
+constituição estadual BA). Mantive os 4 de anchor mais forte.
+
+Lição: Cebraspe MP-Promotor = fonte PRODUTIVA e LIMPA para DH (4 em
+1 prova, todas com anchor estatutário/STF verificável). Próximas
+Cebraspe a minerar (cached): MPSC-23 P2 (ECA+Consumidor ~24 Qs),
+DPE-AC-24 (ECA+Idoso), PGE-SE-23 (Idoso+ECA+CDC dedicadas), PGE-PA-23
+(CDC+ECA estrutural), TC-DF-24 (ECA+Idoso), PGE-PR-24 (tratados DH),
+PGE-RR-23 (tratados+estatutos). Potencial destravar dezenas de DH
+seguras — fechamento de 200 viável.
+
+DH: **155/200** (+4). Trabalho: 200/200 ✅.
