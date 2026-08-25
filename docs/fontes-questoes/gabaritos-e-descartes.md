@@ -4715,3 +4715,20 @@ sempre re-conferir linhas de gabarito multi-coluna quando o encaixe
 doutrinário falhar.
 
 DH agora **152/200** (76%).
+
+### CORREÇÃO IMPORTANTE — q2138 (TJ-MT Q37 Júlia): resposta A → D
+
+Na releitura completa das linhas de gabarito (Leva 106), detectado que
+a linha TJ-MT 21-40 correta é "...35=E, 36=A, 37=D, 38=D..." (eu lera
+"37=A"). A questão Júlia (entrega p/ adoção, Q37) tem gabarito **D**,
+não A — e a re-análise estatutária CONFIRMA D: ECA art. 19-A §5º exige
+manifestação de vontade EM AUDIÊNCIA pós-nascimento com sigilo (a
+alternativa D traz audiência + sigilo + busca no cadastro, aderente
+aos §§4º-5º; a alternativa A "imediatamente para adoção" desatende o
+§5º — os fatos narram apenas oitiva pela equipe interprofissional).
+**q2138 corrigida: resposta_correta 0 → 3 (D).**
+
+Lição reforçada: linhas de gabarito multi-coluna devem ser extraídas
+programaticamente (pares número=letra), nunca lidas a olho.
+
+DH permanece **152/200** (correção de resposta, não de contagem).
