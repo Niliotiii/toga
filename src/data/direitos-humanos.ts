@@ -1351,4 +1351,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "constitui prática comercial abusiva, configurando-se ato ilícito indenizável e sujeito à aplicação de multa administrativa.",
         "constitui prática comercial abusiva somente se, enviado o cartão de crédito sem prévia ciência do consumidor, a administradora se recusar a cancelá-lo ou impuser ônus para tal finalidade."
       ], resposta_correta: 3 },
+  { id: "q2151", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO), Concurso Público 2023 (Edital nº 01), Juiz Substituto — Tipo 1 (gabarito definitivo da prova aplicada em 17/12/2023, publicado em 31/01/2024) — Q34",
+      enunciado: "O Conselho Tutelar recebe notícia de fato informando que a criança Maria é vítima de violência doméstica e familiar praticada por seu pai. Ao realizar visita domiciliar, a conselheira tutelar Neide constata a veracidade da denúncia, identificando risco iminente à integridade física da criança, em razão das agressões sofridas. O Município em que Neide atua não é sede de Comarca, razão pela qual a conselheira afasta o agressor do lar através de medida por ela aplicada, dirigindo-se, posteriormente, à Delegacia de Polícia daquele Município para registro de ocorrência do crime praticado contra a criança, sendo atendida pelo delegado, que estava de plantão desde o início do dia. Considerando o disposto na Lei n. 14.344/2022, é correto afirmar que:",
+      alternativas: [
+        "a Lei n. 14.344/2022 criou novas atribuições para o Conselho Tutelar, havendo a previsão de afastamento do agressor do lar pelo conselheiro, à luz do princípio da proteção integral.",
+        "a competência para afastamento de agressor do lar é exclusiva da autoridade judicial e não comporta quaisquer exceções.",
+        "no caso narrado, Neide poderia representar à autoridade policial para afastamento do agressor do lar, na medida em que o delegado está presente no momento da denúncia.",
+        "em razão da reserva de jurisdição, Neide deve se dirigir, obrigatoriamente, ao Município sede da Comarca para requerer o afastamento pela autoridade judiciária.",
+        "em que pese a presença do delegado no momento da denúncia, Neide poderia requerer a um policial o afastamento do agressor do lar, em razão do risco iminente."
+      ], resposta_correta: 2 },
+  { id: "q2152", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Tribunal de Justiça do Estado de Goiás (TJGO), Concurso Público 2023 (Edital nº 01), Juiz Substituto — Tipo 1 (gabarito definitivo da prova aplicada em 17/12/2023, publicado em 31/01/2024) — Q35",
+      enunciado: "Jéssica, adolescente de 13 anos, é vítima de crime de estupro de vulnerável praticado por Hélio, companheiro de sua avó materna. Concluída a fase investigatória, o Ministério Público oferece denúncia em face de Hélio, requerendo, em sede de produção antecipada de provas, o depoimento especial de Jéssica, que é realizado pelo juiz criminal. Decorridos seis meses da audiência criminal, o juiz da Vara de Família designa audiência para coletar o depoimento especial de Jéssica na ação de guarda em tramitação perante aquele juízo, considerando o testemunho da adolescente imprescindível. Ao ser contatada, juntamente com seus representantes legais, pela equipe técnica da Vara de Família, Jéssica afirma que não deseja mais falar sobre o assunto, pois realizou tratamento psicológico e reestruturou a sua vida. A decisão de Jéssica é apoiada por seus pais, que entendem que todos os esclarecimentos foram prestados ao juiz criminal. Considerando o disposto na Lei n. 13.431/2017, é correto afirmar que:",
+      alternativas: [
+        "na condição de testemunha, Jéssica é obrigada a prestar depoimento especial na ação de guarda em tramitação na Vara de Família.",
+        "a hipótese narrada não autoriza o rito cautelar de antecipação de provas, que só é cabível para crianças com idade inferior a 7 anos.",
+        "a Lei n. 13.431/2017 veda expressamente a possibilidade de realização de mais de um depoimento especial, sendo, obrigatoriamente, realizado uma única vez.",
+        "considerando que não houve anuência de Jéssica e de seus representantes legais, não será admitida a tomada de novo depoimento especial.",
+        "caso Jéssica e seus representantes legais manifestassem concordância com novo depoimento especial, apesar de considerado imprescindível pelo magistrado, este não seria admitido, por ausência de previsão legal."
+      ], resposta_correta: 3 },
 ];

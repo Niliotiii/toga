@@ -4685,3 +4685,33 @@ DH agora **149/200**. TJ-PE 2024 total: +4.
   Planalto verbatim.
 
 DH agora **150/200** (75%). TJ-PE 2024 total: +5. Sessão: +53 DH.
+
+---
+
+### Leva 106 — TJ-GO 2023 Bloco I (+2) — correção de leitura de gabarito
+
+ERRO CORRIGIDO: a linha 21-40 do gabarito TJ-GO Tipo 1 havia sido
+mal-lida. Valores corretos: 32=C, 33=B, 34=C, 35=D (não 32=A, 33=E,
+34=D, 35=B como lido antes). Com a releitura, DOIS encaixes
+verbatim emergiram (antes descartados por "mapeamento insuperável"):
+
+- q2151 = Q34 (answer C): Conselheira em município NÃO sede de comarca
+  com delegado presente → REPRESENTAR à autoridade POLICIAL
+  (delegado) p/ afastar o agressor. Anchor: Lei 14.344/2022 (Lei
+  Menino Bernardo) art. caput II + §1º VERBATIM ("afastamento...
+  determinado: I- autoridade judicial; II- pelo DELEGADO quando o
+  Município não for sede de comarca; III- pelo POLICIAL... §1º O
+  Conselho Tutelar poderá representar às autoridades referidas").
+- q2152 = Q35 (answer D): novo depoimento especial SEM anuência da
+  adolescente e representantes = NÃO admitido. Anchor: Lei
+  13.431/2017 art. 11 §2º VERBATIM ("Não será admitida a tomada de
+  novo depoimento especial, salvo quando justificada a sua
+  imprescindibilidade... E houver a concordância da vítima... ou de
+  seu representante legal"). Alt B falsa: §1º II (rito cautelar tb.
+  em violência sexual, qualquer idade).
+
+Lição: releitura do gabarito destravou 2 questões estatutárias —
+sempre re-conferir linhas de gabarito multi-coluna quando o encaixe
+doutrinário falhar.
+
+DH agora **152/200** (76%).
