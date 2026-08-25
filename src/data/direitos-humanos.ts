@@ -1495,4 +1495,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "As pessoas idosas possuem direito de receber alimentos de seus familiares, sendo subsidiária a obrigação alimentar entre os familiares, de acordo com o Estatuto.",
         "As pessoas idosas podem ser admitidas em qualquer trabalho ou emprego, sendo vedada, em qualquer hipótese, a discriminação e a imposição de limite máximo de idade, inclusive para concursos públicos."
       ], resposta_correta: 4 },
+  { id: "q2168", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Espírito Santo (PGE-ES), Concurso Público 2025 para Procurador do Estado de 1ª Categoria — Prova Preambular Objetiva (gabarito oficial definitivo, prova aplicada em 02/11/2025) — Q62",
+      enunciado: "Determinado estado da Federação publicou lei que previa prioridade de matrícula a pessoas com deficiência em escola pública próxima à residência. A referida lei estabelecia que os seus beneficiários seriam as pessoas com “deficiência física, mental ou sensorial” e “deficiências decorrentes de problemas visuais, auditivos, mentais, motores, ou malformação congênita”; previa, ainda, que a verificação da deficiência deveria ser realizada exclusivamente por laudo médico-hospitalar e que as instituições de ensino que se considerassem sem condições físicas de receber os estudantes com deficiência estariam desobrigadas de fazê-lo. Em relação à lei hipotética mencionada nessa situação, assinale a opção correta com base no entendimento do STF.",
+      alternativas: [
+        "A lei estadual não pode desconsiderar a avaliação biopsicossocial por equipe multiprofissional e interdisciplinar, prevista em lei federal, para a aferição da deficiência.",
+        "É constitucional o afastamento da obrigatoriedade de adaptação física de unidades escolares quando o custo da obra inviabilizar a política pública de ensino.",
+        "A definição de pessoa com deficiência é matéria de competência legislativa concorrente, podendo os estados editar normas gerais mesmo que reduzam o alcance do conceito estabelecido em lei federal.",
+        "A lei estadual pode excepcionar a proteção conferida pelo Estatuto da Pessoa com Deficiência, quando houver conflito com normas administrativas locais, desde que preserve o núcleo mínimo de proteção.",
+        "É constitucional lei estadual que estabeleça conceito próprio de pessoa com deficiência, ainda que mais restritivo que o previsto na legislação federal, desde que não exclua beneficiários que efetivamente possuam impedimento de longo prazo."
+      ], resposta_correta: 0 },
+  { id: "q2169", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Espírito Santo (PGE-ES), Concurso Público 2025 para Procurador do Estado de 1ª Categoria — Prova Preambular Objetiva (gabarito oficial definitivo, prova aplicada em 02/11/2025) — Q64",
+      enunciado: "Considerando os conceitos legais estabelecidos no Estatuto da Igualdade Racial (Lei n.º 12.288/2010), assinale a opção correta.",
+      alternativas: [
+        "A população negra é o conjunto de pessoas que se autodeclaram pretas ou pardas conforme o quesito cor ou raça utilizado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou que adotam autodefinição análoga.",
+        "Os conceitos de desigualdade racial e discriminação racial são equivalentes no referido diploma legal, podendo essas expressões serem usadas indistintamente.",
+        "Ações afirmativas consistem em medidas que se restringem à iniciativa privada e se destinam à correção das desigualdades raciais e à promoção da igualdade de oportunidades, não tendo relação com programas estatais ou políticas públicas com mesmo objeto.",
+        "Desigualdade de gênero e raça refere-se à assimetria que, no âmbito da sociedade, acentua a distância social entre homens e mulheres, de qualquer raça, cor, descendência ou origem nacional ou étnica, ou entre negros e os demais segmentos sociais.",
+        "Configura-se discriminação racial apenas quando atos de exclusão formal e explícita abrangem distinções sociais ou econômicas baseadas em raça, cor, descendência ou origem nacional ou étnica que causem anulação do reconhecimento, gozo ou exercício, em igualdade de condições, de direitos humanos e liberdades fundamentais."
+      ], resposta_correta: 0 },
 ];

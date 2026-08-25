@@ -5038,3 +5038,29 @@ DH: **163/200** (+1). Restam 37.
 DH: **166/200** (+3). DPE-AC bem minerado (~9 DH limpas total). Restam
 34. Próxima fonte: aguardar pesquisa Cebraspe adicional (AGU/TCU/DPE
 outros/PGE) ou varrer PGE-RN/PGE-PA finos.
+
+### Leva 116 — Cebraspe PGE-ES 2025 Procurador (DH +2: q2168-q2169)
+
+PGE-ES 2025 Procurador 1ª Categoria, Prova Preambular Objetiva
+(02/11/2025, gabarito DEFINITIVO via API Cebraspe + CDN). A-E MCQ.
+Q4/Q11/Q19/Q34/Q39/Q55/Q67/Q70/Q75/Q76/Q87 anuladas.
+- q2168 = Q62 (PCD + STF conceito biopsicossocial) — gab A, DB A ✓.
+  Anchor: **LBI Lei 13.146/2015 art. 2 §1 VERBATIM** — "A avaliação da
+  deficiência, quando necessária, será biopsicossocial, realizada por
+  equipe multiprofissional e interdisciplinar". STF: conceito federal
+  uniforme, estados não podem restringir (competência federal sobre
+  deficiência). Refutadas C/E (estados não editam conceito restritivo).
+- q2169 = Q64 (Estatuto Igualdade Racial Lei 12.288 conceitos) — gab
+  A, DB A ✓. Anchor: Lei 12.288 art. 1 §único + Decreto 7.530/2011
+  art. 1 — população negra = autodeclaração IBGE pretos+pardos.
+  Refutadas: B (desigualdade≠discriminação, art. 1 §único I vs II
+  distintos), C (ações afirmativas abrangem políticas públicas, art.
+  4 II), E (discriminação não só exclusão formal/explicita).
+
+Método API: GET apis.cebraspe.org.br/cebraspe/eventos/{slug} (JSON) →
+arquivosGabarito[].nomeArquivo → CDN cdn.cebraspe.org.br/concursos/
+{slug}/arquivos/{nomeArquivo} com header Referer. Deustrava gabaritos
+mesmo sem link direto no portal.
+
+DH: **168/200** (+2). Restam 32. Fontes PGE-ES ainda a escanear (idoso
+Q59-Q61 região, tratados DH Q1-Q3).
