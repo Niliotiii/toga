@@ -4654,3 +4654,27 @@ inédito p/ DH. Caderno `classe-inicial-...def-rio-tipo-1.pdf` + gab
 
 DH agora **147/200**. DPE-RJ XXVIII: +2. dpgerj2021 (Defensor 2021,
 gabarito definitivo "banca 1") = pendente de scan futura.
+
+### Leva 104 (continuação) — TJ-PE 2024 garimpo fino (+2)
+
+- q2148 = Q29 (answer B): CDC art. 6º — única alternativa FORA do rol
+  (A=inciso IV, C=inciso XIII incluído pela Lei 14.181/2021 VERBATIM,
+  D=inciso I, E=inciso VII; B não existe no CDC). Planalto verbatim.
+- q2149 = Q37 (answer C): acolhimento + omissão do MP em ajuizar
+  destituição → encaminhar cópia ao PGJ p/ reexame (analogia CPP art.
+  28). A/B/D/E firmemente falsos (perpetuação da indefinição fere
+  excepcionalidade do acolhimento; advogado/CT sem legitimidade; juiz
+  não suspende poder familiar de ofício sem contraditório).
+
+**Novos descartes TJ-PE (re-verificados):**
+- Q36 Sofia viagem (gab D): ECA art. 83 (red. Lei 13.812/2019 —
+  adolescente <16 precisa autorização!) + §1º b)1 (colateral ATÉ 3º
+  grau; prima = 4º grau!) — B erra o grau, D tem base legal
+  inverificável. Confuso → skip.
+- Q38 Bruno RIA (gab B "CT deveria representar ao MP"): CONFLITA com
+  ECA art. 194 verbatim ("representação do Ministério Público, OU DO
+  CONSELHO TUTELAR") e com TJ-ES Q35-D (gabarito oposto sobre o mesmo
+  dispositivo!). Bancas divergem → skip.
+- Q39 André audiências (Provimento CNJ 118/2021 institucional) → skip.
+
+DH agora **149/200**. TJ-PE 2024 total: +4.
