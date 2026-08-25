@@ -1792,4 +1792,13 @@ export const QUESTOES_DIREITO_TRABALHO: Questao[] = [
         "A Justiça Estadual não concede auxílio-acidente, apenas auxílio-doença.",
         "É nula a sentença e demais atos decisórios da Justiça Estadual que julga ação previdenciária referente a acidente de trabalho."
       ], resposta_correta: 0 },
+  { id: "q1502", tema: "Direito do Trabalho", dificuldade: "media", fonte: "FGV — Tribunal de Contas do Estado de Pernambuco (TCE-PE), Concurso Público 2026, Procurador do Tribunal de Contas — Prova Objetiva Tipo 1 (gabarito oficial definitivo, retificado em 17/07/2026, prova aplicada em 31/08/2025) — Q76",
+      enunciado: "Clodoaldo é empregado numa empresa há 7 meses. Ao ser solicitado quanto a uma habilidade que ele havia informado possuir em seu currículo, Clodoaldo reconheceu que não tinha a competência que alegou ter – ou seja, mentiu em seu currículo para ter mais chance de obter a vaga. Ciente disso, a empresa suspendeu Clodoaldo por 40 dias. Diante da situação apresentada e dos termos da CLT, assinale a opção correta.",
+      alternativas: [
+        "A suspensão aplicada resulta na rescisão injusta do contrato de trabalho.",
+        "A empresa agiu corretamente diante da desonestidade de Clodoaldo - por abalar a boa-fé contratual -, cujo retorno ocorrerá no 46º dia.",
+        "A empresa procedeu erroneamente, pois a falta ocorreu no momento da entrega do currículo e, portanto, foi tacitamente perdoada diante do tempo transcorrido.",
+        "A conduta do empregado não é passível de punição pelo empregador, uma vez que os pequenos exageros no currículo não prejudicaram terceiros.",
+        "A empresa poderá dispensar Clodoaldo por justa causa, após o cumprimento da suspensão, em função da gravidade da falta cometida."
+      ], resposta_correta: 0 },
 ];

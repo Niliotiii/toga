@@ -4798,3 +4798,46 @@ preliminar errava contra lei vigente e foi descartado). Quando há
 divergência gabarito×lei, a lei prevalece; quando alinhados, manter.
 
 DH permanece **151/200** (QA pass, sem inserções/remoções).
+
+### Leva 107 — TCE-PE Procurador 2026 (Trabalho +1: q1502) — DH scanning
+
+Fonte: FGV — TCE-PE Concurso 2026, Procurador do Tribunal de Contas,
+Prova Objetiva Tipo 1 (100 questões), **gabarito DEFINITIVO retificado
+17/07/2026** (prova 31/08/2025). Caderno cns400-tipo-1.pdf + gabarito
+gabarito_definitivo_tce-pe_retificado-17.07.2026.pdf (bloco
+"Procurador do Tribunal de Contas - 1 - Turno Tarde" = Tipo 1).
+Mapeamento: bloco Procurador extraído programaticamente (100 respostas;
+Q70 anulada). Caderno 2-colunas; bloco Direito do Trabalho = Q75-Q78.
+
+**Inserida (Trabalho):**
+- q1502 = Q76 (Clodoaldo suspenso 40 dias) — gab A, DB A ✓.
+  CLT **Art. 474 VERBATIM**: "A suspensão do empregado por mais de
+  30 dias consecutivos importa na rescisão injusta do contrato de
+  trabalho." Suspensão de 40 dias (> 30) → rescisão injusta. Alternativa
+  A traz exatamente isso. Gabarito+estatuto concordam. Trabalho: 199→200.
+
+**Descartes (Trabalho, TCE-PE):**
+- Q75 (subordinação jurídica/CLT art. 3º): gabarito C "técnica" CONFLITA
+  com doutrina majoritária (subordinação jurídica = B, CLT art. 3º +
+  Amauri Mascaro; técnica = subordinação estrutural pós-2017, debate).
+  Padrão gabarito-vs-doutrina → descartar.
+- Q77 (vigência dissídio/sentença normativa vs CCT): gabarito B dá CCT
+  1 ano + sentença normativa 2 anos; CLT 614 §3º (Lei 13.467/2017) veda
+  >2 anos mas a diferenciação 1-vs-2 é case-specific à narrativa
+  (datas pactuadas) → frágil.
+- Q78 (greve serviços essenciais 48h): PREMISSA ERRADA — Lei 7.783/1989
+  art. 13 exige **72h**, não 48h. Alternativa E (turismo) = não-essencial,
+  mas a base "48h" contradiz o estatuto → descartar.
+
+**DH scanning do TCE-PE Procurador:** bloco DH é fino (ECA/Idoso/PCD
+esparsos em Constitucional/Adm, sem bloco DH dedicado). Scanning
+preliminar não destravou DH limpa nesta prova. TCE-PE Procurador =
+fonte produtiva para Trabalho/Previd, não para DH.
+
+Lição: TCE Procurador (FGV) com gabarito DEFINITIVO é fonte confiável
+para Trabalho — bloco CLT pequeno (4 Qs) mas com anchor estatutário
+forte (CLT art. 474 verbatim). Próximos TCE a explorar: tceba/tcerj/
+tcepi (slugs no catálogo; tcerj 2015 = sem caderno objtivo publicado,
+muito antigo).
+
+Trabalho: **200/200** ✅. DH: 151/200.
