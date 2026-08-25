@@ -1432,4 +1432,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "No sistema brasileiro, todos os tratados internacionais de direitos humanos têm status de emenda constitucional.",
         "A dignidade humana, embora considerada um vetor interpretativo das normas jurídicas, não é reconhecida como princípio jurídico."
       ], resposta_correta: 1 },
+  { id: "q2161", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP-BA), Concurso Público para Promotor de Justiça Substituto — 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q82",
+      enunciado: "Empresas de segurança privada e estabelecimentos comerciais estão sendo denunciados frequentemente ao MP/BA por perpetrarem o racismo estrutural, havendo, inclusive, vídeos que exibem espancamento e tortura de pessoas negras acusadas de pequenos furtos. Acerca desse tema e das atribuições do MP, assinale a opção correta.",
+      alternativas: [
+        "Compete ao MP/BA celebrar termo de ajuste de conduta (TAC) com empresa acusada de praticar crime de racismo, mas o termo não pode exigir que a empresa adote práticas como capacitação de pessoal com vistas à sensibilização a respeito da temática racial, uma vez que essa medida fere a livre iniciativa e a livre concorrência, comprometendo atividades econômicas do estabelecimento comercial.",
+        "O combate ao racismo estrutural e ao racismo direto e indireto, bem como sua prevenção e erradicação devem ser promovidos somente pelo Ministério Público da União (MPU), pois cabe a este o papel preponderante de fiscal da lei para dar efetividade aos direitos humanos garantidos pelo ordenamento jurídico brasileiro e por normativas internacionais.",
+        "É atribuição do Ministério Público da União (MPU) e do MP estadual promover inquérito civil e ACP para a salvaguarda dos interesses difusos e coletivos, bem como averiguar denúncia contra empresa que não enfrenta o racismo estrutural.",
+        "A coibição de práticas e abordagens violentas, abusivas, desproporcionais, agressivas e letais é um dever exclusivo das empresas, sempre nos limites estabelecidos em lei, e não se estende ao Estado, que possui o monopólio da força, por isso não compete ao MP atuar nesses casos.",
+        "Não cabe ao MP/BA celebrar termo de ajuste de conduta (TAC) com empresa acusada de praticar crime de racismo, pois essa competência é atribuída ao Ministério Público Federal (MPF), órgão legalmente competente para a defesa dos interesses sociais e individuais indisponíveis, do patrimônio público e social, e de outros interesses sociais, difusos e coletivos."
+      ], resposta_correta: 2 },
 ];

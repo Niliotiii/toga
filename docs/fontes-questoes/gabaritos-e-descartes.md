@@ -4961,3 +4961,20 @@ skip. PGE-PA Q40/Q41/Q43 = Consumidor/Agrário/Const com resposta não-DH.
 
 DH: **159/200** (+1). Restam 41. Fontes Cebraspe A-E restantes:
 PGE-RN (idoso/mulher/tratados), mais varredura fina PGE-PR.
+
+### Leva 112 — MP-BA Q82 (racismo estrutural/MP competência) DH +1: q2161
+
+- q2161 = Q82 (racismo estrutural + atuação MP) — gab C, DB C ✓.
+  Anchor: CF art. 129 III VERBATIM ("promover inquérito civil e ACP
+  p/ proteção... de outros interesses difusos e coletivos") + Lei
+  7.347/85 + Lei 7.716/89 (racismo). MPU (LC 75/93 art. 6) E MP estadual
+  (Lei 8.625/93) ambos legitimados. Refutadas: B/E ("somente MPU/MPF"=
+  falso), A (TAC pode exigir capacitação anti-racismo — CF art. 170
+  §único função social), D (coibição violência policial = dever do
+  Estado, MP atua).
+
+DH: **160/200** (+1). Marco: 80% atingido. Restam 40. Próximas fontes
+A-E MCQ Cebraspe com DH: revisão fina PGE-RN (Lei 13.460 prioridade
+idoso/PCD), MP-BA Q87-Q89 (patrimônio histórico afro-brasileiro = DH
+cultural), nova varredura concursos Cebraspe não-cached (AGU, TCU,
+outras PGE).
