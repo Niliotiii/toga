@@ -5014,3 +5014,27 @@ opção B seria a correta pós-2022. Prova DPE-AC 28/04/2024 (Lei
 gabarito-vs-lei-atual → descartar (como MPGO 62º q2133).
 
 DH: **163/200** (+1). Restam 37.
+
+### Leva 115 — DPE-AC Q50/Q55/Q57 (DH +3: q2165-q2167)
+
+- q2165 = Q50 (Convenção Internacional Direitos da Criança) — gab C,
+  DB C ✓. Anchor: **Convenção ONU 1989 art. 3 §1 VERBATIM** (promulgada
+  Dec. 99.710/1990) — "ações relativas às crianças... devem considerar,
+  primordialmente, o INTERESSE MAIOR DA CRIANÇA" (best interest
+  principle).
+- q2166 = Q55 (internação adolescente ECA) — gab C, DB C ✓. Anchor:
+  ECA art. 122 §3 (Lei 12.594/2012) + art. 120 §2 — "em nenhuma
+  hipótese será admitida a estipulação de prazo determinado para a
+  internação". Refutadas: A (liberação aos 21 é regra, mas "compulsória
+  atingida maioridade" impreciso), B (art. 123 permite atividades
+  pedagógicas/externas), D/E.
+- q2167 = Q57 (Estatuto Idoso direitos fundamentais) — gab E, DB E ✓.
+  Anchor: **Estatuto Idoso art. 27 VERBATIM** — "Na admissão da pessoa
+  idosa em qualquer trabalho ou emprego, são vedadas a discriminação e
+  a fixação de limite máximo de idade, inclusive para concursos
+  públicos." Refutadas: B (art. 39 EXCLUI serviços seletivos/especiais
+  quando prestados paralelamente — B diz "inclusive seletivos" = falso).
+
+DH: **166/200** (+3). DPE-AC bem minerado (~9 DH limpas total). Restam
+34. Próxima fonte: aguardar pesquisa Cebraspe adicional (AGU/TCU/DPE
+outros/PGE) ou varrer PGE-RN/PGE-PA finos.

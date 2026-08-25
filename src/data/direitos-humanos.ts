@@ -1468,4 +1468,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "lei ordinária.",
         "medida provisória."
       ], resposta_correta: 1 },
+  { id: "q2165", tema: "Direitos Humanos", dificuldade: "facil", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), VI Concurso Público para Defensor Público do Estado de Nível I — 2024 (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q50",
+      enunciado: "De acordo com a Convenção Internacional sobre os Direitos da Criança, todas as ações relativas às crianças, levadas a efeito por instituições públicas ou privadas de bem-estar social, tribunais, autoridades administrativas ou órgãos legislativos, devem considerar, primordialmente,",
+      alternativas: [
+        "a permanência do convívio familiar.",
+        "os deveres dos pais.",
+        "o interesse maior da criança.",
+        "a preservação do poder familiar.",
+        "a preservação da proximidade com os pais."
+      ], resposta_correta: 2 },
+  { id: "q2166", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), VI Concurso Público para Defensor Público do Estado de Nível I — 2024 (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q55",
+      enunciado: "A respeito da internação do adolescente, assinale a opção correta.",
+      alternativas: [
+        "Atingida a maioridade, a liberação ocorrerá de forma compulsória.",
+        "Durante a internação, é vedada a realização de atividades externas.",
+        "É vedada a estipulação de internação por prazo determinado.",
+        "Atingido o período máximo de internação, a liberdade assistida é medida que se impõe.",
+        "A desinternação depende de autorização do Ministério Público."
+      ], resposta_correta: 2 },
+  { id: "q2167", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), VI Concurso Público para Defensor Público do Estado de Nível I — 2024 (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q57",
+      enunciado: "A respeito das disposições gerais e dos direitos fundamentais previstos no Estatuto da Pessoa Idosa (Lei n.º 10.741/2003), assinale a opção correta.",
+      alternativas: [
+        "O procedimento para a imposição de penalidade administrativa por infração às normas de proteção à pessoa idosa só pode ser iniciado com a requisição do Ministério Público, devendo o autuado apresentar sua defesa no prazo de 15 dias a contar da data da intimação.",
+        "Pessoas com mais de 65 anos de idade têm o direito à gratuidade dos transportes coletivos urbanos, inclusive nos serviços seletivos e especiais, quando disponibilizados juntamente com os serviços regulares.",
+        "As pessoas idosas possuem direito à prioridade, inclusive no recebimento da restituição do imposto de renda.",
+        "As pessoas idosas possuem direito de receber alimentos de seus familiares, sendo subsidiária a obrigação alimentar entre os familiares, de acordo com o Estatuto.",
+        "As pessoas idosas podem ser admitidas em qualquer trabalho ou emprego, sendo vedada, em qualquer hipótese, a discriminação e a imposição de limite máximo de idade, inclusive para concursos públicos."
+      ], resposta_correta: 4 },
 ];
