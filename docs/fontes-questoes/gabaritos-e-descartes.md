@@ -4750,3 +4750,51 @@ com lei vigente. q2133 removida; quando sair o DEFINITIVO, revisitar
 permanece descartada por conflito com CC).
 
 DH: **151/200**. Re-verificação completa das demais 20: todas ✓.
+
+### QA PASS — MPRJ XXXIX q2014-q2021 (gabarito confirmado pós-recursos)
+
+A re-verificação das 8 questões DH já inseridas do MPRJ XXXIX
+Promotor 2026 (q2014-q2021) contra o gabarito CONFIRMADO (mantido
+após fase de recursos — extraído programaticamente do bloco PROVA
+TIPO 1, 100 respostas via pareamento número=linha/letra=linha).
+O caderno é layout 2-colunas; mapeamento enunciado→Q# feito pela
+versão `-layout` (Q# no topo de cada coluna). Mapeamento final:
+- q2014=Q76 (Benício/apadrinhamento) — gab E, DB E ✓
+- q2015=Q77 (Alexandre/Beatriz avó Lurdes) — gab B, DB B ✓
+- q2016=Q78 (Associação de Mães/educação infantil) — gab E, DB E ✓
+- q2017=Q79 (Eduarda/evasão escolar Art.249) — gab D, DB D ✓
+- q2018=Q81 (Felipe/remissão pré-processual) — gab D, DB D ✓
+- q2019=Q82 (Ana Beatriz/depoimento especial Lei 13.431) — gab A, DB A ✓
+- q2020=Q83 (Arthur/execução socioeducativa Macaé) — gab C, DB C ✓
+- q2021=Q84 (Município Sigma/acolhimento institucional) — gab A, DB A ✓
+
+**8/8 confirmadas contra gabarito.** Verificação doutrinária/estatutária
+(Planalto verbatim) CONFIRMA cada resposta — nenhuma divergência:
+- q2014 E: ECA art. 92-B §2º (maiores 18, não inscritos em cadastro
+  de adoção, requisitos do programa) VERBATIM; §3º pessoa jurídica
+  pode apadrinhar (invalida B e C).
+- q2015 B: ECA art. 19 §1º + art. 25 §único (família extensa=avó) +
+  art. 92 §3º (preferência reintegração) — reintegração à avó decide-
+  -se nos autos do acolhimento, sem ação autônoma nem destituição.
+- q2017 D: cenário de superação superveniente → perda do interesse
+  de agir (extinção); Art. 249 multa existe mas não é o ponto.
+- q2018 D: ECA art. 126 — MP concede remissão pré-processual "como
+  forma de EXCLUSÃO do processo" (E fala em "processual/suspensão").
+- q2019 A: Lei 13.431/2017 art. 24 VERBATIM ("violar sigilo processual,
+  permitindo que depoimento... seja assistido por pessoa estranha ao
+  processo") — Jorge deixou o filho (estranho) assistir = crime do
+  art. 24; sem cláusula de representação → ação penal INCONDICIONADA
+  (E é distrator ANPP).
+- q2020 C: SINASE remete ao ECA art. 146/147 §2º — execução delegada
+  à autoridade do "local onde sediar-se a entidade que abrigar" o
+  adolescente; semiliberdade cumpre-se no CRI de Macaé → Macaé.
+- q2021 A: acolhimento institucional = proteção social especial de
+  ALTA COMPLEXIDADE (Tipificação CNAS 109/2009 + LOAS art. 23 II),
+  classificação consolidada.
+
+Lição: gabarito preliminar FGV que SOBREVIVE a recursos é confiável
+para DH (ao contrário dos casos MPGO 62º q2133/q88/q49, onde o
+preliminar errava contra lei vigente e foi descartado). Quando há
+divergência gabarito×lei, a lei prevalece; quando alinhados, manter.
+
+DH permanece **151/200** (QA pass, sem inserções/remoções).
