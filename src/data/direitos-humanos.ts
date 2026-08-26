@@ -1639,4 +1639,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Fica a critério da legislação local conceder ou não a gratuidade a maiores de 65 anos em transporte coletivo público urbano.",
         "O Estado tem o dever de fornecer, gratuitamente, atendimento em creches e pré-escolas às crianças de zero a cinco anos de idade; no ensino fundamental a crianças e adolescentes, a saber, dos seis anos de idade a quatorze anos de idade; e no ensino médio a adolescentes de 15 a 18 anos de idade."
       ], resposta_correta: 1 },
+  { id: "q2184", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Paraná (PGE-PR), Concurso Público 2024 para Procurador do Estado — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 17/11/2024) — Q2",
+      enunciado: "Em relação a tratados e convenções internacionais sobre direitos humanos, assinale a opção correta.",
+      alternativas: [
+        "Os tratados internacionais de direitos humanos não podem ser utilizados para complementar normas do direito interno brasileiro.",
+        "A proteção dos direitos humanos no sistema constitucional brasileiro decorre da aplicação sistemática das normas internas em conjunto com as normas dos tratados internacionais de direitos humanos que o Brasil subscreve.",
+        "A eficácia da proteção dos direitos humanos depende de expressa previsão nas normas.",
+        "No sistema brasileiro, todos os tratados internacionais de direitos humanos têm status de emenda constitucional.",
+        "A dignidade humana, embora considerada um vetor interpretativo das normas jurídicas, não é reconhecida como princípio jurídico."
+      ], resposta_correta: 1 },
 ];
