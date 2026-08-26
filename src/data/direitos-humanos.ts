@@ -1792,4 +1792,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O Poder Judiciário brasileiro deveria ter julgado o caso em até dezesseis semanas, para atender à obrigação internacional de decidir o assunto em caráter de urgência.",
         "O Poder Judiciário brasileiro deverá determinar a restituição das crianças à Alemanha, ainda que elas demonstrem ter maturidade suficiente para que se considerem suas opiniões sobre o assunto e se oponham ao retorno à Alemanha."
       ], resposta_correta: 2 },
+  { id: "q2201", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Advocacia-Geral da União (AGU), Concurso Público para Procurador Federal — Edital 1/2022 (gabarito oficial definitivo, prova aplicada em 07/05/2023) — Q86",
+      enunciado: "Assinale a opção correta no que concerne à naturalização, conforme disposto na Lei n.º 13.445/2017 — Lei de Migração.",
+      alternativas: [
+        "A naturalização extraordinária será concedida ao estrangeiro que se tenha se fixado no Brasil por mais de 10 anos ininterruptos e sem condenação penal, devendo ser requerida pelo interessado.",
+        "A naturalização especial é concedida ao estrangeiro que seja cônjuge ou companheiro, há mais de 3 anos, de integrante do serviço exterior brasileiro em atividade ou de pessoa a serviço do Estado brasileiro no exterior; ou que seja ou tenha sido empregado em missão diplomática ou em repartição consular do Brasil por mais de 5 anos, de forma alternada.",
+        "A naturalização provisória é concedida ao migrante criança ou adolescente que tenha fixado residência em território nacional até os 12 anos de idade e requerida por intermédio de seu representante legal, podendo a naturalização ser convertida em definitiva se o naturalizando assim o requerer no prazo de 1 ano após atingir a maioridade.",
+        "No curso do processo de naturalização, o naturalizando poderá solicitar a tradução ou a adaptação de seu nome à língua portuguesa, o qual integrará cadastro com o nome traduzido ou adaptado associado ao nome anterior; do pedido de naturalização apresentado e processado não caberá recurso em caso de denegação.",
+        "Entre os requisitos para obter a naturalização ordinária, o naturalizando deve possuir capacidade civil, segundo a lei brasileira, ter residência em território nacional, pelo prazo mínimo de 4 anos, sendo esse prazo reduzido para, no mínimo, 1 ano caso o naturalizando tenha prestado serviço relevante ao Brasil."
+      ], resposta_correta: 4 },
 ];
