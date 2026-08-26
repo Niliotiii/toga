@@ -1756,4 +1756,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "direito à democracia e direito à liberdade de expressão",
         "direito à participação popular e direito à saúde"
       ], resposta_correta: 4 },
+  { id: "q2197", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP/BA), Concurso Público para Promotor de Justiça Substituto — Edital 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q84",
+      enunciado: "Assinale a opção correta a respeito da Convenção n.º 169 da OIT.",
+      alternativas: [
+        "Essa convenção é aplicável a todos os povos indígenas, mas não contempla as comunidades quilombolas em território nacional.",
+        "Nesse instrumento internacional, não está previsto o mecanismo de consulta às populações tradicionais sobre ações do governo com impacto sobre seus direitos.",
+        "A referida convenção é um instrumento de proteção dos direitos humanos dos povos indígenas e tribais e determina que os governos respeitem a identidade étnica e cultural, os costumes e as tradições desses povos, e, para tanto, utiliza-se de duas premissas básicas e fundamentais: respeito e participação.",
+        "Essa convenção não é um instrumento jurídico utilizado para salvaguardar a integridade física, territorial e cultural das comunidades quilombolas e indígenas, pois a CF prevê possibilidade de reconhecimento e titulação das terras desses povos indígenas e tribais.",
+        "A autodeterminação dos povos tribais e indígenas prevista nessa convenção requer o consentimento do Estado, logo, segundo esse critério, deve-se respeitar, no Brasil, o marco temporal, ou seja, somente as comunidades tribais e indígenas que estavam ocupando seus territórios em 1988 possuem o direito à autodeterminação."
+      ], resposta_correta: 2 },
+  { id: "q2198", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado da Bahia (MP/BA), Concurso Público para Promotor de Justiça Substituto — Edital 2023 (gabarito oficial definitivo, prova aplicada em 16/07/2023) — Q86",
+      enunciado: "Considerando a Lei n.º 12.288/2010 — Estatuto da Igualdade Racial, assinale a opção correta.",
+      alternativas: [
+        "O Estatuto da Igualdade Racial garante a transversalidade da questão étnico-racial em cada temática objeto da ação governamental.",
+        "De acordo com o Estatuto da Igualdade Racial, as políticas de ação afirmativa e outras políticas públicas que tenham como objetivos a igualdade de oportunidades e a inclusão social da população negra devem ser observadas nos planos plurianuais e orçamentos da União.",
+        "Nessa lei, não há menção à responsabilidade do poder público em inserir a população negra no mercado de trabalho, uma vez que as políticas de cotas raciais são suficientes para promover a ascensão social da população negra por meio da garantia de trabalho.",
+        "Esse estatuto não contempla artigos específicos para fomentar uma educação específica, pois o plano de educação instituído pelo Ministério da Educação atende às demandas da obrigatoriedade do estudo da história africana e afro-brasileira.",
+        "A referida lei não contempla artigos específicos para fomentar uma saúde específica para a população negra, pois a sua inclusão no Sistema Único de Saúde por meio de alteração legislativa criou a Política Nacional de Saúde Integral da População Negra."
+      ], resposta_correta: 1 },
 ];
