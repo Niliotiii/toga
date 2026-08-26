@@ -1702,4 +1702,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "A aplicação da medida de advertência exige prova suficiente da autoria e da materialidade do ato infracional praticado.",
         "O adolescente usuário de drogas poderá ser incluído em programa específico de tratamento, desde que o ato infracional praticado por ele não enseje medida de internação em estabelecimento educacional."
       ], resposta_correta: 0 },
+  { id: "q2191", tema: "Direitos Humanos", dificuldade: "facil", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), Concurso Público 2024 para Defensor Público — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q70",
+      enunciado: "No que se refere à posição hierárquica dos tratados internacionais de proteção dos direitos humanos em face da Constituição Federal de 1988 (CF), caso um tratado internacional sobre direitos humanos seja aprovado no Senado Federal e na Câmara dos Deputados, em dois turnos, por três quintos dos votos dos seus respectivos membros, possuirá status hierárquico de",
+      alternativas: [
+        "decreto legislativo.",
+        "emenda constitucional.",
+        "lei complementar.",
+        "lei ordinária.",
+        "medida provisória."
+      ], resposta_correta: 1 },
+  { id: "q2192", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), Concurso Público 2024 para Defensor Público — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q61",
+      enunciado: "Maria, pessoa idosa, procurou a DPE/AC para denunciar o abandono por seus próprios filhos. No atendimento, ela relatou que os filhos haviam sido criados pela avó paterna, pois Maria era empregada doméstica e morava na casa dos patrões, razão pela qual nunca teve oportunidade de conviver com os filhos. Segundo ela, que relatou estar precisando de ajuda, seus filhos possuem excelente condição financeira. Ela alegou estar passando fome, além de estar sem água e sem energia e não possuir renda ou reserva de dinheiro para a sua subsistência. Considerando a situação hipotética apresentada e as disposições da CF e do Estatuto da Pessoa Idosa (Lei n.º 10.741/2003), assinale a opção correta.",
+      alternativas: [
+        "É do poder público a obrigação de assegurar a Maria o direito à vida, à saúde, à alimentação, à educação, à cultura e ao esporte; por isso, Maria não pode acionar a via judicial contra seus filhos requerendo a prestação de alimentos.",
+        "A obrigação alimentar dos filhos em relação a Maria é subsidiária, não podendo Maria optar entre os prestadores.",
+        "O defensor público deve informar à Maria que seus filhos estão obrigados a prover-lhe alimentos e prestar-lhe amparo.",
+        "Não há previsão legal que obrigue os filhos a cuidar de Maria, uma vez que a avó paterna foi a responsável pela sua criação.",
+        "A obrigação de prover alimentos e assistência ocorre exclusivamente dos pais para os filhos; portanto, legalmente, os filhos não podem ser compelidos a prestar assistência alimentar a Maria."
+      ], resposta_correta: 2 },
 ];
