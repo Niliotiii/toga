@@ -89,7 +89,7 @@ test("pressing the bomba power-up eliminates three alternatives and disables the
 
 test("pressing next after the last question navigates to Result", async () => {
   const { navigation } = await renderGame();
-  // Answer through all questions in the (5-or-fewer) rodada
+  // Answer through all questions in the rodada
   for (let i = 0; i < 5; i++) {
     const alternativas = screen.queryAllByTestId("alternativa-button");
     if (!alternativas.length) break;
