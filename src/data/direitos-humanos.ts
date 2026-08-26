@@ -1684,4 +1684,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "atuação sob a forma colegiada.",
         "composição paritária."
       ], resposta_correta: 2 },
+  { id: "q2189", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Tribunal de Justiça do Estado do Maranhão (TJMA), Concurso Público 2022 para Juiz Substituto — Prova Objetiva (gabarito oficial definitivo) — Q31",
+      enunciado: "Julgue os itens a seguir, relativos à justiça da infância e da juventude e à atuação do juiz da infância e da juventude.\n\nI. A doutrina da proteção integral inaugurou no direito brasileiro a criação de juízo especializado para atendimento de crianças e adolescentes.\nII. O juiz da infância e da juventude está adstrito à esfera judicial, possuindo competência para conhecer e julgar todos os conflitos de interesses que envolvam crianças e adolescentes em situação de violação de direitos.\nIII. A justiça especializada da infância e da juventude, composta pela vara da infância e da juventude, deve integrar a justiça estadual e a do Distrito Federal.\nIV. A competência do juiz da infância e da juventude para conhecer de representação para apuração de ato infracional atribuído a adolescente e aplicar a medida cabível é absoluta, ainda que se trate de conduta descrita como crime federal.\n\nEstão certos apenas os itens",
+      alternativas: [
+        "I e II.",
+        "I e III.",
+        "III e IV.",
+        "I, II e IV.",
+        "II, III e IV."
+      ], resposta_correta: 2 },
+  { id: "q2190", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Tribunal de Justiça do Estado do Maranhão (TJMA), Concurso Público 2022 para Juiz Substituto — Prova Objetiva (gabarito oficial definitivo) — Q32",
+      enunciado: "Acerca das medidas socioeducativas aplicáveis a adolescente a quem seja atribuída a autoria de ato infracional, assinale a opção correta.",
+      alternativas: [
+        "Caso entenda necessário, o juiz poderá aplicar medidas cumuladas, ou substituí-las, sem necessidade de expresso requerimento do Ministério Público.",
+        "Para a concessão de remissão como forma de exclusão do processo, não deve existir prova suficiente da autoria do ato infracional supostamente praticado.",
+        "Se o adolescente não possuir vínculo familiar, o juiz poderá aplicar-lhe, em razão do ato infracional, medida de proteção de acolhimento institucional como medida socioeducativa.",
+        "A aplicação da medida de advertência exige prova suficiente da autoria e da materialidade do ato infracional praticado.",
+        "O adolescente usuário de drogas poderá ser incluído em programa específico de tratamento, desde que o ato infracional praticado por ele não enseje medida de internação em estabelecimento educacional."
+      ], resposta_correta: 0 },
 ];
