@@ -1567,4 +1567,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "É admitida a tomada de novo depoimento especial quando houver solicitação da autoridade, independentemente de concordância da vítima ou da testemunha.",
         "Escuta especializada é o procedimento de oitiva de criança ou adolescente vítima ou testemunha de violência perante autoridade policial ou judiciária."
       ], resposta_correta: 0 },
+  { id: "q2176", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado de Sergipe (MP-SE), XXI Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 24/07/2022) — Q6",
+      enunciado: "Segundo o STF, os tratados internacionais de direitos humanos, quando incorporados ao direito interno, têm status de",
+      alternativas: [
+        "norma supralegal, se incorporados com base no § 3.º do artigo 5.º da Constituição Federal de 1988.",
+        "emenda constitucional, se incorporados com base no § 2.º do artigo 5.º da Constituição Federal de 1988.",
+        "norma supralegal, se incorporados com base no § 2.º do artigo 5.º da Constituição Federal de 1988.",
+        "lei ordinária, se incorporados com base no § 3.º do artigo 5.º da Constituição Federal de 1988.",
+        "lei ordinária, se incorporados com base no § 2.º do artigo 5.º da Constituição Federal de 1988."
+      ], resposta_correta: 2 },
+  { id: "q2177", tema: "Direitos Humanos", dificuldade: "facil", fonte: "Cebraspe — Ministério Público do Estado de Sergipe (MP-SE), XXI Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 24/07/2022) — Q77",
+      enunciado: "No que se refere ao Estatuto da Criança e do Adolescente, o conselho tutelar é órgão",
+      alternativas: [
+        "permanente, autônomo e não jurisdicional.",
+        "permanente, autônomo e jurisdicional.",
+        "interino, subordinado ao Ministério Público e não jurisdicional.",
+        "permanente, subordinado ao Ministério Público e jurisdicional.",
+        "interino, subordinado ao Ministério Público e jurisdicional."
+      ], resposta_correta: 0 },
 ];
