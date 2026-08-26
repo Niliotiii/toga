@@ -1,25 +1,40 @@
-import { useMemo, useRef, useState, useEffect } from "react";
-import { View, Text, Image, ScrollView, Pressable, StyleSheet, Animated } from "react-native";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
-import Slider from "@react-native-community/slider";
-import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import type { RootStackParamList } from "../navigation/RootNavigator";
-import { useGame } from "../context/GameContext";
-import { TEMAS } from "../data/temas";
-import { QUESTOES_DB } from "../data/questoes";
-import { filterPool } from "../lib/gameLogic";
-import { colors, spacing, radius, type } from "../theme/tokens";
-import { Chip } from "../components/Chip";
-import { MetaDiariaCard } from "../components/MetaDiariaCard";
-import { CronometroSwitch } from "../components/CronometroSwitch";
-import { useReducedMotion } from "../hooks/useReducedMotion";
-import { InfoIcon } from "../components/icons";
+import { useMemo, useRef, useState, useEffect } from 'react';
+import {
+  View,
+  Text,
+  Image,
+  ScrollView,
+  Pressable,
+  StyleSheet,
+  Animated,
+} from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import Slider from '@react-native-community/slider';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import type { RootStackParamList } from '../navigation/RootNavigator';
+import { useGame } from '../context/GameContext';
+import { TEMAS } from '../data/temas';
+import { QUESTOES_DB } from '../data/questoes';
+import { filterPool } from '../lib/gameLogic';
+import { colors, spacing, radius, type } from '../theme/tokens';
+import { Chip } from '../components/Chip';
+import { MetaDiariaCard } from '../components/MetaDiariaCard';
+import { CronometroSwitch } from '../components/CronometroSwitch';
+import { useReducedMotion } from '../hooks/useReducedMotion';
+import { InfoIcon } from '../components/icons';
 
-type Props = NativeStackScreenProps<RootStackParamList, "Home">;
+type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
 export function HomeScreen({ navigation }: Props) {
-  const { state, setTema, setQtdQuestoes, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
+  const {
+    state,
+    setTema,
+    setQtdQuestoes,
+    toggleCronometro,
+    sortearAleatorio,
+    iniciarRodada,
+  } = useGame();
   const insets = useSafeAreaInsets();
   const [sliderValue, setSliderValue] = useState(state.qtdQuestoes);
 
@@ -31,7 +46,7 @@ export function HomeScreen({ navigation }: Props) {
 
   const poolCount = useMemo(
     () => filterPool(QUESTOES_DB, state.tema).length,
-    [state.tema]
+    [state.tema],
   );
 
   const handleSortear = () => {
@@ -40,29 +55,43 @@ export function HomeScreen({ navigation }: Props) {
       return;
     }
     diceSpin.setValue(0);
-    Animated.timing(diceSpin, { toValue: 1, duration: 400, useNativeDriver: true }).start();
+    Animated.timing(diceSpin, {
+      toValue: 1,
+      duration: 400,
+      useNativeDriver: true,
+    }).start();
     sortearAleatorio();
   };
 
-  const diceRotate = diceSpin.interpolate({ inputRange: [0, 1], outputRange: ["0deg", "360deg"] });
+  const diceRotate = diceSpin.interpolate({
+    inputRange: [0, 1],
+    outputRange: ['0deg', '360deg'],
+  });
 
   return (
     <ScrollView
       style={styles.screen}
       contentContainerStyle={[
         styles.content,
-        { flexGrow: 1, paddingTop: spacing.xl + insets.top, paddingBottom: spacing.xxl + insets.bottom }
+        {
+          flexGrow: 1,
+          paddingTop: spacing.xl + insets.top,
+          paddingBottom: spacing.xxl + insets.bottom,
+        },
       ]}
     >
       <View style={styles.brandRow}>
-        <Image source={require("../../assets/icon.png")} style={styles.brandMark} />
+        <Image
+          source={require('../../assets/icon.png')}
+          style={styles.brandMark}
+        />
         <Text style={styles.brandName}>Toga</Text>
       </View>
       <View style={styles.titleRow}>
-        <Text style={styles.title}>Bora revisar direito hoje?</Text>
+        <Text style={styles.title}>Vamos revisar direito hoje?</Text>
         <Pressable
           style={styles.aboutButton}
-          onPress={() => navigation.navigate("About")}
+          onPress={() => navigation.navigate('About')}
           accessibilityRole="button"
           accessibilityLabel="Sobre o Toga"
           hitSlop={8}
@@ -74,18 +103,30 @@ export function HomeScreen({ navigation }: Props) {
       <MetaDiariaCard />
 
       <View style={styles.modeRow}>
-        <CronometroSwitch active={state.cronometroAtivo} onToggle={toggleCronometro} />
-        <Pressable style={styles.sortearButton} onPress={handleSortear} accessibilityLabel="Sortear tema">
+        <CronometroSwitch
+          active={state.cronometroAtivo}
+          onToggle={toggleCronometro}
+        />
+        <Pressable
+          style={styles.sortearButton}
+          onPress={handleSortear}
+          accessibilityLabel="Sortear tema"
+        >
           <Animated.View style={{ transform: [{ rotate: diceRotate }] }}>
-            <MaterialCommunityIcons name="dice-multiple-outline" size={22} color={colors.accentText} />
+            <MaterialCommunityIcons
+              name="dice-multiple-outline"
+              size={22}
+              color={colors.accentText}
+            />
           </Animated.View>
         </Pressable>
       </View>
 
-
       <View style={styles.sliderSection}>
         <View style={styles.sliderHeader}>
-          <Text style={[styles.sectionLabel, { marginTop: spacing.lg }]}>Qtd. de Questões</Text>
+          <Text style={[styles.sectionLabel, { marginTop: spacing.lg }]}>
+            Quantidade de Questões
+          </Text>
           <Text style={styles.sliderValue}>{sliderValue}</Text>
         </View>
         <Slider
@@ -115,7 +156,9 @@ export function HomeScreen({ navigation }: Props) {
         ))}
       </View>
 
-      <Text style={styles.poolInfo}>{poolCount} questões disponíveis nesse filtro</Text>
+      <Text style={styles.poolInfo}>
+        {poolCount} questões disponíveis nesse filtro
+      </Text>
 
       <View style={styles.spacer} />
 
@@ -124,13 +167,16 @@ export function HomeScreen({ navigation }: Props) {
         disabled={poolCount === 0}
         onPress={() => {
           iniciarRodada();
-          navigation.navigate("Game");
+          navigation.navigate('Game');
         }}
       >
         <Text style={styles.ctaPrimaryText}>Iniciar rodada</Text>
       </Pressable>
 
-      <Pressable style={styles.ctaSecondary} onPress={() => navigation.navigate("History")}>
+      <Pressable
+        style={styles.ctaSecondary}
+        onPress={() => navigation.navigate('History')}
+      >
         <Text style={styles.ctaSecondaryText}>Ver histórico</Text>
       </Pressable>
     </ScrollView>
@@ -140,26 +186,76 @@ export function HomeScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.bg },
   content: { padding: spacing.xl, paddingBottom: spacing.xxl },
-  brandRow: { flexDirection: "row", alignItems: "center", gap: spacing.sm },
+  brandRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
   brandMark: { width: 34, height: 34, borderRadius: radius.sm + 2 },
-  brandName: { fontSize: 15, fontWeight: "600", color: colors.muted },
-  titleRow: { flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginTop: spacing.lg },
+  brandName: { fontSize: 15, fontWeight: '600', color: colors.muted },
+  titleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: spacing.lg,
+  },
   title: { ...type.title, color: colors.fg, flexShrink: 1 },
-  aboutButton: { width: 32, height: 32, alignItems: "center", justifyContent: "center", marginLeft: spacing.sm },
-  sectionLabel: { fontSize: 12, fontWeight: "600", color: colors.muted, textTransform: "uppercase", marginTop: spacing.xl, marginBottom: spacing.sm },
+  aboutButton: {
+    width: 32,
+    height: 32,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: spacing.sm,
+  },
+  sectionLabel: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: colors.muted,
+    textTransform: 'uppercase',
+    marginTop: spacing.xl,
+    marginBottom: spacing.sm,
+  },
   sliderSection: { marginTop: spacing.lg },
-  sliderHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "baseline" },
-  sliderValue: { fontSize: 16, fontWeight: "600", color: colors.fg },
-  slider: { width: "100%", height: 40, marginTop: spacing.xs },
-  modeRow: { flexDirection: "row", alignItems: "stretch", gap: spacing.sm, marginTop: spacing.lg },
-  sortearButton: { width: 44, minHeight: 44, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface, alignItems: "center", justifyContent: "center" },
-  chipGrid: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
-  chipRow: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
+  sliderHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'baseline',
+  },
+  sliderValue: { fontSize: 16, fontWeight: '600', color: colors.fg },
+  slider: { width: '100%', height: 40, marginTop: spacing.xs },
+  modeRow: {
+    flexDirection: 'row',
+    alignItems: 'stretch',
+    gap: spacing.sm,
+    marginTop: spacing.lg,
+  },
+  sortearButton: {
+    width: 44,
+    minHeight: 44,
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radius.md,
+    backgroundColor: colors.surface,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  chipGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
+  chipRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
   poolInfo: { ...type.small, marginTop: spacing.lg },
   spacer: { flex: 1, minHeight: spacing.xl },
-  ctaPrimary: { backgroundColor: colors.accent, borderRadius: radius.lg, paddingVertical: spacing.lg, alignItems: "center", minHeight: 44 },
+  ctaPrimary: {
+    backgroundColor: colors.accent,
+    borderRadius: radius.lg,
+    paddingVertical: spacing.lg,
+    alignItems: 'center',
+    minHeight: 44,
+  },
   ctaDisabled: { opacity: 0.4 },
-  ctaPrimaryText: { color: "#fff", fontSize: 17, fontWeight: "600" },
-  ctaSecondary: { marginTop: spacing.md, borderWidth: 1, borderColor: colors.border, borderRadius: radius.lg, paddingVertical: spacing.md + 3, alignItems: "center", minHeight: 44 },
-  ctaSecondaryText: { color: colors.fg, fontSize: 15, fontWeight: "600" }
+  ctaPrimaryText: { color: '#fff', fontSize: 17, fontWeight: '600' },
+  ctaSecondary: {
+    marginTop: spacing.md,
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: radius.lg,
+    paddingVertical: spacing.md + 3,
+    alignItems: 'center',
+    minHeight: 44,
+  },
+  ctaSecondaryText: { color: colors.fg, fontSize: 15, fontWeight: '600' },
 });
