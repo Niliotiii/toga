@@ -2,6 +2,7 @@ import { useMemo, useRef } from "react";
 import { View, Text, Image, ScrollView, Pressable, StyleSheet, Animated } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import Slider from "@react-native-community/slider";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../navigation/RootNavigator";
 import { useGame } from "../context/GameContext";
@@ -18,7 +19,7 @@ import { InfoIcon } from "../components/icons";
 type Props = NativeStackScreenProps<RootStackParamList, "Home">;
 
 export function HomeScreen({ navigation }: Props) {
-  const { state, setTema, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
+  const { state, setTema, setQtdQuestoes, toggleCronometro, sortearAleatorio, iniciarRodada } = useGame();
   const insets = useSafeAreaInsets();
   const reducedMotion = useReducedMotion();
   const diceSpin = useRef(new Animated.Value(0)).current;
@@ -76,6 +77,25 @@ export function HomeScreen({ navigation }: Props) {
         </Pressable>
       </View>
 
+
+      <View style={styles.sliderSection}>
+        <View style={styles.sliderHeader}>
+          <Text style={[styles.sectionLabel, { marginTop: spacing.lg }]}>Qtd. de Questões</Text>
+          <Text style={styles.sliderValue}>{state.qtdQuestoes}</Text>
+        </View>
+        <Slider
+          style={styles.slider}
+          minimumValue={5}
+          maximumValue={100}
+          step={5}
+          value={state.qtdQuestoes}
+          onSlidingComplete={(val) => setQtdQuestoes(val)}
+          minimumTrackTintColor={colors.accent}
+          maximumTrackTintColor={colors.border}
+          thumbTintColor={colors.accent}
+        />
+      </View>
+
       <Text style={styles.sectionLabel}>Tema</Text>
       <View style={styles.chipGrid}>
         {TEMAS.map((tema) => (
@@ -121,6 +141,10 @@ const styles = StyleSheet.create({
   title: { ...type.title, color: colors.fg, flexShrink: 1 },
   aboutButton: { width: 32, height: 32, alignItems: "center", justifyContent: "center", marginLeft: spacing.sm },
   sectionLabel: { fontSize: 12, fontWeight: "600", color: colors.muted, textTransform: "uppercase", marginTop: spacing.xl, marginBottom: spacing.sm },
+  sliderSection: { marginTop: spacing.lg },
+  sliderHeader: { flexDirection: "row", justifyContent: "space-between", alignItems: "baseline" },
+  sliderValue: { fontSize: 16, fontWeight: "600", color: colors.fg },
+  slider: { width: "100%", height: 40, marginTop: spacing.xs },
   modeRow: { flexDirection: "row", alignItems: "stretch", gap: spacing.sm, marginTop: spacing.lg },
   sortearButton: { width: 44, minHeight: 44, borderWidth: 1, borderColor: colors.border, borderRadius: radius.md, backgroundColor: colors.surface, alignItems: "center", justifyContent: "center" },
   chipGrid: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },

@@ -3,13 +3,13 @@ import { Questao } from "../types";
 import { QUESTOES_DB } from "../data/questoes";
 import { TEMAS } from "../data/temas";
 import { buildRodada, sortearTema, shuffle } from "../lib/gameLogic";
-import { registrarRespostaMeta, getCronometroPref, setCronometroPref } from "../services/storage";
+import { registrarRespostaMeta, getCronometroPref, setCronometroPref, getQtdQuestoesPref, setQtdQuestoesPref } from "../services/storage";
 
-const ROUND_SIZE = 5;
 const POWERUP_MAX = 2;
 
 interface GameState {
   tema: string;
+  qtdQuestoes: number;
   cronometroAtivo: boolean;
   rodada: Questao[];
   indice: number;
@@ -24,6 +24,7 @@ interface GameState {
 
 const initialState: GameState = {
   tema: TEMAS[0],
+  qtdQuestoes: 5,
   cronometroAtivo: false,
   rodada: [],
   indice: 0,
@@ -39,6 +40,7 @@ const initialState: GameState = {
 interface GameContextValue {
   state: GameState;
   setTema(t: string): void;
+  setQtdQuestoes(v: number): Promise<void>;
   toggleCronometro(): Promise<void>;
   sortearAleatorio(): void;
   iniciarRodada(): void;
@@ -74,9 +76,17 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
       if (userToggledCronometroRef.current) return;
       setState((s) => ({ ...s, cronometroAtivo: v }));
     });
+    getQtdQuestoesPref().then((v) => {
+      setState((s) => ({ ...s, qtdQuestoes: v }));
+    });
   }, []);
 
   const setTema = useCallback((t: string) => setState((s) => ({ ...s, tema: t })), []);
+
+  const setQtdQuestoes = useCallback(async (v: number) => {
+    setState((s) => ({ ...s, qtdQuestoes: v }));
+    await setQtdQuestoesPref(v);
+  }, []);
 
   const toggleCronometro = useCallback(async () => {
     userToggledCronometroRef.current = true;
@@ -100,7 +110,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     usedBombaThisQuestionRef.current = false;
     setState((s) => ({
       ...s,
-      rodada: buildRodada(QUESTOES_DB, s.tema, ROUND_SIZE),
+      rodada: buildRodada(QUESTOES_DB, s.tema, s.qtdQuestoes),
       indice: 0,
       acertos: 0,
       combo: 0,
@@ -262,7 +272,7 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <GameContext.Provider
-      value={{ state, setTema, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, usarBomba, avancar }}
+      value={{ state, setTema, setQtdQuestoes, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, usarBomba, avancar }}
     >
       {children}
     </GameContext.Provider>
