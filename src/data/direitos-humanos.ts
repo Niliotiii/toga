@@ -1657,4 +1657,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "multa, exclusivamente.",
         "interdição."
       ], resposta_correta: 4 },
+  { id: "q2186", tema: "Direitos Humanos", dificuldade: "facil", fonte: "Cebraspe — Tribunal de Justiça do Distrito Federal e Territórios (TJDFT), Concurso Público 2022 para Juiz Substituto — Prova Objetiva (gabarito oficial definitivo) — Q78",
+      enunciado: "Nos termos do Estatuto da Pessoa com Deficiência, quando for necessário, a pessoa com deficiência será submetida à curatela, a qual afetará somente os atos relacionados aos direitos de natureza",
+      alternativas: [
+        "patrimonial e trabalhista.",
+        "trabalhista e educacional.",
+        "patrimonial e negocial.",
+        "educacional e patrimonial.",
+        "educacional e negocial."
+      ], resposta_correta: 2 },
 ];
