@@ -1513,4 +1513,58 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Desigualdade de gênero e raça refere-se à assimetria que, no âmbito da sociedade, acentua a distância social entre homens e mulheres, de qualquer raça, cor, descendência ou origem nacional ou étnica, ou entre negros e os demais segmentos sociais.",
         "Configura-se discriminação racial apenas quando atos de exclusão formal e explícita abrangem distinções sociais ou econômicas baseadas em raça, cor, descendência ou origem nacional ou étnica que causem anulação do reconhecimento, gozo ou exercício, em igualdade de condições, de direitos humanos e liberdades fundamentais."
       ], resposta_correta: 0 },
+  { id: "q2170", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Espírito Santo (PGE-ES), Concurso Público 2025 para Procurador do Estado de 1ª Categoria — Prova Preambular Objetiva (gabarito oficial definitivo, prova aplicada em 02/11/2025) — Q61",
+      enunciado: "Assinale a opção correta no que se refere ao direito da pessoa idosa ao acesso à justiça, conforme previsto no Estatuto da Pessoa Idosa.",
+      alternativas: [
+        "A prioridade processual conferida à pessoa idosa não cessará com a morte do beneficiado, estendendo-se em favor do cônjuge supérstite, companheiro ou companheira em união estável, independentemente de sua idade.",
+        "É garantida prioridade na tramitação processual às pessoas com idade igual ou superior a 60 anos.",
+        "É assegurada prioridade na tramitação processual em ações cíveis e criminais em que a pessoa idosa figure como autora, excetuando-se os recursos ou procedimentos administrativos.",
+        "Entre os processos de pessoas idosas, será dada prioridade especial aos que se refiram aos indivíduos maiores de 75 anos de idade.",
+        "Desde 2005, é obrigatória a criação, pelo poder público, de varas especializadas e exclusivas da pessoa idosa."
+      ], resposta_correta: 1 },
+  { id: "q2171", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Piauí (PGE-PI), Concurso Público 2025 para Procurador do Estado Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 13/07/2025) — Q53",
+      enunciado: "Considerando o histórico e a situação da propriedade territorial rural no Brasil, assinale a opção correta.",
+      alternativas: [
+        "O reconhecimento de direitos territoriais para comunidades quilombolas passou a ser resguardado em todo o território brasileiro apenas no ano de 1988, por meio de disposição constitucional transitória.",
+        "A Lei de Terras de 1850 permitiu como medida compensatória à servidão a doação de lotes situados fora da faixa de fronteira para pequenos escravos libertos.",
+        "A Constituição Federal de 1891 não reconheceu competências patrimoniais aos estados federados.",
+        "O conceito de função social da propriedade rural foi introduzido no ordenamento jurídico brasileiro pela Constituição Federal de 1824.",
+        "O Estatuto da Terra foi o diploma legal que introduziu na legislação brasileira a possibilidade de confisco de imóveis rurais onde empregada mão de obra em condição análoga à de escravo."
+      ], resposta_correta: 0 },
+  { id: "q2172", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Procuradoria-Geral do Estado do Piauí (PGE-PI), Concurso Público 2025 para Procurador do Estado Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 13/07/2025) — Q55",
+      enunciado: "Acerca do regime das terras tradicionalmente ocupadas por indígenas, julgue os seguintes itens.\n\nI. De acordo com o art. 20 da CF, as terras indígenas demarcadas são bens da União e as demais são de propriedade dos estados federados.\nII. As terras tradicionalmente ocupadas pelos povos indígenas destinam-se a sua posse permanente por meio de cessão administrativa, cabendo-lhes o direito de preferência em processos de concessão pública para a exploração das riquezas do solo, dos rios e dos lagos nelas existentes.\nIII. É vedada a remoção dos grupos indígenas de suas terras, salvo, ad referendum do Congresso Nacional, em caso de catástrofe ou epidemia que ponha em risco sua população, ou no interesse da soberania do país, após deliberação do Congresso Nacional, garantido, em qualquer hipótese, o retorno imediato às terras logo que cesse o risco.\nIV. A homologação da demarcação de terras indígenas é realizada pela Fundação Nacional do Índio (FUNAI) e decorre do estudo de identificação da área reivindicada por indígenas e da delimitação do território.\n\nAssinale a opção correta.",
+      alternativas: [
+        "Nenhum item está certo.",
+        "Apenas o item I está certo.",
+        "Apenas o item II está certo.",
+        "Apenas o item III está certo.",
+        "Todos os itens estão certos."
+      ], resposta_correta: 3 },
+  { id: "q2173", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado de Sergipe (MP-SE), XXI Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 24/07/2022) — Q79",
+      enunciado: "De acordo com o Estatuto da Pessoa com Deficiência, o direito à moradia da pessoa com deficiência garante-lhe prioridade nos programas públicos habitacionais, mediante a reserva de",
+      alternativas: [
+        "3% das unidades habitacionais.",
+        "1% das unidades habitacionais.",
+        "5% das unidades habitacionais.",
+        "2% das unidades habitacionais.",
+        "4% das unidades habitacionais."
+      ], resposta_correta: 0 },
+  { id: "q2174", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Ministério Público do Estado de Sergipe (MP-SE), XXI Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 24/07/2022) — Q78",
+      enunciado: "Julgue os seguintes itens, com base no Estatuto do Idoso.\n\nI. A obrigação de prestar alimentos ao idoso é solidária, sendo discricionariedade dele optar por qualquer dos prestadores.\nII. Em atendimento à saúde, os maiores de 70 anos de idade têm prioridade sobre os demais idosos.\nIII. É competência do Ministério Público fiscalizar os órgãos governamentais e as entidades privadas de atendimento ao idoso.\nIV. O direito à prioridade de tramitação em processos judiciais é concedido aos idosos com idade a partir de 70 anos e dispensa requisição da parte interessada.\n\nEstão certos apenas os itens",
+      alternativas: [
+        "I e III.",
+        "II e IV.",
+        "III e IV.",
+        "I, II e III.",
+        "I, II e IV."
+      ], resposta_correta: 0 },
+  { id: "q2175", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado de Sergipe (MP-SE), XXI Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 24/07/2022) — Q26",
+      enunciado: "Assinale a opção correta, com base no disposto na Lei n.º 13.431/2017, que estabelece o sistema de garantia de direitos da criança e do adolescente vítima ou testemunha de violência.",
+      alternativas: [
+        "A aplicação da lei mencionada é facultativa para vítimas e testemunhas de violência com idade entre 18 e 21 anos.",
+        "O depoimento especial segue o rito de antecipação de prova e sua aplicação é restrita às vítimas menores de 12 anos de idade.",
+        "Os órgãos policiais envolvidos envidarão esforços para garantir que o depoimento especial seja o principal meio de prova para o julgamento do réu.",
+        "É admitida a tomada de novo depoimento especial quando houver solicitação da autoridade, independentemente de concordância da vítima ou da testemunha.",
+        "Escuta especializada é o procedimento de oitiva de criança ou adolescente vítima ou testemunha de violência perante autoridade policial ou judiciária."
+      ], resposta_correta: 0 },
 ];
