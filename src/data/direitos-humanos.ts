@@ -1738,4 +1738,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "A criança possui o direito à liberdade de expressão, que inclui o direito de buscar, receber e disseminar informações e ideias de qualquer natureza, sem restrições, verbalmente ou por qualquer outro meio de sua escolha.",
         "Os Estados-partes em conflito armado não podem recrutar pessoas com menos de dezesseis anos de idade para servir em suas forças armadas."
       ], resposta_correta: 2 },
+  { id: "q2195", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), Concurso Público 2024 para Defensor Público — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q75",
+      enunciado: "Ana trabalha com o atendimento ao público em determinado estabelecimento comercial e foi informada pelo seu superior, gerente da empresa, que seu nome estaria sendo cotado para uma promoção, no entanto, para que tal promoção ocorresse, Ana não poderia mais utilizar seu turbante e suas guias de axé, haja vista o contato direto com clientes. O gerente alegou que isso poderia afetar negativamente os resultados e a imagem da empresa. Ana foi demitida após se recusar a abandonar as práticas de sua fé para obter a referida promoção. Sendo assim, Ana procurou a defensoria pública para relatar o ocorrido. A partir da situação hipotética apresentada, o defensor público, ciente de que o Brasil é signatário da Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial, deve informar à Ana que a ação do empregador pode ser caracterizada como",
+      alternativas: [
+        "uma ação desprovida de status de proteção internacional dos direitos humanos, uma vez que a legislação infraconstitucional brasileira já contempla referida situação.",
+        "uma transgressão à Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial, que pode acarretar consequências legais adicionais nos âmbitos cível e penal para o empregador.",
+        "uma conduta ilegal no âmbito cível, todavia sem possibilidade de responsabilização criminal, por tratar-se de conduta praticada no exercício da função do gerente do estabelecimento.",
+        "uma infração legal passível de responsabilização somente no âmbito da justiça trabalhista, haja vista que os fatos ocorreram durante a relação empregado e empregador no local de trabalho.",
+        "um abuso de direito que obriga o empregador a compensar a funcionária apenas com indenização por danos materiais e morais, sem todavia ensejar danos morais coletivos."
+      ], resposta_correta: 1 },
+  { id: "q2196", tema: "Direitos Humanos", dificuldade: "facil", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), Concurso Público 2024 para Defensor Público — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q76",
+      enunciado: "No que se refere à clássica subdivisão das gerações/dimensões dos direitos humanos (1.ª, 2.ª e 3.ª gerações), assinale a opção que apresenta, respectivamente, um direito de 1.ª e um direito de 2.ª geração.",
+      alternativas: [
+        "direito à proteção à infância e direito à propriedade",
+        "direito à privacidade na era digital e direito ao acesso à Internet",
+        "direito ao meio ambiente ecologicamente equilibrado e direito à paz",
+        "direito à democracia e direito à liberdade de expressão",
+        "direito à participação popular e direito à saúde"
+      ], resposta_correta: 4 },
 ];
