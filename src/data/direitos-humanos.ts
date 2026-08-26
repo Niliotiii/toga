@@ -1648,4 +1648,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "No sistema brasileiro, todos os tratados internacionais de direitos humanos têm status de emenda constitucional.",
         "A dignidade humana, embora considerada um vetor interpretativo das normas jurídicas, não é reconhecida como princípio jurídico."
       ], resposta_correta: 1 },
+  { id: "q2185", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Advocacia-Geral da União (AGU), Concurso Público 2022 para Procurador Federal — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 07/05/2023) — Q59",
+      enunciado: "Nos termos do Estatuto da Pessoa Idosa, a instituição dedicada ao atendimento à pessoa idosa onde não haja identificação externa visível se sujeitará à pena de",
+      alternativas: [
+        "afastamento provisório dos dirigentes.",
+        "suspensão temporária do repasse de verbas públicas.",
+        "suspensão do programa.",
+        "multa, exclusivamente.",
+        "interdição."
+      ], resposta_correta: 4 },
 ];
