@@ -1603,4 +1603,31 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "o agressor fará jus ao reconhecimento de atenuante da pena aplicada se ressarcir ao SUS os custos relativos aos serviços de saúde prestados para o total tratamento da ofendida.",
         "a ofendida terá preferência na matrícula dos filhos em instituição de educação infantil próxima ao seu domicílio, mediante declaração da situação de vulnerabilidade."
       ], resposta_correta: 0 },
+  { id: "q2180", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Advocacia-Geral da União (AGU), Concurso Público 2022 para Procurador Federal — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 07/05/2023) — Q11",
+      enunciado: "No que se refere ao imóvel cuja área esteja inserida em terras tradicionalmente ocupadas por indígenas e ao título de propriedade desse imóvel em nome de particular devidamente registrado no respectivo cartório de registro de imóveis, assinale a opção correta segundo os preceitos da Constituição Federal de 1988 (CF) e a jurisprudência do Supremo Tribunal Federal (STF).",
+      alternativas: [
+        "A existência do registro imobiliário em nome de particular, a despeito do que prescreve o Código Civil, consolida a propriedade do imóvel ao particular, sendo esta insuscetível de oposição pela União.",
+        "As terras tradicionalmente ocupadas pelos indígenas incluem-se no domínio constitucional da União e podem ser objeto de alienação quando devidamente demonstrado o interesse público pela disponibilidade da área.",
+        "A eficácia dos títulos de propriedade tem apenas o condão de comprovar a boa-fé do particular, outorgando-lhe o direito à indenização pela terra nua e pelas benfeitorias nela implementadas.",
+        "Consideram-se válidas as pactuações negociais que incidam sobre as referidas terras, gerando, entre outros efeitos jurídicos, o direito à indenização ou o direito de acesso a ações judiciais contra a União para ressarcimento da terra nua.",
+        "A CF exclui do comércio jurídico as terras indígenas res extra commercium, proclamando a nulidade e declarando a extinção de atos que tenham por objeto a ocupação, o domínio e a posse de tais áreas."
+      ], resposta_correta: 4 },
+  { id: "q2181", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Advocacia-Geral da União (AGU), Concurso Público 2022 para Procurador Federal — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 07/05/2023) — Q12",
+      enunciado: "O Decreto n.º 4.887/2003, que regulamenta o procedimento para identificação, reconhecimento, delimitação, demarcação e titulação das terras ocupadas por remanescentes das comunidades dos quilombos de que trata o art. 68 do Ato das Disposições Constitucionais Transitórias (ADCT), foi objeto de impugnação por meio da Ação Direta de Inconstitucionalidade (ADI) n.º 3.239. Nessa ADI, o STF\n\nI. declarou que esse decreto é inconstitucional por ofensa aos princípios da legalidade e da reserva de lei, com base no entendimento de que o procedimento previsto no art. 68 do ADCT necessariamente deve ser regulamentado por lei em sentido formal e, uma vez inexistente lei a respeito, a Presidência da República invadira esfera reservada ao Poder Legislativo.\nII. julgou improcedente o pedido de declaração de inconstitucionalidade formal desse decreto, entendendo que ele representa o efetivo exercício do poder regulamentar da administração pública inserido nos limites estabelecidos pela CF.\nIII. reconheceu como constitucionalmente legítima a adoção da autoatribuição como critério de determinação da identidade quilombola, a qual, para os efeitos do referido decreto, é atestada por certidão emitida pela Fundação Cultural Palmares.\nIV. reconheceu que, similarmente ao que ocorre nos casos das terras tradicionalmente ocupadas pelos indígenas, a CF reputa nulos e extintos os títulos de terceiros eventualmente incidentes sobre as terras ocupadas por remanescentes das comunidades dos quilombos, de modo que a regularização do registro dispensa o procedimento expropriatório.\n\nEstão certos apenas os itens",
+      alternativas: [
+        "I e II.",
+        "II e III.",
+        "III e IV.",
+        "I, II e IV.",
+        "I, III e IV."
+      ], resposta_correta: 1 },
+  { id: "q2182", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Advocacia-Geral da União (AGU), Concurso Público 2022 para Procurador Federal — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 07/05/2023) — Q45",
+      enunciado: "Raul, argentino, com 66 anos de idade, vive em um abrigo na cidade de São Paulo. Por não ter familiares e por ter renda ínfima, decorrente de sua atividade como catador de material reciclável, inscreveu-se no CadÚnico e pleiteou o benefício de prestação continuada (BPC), previsto na Lei n.º 8.742/1993. Considerando essa situação hipotética e a jurisprudência do Supremo Tribunal Federal (STF), julgue os seguintes itens.\n\nI. O fato de Raul ser estrangeiro, ainda que residente no Brasil, é suficiente para que lhe seja negado o BPC.\nII. Concedido o BPC a Raul, não haverá necessidade de reavaliação, a cada dois anos, das condições que ensejaram a concessão, uma vez que se trata de benefício concedido a idoso.\nIII. Apenas o fato de Raul residir em um abrigo não impede que ele possa vir a receber o BPC.\nIV. No que se refere à análise da condição de miserabilidade e da situação de vulnerabilidade de Raul para a concessão do BPC, a referida lei permite, por meio de regulamento, que o limite da renda mensal familiar, por pessoa, possa chegar a meio salário mínimo.\n\nEstão certos apenas os itens",
+      alternativas: [
+        "I e II.",
+        "II e III.",
+        "III e IV.",
+        "I, II e IV.",
+        "I, III e IV."
+      ], resposta_correta: 2 },
 ];
