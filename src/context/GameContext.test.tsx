@@ -16,7 +16,7 @@ beforeEach(async () => {
   await AsyncStorage.clear();
 });
 
-test("iniciarRodada builds a rodada of up to 5 questions and resets round state", async () => {
+test("iniciarRodada builds a rodada based on qtdQuestoes and resets round state", async () => {
   const { result } = await renderHook(() => useGame(), { wrapper });
   await act(() => {
     result.current.setTema("Direito Penal");
