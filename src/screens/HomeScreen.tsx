@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react';
+import { useMemo, useRef, useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -36,6 +36,11 @@ export function HomeScreen({ navigation }: Props) {
     iniciarRodada,
   } = useGame();
   const insets = useSafeAreaInsets();
+  const [sliderValue, setSliderValue] = useState(state.qtdQuestoes);
+
+  useEffect(() => {
+    setSliderValue(state.qtdQuestoes);
+  }, [state.qtdQuestoes]);
   const reducedMotion = useReducedMotion();
   const diceSpin = useRef(new Animated.Value(0)).current;
 
@@ -122,14 +127,15 @@ export function HomeScreen({ navigation }: Props) {
           <Text style={[styles.sectionLabel, { marginTop: spacing.lg }]}>
             Quantidade de Questões
           </Text>
-          <Text style={styles.sliderValue}>{state.qtdQuestoes}</Text>
+          <Text style={styles.sliderValue}>{sliderValue}</Text>
         </View>
         <Slider
           style={styles.slider}
           minimumValue={5}
           maximumValue={100}
           step={5}
-          value={state.qtdQuestoes}
+          value={sliderValue}
+          onValueChange={(val) => setSliderValue(val)}
           onSlidingComplete={(val) => setQtdQuestoes(val)}
           minimumTrackTintColor={colors.accent}
           maximumTrackTintColor={colors.border}
