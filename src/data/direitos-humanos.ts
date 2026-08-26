@@ -1585,4 +1585,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "permanente, subordinado ao Ministério Público e jurisdicional.",
         "interino, subordinado ao Ministério Público e jurisdicional."
       ], resposta_correta: 0 },
+  { id: "q2178", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado do Acre (MPE-AC), XIII Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 15/05/2022) — Q84",
+      enunciado: "A Convenção das Nações Unidas sobre os Direitos da Criança consiste no instrumento de direitos humanos mais aceito na história universal, já tendo sido ratificada por 196 países. De acordo com essa convenção, ratificada pelo Brasil em 1990 e, no mesmo ano, promulgada em âmbito interno pelo Decreto n.º 99.710/1990,",
+      alternativas: [
+        "considera-se como criança todo ser humano com menos de quatorze anos de idade, a não ser que, em conformidade com a lei aplicável à criança, a maioridade seja alcançada antes.",
+        "a criança deverá ser registrada em até trinta dias após seu nascimento e terá direito, desde o momento em que nascer, a um nome, a uma nacionalidade e, na medida do possível, a conhecer seus pais e a ser cuidada por eles.",
+        "os Estados-partes assegurarão à criança que estiver capacitada a formular seus próprios juízos o direito de expressar suas opiniões livremente sobre todos os assuntos relacionados a ela, levando-se devidamente em consideração essas opiniões, em função da idade e maturidade da criança. Com tal propósito, será proporcionada à criança, em particular, a oportunidade de ser ouvida em todo processo judicial ou administrativo que a afete, quer diretamente, quer por intermédio de um representante ou órgão apropriado, em conformidade com as regras processuais da legislação nacional.",
+        "os Estados-partes terão de zelar para que nenhuma criança seja submetida a tortura nem a outros tratamentos ou penas cruéis, desumanos ou degradantes; e aos menores de vinte anos de idade não será imposta a pena de morte nem a prisão perpétua sem possibilidade de livramento por delitos por eles cometidos.",
+        "os Estados-partes reconhecem o direito da criança à educação e, a fim de que ela possa exercer progressivamente e em igualdade de condições esse direito, eles devem especialmente: tornar o ensino primário e secundário obrigatórios e disponíveis gratuitamente para todos; tornar o ensino superior acessível a todos com base na capacidade individual e por todos os meios adequados; tornar a informação e a orientação educacional e profissional disponíveis e acessíveis a todas as crianças."
+      ], resposta_correta: 2 },
+  { id: "q2179", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Ministério Público do Estado do Acre (MPE-AC), XIII Concurso Público 2022 para Promotor de Justiça Substituto — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 15/05/2022) — Q23",
+      enunciado: "Caso seja configurada situação de violência doméstica com violência sexual contra a mulher,",
+      alternativas: [
+        "a ofendida terá acesso a contracepção de emergência, a profilaxia de DSTs e a procedimentos médicos necessários.",
+        "o juiz assegurará à vítima, se necessário o seu afastamento do local de trabalho, a manutenção do vínculo trabalhista enquanto durar a situação de violência.",
+        "a vítima será incluída em programas assistenciais do governo federal, estadual e municipal, por prazo indeterminado.",
+        "o agressor fará jus ao reconhecimento de atenuante da pena aplicada se ressarcir ao SUS os custos relativos aos serviços de saúde prestados para o total tratamento da ofendida.",
+        "a ofendida terá preferência na matrícula dos filhos em instituição de educação infantil próxima ao seu domicílio, mediante declaração da situação de vulnerabilidade."
+      ], resposta_correta: 0 },
 ];
