@@ -1666,4 +1666,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "educacional e patrimonial.",
         "educacional e negocial."
       ], resposta_correta: 2 },
+  { id: "q2187", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Tribunal de Justiça do Estado do Maranhão (TJMA), Concurso Público 2022 para Juiz Substituto — Prova Objetiva (gabarito oficial definitivo) — Q26",
+      enunciado: "No que se refere ao direito de o adotado conhecer sua origem biológica, assinale a opção correta.",
+      alternativas: [
+        "Em caso de reprodução assistida heteróloga, o direito do filho de conhecer sua origem biológica prevalece sobre o direito do anonimato do doador do sêmen ou da doadora do óvulo.",
+        "Em eventual conflito de interesses, o direito do filho de conhecer sua origem biológica prevalecerá sobre o direito ao sigilo de dados da genitora que o entregou para adoção.",
+        "O acesso irrestrito ao processo de adoção no qual a medida foi aplicada só é garantido para os maiores de dezoito anos de idade.",
+        "Quando o adotado conhece sua origem biológica, restabelecem-se os vínculos jurídicos dele com a família de origem, reconhecendo-se a existência de um liame genético que não se extingue.",
+        "Pressupõe-se na legislação a multiparentalidade entre pais adotivos e biológicos."
+      ], resposta_correta: 1 },
+  { id: "q2188", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Tribunal de Justiça do Estado do Maranhão (TJMA), Concurso Público 2022 para Juiz Substituto — Prova Objetiva (gabarito oficial definitivo) — Q29",
+      enunciado: "O Estatuto da Criança e do Adolescente regulamenta o disposto no artigo 227 da Constituição Federal de 1988, que determina a proteção integral da criança e do adolescente com prioridade absoluta. Nesse contexto, foram criados os conselhos dos direitos da criança e do adolescente, que, distintos dos conselhos tutelares, apresentam como característica",
+      alternativas: [
+        "participação popular.",
+        "autonomia política.",
+        "tomada de decisões em caráter deliberativo.",
+        "atuação sob a forma colegiada.",
+        "composição paritária."
+      ], resposta_correta: 2 },
 ];
