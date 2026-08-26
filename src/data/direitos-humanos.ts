@@ -1774,4 +1774,22 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Esse estatuto não contempla artigos específicos para fomentar uma educação específica, pois o plano de educação instituído pelo Ministério da Educação atende às demandas da obrigatoriedade do estudo da história africana e afro-brasileira.",
         "A referida lei não contempla artigos específicos para fomentar uma saúde específica para a população negra, pois a sua inclusão no Sistema Único de Saúde por meio de alteração legislativa criou a Política Nacional de Saúde Integral da População Negra."
       ], resposta_correta: 1 },
+  { id: "q2199", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Procuradoria-Geral do Estado do Pará (PGE/PA), XXII Concurso Público para Procurador do Estado — Edital 1/2023 (gabarito oficial definitivo, prova aplicada em 01/10/2023) — Q92",
+      enunciado: "De acordo com a Lei n.º 7.716/1989, aquele que, em razão de raça, cor, etnia, religião ou procedência nacional, impedir o acesso de alguém, devidamente habilitado, a qualquer cargo da administração direta",
+      alternativas: [
+        "comete crime sujeito a pena de detenção, de dois a cinco anos, e multa.",
+        "incorre na mesma pena de quem, por motivo de discriminação de raça, cor, etnia, religião ou procedência nacional, impede o acesso às entradas sociais em edifícios públicos ou residenciais e elevadores ou escada de acesso a tais espaços.",
+        "comete crime sujeito a pena de reclusão, de três a seis anos, e multa.",
+        "tem a pena aumentada de um sexto a um terço se praticar o crime com o auxílio de outra pessoa.",
+        "incorre na mesma pena de quem, por motivo de discriminação de raça, cor, etnia, religião ou procedência nacional, obstar a promoção funcional."
+      ], resposta_correta: 4 },
+  { id: "q2200", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "Cebraspe — Advocacia-Geral da União (AGU), Concurso Público para Advogado da União — Edital 1/2022 (gabarito oficial definitivo, prova aplicada em 30/04/2023) — Q78",
+      enunciado: "Os irmãos Caetano e Beatriz, nascidos na Alemanha em 2006 e 2015, respectivamente, residiam com seus pais naquele país desde que nasceram. Em fevereiro de 2020, eles foram trazidos ao Brasil pela mãe, sem a autorização do pai, com o intuito de fixar residência no país. Em maio de 2021, depois de fracassadas tentativas de convencer a mãe a retornar ao país de origem dos filhos, o pai procurou a autoridade central de seu país, que imediatamente enviou ao Brasil um pedido de restituição dos menores. A partir da situação hipotética apresentada, assinale a opção correta conforme a Convenção da Haia sobre os Aspectos Civis do Sequestro Internacional de Crianças.",
+      alternativas: [
+        "O Poder Judiciário brasileiro deverá julgar improcedente a ação de restituição internacional, pois o pedido foi recebido pelo Brasil mais de um ano após a subtração internacional das crianças.",
+        "O Poder Judiciário brasileiro deverá julgar improcedente a ação de restituição internacional quanto a Caetano, já que ele não é mais considerado criança à luz da citada convenção.",
+        "O Poder Judiciário brasileiro não poderá decidir sobre o direito de guarda das crianças, salvo se antes houver decidido pela incidência de alguma hipótese que configure exceção à obrigação internacional de restituir as crianças à Alemanha.",
+        "O Poder Judiciário brasileiro deveria ter julgado o caso em até dezesseis semanas, para atender à obrigação internacional de decidir o assunto em caráter de urgência.",
+        "O Poder Judiciário brasileiro deverá determinar a restituição das crianças à Alemanha, ainda que elas demonstrem ter maturidade suficiente para que se considerem suas opiniões sobre o assunto e se oponham ao retorno à Alemanha."
+      ], resposta_correta: 2 },
 ];
