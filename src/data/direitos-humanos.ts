@@ -1720,4 +1720,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "Não há previsão legal que obrigue os filhos a cuidar de Maria, uma vez que a avó paterna foi a responsável pela sua criação.",
         "A obrigação de prover alimentos e assistência ocorre exclusivamente dos pais para os filhos; portanto, legalmente, os filhos não podem ser compelidos a prestar assistência alimentar a Maria."
       ], resposta_correta: 2 },
+  { id: "q2193", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), Concurso Público 2024 para Defensor Público — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q73",
+      enunciado: "A respeito das disposições do Estatuto dos Refugiados (Lei n.º 9.474/1997), assinale a opção correta.",
+      alternativas: [
+        "Os refugiados têm o direito de obter uma carteira de identidade que comprove sua condição jurídica, além de ter acesso à emissão de carteira de trabalho e a um documento de viagem específico para sua situação.",
+        "No caso de decisão negativa em processo relativo à solicitação de reconhecimento da condição de refugiado, o solicitante terá direito de recorrer ao ministro de Estado das Relações Exteriores, no prazo de 10 dias, contados do recebimento da notificação da decisão.",
+        "Compete ao Comitê Nacional para os Refugiados (CONARE) decidir, em primeira instância, sobre a cessação ou a perda da condição de refugiado, por meio de decisão irrecorrível, que deve ser informada ao Departamento de Polícia Federal para as providências cabíveis.",
+        "O acesso aos direitos fundamentais, bem como ao direito à educação em instituições públicas no Brasil, é assegurado aos solicitantes de refúgio somente após a conclusão e a aprovação do respectivo processo de solicitação de reconhecimento da condição de refugiado.",
+        "O Alto Comissariado das Nações Unidas para Refugiados (ACNUR) é membro convidado para as reuniões do Comitê Nacional para os Refugiados (CONARE) e, além de ter direito a voz e voto nessas reuniões, também tem a possibilidade de oferecer sugestões que facilitem o andamento do processo de solicitação de refúgio."
+      ], resposta_correta: 0 },
 ];
