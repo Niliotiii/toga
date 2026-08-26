@@ -1729,4 +1729,13 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "O acesso aos direitos fundamentais, bem como ao direito à educação em instituições públicas no Brasil, é assegurado aos solicitantes de refúgio somente após a conclusão e a aprovação do respectivo processo de solicitação de reconhecimento da condição de refugiado.",
         "O Alto Comissariado das Nações Unidas para Refugiados (ACNUR) é membro convidado para as reuniões do Comitê Nacional para os Refugiados (CONARE) e, além de ter direito a voz e voto nessas reuniões, também tem a possibilidade de oferecer sugestões que facilitem o andamento do processo de solicitação de refúgio."
       ], resposta_correta: 0 },
+  { id: "q2194", tema: "Direitos Humanos", dificuldade: "media", fonte: "Cebraspe — Defensoria Pública do Estado do Acre (DPE-AC), Concurso Público 2024 para Defensor Público — Prova Objetiva (gabarito oficial definitivo, prova aplicada em 28/04/2024) — Q77",
+      enunciado: "A respeito da Convenção sobre os Direitos da Criança, assinale a opção correta.",
+      alternativas: [
+        "Todas as medidas concernentes à criança, previstas na referida Convenção, executadas por entidades de assistência social, sejam públicas ou privadas, assim como aquelas executadas por tribunais, autoridades administrativas ou órgãos legislativos, devem priorizar o superior interesse da sociedade.",
+        "É inadequado fornecer informações à criança sobre as razões de qualquer intervenção, independentemente do seu nível de entendimento, devendo essas informações ser comunicadas somente aos pais ou seus responsáveis.",
+        "Os meios de comunicação devem ser incentivados a considerar as necessidades linguísticas de crianças indígenas ou pertencentes a grupos minoritários.",
+        "A criança possui o direito à liberdade de expressão, que inclui o direito de buscar, receber e disseminar informações e ideias de qualquer natureza, sem restrições, verbalmente ou por qualquer outro meio de sua escolha.",
+        "Os Estados-partes em conflito armado não podem recrutar pessoas com menos de dezesseis anos de idade para servir em suas forças armadas."
+      ], resposta_correta: 2 },
 ];
