@@ -5,7 +5,6 @@ import { TEMAS } from "../data/temas";
 import { buildRodada, sortearTema, shuffle } from "../lib/gameLogic";
 import { registrarRespostaMeta, getCronometroPref, setCronometroPref, getQtdQuestoesPref, setQtdQuestoesPref, getTempoQuestaoPref, setTempoQuestaoPref } from "../services/storage";
 
-
 const POWERUP_MAX = 2;
 
 interface GameState {
@@ -29,7 +28,6 @@ const initialState: GameState = {
   tema: TEMAS[0],
   qtdQuestoes: 5,
   tempoQuestao: 10,
-
   cronometroAtivo: false,
   rodada: [],
   indice: 0,
@@ -47,7 +45,6 @@ interface GameContextValue {
   setTema(t: string): void;
   setQtdQuestoes(v: number): Promise<void>;
   setTempoQuestao(v: number): Promise<void>;
-
   toggleCronometro(): Promise<void>;
   sortearAleatorio(): void;
   iniciarRodada(): void;
@@ -89,7 +86,6 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     getTempoQuestaoPref().then((v) => {
       setState((s) => ({ ...s, tempoQuestao: v }));
     });
-
   }, []);
 
   const setTema = useCallback((t: string) => setState((s) => ({ ...s, tema: t })), []);
@@ -103,7 +99,6 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
     setState((s) => ({ ...s, tempoQuestao: v }));
     await setTempoQuestaoPref(v);
   }, []);
-
 
   const toggleCronometro = useCallback(async () => {
     userToggledCronometroRef.current = true;
@@ -290,7 +285,6 @@ export function GameProvider({ children }: { children: React.ReactNode }) {
   return (
     <GameContext.Provider
       value={{ state, setTema, setQtdQuestoes, setTempoQuestao, toggleCronometro, sortearAleatorio, iniciarRodada, responder, usarPular, usarEliminar, usarBomba, avancar }}
-
     >
       {children}
     </GameContext.Provider>

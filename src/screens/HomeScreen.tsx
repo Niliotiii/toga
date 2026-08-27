@@ -32,7 +32,6 @@ export function HomeScreen({ navigation }: Props) {
     setTema,
     setQtdQuestoes,
     setTempoQuestao,
-
     toggleCronometro,
     sortearAleatorio,
     iniciarRodada,
