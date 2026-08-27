@@ -1801,4 +1801,40 @@ export const QUESTOES_DIREITOS_HUMANOS: Questao[] = [
         "No curso do processo de naturalização, o naturalizando poderá solicitar a tradução ou a adaptação de seu nome à língua portuguesa, o qual integrará cadastro com o nome traduzido ou adaptado associado ao nome anterior; do pedido de naturalização apresentado e processado não caberá recurso em caso de denegação.",
         "Entre os requisitos para obter a naturalização ordinária, o naturalizando deve possuir capacidade civil, segundo a lei brasileira, ter residência em território nacional, pelo prazo mínimo de 4 anos, sendo esse prazo reduzido para, no mínimo, 1 ano caso o naturalizando tenha prestado serviço relevante ao Brasil."
       ], resposta_correta: 4 },
+  { id: "q2202", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Defensoria Pública do Estado do Rio de Janeiro (DPERJ), XXVIII Concurso para Ingresso na Classe Inicial da Carreira (Edital de Abertura) — Prova Objetiva, Tipo 1 (gabarito da prova aplicada em 01/10/2023) — Q69",
+      enunciado: "A Lei Orgânica da Assistência Social (LOAS), Lei nº 8.742/1993, é um marco legislativo fundamental, que estabelece os princípios, diretrizes e normas para a organização, o financiamento e o funcionamento da assistência social no Brasil. Diante da abrangência e complexidade dessa legislação, é correto afirmar que:",
+      alternativas: [
+        "a LOAS estabelece que o desenvolvimento das capacidades cognitivas e motoras de pessoa que recebe o benefício de prestação continuada constitui motivo de sua suspensão ou cessação;",
+        "a organização da assistência social prevista na LOAS tem como base a centralização político-administrativa das competências na União;",
+        "o benefício de prestação continuada pode ser acumulado pelo beneficiário com outro de natureza previdenciária, de acordo com recente alteração legislativa;",
+        "a LOAS busca articular uma rede integrada de serviços, programas e benefícios socioassistenciais;",
+        "a LOAS não faz referência à saúde pública, contemplando somente aspectos da política pública socioassistencial, posto que não seria cabível interferir na organização do SUS."
+      ], resposta_correta: 3 },
+  { id: "q2203", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Defensoria Pública do Estado do Rio de Janeiro (DPERJ), XXVIII Concurso para Ingresso na Classe Inicial da Carreira (Edital de Abertura) — Prova Objetiva, Tipo 1 (gabarito da prova aplicada em 01/10/2023) — Q82",
+      enunciado: "Uma plataforma de rede social suspendeu a conta de um adolescente de 13 anos de idade que postava conteúdo de publicidade paga porque considerou haver violação aos termos do serviço que contêm cláusula de proibição de trabalho infantojuvenil, embora a criação da conta tenha sido autorizada pelos representantes legais. A decisão da rede social é:",
+      alternativas: [
+        "incorreta, porque houve autorização dos representantes legais;",
+        "incorreta, porque não existe proibição para postagens de publicidade no Estatuto da Criança e do Adolescente (Lei nº 8.069/1990);",
+        "correta, desde que os termos do serviço autorizem a criação de perfis para pessoas de 14 anos de idade ou mais;",
+        "correta, porque a situação constitui trabalho infantil, vedado pelo Art. 60 do Estatuto da Criança e do Adolescente (Lei nº 8.069/1990);",
+        "incorreta, porque, além da autorização dos representantes legais, faltou a autorização judicial."
+      ], resposta_correta: 3 },
+  { id: "q2204", tema: "Direitos Humanos", dificuldade: "media", fonte: "FGV — Defensoria Pública do Estado do Rio de Janeiro (DPERJ), XXVIII Concurso para Ingresso na Classe Inicial da Carreira (Edital de Abertura) — Prova Objetiva, Tipo 1 (gabarito da prova aplicada em 01/10/2023) — Q83",
+      enunciado: "Sobre educação infantil, é correto afirmar que:",
+      alternativas: [
+        "o direito à creche prescinde de implementação obrigatória, porque a obrigatoriedade de matrícula na rede de ensino é a partir dos 4 anos de idade;",
+        "o descumprimento da oferta de vaga em creche enseja responsabilização do Secretário de Educação com a multa prevista no Art. 249 do Estatuto da Criança e do Adolescente (Lei nº 8.069/1990);",
+        "é obrigação dos Municípios instituir educação infantil especializada e exclusiva para o ensino de crianças com deficiência;",
+        "a matrícula de crianças em rede de ensino é obrigatória a partir dos 4 anos de idade, mas entre 0 e 3 anos de idade deve existir vaga disponível para matrícula em creche;",
+        "o Plano Nacional de Educação (Lei nº 13.005/2014) estabelece como meta a universalização do atendimento em creche para 60% das crianças até 3 anos de idade."
+      ], resposta_correta: 3 },
+  { id: "q2205", tema: "Direitos Humanos", dificuldade: "dificil", fonte: "FGV — Defensoria Pública do Estado do Rio de Janeiro (DPERJ), XXVIII Concurso para Ingresso na Classe Inicial da Carreira (Edital de Abertura) — Prova Objetiva, Tipo 1 (gabarito da prova aplicada em 01/10/2023) — Q85",
+      enunciado: "Sobre a execução de medidas socioeducativas, é correto afirmar que:",
+      alternativas: [
+        "a execução das medidas socioeducativas é da competência do juízo do local onde foi praticado o ato infracional;",
+        "a regressão para medida socioeducativa mais gravosa prescinde da escuta do adolescente;",
+        "suspensa a execução da medida socioeducativa por motivo de deficiência mental, a suspensão deve ser reavaliada a cada três meses;",
+        "a impugnação ao plano de atendimento individual suspende a execução da medida;",
+        "na unificação de medidas socioeducativas em virtude de nova sentença é possível a aplicação de internação se o ato infracional é posterior a outra medida igual já cumprida."
+      ], resposta_correta: 4 },
 ];
