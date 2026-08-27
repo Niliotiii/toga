@@ -4655,6 +4655,41 @@ inédito p/ DH. Caderno `classe-inicial-...def-rio-tipo-1.pdf` + gab
 DH agora **147/200**. DPE-RJ XXVIII: +2. dpgerj2021 (Defensor 2021,
 gabarito definitivo "banca 1") = pendente de scan futura.
 
+### Leva 106 — DPE-RJ Banca III re-mining (+4)
+
+Re-mining do bloco Banca III (Q61-90) da DPE-RJ XXVIII, antes descartado
+como "fonte corrompida" / "fora da taxonomia de 4 temas". Bloco agora
+acessível (pdftotext -raw por página dá ordem de leitura limpa) e a
+taxonomia tem tema Direitos Humanos. Gabarito definitivo (linha 88):
+`61E 62C 63D 64B 65B 66A 67C 68D 69D 70E 71B 72C 73A 74B 75E 76D 77C
+78* 79C 80E 81C 82D 83D 84C 85E 86E 87E 88C 89E 90B`.
+
+- q2202 = Q69 (LOAS, answer D): rede integrada de serviços/programas/
+  benefícios. Anchor: LOAS art. 1º "conjunto integrado de ações" + art. 6
+  diretrizes (descentralização refuta B; art. 20 §4 não-cumulação
+  refuta C).
+- q2203 = Q82 (ECA art. 60, answer D): adolescente 13 anos em publicidade
+  paga = trabalho infantil, vedado. Anchor: ECA art. 60 VERBATIM "É
+  proibido qualquer trabalho a menores de quatorze anos de idade, salvo
+  na condição de aprendiz".
+- q2204 = Q83 (educação infantil, answer D): matrícula obrigatória dos 4
+  anos; creche 0-3 com vaga disponível. Anchor: CF art. 208 I "educação
+  básica obrigatória e gratuita dos 4 aos 17 anos" + PNE Lei 13.005/2014
+  Meta 1 "no mínimo 50%" (refuta E, que cita 60%).
+- q2205 = Q85 (SINASE execução socioeducativa, answer E): unificação permite
+  internação se ato infracional é POSTERIOR a medida igual já cumprida.
+  Anchor: Lei 12.594/2012 art. 45 §2 VERBATIM (vedação de nova internação
+  só se aplica a atos ANTERIORES à medida concluída).
+
+**Descartes definitivos do bloco:** Q78 anulada (gabarito *); Q74/Q76/Q77/
+Q79 case-specific (ADPF 635, LBI armadilhas, caso Corte IDH); Q80 Ambiental;
+Q84/Q87-Q90 processual/prerrogativas institucionais LC 80; Q61
+Administrativo/Constitucional; Q62/Q63 teóricas. Q66/67 Convenção Racismo
+mantidas descartadas (numeração ambígua + 2 alternativas defensáveis).
+
+DH agora **151/200** (após q2202-q2205). Bloco Banca III da DPE-RJ XXVIII
+ESGOTADO para DH.
+
 ### Leva 104 (continuação) — TJ-PE 2024 garimpo fino (+2)
 
 - q2148 = Q29 (answer B): CDC art. 6º — única alternativa FORA do rol
