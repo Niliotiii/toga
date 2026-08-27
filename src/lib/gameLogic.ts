@@ -1,4 +1,4 @@
-import { Questao, HistoricoEntry } from "../types";
+import { Questao, HistoricoEntry } from '../types';
 
 export function shuffle<T>(arr: T[]): T[] {
   const a = arr.slice();
@@ -13,14 +13,18 @@ export function filterPool(db: Questao[], tema: string): Questao[] {
   return db.filter((q) => q.tema === tema);
 }
 
-export function buildRodada(db: Questao[], tema: string, size: number): Questao[] {
+export function buildRodada(
+  db: Questao[],
+  tema: string,
+  size: number,
+): Questao[] {
   const pool = filterPool(db, tema);
   return shuffle(pool).slice(0, Math.min(size, pool.length));
 }
 
 export function sortearTema(
   db: Questao[],
-  temas: string[]
+  temas: string[],
 ): { tema: string } | null {
   const disponiveis = temas.filter((tema) => filterPool(db, tema).length > 0);
   if (!disponiveis.length) return null;
@@ -28,11 +32,11 @@ export function sortearTema(
 }
 
 const TIERS = [
-  { min: 100, headline: "Impecável.", tag: "perfect" },
-  { min: 80, headline: "Mandou muito bem!", tag: "great" },
-  { min: 60, headline: "Bom trabalho!", tag: "good" },
-  { min: 40, headline: "Quase lá.", tag: "meh" },
-  { min: 0, headline: "Bora tentar de novo?", tag: "low" }
+  { min: 100, headline: 'Impecável.', tag: 'perfect' },
+  { min: 80, headline: 'Mandou muito bem!', tag: 'great' },
+  { min: 60, headline: 'Bom trabalho!', tag: 'good' },
+  { min: 40, headline: 'Quase lá.', tag: 'meh' },
+  { min: 0, headline: 'Vamos tentar de novo?', tag: 'low' },
 ];
 
 export function tierFor(pct: number) {
@@ -49,7 +53,7 @@ export function calcEstrelas(pct: number): 0 | 1 | 2 | 3 {
 export function isNovoRecorde(
   historico: HistoricoEntry[],
   tema: string,
-  pct: number
+  pct: number,
 ): boolean {
   const melhorAnterior = historico
     .filter((r) => r.tema === tema)

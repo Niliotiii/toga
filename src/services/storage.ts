@@ -4,6 +4,8 @@ import { HistoricoEntry, MetaDiaria } from "../types";
 export const HIST_KEY = "@app_direito_historico";
 export const META_KEY = "@app_direito_meta_diaria";
 export const CRONOMETRO_KEY = "@app_direito_cronometro";
+export const TEMPO_QUESTAO_KEY = "@app_direito_tempo_questao";
+export const QTD_QUESTOES_KEY = "@app_direito_qtd_questoes";
 export const INSTALL_PROMPT_DISMISSED_KEY = "@app_direito_install_prompt_dismissed";
 export const META_ALVO = 15;
 
@@ -58,4 +60,22 @@ export async function getInstallPromptDismissed(): Promise<boolean> {
 
 export async function setInstallPromptDismissed(): Promise<void> {
   await AsyncStorage.setItem(INSTALL_PROMPT_DISMISSED_KEY, "1");
+}
+
+export async function getQtdQuestoesPref(): Promise<number> {
+  const raw = await AsyncStorage.getItem(QTD_QUESTOES_KEY);
+  return raw ? parseInt(raw, 10) : 5;
+}
+
+export async function setQtdQuestoesPref(v: number): Promise<void> {
+  await AsyncStorage.setItem(QTD_QUESTOES_KEY, v.toString());
+}
+
+export async function getTempoQuestaoPref(): Promise<number> {
+  const raw = await AsyncStorage.getItem(TEMPO_QUESTAO_KEY);
+  return raw ? parseInt(raw, 10) : 10;
+}
+
+export async function setTempoQuestaoPref(v: number): Promise<void> {
+  await AsyncStorage.setItem(TEMPO_QUESTAO_KEY, v.toString());
 }

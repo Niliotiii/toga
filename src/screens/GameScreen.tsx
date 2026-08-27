@@ -12,7 +12,6 @@ import { ParachuteMascot } from "../components/ParachuteMascot";
 import { colors, spacing, radius, type, motion } from "../theme/tokens";
 import { useReducedMotion } from "../hooks/useReducedMotion";
 
-const TEMPO_QUESTAO = 20;
 const FRASES: Record<string, string[]> = {
   acerto: ["Boa!", "Isso aí!", "Mandou bem!", "Show de bola!"],
   erro: ["Quase!", "Próxima você pega!", "Segue o jogo."],
@@ -42,7 +41,7 @@ export function GameScreen({ navigation }: Props) {
   const [eliminadas, setEliminadas] = useState<number[]>([]);
   const [mascotTipo, setMascotTipo] = useState<MascotTipo>(null);
   const [mascotMsg, setMascotMsg] = useState("");
-  const [tempoRestante, setTempoRestante] = useState(TEMPO_QUESTAO);
+  const [tempoRestante, setTempoRestante] = useState(state.tempoQuestao);
   const [selecionada, setSelecionada] = useState<number | null>(null);
   const [scissorsActive, setScissorsActive] = useState(false);
   const [scissorsFlipped, setScissorsFlipped] = useState(false);
@@ -98,7 +97,7 @@ export function GameScreen({ navigation }: Props) {
     setEliminadas([]);
     setMascotTipo(null);
     setMascotMsg("");
-    setTempoRestante(TEMPO_QUESTAO);
+    setTempoRestante(state.tempoQuestao);
     setSelecionada(null);
     setScissorsActive(false);
     setPularAnimating(false);
@@ -107,7 +106,7 @@ export function GameScreen({ navigation }: Props) {
     paraquedasOpacity.setValue(0);
     pararCronometro();
     if (state.cronometroAtivo && !state.respondida && q) {
-      let ticksRestantes = Math.round(TEMPO_QUESTAO * 10);
+      let ticksRestantes = Math.round(state.tempoQuestao * 10);
       intervalRef.current = setInterval(() => {
         ticksRestantes -= 1;
         setTempoRestante(Math.max(0, ticksRestantes / 10));
@@ -286,7 +285,7 @@ export function GameScreen({ navigation }: Props) {
               style={[
                 styles.timerFill,
                 {
-                  width: `${Math.max(0, Math.min(100, (tempoRestante / TEMPO_QUESTAO) * 100))}%`,
+                  width: `${Math.max(0, Math.min(100, (tempoRestante / state.tempoQuestao) * 100))}%`,
                   backgroundColor: tempoRestante <= 5 ? colors.danger : colors.accent
                 }
               ]}

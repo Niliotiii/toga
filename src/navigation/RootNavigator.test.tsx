@@ -1,16 +1,16 @@
-import React from "react";
-import { render, screen } from "@testing-library/react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { RootNavigator } from "./RootNavigator";
-import { GameProvider } from "../context/GameContext";
+import React from 'react';
+import { render, screen } from '@testing-library/react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { RootNavigator } from './RootNavigator';
+import { GameProvider } from '../context/GameContext';
 
-test("renders the Home screen by default", async () => {
+test('renders the Home screen by default', async () => {
   await render(
     <GameProvider>
       <NavigationContainer>
         <RootNavigator />
       </NavigationContainer>
-    </GameProvider>
+    </GameProvider>,
   );
-  expect(screen.getByText(/Bora revisar direito hoje/i)).toBeTruthy();
+  expect(screen.getByText(/Vamos revisar direito hoje/i)).toBeTruthy();
 });
