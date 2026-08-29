@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     paddingVertical: 0,
     paddingHorizontal: 4,
-    minWidth: 28,
+    width: 28,
     textAlign: "center",
     backgroundColor: colors.bg,
     borderRadius: 4,
