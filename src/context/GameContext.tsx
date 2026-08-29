@@ -11,7 +11,6 @@ interface GameState {
   tema: string;
   qtdQuestoes: number;
   tempoQuestao: number;
-
   cronometroAtivo: boolean;
   rodada: Questao[];
   indice: number;
