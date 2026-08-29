@@ -27,12 +27,7 @@ export function CronometroSwitch({ active, onToggle, tempo, onTempoSubmit }: Pro
     onTempoSubmit(parsed);
   };
   return (
-    <Pressable
-      onPress={onToggle}
-      style={styles.row}
-      accessibilityRole="switch"
-      accessibilityState={{ checked: active }}
-    >
+    <View style={styles.row}>
       <View>
         <Text style={styles.title}>Contrarrelógio</Text>
         <View style={styles.tempoRow}>
@@ -48,10 +43,16 @@ export function CronometroSwitch({ active, onToggle, tempo, onTempoSubmit }: Pro
           <Text style={styles.sub}>s por questão</Text>
         </View>
       </View>
-      <View style={[styles.track, active && styles.trackOn]}>
+      <Pressable
+        onPress={onToggle}
+        hitSlop={8}
+        accessibilityRole="switch"
+        accessibilityState={{ checked: active }}
+        style={[styles.track, active && styles.trackOn]}
+      >
         <View style={[styles.thumb, active && styles.thumbOn]} />
-      </View>
-    </Pressable>
+      </Pressable>
+    </View>
   );
 }
 
