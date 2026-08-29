@@ -31,6 +31,7 @@ export function HomeScreen({ navigation }: Props) {
     state,
     setTema,
     setQtdQuestoes,
+    setTempoQuestao,
     toggleCronometro,
     sortearAleatorio,
     iniciarRodada,
@@ -106,6 +107,8 @@ export function HomeScreen({ navigation }: Props) {
         <CronometroSwitch
           active={state.cronometroAtivo}
           onToggle={toggleCronometro}
+          tempo={state.tempoQuestao}
+          onTempoSubmit={setTempoQuestao}
         />
         <Pressable
           style={styles.sortearButton}

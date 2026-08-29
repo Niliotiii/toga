@@ -156,9 +156,9 @@ test("when cronometro is active, letting the timer run out auto-answers and show
     // sanity check: the round actually started with the timer wired up
     expect(screen.getByTestId("timer-row")).toBeTruthy();
 
-    // advance well past the 20s question timer (100ms ticks internally)
+    // advance well past the 10s question timer (100ms ticks internally)
     await act(async () => {
-      jest.advanceTimersByTime(21000);
+      jest.advanceTimersByTime(11000);
     });
 
     expect(screen.getByText(/Próxima questão|Ver resultado/)).toBeTruthy();
@@ -245,11 +245,11 @@ test("toggling cronometro on and starting a round before the storage write/hydra
     });
     expect(screen.getByTestId("timer-row")).toBeTruthy();
 
-    // Advancing fake timers past the 20s question timer should auto-submit,
+    // Advancing fake timers past the 10s question timer should auto-submit,
     // proving a real interval is running underneath - not just that the
     // timer UI happens to be visible.
     await act(async () => {
-      jest.advanceTimersByTime(21000);
+      jest.advanceTimersByTime(11000);
     });
 
     expect(screen.getByText(/Próxima questão|Ver resultado/)).toBeTruthy();
